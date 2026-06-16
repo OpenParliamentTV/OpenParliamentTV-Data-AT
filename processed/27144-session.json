@@ -1,0 +1,1972 @@
+{
+  "meta": {
+    "schemaVersion": "1.0",
+    "session": "27144",
+    "dateStart": "2022-02-24T18:04:58",
+    "dateEnd": "2022-02-24T18:05:49",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-16T04:25:46",
+    "processing": {
+      "merge": "2026-06-16T04:23:55+00:00",
+      "align": "2026-06-16T04:25:46",
+      "ner": "2026-06-16T06:36:11"
+    }
+  },
+  "data": [
+    {
+      "parliament": "AT",
+      "electoralPeriod": {
+        "number": 27,
+        "label": "XXVII"
+      },
+      "session": {
+        "number": 144,
+        "dateStart": "2022-02-24T18:04:58",
+        "dateEnd": "2022-02-24T18:05:49"
+      },
+      "speechIndex": 1,
+      "agendaItem": {
+        "officialTitle": "Präsidium",
+        "title": "Präsidium"
+      },
+      "media": {
+        "videoFileURI": "https://parlament-live.mdn.ors.at/assets/ead8e6ee-6a69-4290-ac6e-8a2ab0467e1b/hls/index.m3u8?startseconds=9&stopseconds=60",
+        "sourcePage": "https://www.parlament.gv.at/aktuelles/mediathek/XXVII/NRSITZ/144?DEBATTE=300&TS=1645725898&STN=261958",
+        "creator": "Parlamentsdirektion / Parlament Österreich",
+        "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
+        "originMediaID": "261958",
+        "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/4f6ed925-065a-4711-b53d-fea048425b99/4f6ed925-065a-4711-b53d-fea048425b99.mp4",
+        "audioFileURI": "https://parlament-live.mdn.ors.at/assets/4f6ed925-065a-4711-b53d-fea048425b99/4f6ed925-065a-4711-b53d-fea048425b99.mp3",
+        "duration": 51,
+        "aligned": true
+      },
+      "dateStart": "2022-02-24T18:04:58",
+      "dateEnd": "2022-02-24T18:05:49",
+      "people": [
+        {
+          "type": "memberOfParliament",
+          "label": "Wolfgang Sobotka",
+          "firstname": "Wolfgang",
+          "lastname": "Sobotka",
+          "context": "president",
+          "role": "Präsident",
+          "originPersonID": "88386",
+          "wid": "Q2591433",
+          "wtype": "PERSON"
+        }
+      ],
+      "textContents": [
+        {
+          "type": "proceedings",
+          "sourceURI": "https://www.parlament.gv.at/dokument/XXVII/NRSITZ/144/A_-_18_04_50_00261958.html",
+          "creator": "Parlamentsdirektion / Parlament Österreich",
+          "license": "CC-BY-4.0",
+          "language": "de",
+          "originTextID": "261958",
+          "textBody": [
+            {
+              "type": "speech",
+              "speaker": null,
+              "speakerstatus": null,
+              "sentences": [
+                {
+                  "text": "18.04.50*****",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.840",
+                  "entities": []
+                }
+              ],
+              "text": "18.04.50*****"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ich eröffne die 144. Sitzung des Nationalrates.",
+                  "timeStart": "1.840",
+                  "timeEnd": "2.040",
+                  "entities": []
+                }
+              ],
+              "text": "Ich eröffne die 144. Sitzung des Nationalrates."
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Eva-Maria Himmelbauer, BSc , Joachim Schnabel , Mag.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Joachim Schnabel",
+                      "wid": "Q72079690",
+                      "wtype": "PER",
+                      "score": 0.9776
+                    }
+                  ]
+                },
+                {
+                  "text": "Ruth Becher , Elisabeth Feichtinger, BEd BEd , Mag.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.9781
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    }
+                  ]
+                },
+                {
+                  "text": "Karin Greiner , Andreas Kollross , Mario Lindner , Josef Muchitsch , Michael Seemayer , Nurten Yılmaz , MMag.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.9877
+                    },
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    },
+                    {
+                      "label": "Michael Seemayer",
+                      "wid": "Q72078612",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Nurten Yılmaz",
+                      "wid": "Q1679312",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
+                },
+                {
+                  "text": "DDr.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": []
+                },
+                {
+                  "text": "Hubert Fuchs , Mag.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
+                },
+                {
+                  "text": "Gerald Hauser , Ing. Norbert Hofer , Alois Kainz , Mag.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    }
+                  ]
+                },
+                {
+                  "text": "Gerhard Kaniak , Mag.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    }
+                  ]
+                },
+                {
+                  "text": "Philipp Schrangl , Bedrana Ribo, MA , David Stögmüller und Fiona Fiedler, BEd .",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    }
+                  ]
+                }
+              ],
+              "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Eva-Maria Himmelbauer, BSc , Joachim Schnabel , Mag. Ruth Becher , Elisabeth Feichtinger, BEd BEd , Mag. Karin Greiner , Andreas Kollross , Mario Lindner , Josef Muchitsch , Michael Seemayer , Nurten Yılmaz , MMag. DDr. Hubert Fuchs , Mag. Gerald Hauser , Ing. Norbert Hofer , Alois Kainz , Mag. Gerhard Kaniak , Mag. Philipp Schrangl , Bedrana Ribo, MA , David Stögmüller und Fiona Fiedler, BEd ."
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": []
+                }
+              ],
+              "text": "Einlauf und Zuweisungen"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": []
+                }
+              ],
+              "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": []
+                }
+              ],
+              "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": []
+                }
+              ],
+              "text": "A. Eingelangte Verhandlungsgegenstände:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Schriftliche Anfragen:",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.040",
+                  "entities": []
+                }
+              ],
+              "text": "Schriftliche Anfragen:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Zurückziehungen: 9833/J , 9776/J bis 9789/J",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.120",
+                  "entities": []
+                }
+              ],
+              "text": "Zurückziehungen: 9833/J , 9776/J bis 9789/J"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "2.120",
+                  "timeEnd": "2.200",
+                  "entities": []
+                }
+              ],
+              "text": "B. Zuweisungen in dieser Sitzung:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "2.200",
+                  "timeEnd": "2.680",
+                  "entities": []
+                }
+              ],
+              "text": "a) zur Vorberatung:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "2.680",
+                  "timeEnd": "2.840",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Arbeit und Soziales:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2334/A der Abgeordneten August Wöginger , Mag.",
+                  "timeStart": "2.840",
+                  "timeEnd": "3.680",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
+                },
+                {
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitsmarktservicegesetz geändert wird",
+                  "timeStart": "3.680",
+                  "timeEnd": "5.840",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2334/A der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitsmarktservicegesetz geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2339/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege",
+                  "timeStart": "5.840",
+                  "timeEnd": "6.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2339/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2340/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Änderung des Tabakmonopolgesetz 1996 und des Bundesvergabegesetz Konzessionen 2018 – BvergGkonz 2018",
+                  "timeStart": "6.680",
+                  "timeEnd": "9.120",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2340/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Änderung des Tabakmonopolgesetz 1996 und des Bundesvergabegesetz Konzessionen 2018 – BvergGkonz 2018"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2344/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.120",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2344/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.120",
+                  "entities": []
+                }
+              ],
+              "text": "Außenpolitischer Ausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2336/A(E) der Abgeordneten MMMag.",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.120",
+                  "entities": []
+                },
+                {
+                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend 200-jähriges Jubiläum der Unabhängigkeit Brasiliens",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.120",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Brasiliens",
+                      "wid": "Q83459",
+                      "wtype": "LOC",
+                      "score": 0.0886
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2336/A(E) der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend 200-jähriges Jubiläum der Unabhängigkeit Brasiliens"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.120",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Familie und Jugend:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2311/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Neue 15a-Vereinbarung zur Elementarpädagogik",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.120",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2311/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Neue 15a-Vereinbarung zur Elementarpädagogik"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2322/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2322/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2343/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Long-Covid bei Frauen, Kindern und Jugendlichen ernstnehmen!",
+                  "timeStart": "9.920",
+                  "timeEnd": "11.800",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9857
+                    },
+                    {
+                      "label": "Long-Covid",
+                      "wid": "Q100732653",
+                      "wtype": "PER",
+                      "score": 0.9413
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2343/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Long-Covid bei Frauen, Kindern und Jugendlichen ernstnehmen!"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Finanzausschuss:",
+                  "timeStart": "11.800",
+                  "timeEnd": "11.840",
+                  "entities": []
+                }
+              ],
+              "text": "Finanzausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2313/A der Abgeordneten Karlheinz Kopf , Mag.",
+                  "timeStart": "11.840",
+                  "timeEnd": "11.840",
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9867
+                    }
+                  ]
+                },
+                {
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Energieabgabenvergütungsgesetz geändert wird",
+                  "timeStart": "11.840",
+                  "timeEnd": "11.840",
+                  "entities": []
+                }
+              ],
+              "text": "Antrag 2313/A der Abgeordneten Karlheinz Kopf , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Energieabgabenvergütungsgesetz geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2314/A der Abgeordneten Karlheinz Kopf , Mag.",
+                  "timeStart": "11.840",
+                  "timeEnd": "12.120",
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9867
+                    }
+                  ]
+                },
+                {
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz zum Ausgleich der Energiekosten 2022 erlassen wird (Energiekostenausgleichsgesetz 2022)",
+                  "timeStart": "12.120",
+                  "timeEnd": "13.520",
+                  "entities": []
+                }
+              ],
+              "text": "Antrag 2314/A der Abgeordneten Karlheinz Kopf , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz zum Ausgleich der Energiekosten 2022 erlassen wird (Energiekostenausgleichsgesetz 2022)"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2315/A der Abgeordneten Karlheinz Kopf , Mag.",
+                  "timeStart": "13.520",
+                  "timeEnd": "13.920",
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9867
+                    }
+                  ]
+                },
+                {
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus (Klimabonusgesetz – KliBG) geändert wird",
+                  "timeStart": "13.920",
+                  "timeEnd": "14.480",
+                  "entities": []
+                }
+              ],
+              "text": "Antrag 2315/A der Abgeordneten Karlheinz Kopf , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus (Klimabonusgesetz – KliBG) geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2333/A der Abgeordneten August Wöginger , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz über eine kommunale Impfprämie",
+                  "timeStart": "14.480",
+                  "timeEnd": "16.520",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2333/A der Abgeordneten August Wöginger , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz über eine kommunale Impfprämie"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "16.520",
+                  "timeEnd": "17.040",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2319/A(E) der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend Österreichische Wasserstoffstrategie",
+                  "timeStart": "17.040",
+                  "timeEnd": "19.560",
+                  "entities": []
+                }
+              ],
+              "text": "Antrag 2319/A(E) der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend Österreichische Wasserstoffstrategie"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "19.560",
+                  "timeEnd": "19.760",
+                  "entities": []
+                }
+              ],
+              "text": "Gesundheitsausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2318/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege",
+                  "timeStart": "19.760",
+                  "timeEnd": "21.360",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2318/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2320/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Entschädigungszahlung an Personen, die durch gesetzeswidrige Veordnungen und verfassungswidrige Gesetze psychisch, physisch sowie auch finanziell Schaden genommen",
+                  "timeStart": "21.360",
+                  "timeEnd": "24.680",
+                  "entities": []
+                }
+              ],
+              "text": "Antrag 2320/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Entschädigungszahlung an Personen, die durch gesetzeswidrige Veordnungen und verfassungswidrige Gesetze psychisch, physisch sowie auch finanziell Schaden genommen"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2331/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
+                  "timeStart": "24.680",
+                  "timeEnd": "25.800",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2331/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2332/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Impfpflichtgesetz geändert wird",
+                  "timeStart": "25.800",
+                  "timeEnd": "26.440",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2332/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Impfpflichtgesetz geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2342/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Long-Covid bei Frauen, Kindern und Jugendlichen ernstnehmen!",
+                  "timeStart": "26.440",
+                  "timeEnd": "27.280",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9857
+                    },
+                    {
+                      "label": "Long-Covid",
+                      "wid": "Q100732653",
+                      "wtype": "PER",
+                      "score": 0.9413
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2342/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Long-Covid bei Frauen, Kindern und Jugendlichen ernstnehmen!"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "27.280",
+                  "timeEnd": "27.440",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für innere Angelegenheiten:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2326/A(E) der Abgeordneten Mag.",
+                  "timeStart": "27.440",
+                  "timeEnd": "27.960",
+                  "entities": []
+                },
+                {
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Asylstopp – Jetzt!",
+                  "timeStart": "27.960",
+                  "timeEnd": "29.440",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2326/A(E) der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Asylstopp – Jetzt!"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2341/A der Abgeordneten Dr. Christian Stocker , Mag.",
+                  "timeStart": "29.440",
+                  "timeEnd": "30.480",
+                  "entities": []
+                },
+                {
+                  "text": "Georg Bürstmayr , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Fremdenpolizeigesetz 2005 geändert wird",
+                  "timeStart": "30.480",
+                  "timeEnd": "30.640",
+                  "entities": [
+                    {
+                      "label": "Georg Bürstmayr",
+                      "wid": "Q38057788",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Fremdenpolizeigesetz 2005",
+                      "wid": "Q21051498",
+                      "wtype": "MISC",
+                      "score": 0.9908
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2341/A der Abgeordneten Dr. Christian Stocker , Mag. Georg Bürstmayr , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Fremdenpolizeigesetz 2005 geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Justizausschuss:",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": []
+                }
+              ],
+              "text": "Justizausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2321/A(E) der Abgeordneten Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": []
+                },
+                {
+                  "text": "Harald Stefan , Kolleginnen und Kollegen betreffend Entschädigungszahlung an Personen, die durch gesetzeswidrige Veordnungen und verfassungswidrige Gesetze psychisch, physisch sowie auch finanziell Schaden genommen",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2321/A(E) der Abgeordneten Mag. Harald Stefan , Kolleginnen und Kollegen betreffend Entschädigungszahlung an Personen, die durch gesetzeswidrige Veordnungen und verfassungswidrige Gesetze psychisch, physisch sowie auch finanziell Schaden genommen"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2329/A der Abgeordneten Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": []
+                },
+                {
+                  "text": "Harald Stefan , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB), BGBl.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    },
+                    {
+                      "label": "StGB",
+                      "wid": "Q876563",
+                      "wtype": "MISC",
+                      "score": 0.3281
+                    }
+                  ]
+                },
+                {
+                  "text": "Nr. 60/1974 geändert wird",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": []
+                }
+              ],
+              "text": "Antrag 2329/A der Abgeordneten Mag. Harald Stefan , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB), BGBl. Nr. 60/1974 geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Konsumentenschutz:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2316/A(E) der Abgeordneten Peter Weidinger , Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Weidinger",
+                      "wid": "Q42941654",
+                      "wtype": "PER",
+                      "score": 0.9811
+                    }
+                  ]
+                },
+                {
+                  "text": "Ulrike Fischer , Kolleginnen und Kollegen betreffend \"Maßnahmen zur Förderung der Gesundheit von Kindern und Jugendlichen\"",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": [
+                    {
+                      "label": "Ulrike Fischer",
+                      "wid": "Q72072449",
+                      "wtype": "PER",
+                      "score": 0.8725
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2316/A(E) der Abgeordneten Peter Weidinger , Mag. Ulrike Fischer , Kolleginnen und Kollegen betreffend \"Maßnahmen zur Förderung der Gesundheit von Kindern und Jugendlichen\""
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2317/A(E) der Abgeordneten Peter Weidinger , Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Weidinger",
+                      "wid": "Q42941654",
+                      "wtype": "PER",
+                      "score": 0.9811
+                    }
+                  ]
+                },
+                {
+                  "text": "Ulrike Fischer , Kolleginnen und Kollegen betreffend \"Ausbau der Energieberatung und zusätzliche Maßnahmen gegen Energiearmut\"",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.920",
+                  "entities": [
+                    {
+                      "label": "Ulrike Fischer",
+                      "wid": "Q72072449",
+                      "wtype": "PER",
+                      "score": 0.8725
+                    },
+                    {
+                      "label": "Energiearmut",
+                      "wid": "Q1341244",
+                      "wtype": "ORG",
+                      "score": 0.2451
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2317/A(E) der Abgeordneten Peter Weidinger , Mag. Ulrike Fischer , Kolleginnen und Kollegen betreffend \"Ausbau der Energieberatung und zusätzliche Maßnahmen gegen Energiearmut\""
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2325/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Aussagekräftige Statistik durch die FMA zum Basiskonto\"",
+                  "timeStart": "30.920",
+                  "timeEnd": "33.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "FMA",
+                      "wid": "Q1238858",
+                      "wtype": "MISC",
+                      "score": 0.4226
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2325/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Aussagekräftige Statistik durch die FMA zum Basiskonto\""
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "33.920",
+                  "timeEnd": "34.360",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Menschenrechte:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2307/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend konsequentes Eintreten für Menschenrechte im Europarat",
+                  "timeStart": "34.360",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Europarat",
+                      "wid": "Q8908",
+                      "wtype": "ORG",
+                      "score": 0.8805
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2307/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend konsequentes Eintreten für Menschenrechte im Europarat"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2327/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eine wertorientierte und interessengeleitete Außenpolitik",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2327/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eine wertorientierte und interessengeleitete Außenpolitik"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
+                }
+              ],
+              "text": "Tourismusausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2323/A(E) der Abgeordneten Mag.",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": []
+                },
+                {
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Benachteiligung bei Covid-Hilfen durch diskriminierende Berechnungsmethoden beenden",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2323/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Benachteiligung bei Covid-Hilfen durch diskriminierende Berechnungsmethoden beenden"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": []
+                }
+              ],
+              "text": "Unterrichtsausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2308/A(E) der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend Lehrabschlussprüfungsoffensive für alle Lehrlinge in Pandemiezeiten",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Pandemiezeiten",
+                      "wid": "Q83889294",
+                      "wtype": "LOC",
+                      "score": 0.4442
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2308/A(E) der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend Lehrabschlussprüfungsoffensive für alle Lehrlinge in Pandemiezeiten"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2309/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Corona-Bonus für Mitarbeiter*innen in Kinderbildungseinrichtungen",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2309/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Corona-Bonus für Mitarbeiter*innen in Kinderbildungseinrichtungen"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2310/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Neue 15a-Vereinbarung zur Elementarpädagogik",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2310/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Neue 15a-Vereinbarung zur Elementarpädagogik"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2312/A(E) der Abgeordneten Mag.",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": []
+                },
+                {
+                  "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend Erneutes Aussetzen der mündlichen Matura",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2312/A(E) der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend Erneutes Aussetzen der mündlichen Matura"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2330/A der Abgeordneten Mag.",
+                  "timeStart": "37.720",
+                  "timeEnd": "37.720",
+                  "entities": []
+                },
+                {
+                  "text": "Dr. Maria Theresia Niss, MBA , Mag.",
+                  "timeStart": "37.720",
+                  "timeEnd": "38.040",
+                  "entities": []
+                },
+                {
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Innovationsstiftung-Bildung-Gesetz geändert wird",
+                  "timeStart": "38.040",
+                  "timeEnd": "38.080",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2330/A der Abgeordneten Mag. Dr. Maria Theresia Niss, MBA , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Innovationsstiftung-Bildung-Gesetz geändert wird"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2337/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Streichung sämtlicher Verordnungsermächtigungen bezüglich Maßnahmen zur Bekämpfung von COVID-19",
+                  "timeStart": "38.080",
+                  "timeEnd": "38.080",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2337/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Streichung sämtlicher Verordnungsermächtigungen bezüglich Maßnahmen zur Bekämpfung von COVID-19"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2338/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Demokratiebildung in der Lehrerausbildung",
+                  "timeStart": "38.080",
+                  "timeEnd": "38.520",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2338/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Demokratiebildung in der Lehrerausbildung"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "38.520",
+                  "timeEnd": "38.960",
+                  "entities": []
+                }
+              ],
+              "text": "Verfassungsausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2335/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Kennzeichnungspflicht für Lobbyismus im ORF",
+                  "timeStart": "38.960",
+                  "timeEnd": "39.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "ORF",
+                      "wid": "Q262386",
+                      "wtype": "ORG",
+                      "score": 0.8136
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2335/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Kennzeichnungspflicht für Lobbyismus im ORF"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "39.920",
+                  "timeEnd": "40.640",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2324/A(E) der Abgeordneten MMMag.",
+                  "timeStart": "40.640",
+                  "timeEnd": "41.560",
+                  "entities": []
+                },
+                {
+                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Schaffung strategischer Erdgasreserven in Österreich",
+                  "timeStart": "41.560",
+                  "timeEnd": "43.160",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2324/A(E) der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Schaffung strategischer Erdgasreserven in Österreich"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "43.160",
+                  "timeEnd": "43.280",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
+                }
+              ],
+              "text": "Wissenschaftsausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag 2328/A der Abgeordneten Mag.",
+                  "timeStart": "43.280",
+                  "timeEnd": "44.680",
+                  "entities": []
+                },
+                {
+                  "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG)",
+                  "timeStart": "44.680",
+                  "timeEnd": "45.240",
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag 2328/A der Abgeordneten Mag. Dr. Martin Graf , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG)"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "45.240",
+                  "timeEnd": "45.240",
+                  "entities": []
+                }
+              ],
+              "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "45.240",
+                  "timeEnd": "45.240",
+                  "entities": []
+                }
+              ],
+              "text": "Verfassungsausschuss:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Jänner 2022, vorgelegt vom Bundeskanzler ( III-583 d.B. )",
+                  "timeStart": "45.240",
+                  "timeEnd": "45.240",
+                  "entities": []
+                }
+              ],
+              "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Jänner 2022, vorgelegt vom Bundeskanzler ( III-583 d.B. )"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "45.240",
+                  "timeEnd": "45.240",
+                  "entities": []
+                }
+              ],
+              "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Erster Tätigkeitsbericht der Investitionskontrolle für den Zeitraum 25.07.2020 bis 24.07.2021, vorgelegt von der Bundesministerin für Digitalisierung und Wirtschaftsstandort ( III-584 d.B. )",
+                  "timeStart": "45.240",
+                  "timeEnd": "45.240",
+                  "entities": [
+                    {
+                      "label": "Bundesministerin für Digitalisierung und Wirtschaftsstandort",
+                      "wid": "Q1006406",
+                      "wtype": "ORG",
+                      "score": 0.9204
+                    }
+                  ]
+                }
+              ],
+              "text": "Erster Tätigkeitsbericht der Investitionskontrolle für den Zeitraum 25.07.2020 bis 24.07.2021, vorgelegt von der Bundesministerin für Digitalisierung und Wirtschaftsstandort ( III-584 d.B. )"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Präsident Mag.",
+                  "timeStart": "45.240",
+                  "timeEnd": "45.240",
+                  "entities": []
+                },
+                {
+                  "text": "Wolfgang Sobotka |: Weiters weise ich die Anträge 2345/A(E) , 2346/A(E) und 2348/A(E) dem Außenpolitischen Ausschuss sowie den Antrag 2347/A(E) dem Unterrichtsausschuss zu.",
+                  "timeStart": "45.240",
+                  "timeEnd": "46.920",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Sobotka",
+                      "wid": "Q2591433",
+                      "wtype": "PER",
+                      "score": 0.9948
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
+                }
+              ],
+              "text": "Präsident Mag. Wolfgang Sobotka |: Weiters weise ich die Anträge 2345/A(E) , 2346/A(E) und 2348/A(E) dem Außenpolitischen Ausschuss sowie den Antrag 2347/A(E) dem Unterrichtsausschuss zu."
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 23. März 2022, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "46.920",
+                  "timeEnd": "49.360",
+                  "entities": []
+                }
+              ],
+              "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 23. März 2022, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ich danke insbesondere unserer Parlamentsdirektion für die hervorragende Abwicklung auch der komplexen Abstimmungsvorgänge. –",
+                  "timeStart": "49.360",
+                  "timeEnd": "51.080",
+                  "entities": [
+                    {
+                      "label": "Parlamentsdirektion",
+                      "wid": "Q4817650",
+                      "wtype": "MISC",
+                      "score": 0.7934
+                    }
+                  ]
+                },
+                {
+                  "text": "Danke schön. (",
+                  "timeStart": "51.080",
+                  "timeEnd": "51.200",
+                  "entities": []
+                },
+                {
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "51.200",
+                  "timeEnd": "51.280",
+                  "entities": []
+                }
+              ],
+              "text": "Ich danke insbesondere unserer Parlamentsdirektion für die hervorragende Abwicklung auch der komplexen Abstimmungsvorgänge. – Danke schön. (Allgemeiner Beifall.)"
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Ich wünsche ein gutes Nachhausekommen.",
+                  "timeStart": "51.280",
+                  "timeEnd": "51.800",
+                  "entities": []
+                }
+              ],
+              "text": "Ich wünsche ein gutes Nachhausekommen."
+            },
+            {
+              "type": "speech",
+              "speaker": "Wolfgang Sobotka",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "51.800",
+                  "timeEnd": "51.960",
+                  "entities": []
+                }
+              ],
+              "text": "Die Sitzung ist geschlossen."
+            }
+          ]
+        }
+      ],
+      "debug": {
+        "mediaIndex": 1,
+        "stdId": 261958,
+        "debatteId": 300,
+        "proceedingIndex": 261958,
+        "alignDuration": 1.1079161167144775,
+        "nerDuration": 1.5146191120147705
+      },
+      "originalLanguage": "de"
+    }
+  ]
+}
