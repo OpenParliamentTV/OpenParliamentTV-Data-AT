@@ -4,11 +4,11 @@
     "session": "27044",
     "dateStart": "2020-07-07T19:51:17",
     "dateEnd": "2020-07-07T19:51:46",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:39+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-16T18:40:45",
     "processing": {
       "merge": "2026-06-16T04:23:39+00:00",
-      "nel": "2026-06-16T06:24:18"
+      "align": "2026-06-16T18:40:45"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "221928",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6a9ea161-db23-42ee-940e-becd04700b69/6a9ea161-db23-42ee-940e-becd04700b69.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6a9ea161-db23-42ee-940e-becd04700b69/6a9ea161-db23-42ee-940e-becd04700b69.mp3",
-        "duration": 29
+        "duration": 29,
+        "aligned": true
       },
       "dateStart": "2020-07-07T19:51:17",
       "dateEnd": "2020-07-07T19:51:46",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.280"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "1.280",
+                  "timeEnd": "1.720"
                 },
                 {
-                  "text": "Elisabeth Scheucher-Pichler , Dietmar Keck , Mag."
+                  "text": "Elisabeth Scheucher-Pichler , Dietmar Keck , Mag.",
+                  "timeStart": "1.720",
+                  "timeEnd": "2.360"
                 },
                 {
-                  "text": "Dr. Petra Oberrauner , Mag."
+                  "text": "Dr. Petra Oberrauner , Mag.",
+                  "timeStart": "2.360",
+                  "timeEnd": "2.720"
                 },
                 {
-                  "text": "Philipp Schrangl und Josef Schellhorn ."
+                  "text": "Philipp Schrangl und Josef Schellhorn .",
+                  "timeStart": "2.720",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Elisabeth Scheucher-Pichler , Dietmar Keck , Mag. Dr. Petra Oberrauner , Mag. Philipp Schrangl und Josef Schellhorn ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.520"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "3.520",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "4.600",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "4.600",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 1906/AB bis 1927/AB"
+                  "text": "Anfragebeantwortungen: 1906/AB bis 1927/AB",
+                  "timeStart": "4.600",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "Anfragebeantwortungen: 1906/AB bis 1927/AB"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "4.600",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "4.600",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "4.600",
+                  "timeEnd": "4.680"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -187,7 +214,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 750/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Faire und angemessene Bezahlung von Zivildienern"
+                  "text": "Antrag 750/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Faire und angemessene Bezahlung von Zivildienern",
+                  "timeStart": "4.680",
+                  "timeEnd": "4.840"
                 }
               ],
               "text": "Antrag 750/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Faire und angemessene Bezahlung von Zivildienern"
@@ -198,7 +227,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 751/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst für Alle – Mehr als nur ein Wehrersatzdienst"
+                  "text": "Antrag 751/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst für Alle – Mehr als nur ein Wehrersatzdienst",
+                  "timeStart": "4.840",
+                  "timeEnd": "5.480"
                 }
               ],
               "text": "Antrag 751/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst für Alle – Mehr als nur ein Wehrersatzdienst"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 752/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gerechte Krankenstandsregelung und Urlaubsanspruch im Zivildienst"
+                  "text": "Antrag 752/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gerechte Krankenstandsregelung und Urlaubsanspruch im Zivildienst",
+                  "timeStart": "5.480",
+                  "timeEnd": "6.080"
                 }
               ],
               "text": "Antrag 752/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gerechte Krankenstandsregelung und Urlaubsanspruch im Zivildienst"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 753/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst – Kompensation von Überstunden durch Urlaubstage"
+                  "text": "Antrag 753/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst – Kompensation von Überstunden durch Urlaubstage",
+                  "timeStart": "6.080",
+                  "timeEnd": "6.080"
                 }
               ],
               "text": "Antrag 753/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst – Kompensation von Überstunden durch Urlaubstage"
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 754/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gleiche Zulagen bei gleicher Leistung für Zivildiener"
+                  "text": "Antrag 754/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gleiche Zulagen bei gleicher Leistung für Zivildiener",
+                  "timeStart": "6.080",
+                  "timeEnd": "6.080"
                 }
               ],
               "text": "Antrag 754/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gleiche Zulagen bei gleicher Leistung für Zivildiener"
@@ -242,10 +279,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 761/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 761/A(E) der Abgeordneten Mag.",
+                  "timeStart": "6.080",
+                  "timeEnd": "6.160"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Fachkräftestipendium für Elementarpädagogik-Kolleg"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Fachkräftestipendium für Elementarpädagogik-Kolleg",
+                  "timeStart": "6.160",
+                  "timeEnd": "6.480"
                 }
               ],
               "text": "Antrag 761/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Fachkräftestipendium für Elementarpädagogik-Kolleg"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Bauten und Wohnen:"
+                  "text": "Ausschuss für Bauten und Wohnen:",
+                  "timeStart": "6.480",
+                  "timeEnd": "6.480"
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -267,10 +310,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 755/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 755/A(E) der Abgeordneten Mag.",
+                  "timeStart": "6.480",
+                  "timeEnd": "6.920"
                 },
                 {
-                  "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend Verbesserung von steuerlichen Anreizen um die Sanierungsrate zu erhöhen und Klimaziele zu erreichen"
+                  "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend Verbesserung von steuerlichen Anreizen um die Sanierungsrate zu erhöhen und Klimaziele zu erreichen",
+                  "timeStart": "6.920",
+                  "timeEnd": "7.360"
                 }
               ],
               "text": "Antrag 755/A(E) der Abgeordneten Mag. Felix Eypeltauer , Kolleginnen und Kollegen betreffend Verbesserung von steuerlichen Anreizen um die Sanierungsrate zu erhöhen und Klimaziele zu erreichen"
@@ -281,10 +328,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 756/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 756/A(E) der Abgeordneten Mag.",
+                  "timeStart": "7.360",
+                  "timeEnd": "8.120"
                 },
                 {
-                  "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend Implementierung einer einheitlichen Definition der Sanierungsrate"
+                  "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend Implementierung einer einheitlichen Definition der Sanierungsrate",
+                  "timeStart": "8.120",
+                  "timeEnd": "8.520"
                 }
               ],
               "text": "Antrag 756/A(E) der Abgeordneten Mag. Felix Eypeltauer , Kolleginnen und Kollegen betreffend Implementierung einer einheitlichen Definition der Sanierungsrate"
@@ -295,7 +346,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "8.520",
+                  "timeEnd": "8.920"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -306,7 +359,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 746/A der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird"
+                  "text": "Antrag 746/A der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird",
+                  "timeStart": "8.920",
+                  "timeEnd": "10.360"
                 }
               ],
               "text": "Antrag 746/A der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird"
@@ -317,7 +372,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "10.360",
+                  "timeEnd": "10.560"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -328,10 +385,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 749/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 749/A(E) der Abgeordneten Mag.",
+                  "timeStart": "10.560",
+                  "timeEnd": "11.560"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Neuaufstellung der PRIKRAF-Fondskommission"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Neuaufstellung der PRIKRAF-Fondskommission",
+                  "timeStart": "11.560",
+                  "timeEnd": "11.880"
                 }
               ],
               "text": "Antrag 749/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Neuaufstellung der PRIKRAF-Fondskommission"
@@ -342,7 +403,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 764/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung des Tiertransportgesetz"
+                  "text": "Antrag 764/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung des Tiertransportgesetz",
+                  "timeStart": "11.880",
+                  "timeEnd": "11.880"
                 }
               ],
               "text": "Antrag 764/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung des Tiertransportgesetz"
@@ -353,7 +416,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 765/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung der Strafen im Tiertransportgesetz"
+                  "text": "Antrag 765/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung der Strafen im Tiertransportgesetz",
+                  "timeStart": "11.880",
+                  "timeEnd": "12.000"
                 }
               ],
               "text": "Antrag 765/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung der Strafen im Tiertransportgesetz"
@@ -364,7 +429,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "12.000",
+                  "timeEnd": "12.360"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -375,7 +442,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 768/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Angleichung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Geflüchtete"
+                  "text": "Antrag 768/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Angleichung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Geflüchtete",
+                  "timeStart": "12.360",
+                  "timeEnd": "13.240"
                 }
               ],
               "text": "Antrag 768/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Angleichung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Geflüchtete"
@@ -386,7 +455,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "13.240",
+                  "timeEnd": "13.440"
                 }
               ],
               "text": "Justizausschuss:"
@@ -397,7 +468,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 767/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend \"Right to Plug\""
+                  "text": "Antrag 767/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend \"Right to Plug\"",
+                  "timeStart": "13.440",
+                  "timeEnd": "14.680"
                 }
               ],
               "text": "Antrag 767/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend \"Right to Plug\""
@@ -408,7 +481,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "14.680",
+                  "timeEnd": "14.880"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -419,7 +494,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 766/A(E) der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Österreichs Luftraumüberwachung, drohende Lärm- und Gesundheitsbelastung der Murtaler Bevölkerung\""
+                  "text": "Antrag 766/A(E) der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Österreichs Luftraumüberwachung, drohende Lärm- und Gesundheitsbelastung der Murtaler Bevölkerung\"",
+                  "timeStart": "14.880",
+                  "timeEnd": "17.400"
                 }
               ],
               "text": "Antrag 766/A(E) der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Österreichs Luftraumüberwachung, drohende Lärm- und Gesundheitsbelastung der Murtaler Bevölkerung\""
@@ -430,7 +507,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "17.400",
+                  "timeEnd": "17.920"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -441,10 +520,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 744/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 744/A(E) der Abgeordneten Mag.",
+                  "timeStart": "17.920",
+                  "timeEnd": "18.400"
                 },
                 {
-                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Importstopp für Flüssig- und Trockenei aus Drittstaaten"
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Importstopp für Flüssig- und Trockenei aus Drittstaaten",
+                  "timeStart": "18.400",
+                  "timeEnd": "19.720"
                 }
               ],
               "text": "Antrag 744/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Importstopp für Flüssig- und Trockenei aus Drittstaaten"
@@ -455,7 +538,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "19.720",
+                  "timeEnd": "19.920"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -466,7 +551,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 747/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Sanktionsmechanismus gegen Menschenrechtsverletzer"
+                  "text": "Antrag 747/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Sanktionsmechanismus gegen Menschenrechtsverletzer",
+                  "timeStart": "19.920",
+                  "timeEnd": "21.560"
                 }
               ],
               "text": "Antrag 747/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Sanktionsmechanismus gegen Menschenrechtsverletzer"
@@ -477,7 +564,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Tourismusausschuss:"
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "21.560",
+                  "timeEnd": "21.560"
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -488,10 +577,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 745/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 745/A(E) der Abgeordneten Mag.",
+                  "timeStart": "21.560",
+                  "timeEnd": "22.240"
                 },
                 {
-                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend voller Entschädigungsanspruch nach dem Epidemiegesetz für alle Gastronomie- und Beherbergungsbetriebe bis zum Zeitpunkt der Aufhebung des Betretungsverbotes"
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend voller Entschädigungsanspruch nach dem Epidemiegesetz für alle Gastronomie- und Beherbergungsbetriebe bis zum Zeitpunkt der Aufhebung des Betretungsverbotes",
+                  "timeStart": "22.240",
+                  "timeEnd": "22.880"
                 }
               ],
               "text": "Antrag 745/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend voller Entschädigungsanspruch nach dem Epidemiegesetz für alle Gastronomie- und Beherbergungsbetriebe bis zum Zeitpunkt der Aufhebung des Betretungsverbotes"
@@ -502,7 +595,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "22.880",
+                  "timeEnd": "22.960"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -513,10 +608,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 763/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 763/A(E) der Abgeordneten Mag.",
+                  "timeStart": "22.960",
+                  "timeEnd": "23.240"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Financial Life Skills"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Financial Life Skills",
+                  "timeStart": "23.240",
+                  "timeEnd": "23.440"
                 }
               ],
               "text": "Antrag 763/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Financial Life Skills"
@@ -527,7 +626,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "23.440",
+                  "timeEnd": "23.440"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -538,10 +639,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 742/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 742/A(E) der Abgeordneten Mag.",
+                  "timeStart": "23.440",
+                  "timeEnd": "23.760"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Datenschutzbericht – Personalmangel in der Datenschutzbehörde – immer mehr gesetzliche Aufgaben"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Datenschutzbericht – Personalmangel in der Datenschutzbehörde – immer mehr gesetzliche Aufgaben",
+                  "timeStart": "23.760",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Antrag 742/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Datenschutzbericht – Personalmangel in der Datenschutzbehörde – immer mehr gesetzliche Aufgaben"
@@ -552,10 +657,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 743/A der Abgeordneten Mag."
+                  "text": "Antrag 743/A der Abgeordneten Mag.",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.160"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sicherung, Aufbewahrung und Nutzung von Archivgut des Bundes (Bundesarchivgesetz) geändert wird"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sicherung, Aufbewahrung und Nutzung von Archivgut des Bundes (Bundesarchivgesetz) geändert wird",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Antrag 743/A der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sicherung, Aufbewahrung und Nutzung von Archivgut des Bundes (Bundesarchivgesetz) geändert wird"
@@ -566,7 +675,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -577,7 +688,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 757/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Vehicle-to-Grid als Lösung für nachhaltige E-Mobilität und Netzstabilität"
+                  "text": "Antrag 757/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Vehicle-to-Grid als Lösung für nachhaltige E-Mobilität und Netzstabilität",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Antrag 757/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Vehicle-to-Grid als Lösung für nachhaltige E-Mobilität und Netzstabilität"
@@ -588,7 +701,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 758/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ausbau der Fahrradinfrastruktur als Konjunkturmotor"
+                  "text": "Antrag 758/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ausbau der Fahrradinfrastruktur als Konjunkturmotor",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Antrag 758/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ausbau der Fahrradinfrastruktur als Konjunkturmotor"
@@ -599,7 +714,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 759/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ortskerne als Begegnungszonen"
+                  "text": "Antrag 759/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ortskerne als Begegnungszonen",
+                  "timeStart": "25.160",
+                  "timeEnd": "26.000"
                 }
               ],
               "text": "Antrag 759/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ortskerne als Begegnungszonen"
@@ -610,7 +727,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 760/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Entlastung für Carsharing Unternehmen"
+                  "text": "Antrag 760/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Entlastung für Carsharing Unternehmen",
+                  "timeStart": "26.000",
+                  "timeEnd": "26.640"
                 }
               ],
               "text": "Antrag 760/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Entlastung für Carsharing Unternehmen"
@@ -621,7 +740,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "26.640",
+                  "timeEnd": "27.000"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -632,10 +753,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 748/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 748/A(E) der Abgeordneten Mag.",
+                  "timeStart": "27.000",
+                  "timeEnd": "27.360"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Auflösung der WK-Rücklagen gemäß den Vorschlägen der \"Grünen Wirtschaft\""
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Auflösung der WK-Rücklagen gemäß den Vorschlägen der \"Grünen Wirtschaft\"",
+                  "timeStart": "27.360",
+                  "timeEnd": "27.760"
                 }
               ],
               "text": "Antrag 748/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Auflösung der WK-Rücklagen gemäß den Vorschlägen der \"Grünen Wirtschaft\""
@@ -646,7 +771,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "27.760",
+                  "timeEnd": "27.880"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -657,10 +784,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 762/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 762/A(E) der Abgeordneten Mag.",
+                  "timeStart": "27.880",
+                  "timeEnd": "29.040"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Transparenzregeln für Nebenbeschäftigungen von Universitätsprofessor_innen"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Transparenzregeln für Nebenbeschäftigungen von Universitätsprofessor_innen",
+                  "timeStart": "29.040",
+                  "timeEnd": "29.280"
                 }
               ],
               "text": "Antrag 762/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Transparenzregeln für Nebenbeschäftigungen von Universitätsprofessor_innen"
@@ -671,7 +802,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Mittwoch, den 8. Juli 2020, 9 Uhr, ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Mittwoch, den 8. Juli 2020, 9 Uhr, ein.",
+                  "timeStart": "29.280",
+                  "timeEnd": "29.280"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für Mittwoch, den 8. Juli 2020, 9 Uhr, ein."
@@ -682,7 +815,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "29.280",
+                  "timeEnd": "29.320"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -693,7 +828,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der Geschäftsordnungsausschuss hier im Plenarsaal zusammentritt."
+                  "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der Geschäftsordnungsausschuss hier im Plenarsaal zusammentritt.",
+                  "timeStart": "29.320",
+                  "timeEnd": "29.640"
                 }
               ],
               "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der Geschäftsordnungsausschuss hier im Plenarsaal zusammentritt."
@@ -704,7 +841,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "29.640",
+                  "timeEnd": "30.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -716,7 +855,8 @@
         "mediaIndex": 1,
         "stdId": 221928,
         "debatteId": 300,
-        "proceedingIndex": 221928
+        "proceedingIndex": 221928,
+        "alignDuration": 0.6755447387695312
       },
       "originalLanguage": "de"
     }

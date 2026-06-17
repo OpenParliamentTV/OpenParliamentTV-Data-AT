@@ -4,11 +4,11 @@
     "session": "27042",
     "dateStart": "2020-06-30T12:51:13",
     "dateEnd": "2020-06-30T12:52:29",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:38+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-16T16:43:08",
     "processing": {
       "merge": "2026-06-16T04:23:38+00:00",
-      "nel": "2026-06-16T06:24:18"
+      "align": "2026-06-16T16:43:08"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "220860",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/33874bb1-e60c-4945-82a9-f735f86c4a39/33874bb1-e60c-4945-82a9-f735f86c4a39.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/33874bb1-e60c-4945-82a9-f735f86c4a39/33874bb1-e60c-4945-82a9-f735f86c4a39.mp3",
-        "duration": 76
+        "duration": 76,
+        "aligned": true
       },
       "dateStart": "2020-06-30T12:51:13",
       "dateEnd": "2020-06-30T12:52:29",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 42. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 42. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.640"
                 }
               ],
               "text": "Ich eröffne die 42. Sitzung des Nationalrates."
@@ -79,22 +82,34 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet für die heutige Sitzung sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet für die heutige Sitzung sind die Abgeordneten Mag.",
+                  "timeStart": "2.640",
+                  "timeEnd": "4.640"
                 },
                 {
-                  "text": "Elisabeth Scheucher-Pichler , Mag."
+                  "text": "Elisabeth Scheucher-Pichler , Mag.",
+                  "timeStart": "4.640",
+                  "timeEnd": "5.160"
                 },
                 {
-                  "text": "Thomas Drozda , MMag."
+                  "text": "Thomas Drozda , MMag.",
+                  "timeStart": "5.160",
+                  "timeEnd": "6.360"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "6.360",
+                  "timeEnd": "7.020"
                 },
                 {
-                  "text": "Hubert Fuchs , Ing. Mag."
+                  "text": "Hubert Fuchs , Ing. Mag.",
+                  "timeStart": "7.020",
+                  "timeEnd": "8.440"
                 },
                 {
-                  "text": "Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty ."
+                  "text": "Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty .",
+                  "timeStart": "8.440",
+                  "timeEnd": "10.640"
                 }
               ],
               "text": "Als verhindert gemeldet für die heutige Sitzung sind die Abgeordneten Mag. Elisabeth Scheucher-Pichler , Mag. Thomas Drozda , MMag. DDr. Hubert Fuchs , Ing. Mag. Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty ."
@@ -105,7 +120,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "10.640",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -116,7 +133,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "11.520",
+                  "timeEnd": "15.480"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -127,7 +146,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "15.480",
+                  "timeEnd": "16.560"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -138,7 +159,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "16.560",
+                  "timeEnd": "16.880"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -149,7 +172,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "16.880",
+                  "timeEnd": "17.080"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -160,7 +185,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "17.080",
+                  "timeEnd": "18.680"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -171,7 +198,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )",
+                  "timeStart": "18.680",
+                  "timeEnd": "24.040"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )"
@@ -182,7 +211,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977, das Arbeitsmarktservicegesetz, das Familienlastenausgleichsgesetz 1967 und das Arbeitsmarktförderungsgesetz geändert werden ( 285 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977, das Arbeitsmarktservicegesetz, das Familienlastenausgleichsgesetz 1967 und das Arbeitsmarktförderungsgesetz geändert werden ( 285 d.B. )",
+                  "timeStart": "24.040",
+                  "timeEnd": "31.600"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977, das Arbeitsmarktservicegesetz, das Familienlastenausgleichsgesetz 1967 und das Arbeitsmarktförderungsgesetz geändert werden ( 285 d.B. )"
@@ -193,7 +224,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "31.600",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -204,7 +237,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )",
+                  "timeStart": "32.720",
+                  "timeEnd": "35.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )"
@@ -215,7 +250,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Tierversuchsgesetz 2012 geändert wird ( 289 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Tierversuchsgesetz 2012 geändert wird ( 289 d.B. )",
+                  "timeStart": "35.800",
+                  "timeEnd": "37.600"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Tierversuchsgesetz 2012 geändert wird ( 289 d.B. )"
@@ -226,7 +263,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "37.600",
+                  "timeEnd": "38.120"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -237,7 +276,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )",
+                  "timeStart": "38.120",
+                  "timeEnd": "39.080"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )"
@@ -248,7 +289,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "39.080",
+                  "timeEnd": "39.320"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -259,7 +302,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz betreffend die Errichtung eines Fonds zur Abgeltung von Borkenkäferschäden, zur Förderung klimafitter, artenreicher Wälder und zur Stärkung der Verwendung des Rohstoffes Holz (Waldfondsgesetz) ( 282 d.B. )"
+                  "text": "Bundesgesetz betreffend die Errichtung eines Fonds zur Abgeltung von Borkenkäferschäden, zur Förderung klimafitter, artenreicher Wälder und zur Stärkung der Verwendung des Rohstoffes Holz (Waldfondsgesetz) ( 282 d.B. )",
+                  "timeStart": "39.320",
+                  "timeEnd": "44.680"
                 }
               ],
               "text": "Bundesgesetz betreffend die Errichtung eines Fonds zur Abgeltung von Borkenkäferschäden, zur Förderung klimafitter, artenreicher Wälder und zur Stärkung der Verwendung des Rohstoffes Holz (Waldfondsgesetz) ( 282 d.B. )"
@@ -270,7 +315,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Konjunkturstärkungsgesetz 2020 – KonStG 2020 ( 287 d.B. )"
+                  "text": "Konjunkturstärkungsgesetz 2020 – KonStG 2020 ( 287 d.B. )",
+                  "timeStart": "44.680",
+                  "timeEnd": "48.960"
                 }
               ],
               "text": "Konjunkturstärkungsgesetz 2020 – KonStG 2020 ( 287 d.B. )"
@@ -281,7 +328,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )"
+                  "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )",
+                  "timeStart": "48.960",
+                  "timeEnd": "55.440"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )"
@@ -292,7 +341,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz mit dem das Presseförderungsgesetz 2004 geändert wird ( 290 d.B. )"
+                  "text": "Bundesgesetz mit dem das Presseförderungsgesetz 2004 geändert wird ( 290 d.B. )",
+                  "timeStart": "55.440",
+                  "timeEnd": "58.320"
                 }
               ],
               "text": "Bundesgesetz mit dem das Presseförderungsgesetz 2004 geändert wird ( 290 d.B. )"
@@ -303,7 +354,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "58.320",
+                  "timeEnd": "59.080"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -314,7 +367,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich teile mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über die Regierungsvorlagen 282 der Beilagen , 287 der Beilagen , 288 der Beilagen sowie 290 der Beilagen jeweils eine Frist bis zum 6. Juli 2020 zu setzen."
+                  "text": "Ich teile mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über die Regierungsvorlagen 282 der Beilagen , 287 der Beilagen , 288 der Beilagen sowie 290 der Beilagen jeweils eine Frist bis zum 6. Juli 2020 zu setzen.",
+                  "timeStart": "59.080",
+                  "timeEnd": "67.480"
                 }
               ],
               "text": "Ich teile mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über die Regierungsvorlagen 282 der Beilagen , 287 der Beilagen , 288 der Beilagen sowie 290 der Beilagen jeweils eine Frist bis zum 6. Juli 2020 zu setzen."
@@ -325,7 +380,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Forschung, Innovation und Digitalisierung zur Berichterstattung über die Regierungsvorlagen 286 der Beilagen und 289 der Beilagen eine Frist bis zum 6. Juli 2020 zu setzen."
+                  "text": "Weiters teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Forschung, Innovation und Digitalisierung zur Berichterstattung über die Regierungsvorlagen 286 der Beilagen und 289 der Beilagen eine Frist bis zum 6. Juli 2020 zu setzen.",
+                  "timeStart": "67.480",
+                  "timeEnd": "70.800"
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Forschung, Innovation und Digitalisierung zur Berichterstattung über die Regierungsvorlagen 286 der Beilagen und 289 der Beilagen eine Frist bis zum 6. Juli 2020 zu setzen."
@@ -336,7 +393,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ferner teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über die Regierungsvorlagen 284 der Beilagen und 285 der Beilagen jeweils eine Frist bis zum 7. Juli 2020 zu setzen."
+                  "text": "Ferner teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über die Regierungsvorlagen 284 der Beilagen und 285 der Beilagen jeweils eine Frist bis zum 7. Juli 2020 zu setzen.",
+                  "timeStart": "70.800",
+                  "timeEnd": "75.720"
                 }
               ],
               "text": "Ferner teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über die Regierungsvorlagen 284 der Beilagen und 285 der Beilagen jeweils eine Frist bis zum 7. Juli 2020 zu setzen."
@@ -347,7 +406,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung – und somit sogleich – zur Abstimmung gebracht werden."
+                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung – und somit sogleich – zur Abstimmung gebracht werden.",
+                  "timeStart": "75.720",
+                  "timeEnd": "77.960"
                 }
               ],
               "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung – und somit sogleich – zur Abstimmung gebracht werden."
@@ -359,7 +420,8 @@
         "mediaIndex": 1,
         "stdId": 220860,
         "debatteId": 300,
-        "proceedingIndex": 220860
+        "proceedingIndex": 220860,
+        "alignDuration": 0.7373759746551514
       },
       "originalLanguage": "de"
     }
