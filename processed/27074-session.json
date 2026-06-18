@@ -4,11 +4,11 @@
     "session": "27074",
     "dateStart": "2020-12-21T10:17:37",
     "dateEnd": "2020-12-21T10:18:24",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:43+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-18T09:22:17",
     "processing": {
       "merge": "2026-06-16T04:23:43+00:00",
-      "nel": "2026-06-16T06:24:19"
+      "align": "2026-06-18T09:22:17"
     }
   },
   "data": [
@@ -34,7 +34,8 @@
         "creator": "Parlamentsdirektion / Parlament Österreich",
         "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
         "originMediaID": "233524",
-        "duration": 47
+        "duration": 47,
+        "aligned": true
       },
       "dateStart": "2020-12-21T10:17:37",
       "dateEnd": "2020-12-21T10:18:24",
@@ -66,7 +67,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 74. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 74. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.000"
                 }
               ],
               "text": "Ich eröffne die 74. Sitzung des Nationalrates."
@@ -77,10 +80,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gemäß der Vereinbarung im Präsidialrundlauf nimmt nur eine reduzierte Anzahl an Abgeordneten an dieser Sitzung teil."
+                  "text": "Gemäß der Vereinbarung im Präsidialrundlauf nimmt nur eine reduzierte Anzahl an Abgeordneten an dieser Sitzung teil.",
+                  "timeStart": "2.000",
+                  "timeEnd": "4.000"
                 },
                 {
-                  "text": "Folgende Abgeordnete von ÖVP, FPÖ, Grünen und NEOS sind entsprechend den Meldungen an die Parlamentsdirektion anwesend:"
+                  "text": "Folgende Abgeordnete von ÖVP, FPÖ, Grünen und NEOS sind entsprechend den Meldungen an die Parlamentsdirektion anwesend:",
+                  "timeStart": "4.000",
+                  "timeEnd": "6.760"
                 }
               ],
               "text": "Gemäß der Vereinbarung im Präsidialrundlauf nimmt nur eine reduzierte Anzahl an Abgeordneten an dieser Sitzung teil. Folgende Abgeordnete von ÖVP, FPÖ, Grünen und NEOS sind entsprechend den Meldungen an die Parlamentsdirektion anwesend:"
@@ -91,25 +98,39 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Mag."
+                  "text": "Mag.",
+                  "timeStart": "6.760",
+                  "timeEnd": "6.760"
                 },
                 {
-                  "text": "Klaus Fürlinger , Mag."
+                  "text": "Klaus Fürlinger , Mag.",
+                  "timeStart": "6.760",
+                  "timeEnd": "7.280"
                 },
                 {
-                  "text": "Wolfgang Gerstl , Mag."
+                  "text": "Wolfgang Gerstl , Mag.",
+                  "timeStart": "7.280",
+                  "timeEnd": "7.880"
                 },
                 {
-                  "text": "Ernst Gödl , Kira Grünberg , Mag."
+                  "text": "Ernst Gödl , Kira Grünberg , Mag.",
+                  "timeStart": "7.880",
+                  "timeEnd": "8.480"
                 },
                 {
-                  "text": "Michael Hammer , Peter Haubner , Rebecca Kirchbaumer , August Wöginger , Bettina Zopf von der ÖVP, Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , Dr. Susanne Fürst , Peter Schmiedlechner , Peter Wurm von der FPÖ, Mag."
+                  "text": "Michael Hammer , Peter Haubner , Rebecca Kirchbaumer , August Wöginger , Bettina Zopf von der ÖVP, Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , Dr. Susanne Fürst , Peter Schmiedlechner , Peter Wurm von der FPÖ, Mag.",
+                  "timeStart": "8.480",
+                  "timeEnd": "15.280"
                 },
                 {
-                  "text": "Georg Bürstmayr , Mag."
+                  "text": "Georg Bürstmayr , Mag.",
+                  "timeStart": "15.280",
+                  "timeEnd": "15.680"
                 },
                 {
-                  "text": "Markus Koza , Sigrid Maurer, BA , Ralph Schallmeiner von den Grünen, Douglas Hoyos-Trauttmansdorff und Dr. Nikolaus Scherak, MA von den NEOS."
+                  "text": "Markus Koza , Sigrid Maurer, BA , Ralph Schallmeiner von den Grünen, Douglas Hoyos-Trauttmansdorff und Dr. Nikolaus Scherak, MA von den NEOS.",
+                  "timeStart": "15.680",
+                  "timeEnd": "19.520"
                 }
               ],
               "text": "Mag. Klaus Fürlinger , Mag. Wolfgang Gerstl , Mag. Ernst Gödl , Kira Grünberg , Mag. Michael Hammer , Peter Haubner , Rebecca Kirchbaumer , August Wöginger , Bettina Zopf von der ÖVP, Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , Dr. Susanne Fürst , Peter Schmiedlechner , Peter Wurm von der FPÖ, Mag. Georg Bürstmayr , Mag. Markus Koza , Sigrid Maurer, BA , Ralph Schallmeiner von den Grünen, Douglas Hoyos-Trauttmansdorff und Dr. Nikolaus Scherak, MA von den NEOS."
@@ -120,7 +141,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die übrigen Abgeordneten dieser Klubs gelten als entschuldigt."
+                  "text": "Die übrigen Abgeordneten dieser Klubs gelten als entschuldigt.",
+                  "timeStart": "19.520",
+                  "timeEnd": "20.340"
                 }
               ],
               "text": "Die übrigen Abgeordneten dieser Klubs gelten als entschuldigt."
@@ -131,7 +154,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Seitens der SPÖ wurden folgende Abgeordnete als verhindert gemeldet – und zwar für diese Sitzung –: Cornelia Ecker und Ing. Reinhold Einwallner ."
+                  "text": "Seitens der SPÖ wurden folgende Abgeordnete als verhindert gemeldet – und zwar für diese Sitzung –: Cornelia Ecker und Ing. Reinhold Einwallner .",
+                  "timeStart": "20.340",
+                  "timeEnd": "25.720"
                 }
               ],
               "text": "Seitens der SPÖ wurden folgende Abgeordnete als verhindert gemeldet – und zwar für diese Sitzung –: Cornelia Ecker und Ing. Reinhold Einwallner ."
@@ -142,7 +167,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "25.720",
+                  "timeEnd": "26.320"
                 }
               ],
               "text": "Zuweisungen"
@@ -153,7 +180,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich weise die Regierungsvorlage 608 der Beilagen dem Gesundheitsausschuss sowie die Regierungsvorlage 609 der Beilagen dem Außenpolitischen Ausschuss zu."
+                  "text": "Ich weise die Regierungsvorlage 608 der Beilagen dem Gesundheitsausschuss sowie die Regierungsvorlage 609 der Beilagen dem Außenpolitischen Ausschuss zu.",
+                  "timeStart": "26.320",
+                  "timeEnd": "30.080"
                 }
               ],
               "text": "Ich weise die Regierungsvorlage 608 der Beilagen dem Gesundheitsausschuss sowie die Regierungsvorlage 609 der Beilagen dem Außenpolitischen Ausschuss zu."
@@ -164,7 +193,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich weise die Anträge 1192/A bis 1195/A dem Ausschuss für Arbeit und Soziales zu."
+                  "text": "Ich weise die Anträge 1192/A bis 1195/A dem Ausschuss für Arbeit und Soziales zu.",
+                  "timeStart": "30.080",
+                  "timeEnd": "34.480"
                 }
               ],
               "text": "Ich weise die Anträge 1192/A bis 1195/A dem Ausschuss für Arbeit und Soziales zu."
@@ -175,7 +206,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich die Anträge 1196/A bis 1198/A dem Gesundheitsausschuss zu."
+                  "text": "Weiters weise ich die Anträge 1196/A bis 1198/A dem Gesundheitsausschuss zu.",
+                  "timeStart": "34.480",
+                  "timeEnd": "35.940"
                 }
               ],
               "text": "Weiters weise ich die Anträge 1196/A bis 1198/A dem Gesundheitsausschuss zu."
@@ -186,10 +219,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Montag, den 21. Dezember 2020, um 12.30 Uhr, ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Montag, den 21. Dezember 2020, um 12.30 Uhr, ein.",
+                  "timeStart": "35.940",
+                  "timeEnd": "43.800"
                 },
                 {
-                  "text": "Die Tagesordnung ergeht auf schriftlichem Wege."
+                  "text": "Die Tagesordnung ergeht auf schriftlichem Wege.",
+                  "timeStart": "43.800",
+                  "timeEnd": "45.520"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Montag, den 21. Dezember 2020, um 12.30 Uhr, ein. Die Tagesordnung ergeht auf schriftlichem Wege."
@@ -200,7 +237,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "45.520",
+                  "timeEnd": "48.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -212,7 +251,8 @@
         "mediaIndex": 1,
         "stdId": 233524,
         "debatteId": 300,
-        "proceedingIndex": 233524
+        "proceedingIndex": 233524,
+        "alignDuration": 0.5453331470489502
       },
       "originalLanguage": "de"
     }
