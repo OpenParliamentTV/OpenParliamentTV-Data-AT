@@ -4,11 +4,11 @@
     "session": "27084",
     "dateStart": "2021-02-16T16:52:47",
     "dateEnd": "2021-02-16T16:54:33",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:45+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-18T18:21:14",
     "processing": {
       "merge": "2026-06-16T04:23:45+00:00",
-      "nel": "2026-06-16T06:24:20"
+      "align": "2026-06-18T18:21:14"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "236994",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/f0221c7b-57b8-4fda-8265-c391dc136f9e/f0221c7b-57b8-4fda-8265-c391dc136f9e.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/f0221c7b-57b8-4fda-8265-c391dc136f9e/f0221c7b-57b8-4fda-8265-c391dc136f9e.mp3",
-        "duration": 69
+        "duration": 69,
+        "aligned": true
       },
       "dateStart": "2021-02-16T16:52:47",
       "dateEnd": "2021-02-16T16:53:56",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 84. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 84. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.560"
                 }
               ],
               "text": "Ich eröffne die 84. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Peter Haubner , Dietmar Keck , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Peter Haubner , Dietmar Keck , Mag.",
+                  "timeStart": "3.560",
+                  "timeEnd": "5.040"
                 },
                 {
-                  "text": "Gerhard Kaniak , Mag."
+                  "text": "Gerhard Kaniak , Mag.",
+                  "timeStart": "5.040",
+                  "timeEnd": "5.320"
                 },
                 {
-                  "text": "Philipp Schrangl , Peter Wurm , Clemens Stammler und Mag."
+                  "text": "Philipp Schrangl , Peter Wurm , Clemens Stammler und Mag.",
+                  "timeStart": "5.320",
+                  "timeEnd": "6.280"
                 },
                 {
-                  "text": "Felix Eypeltauer ."
+                  "text": "Felix Eypeltauer .",
+                  "timeStart": "6.280",
+                  "timeEnd": "6.640"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Peter Haubner , Dietmar Keck , Mag. Gerhard Kaniak , Mag. Philipp Schrangl , Peter Wurm , Clemens Stammler und Mag. Felix Eypeltauer ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "6.640",
+                  "timeEnd": "7.480"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "7.480",
+                  "timeEnd": "8.680"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "11.040",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "11.520",
+                  "timeEnd": "12.600"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortungen: 4652/AB bis 4657/AB"
+                  "text": "1. Anfragebeantwortungen: 4652/AB bis 4657/AB",
+                  "timeStart": "12.600",
+                  "timeEnd": "14.120"
                 }
               ],
               "text": "1. Anfragebeantwortungen: 4652/AB bis 4657/AB"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "2. Weitere Vorlage:"
+                  "text": "2. Weitere Vorlage:",
+                  "timeStart": "14.120",
+                  "timeEnd": "14.600"
                 }
               ],
               "text": "2. Weitere Vorlage:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zurückziehung:"
+                  "text": "Zurückziehung:",
+                  "timeStart": "14.600",
+                  "timeEnd": "14.920"
                 }
               ],
               "text": "Zurückziehung:"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport (Vorlage Zu 56 BA)"
+                  "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport (Vorlage Zu 56 BA)",
+                  "timeStart": "14.920",
+                  "timeEnd": "21.640"
                 }
               ],
               "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport (Vorlage Zu 56 BA)"
@@ -187,7 +214,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "21.640",
+                  "timeEnd": "22.160"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -198,7 +227,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "22.160",
+                  "timeEnd": "22.320"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "22.320",
+                  "timeEnd": "23.040"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Patentanwaltsgesetz geändert wird ( 643 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Patentanwaltsgesetz geändert wird ( 643 d.B. )",
+                  "timeStart": "23.040",
+                  "timeEnd": "26.400"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Patentanwaltsgesetz geändert wird ( 643 d.B. )"
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "26.400",
+                  "timeEnd": "26.680"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -242,7 +279,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Berufsanerkennungsgesetz Gesundheit 2020 ( 644 d.B. )"
+                  "text": "Berufsanerkennungsgesetz Gesundheit 2020 ( 644 d.B. )",
+                  "timeStart": "26.680",
+                  "timeEnd": "29.280"
                 }
               ],
               "text": "Berufsanerkennungsgesetz Gesundheit 2020 ( 644 d.B. )"
@@ -253,7 +292,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "29.280",
+                  "timeEnd": "29.480"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -264,10 +305,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1274/A(E) der Abgeordneten Ing. Mag."
+                  "text": "Antrag 1274/A(E) der Abgeordneten Ing. Mag.",
+                  "timeStart": "29.480",
+                  "timeEnd": "32.080"
                 },
                 {
-                  "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend Verhinderung der Bestandsgefährdung von Bundesmuseen und Bundestheatern"
+                  "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend Verhinderung der Bestandsgefährdung von Bundesmuseen und Bundestheatern",
+                  "timeStart": "32.080",
+                  "timeEnd": "34.120"
                 }
               ],
               "text": "Antrag 1274/A(E) der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend Verhinderung der Bestandsgefährdung von Bundesmuseen und Bundestheatern"
@@ -278,7 +323,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "34.120",
+                  "timeEnd": "34.480"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -289,7 +336,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verhältnismäßigkeitsprüfungs-Gesetz – VPG ( 645 d.B. )"
+                  "text": "Verhältnismäßigkeitsprüfungs-Gesetz – VPG ( 645 d.B. )",
+                  "timeStart": "34.480",
+                  "timeEnd": "34.640"
                 }
               ],
               "text": "Verhältnismäßigkeitsprüfungs-Gesetz – VPG ( 645 d.B. )"
@@ -300,7 +349,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "34.640",
+                  "timeEnd": "37.000"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -311,7 +362,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "37.000",
+                  "timeEnd": "37.720"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-248 d.B. )"
+                  "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-248 d.B. )",
+                  "timeStart": "37.720",
+                  "timeEnd": "45.800"
                 }
               ],
               "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-248 d.B. )"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "45.800",
+                  "timeEnd": "46.560"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bericht nach § 1 Abs. 5 des Bundesgesetzes über die Errichtung eines Härtefallfonds in der Land- und Forstwirtschaft inkl. Privatzimmervermietung für das Jahr 2020 und Jänner 2021, vorgelegt von der Bundesministerin für Landwirtschaft, Regionen und Tourismus ( III-249 d.B. )"
+                  "text": "Bericht nach § 1 Abs. 5 des Bundesgesetzes über die Errichtung eines Härtefallfonds in der Land- und Forstwirtschaft inkl. Privatzimmervermietung für das Jahr 2020 und Jänner 2021, vorgelegt von der Bundesministerin für Landwirtschaft, Regionen und Tourismus ( III-249 d.B. )",
+                  "timeStart": "46.560",
+                  "timeEnd": "51.560"
                 }
               ],
               "text": "Bericht nach § 1 Abs. 5 des Bundesgesetzes über die Errichtung eines Härtefallfonds in der Land- und Forstwirtschaft inkl. Privatzimmervermietung für das Jahr 2020 und Jänner 2021, vorgelegt von der Bundesministerin für Landwirtschaft, Regionen und Tourismus ( III-249 d.B. )"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "51.560",
+                  "timeEnd": "52.000"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -366,7 +427,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Universitätsbericht 2020 des Bundesministers für Bildung, Wissenschaft und Forschung ( III-247 d.B. )"
+                  "text": "Universitätsbericht 2020 des Bundesministers für Bildung, Wissenschaft und Forschung ( III-247 d.B. )",
+                  "timeStart": "52.000",
+                  "timeEnd": "54.320"
                 }
               ],
               "text": "Universitätsbericht 2020 des Bundesministers für Bildung, Wissenschaft und Forschung ( III-247 d.B. )"
@@ -377,7 +440,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters weise ich"
+                  "text": "Weiters weise ich",
+                  "timeStart": "54.320",
+                  "timeEnd": "54.760"
                 }
               ],
               "text": "Weiters weise ich"
@@ -388,7 +453,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1275/A dem Verkehrsausschuss und"
+                  "text": "den Antrag 1275/A dem Verkehrsausschuss und",
+                  "timeStart": "54.760",
+                  "timeEnd": "56.520"
                 }
               ],
               "text": "den Antrag 1275/A dem Verkehrsausschuss und"
@@ -399,7 +466,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1276/A(E) dem Ausschuss für Forschung, Innovation und Digitalisierung zu."
+                  "text": "den Antrag 1276/A(E) dem Ausschuss für Forschung, Innovation und Digitalisierung zu.",
+                  "timeStart": "56.520",
+                  "timeEnd": "58.280"
                 }
               ],
               "text": "den Antrag 1276/A(E) dem Ausschuss für Forschung, Innovation und Digitalisierung zu."
@@ -410,7 +479,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Fristsetzungsantrag"
+                  "text": "Fristsetzungsantrag",
+                  "timeStart": "58.280",
+                  "timeEnd": "59.000"
                 }
               ],
               "text": "Fristsetzungsantrag"
@@ -421,7 +492,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Leichtfried, Fuchs und Doppelbauer beantragt haben, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen."
+                  "text": "Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Leichtfried, Fuchs und Doppelbauer beantragt haben, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen.",
+                  "timeStart": "59.000",
+                  "timeEnd": "66.680"
                 }
               ],
               "text": "Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Leichtfried, Fuchs und Doppelbauer beantragt haben, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen."
@@ -432,7 +505,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen – somit jetzt gleich – zur Abstimmung gebracht werden."
+                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen – somit jetzt gleich – zur Abstimmung gebracht werden.",
+                  "timeStart": "66.680",
+                  "timeEnd": "69.960"
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen – somit jetzt gleich – zur Abstimmung gebracht werden."
@@ -444,7 +519,8 @@
         "mediaIndex": 1,
         "stdId": 236994,
         "debatteId": 300,
-        "proceedingIndex": 236994
+        "proceedingIndex": 236994,
+        "alignDuration": 0.532707929611206
       },
       "originalLanguage": "de"
     },
@@ -472,7 +548,8 @@
         "originMediaID": "237018",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/fce13675-9624-4740-8efd-30a0a8a71c69/fce13675-9624-4740-8efd-30a0a8a71c69.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/fce13675-9624-4740-8efd-30a0a8a71c69/fce13675-9624-4740-8efd-30a0a8a71c69.mp3",
-        "duration": 26
+        "duration": 26,
+        "aligned": true
       },
       "dateStart": "2021-02-16T16:53:56",
       "dateEnd": "2021-02-16T16:54:22",
@@ -504,7 +581,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsantrag"
+                  "text": "Abstimmung über Fristsetzungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.440"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsantrag"
@@ -515,7 +594,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Leichtfried, Fuchs und Doppelbauer, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen."
+                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Leichtfried, Fuchs und Doppelbauer, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen.",
+                  "timeStart": "3.440",
+                  "timeEnd": "16.080"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Leichtfried, Fuchs und Doppelbauer, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen."
@@ -526,10 +607,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die dieser Fristsetzung zustimmen, um ein entsprechendes Zeichen. –"
+                  "text": "Ich bitte jene Damen und Herren, die dieser Fristsetzung zustimmen, um ein entsprechendes Zeichen. –",
+                  "timeStart": "16.080",
+                  "timeEnd": "23.880"
                 },
                 {
-                  "text": "Das ist die Minderheit, die Fristsetzung ist abgelehnt."
+                  "text": "Das ist die Minderheit, die Fristsetzung ist abgelehnt.",
+                  "timeStart": "23.880",
+                  "timeEnd": "28.000"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die dieser Fristsetzung zustimmen, um ein entsprechendes Zeichen. – Das ist die Minderheit, die Fristsetzung ist abgelehnt."
@@ -541,7 +626,8 @@
         "mediaIndex": 2,
         "stdId": 237018,
         "debatteId": 310,
-        "proceedingIndex": 237018
+        "proceedingIndex": 237018,
+        "alignDuration": 0.31002116203308105
       },
       "originalLanguage": "de"
     },
@@ -569,7 +655,8 @@
         "originMediaID": "237019",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/36252fc0-5af3-4fc7-be40-bffc01c7ce30/36252fc0-5af3-4fc7-be40-bffc01c7ce30.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/36252fc0-5af3-4fc7-be40-bffc01c7ce30/36252fc0-5af3-4fc7-be40-bffc01c7ce30.mp3",
-        "duration": 11
+        "duration": 11,
+        "aligned": true
       },
       "dateStart": "2021-02-16T16:54:22",
       "dateEnd": "2021-02-16T16:54:33",
@@ -601,7 +688,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Februar, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Februar, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "1.000",
+                  "timeEnd": "8.040"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Februar, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -612,7 +701,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "8.040",
+                  "timeEnd": "9.440"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -624,7 +715,8 @@
         "mediaIndex": 3,
         "stdId": 237019,
         "debatteId": 320,
-        "proceedingIndex": 237019
+        "proceedingIndex": 237019,
+        "alignDuration": 0.28881216049194336
       },
       "originalLanguage": "de"
     }
