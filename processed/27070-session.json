@@ -4,11 +4,11 @@
     "session": "27070",
     "dateStart": "2020-12-11T01:01:53",
     "dateEnd": "2020-12-11T01:02:30",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:42+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-18T05:27:05",
     "processing": {
       "merge": "2026-06-16T04:23:42+00:00",
-      "nel": "2026-06-16T06:24:19"
+      "align": "2026-06-18T05:27:05"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "236285",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/499cfc21-2485-4ae7-8242-f19c1d56fe9e/499cfc21-2485-4ae7-8242-f19c1d56fe9e.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/499cfc21-2485-4ae7-8242-f19c1d56fe9e/499cfc21-2485-4ae7-8242-f19c1d56fe9e.mp3",
-        "duration": 37
+        "duration": 37,
+        "aligned": true
       },
       "dateStart": "2020-12-11T01:01:53",
       "dateEnd": "2020-12-11T01:02:30",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 70. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 70. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.160"
                 }
               ],
               "text": "Ich eröffne die 70. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Kira Grünberg , Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Kira Grünberg , Mag.",
+                  "timeStart": "2.160",
+                  "timeEnd": "2.800"
                 },
                 {
-                  "text": "Maria Smodics-Neumann , Nurten Yılmaz , Mag."
+                  "text": "Maria Smodics-Neumann , Nurten Yılmaz , Mag.",
+                  "timeStart": "2.800",
+                  "timeEnd": "3.360"
                 },
                 {
-                  "text": "Gerald Hauser , Herbert Kickl , Dr. Ewa Ernst-Dziedzic und Mag."
+                  "text": "Gerald Hauser , Herbert Kickl , Dr. Ewa Ernst-Dziedzic und Mag.",
+                  "timeStart": "3.360",
+                  "timeEnd": "4.160"
                 },
                 {
-                  "text": "Nina Tomaselli ."
+                  "text": "Nina Tomaselli .",
+                  "timeStart": "4.160",
+                  "timeEnd": "4.480"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Kira Grünberg , Mag. Maria Smodics-Neumann , Nurten Yılmaz , Mag. Gerald Hauser , Herbert Kickl , Dr. Ewa Ernst-Dziedzic und Mag. Nina Tomaselli ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "4.480",
+                  "timeEnd": "4.760"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "4.760",
+                  "timeEnd": "4.840"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "4.840",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangter Verhandlungsgegenstand:"
+                  "text": "A. Eingelangter Verhandlungsgegenstand:",
+                  "timeStart": "4.920",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "A. Eingelangter Verhandlungsgegenstand:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortung: 3748/AB"
+                  "text": "Anfragebeantwortung: 3748/AB",
+                  "timeStart": "4.920",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "Anfragebeantwortung: 3748/AB"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "4.920",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "4.920",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "4.920",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -187,10 +214,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1143/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1143/A(E) der Abgeordneten Mag.",
+                  "timeStart": "4.920",
+                  "timeEnd": "5.040"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einführung des AMS-Algorithmus"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einführung des AMS-Algorithmus",
+                  "timeStart": "5.040",
+                  "timeEnd": "5.040"
                 }
               ],
               "text": "Antrag 1143/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einführung des AMS-Algorithmus"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1150/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Beibehaltung und Adaptierung der abschlagsfreien Pensionen mit 540 Beitragsmonaten für alle Berufsgruppen"
+                  "text": "Antrag 1150/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Beibehaltung und Adaptierung der abschlagsfreien Pensionen mit 540 Beitragsmonaten für alle Berufsgruppen",
+                  "timeStart": "5.040",
+                  "timeEnd": "6.240"
                 }
               ],
               "text": "Antrag 1150/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Beibehaltung und Adaptierung der abschlagsfreien Pensionen mit 540 Beitragsmonaten für alle Berufsgruppen"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1152/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Konsequenzen aus dem Datenschutz-Skandal des AMS"
+                  "text": "Antrag 1152/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Konsequenzen aus dem Datenschutz-Skandal des AMS",
+                  "timeStart": "6.240",
+                  "timeEnd": "8.420"
                 }
               ],
               "text": "Antrag 1152/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Konsequenzen aus dem Datenschutz-Skandal des AMS"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "8.420",
+                  "timeEnd": "9.040"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1136/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Visa für in Belarus verfolgte Demokratieaktivist_innen"
+                  "text": "Antrag 1136/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Visa für in Belarus verfolgte Demokratieaktivist_innen",
+                  "timeStart": "9.040",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Antrag 1136/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Visa für in Belarus verfolgte Demokratieaktivist_innen"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1141/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Österreichs Beitrag zur Welthungerhilfe"
+                  "text": "Antrag 1141/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Österreichs Beitrag zur Welthungerhilfe",
+                  "timeStart": "10.920",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Antrag 1141/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Österreichs Beitrag zur Welthungerhilfe"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1144/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einfluss österreichischer EZA in Fokusländern in Krisen"
+                  "text": "Antrag 1144/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einfluss österreichischer EZA in Fokusländern in Krisen",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Antrag 1144/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einfluss österreichischer EZA in Fokusländern in Krisen"
@@ -267,10 +310,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1149/A(E) der Abgeordneten MMMag."
+                  "text": "Antrag 1149/A(E) der Abgeordneten MMMag.",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl"
+                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Antrag 1149/A(E) der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl"
@@ -281,7 +328,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -292,7 +341,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1131/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Mehr individuelle Freiheit beim Kinderbetreuungsgeld"
+                  "text": "Antrag 1131/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Mehr individuelle Freiheit beim Kinderbetreuungsgeld",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Antrag 1131/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Mehr individuelle Freiheit beim Kinderbetreuungsgeld"
@@ -303,7 +354,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -314,7 +367,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Depotgesetz geändert wird ( 596 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Depotgesetz geändert wird ( 596 d.B. )",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Depotgesetz geändert wird ( 596 d.B. )"
@@ -325,7 +380,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1142/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Start-Up Finanzierung durch Wachstumsfonds"
+                  "text": "Antrag 1142/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Start-Up Finanzierung durch Wachstumsfonds",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Antrag 1142/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Start-Up Finanzierung durch Wachstumsfonds"
@@ -336,7 +393,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -347,7 +406,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1137/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Entwicklung einer Datenstrategie für Krisenzeiten"
+                  "text": "Antrag 1137/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Entwicklung einer Datenstrategie für Krisenzeiten",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Antrag 1137/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Entwicklung einer Datenstrategie für Krisenzeiten"
@@ -358,7 +419,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1154/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Digitale Souveränität"
+                  "text": "Antrag 1154/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Digitale Souveränität",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.760"
                 }
               ],
               "text": "Antrag 1154/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Digitale Souveränität"
@@ -369,7 +432,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "13.760",
+                  "timeEnd": "13.760"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -380,10 +445,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1134/A der Abgeordneten Mag."
+                  "text": "Antrag 1134/A der Abgeordneten Mag.",
+                  "timeStart": "13.760",
+                  "timeEnd": "14.520"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
+                  "timeStart": "14.520",
+                  "timeEnd": "15.880"
                 }
               ],
               "text": "Antrag 1134/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -394,10 +463,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1135/A der Abgeordneten Mag."
+                  "text": "Antrag 1135/A der Abgeordneten Mag.",
+                  "timeStart": "15.880",
+                  "timeEnd": "17.320"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
+                  "timeStart": "17.320",
+                  "timeEnd": "18.840"
                 }
               ],
               "text": "Antrag 1135/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -408,10 +481,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1145/A(E) Antrag der Abgeordneten Mag."
+                  "text": "Antrag 1145/A(E) Antrag der Abgeordneten Mag.",
+                  "timeStart": "18.840",
+                  "timeEnd": "19.440"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung des Sanitätsrats"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung des Sanitätsrats",
+                  "timeStart": "19.440",
+                  "timeEnd": "20.040"
                 }
               ],
               "text": "Antrag 1145/A(E) Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung des Sanitätsrats"
@@ -422,7 +499,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "20.040",
+                  "timeEnd": "20.240"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -433,7 +512,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1130/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Nationaler Aktionsplan für die Gleichstellung von LGBTIQ-Personen"
+                  "text": "Antrag 1130/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Nationaler Aktionsplan für die Gleichstellung von LGBTIQ-Personen",
+                  "timeStart": "20.240",
+                  "timeEnd": "20.280"
                 }
               ],
               "text": "Antrag 1130/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Nationaler Aktionsplan für die Gleichstellung von LGBTIQ-Personen"
@@ -444,7 +525,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1139/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Angleichung der Fristen zur Geltendmachung von Belästigungen in der Arbeitswelt auf drei Jahre"
+                  "text": "Antrag 1139/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Angleichung der Fristen zur Geltendmachung von Belästigungen in der Arbeitswelt auf drei Jahre",
+                  "timeStart": "20.280",
+                  "timeEnd": "20.280"
                 }
               ],
               "text": "Antrag 1139/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Angleichung der Fristen zur Geltendmachung von Belästigungen in der Arbeitswelt auf drei Jahre"
@@ -455,7 +538,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1140/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Ermöglichung eines wirksamen Monitorings durch die GAW"
+                  "text": "Antrag 1140/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Ermöglichung eines wirksamen Monitorings durch die GAW",
+                  "timeStart": "20.280",
+                  "timeEnd": "20.280"
                 }
               ],
               "text": "Antrag 1140/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Ermöglichung eines wirksamen Monitorings durch die GAW"
@@ -466,7 +551,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "20.280",
+                  "timeEnd": "20.280"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -477,10 +564,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1156/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1156/A(E) der Abgeordneten Mag.",
+                  "timeStart": "20.280",
+                  "timeEnd": "20.280"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl"
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl",
+                  "timeStart": "20.280",
+                  "timeEnd": "20.280"
                 }
               ],
               "text": "Antrag 1156/A(E) der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl"
@@ -491,7 +582,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1159/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Abstimmung des NAP Rechtsextremismus und des NAP Antisemitismus"
+                  "text": "Antrag 1159/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Abstimmung des NAP Rechtsextremismus und des NAP Antisemitismus",
+                  "timeStart": "20.280",
+                  "timeEnd": "20.400"
                 }
               ],
               "text": "Antrag 1159/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Abstimmung des NAP Rechtsextremismus und des NAP Antisemitismus"
@@ -502,7 +595,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "20.400",
+                  "timeEnd": "20.840"
                 }
               ],
               "text": "Justizausschuss:"
@@ -513,7 +608,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1132/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen!"
+                  "text": "Antrag 1132/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen!",
+                  "timeStart": "20.840",
+                  "timeEnd": "23.600"
                 }
               ],
               "text": "Antrag 1132/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen!"
@@ -524,7 +621,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "23.600",
+                  "timeEnd": "24.160"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -535,7 +634,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1158/A der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Vergleichbarkeit von Endgelten für Verbraucherzahlungskonten, den Wechsel von Verbraucherzahlungskonten und den Zugang zu Verbraucherzahlungskonten mit grundlegenden Funktionen (VZKG) geändert wird"
+                  "text": "Antrag 1158/A der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Vergleichbarkeit von Endgelten für Verbraucherzahlungskonten, den Wechsel von Verbraucherzahlungskonten und den Zugang zu Verbraucherzahlungskonten mit grundlegenden Funktionen (VZKG) geändert wird",
+                  "timeStart": "24.160",
+                  "timeEnd": "26.440"
                 }
               ],
               "text": "Antrag 1158/A der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Vergleichbarkeit von Endgelten für Verbraucherzahlungskonten, den Wechsel von Verbraucherzahlungskonten und den Zugang zu Verbraucherzahlungskonten mit grundlegenden Funktionen (VZKG) geändert wird"
@@ -546,7 +647,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "26.440",
+                  "timeEnd": "26.440"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -557,7 +660,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1148/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ständige Einsatzbereitschaft am Hubschrauberstützpunkt Klagenfurt"
+                  "text": "Antrag 1148/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ständige Einsatzbereitschaft am Hubschrauberstützpunkt Klagenfurt",
+                  "timeStart": "26.440",
+                  "timeEnd": "27.360"
                 }
               ],
               "text": "Antrag 1148/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ständige Einsatzbereitschaft am Hubschrauberstützpunkt Klagenfurt"
@@ -568,7 +673,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "27.360",
+                  "timeEnd": "27.880"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -579,7 +686,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1133/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stopp den freiwilligen Zusatzmodulen des AMA-Gütesiegels"
+                  "text": "Antrag 1133/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stopp den freiwilligen Zusatzmodulen des AMA-Gütesiegels",
+                  "timeStart": "27.880",
+                  "timeEnd": "28.840"
                 }
               ],
               "text": "Antrag 1133/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stopp den freiwilligen Zusatzmodulen des AMA-Gütesiegels"
@@ -590,7 +699,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Tourismusausschuss:"
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "28.840",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -601,7 +712,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1157/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Ausbau der Erwachsenenlehre für ArbeitnehmerInnen im Tourismus"
+                  "text": "Antrag 1157/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Ausbau der Erwachsenenlehre für ArbeitnehmerInnen im Tourismus",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Antrag 1157/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Ausbau der Erwachsenenlehre für ArbeitnehmerInnen im Tourismus"
@@ -612,7 +725,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -623,10 +738,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1153/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1153/A(E) der Abgeordneten Mag.",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 },
                 {
-                  "text": "Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Deutschförderung auf Basis wissenschaftlicher Erkenntnisse"
+                  "text": "Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Deutschförderung auf Basis wissenschaftlicher Erkenntnisse",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Antrag 1153/A(E) der Abgeordneten Mag. Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Deutschförderung auf Basis wissenschaftlicher Erkenntnisse"
@@ -637,7 +756,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -648,7 +769,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Österreichisch-Jüdisches Kulturerbegesetz – ÖJKG ( 605 d.B. )"
+                  "text": "Österreichisch-Jüdisches Kulturerbegesetz – ÖJKG ( 605 d.B. )",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Österreichisch-Jüdisches Kulturerbegesetz – ÖJKG ( 605 d.B. )"
@@ -659,7 +782,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1138/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend drastische Reduzierung der Summe für die momentan ausgeschriebenen Rahmenverträge \"Mediaagenturleistungen Bund\" und \"Kreativagenturleistungen Bund\""
+                  "text": "Antrag 1138/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend drastische Reduzierung der Summe für die momentan ausgeschriebenen Rahmenverträge \"Mediaagenturleistungen Bund\" und \"Kreativagenturleistungen Bund\"",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Antrag 1138/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend drastische Reduzierung der Summe für die momentan ausgeschriebenen Rahmenverträge \"Mediaagenturleistungen Bund\" und \"Kreativagenturleistungen Bund\""
@@ -670,7 +795,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -681,7 +808,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1146/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Bundesweit koordinierte Energieraumplanung gemäß Regierungsprogramm endlich umsetzen"
+                  "text": "Antrag 1146/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Bundesweit koordinierte Energieraumplanung gemäß Regierungsprogramm endlich umsetzen",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.000"
                 }
               ],
               "text": "Antrag 1146/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Bundesweit koordinierte Energieraumplanung gemäß Regierungsprogramm endlich umsetzen"
@@ -692,7 +821,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1147/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Gesamtstrategie für den notwendigen Netzausbau schaffen"
+                  "text": "Antrag 1147/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Gesamtstrategie für den notwendigen Netzausbau schaffen",
+                  "timeStart": "29.000",
+                  "timeEnd": "29.800"
                 }
               ],
               "text": "Antrag 1147/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Gesamtstrategie für den notwendigen Netzausbau schaffen"
@@ -703,7 +834,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1151/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umsatzersatz für alle Zulieferbetriebe und indirekt vom zweiten Lockdown betroffene Unternehmen"
+                  "text": "Antrag 1151/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umsatzersatz für alle Zulieferbetriebe und indirekt vom zweiten Lockdown betroffene Unternehmen",
+                  "timeStart": "29.800",
+                  "timeEnd": "31.000"
                 }
               ],
               "text": "Antrag 1151/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umsatzersatz für alle Zulieferbetriebe und indirekt vom zweiten Lockdown betroffene Unternehmen"
@@ -714,7 +847,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1155/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Wahrung der Unabhängigkeit der ZiviltechnikerInnen"
+                  "text": "Antrag 1155/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Wahrung der Unabhängigkeit der ZiviltechnikerInnen",
+                  "timeStart": "31.000",
+                  "timeEnd": "32.080"
                 }
               ],
               "text": "Antrag 1155/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Wahrung der Unabhängigkeit der ZiviltechnikerInnen"
@@ -725,10 +860,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "C. Unterrichtung gemäß Art."
+                  "text": "C. Unterrichtung gemäß Art.",
+                  "timeStart": "32.080",
+                  "timeEnd": "32.160"
                 },
                 {
-                  "text": "50 Abs. 5 B-VG:"
+                  "text": "50 Abs. 5 B-VG:",
+                  "timeStart": "32.160",
+                  "timeEnd": "32.320"
                 }
               ],
               "text": "C. Unterrichtung gemäß Art. 50 Abs. 5 B-VG:"
@@ -739,7 +878,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Aufnahme der Verhandlungen über ein Abkommen über den Beitritt der Europäischen Union zur Europäischen Konvention zum Schutze der Menschenrechte und Grundfreiheiten"
+                  "text": "Aufnahme der Verhandlungen über ein Abkommen über den Beitritt der Europäischen Union zur Europäischen Konvention zum Schutze der Menschenrechte und Grundfreiheiten",
+                  "timeStart": "32.320",
+                  "timeEnd": "32.960"
                 }
               ],
               "text": "Aufnahme der Verhandlungen über ein Abkommen über den Beitritt der Europäischen Union zur Europäischen Konvention zum Schutze der Menschenrechte und Grundfreiheiten"
@@ -750,7 +891,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Freitag, den 11. Dezember, um 9 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Freitag, den 11. Dezember, um 9 Uhr ein.",
+                  "timeStart": "32.960",
+                  "timeEnd": "37.160"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Freitag, den 11. Dezember, um 9 Uhr ein."
@@ -761,7 +904,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "37.160",
+                  "timeEnd": "37.760"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -772,10 +917,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen eine gute Nacht."
+                  "text": "Ich wünsche Ihnen eine gute Nacht.",
+                  "timeStart": "37.760",
+                  "timeEnd": "37.920"
                 },
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "37.920",
+                  "timeEnd": "37.960"
                 }
               ],
               "text": "Ich wünsche Ihnen eine gute Nacht. Diese Sitzung ist geschlossen."
@@ -787,7 +936,8 @@
         "mediaIndex": 1,
         "stdId": 236285,
         "debatteId": 300,
-        "proceedingIndex": 236285
+        "proceedingIndex": 236285,
+        "alignDuration": 0.7851240634918213
       },
       "originalLanguage": "de"
     }
