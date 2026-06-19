@@ -4,11 +4,11 @@
     "session": "27088",
     "dateStart": "2021-03-08T15:18:39",
     "dateEnd": "2021-03-08T15:20:47",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:46+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-18T22:46:31",
     "processing": {
       "merge": "2026-06-16T04:23:46+00:00",
-      "nel": "2026-06-16T06:24:20"
+      "align": "2026-06-18T22:46:31"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "238558",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/fb66c1e3-04dc-47d0-ae16-d3ed68621bce/fb66c1e3-04dc-47d0-ae16-d3ed68621bce.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/fb66c1e3-04dc-47d0-ae16-d3ed68621bce/fb66c1e3-04dc-47d0-ae16-d3ed68621bce.mp3",
-        "duration": 54
+        "duration": 54,
+        "aligned": true
       },
       "dateStart": "2021-03-08T15:18:39",
       "dateEnd": "2021-03-08T15:19:33",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 88. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 88. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.120"
                 }
               ],
               "text": "Ich eröffne die 88. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Norbert Sieber , Ing. Reinhold Einwallner , Alois Schroll , Alois Stöger, diplômé , Rainer Wimmer , Christian Lausch , Wolfgang Zanger , Lukas Hammer , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Norbert Sieber , Ing. Reinhold Einwallner , Alois Schroll , Alois Stöger, diplômé , Rainer Wimmer , Christian Lausch , Wolfgang Zanger , Lukas Hammer , Mag.",
+                  "timeStart": "3.120",
+                  "timeEnd": "6.240"
                 },
                 {
-                  "text": "Gerald Hauser , Mag."
+                  "text": "Gerald Hauser , Mag.",
+                  "timeStart": "6.240",
+                  "timeEnd": "6.280"
                 },
                 {
-                  "text": "Felix Eypeltauer und Mag."
+                  "text": "Felix Eypeltauer und Mag.",
+                  "timeStart": "6.280",
+                  "timeEnd": "6.760"
                 },
                 {
-                  "text": "Beate Meinl-Reisinger, MES ."
+                  "text": "Beate Meinl-Reisinger, MES .",
+                  "timeStart": "6.760",
+                  "timeEnd": "6.880"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Norbert Sieber , Ing. Reinhold Einwallner , Alois Schroll , Alois Stöger, diplômé , Rainer Wimmer , Christian Lausch , Wolfgang Zanger , Lukas Hammer , Mag. Gerald Hauser , Mag. Felix Eypeltauer und Mag. Beate Meinl-Reisinger, MES ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "6.880",
+                  "timeEnd": "6.920"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "6.920",
+                  "timeEnd": "8.680"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "8.680",
+                  "timeEnd": "8.720"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "8.720",
+                  "timeEnd": "9.240"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 4826/AB und 4827/AB"
+                  "text": "Anfragebeantwortungen: 4826/AB und 4827/AB",
+                  "timeStart": "9.240",
+                  "timeEnd": "10.520"
                 }
               ],
               "text": "Anfragebeantwortungen: 4826/AB und 4827/AB"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "10.520",
+                  "timeEnd": "11.280"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "11.280",
+                  "timeEnd": "11.400"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "11.400",
+                  "timeEnd": "12.120"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -187,7 +214,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Arbeitsrecht in der Land- und Forstwirtschaft (Landarbeitsgesetz 2021) erlassen wird sowie das Behinderten-Einstellungsgesetz, das Arbeitsplatz-Sicherungsgesetz, das Allgemeine Sozialversicherungsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden ( 687 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Arbeitsrecht in der Land- und Forstwirtschaft (Landarbeitsgesetz 2021) erlassen wird sowie das Behinderten-Einstellungsgesetz, das Arbeitsplatz-Sicherungsgesetz, das Allgemeine Sozialversicherungsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden ( 687 d.B. )",
+                  "timeStart": "12.120",
+                  "timeEnd": "15.360"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Arbeitsrecht in der Land- und Forstwirtschaft (Landarbeitsgesetz 2021) erlassen wird sowie das Behinderten-Einstellungsgesetz, das Arbeitsplatz-Sicherungsgesetz, das Allgemeine Sozialversicherungsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden ( 687 d.B. )"
@@ -198,7 +227,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "15.360",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1383/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Anerkennung des Uiguren-Genozids"
+                  "text": "Antrag 1383/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Anerkennung des Uiguren-Genozids",
+                  "timeStart": "16.000",
+                  "timeEnd": "17.400"
                 }
               ],
               "text": "Antrag 1383/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Anerkennung des Uiguren-Genozids"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1386/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen"
+                  "text": "Antrag 1386/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen",
+                  "timeStart": "17.400",
+                  "timeEnd": "19.400"
                 }
               ],
               "text": "Antrag 1386/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen"
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "19.400",
+                  "timeEnd": "19.400"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -242,7 +279,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1396/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Verbindliche Umsetzung des Gender Budgeting"
+                  "text": "Antrag 1396/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Verbindliche Umsetzung des Gender Budgeting",
+                  "timeStart": "19.400",
+                  "timeEnd": "21.880"
                 }
               ],
               "text": "Antrag 1396/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Verbindliche Umsetzung des Gender Budgeting"
@@ -253,7 +292,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "21.880",
+                  "timeEnd": "22.280"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -264,7 +305,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1382/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausreichende Finanzierung der Familienberatungsstellen"
+                  "text": "Antrag 1382/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausreichende Finanzierung der Familienberatungsstellen",
+                  "timeStart": "22.280",
+                  "timeEnd": "24.400"
                 }
               ],
               "text": "Antrag 1382/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausreichende Finanzierung der Familienberatungsstellen"
@@ -275,7 +318,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1394/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Absicherung und Ausbau der Kinderschutzzentren"
+                  "text": "Antrag 1394/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Absicherung und Ausbau der Kinderschutzzentren",
+                  "timeStart": "24.400",
+                  "timeEnd": "28.160"
                 }
               ],
               "text": "Antrag 1394/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Absicherung und Ausbau der Kinderschutzzentren"
@@ -286,7 +331,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1395/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager im Sommer 2021"
+                  "text": "Antrag 1395/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager im Sommer 2021",
+                  "timeStart": "28.160",
+                  "timeEnd": "30.000"
                 }
               ],
               "text": "Antrag 1395/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager im Sommer 2021"
@@ -297,7 +344,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "30.000",
+                  "timeEnd": "30.080"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -308,7 +357,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1378/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend schnellstmögliche Öffnung der Hundeschulen für Gruppenausbildung als Gefahrenpräventionsmaßnahme gegen Verhaltensstörungen und aus Gründen des Tierschutzes"
+                  "text": "Antrag 1378/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend schnellstmögliche Öffnung der Hundeschulen für Gruppenausbildung als Gefahrenpräventionsmaßnahme gegen Verhaltensstörungen und aus Gründen des Tierschutzes",
+                  "timeStart": "30.080",
+                  "timeEnd": "32.360"
                 }
               ],
               "text": "Antrag 1378/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend schnellstmögliche Öffnung der Hundeschulen für Gruppenausbildung als Gefahrenpräventionsmaßnahme gegen Verhaltensstörungen und aus Gründen des Tierschutzes"
@@ -319,10 +370,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1391/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1391/A(E) der Abgeordneten Mag.",
+                  "timeStart": "32.360",
+                  "timeEnd": "32.760"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Kostenersatz für Covid-19 Tests"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Kostenersatz für Covid-19 Tests",
+                  "timeStart": "32.760",
+                  "timeEnd": "32.840"
                 }
               ],
               "text": "Antrag 1391/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Kostenersatz für Covid-19 Tests"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "32.840",
+                  "timeEnd": "32.840"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1385/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Geschlechtergerechtigkeitsprüfung und gleichstellungspolitische Folgenabschätzung von Hilfs- und Unterstützungsmaßnahmen der Regierung"
+                  "text": "Antrag 1385/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Geschlechtergerechtigkeitsprüfung und gleichstellungspolitische Folgenabschätzung von Hilfs- und Unterstützungsmaßnahmen der Regierung",
+                  "timeStart": "32.840",
+                  "timeEnd": "33.240"
                 }
               ],
               "text": "Antrag 1385/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Geschlechtergerechtigkeitsprüfung und gleichstellungspolitische Folgenabschätzung von Hilfs- und Unterstützungsmaßnahmen der Regierung"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1387/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend verbindliche Umsetzung des Gender Budgeting"
+                  "text": "Antrag 1387/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend verbindliche Umsetzung des Gender Budgeting",
+                  "timeStart": "33.240",
+                  "timeEnd": "35.080"
                 }
               ],
               "text": "Antrag 1387/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend verbindliche Umsetzung des Gender Budgeting"
@@ -366,7 +427,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1388/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Zeitverwendungsstudie endlich umsetzen!"
+                  "text": "Antrag 1388/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Zeitverwendungsstudie endlich umsetzen!",
+                  "timeStart": "35.080",
+                  "timeEnd": "36.720"
                 }
               ],
               "text": "Antrag 1388/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Zeitverwendungsstudie endlich umsetzen!"
@@ -377,7 +440,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "36.720",
+                  "timeEnd": "36.960"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -388,7 +453,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1392/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Planungs- statt Ankündigungspolitik"
+                  "text": "Antrag 1392/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Planungs- statt Ankündigungspolitik",
+                  "timeStart": "36.960",
+                  "timeEnd": "38.280"
                 }
               ],
               "text": "Antrag 1392/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Planungs- statt Ankündigungspolitik"
@@ -399,7 +466,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "38.280",
+                  "timeEnd": "38.960"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -410,7 +479,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1380/A der Abgeordneten Dipl.-Ing. Georg Strasser , Dipl.-Ing. Olga Voglauer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Pflanzenschutzmittelgesetz 2011 geändert wird"
+                  "text": "Antrag 1380/A der Abgeordneten Dipl.-Ing. Georg Strasser , Dipl.-Ing. Olga Voglauer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Pflanzenschutzmittelgesetz 2011 geändert wird",
+                  "timeStart": "38.960",
+                  "timeEnd": "40.280"
                 }
               ],
               "text": "Antrag 1380/A der Abgeordneten Dipl.-Ing. Georg Strasser , Dipl.-Ing. Olga Voglauer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Pflanzenschutzmittelgesetz 2011 geändert wird"
@@ -421,7 +492,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "40.280",
+                  "timeEnd": "41.120"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -432,10 +505,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1389/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1389/A(E) der Abgeordneten Mag.",
+                  "timeStart": "41.120",
+                  "timeEnd": "41.480"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend begleitendes Monitoring für die Maßnahmen des 200-Millionen-Euro-Förderpakets für Schülerinnen und Schüler"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend begleitendes Monitoring für die Maßnahmen des 200-Millionen-Euro-Förderpakets für Schülerinnen und Schüler",
+                  "timeStart": "41.480",
+                  "timeEnd": "43.040"
                 }
               ],
               "text": "Antrag 1389/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend begleitendes Monitoring für die Maßnahmen des 200-Millionen-Euro-Förderpakets für Schülerinnen und Schüler"
@@ -446,10 +523,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1390/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1390/A(E) der Abgeordneten Mag.",
+                  "timeStart": "43.040",
+                  "timeEnd": "44.240"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verpflichtende digital-didaktische Aus- und Fortbildung für Lehrerinnen und Lehrer"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verpflichtende digital-didaktische Aus- und Fortbildung für Lehrerinnen und Lehrer",
+                  "timeStart": "44.240",
+                  "timeEnd": "44.400"
                 }
               ],
               "text": "Antrag 1390/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verpflichtende digital-didaktische Aus- und Fortbildung für Lehrerinnen und Lehrer"
@@ -460,7 +541,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "44.400",
+                  "timeEnd": "44.600"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -471,7 +554,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1384/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Digitalförderung, die den Namen auch verdient"
+                  "text": "Antrag 1384/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Digitalförderung, die den Namen auch verdient",
+                  "timeStart": "44.600",
+                  "timeEnd": "46.160"
                 }
               ],
               "text": "Antrag 1384/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Digitalförderung, die den Namen auch verdient"
@@ -482,7 +567,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "46.160",
+                  "timeEnd": "46.360"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -493,7 +580,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1381/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Anpassung Güterbeförderungsgesetz"
+                  "text": "Antrag 1381/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Anpassung Güterbeförderungsgesetz",
+                  "timeStart": "46.360",
+                  "timeEnd": "46.720"
                 }
               ],
               "text": "Antrag 1381/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Anpassung Güterbeförderungsgesetz"
@@ -504,7 +593,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "46.720",
+                  "timeEnd": "46.760"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -515,7 +606,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Ziviltechnikergesetz 2019 geändert wird ( 686 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Ziviltechnikergesetz 2019 geändert wird ( 686 d.B. )",
+                  "timeStart": "46.760",
+                  "timeEnd": "48.280"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ziviltechnikergesetz 2019 geändert wird ( 686 d.B. )"
@@ -526,7 +619,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1379/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz geändert wird"
+                  "text": "Antrag 1379/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz geändert wird",
+                  "timeStart": "48.280",
+                  "timeEnd": "49.440"
                 }
               ],
               "text": "Antrag 1379/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz geändert wird"
@@ -537,7 +632,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1393/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend RFF – Mit neuen und innovativen Projekten zum Erfolg für den österreichischen Wirtschaftsstandort"
+                  "text": "Antrag 1393/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend RFF – Mit neuen und innovativen Projekten zum Erfolg für den österreichischen Wirtschaftsstandort",
+                  "timeStart": "49.440",
+                  "timeEnd": "50.440"
                 }
               ],
               "text": "Antrag 1393/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend RFF – Mit neuen und innovativen Projekten zum Erfolg für den österreichischen Wirtschaftsstandort"
@@ -548,7 +645,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters weise ich zu:"
+                  "text": "Weiters weise ich zu:",
+                  "timeStart": "50.440",
+                  "timeEnd": "50.480"
                 }
               ],
               "text": "Weiters weise ich zu:"
@@ -559,7 +658,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1397/A dem Kulturausschuss,"
+                  "text": "den Antrag 1397/A dem Kulturausschuss,",
+                  "timeStart": "50.480",
+                  "timeEnd": "50.520"
                 }
               ],
               "text": "den Antrag 1397/A dem Kulturausschuss,"
@@ -570,7 +671,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "die Anträge 1398/A bis 1400/A dem Unterrichtsausschuss,"
+                  "text": "die Anträge 1398/A bis 1400/A dem Unterrichtsausschuss,",
+                  "timeStart": "50.520",
+                  "timeEnd": "52.320"
                 }
               ],
               "text": "die Anträge 1398/A bis 1400/A dem Unterrichtsausschuss,"
@@ -581,7 +684,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1401/A dem Tourismusausschuss,"
+                  "text": "den Antrag 1401/A dem Tourismusausschuss,",
+                  "timeStart": "52.320",
+                  "timeEnd": "52.920"
                 }
               ],
               "text": "den Antrag 1401/A dem Tourismusausschuss,"
@@ -592,7 +697,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1402/A und 1406/A sowie 1407/A dem Gesundheitsausschuss,"
+                  "text": "den Antrag 1402/A und 1406/A sowie 1407/A dem Gesundheitsausschuss,",
+                  "timeStart": "52.920",
+                  "timeEnd": "53.200"
                 }
               ],
               "text": "den Antrag 1402/A und 1406/A sowie 1407/A dem Gesundheitsausschuss,"
@@ -603,7 +710,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1403/A dem Ausschuss für Arbeit und Soziales,"
+                  "text": "den Antrag 1403/A dem Ausschuss für Arbeit und Soziales,",
+                  "timeStart": "53.200",
+                  "timeEnd": "54.500"
                 }
               ],
               "text": "den Antrag 1403/A dem Ausschuss für Arbeit und Soziales,"
@@ -614,7 +723,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1404/A dem Ausschuss für Konsumentenschutz und"
+                  "text": "den Antrag 1404/A dem Ausschuss für Konsumentenschutz und",
+                  "timeStart": "54.500",
+                  "timeEnd": "55.400"
                 }
               ],
               "text": "den Antrag 1404/A dem Ausschuss für Konsumentenschutz und"
@@ -625,7 +736,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "den Antrag 1405/A dem Landesverteidigungsausschuss."
+                  "text": "den Antrag 1405/A dem Landesverteidigungsausschuss.",
+                  "timeStart": "55.400",
+                  "timeEnd": "56.000"
                 }
               ],
               "text": "den Antrag 1405/A dem Landesverteidigungsausschuss."
@@ -637,7 +750,8 @@
         "mediaIndex": 1,
         "stdId": 238558,
         "debatteId": 300,
-        "proceedingIndex": 238558
+        "proceedingIndex": 238558,
+        "alignDuration": 0.8599259853363037
       },
       "originalLanguage": "de"
     },
@@ -665,7 +779,8 @@
         "originMediaID": "238543",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/3b48d67f-3b6c-46ef-8060-5f73d9ac5b93/3b48d67f-3b6c-46ef-8060-5f73d9ac5b93.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/3b48d67f-3b6c-46ef-8060-5f73d9ac5b93/3b48d67f-3b6c-46ef-8060-5f73d9ac5b93.mp3",
-        "duration": 48
+        "duration": 48,
+        "aligned": true
       },
       "dateStart": "2021-03-08T15:19:33",
       "dateEnd": "2021-03-08T15:20:21",
@@ -697,7 +812,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über einen Fristsetzungsantrag"
+                  "text": "Abstimmung über einen Fristsetzungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.120"
                 }
               ],
               "text": "Abstimmung über einen Fristsetzungsantrag"
@@ -708,7 +825,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Vor Eingang in die Tagesordnung teile ich mit, dass die Abgeordneten Keck, Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März 2021 zu setzen."
+                  "text": "Vor Eingang in die Tagesordnung teile ich mit, dass die Abgeordneten Keck, Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März 2021 zu setzen.",
+                  "timeStart": "2.120",
+                  "timeEnd": "18.760"
                 }
               ],
               "text": "Vor Eingang in die Tagesordnung teile ich mit, dass die Abgeordneten Keck, Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März 2021 zu setzen."
@@ -719,7 +838,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "18.760",
+                  "timeEnd": "27.560"
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -730,7 +851,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag der Abgeordneten Keck, Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März zu setzen."
+                  "text": "Abstimmung über den Antrag der Abgeordneten Keck, Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März zu setzen.",
+                  "timeStart": "27.560",
+                  "timeEnd": "40.120"
                 }
               ],
               "text": "Abstimmung über den Antrag der Abgeordneten Keck, Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März zu setzen."
@@ -741,10 +864,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer spricht sich für diesen Fristsetzungsantrag aus? –"
+                  "text": "Wer spricht sich für diesen Fristsetzungsantrag aus? –",
+                  "timeStart": "40.120",
+                  "timeEnd": "43.480"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "46.320",
+                  "timeEnd": "50.000"
                 }
               ],
               "text": "Wer spricht sich für diesen Fristsetzungsantrag aus? – Das ist die Minderheit, abgelehnt."
@@ -756,7 +883,8 @@
         "mediaIndex": 2,
         "stdId": 238543,
         "debatteId": 310,
-        "proceedingIndex": 238543
+        "proceedingIndex": 238543,
+        "alignDuration": 0.3555288314819336
       },
       "originalLanguage": "de"
     },
@@ -784,7 +912,8 @@
         "originMediaID": "238560",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/86b709f7-a19a-4a70-bdd1-04e69e17af7c/86b709f7-a19a-4a70-bdd1-04e69e17af7c.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/86b709f7-a19a-4a70-bdd1-04e69e17af7c/86b709f7-a19a-4a70-bdd1-04e69e17af7c.mp3",
-        "duration": 24
+        "duration": 24,
+        "aligned": true
       },
       "dateStart": "2021-03-08T15:20:23",
       "dateEnd": "2021-03-08T15:20:47",
@@ -816,7 +945,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. März 2021, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. März 2021, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "1.000",
+                  "timeEnd": "8.800"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. März 2021, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -827,7 +958,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters gebe ich bekannt, dass in 10 Minuten, um 15.30 Uhr, der Hauptausschuss zusammentritt."
+                  "text": "Weiters gebe ich bekannt, dass in 10 Minuten, um 15.30 Uhr, der Hauptausschuss zusammentritt.",
+                  "timeStart": "8.800",
+                  "timeEnd": "15.280"
                 }
               ],
               "text": "Weiters gebe ich bekannt, dass in 10 Minuten, um 15.30 Uhr, der Hauptausschuss zusammentritt."
@@ -838,10 +971,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche allen Frauen trotz alledem einen schönen Internationalen Frauentag. ("
+                  "text": "Ich wünsche allen Frauen trotz alledem einen schönen Internationalen Frauentag. (",
+                  "timeStart": "15.280",
+                  "timeEnd": "20.800"
                 },
                 {
-                  "text": "Beifall bei der SPÖ und bei Abgeordneten der Grünen.)"
+                  "text": "Beifall bei der SPÖ und bei Abgeordneten der Grünen.)",
+                  "timeStart": "20.800",
+                  "timeEnd": "24.360"
                 }
               ],
               "text": "Ich wünsche allen Frauen trotz alledem einen schönen Internationalen Frauentag. (Beifall bei der SPÖ und bei Abgeordneten der Grünen.)"
@@ -852,7 +989,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "24.360",
+                  "timeEnd": "25.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -864,7 +1003,8 @@
         "mediaIndex": 3,
         "stdId": 238560,
         "debatteId": 320,
-        "proceedingIndex": 238560
+        "proceedingIndex": 238560,
+        "alignDuration": 0.3136751651763916
       },
       "originalLanguage": "de"
     }

@@ -4,11 +4,11 @@
     "session": "27092",
     "dateStart": "2021-03-25T22:07:56",
     "dateEnd": "2021-03-25T22:08:21",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:47+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-19T08:23:01",
     "processing": {
       "merge": "2026-06-16T04:23:47+00:00",
-      "nel": "2026-06-16T06:24:20"
+      "align": "2026-06-19T08:23:01"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "240976",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/aaeab3f4-d95f-43c7-9f3d-273dc2eef51b/aaeab3f4-d95f-43c7-9f3d-273dc2eef51b.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/aaeab3f4-d95f-43c7-9f3d-273dc2eef51b/aaeab3f4-d95f-43c7-9f3d-273dc2eef51b.mp3",
-        "duration": 25
+        "duration": 25,
+        "aligned": true
       },
       "dateStart": "2021-03-25T22:07:56",
       "dateEnd": "2021-03-25T22:08:21",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.920"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -79,10 +82,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Ing. Johann Weber , Doris Bures , Klaus Köchl , Wolfgang Zanger und Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Ing. Johann Weber , Doris Bures , Klaus Köchl , Wolfgang Zanger und Mag.",
+                  "timeStart": "1.920",
+                  "timeEnd": "2.880"
                 },
                 {
-                  "text": "Beate Meinl-Reisinger, MES ."
+                  "text": "Beate Meinl-Reisinger, MES .",
+                  "timeStart": "2.880",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Ing. Johann Weber , Doris Bures , Klaus Köchl , Wolfgang Zanger und Mag. Beate Meinl-Reisinger, MES ."
@@ -93,7 +100,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.240"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -104,7 +113,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "3.240",
+                  "timeEnd": "3.240"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -115,7 +126,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "3.240",
+                  "timeEnd": "3.400"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -126,7 +139,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "3.400",
+                  "timeEnd": "3.880"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -137,7 +152,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 5132/AB bis 5139/AB"
+                  "text": "Anfragebeantwortungen: 5132/AB bis 5139/AB",
+                  "timeStart": "3.880",
+                  "timeEnd": "5.400"
                 }
               ],
               "text": "Anfragebeantwortungen: 5132/AB bis 5139/AB"
@@ -148,7 +165,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "5.400",
+                  "timeEnd": "5.840"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -159,7 +178,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "5.840",
+                  "timeEnd": "6.160"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -170,7 +191,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "6.160",
+                  "timeEnd": "6.520"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -181,7 +204,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1449/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen"
+                  "text": "Antrag 1449/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen",
+                  "timeStart": "6.520",
+                  "timeEnd": "6.840"
                 }
               ],
               "text": "Antrag 1449/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen"
@@ -192,7 +217,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "6.840",
+                  "timeEnd": "6.840"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -203,7 +230,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1444/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verbotsverfahren gegen die HDP"
+                  "text": "Antrag 1444/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verbotsverfahren gegen die HDP",
+                  "timeStart": "6.840",
+                  "timeEnd": "6.960"
                 }
               ],
               "text": "Antrag 1444/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verbotsverfahren gegen die HDP"
@@ -214,7 +243,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "6.960",
+                  "timeEnd": "7.400"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -225,7 +256,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1445/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend klare Vorgaben für den Vollzug, um das im Tierschutzgesetz vorgegebene Verbot der Qualzucht, tatsächlich zu beenden"
+                  "text": "Antrag 1445/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend klare Vorgaben für den Vollzug, um das im Tierschutzgesetz vorgegebene Verbot der Qualzucht, tatsächlich zu beenden",
+                  "timeStart": "7.400",
+                  "timeEnd": "9.960"
                 }
               ],
               "text": "Antrag 1445/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend klare Vorgaben für den Vollzug, um das im Tierschutzgesetz vorgegebene Verbot der Qualzucht, tatsächlich zu beenden"
@@ -236,7 +269,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1446/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen gegen den illegalen Welpenhandel"
+                  "text": "Antrag 1446/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen gegen den illegalen Welpenhandel",
+                  "timeStart": "9.960",
+                  "timeEnd": "10.840"
                 }
               ],
               "text": "Antrag 1446/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen gegen den illegalen Welpenhandel"
@@ -247,10 +282,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1448/A der Abgeordneten Mag."
+                  "text": "Antrag 1448/A der Abgeordneten Mag.",
+                  "timeStart": "10.840",
+                  "timeEnd": "12.000"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Sicherheitsanforderungen und weitere Anforderungen an Lebensmittel, Gebrauchsgegenstände und kosmetische Mittel zum Schutz der Verbraucherinnen und Verbraucher (Lebensmittelsicherheits- und Verbraucherschutzgesetz – LMSVG) geändert wird"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Sicherheitsanforderungen und weitere Anforderungen an Lebensmittel, Gebrauchsgegenstände und kosmetische Mittel zum Schutz der Verbraucherinnen und Verbraucher (Lebensmittelsicherheits- und Verbraucherschutzgesetz – LMSVG) geändert wird",
+                  "timeStart": "12.000",
+                  "timeEnd": "14.040"
                 }
               ],
               "text": "Antrag 1448/A der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Sicherheitsanforderungen und weitere Anforderungen an Lebensmittel, Gebrauchsgegenstände und kosmetische Mittel zum Schutz der Verbraucherinnen und Verbraucher (Lebensmittelsicherheits- und Verbraucherschutzgesetz – LMSVG) geändert wird"
@@ -261,10 +300,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1452/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1452/A(E) der Abgeordneten Mag.",
+                  "timeStart": "14.040",
+                  "timeEnd": "14.840"
                 },
                 {
-                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Änderung der Strategie zur Pandemiebekämpfung und den angeblich alternativlosen Lockdowns"
+                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Änderung der Strategie zur Pandemiebekämpfung und den angeblich alternativlosen Lockdowns",
+                  "timeStart": "14.840",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag 1452/A(E) der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Änderung der Strategie zur Pandemiebekämpfung und den angeblich alternativlosen Lockdowns"
@@ -275,7 +318,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.840"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -286,7 +331,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1450/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen"
+                  "text": "Antrag 1450/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen",
+                  "timeStart": "15.840",
+                  "timeEnd": "16.160"
                 }
               ],
               "text": "Antrag 1450/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen"
@@ -297,7 +344,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "16.160",
+                  "timeEnd": "16.160"
                 }
               ],
               "text": "Justizausschuss:"
@@ -308,10 +357,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1443/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1443/A(E) der Abgeordneten Mag.",
+                  "timeStart": "16.160",
+                  "timeEnd": "16.160"
                 },
                 {
-                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend dringend notwendige grundlegende Verbesserungen im Maßnahmenvollzug"
+                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend dringend notwendige grundlegende Verbesserungen im Maßnahmenvollzug",
+                  "timeStart": "16.160",
+                  "timeEnd": "16.160"
                 }
               ],
               "text": "Antrag 1443/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend dringend notwendige grundlegende Verbesserungen im Maßnahmenvollzug"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1447/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Anpassung der Arbeitsbedingungen für Gerichtsdolmetscher*innen an COVID-19-Pandemie, Verbesserung der Qualitätsstandards und Anhebung der Gebühren"
+                  "text": "Antrag 1447/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Anpassung der Arbeitsbedingungen für Gerichtsdolmetscher*innen an COVID-19-Pandemie, Verbesserung der Qualitätsstandards und Anhebung der Gebühren",
+                  "timeStart": "16.160",
+                  "timeEnd": "17.800"
                 }
               ],
               "text": "Antrag 1447/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Anpassung der Arbeitsbedingungen für Gerichtsdolmetscher*innen an COVID-19-Pandemie, Verbesserung der Qualitätsstandards und Anhebung der Gebühren"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1453/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eines Lieferkettengesetzes für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise"
+                  "text": "Antrag 1453/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eines Lieferkettengesetzes für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise",
+                  "timeStart": "17.800",
+                  "timeEnd": "20.880"
                 }
               ],
               "text": "Antrag 1453/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eines Lieferkettengesetzes für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "20.880",
+                  "timeEnd": "21.000"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1454/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend ein Lieferkettengesetz für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise"
+                  "text": "Antrag 1454/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend ein Lieferkettengesetz für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise",
+                  "timeStart": "21.000",
+                  "timeEnd": "22.240"
                 }
               ],
               "text": "Antrag 1454/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend ein Lieferkettengesetz für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise"
@@ -366,7 +427,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1455/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Einrichtung eines Grünen Netzes geschützter Wälder im Ausmaß von zehn Prozent der gesamten Waldfläche in ganz Österreich"
+                  "text": "Antrag 1455/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Einrichtung eines Grünen Netzes geschützter Wälder im Ausmaß von zehn Prozent der gesamten Waldfläche in ganz Österreich",
+                  "timeStart": "22.240",
+                  "timeEnd": "23.480"
                 }
               ],
               "text": "Antrag 1455/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Einrichtung eines Grünen Netzes geschützter Wälder im Ausmaß von zehn Prozent der gesamten Waldfläche in ganz Österreich"
@@ -377,7 +440,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1456/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Ausstieg aus dem Energiecharta-Vertrag"
+                  "text": "Antrag 1456/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Ausstieg aus dem Energiecharta-Vertrag",
+                  "timeStart": "23.480",
+                  "timeEnd": "23.840"
                 }
               ],
               "text": "Antrag 1456/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Ausstieg aus dem Energiecharta-Vertrag"
@@ -388,7 +453,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "23.840",
+                  "timeEnd": "24.000"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -399,7 +466,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1451/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend sichere Finanzierung des 1-2-3-Tickets"
+                  "text": "Antrag 1451/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend sichere Finanzierung des 1-2-3-Tickets",
+                  "timeStart": "24.000",
+                  "timeEnd": "24.200"
                 }
               ],
               "text": "Antrag 1451/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend sichere Finanzierung des 1-2-3-Tickets"
@@ -410,7 +479,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Freitag, den 26. März 2021, 9 Uhr, ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Freitag, den 26. März 2021, 9 Uhr, ein.",
+                  "timeStart": "24.200",
+                  "timeEnd": "25.280"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für Freitag, den 26. März 2021, 9 Uhr, ein."
@@ -421,7 +492,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "25.280",
+                  "timeEnd": "25.520"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -432,7 +505,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "25.520",
+                  "timeEnd": "26.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -444,7 +519,8 @@
         "mediaIndex": 1,
         "stdId": 240976,
         "debatteId": 300,
-        "proceedingIndex": 240976
+        "proceedingIndex": 240976,
+        "alignDuration": 0.7344181537628174
       },
       "originalLanguage": "de"
     }
