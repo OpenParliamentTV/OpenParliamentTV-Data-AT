@@ -4,11 +4,11 @@
     "session": "27096",
     "dateStart": "2021-04-09T15:10:45",
     "dateEnd": "2021-04-09T15:11:28",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:47+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-19T12:41:08",
     "processing": {
       "merge": "2026-06-16T04:23:47+00:00",
-      "nel": "2026-06-16T06:24:20"
+      "align": "2026-06-19T12:41:08"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "242305",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/5e995567-eab3-475a-b050-553d7346bc86/5e995567-eab3-475a-b050-553d7346bc86.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/5e995567-eab3-475a-b050-553d7346bc86/5e995567-eab3-475a-b050-553d7346bc86.mp3",
-        "duration": 43
+        "duration": 43,
+        "aligned": true
       },
       "dateStart": "2021-04-09T15:10:45",
       "dateEnd": "2021-04-09T15:11:28",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 96. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 96. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.720"
                 }
               ],
               "text": "Ich eröffne die 96. Sitzung des Nationalrates."
@@ -79,31 +82,49 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Martina Diesner-Wais , Gabriela Schwarz , Dr. Josef Smolle , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Martina Diesner-Wais , Gabriela Schwarz , Dr. Josef Smolle , Mag.",
+                  "timeStart": "1.720",
+                  "timeEnd": "3.120"
                 },
                 {
-                  "text": "Ruth Becher , Doris Bures , Cornelia Ecker , Mag."
+                  "text": "Ruth Becher , Doris Bures , Cornelia Ecker , Mag.",
+                  "timeStart": "3.120",
+                  "timeEnd": "3.640"
                 },
                 {
-                  "text": "Dr. Sonja Hammerschmid , Klaus Köchl , Mag."
+                  "text": "Dr. Sonja Hammerschmid , Klaus Köchl , Mag.",
+                  "timeStart": "3.640",
+                  "timeEnd": "4.160"
                 },
                 {
-                  "text": "Verena Nussbaum , Dr. Reinhard Eugen Bösch , Mag."
+                  "text": "Verena Nussbaum , Dr. Reinhard Eugen Bösch , Mag.",
+                  "timeStart": "4.160",
+                  "timeEnd": "4.860"
                 },
                 {
-                  "text": "Dr. Martin Graf , MMMag."
+                  "text": "Dr. Martin Graf , MMMag.",
+                  "timeStart": "4.860",
+                  "timeEnd": "5.320"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Mag."
+                  "text": "Dr. Axel Kassegger , Mag.",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.680"
                 },
                 {
-                  "text": "Eva Blimlinger , Mag."
+                  "text": "Eva Blimlinger , Mag.",
+                  "timeStart": "5.680",
+                  "timeEnd": "6.360"
                 },
                 {
-                  "text": "Meri Disoski und Mag."
+                  "text": "Meri Disoski und Mag.",
+                  "timeStart": "6.360",
+                  "timeEnd": "6.640"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA ."
+                  "text": "Dr. Jakob Schwarz, BA .",
+                  "timeStart": "6.640",
+                  "timeEnd": "7.720"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Diesner-Wais , Gabriela Schwarz , Dr. Josef Smolle , Mag. Ruth Becher , Doris Bures , Cornelia Ecker , Mag. Dr. Sonja Hammerschmid , Klaus Köchl , Mag. Verena Nussbaum , Dr. Reinhard Eugen Bösch , Mag. Dr. Martin Graf , MMMag. Dr. Axel Kassegger , Mag. Eva Blimlinger , Mag. Meri Disoski und Mag. Dr. Jakob Schwarz, BA ."
@@ -114,7 +135,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "7.720",
+                  "timeEnd": "8.200"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -125,7 +148,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "8.200",
+                  "timeEnd": "10.040"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -136,7 +161,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "10.040",
+                  "timeEnd": "10.320"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -147,7 +174,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "10.320",
+                  "timeEnd": "10.720"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -158,7 +187,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 5268/AB bis 5296/AB"
+                  "text": "Anfragebeantwortungen: 5268/AB bis 5296/AB",
+                  "timeStart": "10.720",
+                  "timeEnd": "11.440"
                 }
               ],
               "text": "Anfragebeantwortungen: 5268/AB bis 5296/AB"
@@ -169,7 +200,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "11.440",
+                  "timeEnd": "11.840"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -180,7 +213,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "11.840",
+                  "timeEnd": "12.000"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -191,7 +226,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "12.000",
+                  "timeEnd": "12.520"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -202,10 +239,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1477/A der Abgeordneten August Wöginger , Mag."
+                  "text": "Antrag 1477/A der Abgeordneten August Wöginger , Mag.",
+                  "timeStart": "12.520",
+                  "timeEnd": "14.120"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird",
+                  "timeStart": "14.120",
+                  "timeEnd": "15.600"
                 }
               ],
               "text": "Antrag 1477/A der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird"
@@ -216,7 +257,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "15.600",
+                  "timeEnd": "15.920"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -227,7 +270,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1481/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Wartezeit auf das Kinderbetreuungsgeld verkürzen"
+                  "text": "Antrag 1481/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Wartezeit auf das Kinderbetreuungsgeld verkürzen",
+                  "timeStart": "15.920",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Antrag 1481/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Wartezeit auf das Kinderbetreuungsgeld verkürzen"
@@ -238,7 +283,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.320"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -249,7 +296,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1476/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Kontrolle der Erfüllung von unternehmerischen Sorgfaltspflichten durch die österreichischen Zollbehörden"
+                  "text": "Antrag 1476/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Kontrolle der Erfüllung von unternehmerischen Sorgfaltspflichten durch die österreichischen Zollbehörden",
+                  "timeStart": "17.320",
+                  "timeEnd": "18.560"
                 }
               ],
               "text": "Antrag 1476/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Kontrolle der Erfüllung von unternehmerischen Sorgfaltspflichten durch die österreichischen Zollbehörden"
@@ -260,7 +309,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "18.560",
+                  "timeEnd": "18.760"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -271,10 +322,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1479/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1479/A(E) der Abgeordneten Mag.",
+                  "timeStart": "18.760",
+                  "timeEnd": "19.360"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-Impfungen: stärkere Einbindung der Sozialversicherung"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-Impfungen: stärkere Einbindung der Sozialversicherung",
+                  "timeStart": "19.360",
+                  "timeEnd": "19.920"
                 }
               ],
               "text": "Antrag 1479/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-Impfungen: stärkere Einbindung der Sozialversicherung"
@@ -285,10 +340,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1482/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1482/A(E) der Abgeordneten Mag.",
+                  "timeStart": "19.920",
+                  "timeEnd": "20.920"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Zusätzliche Datentransparenz bei COVID-Testungen, -Impfungen und -Spitalsaufenthalten"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Zusätzliche Datentransparenz bei COVID-Testungen, -Impfungen und -Spitalsaufenthalten",
+                  "timeStart": "20.920",
+                  "timeEnd": "22.000"
                 }
               ],
               "text": "Antrag 1482/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Zusätzliche Datentransparenz bei COVID-Testungen, -Impfungen und -Spitalsaufenthalten"
@@ -299,7 +358,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Rechnungshofausschuss:"
+                  "text": "Rechnungshofausschuss:",
+                  "timeStart": "22.000",
+                  "timeEnd": "22.400"
                 }
               ],
               "text": "Rechnungshofausschuss:"
@@ -310,7 +371,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Rechnungshofes betreffend Management von Forschungsinfrastruktur – Reihe BUND 2021/14 ( III-290 d.B. )"
+                  "text": "Bericht des Rechnungshofes betreffend Management von Forschungsinfrastruktur – Reihe BUND 2021/14 ( III-290 d.B. )",
+                  "timeStart": "22.400",
+                  "timeEnd": "24.280"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Management von Forschungsinfrastruktur – Reihe BUND 2021/14 ( III-290 d.B. )"
@@ -321,7 +384,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Rechnungshofes betreffend Überbetriebliche Lehrausbildung mit Schwerpunkt Oberösterreich und Wien – Reihe BUND 2021/15 ( III-291 d.B. )"
+                  "text": "Bericht des Rechnungshofes betreffend Überbetriebliche Lehrausbildung mit Schwerpunkt Oberösterreich und Wien – Reihe BUND 2021/15 ( III-291 d.B. )",
+                  "timeStart": "24.280",
+                  "timeEnd": "27.000"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Überbetriebliche Lehrausbildung mit Schwerpunkt Oberösterreich und Wien – Reihe BUND 2021/15 ( III-291 d.B. )"
@@ -332,7 +397,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "27.000",
+                  "timeEnd": "27.400"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -343,10 +410,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1478/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1478/A(E) der Abgeordneten Mag.",
+                  "timeStart": "27.400",
+                  "timeEnd": "28.200"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verbesserung der Luftqualität in Schulklassen im Rahmen der Pandemiebekämpfung"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verbesserung der Luftqualität in Schulklassen im Rahmen der Pandemiebekämpfung",
+                  "timeStart": "28.200",
+                  "timeEnd": "28.840"
                 }
               ],
               "text": "Antrag 1478/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verbesserung der Luftqualität in Schulklassen im Rahmen der Pandemiebekämpfung"
@@ -357,7 +428,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "28.840",
+                  "timeEnd": "30.040"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -368,7 +441,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1480/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Errichtung einer Whistleblowing-Plattform auf Bundesebene"
+                  "text": "Antrag 1480/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Errichtung einer Whistleblowing-Plattform auf Bundesebene",
+                  "timeStart": "30.040",
+                  "timeEnd": "31.880"
                 }
               ],
               "text": "Antrag 1480/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Errichtung einer Whistleblowing-Plattform auf Bundesebene"
@@ -379,7 +454,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "31.880",
+                  "timeEnd": "32.080"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -390,7 +467,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1483/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Entschärfung der Sicherheitsmängel am Bahnhof Baumgartenberg"
+                  "text": "Antrag 1483/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Entschärfung der Sicherheitsmängel am Bahnhof Baumgartenberg",
+                  "timeStart": "32.080",
+                  "timeEnd": "33.240"
                 }
               ],
               "text": "Antrag 1483/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Entschärfung der Sicherheitsmängel am Bahnhof Baumgartenberg"
@@ -401,7 +480,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "33.240",
+                  "timeEnd": "33.480"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -412,7 +493,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "33.480",
+                  "timeEnd": "33.480"
                 }
               ],
               "text": "Justizausschuss:"
@@ -423,7 +506,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für März 2021, vorgelegt von der Bundesministerin für Justiz ( III-293 d.B. )"
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für März 2021, vorgelegt von der Bundesministerin für Justiz ( III-293 d.B. )",
+                  "timeStart": "33.480",
+                  "timeEnd": "34.040"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für März 2021, vorgelegt von der Bundesministerin für Justiz ( III-293 d.B. )"
@@ -434,7 +519,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "34.040",
+                  "timeEnd": "34.440"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -445,7 +532,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht nach § 1 Abs. 4 des Bundesgesetzes über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für März 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-294 d.B. )"
+                  "text": "Bericht nach § 1 Abs. 4 des Bundesgesetzes über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für März 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-294 d.B. )",
+                  "timeStart": "34.440",
+                  "timeEnd": "35.480"
                 }
               ],
               "text": "Bericht nach § 1 Abs. 4 des Bundesgesetzes über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für März 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-294 d.B. )"
@@ -456,7 +545,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich zu:"
+                  "text": "Weiters weise ich zu:",
+                  "timeStart": "35.480",
+                  "timeEnd": "35.480"
                 }
               ],
               "text": "Weiters weise ich zu:"
@@ -467,7 +558,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "die Anträge 1484/A(E) und 1485/A(E) dem Ausschuss für Arbeit und Soziales,"
+                  "text": "die Anträge 1484/A(E) und 1485/A(E) dem Ausschuss für Arbeit und Soziales,",
+                  "timeStart": "35.480",
+                  "timeEnd": "38.160"
                 }
               ],
               "text": "die Anträge 1484/A(E) und 1485/A(E) dem Ausschuss für Arbeit und Soziales,"
@@ -478,7 +571,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "die Anträge 1486/A(E) bis 1489/A(E) dem Gesundheitsausschuss,"
+                  "text": "die Anträge 1486/A(E) bis 1489/A(E) dem Gesundheitsausschuss,",
+                  "timeStart": "38.160",
+                  "timeEnd": "39.640"
                 }
               ],
               "text": "die Anträge 1486/A(E) bis 1489/A(E) dem Gesundheitsausschuss,"
@@ -489,7 +584,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 1490/A(E) dem Ausschuss für Wirtschaft, Industrie und Energie sowie"
+                  "text": "den Antrag 1490/A(E) dem Ausschuss für Wirtschaft, Industrie und Energie sowie",
+                  "timeStart": "39.640",
+                  "timeEnd": "41.000"
                 }
               ],
               "text": "den Antrag 1490/A(E) dem Ausschuss für Wirtschaft, Industrie und Energie sowie"
@@ -500,7 +597,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "die Anträge 1491/A(E) und 1492/A(E) dem Ausschuss für Konsumentenschutz."
+                  "text": "die Anträge 1491/A(E) und 1492/A(E) dem Ausschuss für Konsumentenschutz.",
+                  "timeStart": "41.000",
+                  "timeEnd": "42.560"
                 }
               ],
               "text": "die Anträge 1491/A(E) und 1492/A(E) dem Ausschuss für Konsumentenschutz."
@@ -511,7 +610,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "42.560",
+                  "timeEnd": "43.600"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -522,7 +623,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "43.600",
+                  "timeEnd": "43.960"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -534,7 +637,8 @@
         "mediaIndex": 1,
         "stdId": 242305,
         "debatteId": 300,
-        "proceedingIndex": 242305
+        "proceedingIndex": 242305,
+        "alignDuration": 0.6017489433288574
       },
       "originalLanguage": "de"
     }

@@ -4,11 +4,11 @@
     "session": "27104",
     "dateStart": "2021-05-17T15:38:37",
     "dateEnd": "2021-05-17T15:39:34",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:48+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-19T20:59:52",
     "processing": {
       "merge": "2026-06-16T04:23:48+00:00",
-      "nel": "2026-06-16T06:24:20"
+      "align": "2026-06-19T20:59:52"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "244971",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/29723aaf-a96c-4077-a4cc-c535af7518ae/29723aaf-a96c-4077-a4cc-c535af7518ae.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/29723aaf-a96c-4077-a4cc-c535af7518ae/29723aaf-a96c-4077-a4cc-c535af7518ae.mp3",
-        "duration": 57
+        "duration": 57,
+        "aligned": true
       },
       "dateStart": "2021-05-17T15:38:37",
       "dateEnd": "2021-05-17T15:39:34",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 104. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 104. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.700"
                 }
               ],
               "text": "Ich eröffne die 104. Sitzung des Nationalrates."
@@ -79,25 +82,39 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Tanja Graf , Claudia Plakolm , Dr. Christian Stocker , Cornelia Ecker , Gabriele Heinisch-Hosek , Klaus Köchl , Maximilian Lercher , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Tanja Graf , Claudia Plakolm , Dr. Christian Stocker , Cornelia Ecker , Gabriele Heinisch-Hosek , Klaus Köchl , Maximilian Lercher , Mag.",
+                  "timeStart": "2.700",
+                  "timeEnd": "6.560"
                 },
                 {
-                  "text": "Selma Yildirim , Ing. Norbert Hofer , Mag."
+                  "text": "Selma Yildirim , Ing. Norbert Hofer , Mag.",
+                  "timeStart": "6.560",
+                  "timeEnd": "7.920"
                 },
                 {
-                  "text": "Christian Ragger , Christian Ries , Michael Schnedlitz , Mag."
+                  "text": "Christian Ragger , Christian Ries , Michael Schnedlitz , Mag.",
+                  "timeStart": "7.920",
+                  "timeEnd": "9.840"
                 },
                 {
-                  "text": "Philipp Schrangl , Mag."
+                  "text": "Philipp Schrangl , Mag.",
+                  "timeStart": "9.840",
+                  "timeEnd": "10.240"
                 },
                 {
-                  "text": "Harald Stefan , Mag."
+                  "text": "Harald Stefan , Mag.",
+                  "timeStart": "10.240",
+                  "timeEnd": "11.160"
                 },
                 {
-                  "text": "Georg Bürstmayr , Michael Bernhard , Mag."
+                  "text": "Georg Bürstmayr , Michael Bernhard , Mag.",
+                  "timeStart": "11.160",
+                  "timeEnd": "12.440"
                 },
                 {
-                  "text": "Felix Eypeltauer , Fiona Fiedler, BEd und Josef Schellhorn ."
+                  "text": "Felix Eypeltauer , Fiona Fiedler, BEd und Josef Schellhorn .",
+                  "timeStart": "12.440",
+                  "timeEnd": "13.320"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Tanja Graf , Claudia Plakolm , Dr. Christian Stocker , Cornelia Ecker , Gabriele Heinisch-Hosek , Klaus Köchl , Maximilian Lercher , Mag. Selma Yildirim , Ing. Norbert Hofer , Mag. Christian Ragger , Christian Ries , Michael Schnedlitz , Mag. Philipp Schrangl , Mag. Harald Stefan , Mag. Georg Bürstmayr , Michael Bernhard , Mag. Felix Eypeltauer , Fiona Fiedler, BEd und Josef Schellhorn ."
@@ -108,7 +125,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "13.320",
+                  "timeEnd": "13.880"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -119,7 +138,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "13.880",
+                  "timeEnd": "16.320"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -130,7 +151,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "16.320",
+                  "timeEnd": "17.220"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -141,7 +164,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "17.220",
+                  "timeEnd": "18.520"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -152,7 +177,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 5785/AB bis 5812/AB"
+                  "text": "Anfragebeantwortungen: 5785/AB bis 5812/AB",
+                  "timeStart": "18.520",
+                  "timeEnd": "21.320"
                 }
               ],
               "text": "Anfragebeantwortungen: 5785/AB bis 5812/AB"
@@ -163,7 +190,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "21.320",
+                  "timeEnd": "22.080"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -174,7 +203,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "22.080",
+                  "timeEnd": "23.240"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -185,7 +216,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "23.240",
+                  "timeEnd": "23.480"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -196,7 +229,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1580/A der Abgeordneten Gabriel Obernosterer , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz zur Beschaffung von und Verfügung über SARS-CoV-2-Antigentests zur Eigenanwendung im Rahmen der COVID-19-Öffnungsverordnung"
+                  "text": "Antrag 1580/A der Abgeordneten Gabriel Obernosterer , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz zur Beschaffung von und Verfügung über SARS-CoV-2-Antigentests zur Eigenanwendung im Rahmen der COVID-19-Öffnungsverordnung",
+                  "timeStart": "23.480",
+                  "timeEnd": "26.800"
                 }
               ],
               "text": "Antrag 1580/A der Abgeordneten Gabriel Obernosterer , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz zur Beschaffung von und Verfügung über SARS-CoV-2-Antigentests zur Eigenanwendung im Rahmen der COVID-19-Öffnungsverordnung"
@@ -207,7 +242,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "26.800",
+                  "timeEnd": "27.040"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -218,7 +255,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (20. FSG-Novelle) ( 848 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (20. FSG-Novelle) ( 848 d.B. )",
+                  "timeStart": "27.040",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (20. FSG-Novelle) ( 848 d.B. )"
@@ -229,7 +268,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985 und das Symbole-Gesetz geändert werden ( 854 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985 und das Symbole-Gesetz geändert werden ( 854 d.B. )",
+                  "timeStart": "27.800",
+                  "timeEnd": "30.360"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985 und das Symbole-Gesetz geändert werden ( 854 d.B. )"
@@ -240,7 +281,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "30.360",
+                  "timeEnd": "31.580"
                 }
               ],
               "text": "Justizausschuss:"
@@ -251,7 +294,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Terror-Bekämpfungs-Gesetz – TeBG ( 849 d.B. )"
+                  "text": "Terror-Bekämpfungs-Gesetz – TeBG ( 849 d.B. )",
+                  "timeStart": "31.580",
+                  "timeEnd": "32.200"
                 }
               ],
               "text": "Terror-Bekämpfungs-Gesetz – TeBG ( 849 d.B. )"
@@ -262,7 +307,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "32.200",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -273,7 +320,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Heeresgebührengesetz 2001 und das Heeresdisziplinargesetz 2014 geändert werden ( 851 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Heeresgebührengesetz 2001 und das Heeresdisziplinargesetz 2014 geändert werden ( 851 d.B. )",
+                  "timeStart": "32.720",
+                  "timeEnd": "33.200"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Heeresgebührengesetz 2001 und das Heeresdisziplinargesetz 2014 geändert werden ( 851 d.B. )"
@@ -284,7 +333,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "33.200",
+                  "timeEnd": "33.400"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -295,7 +346,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesgesetz über die Rechtspersönlichkeit von religiösen Bekenntnisgemeinschaften und das Islamgesetz 2015 geändert werden ( 850 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesgesetz über die Rechtspersönlichkeit von religiösen Bekenntnisgemeinschaften und das Islamgesetz 2015 geändert werden ( 850 d.B. )",
+                  "timeStart": "33.400",
+                  "timeEnd": "34.880"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über die Rechtspersönlichkeit von religiösen Bekenntnisgemeinschaften und das Islamgesetz 2015 geändert werden ( 850 d.B. )"
@@ -306,16 +359,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1581/A der Abgeordneten Mag."
+                  "text": "Antrag 1581/A der Abgeordneten Mag.",
+                  "timeStart": "34.880",
+                  "timeEnd": "36.080"
                 },
                 {
-                  "text": "Jörg Leichtfried , Herbert Kickl , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art."
+                  "text": "Jörg Leichtfried , Herbert Kickl , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art.",
+                  "timeStart": "36.080",
+                  "timeEnd": "37.400"
                 },
                 {
-                  "text": "142 Abs. 2 lit."
+                  "text": "142 Abs. 2 lit.",
+                  "timeStart": "37.400",
+                  "timeEnd": "38.260"
                 },
                 {
-                  "text": "b B-VG wider den Bundesminister für Finanzen"
+                  "text": "b B-VG wider den Bundesminister für Finanzen",
+                  "timeStart": "38.260",
+                  "timeEnd": "38.520"
                 }
               ],
               "text": "Antrag 1581/A der Abgeordneten Mag. Jörg Leichtfried , Herbert Kickl , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art. 142 Abs. 2 lit. b B-VG wider den Bundesminister für Finanzen"
@@ -326,7 +387,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "38.520",
+                  "timeEnd": "38.760"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -337,7 +400,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "38.760",
+                  "timeEnd": "39.000"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -348,7 +413,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Jahresbericht 2020 der Agentur für Passagier- und Fahrgastrechte, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-320 d.B. )"
+                  "text": "Jahresbericht 2020 der Agentur für Passagier- und Fahrgastrechte, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-320 d.B. )",
+                  "timeStart": "39.000",
+                  "timeEnd": "40.520"
                 }
               ],
               "text": "Jahresbericht 2020 der Agentur für Passagier- und Fahrgastrechte, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-320 d.B. )"
@@ -359,7 +426,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich die Anträge"
+                  "text": "Weiters weise ich die Anträge",
+                  "timeStart": "40.520",
+                  "timeEnd": "40.520"
                 }
               ],
               "text": "Weiters weise ich die Anträge"
@@ -370,7 +439,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1582/A und 1583/A dem Tourismusausschuss,"
+                  "text": "1582/A und 1583/A dem Tourismusausschuss,",
+                  "timeStart": "40.520",
+                  "timeEnd": "42.680"
                 }
               ],
               "text": "1582/A und 1583/A dem Tourismusausschuss,"
@@ -381,7 +452,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1584/A und 1585/A dem Unterrichtsausschuss,"
+                  "text": "1584/A und 1585/A dem Unterrichtsausschuss,",
+                  "timeStart": "42.680",
+                  "timeEnd": "44.440"
                 }
               ],
               "text": "1584/A und 1585/A dem Unterrichtsausschuss,"
@@ -392,7 +465,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1586/A dem Gesundheitsausschuss sowie"
+                  "text": "1586/A dem Gesundheitsausschuss sowie",
+                  "timeStart": "44.440",
+                  "timeEnd": "45.440"
                 }
               ],
               "text": "1586/A dem Gesundheitsausschuss sowie"
@@ -403,7 +478,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1587/A dem Ausschuss für Konsumentenschutz"
+                  "text": "1587/A dem Ausschuss für Konsumentenschutz",
+                  "timeStart": "45.440",
+                  "timeEnd": "46.160"
                 }
               ],
               "text": "1587/A dem Ausschuss für Konsumentenschutz"
@@ -414,7 +491,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zu."
+                  "text": "zu.",
+                  "timeStart": "46.160",
+                  "timeEnd": "46.400"
                 }
               ],
               "text": "zu."
@@ -425,10 +504,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für den 19. Mai um 9 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für den 19. Mai um 9 Uhr ein.",
+                  "timeStart": "46.400",
+                  "timeEnd": "47.720"
                 },
                 {
-                  "text": "Die Tagesordnung ergeht auf schriftlichem Wege."
+                  "text": "Die Tagesordnung ergeht auf schriftlichem Wege.",
+                  "timeStart": "47.720",
+                  "timeEnd": "48.280"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für den 19. Mai um 9 Uhr ein. Die Tagesordnung ergeht auf schriftlichem Wege."
@@ -439,7 +522,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich danke der Bundesregierung herzlich für die Teilnahme."
+                  "text": "Ich danke der Bundesregierung herzlich für die Teilnahme.",
+                  "timeStart": "48.280",
+                  "timeEnd": "48.800"
                 }
               ],
               "text": "Ich danke der Bundesregierung herzlich für die Teilnahme."
@@ -450,7 +535,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "48.800",
+                  "timeEnd": "49.560"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -462,7 +549,8 @@
         "mediaIndex": 1,
         "stdId": 244971,
         "debatteId": 300,
-        "proceedingIndex": 244971
+        "proceedingIndex": 244971,
+        "alignDuration": 0.5425689220428467
       },
       "originalLanguage": "de"
     }

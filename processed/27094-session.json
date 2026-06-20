@@ -4,11 +4,11 @@
     "session": "27094",
     "dateStart": "2021-03-26T17:57:14",
     "dateEnd": "2021-03-26T17:58:07",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:47+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-19T11:34:25",
     "processing": {
       "merge": "2026-06-16T04:23:47+00:00",
-      "nel": "2026-06-16T06:24:20"
+      "align": "2026-06-19T11:34:25"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "241504",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/c86cc9d0-c56b-4fd4-9c8e-15e2036443a1/c86cc9d0-c56b-4fd4-9c8e-15e2036443a1.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/c86cc9d0-c56b-4fd4-9c8e-15e2036443a1/c86cc9d0-c56b-4fd4-9c8e-15e2036443a1.mp3",
-        "duration": 53
+        "duration": 53,
+        "aligned": true
       },
       "dateStart": "2021-03-26T17:57:14",
       "dateEnd": "2021-03-26T17:58:07",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 94. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 94. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.440"
                 }
               ],
               "text": "Ich eröffne die 94. Sitzung des Nationalrates."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "2.440",
+                  "timeEnd": "2.760"
                 },
                 {
-                  "text": "Martin Engelberg , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Bettina Zopf , Doris Bures , Cornelia Ecker , Klaus Köchl , Katharina Kucharowits , Philip Kucher , Josef Muchitsch , Wolfgang Zanger und Mag."
+                  "text": "Martin Engelberg , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Bettina Zopf , Doris Bures , Cornelia Ecker , Klaus Köchl , Katharina Kucharowits , Philip Kucher , Josef Muchitsch , Wolfgang Zanger und Mag.",
+                  "timeStart": "2.760",
+                  "timeEnd": "6.200"
                 },
                 {
-                  "text": "Beate Meinl-Reisinger, MES ."
+                  "text": "Beate Meinl-Reisinger, MES .",
+                  "timeStart": "6.200",
+                  "timeEnd": "6.960"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Bettina Zopf , Doris Bures , Cornelia Ecker , Klaus Köchl , Katharina Kucharowits , Philip Kucher , Josef Muchitsch , Wolfgang Zanger und Mag. Beate Meinl-Reisinger, MES ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "6.960",
+                  "timeEnd": "7.280"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "7.280",
+                  "timeEnd": "7.840"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "7.840",
+                  "timeEnd": "8.520"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "8.520",
+                  "timeEnd": "9.120"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 5144/AB bis 5151/AB"
+                  "text": "Anfragebeantwortungen: 5144/AB bis 5151/AB",
+                  "timeStart": "9.120",
+                  "timeEnd": "9.560"
                 }
               ],
               "text": "Anfragebeantwortungen: 5144/AB bis 5151/AB"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen:"
+                  "text": "B. Zuweisungen:",
+                  "timeStart": "9.560",
+                  "timeEnd": "9.840"
                 }
               ],
               "text": "B. Zuweisungen:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:"
+                  "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:",
+                  "timeStart": "9.840",
+                  "timeEnd": "13.320"
                 }
               ],
               "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Petitionen und Bürgerinitiativen:"
+                  "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
+                  "timeStart": "13.320",
+                  "timeEnd": "13.720"
                 }
               ],
               "text": "Ausschuss für Petitionen und Bürgerinitiativen:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Petition Nr. 54 betreffend \"Verpflichtende Erdkabel für 110kV Leitungen\", überreicht von der Abgeordneten Dipl.-Ing. Karin Doppelbauer"
+                  "text": "Petition Nr. 54 betreffend \"Verpflichtende Erdkabel für 110kV Leitungen\", überreicht von der Abgeordneten Dipl.-Ing. Karin Doppelbauer",
+                  "timeStart": "13.720",
+                  "timeEnd": "16.560"
                 }
               ],
               "text": "Petition Nr. 54 betreffend \"Verpflichtende Erdkabel für 110kV Leitungen\", überreicht von der Abgeordneten Dipl.-Ing. Karin Doppelbauer"
@@ -195,10 +222,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Petition Nr. 55 betreffend \"Förderung und bevorzugte Nutzung erneuerbarer Energieträger unter umwelt- und landschaftsverträglichen Bedingungen\", überreicht vom Abgeordneten Mag."
+                  "text": "Petition Nr. 55 betreffend \"Förderung und bevorzugte Nutzung erneuerbarer Energieträger unter umwelt- und landschaftsverträglichen Bedingungen\", überreicht vom Abgeordneten Mag.",
+                  "timeStart": "16.560",
+                  "timeEnd": "19.160"
                 },
                 {
-                  "text": "Christian Ragger"
+                  "text": "Christian Ragger",
+                  "timeStart": "19.160",
+                  "timeEnd": "19.160"
                 }
               ],
               "text": "Petition Nr. 55 betreffend \"Förderung und bevorzugte Nutzung erneuerbarer Energieträger unter umwelt- und landschaftsverträglichen Bedingungen\", überreicht vom Abgeordneten Mag. Christian Ragger"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Zuweisungen in dieser Sitzung"
+                  "text": "2. Zuweisungen in dieser Sitzung",
+                  "timeStart": "19.160",
+                  "timeEnd": "19.160"
                 }
               ],
               "text": "2. Zuweisungen in dieser Sitzung"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "19.160",
+                  "timeEnd": "19.760"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "19.760",
+                  "timeEnd": "20.120"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -242,7 +279,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1469/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der Istanbul Konvention"
+                  "text": "Antrag 1469/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der Istanbul Konvention",
+                  "timeStart": "20.120",
+                  "timeEnd": "21.600"
                 }
               ],
               "text": "Antrag 1469/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der Istanbul Konvention"
@@ -253,7 +292,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "21.600",
+                  "timeEnd": "22.000"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -264,10 +305,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1458/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1458/A(E) der Abgeordneten Mag.",
+                  "timeStart": "22.000",
+                  "timeEnd": "23.640"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende Antikörpertests"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende Antikörpertests",
+                  "timeStart": "23.640",
+                  "timeEnd": "24.240"
                 }
               ],
               "text": "Antrag 1458/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende Antikörpertests"
@@ -278,7 +323,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1465/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
+                  "text": "Antrag 1465/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
+                  "timeStart": "24.240",
+                  "timeEnd": "26.520"
                 }
               ],
               "text": "Antrag 1465/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
@@ -289,7 +336,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1466/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
+                  "text": "Antrag 1466/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden",
+                  "timeStart": "26.520",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1466/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
@@ -300,7 +349,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1467/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
+                  "text": "Antrag 1467/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1467/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
@@ -311,7 +362,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1468/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird"
+                  "text": "Antrag 1468/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1468/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1470/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz – AMG geändert wird"
+                  "text": "Antrag 1470/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz – AMG geändert wird",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1470/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz – AMG geändert wird"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1461/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich"
+                  "text": "Antrag 1461/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1461/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -366,7 +427,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1459/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend sofortiger Importstopp von Kartoffeln aus dem EU-Ausland um heimische Bauern wieder zu stärken"
+                  "text": "Antrag 1459/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend sofortiger Importstopp von Kartoffeln aus dem EU-Ausland um heimische Bauern wieder zu stärken",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1459/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend sofortiger Importstopp von Kartoffeln aus dem EU-Ausland um heimische Bauern wieder zu stärken"
@@ -377,7 +440,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -388,7 +453,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1460/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich"
+                  "text": "Antrag 1460/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag 1460/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich"
@@ -399,7 +466,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Rechnungshofausschuss:"
+                  "text": "Rechnungshofausschuss:",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Rechnungshofausschuss:"
@@ -410,7 +479,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Rechnungshofes betreffend Generalsekretariate in den Bundesministerien – Reihe BUND 2021/12 ( III-276 d.B. )"
+                  "text": "Bericht des Rechnungshofes betreffend Generalsekretariate in den Bundesministerien – Reihe BUND 2021/12 ( III-276 d.B. )",
+                  "timeStart": "28.280",
+                  "timeEnd": "29.160"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Generalsekretariate in den Bundesministerien – Reihe BUND 2021/12 ( III-276 d.B. )"
@@ -421,7 +492,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Rechnungshofes betreffend Verwaltungssponsoring und Schenkungen in ausgewählten Bundesministerien – Reihe BUND 2021/13 ( III-277 d.B. )"
+                  "text": "Bericht des Rechnungshofes betreffend Verwaltungssponsoring und Schenkungen in ausgewählten Bundesministerien – Reihe BUND 2021/13 ( III-277 d.B. )",
+                  "timeStart": "29.160",
+                  "timeEnd": "29.960"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Verwaltungssponsoring und Schenkungen in ausgewählten Bundesministerien – Reihe BUND 2021/13 ( III-277 d.B. )"
@@ -432,7 +505,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Sportausschuss:"
+                  "text": "Sportausschuss:",
+                  "timeStart": "29.960",
+                  "timeEnd": "30.800"
                 }
               ],
               "text": "Sportausschuss:"
@@ -443,10 +518,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1457/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1457/A(E) der Abgeordneten Mag.",
+                  "timeStart": "30.800",
+                  "timeEnd": "30.880"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer , Christoph Zarits , Kolleginnen und Kollegen betreffend Vorlage eines jährlichen Sportberichts an den Nationalrat"
+                  "text": "Agnes Sirkka Prammer , Christoph Zarits , Kolleginnen und Kollegen betreffend Vorlage eines jährlichen Sportberichts an den Nationalrat",
+                  "timeStart": "30.880",
+                  "timeEnd": "32.480"
                 }
               ],
               "text": "Antrag 1457/A(E) der Abgeordneten Mag. Agnes Sirkka Prammer , Christoph Zarits , Kolleginnen und Kollegen betreffend Vorlage eines jährlichen Sportberichts an den Nationalrat"
@@ -457,7 +536,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "32.480",
+                  "timeEnd": "32.920"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -468,7 +549,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1462/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Nachhaltigkeit statt geplanter Obsoleszenz"
+                  "text": "Antrag 1462/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Nachhaltigkeit statt geplanter Obsoleszenz",
+                  "timeStart": "32.920",
+                  "timeEnd": "34.440"
                 }
               ],
               "text": "Antrag 1462/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Nachhaltigkeit statt geplanter Obsoleszenz"
@@ -479,7 +562,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "34.440",
+                  "timeEnd": "34.560"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -490,7 +575,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1463/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Einführung eines legislativen Fußabdrucks"
+                  "text": "Antrag 1463/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Einführung eines legislativen Fußabdrucks",
+                  "timeStart": "34.560",
+                  "timeEnd": "36.720"
                 }
               ],
               "text": "Antrag 1463/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Einführung eines legislativen Fußabdrucks"
@@ -501,7 +588,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1464/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Fake-News-Rechenschaftsbericht der Bundesregierung"
+                  "text": "Antrag 1464/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Fake-News-Rechenschaftsbericht der Bundesregierung",
+                  "timeStart": "36.720",
+                  "timeEnd": "37.880"
                 }
               ],
               "text": "Antrag 1464/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Fake-News-Rechenschaftsbericht der Bundesregierung"
@@ -512,7 +601,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "37.880",
+                  "timeEnd": "39.080"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -523,7 +614,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "39.080",
+                  "timeEnd": "40.160"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -534,7 +627,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt vom Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz ( III-280 d.B. )"
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt vom Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz ( III-280 d.B. )",
+                  "timeStart": "40.160",
+                  "timeEnd": "41.440"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt vom Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz ( III-280 d.B. )"
@@ -545,7 +640,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "41.440",
+                  "timeEnd": "42.080"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -556,7 +653,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-279 d.B. )"
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-279 d.B. )",
+                  "timeStart": "42.080",
+                  "timeEnd": "42.840"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-279 d.B. )"
@@ -567,7 +666,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich zu:"
+                  "text": "Weiters weise ich zu:",
+                  "timeStart": "42.840",
+                  "timeEnd": "42.920"
                 }
               ],
               "text": "Weiters weise ich zu:"
@@ -578,7 +679,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 1471/A(E) und 1472/A(E) sowie 1474/A(E) dem Ausschuss für Menschenrechte,"
+                  "text": "den Antrag 1471/A(E) und 1472/A(E) sowie 1474/A(E) dem Ausschuss für Menschenrechte,",
+                  "timeStart": "42.920",
+                  "timeEnd": "43.920"
                 }
               ],
               "text": "den Antrag 1471/A(E) und 1472/A(E) sowie 1474/A(E) dem Ausschuss für Menschenrechte,"
@@ -589,7 +692,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 1473 A(E) dem Justizausschuss sowie"
+                  "text": "den Antrag 1473 A(E) dem Justizausschuss sowie",
+                  "timeStart": "43.920",
+                  "timeEnd": "44.720"
                 }
               ],
               "text": "den Antrag 1473 A(E) dem Justizausschuss sowie"
@@ -600,7 +705,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 1475/A dem Ausschuss für Arbeit und Soziales."
+                  "text": "den Antrag 1475/A dem Ausschuss für Arbeit und Soziales.",
+                  "timeStart": "44.720",
+                  "timeEnd": "45.720"
                 }
               ],
               "text": "den Antrag 1475/A dem Ausschuss für Arbeit und Soziales."
@@ -611,7 +718,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "45.720",
+                  "timeEnd": "48.200"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -622,10 +731,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Herzlichen Dank."
+                  "text": "Herzlichen Dank.",
+                  "timeStart": "48.200",
+                  "timeEnd": "48.960"
                 },
                 {
-                  "text": "Kommen Sie gut nach Hause."
+                  "text": "Kommen Sie gut nach Hause.",
+                  "timeStart": "48.960",
+                  "timeEnd": "50.000"
                 }
               ],
               "text": "Herzlichen Dank. Kommen Sie gut nach Hause."
@@ -636,7 +749,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "50.000",
+                  "timeEnd": "53.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -648,7 +763,8 @@
         "mediaIndex": 1,
         "stdId": 241504,
         "debatteId": 300,
-        "proceedingIndex": 241504
+        "proceedingIndex": 241504,
+        "alignDuration": 0.8411712646484375
       },
       "originalLanguage": "de"
     }
