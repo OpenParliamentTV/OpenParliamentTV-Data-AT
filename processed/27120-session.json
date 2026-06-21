@@ -4,11 +4,11 @@
     "session": "27120",
     "dateStart": "2021-07-19T14:38:20",
     "dateEnd": "2021-07-19T14:40:49",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:51+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-20T20:02:21",
     "processing": {
       "merge": "2026-06-16T04:23:51+00:00",
-      "nel": "2026-06-16T06:24:21"
+      "align": "2026-06-20T20:02:21"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "251780",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/7f390a55-812f-4473-9ccf-867f98216139/7f390a55-812f-4473-9ccf-867f98216139.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/7f390a55-812f-4473-9ccf-867f98216139/7f390a55-812f-4473-9ccf-867f98216139.mp3",
-        "duration": 32
+        "duration": 32,
+        "aligned": true
       },
       "dateStart": "2021-07-19T14:38:20",
       "dateEnd": "2021-07-19T14:38:52",
@@ -68,7 +69,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "14.38.18*****"
+                  "text": "14.38.18*****",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.960"
                 }
               ],
               "text": "14.38.18*****"
@@ -79,7 +82,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 120. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 120. Sitzung des Nationalrates.",
+                  "timeStart": "3.960",
+                  "timeEnd": "6.000"
                 }
               ],
               "text": "Ich eröffne die 120. Sitzung des Nationalrates."
@@ -90,58 +95,94 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "6.000",
+                  "timeEnd": "7.680"
                 },
                 {
-                  "text": "Martin Engelberg , Mag."
+                  "text": "Martin Engelberg , Mag.",
+                  "timeStart": "7.680",
+                  "timeEnd": "8.280"
                 },
                 {
-                  "text": "Carmen Jeitler-Cincelli, BA , Nico Marchetti , Alexander Melchior , Ing. Mag. ("
+                  "text": "Carmen Jeitler-Cincelli, BA , Nico Marchetti , Alexander Melchior , Ing. Mag. (",
+                  "timeStart": "8.280",
+                  "timeEnd": "9.120"
                 },
                 {
-                  "text": "FH) Alexandra Tanda , Mag."
+                  "text": "FH) Alexandra Tanda , Mag.",
+                  "timeStart": "9.120",
+                  "timeEnd": "10.000"
                 },
                 {
-                  "text": "Dr. Rudolf Taschner , Mag."
+                  "text": "Dr. Rudolf Taschner , Mag.",
+                  "timeStart": "10.000",
+                  "timeEnd": "10.640"
                 },
                 {
-                  "text": "Ruth Becher , Melanie Erasim, MSc , Mag."
+                  "text": "Ruth Becher , Melanie Erasim, MSc , Mag.",
+                  "timeStart": "10.640",
+                  "timeEnd": "10.640"
                 },
                 {
-                  "text": "Karin Greiner , Mag."
+                  "text": "Karin Greiner , Mag.",
+                  "timeStart": "10.640",
+                  "timeEnd": "10.640"
                 },
                 {
-                  "text": "Andrea Kuntzl , Petra Vorderwinkler , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , MMag."
+                  "text": "Andrea Kuntzl , Petra Vorderwinkler , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , MMag.",
+                  "timeStart": "10.640",
+                  "timeEnd": "11.200"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "11.200",
+                  "timeEnd": "11.200"
                 },
                 {
-                  "text": "Hubert Fuchs , Dr. Susanne Fürst , Mag."
+                  "text": "Hubert Fuchs , Dr. Susanne Fürst , Mag.",
+                  "timeStart": "11.200",
+                  "timeEnd": "11.440"
                 },
                 {
-                  "text": "Gerald Hauser , Alois Kainz , Herbert Kickl , Ing. Mag."
+                  "text": "Gerald Hauser , Alois Kainz , Herbert Kickl , Ing. Mag.",
+                  "timeStart": "11.440",
+                  "timeEnd": "11.440"
                 },
                 {
-                  "text": "Volker Reifenberger , Christian Ries , Mag."
+                  "text": "Volker Reifenberger , Christian Ries , Mag.",
+                  "timeStart": "11.440",
+                  "timeEnd": "12.120"
                 },
                 {
-                  "text": "Harald Stefan , Dr. Ewa Ernst-Dziedzic , Mag."
+                  "text": "Harald Stefan , Dr. Ewa Ernst-Dziedzic , Mag.",
+                  "timeStart": "12.120",
+                  "timeEnd": "12.600"
                 },
                 {
-                  "text": "Markus Koza , Bedrana Ribo, MA , Dr. Helmut Brandstätter , Mag."
+                  "text": "Markus Koza , Bedrana Ribo, MA , Dr. Helmut Brandstätter , Mag.",
+                  "timeStart": "12.600",
+                  "timeEnd": "13.040"
                 },
                 {
-                  "text": "Felix Eypeltauer , Mag."
+                  "text": "Felix Eypeltauer , Mag.",
+                  "timeStart": "13.040",
+                  "timeEnd": "13.120"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Mag."
+                  "text": "Martina Künsberg Sarre , Mag.",
+                  "timeStart": "13.120",
+                  "timeEnd": "13.120"
                 },
                 {
-                  "text": "Beate Meinl-Reisinger, MES , Josef Schellhorn und Mag."
+                  "text": "Beate Meinl-Reisinger, MES , Josef Schellhorn und Mag.",
+                  "timeStart": "13.120",
+                  "timeEnd": "13.680"
                 },
                 {
-                  "text": "Yannick Shetty ."
+                  "text": "Yannick Shetty .",
+                  "timeStart": "13.680",
+                  "timeEnd": "13.840"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Mag. Carmen Jeitler-Cincelli, BA , Nico Marchetti , Alexander Melchior , Ing. Mag. (FH) Alexandra Tanda , Mag. Dr. Rudolf Taschner , Mag. Ruth Becher , Melanie Erasim, MSc , Mag. Karin Greiner , Mag. Andrea Kuntzl , Petra Vorderwinkler , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , MMag. DDr. Hubert Fuchs , Dr. Susanne Fürst , Mag. Gerald Hauser , Alois Kainz , Herbert Kickl , Ing. Mag. Volker Reifenberger , Christian Ries , Mag. Harald Stefan , Dr. Ewa Ernst-Dziedzic , Mag. Markus Koza , Bedrana Ribo, MA , Dr. Helmut Brandstätter , Mag. Felix Eypeltauer , Mag. Martina Künsberg Sarre , Mag. Beate Meinl-Reisinger, MES , Josef Schellhorn und Mag. Yannick Shetty ."
@@ -152,7 +193,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "13.840",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -163,7 +206,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "14.840",
+                  "timeEnd": "16.600"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -174,7 +219,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "16.600",
+                  "timeEnd": "16.720"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -185,7 +232,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "16.720",
+                  "timeEnd": "16.720"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -196,7 +245,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 6582/AB bis 6614/AB"
+                  "text": "Anfragebeantwortungen: 6582/AB bis 6614/AB",
+                  "timeStart": "16.720",
+                  "timeEnd": "18.440"
                 }
               ],
               "text": "Anfragebeantwortungen: 6582/AB bis 6614/AB"
@@ -207,7 +258,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "18.440",
+                  "timeEnd": "18.560"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -218,7 +271,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "18.560",
+                  "timeEnd": "18.600"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -229,7 +284,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "18.600",
+                  "timeEnd": "19.400"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -240,7 +297,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1844/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Wiederherstellung der Rechtslage vor dem VfGH-Erkenntnis V95-96 vom 23. Juni 2021 betreffend Beschäftigung von Asylwerbern durch eine entsprechende Verordnung des Bundesministers für Arbeit"
+                  "text": "Antrag 1844/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Wiederherstellung der Rechtslage vor dem VfGH-Erkenntnis V95-96 vom 23. Juni 2021 betreffend Beschäftigung von Asylwerbern durch eine entsprechende Verordnung des Bundesministers für Arbeit",
+                  "timeStart": "19.400",
+                  "timeEnd": "22.680"
                 }
               ],
               "text": "Antrag 1844/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Wiederherstellung der Rechtslage vor dem VfGH-Erkenntnis V95-96 vom 23. Juni 2021 betreffend Beschäftigung von Asylwerbern durch eine entsprechende Verordnung des Bundesministers für Arbeit"
@@ -251,7 +310,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "22.680",
+                  "timeEnd": "22.960"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -262,10 +323,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag 1845/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1845/A(E) der Abgeordneten Mag.",
+                  "timeStart": "22.960",
+                  "timeEnd": "23.960"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Persönliche Assistenz für Schülerinnen und Schüler mit Behinderungen"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Persönliche Assistenz für Schülerinnen und Schüler mit Behinderungen",
+                  "timeStart": "23.960",
+                  "timeEnd": "24.800"
                 }
               ],
               "text": "Antrag 1845/A(E) der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Persönliche Assistenz für Schülerinnen und Schüler mit Behinderungen"
@@ -276,7 +341,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "24.800",
+                  "timeEnd": "26.480"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -287,7 +354,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "26.480",
+                  "timeEnd": "26.640"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -298,7 +367,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2021, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-377 d.B. )"
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2021, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-377 d.B. )",
+                  "timeStart": "26.640",
+                  "timeEnd": "29.360"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2021, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-377 d.B. )"
@@ -309,7 +380,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 1846/A(E) dem Ausschuss für Arbeit und Soziales zu."
+                  "text": "Weiters weise ich den Antrag 1846/A(E) dem Ausschuss für Arbeit und Soziales zu.",
+                  "timeStart": "29.360",
+                  "timeEnd": "32.000"
                 }
               ],
               "text": "Weiters weise ich den Antrag 1846/A(E) dem Ausschuss für Arbeit und Soziales zu."
@@ -321,7 +394,8 @@
         "mediaIndex": 1,
         "stdId": 251780,
         "debatteId": 300,
-        "proceedingIndex": 251780
+        "proceedingIndex": 251780,
+        "alignDuration": 0.6049869060516357
       },
       "originalLanguage": "de"
     },
@@ -349,7 +423,8 @@
         "originMediaID": "251792",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/a599155d-6c15-4b4e-aaff-603f7fbbff7f/a599155d-6c15-4b4e-aaff-603f7fbbff7f.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/a599155d-6c15-4b4e-aaff-603f7fbbff7f/a599155d-6c15-4b4e-aaff-603f7fbbff7f.mp3",
-        "duration": 39
+        "duration": 39,
+        "aligned": true
       },
       "dateStart": "2021-07-19T14:38:52",
       "dateEnd": "2021-07-19T14:39:31",
@@ -381,7 +456,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Beschluss auf Beendigung der außerordentlichen Tagung 2021"
+                  "text": "Beschluss auf Beendigung der außerordentlichen Tagung 2021",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.080"
                 }
               ],
               "text": "Beschluss auf Beendigung der außerordentlichen Tagung 2021"
@@ -392,7 +469,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Es liegt mir folgender Antrag der Abgeordneten Wöginger, Maurer, Leichtfried, Belakowitsch und Scherak vor:"
+                  "text": "Es liegt mir folgender Antrag der Abgeordneten Wöginger, Maurer, Leichtfried, Belakowitsch und Scherak vor:",
+                  "timeStart": "4.080",
+                  "timeEnd": "8.020"
                 }
               ],
               "text": "Es liegt mir folgender Antrag der Abgeordneten Wöginger, Maurer, Leichtfried, Belakowitsch und Scherak vor:"
@@ -403,10 +482,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII."
+                  "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII.",
+                  "timeStart": "8.020",
+                  "timeEnd": "17.040"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.“",
+                  "timeStart": "17.040",
+                  "timeEnd": "26.280"
                 }
               ],
               "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.“"
@@ -417,10 +500,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die diesem Antrag zustimmen, um ein entsprechendes Zeichen. –"
+                  "text": "Ich bitte jene Damen und Herren, die diesem Antrag zustimmen, um ein entsprechendes Zeichen. –",
+                  "timeStart": "26.280",
+                  "timeEnd": "35.440"
                 },
                 {
-                  "text": "Das ist einstimmig angenommen."
+                  "text": "Das ist einstimmig angenommen.",
+                  "timeStart": "35.440",
+                  "timeEnd": "40.000"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die diesem Antrag zustimmen, um ein entsprechendes Zeichen. – Das ist einstimmig angenommen."
@@ -432,7 +519,8 @@
         "mediaIndex": 2,
         "stdId": 251792,
         "debatteId": 310,
-        "proceedingIndex": 251792
+        "proceedingIndex": 251792,
+        "alignDuration": 0.33249711990356445
       },
       "originalLanguage": "de"
     },
@@ -460,7 +548,8 @@
         "originMediaID": "251795",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d31166a7-f604-448d-ad06-be27eb73ff60/d31166a7-f604-448d-ad06-be27eb73ff60.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d31166a7-f604-448d-ad06-be27eb73ff60/d31166a7-f604-448d-ad06-be27eb73ff60.mp3",
-        "duration": 78
+        "duration": 78,
+        "aligned": true
       },
       "dateStart": "2021-07-19T14:39:31",
       "dateEnd": "2021-07-19T14:40:49",
@@ -492,7 +581,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Verlesung eines Teiles des Amtlichen Protokolls"
+                  "text": "Verlesung eines Teiles des Amtlichen Protokolls",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.160"
                 }
               ],
               "text": "Verlesung eines Teiles des Amtlichen Protokolls"
@@ -503,7 +594,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Um eine umgehende Ausfertigung dieses Beschlusses zu ermöglichen, verlese ich entsprechend einem schriftlichen Verlangen von 20 Abgeordneten den diesbezüglichen Teil des Amtlichen Protokolls, damit dieser mit Schluss der Sitzung als genehmigt gilt."
+                  "text": "Um eine umgehende Ausfertigung dieses Beschlusses zu ermöglichen, verlese ich entsprechend einem schriftlichen Verlangen von 20 Abgeordneten den diesbezüglichen Teil des Amtlichen Protokolls, damit dieser mit Schluss der Sitzung als genehmigt gilt.",
+                  "timeStart": "3.160",
+                  "timeEnd": "17.700"
                 }
               ],
               "text": "Um eine umgehende Ausfertigung dieses Beschlusses zu ermöglichen, verlese ich entsprechend einem schriftlichen Verlangen von 20 Abgeordneten den diesbezüglichen Teil des Amtlichen Protokolls, damit dieser mit Schluss der Sitzung als genehmigt gilt."
@@ -514,7 +607,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich verlese:"
+                  "text": "Ich verlese:",
+                  "timeStart": "17.700",
+                  "timeEnd": "19.220"
                 }
               ],
               "text": "Ich verlese:"
@@ -525,10 +620,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "„Auf Antrag der Abgeordneten Wöginger, Maurer, BA, Mag."
+                  "text": "„Auf Antrag der Abgeordneten Wöginger, Maurer, BA, Mag.",
+                  "timeStart": "19.220",
+                  "timeEnd": "22.840"
                 },
                 {
-                  "text": "Leichtfried, Dr. Belakowitsch und Dr. Scherak, MA [...] fasst der Nationalrat [...] nachstehenden Beschluss:"
+                  "text": "Leichtfried, Dr. Belakowitsch und Dr. Scherak, MA [...] fasst der Nationalrat [...] nachstehenden Beschluss:",
+                  "timeStart": "22.840",
+                  "timeEnd": "27.840"
                 }
               ],
               "text": "„Auf Antrag der Abgeordneten Wöginger, Maurer, BA, Mag. Leichtfried, Dr. Belakowitsch und Dr. Scherak, MA [...] fasst der Nationalrat [...] nachstehenden Beschluss:"
@@ -539,10 +638,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": ",Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII."
+                  "text": ",Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII.",
+                  "timeStart": "27.840",
+                  "timeEnd": "36.000"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.‘“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.‘“",
+                  "timeStart": "36.000",
+                  "timeEnd": "44.080"
                 }
               ],
               "text": ",Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.‘“"
@@ -553,10 +656,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt des Amtlichen Protokolls? –"
+                  "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt des Amtlichen Protokolls? –",
+                  "timeStart": "44.080",
+                  "timeEnd": "50.140"
                 },
                 {
-                  "text": "Das ist nicht der Fall."
+                  "text": "Das ist nicht der Fall.",
+                  "timeStart": "50.140",
+                  "timeEnd": "52.000"
                 }
               ],
               "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt des Amtlichen Protokolls? – Das ist nicht der Fall."
@@ -567,7 +674,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt."
+                  "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.",
+                  "timeStart": "52.000",
+                  "timeEnd": "61.900"
                 }
               ],
               "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt."
@@ -578,7 +687,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 22. September, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 22. September, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "61.900",
+                  "timeEnd": "71.540"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 22. September, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -589,7 +700,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen einen schönen und erholsamen Sommer."
+                  "text": "Ich wünsche Ihnen einen schönen und erholsamen Sommer.",
+                  "timeStart": "71.540",
+                  "timeEnd": "76.560"
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen und erholsamen Sommer."
@@ -600,7 +713,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "76.560",
+                  "timeEnd": "80.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -612,7 +727,8 @@
         "mediaIndex": 3,
         "stdId": 251795,
         "debatteId": 320,
-        "proceedingIndex": 251795
+        "proceedingIndex": 251795,
+        "alignDuration": 0.42126011848449707
       },
       "originalLanguage": "de"
     }

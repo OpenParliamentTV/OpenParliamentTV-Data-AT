@@ -4,11 +4,11 @@
     "session": "27116",
     "dateStart": "2021-07-07T23:20:50",
     "dateEnd": "2021-07-07T23:21:19",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:50+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-20T16:44:31",
     "processing": {
       "merge": "2026-06-16T04:23:50+00:00",
-      "nel": "2026-06-16T06:24:21"
+      "align": "2026-06-20T16:44:31"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "250157",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/0c762390-7073-4a32-bfce-178e981fe918/0c762390-7073-4a32-bfce-178e981fe918.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/0c762390-7073-4a32-bfce-178e981fe918/0c762390-7073-4a32-bfce-178e981fe918.mp3",
-        "duration": 29
+        "duration": 29,
+        "aligned": true
       },
       "dateStart": "2021-07-07T23:20:50",
       "dateEnd": "2021-07-07T23:21:19",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 116. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 116. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.360"
                 }
               ],
               "text": "Ich eröffne die 116. Sitzung des Nationalrates."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Petra Wimmer , Christian Hafenecker, MA , Alois Kainz , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Petra Wimmer , Christian Hafenecker, MA , Alois Kainz , Mag.",
+                  "timeStart": "3.360",
+                  "timeEnd": "5.200"
                 },
                 {
-                  "text": "Christian Ragger , Christian Ries , Heike Grebien , David Stögmüller , Mag."
+                  "text": "Christian Ragger , Christian Ries , Heike Grebien , David Stögmüller , Mag.",
+                  "timeStart": "5.200",
+                  "timeEnd": "5.200"
                 },
                 {
-                  "text": "Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper und Josef Schellhorn ."
+                  "text": "Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper und Josef Schellhorn .",
+                  "timeStart": "5.200",
+                  "timeEnd": "5.200"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Petra Wimmer , Christian Hafenecker, MA , Alois Kainz , Mag. Christian Ragger , Christian Ries , Heike Grebien , David Stögmüller , Mag. Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper und Josef Schellhorn ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "5.200",
+                  "timeEnd": "5.200"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 GOG-NR auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 GOG-NR auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "5.200",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 GOG-NR auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortungen: 6496/AB bis 6510/AB"
+                  "text": "1. Anfragebeantwortungen: 6496/AB bis 6510/AB",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "1. Anfragebeantwortungen: 6496/AB bis 6510/AB"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Regierungsvorlagen:"
+                  "text": "2. Regierungsvorlagen:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "2. Regierungsvorlagen:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das KommAustria-Gesetz und das Digitalsteuergesetz 2020 geändert werden ( 1026 d.B. )"
+                  "text": "Bundesgesetz, mit dem das KommAustria-Gesetz und das Digitalsteuergesetz 2020 geändert werden ( 1026 d.B. )",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem das KommAustria-Gesetz und das Digitalsteuergesetz 2020 geändert werden ( 1026 d.B. )"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -206,10 +235,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1790/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1790/A(E) der Abgeordneten Mag.",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend UGB-konforme Gewinnermittlung bei den Arbeiterkammern gemäß WK-Haushaltsordnung"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend UGB-konforme Gewinnermittlung bei den Arbeiterkammern gemäß WK-Haushaltsordnung",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1790/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend UGB-konforme Gewinnermittlung bei den Arbeiterkammern gemäß WK-Haushaltsordnung"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1792/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpass aus nationalen Datenbanken"
+                  "text": "Antrag 1792/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpass aus nationalen Datenbanken",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1792/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpass aus nationalen Datenbanken"
@@ -231,10 +266,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1808/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1808/A(E) der Abgeordneten Mag.",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Ausbau des Fachkräftestipendiums für Pflegeberufe"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Ausbau des Fachkräftestipendiums für Pflegeberufe",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1808/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Ausbau des Fachkräftestipendiums für Pflegeberufe"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1809/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Pensionspaket für sichere und faire Pensionen"
+                  "text": "Antrag 1809/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Pensionspaket für sichere und faire Pensionen",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1809/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Pensionspaket für sichere und faire Pensionen"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1810/A (E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Lohn- und Sozialdumping-Bekämpfungsgesetz geändert wird"
+                  "text": "Antrag 1810/A (E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Lohn- und Sozialdumping-Bekämpfungsgesetz geändert wird",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1810/A (E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Lohn- und Sozialdumping-Bekämpfungsgesetz geändert wird"
@@ -267,7 +310,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -278,7 +323,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1797/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Die Flagge der weißrussischen Demokratiebewegung"
+                  "text": "Antrag 1797/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Die Flagge der weißrussischen Demokratiebewegung",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1797/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Die Flagge der weißrussischen Demokratiebewegung"
@@ -289,7 +336,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -300,7 +349,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1789/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Transparente Evaluierung der Wirtschaftshilfen"
+                  "text": "Antrag 1789/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Transparente Evaluierung der Wirtschaftshilfen",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Antrag 1789/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Transparente Evaluierung der Wirtschaftshilfen"
@@ -311,7 +362,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "6.680",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Protokoll zum Übereinkommen über ein Einheitliches Patentgericht betreffend die vorläufige Anwendung ( 1027 d.B. )"
+                  "text": "Protokoll zum Übereinkommen über ein Einheitliches Patentgericht betreffend die vorläufige Anwendung ( 1027 d.B. )",
+                  "timeStart": "6.680",
+                  "timeEnd": "7.320"
                 }
               ],
               "text": "Protokoll zum Übereinkommen über ein Einheitliches Patentgericht betreffend die vorläufige Anwendung ( 1027 d.B. )"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "7.320",
+                  "timeEnd": "7.360"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1785/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Schlachtung im gewohnten Lebensumfeld der Tiere – einstimmigen Entschließungsantrag endlich umsetzen!"
+                  "text": "Antrag 1785/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Schlachtung im gewohnten Lebensumfeld der Tiere – einstimmigen Entschließungsantrag endlich umsetzen!",
+                  "timeStart": "7.360",
+                  "timeEnd": "8.240"
                 }
               ],
               "text": "Antrag 1785/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Schlachtung im gewohnten Lebensumfeld der Tiere – einstimmigen Entschließungsantrag endlich umsetzen!"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1811/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Modell Hundecampus"
+                  "text": "Antrag 1811/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Modell Hundecampus",
+                  "timeStart": "8.240",
+                  "timeEnd": "8.960"
                 }
               ],
               "text": "Antrag 1811/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Modell Hundecampus"
@@ -366,10 +427,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1813/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1813/A(E) der Abgeordneten Mag.",
+                  "timeStart": "8.960",
+                  "timeEnd": "8.960"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel",
+                  "timeStart": "8.960",
+                  "timeEnd": "10.600"
                 }
               ],
               "text": "Antrag 1813/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel"
@@ -380,7 +445,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "10.600",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -391,7 +458,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1794/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum"
+                  "text": "Antrag 1794/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum",
+                  "timeStart": "10.880",
+                  "timeEnd": "12.040"
                 }
               ],
               "text": "Antrag 1794/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum"
@@ -402,7 +471,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1798/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Multiinstitutionelle Einberufung Sicherheitspolizeilicher Fallkonferenzen"
+                  "text": "Antrag 1798/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Multiinstitutionelle Einberufung Sicherheitspolizeilicher Fallkonferenzen",
+                  "timeStart": "12.040",
+                  "timeEnd": "13.040"
                 }
               ],
               "text": "Antrag 1798/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Multiinstitutionelle Einberufung Sicherheitspolizeilicher Fallkonferenzen"
@@ -413,7 +484,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1799/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bundesweit einheitliches Risk-Assessment für Sicherheitspolizeiliche Fallkonferenzen"
+                  "text": "Antrag 1799/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bundesweit einheitliches Risk-Assessment für Sicherheitspolizeiliche Fallkonferenzen",
+                  "timeStart": "13.040",
+                  "timeEnd": "13.740"
                 }
               ],
               "text": "Antrag 1799/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bundesweit einheitliches Risk-Assessment für Sicherheitspolizeiliche Fallkonferenzen"
@@ -424,7 +497,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1801/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Annäherungs- ohne Betretungsverbot"
+                  "text": "Antrag 1801/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Annäherungs- ohne Betretungsverbot",
+                  "timeStart": "13.740",
+                  "timeEnd": "14.080"
                 }
               ],
               "text": "Antrag 1801/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Annäherungs- ohne Betretungsverbot"
@@ -435,7 +510,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1806/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden der Polizei mit Photovoltaik-Anlagen"
+                  "text": "Antrag 1806/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden der Polizei mit Photovoltaik-Anlagen",
+                  "timeStart": "14.080",
+                  "timeEnd": "14.520"
                 }
               ],
               "text": "Antrag 1806/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden der Polizei mit Photovoltaik-Anlagen"
@@ -446,7 +523,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss :"
+                  "text": "Justizausschuss :",
+                  "timeStart": "14.520",
+                  "timeEnd": "14.800"
                 }
               ],
               "text": "Justizausschuss :"
@@ -457,7 +536,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1796/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Zivilprozessordnung geändert wird"
+                  "text": "Antrag 1796/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Zivilprozessordnung geändert wird",
+                  "timeStart": "14.800",
+                  "timeEnd": "15.840"
                 }
               ],
               "text": "Antrag 1796/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Zivilprozessordnung geändert wird"
@@ -468,7 +549,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1800/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ablaufshemmung eines Betretungs- und Annäherungsverbots"
+                  "text": "Antrag 1800/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ablaufshemmung eines Betretungs- und Annäherungsverbots",
+                  "timeStart": "15.840",
+                  "timeEnd": "16.840"
                 }
               ],
               "text": "Antrag 1800/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ablaufshemmung eines Betretungs- und Annäherungsverbots"
@@ -479,7 +562,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "16.840",
+                  "timeEnd": "17.200"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -490,10 +575,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1783/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1783/A(E) der Abgeordneten Mag.",
+                  "timeStart": "17.200",
+                  "timeEnd": "17.840"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Reise-Stornierungsinformationsplattform"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Reise-Stornierungsinformationsplattform",
+                  "timeStart": "17.840",
+                  "timeEnd": "18.280"
                 }
               ],
               "text": "Antrag 1783/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Reise-Stornierungsinformationsplattform"
@@ -504,10 +593,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1812/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1812/A(E) der Abgeordneten Mag.",
+                  "timeStart": "18.280",
+                  "timeEnd": "19.640"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller",
+                  "timeStart": "19.640",
+                  "timeEnd": "20.760"
                 }
               ],
               "text": "Antrag 1812/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller"
@@ -518,10 +611,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1814/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1814/A(E) der Abgeordneten Mag.",
+                  "timeStart": "20.760",
+                  "timeEnd": "21.600"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel",
+                  "timeStart": "21.600",
+                  "timeEnd": "22.800"
                 }
               ],
               "text": "Antrag 1814/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel"
@@ -532,7 +629,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "22.800",
+                  "timeEnd": "22.840"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -543,7 +642,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1791/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Einbeziehung der Volksvertretung in die Heeresreform"
+                  "text": "Antrag 1791/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Einbeziehung der Volksvertretung in die Heeresreform",
+                  "timeStart": "22.840",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1791/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Einbeziehung der Volksvertretung in die Heeresreform"
@@ -554,7 +655,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1805/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden des Bundesheers mit Photovoltaik-Anlagen"
+                  "text": "Antrag 1805/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden des Bundesheers mit Photovoltaik-Anlagen",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1805/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden des Bundesheers mit Photovoltaik-Anlagen"
@@ -565,7 +668,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -576,7 +681,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1793/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein europaweites Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum"
+                  "text": "Antrag 1793/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein europaweites Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1793/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein europaweites Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum"
@@ -587,7 +694,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1795/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum"
+                  "text": "Antrag 1795/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1795/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum"
@@ -598,7 +707,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Tourismusausschuss:"
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -609,10 +720,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1784/A(E) der Abgeordneten Josef Muchitsch , Mag."
+                  "text": "Antrag 1784/A(E) der Abgeordneten Josef Muchitsch , Mag.",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 },
                 {
-                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Installierung einer Tourismuskasse"
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Installierung einer Tourismuskasse",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1784/A(E) der Abgeordneten Josef Muchitsch , Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Installierung einer Tourismuskasse"
@@ -623,7 +738,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -634,10 +751,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1786/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1786/A(E) der Abgeordneten Mag.",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Multiprofessionelles Unterstützungspersonal für Schulen"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Multiprofessionelles Unterstützungspersonal für Schulen",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1786/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Multiprofessionelles Unterstützungspersonal für Schulen"
@@ -648,10 +769,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1787/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1787/A(E) der Abgeordneten Mag.",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bundesweiten Chancenindex jetzt umsetzen"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bundesweiten Chancenindex jetzt umsetzen",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1787/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bundesweiten Chancenindex jetzt umsetzen"
@@ -662,10 +787,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1788/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1788/A(E) der Abgeordneten Mag.",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend School Nurses für Schulen in Österreich"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend School Nurses für Schulen in Österreich",
+                  "timeStart": "23.760",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag 1788/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend School Nurses für Schulen in Österreich"
@@ -676,7 +805,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1807/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Einführung von \"Reha-Klassen\" bzw. \"Reha-Schulen\""
+                  "text": "Antrag 1807/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Einführung von \"Reha-Klassen\" bzw. \"Reha-Schulen\"",
+                  "timeStart": "23.760",
+                  "timeEnd": "24.280"
                 }
               ],
               "text": "Antrag 1807/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Einführung von \"Reha-Klassen\" bzw. \"Reha-Schulen\""
@@ -687,7 +818,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "24.280",
+                  "timeEnd": "24.440"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -698,7 +831,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1802/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Deckelung der Ausgaben für Regierungsinserate"
+                  "text": "Antrag 1802/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Deckelung der Ausgaben für Regierungsinserate",
+                  "timeStart": "24.440",
+                  "timeEnd": "25.320"
                 }
               ],
               "text": "Antrag 1802/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Deckelung der Ausgaben für Regierungsinserate"
@@ -709,7 +844,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1803/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zur Medienpolitik: Ende der Marktverzerrung durch Regierungsinserate"
+                  "text": "Antrag 1803/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zur Medienpolitik: Ende der Marktverzerrung durch Regierungsinserate",
+                  "timeStart": "25.320",
+                  "timeEnd": "26.560"
                 }
               ],
               "text": "Antrag 1803/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zur Medienpolitik: Ende der Marktverzerrung durch Regierungsinserate"
@@ -720,7 +857,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1804/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend vollständige Transparenz bei und längere Abrufbarkeit von Inseratausgaben der Regierung"
+                  "text": "Antrag 1804/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend vollständige Transparenz bei und längere Abrufbarkeit von Inseratausgaben der Regierung",
+                  "timeStart": "26.560",
+                  "timeEnd": "26.920"
                 }
               ],
               "text": "Antrag 1804/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend vollständige Transparenz bei und längere Abrufbarkeit von Inseratausgaben der Regierung"
@@ -731,7 +870,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "26.920",
+                  "timeEnd": "27.440"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -742,7 +883,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Handelsstatistische Gesetz 1995 geändert wird ( 958 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Handelsstatistische Gesetz 1995 geändert wird ( 958 d.B. )",
+                  "timeStart": "27.440",
+                  "timeEnd": "28.040"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Handelsstatistische Gesetz 1995 geändert wird ( 958 d.B. )"
@@ -753,10 +896,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates findet morgen, am 8. Juli, um 9 Uhr statt."
+                  "text": "Die nächste Sitzung des Nationalrates findet morgen, am 8. Juli, um 9 Uhr statt.",
+                  "timeStart": "28.040",
+                  "timeEnd": "29.120"
                 },
                 {
-                  "text": "Die Tagesordnung ergeht auf schriftlichem Weg."
+                  "text": "Die Tagesordnung ergeht auf schriftlichem Weg.",
+                  "timeStart": "29.120",
+                  "timeEnd": "29.480"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates findet morgen, am 8. Juli, um 9 Uhr statt. Die Tagesordnung ergeht auf schriftlichem Weg."
@@ -767,7 +914,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich danke für die letztendlich doch noch bewiesene Disziplin."
+                  "text": "Ich danke für die letztendlich doch noch bewiesene Disziplin.",
+                  "timeStart": "29.480",
+                  "timeEnd": "29.920"
                 }
               ],
               "text": "Ich danke für die letztendlich doch noch bewiesene Disziplin."
@@ -778,7 +927,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "29.920",
+                  "timeEnd": "30.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -790,7 +941,8 @@
         "mediaIndex": 1,
         "stdId": 250157,
         "debatteId": 300,
-        "proceedingIndex": 250157
+        "proceedingIndex": 250157,
+        "alignDuration": 0.7925071716308594
       },
       "originalLanguage": "de"
     }

@@ -4,11 +4,11 @@
     "session": "27123",
     "dateStart": "2021-09-22T20:53:12",
     "dateEnd": "2021-09-22T20:53:46",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:51+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-20T22:16:37",
     "processing": {
       "merge": "2026-06-16T04:23:51+00:00",
-      "nel": "2026-06-16T06:24:21"
+      "align": "2026-06-20T22:16:37"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "252667",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/a562e58c-f539-4340-bbbb-e42f121169ed/a562e58c-f539-4340-bbbb-e42f121169ed.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/a562e58c-f539-4340-bbbb-e42f121169ed/a562e58c-f539-4340-bbbb-e42f121169ed.mp3",
-        "duration": 34
+        "duration": 34,
+        "aligned": true
       },
       "dateStart": "2021-09-22T20:53:12",
       "dateEnd": "2021-09-22T20:53:46",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.320"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "1.320",
+                  "timeEnd": "3.120"
                 },
                 {
-                  "text": "Martin Engelberg , Karlheinz Kopf , Mag."
+                  "text": "Martin Engelberg , Karlheinz Kopf , Mag.",
+                  "timeStart": "3.120",
+                  "timeEnd": "3.480"
                 },
                 {
-                  "text": "Maria Smodics-Neumann , Dr. Christian Stocker , Cornelia Ecker , Dietmar Keck , Katharina Kucharowits , Rosa Ecker, MBA und Alois Kainz ."
+                  "text": "Maria Smodics-Neumann , Dr. Christian Stocker , Cornelia Ecker , Dietmar Keck , Katharina Kucharowits , Rosa Ecker, MBA und Alois Kainz .",
+                  "timeStart": "3.480",
+                  "timeEnd": "7.120"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Karlheinz Kopf , Mag. Maria Smodics-Neumann , Dr. Christian Stocker , Cornelia Ecker , Dietmar Keck , Katharina Kucharowits , Rosa Ecker, MBA und Alois Kainz ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.680"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "7.680",
+                  "timeEnd": "9.720"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "9.720",
+                  "timeEnd": "9.760"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "9.760",
+                  "timeEnd": "10.320"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "10.320",
+                  "timeEnd": "10.720"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "10.720",
+                  "timeEnd": "11.040"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Telekommunikationsgesetz erlassen (Telekommunikationsgesetz 2021 – TKG 2021), das KommAustria-Gesetz (KommAustria-Gesetz – KOG), die Strafprozeßordnung 1975 (StPO), das Polizeikooperationsgesetz (PolKG), das Polizeiliche Staatsschutzgesetz (PStSG), das Sicherheitspolizeigesetz (SPG), das Wertpapieraufsichtsgesetz 2018 (WAG 2018), das Börsegesetz 2018 (BörseG 2018), das Postmarktgesetz (PMG), das Kraftfahrgesetz 1967 (KFG 1967), das Funkanlagen-Marktüberwachungs-Gesetz (FMAG 2016), das Funker-Zeugnisgesetz 1998 (FZG), das Rundfunkgebührengesetz (RGG), das Fernsprechentgeltzuschussgesetz (FeZG) und das Audiovisuelle Mediendienste-Gesetz (AMD-G) geändert werden ( 1043 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Telekommunikationsgesetz erlassen (Telekommunikationsgesetz 2021 – TKG 2021), das KommAustria-Gesetz (KommAustria-Gesetz – KOG), die Strafprozeßordnung 1975 (StPO), das Polizeikooperationsgesetz (PolKG), das Polizeiliche Staatsschutzgesetz (PStSG), das Sicherheitspolizeigesetz (SPG), das Wertpapieraufsichtsgesetz 2018 (WAG 2018), das Börsegesetz 2018 (BörseG 2018), das Postmarktgesetz (PMG), das Kraftfahrgesetz 1967 (KFG 1967), das Funkanlagen-Marktüberwachungs-Gesetz (FMAG 2016), das Funker-Zeugnisgesetz 1998 (FZG), das Rundfunkgebührengesetz (RGG), das Fernsprechentgeltzuschussgesetz (FeZG) und das Audiovisuelle Mediendienste-Gesetz (AMD-G) geändert werden ( 1043 d.B. )",
+                  "timeStart": "11.040",
+                  "timeEnd": "28.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Telekommunikationsgesetz erlassen (Telekommunikationsgesetz 2021 – TKG 2021), das KommAustria-Gesetz (KommAustria-Gesetz – KOG), die Strafprozeßordnung 1975 (StPO), das Polizeikooperationsgesetz (PolKG), das Polizeiliche Staatsschutzgesetz (PStSG), das Sicherheitspolizeigesetz (SPG), das Wertpapieraufsichtsgesetz 2018 (WAG 2018), das Börsegesetz 2018 (BörseG 2018), das Postmarktgesetz (PMG), das Kraftfahrgesetz 1967 (KFG 1967), das Funkanlagen-Marktüberwachungs-Gesetz (FMAG 2016), das Funker-Zeugnisgesetz 1998 (FZG), das Rundfunkgebührengesetz (RGG), das Fernsprechentgeltzuschussgesetz (FeZG) und das Audiovisuelle Mediendienste-Gesetz (AMD-G) geändert werden ( 1043 d.B. )"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "28.680",
+                  "timeEnd": "29.040"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgrundsatzgesetz, mit dem das Bundesgesetz über die Grundsätze betreffend die fachlichen Anstellungserfordernisse für Kindergärtnerinnen und Erzieher geändert wird ( 1042 d.B. )"
+                  "text": "Bundesgrundsatzgesetz, mit dem das Bundesgesetz über die Grundsätze betreffend die fachlichen Anstellungserfordernisse für Kindergärtnerinnen und Erzieher geändert wird ( 1042 d.B. )",
+                  "timeStart": "29.040",
+                  "timeEnd": "30.960"
                 }
               ],
               "text": "Bundesgrundsatzgesetz, mit dem das Bundesgesetz über die Grundsätze betreffend die fachlichen Anstellungserfordernisse für Kindergärtnerinnen und Erzieher geändert wird ( 1042 d.B. )"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 13. Oktober 2021, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 13. Oktober 2021, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "30.960",
+                  "timeEnd": "35.080"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 13. Oktober 2021, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -206,7 +235,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kommen Sie gut nach Hause!"
+                  "text": "Kommen Sie gut nach Hause!",
+                  "timeStart": "35.080",
+                  "timeEnd": "35.480"
                 }
               ],
               "text": "Kommen Sie gut nach Hause!"
@@ -217,7 +248,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "35.480",
+                  "timeEnd": "36.000"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -229,7 +262,8 @@
         "mediaIndex": 1,
         "stdId": 252667,
         "debatteId": 300,
-        "proceedingIndex": 252667
+        "proceedingIndex": 252667,
+        "alignDuration": 0.5640151500701904
       },
       "originalLanguage": "de"
     }

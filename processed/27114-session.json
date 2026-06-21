@@ -4,11 +4,11 @@
     "session": "27114",
     "dateStart": "2021-06-17T20:57:09",
     "dateEnd": "2021-06-17T20:57:35",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:49+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-20T14:26:36",
     "processing": {
       "merge": "2026-06-16T04:23:49+00:00",
-      "nel": "2026-06-16T06:24:21"
+      "align": "2026-06-20T14:26:36"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "248576",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/c00db7ab-4c01-4321-b0e8-d2bb548a5a71/c00db7ab-4c01-4321-b0e8-d2bb548a5a71.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/c00db7ab-4c01-4321-b0e8-d2bb548a5a71/c00db7ab-4c01-4321-b0e8-d2bb548a5a71.mp3",
-        "duration": 26
+        "duration": 26,
+        "aligned": true
       },
       "dateStart": "2021-06-17T20:57:09",
       "dateEnd": "2021-06-17T20:57:35",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.080"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -79,19 +82,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten MMag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten MMag.",
+                  "timeStart": "1.080",
+                  "timeEnd": "1.080"
                 },
                 {
-                  "text": "Dr. Agnes Totter, BEd , MMag."
+                  "text": "Dr. Agnes Totter, BEd , MMag.",
+                  "timeStart": "1.080",
+                  "timeEnd": "1.080"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "1.080",
+                  "timeEnd": "1.080"
                 },
                 {
-                  "text": "Hubert Fuchs , Mag."
+                  "text": "Hubert Fuchs , Mag.",
+                  "timeStart": "1.080",
+                  "timeEnd": "1.080"
                 },
                 {
-                  "text": "Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Dr. Helmut Brandstätter und Josef Schellhorn ."
+                  "text": "Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Dr. Helmut Brandstätter und Josef Schellhorn .",
+                  "timeStart": "1.080",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten MMag. Dr. Agnes Totter, BEd , MMag. DDr. Hubert Fuchs , Mag. Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Dr. Helmut Brandstätter und Josef Schellhorn ."
@@ -102,7 +115,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Schriftliche Anfragen:"
+                  "text": "1. Schriftliche Anfragen:",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "1. Schriftliche Anfragen:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Schriftliche Anfrage an den Präsidenten des Nationalrates:"
+                  "text": "Schriftliche Anfrage an den Präsidenten des Nationalrates:",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.840"
                 }
               ],
               "text": "Schriftliche Anfrage an den Präsidenten des Nationalrates:"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "36/JPR"
+                  "text": "36/JPR",
+                  "timeStart": "1.840",
+                  "timeEnd": "2.120"
                 }
               ],
               "text": "36/JPR"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Anfragebeantwortungen: 6273/AB bis 6276/AB"
+                  "text": "2. Anfragebeantwortungen: 6273/AB bis 6276/AB",
+                  "timeStart": "2.120",
+                  "timeEnd": "2.360"
                 }
               ],
               "text": "2. Anfragebeantwortungen: 6273/AB bis 6276/AB"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "2.360",
+                  "timeEnd": "2.480"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "2.480",
+                  "timeEnd": "2.480"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "2.480",
+                  "timeEnd": "2.480"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1749/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Unterstützung des Arbeitsministers für sein arbeitsmarktpolitisches Ziel, den Bestand der Langzeitbeschäftigungslosen bis Ende 2022 um mindestens 50.000 Personen zu verringern"
+                  "text": "Antrag 1749/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Unterstützung des Arbeitsministers für sein arbeitsmarktpolitisches Ziel, den Bestand der Langzeitbeschäftigungslosen bis Ende 2022 um mindestens 50.000 Personen zu verringern",
+                  "timeStart": "2.480",
+                  "timeEnd": "2.560"
                 }
               ],
               "text": "Antrag 1749/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Unterstützung des Arbeitsministers für sein arbeitsmarktpolitisches Ziel, den Bestand der Langzeitbeschäftigungslosen bis Ende 2022 um mindestens 50.000 Personen zu verringern"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1754/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht"
+                  "text": "Antrag 1754/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560"
                 }
               ],
               "text": "Antrag 1754/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1759/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche"
+                  "text": "Antrag 1759/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560"
                 }
               ],
               "text": "Antrag 1759/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1763/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen"
+                  "text": "Antrag 1763/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.640"
                 }
               ],
               "text": "Antrag 1763/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen"
@@ -267,10 +310,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1773/A der Abgeordneten August Wöginger , Josef Muchitsch , Mag."
+                  "text": "Antrag 1773/A der Abgeordneten August Wöginger , Josef Muchitsch , Mag.",
+                  "timeStart": "2.640",
+                  "timeEnd": "3.720"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz geändert wird"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz geändert wird",
+                  "timeStart": "3.720",
+                  "timeEnd": "4.080"
                 }
               ],
               "text": "Antrag 1773/A der Abgeordneten August Wöginger , Josef Muchitsch , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz geändert wird"
@@ -281,10 +328,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1775/A der Abgeordneten Mag."
+                  "text": "Antrag 1775/A der Abgeordneten Mag.",
+                  "timeStart": "4.080",
+                  "timeEnd": "4.760"
                 },
                 {
-                  "text": "Andreas Hanger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz geändert wird"
+                  "text": "Andreas Hanger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz geändert wird",
+                  "timeStart": "4.760",
+                  "timeEnd": "4.920"
                 }
               ],
               "text": "Antrag 1775/A der Abgeordneten Mag. Andreas Hanger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz geändert wird"
@@ -295,10 +346,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1776/A der Abgeordneten Tanja Graf , Mag."
+                  "text": "Antrag 1776/A der Abgeordneten Tanja Graf , Mag.",
+                  "timeStart": "4.920",
+                  "timeEnd": "5.580"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Sonderunterstützungsgesetz geändert werden"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Sonderunterstützungsgesetz geändert werden",
+                  "timeStart": "5.580",
+                  "timeEnd": "6.440"
                 }
               ],
               "text": "Antrag 1776/A der Abgeordneten Tanja Graf , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Sonderunterstützungsgesetz geändert werden"
@@ -309,10 +364,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1777/A der Abgeordneten Mag."
+                  "text": "Antrag 1777/A der Abgeordneten Mag.",
+                  "timeStart": "6.440",
+                  "timeEnd": "6.960"
                 },
                 {
-                  "text": "Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird"
+                  "text": "Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird",
+                  "timeStart": "6.960",
+                  "timeEnd": "7.520"
                 }
               ],
               "text": "Antrag 1777/A der Abgeordneten Mag. Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird"
@@ -323,13 +382,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1779/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1779/A(E) der Abgeordneten Mag.",
+                  "timeStart": "7.520",
+                  "timeEnd": "8.080"
                 },
                 {
-                  "text": "Ernst Gödl , Mag."
+                  "text": "Ernst Gödl , Mag.",
+                  "timeStart": "8.080",
+                  "timeEnd": "8.200"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend \"Ausbau und Verlängerung des Fachkräftestipendiums\""
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend \"Ausbau und Verlängerung des Fachkräftestipendiums\"",
+                  "timeStart": "8.200",
+                  "timeEnd": "8.640"
                 }
               ],
               "text": "Antrag 1779/A(E) der Abgeordneten Mag. Ernst Gödl , Mag. Markus Koza , Kolleginnen und Kollegen betreffend \"Ausbau und Verlängerung des Fachkräftestipendiums\""
@@ -340,7 +405,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1780/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
+                  "text": "Antrag 1780/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden",
+                  "timeStart": "8.640",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Antrag 1780/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
@@ -351,7 +418,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1781/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
+                  "text": "Antrag 1781/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Antrag 1781/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -362,7 +431,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -373,7 +444,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1778/A der Abgeordneten Karlheinz Kopf , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz genehmigt wird, erlassen wird und das Bundesgesetz, mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden, geändert wird"
+                  "text": "Antrag 1778/A der Abgeordneten Karlheinz Kopf , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz genehmigt wird, erlassen wird und das Bundesgesetz, mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden, geändert wird",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Antrag 1778/A der Abgeordneten Karlheinz Kopf , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz genehmigt wird, erlassen wird und das Bundesgesetz, mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden, geändert wird"
@@ -384,7 +457,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -395,10 +470,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1764/A(E) der Abgeordneten Christian Hafenecker, MA , Mag."
+                  "text": "Antrag 1764/A(E) der Abgeordneten Christian Hafenecker, MA , Mag.",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.840"
                 },
                 {
-                  "text": "Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Teilnahme am ESA-Wahlprogramm \"BOOST!\""
+                  "text": "Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Teilnahme am ESA-Wahlprogramm \"BOOST!\"",
+                  "timeStart": "10.840",
+                  "timeEnd": "11.880"
                 }
               ],
               "text": "Antrag 1764/A(E) der Abgeordneten Christian Hafenecker, MA , Mag. Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Teilnahme am ESA-Wahlprogramm \"BOOST!\""
@@ -409,7 +488,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "11.880",
+                  "timeEnd": "12.040"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -420,10 +501,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1748/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1748/A(E) der Abgeordneten Mag.",
+                  "timeStart": "12.040",
+                  "timeEnd": "12.120"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Überarbeitung der COVID-19-Impfungen-Anwendungsempfehlungen des Nationalen Impfgremiums im Hinblick auf die Zunahme der Reisetätigkeit"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Überarbeitung der COVID-19-Impfungen-Anwendungsempfehlungen des Nationalen Impfgremiums im Hinblick auf die Zunahme der Reisetätigkeit",
+                  "timeStart": "12.120",
+                  "timeEnd": "12.240"
                 }
               ],
               "text": "Antrag 1748/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Überarbeitung der COVID-19-Impfungen-Anwendungsempfehlungen des Nationalen Impfgremiums im Hinblick auf die Zunahme der Reisetätigkeit"
@@ -434,7 +519,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1753/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen"
+                  "text": "Antrag 1753/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen",
+                  "timeStart": "12.240",
+                  "timeEnd": "12.720"
                 }
               ],
               "text": "Antrag 1753/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen"
@@ -445,7 +532,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1756/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht"
+                  "text": "Antrag 1756/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht",
+                  "timeStart": "12.720",
+                  "timeEnd": "13.600"
                 }
               ],
               "text": "Antrag 1756/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht"
@@ -456,7 +545,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1758/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche"
+                  "text": "Antrag 1758/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche",
+                  "timeStart": "13.600",
+                  "timeEnd": "15.240"
                 }
               ],
               "text": "Antrag 1758/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche"
@@ -467,7 +558,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1774/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Ende der dauernden Anbindehaltung bei Rindern"
+                  "text": "Antrag 1774/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Ende der dauernden Anbindehaltung bei Rindern",
+                  "timeStart": "15.240",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1774/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Ende der dauernden Anbindehaltung bei Rindern"
@@ -478,7 +571,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -489,7 +584,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1755/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht"
+                  "text": "Antrag 1755/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1755/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht"
@@ -500,7 +597,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1757/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche"
+                  "text": "Antrag 1757/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1757/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche"
@@ -511,7 +610,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1760/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Gewährleistungsrecht NEU"
+                  "text": "Antrag 1760/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Gewährleistungsrecht NEU",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1760/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Gewährleistungsrecht NEU"
@@ -522,7 +623,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -533,10 +636,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1766/A(E) der Abgeordneten Ing. Mag."
+                  "text": "Antrag 1766/A(E) der Abgeordneten Ing. Mag.",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 },
                 {
-                  "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend \"Cancel Culture\" in Österreich verhindern"
+                  "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend \"Cancel Culture\" in Österreich verhindern",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1766/A(E) der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend \"Cancel Culture\" in Österreich verhindern"
@@ -547,7 +654,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -558,7 +667,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1761/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen"
+                  "text": "Antrag 1761/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1761/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen"
@@ -569,7 +680,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1768/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Bevölkerungsschutz in wolfsnahen Siedlungsgebieten durch Anpassung der FFH-Richtlinie"
+                  "text": "Antrag 1768/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Bevölkerungsschutz in wolfsnahen Siedlungsgebieten durch Anpassung der FFH-Richtlinie",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1768/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Bevölkerungsschutz in wolfsnahen Siedlungsgebieten durch Anpassung der FFH-Richtlinie"
@@ -580,7 +693,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1772/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Schluss mit dem Verstecken der Herkunftskennzeichnung"
+                  "text": "Antrag 1772/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Schluss mit dem Verstecken der Herkunftskennzeichnung",
+                  "timeStart": "15.440",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag 1772/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Schluss mit dem Verstecken der Herkunftskennzeichnung"
@@ -591,7 +706,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1782/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung von Schweinen in Österreich"
+                  "text": "Antrag 1782/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung von Schweinen in Österreich",
+                  "timeStart": "15.440",
+                  "timeEnd": "16.960"
                 }
               ],
               "text": "Antrag 1782/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung von Schweinen in Österreich"
@@ -602,7 +719,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Tourismusausschuss:"
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "16.960",
+                  "timeEnd": "16.960"
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -613,7 +732,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1752/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird"
+                  "text": "Antrag 1752/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird",
+                  "timeStart": "16.960",
+                  "timeEnd": "19.040"
                 }
               ],
               "text": "Antrag 1752/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird"
@@ -624,7 +745,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "19.040",
+                  "timeEnd": "19.780"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -635,7 +758,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1762/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen"
+                  "text": "Antrag 1762/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen",
+                  "timeStart": "19.780",
+                  "timeEnd": "21.240"
                 }
               ],
               "text": "Antrag 1762/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen"
@@ -646,7 +771,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1770/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Klimaschutz ohne Bevormundung"
+                  "text": "Antrag 1770/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Klimaschutz ohne Bevormundung",
+                  "timeStart": "21.240",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1770/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Klimaschutz ohne Bevormundung"
@@ -657,7 +784,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -668,7 +797,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1746/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend gesunde und biologisch hergestellte Lebensmittel an Schulen"
+                  "text": "Antrag 1746/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend gesunde und biologisch hergestellte Lebensmittel an Schulen",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1746/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend gesunde und biologisch hergestellte Lebensmittel an Schulen"
@@ -679,7 +810,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -690,7 +823,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1771/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Vetovolksabstimmung gegen Klima-Bevormundung"
+                  "text": "Antrag 1771/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Vetovolksabstimmung gegen Klima-Bevormundung",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1771/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Vetovolksabstimmung gegen Klima-Bevormundung"
@@ -701,7 +836,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -712,7 +849,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1765/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Zulassung von E10-Treibstoff"
+                  "text": "Antrag 1765/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Zulassung von E10-Treibstoff",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1765/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Zulassung von E10-Treibstoff"
@@ -723,7 +862,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1767/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend keine Erhöhung der motorbezogenen Versicherungssteuer"
+                  "text": "Antrag 1767/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend keine Erhöhung der motorbezogenen Versicherungssteuer",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1767/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend keine Erhöhung der motorbezogenen Versicherungssteuer"
@@ -734,7 +875,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1769/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend qualitativer Lärmschutz im Bereich des ÖBB-Netzes für die Landeshauptstadt St. Pölten"
+                  "text": "Antrag 1769/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend qualitativer Lärmschutz im Bereich des ÖBB-Netzes für die Landeshauptstadt St. Pölten",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1769/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend qualitativer Lärmschutz im Bereich des ÖBB-Netzes für die Landeshauptstadt St. Pölten"
@@ -745,7 +888,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -756,10 +901,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1747/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1747/A(E) der Abgeordneten Mag.",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Sperrstunde abschaffen und Nachtgastronomie ermöglichen"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Sperrstunde abschaffen und Nachtgastronomie ermöglichen",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1747/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Sperrstunde abschaffen und Nachtgastronomie ermöglichen"
@@ -770,7 +919,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1750/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014 geändert wird"
+                  "text": "Antrag 1750/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014 geändert wird",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1750/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014 geändert wird"
@@ -781,7 +932,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1751/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird"
+                  "text": "Antrag 1751/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1751/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird"
@@ -792,7 +945,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -803,10 +958,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 1745/A(E) der Abgeordneten Mag."
+                  "text": "Antrag 1745/A(E) der Abgeordneten Mag.",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 },
                 {
-                  "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend sofortige Impfmöglichkeit für alle Studierenden"
+                  "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend sofortige Impfmöglichkeit für alle Studierenden",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.040"
                 }
               ],
               "text": "Antrag 1745/A(E) der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend sofortige Impfmöglichkeit für alle Studierenden"
@@ -817,7 +976,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.600"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -828,7 +989,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "22.600",
+                  "timeEnd": "22.600"
                 }
               ],
               "text": "Justizausschuss:"
@@ -839,7 +1002,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Mai 2021, vorgelegt von der Bundesministerin für Justiz ( III-350 d.B. )"
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Mai 2021, vorgelegt von der Bundesministerin für Justiz ( III-350 d.B. )",
+                  "timeStart": "22.600",
+                  "timeEnd": "23.440"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Mai 2021, vorgelegt von der Bundesministerin für Justiz ( III-350 d.B. )"
@@ -850,7 +1015,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 7. Juli 2021 um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 7. Juli 2021 um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "23.440",
+                  "timeEnd": "25.360"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 7. Juli 2021 um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -861,7 +1028,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "25.360",
+                  "timeEnd": "25.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -873,7 +1042,8 @@
         "mediaIndex": 1,
         "stdId": 248576,
         "debatteId": 300,
-        "proceedingIndex": 248576
+        "proceedingIndex": 248576,
+        "alignDuration": 1.0334489345550537
       },
       "originalLanguage": "de"
     }
