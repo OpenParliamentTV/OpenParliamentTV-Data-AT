@@ -4,11 +4,11 @@
     "session": "27140",
     "dateStart": "2022-01-20T22:24:22",
     "dateEnd": "2022-01-20T22:25:07",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:55+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T06:38:28",
     "processing": {
       "merge": "2026-06-16T04:23:55+00:00",
-      "nel": "2026-06-16T06:24:22"
+      "align": "2026-06-22T06:38:28"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "260567",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/14048fff-ee13-4c10-9140-794323fc1922/14048fff-ee13-4c10-9140-794323fc1922.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/14048fff-ee13-4c10-9140-794323fc1922/14048fff-ee13-4c10-9140-794323fc1922.mp3",
-        "duration": 45
+        "duration": 45,
+        "aligned": true
       },
       "dateStart": "2022-01-20T22:24:22",
       "dateEnd": "2022-01-20T22:25:07",
@@ -67,7 +68,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Schluss der Sitzung: 22.25 Uhr"
+                  "text": "Schluss der Sitzung: 22.25 Uhr",
+                  "timeStart": "1.000",
+                  "timeEnd": "28.120"
                 }
               ],
               "text": "Schluss der Sitzung: 22.25 Uhr"
@@ -78,7 +81,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Impressum:"
+                  "text": "Impressum:",
+                  "timeStart": "28.120",
+                  "timeEnd": "30.020"
                 }
               ],
               "text": "Impressum:"
@@ -89,7 +94,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Parlamentsdirektion"
+                  "text": "Parlamentsdirektion",
+                  "timeStart": "30.020",
+                  "timeEnd": "36.280"
                 }
               ],
               "text": "Parlamentsdirektion"
@@ -100,7 +107,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "1017 Wien"
+                  "text": "1017 Wien",
+                  "timeStart": "36.280",
+                  "timeEnd": "41.680"
                 }
               ],
               "text": "1017 Wien"
@@ -112,7 +121,8 @@
         "mediaIndex": 1,
         "stdId": 260567,
         "debatteId": 300,
-        "proceedingIndex": 260567
+        "proceedingIndex": 260567,
+        "alignDuration": 0.4189331531524658
       },
       "originalLanguage": "de"
     }

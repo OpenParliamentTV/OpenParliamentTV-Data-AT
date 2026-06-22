@@ -4,11 +4,11 @@
     "session": "27134",
     "dateStart": "2021-12-09T20:20:52",
     "dateEnd": "2021-12-09T20:21:48",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:53+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-21T17:06:55",
     "processing": {
       "merge": "2026-06-16T04:23:53+00:00",
-      "nel": "2026-06-16T06:24:22"
+      "align": "2026-06-21T17:06:55"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "257974",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/718778bf-ae17-483d-9c59-632e88236910/718778bf-ae17-483d-9c59-632e88236910.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/718778bf-ae17-483d-9c59-632e88236910/718778bf-ae17-483d-9c59-632e88236910.mp3",
-        "duration": 56
+        "duration": 56,
+        "aligned": true
       },
       "dateStart": "2021-12-09T20:20:52",
       "dateEnd": "2021-12-09T20:21:48",
@@ -78,7 +79,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 134. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 134. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.500"
                 }
               ],
               "text": "Ich eröffne die 134. Sitzung des Nationalrates."
@@ -89,25 +92,39 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "4.500",
+                  "timeEnd": "7.360"
                 },
                 {
-                  "text": "Klaus Fürlinger , Dr. Reinhold Lopatka , Andreas Kollross , Rainer Wimmer , MMag."
+                  "text": "Klaus Fürlinger , Dr. Reinhold Lopatka , Andreas Kollross , Rainer Wimmer , MMag.",
+                  "timeStart": "7.360",
+                  "timeEnd": "12.280"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "12.280",
+                  "timeEnd": "12.320"
                 },
                 {
-                  "text": "Hubert Fuchs , Peter Schmiedlechner , Mag."
+                  "text": "Hubert Fuchs , Peter Schmiedlechner , Mag.",
+                  "timeStart": "12.320",
+                  "timeEnd": "14.000"
                 },
                 {
-                  "text": "Philipp Schrangl , Mag."
+                  "text": "Philipp Schrangl , Mag.",
+                  "timeStart": "14.000",
+                  "timeEnd": "14.800"
                 },
                 {
-                  "text": "Gerald Loacker und Mag."
+                  "text": "Gerald Loacker und Mag.",
+                  "timeStart": "14.800",
+                  "timeEnd": "15.560"
                 },
                 {
-                  "text": "Julia Seidl ."
+                  "text": "Julia Seidl .",
+                  "timeStart": "15.560",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Dr. Reinhold Lopatka , Andreas Kollross , Rainer Wimmer , MMag. DDr. Hubert Fuchs , Peter Schmiedlechner , Mag. Philipp Schrangl , Mag. Gerald Loacker und Mag. Julia Seidl ."
@@ -118,7 +135,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.280"
                 }
               ],
               "text": "Zuweisungen"
@@ -129,7 +148,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "16.280",
+                  "timeEnd": "21.720"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -140,7 +161,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Gesamtwortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Gesamtwortlaut:",
+                  "timeStart": "21.720",
+                  "timeEnd": "22.760"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Gesamtwortlaut:"
@@ -151,7 +174,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "22.760",
+                  "timeEnd": "23.640"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -162,7 +187,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "23.640",
+                  "timeEnd": "24.360"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -173,7 +200,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "24.360",
+                  "timeEnd": "25.060"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -184,10 +213,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 2124/A der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII."
+                  "text": "Antrag 2124/A der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
+                  "timeStart": "25.060",
+                  "timeEnd": "30.280"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird"
+                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird",
+                  "timeStart": "30.280",
+                  "timeEnd": "31.960"
                 }
               ],
               "text": "Antrag 2124/A der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII. Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird"
@@ -198,7 +231,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "31.960",
+                  "timeEnd": "33.600"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -209,7 +244,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag 2125/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte"
+                  "text": "Antrag 2125/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte",
+                  "timeStart": "33.600",
+                  "timeEnd": "40.880"
                 }
               ],
               "text": "Antrag 2125/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte"
@@ -220,7 +257,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Dezember, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Dezember, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "40.880",
+                  "timeEnd": "45.220"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Dezember, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -231,7 +270,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bevor ich diese Sitzung schließe, gebe ich noch bekannt, dass im Anschluss an die Sitzung die Neuvereidigung der Mitglieder und Ersatzmitglieder des Ständigen Unterausschusses des Ausschusses für innere Angelegenheiten sowie des Ständigen Unterausschusses des Landesverteidigungsausschusses im Redoutensaal stattfinden wird."
+                  "text": "Bevor ich diese Sitzung schließe, gebe ich noch bekannt, dass im Anschluss an die Sitzung die Neuvereidigung der Mitglieder und Ersatzmitglieder des Ständigen Unterausschusses des Ausschusses für innere Angelegenheiten sowie des Ständigen Unterausschusses des Landesverteidigungsausschusses im Redoutensaal stattfinden wird.",
+                  "timeStart": "45.220",
+                  "timeEnd": "51.720"
                 }
               ],
               "text": "Bevor ich diese Sitzung schließe, gebe ich noch bekannt, dass im Anschluss an die Sitzung die Neuvereidigung der Mitglieder und Ersatzmitglieder des Ständigen Unterausschusses des Ausschusses für innere Angelegenheiten sowie des Ständigen Unterausschusses des Landesverteidigungsausschusses im Redoutensaal stattfinden wird."
@@ -242,7 +283,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Daran anschließend wird im Lokal 7 der ÖVP-Korruptions-Untersuchungsausschuss seine konstituierende Sitzung abhalten."
+                  "text": "Daran anschließend wird im Lokal 7 der ÖVP-Korruptions-Untersuchungsausschuss seine konstituierende Sitzung abhalten.",
+                  "timeStart": "51.720",
+                  "timeEnd": "55.740"
                 }
               ],
               "text": "Daran anschließend wird im Lokal 7 der ÖVP-Korruptions-Untersuchungsausschuss seine konstituierende Sitzung abhalten."
@@ -253,7 +296,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "55.740",
+                  "timeEnd": "58.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -265,7 +310,8 @@
         "mediaIndex": 1,
         "stdId": 257974,
         "debatteId": 300,
-        "proceedingIndex": 257974
+        "proceedingIndex": 257974,
+        "alignDuration": 0.6281478404998779
       },
       "originalLanguage": "de"
     }
