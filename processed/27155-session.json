@@ -4,11 +4,11 @@
     "session": "27155",
     "dateStart": "2022-04-27T20:47:59",
     "dateEnd": "2022-04-27T20:48:34",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:57+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T09:04:18",
     "processing": {
       "merge": "2026-06-16T04:23:57+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T09:04:18"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "266167",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/b62556d1-f9c8-4ef4-9eae-ac2b593047e4/b62556d1-f9c8-4ef4-9eae-ac2b593047e4.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/b62556d1-f9c8-4ef4-9eae-ac2b593047e4/b62556d1-f9c8-4ef4-9eae-ac2b593047e4.mp3",
-        "duration": 35
+        "duration": 35,
+        "aligned": true
       },
       "dateStart": "2022-04-27T20:47:59",
       "dateEnd": "2022-04-27T20:48:34",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 155. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 155. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.080"
                 }
               ],
               "text": "Ich eröffne die 155. Sitzung des Nationalrates."
@@ -79,19 +82,29 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "3.080",
+                  "timeEnd": "3.480"
                 },
                 {
-                  "text": "Klaus Fürlinger , Eva-Maria Himmelbauer, BSc , MMMag."
+                  "text": "Klaus Fürlinger , Eva-Maria Himmelbauer, BSc , MMMag.",
+                  "timeStart": "3.480",
+                  "timeEnd": "3.960"
                 },
                 {
-                  "text": "Gertraud Salzmann , Mag."
+                  "text": "Gertraud Salzmann , Mag.",
+                  "timeStart": "3.960",
+                  "timeEnd": "4.680"
                 },
                 {
-                  "text": "Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Katharina Kucharowits , Mag."
+                  "text": "Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Katharina Kucharowits , Mag.",
+                  "timeStart": "4.680",
+                  "timeEnd": "6.440"
                 },
                 {
-                  "text": "Dr. Martin Graf und Präsident Ing. Norbert Hofer ."
+                  "text": "Dr. Martin Graf und Präsident Ing. Norbert Hofer .",
+                  "timeStart": "6.440",
+                  "timeEnd": "7.120"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Eva-Maria Himmelbauer, BSc , MMMag. Gertraud Salzmann , Mag. Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Katharina Kucharowits , Mag. Dr. Martin Graf und Präsident Ing. Norbert Hofer ."
@@ -102,7 +115,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.240"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "7.240",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "10.920",
+                  "timeEnd": "11.480"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "11.480",
+                  "timeEnd": "11.640"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "11.640",
+                  "timeEnd": "11.960"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "11.960",
+                  "timeEnd": "12.680"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2022 bis 2025 und das Bundesfinanzgesetz 2022 geändert werden (1444 d.B.)"
+                  "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2022 bis 2025 und das Bundesfinanzgesetz 2022 geändert werden (1444 d.B.)",
+                  "timeStart": "12.680",
+                  "timeEnd": "12.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2022 bis 2025 und das Bundesfinanzgesetz 2022 geändert werden (1444 d.B.)"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss :"
+                  "text": "Finanzausschuss :",
+                  "timeStart": "12.800",
+                  "timeEnd": "12.800"
                 }
               ],
               "text": "Finanzausschuss :"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Börsegesetz 2018, das Wertpapieraufsichtsgesetz 2018 und das Kapitalmarktgesetz 2019 geändert werden ( 1441 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Börsegesetz 2018, das Wertpapieraufsichtsgesetz 2018 und das Kapitalmarktgesetz 2019 geändert werden ( 1441 d.B. )",
+                  "timeStart": "12.800",
+                  "timeEnd": "12.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Börsegesetz 2018, das Wertpapieraufsichtsgesetz 2018 und das Kapitalmarktgesetz 2019 geändert werden ( 1441 d.B. )"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2019/1238 über ein Paneuropäisches Privates Pensionsprodukt (PEPP-Vollzugsgesetz) erlassen wird und das Finanzmarktaufsichtsbehördengesetz, das PRIIP-Vollzugsgesetz, das Versicherungsaufsichtsgesetz 2016 und das Konsumentenschutzgesetz geändert werden ( 1445 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2019/1238 über ein Paneuropäisches Privates Pensionsprodukt (PEPP-Vollzugsgesetz) erlassen wird und das Finanzmarktaufsichtsbehördengesetz, das PRIIP-Vollzugsgesetz, das Versicherungsaufsichtsgesetz 2016 und das Konsumentenschutzgesetz geändert werden ( 1445 d.B. )",
+                  "timeStart": "12.800",
+                  "timeEnd": "16.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2019/1238 über ein Paneuropäisches Privates Pensionsprodukt (PEPP-Vollzugsgesetz) erlassen wird und das Finanzmarktaufsichtsbehördengesetz, das PRIIP-Vollzugsgesetz, das Versicherungsaufsichtsgesetz 2016 und das Konsumentenschutzgesetz geändert werden ( 1445 d.B. )"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "16.640",
+                  "timeEnd": "16.760"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das E-Government-Gesetz geändert wird ( 1443 d.B. )"
+                  "text": "Bundesgesetz, mit dem das E-Government-Gesetz geändert wird ( 1443 d.B. )",
+                  "timeStart": "16.760",
+                  "timeEnd": "18.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem das E-Government-Gesetz geändert wird ( 1443 d.B. )"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "18.720",
+                  "timeEnd": "19.040"
                 }
               ],
               "text": "Justizausschuss:"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Berufsrechts-Änderungsgesetz 2022 – BRÄG 2022 ( 1440 d.B. )"
+                  "text": "Berufsrechts-Änderungsgesetz 2022 – BRÄG 2022 ( 1440 d.B. )",
+                  "timeStart": "19.040",
+                  "timeEnd": "23.500"
                 }
               ],
               "text": "Berufsrechts-Änderungsgesetz 2022 – BRÄG 2022 ( 1440 d.B. )"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Versicherungsvertragsgesetz-Novelle 2022 – VersVG-Nov 2022 ( 1446 d.B. )"
+                  "text": "Versicherungsvertragsgesetz-Novelle 2022 – VersVG-Nov 2022 ( 1446 d.B. )",
+                  "timeStart": "23.500",
+                  "timeEnd": "28.200"
                 }
               ],
               "text": "Versicherungsvertragsgesetz-Novelle 2022 – VersVG-Nov 2022 ( 1446 d.B. )"
@@ -267,7 +310,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "28.200",
+                  "timeEnd": "29.200"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -278,7 +323,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Marktordnungsgesetz 2007, das Landwirtschaftsgesetz und das AMA-Gesetz geändert werden ( 1442 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Marktordnungsgesetz 2007, das Landwirtschaftsgesetz und das AMA-Gesetz geändert werden ( 1442 d.B. )",
+                  "timeStart": "29.200",
+                  "timeEnd": "31.960"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Marktordnungsgesetz 2007, das Landwirtschaftsgesetz und das AMA-Gesetz geändert werden ( 1442 d.B. )"
@@ -289,7 +336,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 18. Mai, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 18. Mai, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "31.960",
+                  "timeEnd": "33.040"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 18. Mai, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -300,7 +349,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen einen schönen Abend."
+                  "text": "Ich wünsche Ihnen einen schönen Abend.",
+                  "timeStart": "33.040",
+                  "timeEnd": "33.640"
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen Abend."
@@ -311,7 +362,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "33.640",
+                  "timeEnd": "36.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -323,7 +376,8 @@
         "mediaIndex": 1,
         "stdId": 266167,
         "debatteId": 300,
-        "proceedingIndex": 266167
+        "proceedingIndex": 266167,
+        "alignDuration": 0.6387882232666016
       },
       "originalLanguage": "de"
     }

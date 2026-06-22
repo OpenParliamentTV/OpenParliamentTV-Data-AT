@@ -4,11 +4,11 @@
     "session": "27148",
     "dateStart": "2022-03-23T18:57:16",
     "dateEnd": "2022-03-23T18:57:55",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:56+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T08:36:30",
     "processing": {
       "merge": "2026-06-16T04:23:56+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T08:36:30"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "263597",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/9c5b4b60-23c9-448d-84eb-850229eee901/9c5b4b60-23c9-448d-84eb-850229eee901.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/9c5b4b60-23c9-448d-84eb-850229eee901/9c5b4b60-23c9-448d-84eb-850229eee901.mp3",
-        "duration": 39
+        "duration": 39,
+        "aligned": true
       },
       "dateStart": "2022-03-23T18:57:16",
       "dateEnd": "2022-03-23T18:57:55",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 148. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 148. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.600"
                 }
               ],
               "text": "Ich eröffne die 148. Sitzung des Nationalrates."
@@ -79,31 +82,49 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "2.600",
+                  "timeEnd": "2.680"
                 },
                 {
-                  "text": "Andreas Hanger , Dipl.-Ing. Andrea Holzner , Martina Kaufmann, MMSc BA , Dr. Reinhold Lopatka , Mag."
+                  "text": "Andreas Hanger , Dipl.-Ing. Andrea Holzner , Martina Kaufmann, MMSc BA , Dr. Reinhold Lopatka , Mag.",
+                  "timeStart": "2.680",
+                  "timeEnd": "3.600"
                 },
                 {
-                  "text": "Bettina Rausch , Mag."
+                  "text": "Bettina Rausch , Mag.",
+                  "timeStart": "3.600",
+                  "timeEnd": "4.080"
                 },
                 {
-                  "text": "Corinna Scharzenberger , Mag."
+                  "text": "Corinna Scharzenberger , Mag.",
+                  "timeStart": "4.080",
+                  "timeEnd": "4.320"
                 },
                 {
-                  "text": "Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Julia Elisabeth Herr , Dietmar Keck , Dipl.-Ing. Gerhard Deimek , Mag."
+                  "text": "Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Julia Elisabeth Herr , Dietmar Keck , Dipl.-Ing. Gerhard Deimek , Mag.",
+                  "timeStart": "4.320",
+                  "timeEnd": "5.040"
                 },
                 {
-                  "text": "Dr. Martin Graf , Mag."
+                  "text": "Dr. Martin Graf , Mag.",
+                  "timeStart": "5.040",
+                  "timeEnd": "5.160"
                 },
                 {
-                  "text": "Gerald Hauser , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Hermann Weratschnig, MBA MSc , Henrike Brandstötter , Mag."
+                  "text": "Gerald Hauser , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Hermann Weratschnig, MBA MSc , Henrike Brandstötter , Mag.",
+                  "timeStart": "5.160",
+                  "timeEnd": "5.280"
                 },
                 {
-                  "text": "Beate Meinl-Reisinger, MES , Mag."
+                  "text": "Beate Meinl-Reisinger, MES , Mag.",
+                  "timeStart": "5.280",
+                  "timeEnd": "5.280"
                 },
                 {
-                  "text": "Julia Seidl und Präsident Ing. Norbert Hofer ."
+                  "text": "Julia Seidl und Präsident Ing. Norbert Hofer .",
+                  "timeStart": "5.280",
+                  "timeEnd": "5.280"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Andreas Hanger , Dipl.-Ing. Andrea Holzner , Martina Kaufmann, MMSc BA , Dr. Reinhold Lopatka , Mag. Bettina Rausch , Mag. Corinna Scharzenberger , Mag. Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Julia Elisabeth Herr , Dietmar Keck , Dipl.-Ing. Gerhard Deimek , Mag. Dr. Martin Graf , Mag. Gerald Hauser , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Hermann Weratschnig, MBA MSc , Henrike Brandstötter , Mag. Beate Meinl-Reisinger, MES , Mag. Julia Seidl und Präsident Ing. Norbert Hofer ."
@@ -114,7 +135,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "5.280",
+                  "timeEnd": "5.560"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -125,7 +148,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "5.560",
+                  "timeEnd": "7.000"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -136,7 +161,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "7.000",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -147,7 +174,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -158,7 +187,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Regierungsvorlage:"
+                  "text": "Regierungsvorlage:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Regierungsvorlage:"
@@ -169,7 +200,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Kraftfahrgesetz 1967 geändert wird (40. KFG-Novelle) ( 1424 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Kraftfahrgesetz 1967 geändert wird (40. KFG-Novelle) ( 1424 d.B. )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Kraftfahrgesetz 1967 geändert wird (40. KFG-Novelle) ( 1424 d.B. )"
@@ -180,7 +213,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -191,7 +226,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -202,7 +239,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -213,10 +252,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Anrechnung von Versicherungszeiten des Rechtsanwaltspensionssystems im gesetzlichen Pensionssystem ( 2378/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Anrechnung von Versicherungszeiten des Rechtsanwaltspensionssystems im gesetzlichen Pensionssystem ( 2378/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Anrechnung von Versicherungszeiten des Rechtsanwaltspensionssystems im gesetzlichen Pensionssystem ( 2378/A(E) )"
@@ -227,10 +270,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Waffenscheinabgabe bei längerfristiger psychischer Erkrankung ( 2379/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Waffenscheinabgabe bei längerfristiger psychischer Erkrankung ( 2379/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Waffenscheinabgabe bei längerfristiger psychischer Erkrankung ( 2379/A(E) )"
@@ -241,10 +288,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Reform des Rehabilitationsgeldes ( 2382/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Reform des Rehabilitationsgeldes ( 2382/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Reform des Rehabilitationsgeldes ( 2382/A(E) )"
@@ -255,10 +306,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 },
                 {
-                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Rot-Weiß-Rot-Karte für Lehrlinge ( 2392/A(E) )"
+                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Rot-Weiß-Rot-Karte für Lehrlinge ( 2392/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Rot-Weiß-Rot-Karte für Lehrlinge ( 2392/A(E) )"
@@ -269,7 +324,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -280,7 +337,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Sicherstellung des Europaratsbeitrages ( 2383/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Sicherstellung des Europaratsbeitrages ( 2383/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Sicherstellung des Europaratsbeitrages ( 2383/A(E) )"
@@ -291,7 +350,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Italianisierung der Verwaltung in Südtirol Einhalt gebieten ( 2403/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Italianisierung der Verwaltung in Südtirol Einhalt gebieten ( 2403/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Italianisierung der Verwaltung in Südtirol Einhalt gebieten ( 2403/A(E) )"
@@ -302,7 +363,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Rettung der Südtiroler Vereine ( 2404/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Rettung der Südtiroler Vereine ( 2404/A(E) )",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Rettung der Südtiroler Vereine ( 2404/A(E) )"
@@ -313,7 +376,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.080"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -324,7 +389,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Kindern gesundes Mittagessen ermöglichen ( 2394/A(E) )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Kindern gesundes Mittagessen ermöglichen ( 2394/A(E) )",
+                  "timeStart": "7.080",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Kindern gesundes Mittagessen ermöglichen ( 2394/A(E) )"
@@ -335,7 +402,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Rahmenbedingungen für unbegleitete minderjährige Flüchtlinge ( 2395/A(E) )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Rahmenbedingungen für unbegleitete minderjährige Flüchtlinge ( 2395/A(E) )",
+                  "timeStart": "8.280",
+                  "timeEnd": "8.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Rahmenbedingungen für unbegleitete minderjährige Flüchtlinge ( 2395/A(E) )"
@@ -346,7 +415,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "8.520",
+                  "timeEnd": "8.520"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -357,10 +428,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "8.520",
+                  "timeEnd": "9.200"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an Pensionist*innen ( 2362/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an Pensionist*innen ( 2362/A(E) )",
+                  "timeStart": "9.200",
+                  "timeEnd": "11.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an Pensionist*innen ( 2362/A(E) )"
@@ -371,7 +446,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz geändert wird ( 2363/A )"
+                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz geändert wird ( 2363/A )",
+                  "timeStart": "11.600",
+                  "timeEnd": "11.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz geändert wird ( 2363/A )"
@@ -382,10 +459,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "11.960",
+                  "timeEnd": "12.160"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Versicherungssteuergesetz 1953 geändert wird ( 2364/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Versicherungssteuergesetz 1953 geändert wird ( 2364/A )",
+                  "timeStart": "12.160",
+                  "timeEnd": "13.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Versicherungssteuergesetz 1953 geändert wird ( 2364/A )"
@@ -396,10 +477,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "13.160",
+                  "timeEnd": "13.640"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird ( 2365/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird ( 2365/A )",
+                  "timeStart": "13.640",
+                  "timeEnd": "15.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird ( 2365/A )"
@@ -410,7 +495,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Entlastung JETZT – Elektrizitätsabgabe herabsetzen ( 2401/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Entlastung JETZT – Elektrizitätsabgabe herabsetzen ( 2401/A(E) )",
+                  "timeStart": "15.120",
+                  "timeEnd": "15.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Entlastung JETZT – Elektrizitätsabgabe herabsetzen ( 2401/A(E) )"
@@ -421,7 +508,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "15.800",
+                  "timeEnd": "15.800"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -432,7 +521,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen umsetzen statt Aktionspläne vertagen ( 2367/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen umsetzen statt Aktionspläne vertagen ( 2367/A(E) )",
+                  "timeStart": "15.800",
+                  "timeEnd": "16.240"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen umsetzen statt Aktionspläne vertagen ( 2367/A(E) )"
@@ -443,7 +534,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Bundeseinheitliche Pflegebedingungen ( 2368/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Bundeseinheitliche Pflegebedingungen ( 2368/A(E) )",
+                  "timeStart": "16.240",
+                  "timeEnd": "17.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Bundeseinheitliche Pflegebedingungen ( 2368/A(E) )"
@@ -454,7 +547,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Pflegereform auf Schiene bringen ( 2369/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Pflegereform auf Schiene bringen ( 2369/A(E) )",
+                  "timeStart": "17.640",
+                  "timeEnd": "18.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Pflegereform auf Schiene bringen ( 2369/A(E) )"
@@ -465,7 +560,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "18.080",
+                  "timeEnd": "18.080"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -476,10 +573,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "18.080",
+                  "timeEnd": "18.080"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Automatisches Pensionssplitting ( 2381/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Automatisches Pensionssplitting ( 2381/A(E) )",
+                  "timeStart": "18.080",
+                  "timeEnd": "18.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Automatisches Pensionssplitting ( 2381/A(E) )"
@@ -490,7 +591,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "18.720",
+                  "timeEnd": "18.960"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -501,7 +604,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Inlandsantragstellung auf Erteilung eines Aufenthaltstitels für aus der Ukraine vertriebene Drittstaatsangehörige aus der Ukraine ( 2374/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Inlandsantragstellung auf Erteilung eines Aufenthaltstitels für aus der Ukraine vertriebene Drittstaatsangehörige aus der Ukraine ( 2374/A(E) )",
+                  "timeStart": "18.960",
+                  "timeEnd": "20.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Inlandsantragstellung auf Erteilung eines Aufenthaltstitels für aus der Ukraine vertriebene Drittstaatsangehörige aus der Ukraine ( 2374/A(E) )"
@@ -512,7 +617,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Erhöhung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Schutzsuchende ( 2375/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Erhöhung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Schutzsuchende ( 2375/A(E) )",
+                  "timeStart": "20.600",
+                  "timeEnd": "22.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Erhöhung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Schutzsuchende ( 2375/A(E) )"
@@ -523,7 +630,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend \"Solidarische Luftbrücken\" für Schutzsuchende aus der Ukraine in Staaten mit Ressourcen für adäquate Versorgung ( 2376/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend \"Solidarische Luftbrücken\" für Schutzsuchende aus der Ukraine in Staaten mit Ressourcen für adäquate Versorgung ( 2376/A(E) )",
+                  "timeStart": "22.960",
+                  "timeEnd": "23.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend \"Solidarische Luftbrücken\" für Schutzsuchende aus der Ukraine in Staaten mit Ressourcen für adäquate Versorgung ( 2376/A(E) )"
@@ -534,7 +643,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "23.560",
+                  "timeEnd": "23.560"
                 }
               ],
               "text": "Justizausschuss:"
@@ -545,7 +656,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Gutachten im Maßnahmenvollzug ( 2372/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Gutachten im Maßnahmenvollzug ( 2372/A(E) )",
+                  "timeStart": "23.560",
+                  "timeEnd": "24.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Gutachten im Maßnahmenvollzug ( 2372/A(E) )"
@@ -556,10 +669,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Wo bleibt die Reform des Maßnahmenvollzugs? ("
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Wo bleibt die Reform des Maßnahmenvollzugs? (",
+                  "timeStart": "24.760",
+                  "timeEnd": "24.760"
                 },
                 {
-                  "text": "2377/A(E) )"
+                  "text": "2377/A(E) )",
+                  "timeStart": "24.760",
+                  "timeEnd": "24.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Wo bleibt die Reform des Maßnahmenvollzugs? ( 2377/A(E) )"
@@ -570,10 +687,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "24.760",
+                  "timeEnd": "24.760"
                 },
                 {
-                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend die Einführung eines unabhängigen Bundesstaatsanwaltes als Weisungsspitze gegenüber den staatsanwaltlichen Behörden ( 2384/A(E) )"
+                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend die Einführung eines unabhängigen Bundesstaatsanwaltes als Weisungsspitze gegenüber den staatsanwaltlichen Behörden ( 2384/A(E) )",
+                  "timeStart": "24.760",
+                  "timeEnd": "26.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend die Einführung eines unabhängigen Bundesstaatsanwaltes als Weisungsspitze gegenüber den staatsanwaltlichen Behörden ( 2384/A(E) )"
@@ -584,10 +705,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "26.000",
+                  "timeEnd": "26.040"
                 },
                 {
-                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Stärkung der Korruptionsbekämpfung durch personelle Aufstockung der Wirtschafts- und Korruptionsstaatsanwaltschaft ( 2385/A(E) )"
+                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Stärkung der Korruptionsbekämpfung durch personelle Aufstockung der Wirtschafts- und Korruptionsstaatsanwaltschaft ( 2385/A(E) )",
+                  "timeStart": "26.040",
+                  "timeEnd": "27.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Stärkung der Korruptionsbekämpfung durch personelle Aufstockung der Wirtschafts- und Korruptionsstaatsanwaltschaft ( 2385/A(E) )"
@@ -598,7 +723,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Entschuldigung, Rehabilitation und Entschädigung für die Opfer homophober Strafgesetze ( 2386/A(E) )"
+                  "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Entschuldigung, Rehabilitation und Entschädigung für die Opfer homophober Strafgesetze ( 2386/A(E) )",
+                  "timeStart": "27.400",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Entschuldigung, Rehabilitation und Entschädigung für die Opfer homophober Strafgesetze ( 2386/A(E) )"
@@ -609,10 +736,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an ältere Menschen ( 2387/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an ältere Menschen ( 2387/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an ältere Menschen ( 2387/A(E) )"
@@ -623,7 +754,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Gerechte Unterhaltssicherung sicherstellen ( 2393/A(E) )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Gerechte Unterhaltssicherung sicherstellen ( 2393/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Gerechte Unterhaltssicherung sicherstellen ( 2393/A(E) )"
@@ -634,7 +767,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -645,7 +780,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend \"Die Pandemie ist nicht zu Ende – Kulturhilfen sind weiter nötig\" ( 2397/A(E) )"
+                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend \"Die Pandemie ist nicht zu Ende – Kulturhilfen sind weiter nötig\" ( 2397/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend \"Die Pandemie ist nicht zu Ende – Kulturhilfen sind weiter nötig\" ( 2397/A(E) )"
@@ -656,7 +793,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Verhinderung von Nachteilen im Künstler-Sozialversicherungsfonds aufgrund pandemiebedingter Einnahmenausfälle ( 2398/A(E) )"
+                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Verhinderung von Nachteilen im Künstler-Sozialversicherungsfonds aufgrund pandemiebedingter Einnahmenausfälle ( 2398/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Verhinderung von Nachteilen im Künstler-Sozialversicherungsfonds aufgrund pandemiebedingter Einnahmenausfälle ( 2398/A(E) )"
@@ -667,10 +806,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Mag."
+                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Mag.",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Zukunft des Haus der Geschichte Österreichs ( 2402/A(E) )"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Zukunft des Haus der Geschichte Österreichs ( 2402/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Zukunft des Haus der Geschichte Österreichs ( 2402/A(E) )"
@@ -681,7 +824,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -692,7 +837,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Anpassung der Befugnisse der militärischen Nachrichtendienste zur Aufklärung und Abwehr an die Internet-Ära ( 2370/A(E) )"
+                  "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Anpassung der Befugnisse der militärischen Nachrichtendienste zur Aufklärung und Abwehr an die Internet-Ära ( 2370/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Anpassung der Befugnisse der militärischen Nachrichtendienste zur Aufklärung und Abwehr an die Internet-Ära ( 2370/A(E) )"
@@ -703,7 +850,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Konzept zur effizienten Nutzung von Mitteln aus dem Landesverteidigungsbudget ( 2371/A(E) )"
+                  "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Konzept zur effizienten Nutzung von Mitteln aus dem Landesverteidigungsbudget ( 2371/A(E) )",
+                  "timeStart": "27.640",
+                  "timeEnd": "27.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Konzept zur effizienten Nutzung von Mitteln aus dem Landesverteidigungsbudget ( 2371/A(E) )"
@@ -714,7 +863,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "27.720",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -725,7 +876,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Maßnahmenpaket Landwirtschaft zur Absicherung der internationalen Versorgungssicherheit ( 2400/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Maßnahmenpaket Landwirtschaft zur Absicherung der internationalen Versorgungssicherheit ( 2400/A(E) )",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Maßnahmenpaket Landwirtschaft zur Absicherung der internationalen Versorgungssicherheit ( 2400/A(E) )"
@@ -736,7 +889,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "28.840",
+                  "timeEnd": "29.480"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -747,10 +902,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.480",
+                  "timeEnd": "30.280"
                 },
                 {
-                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Rasche Integration von aus der Ukraine geflüchteten Menschen ( 2390/A(E) )"
+                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Rasche Integration von aus der Ukraine geflüchteten Menschen ( 2390/A(E) )",
+                  "timeStart": "30.280",
+                  "timeEnd": "30.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Rasche Integration von aus der Ukraine geflüchteten Menschen ( 2390/A(E) )"
@@ -761,7 +920,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "30.480",
+                  "timeEnd": "30.480"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -772,7 +933,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Schluss mit Gasheizungen in Neubauten ( 2361/A(E) )"
+                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Schluss mit Gasheizungen in Neubauten ( 2361/A(E) )",
+                  "timeStart": "30.480",
+                  "timeEnd": "32.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Schluss mit Gasheizungen in Neubauten ( 2361/A(E) )"
@@ -783,7 +946,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "32.320",
+                  "timeEnd": "32.480"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -794,10 +959,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "32.480",
+                  "timeEnd": "32.600"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Echte Maßnahmen zum Schutze der psychischen Gesundheit der Schüler_innen ( 2391/A(E) )"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Echte Maßnahmen zum Schutze der psychischen Gesundheit der Schüler_innen ( 2391/A(E) )",
+                  "timeStart": "32.600",
+                  "timeEnd": "33.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Echte Maßnahmen zum Schutze der psychischen Gesundheit der Schüler_innen ( 2391/A(E) )"
@@ -808,7 +977,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Kostenübernahme von Exkursionen zu Gedenkstätten ( 2396/A(E) )"
+                  "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Kostenübernahme von Exkursionen zu Gedenkstätten ( 2396/A(E) )",
+                  "timeStart": "33.000",
+                  "timeEnd": "33.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Kostenübernahme von Exkursionen zu Gedenkstätten ( 2396/A(E) )"
@@ -819,7 +990,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "33.000",
+                  "timeEnd": "33.000"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -830,7 +1003,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz (B-VG) geändert wird ( 2366/A )"
+                  "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz (B-VG) geändert wird ( 2366/A )",
+                  "timeStart": "33.000",
+                  "timeEnd": "33.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz (B-VG) geändert wird ( 2366/A )"
@@ -841,10 +1016,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "33.000",
+                  "timeEnd": "33.000"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an ältere Menschen ( 2388/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an ältere Menschen ( 2388/A(E) )",
+                  "timeStart": "33.000",
+                  "timeEnd": "33.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Kreditvergabe an ältere Menschen ( 2388/A(E) )"
@@ -855,7 +1034,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "33.080",
+                  "timeEnd": "33.200"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -866,7 +1047,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Einfacheres Verfahren zur Einführung von Zonen mit reduzierter Höchstgeschwindigkeit im Ortsgebiet ( 2373/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Einfacheres Verfahren zur Einführung von Zonen mit reduzierter Höchstgeschwindigkeit im Ortsgebiet ( 2373/A(E) )",
+                  "timeStart": "33.200",
+                  "timeEnd": "35.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Einfacheres Verfahren zur Einführung von Zonen mit reduzierter Höchstgeschwindigkeit im Ortsgebiet ( 2373/A(E) )"
@@ -877,7 +1060,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "35.200",
+                  "timeEnd": "35.520"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -888,10 +1073,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "35.520",
+                  "timeEnd": "35.520"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Energiekosten: Entlastung durch Senkung der Kammerumlagen ( 2380/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Energiekosten: Entlastung durch Senkung der Kammerumlagen ( 2380/A(E) )",
+                  "timeStart": "35.520",
+                  "timeEnd": "36.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Energiekosten: Entlastung durch Senkung der Kammerumlagen ( 2380/A(E) )"
@@ -902,7 +1091,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausstieg der Industrie aus fossilem Gas unterstützen ( 2389/A(E) )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausstieg der Industrie aus fossilem Gas unterstützen ( 2389/A(E) )",
+                  "timeStart": "36.200",
+                  "timeEnd": "37.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausstieg der Industrie aus fossilem Gas unterstützen ( 2389/A(E) )"
@@ -913,7 +1104,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Geothermiepotentiale entfesseln ( 2399/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Geothermiepotentiale entfesseln ( 2399/A(E) )",
+                  "timeStart": "37.080",
+                  "timeEnd": "37.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Geothermiepotentiale entfesseln ( 2399/A(E) )"
@@ -924,7 +1117,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "37.600",
+                  "timeEnd": "38.040"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -935,7 +1130,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wiedereinführung der Studierendenwohnheimförderung\" ( 2405/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wiedereinführung der Studierendenwohnheimförderung\" ( 2405/A(E) )",
+                  "timeStart": "38.040",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wiedereinführung der Studierendenwohnheimförderung\" ( 2405/A(E) )"
@@ -946,7 +1143,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, Donnerstag, den 24. März, um 10 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, Donnerstag, den 24. März, um 10 Uhr ein.",
+                  "timeStart": "38.840",
+                  "timeEnd": "39.600"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, Donnerstag, den 24. März, um 10 Uhr ein."
@@ -957,7 +1156,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "39.600",
+                  "timeEnd": "39.760"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -968,7 +1169,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen einen schönen Abend."
+                  "text": "Ich wünsche Ihnen einen schönen Abend.",
+                  "timeStart": "39.760",
+                  "timeEnd": "39.880"
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen Abend."
@@ -979,7 +1182,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "39.880",
+                  "timeEnd": "39.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -991,7 +1196,8 @@
         "mediaIndex": 1,
         "stdId": 263597,
         "debatteId": 300,
-        "proceedingIndex": 263597
+        "proceedingIndex": 263597,
+        "alignDuration": 1.2265379428863525
       },
       "originalLanguage": "de"
     }

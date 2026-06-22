@@ -4,11 +4,11 @@
     "session": "27152",
     "dateStart": "2022-04-05T14:50:01",
     "dateEnd": "2022-04-05T14:51:04",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:56+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T08:52:39",
     "processing": {
       "merge": "2026-06-16T04:23:56+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T08:52:39"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "264640",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/8bbb8e5b-fa99-48cc-9033-1c95bf524073/8bbb8e5b-fa99-48cc-9033-1c95bf524073.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/8bbb8e5b-fa99-48cc-9033-1c95bf524073/8bbb8e5b-fa99-48cc-9033-1c95bf524073.mp3",
-        "duration": 63
+        "duration": 63,
+        "aligned": true
       },
       "dateStart": "2022-04-05T14:50:01",
       "dateEnd": "2022-04-05T14:51:04",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 152. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 152. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.440"
                 }
               ],
               "text": "Ich eröffne die 152. Sitzung des Nationalrates."
@@ -79,28 +82,44 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.a Johanna Jachs , Ing. Klaus Lindinger, BSc , Mag.a Dr.in Maria Theresia Niss, MBA , Mag.a Bettina Rausch , Mag.a Elisabeth Scheucher-Pichler , Melanie Erasim, MSc , Josef Muchitsch , Petra Vorderwinkler , Christian Hafenecker, MA , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.a Johanna Jachs , Ing. Klaus Lindinger, BSc , Mag.a Dr.in Maria Theresia Niss, MBA , Mag.a Bettina Rausch , Mag.a Elisabeth Scheucher-Pichler , Melanie Erasim, MSc , Josef Muchitsch , Petra Vorderwinkler , Christian Hafenecker, MA , Mag.",
+                  "timeStart": "2.440",
+                  "timeEnd": "7.760"
                 },
                 {
-                  "text": "Gerald Hauser , MMMag."
+                  "text": "Gerald Hauser , MMMag.",
+                  "timeStart": "7.760",
+                  "timeEnd": "7.880"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Christian Lausch , Mag."
+                  "text": "Dr. Axel Kassegger , Christian Lausch , Mag.",
+                  "timeStart": "7.880",
+                  "timeEnd": "8.480"
                 },
                 {
-                  "text": "Philipp Schrangl , Mag."
+                  "text": "Philipp Schrangl , Mag.",
+                  "timeStart": "8.480",
+                  "timeEnd": "8.680"
                 },
                 {
-                  "text": "Harald Stefan , Wolfgang Zanger , Mag."
+                  "text": "Harald Stefan , Wolfgang Zanger , Mag.",
+                  "timeStart": "8.680",
+                  "timeEnd": "9.360"
                 },
                 {
-                  "text": "Faika El-Nagashi , Barbara Neßler , Ralph Schallmeiner , Mag."
+                  "text": "Faika El-Nagashi , Barbara Neßler , Ralph Schallmeiner , Mag.",
+                  "timeStart": "9.360",
+                  "timeEnd": "10.040"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Dr. Helmut Brandstätter , Henrike Brandstötter und Mag."
+                  "text": "Dr. Jakob Schwarz, BA , Dr. Helmut Brandstätter , Henrike Brandstötter und Mag.",
+                  "timeStart": "10.040",
+                  "timeEnd": "11.480"
                 },
                 {
-                  "text": "Yannick Shetty ."
+                  "text": "Yannick Shetty .",
+                  "timeStart": "11.480",
+                  "timeEnd": "11.560"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.a Johanna Jachs , Ing. Klaus Lindinger, BSc , Mag.a Dr.in Maria Theresia Niss, MBA , Mag.a Bettina Rausch , Mag.a Elisabeth Scheucher-Pichler , Melanie Erasim, MSc , Josef Muchitsch , Petra Vorderwinkler , Christian Hafenecker, MA , Mag. Gerald Hauser , MMMag. Dr. Axel Kassegger , Christian Lausch , Mag. Philipp Schrangl , Mag. Harald Stefan , Wolfgang Zanger , Mag. Faika El-Nagashi , Barbara Neßler , Ralph Schallmeiner , Mag. Dr. Jakob Schwarz, BA , Dr. Helmut Brandstätter , Henrike Brandstötter und Mag. Yannick Shetty ."
@@ -111,7 +130,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "11.560",
+                  "timeEnd": "12.080"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -122,7 +143,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "12.080",
+                  "timeEnd": "13.720"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -133,7 +156,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "13.720",
+                  "timeEnd": "14.200"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -144,7 +169,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "14.200",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -155,7 +182,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen : 9463/AB bis 9468/AB"
+                  "text": "Anfragebeantwortungen : 9463/AB bis 9468/AB",
+                  "timeStart": "15.320",
+                  "timeEnd": "17.160"
                 }
               ],
               "text": "Anfragebeantwortungen : 9463/AB bis 9468/AB"
@@ -166,7 +195,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortung (Präsident des Nationalrates):"
+                  "text": "Anfragebeantwortung (Präsident des Nationalrates):",
+                  "timeStart": "17.160",
+                  "timeEnd": "18.360"
                 }
               ],
               "text": "Anfragebeantwortung (Präsident des Nationalrates):"
@@ -177,7 +208,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "42/ABPR"
+                  "text": "42/ABPR",
+                  "timeStart": "18.360",
+                  "timeEnd": "19.120"
                 }
               ],
               "text": "42/ABPR"
@@ -188,7 +221,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "19.120",
+                  "timeEnd": "19.520"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -199,7 +234,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung :"
+                  "text": "zur Vorberatung :",
+                  "timeStart": "19.520",
+                  "timeEnd": "19.960"
                 }
               ],
               "text": "zur Vorberatung :"
@@ -210,7 +247,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "19.960",
+                  "timeEnd": "20.680"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -221,10 +260,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "20.680",
+                  "timeEnd": "21.080"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz geändert wird ( 2423/A )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz geändert wird ( 2423/A )",
+                  "timeStart": "21.080",
+                  "timeEnd": "24.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz geändert wird ( 2423/A )"
@@ -235,10 +278,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "24.760",
+                  "timeEnd": "25.600"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwer(st)arbeit ( 2424/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwer(st)arbeit ( 2424/A(E) )",
+                  "timeStart": "25.600",
+                  "timeEnd": "28.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwer(st)arbeit ( 2424/A(E) )"
@@ -249,7 +296,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2427/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2427/A(E) )",
+                  "timeStart": "28.760",
+                  "timeEnd": "32.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2427/A(E) )"
@@ -260,7 +309,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Bauten und Wohnen:"
+                  "text": "Ausschuss für Bauten und Wohnen:",
+                  "timeStart": "32.200",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -271,10 +322,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "32.720",
+                  "timeEnd": "33.400"
                 },
                 {
-                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietreduktion im Wiener Gemeindebau – gemeinnützige Grundmiete statt Richtwert ( 2426/A(E) )"
+                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietreduktion im Wiener Gemeindebau – gemeinnützige Grundmiete statt Richtwert ( 2426/A(E) )",
+                  "timeStart": "33.400",
+                  "timeEnd": "35.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietreduktion im Wiener Gemeindebau – gemeinnützige Grundmiete statt Richtwert ( 2426/A(E) )"
@@ -285,7 +340,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "35.960",
+                  "timeEnd": "36.720"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -296,7 +353,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik ( 2425/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik ( 2425/A(E) )",
+                  "timeStart": "36.720",
+                  "timeEnd": "41.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik ( 2425/A(E) )"
@@ -307,7 +366,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "41.160",
+                  "timeEnd": "41.760"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -318,7 +379,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2428/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2428/A(E) )",
+                  "timeStart": "41.760",
+                  "timeEnd": "45.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2428/A(E) )"
@@ -329,7 +392,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 2429/A dem Ausschuss für Bauten und Wohnen sowie den Antrag 2430/A(E) dem Ausschuss für Arbeit und Soziales zu."
+                  "text": "Weiters weise ich den Antrag 2429/A dem Ausschuss für Bauten und Wohnen sowie den Antrag 2430/A(E) dem Ausschuss für Arbeit und Soziales zu.",
+                  "timeStart": "45.320",
+                  "timeEnd": "50.560"
                 }
               ],
               "text": "Weiters weise ich den Antrag 2429/A dem Ausschuss für Bauten und Wohnen sowie den Antrag 2430/A(E) dem Ausschuss für Arbeit und Soziales zu."
@@ -340,7 +405,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrats, die für Mittwoch, den 27. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrats, die für Mittwoch, den 27. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "50.560",
+                  "timeEnd": "51.280"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrats, die für Mittwoch, den 27. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -351,7 +418,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters gebe ich noch bekannt, dass heute um 15.15 Uhr der Verkehrsausschuss im Camineum sowie um 16.30 Uhr der Ständige Unterausschuss in Angelegenheiten der Europäischen Union im Dachfoyer zusammentreten."
+                  "text": "Weiters gebe ich noch bekannt, dass heute um 15.15 Uhr der Verkehrsausschuss im Camineum sowie um 16.30 Uhr der Ständige Unterausschuss in Angelegenheiten der Europäischen Union im Dachfoyer zusammentreten.",
+                  "timeStart": "51.280",
+                  "timeEnd": "53.600"
                 }
               ],
               "text": "Weiters gebe ich noch bekannt, dass heute um 15.15 Uhr der Verkehrsausschuss im Camineum sowie um 16.30 Uhr der Ständige Unterausschuss in Angelegenheiten der Europäischen Union im Dachfoyer zusammentreten."
@@ -362,7 +431,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "53.600",
+                  "timeEnd": "53.920"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -374,7 +445,8 @@
         "mediaIndex": 1,
         "stdId": 264640,
         "debatteId": 300,
-        "proceedingIndex": 264640
+        "proceedingIndex": 264640,
+        "alignDuration": 0.6173989772796631
       },
       "originalLanguage": "de"
     }

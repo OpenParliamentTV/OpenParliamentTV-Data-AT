@@ -4,11 +4,11 @@
     "session": "27146",
     "dateStart": "2022-03-08T19:55:08",
     "dateEnd": "2022-03-08T19:55:45",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:56+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T08:24:46",
     "processing": {
       "merge": "2026-06-16T04:23:56+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T08:24:46"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "262492",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/1e931af8-9765-42c4-aec7-7b9c1a607488/1e931af8-9765-42c4-aec7-7b9c1a607488.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/1e931af8-9765-42c4-aec7-7b9c1a607488/1e931af8-9765-42c4-aec7-7b9c1a607488.mp3",
-        "duration": 37
+        "duration": 37,
+        "aligned": true
       },
       "dateStart": "2022-03-08T19:55:08",
       "dateEnd": "2022-03-08T19:55:45",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.080"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -79,28 +82,44 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Lukas Brandweiner , Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Lukas Brandweiner , Mag.",
+                  "timeStart": "1.080",
+                  "timeEnd": "1.320"
                 },
                 {
-                  "text": "Michael Hammer , Dr. Gudrun Kugler , Ing. Klaus Lindinger, BSc , Christoph Stark , Ing. Johann Weber , Christoph Zarits , Mag."
+                  "text": "Michael Hammer , Dr. Gudrun Kugler , Ing. Klaus Lindinger, BSc , Christoph Stark , Ing. Johann Weber , Christoph Zarits , Mag.",
+                  "timeStart": "1.320",
+                  "timeEnd": "3.280"
                 },
                 {
-                  "text": "Christian Drobits , Cornelia Ecker , Gabriele Heinisch-Hosek , Dietmar Keck , Maximilian Köllner, MA , Mario Lindner , Nurten Yılmaz , Hermann Brückl, MA , Dipl.-Ing. Gerhard Deimek , Christian Lausch , Mag."
+                  "text": "Christian Drobits , Cornelia Ecker , Gabriele Heinisch-Hosek , Dietmar Keck , Maximilian Köllner, MA , Mario Lindner , Nurten Yılmaz , Hermann Brückl, MA , Dipl.-Ing. Gerhard Deimek , Christian Lausch , Mag.",
+                  "timeStart": "3.280",
+                  "timeEnd": "5.160"
                 },
                 {
-                  "text": "Christian Ragger , Walter Rauch , Ing. Mag."
+                  "text": "Christian Ragger , Walter Rauch , Ing. Mag.",
+                  "timeStart": "5.160",
+                  "timeEnd": "6.240"
                 },
                 {
-                  "text": "Volker Reifenberger , Petra Steger , Mag."
+                  "text": "Volker Reifenberger , Petra Steger , Mag.",
+                  "timeStart": "6.240",
+                  "timeEnd": "6.520"
                 },
                 {
-                  "text": "Philipp Schrangl , Mag."
+                  "text": "Philipp Schrangl , Mag.",
+                  "timeStart": "6.520",
+                  "timeEnd": "6.880"
                 },
                 {
-                  "text": "Ulrike Fischer , Mag."
+                  "text": "Ulrike Fischer , Mag.",
+                  "timeStart": "6.880",
+                  "timeEnd": "7.620"
                 },
                 {
-                  "text": "Nina Tomaselli , Dipl.-Ing. Karin Doppelbauer , Douglas Hoyos-Trauttmansdorff und Dr. Johannes Margreiter ."
+                  "text": "Nina Tomaselli , Dipl.-Ing. Karin Doppelbauer , Douglas Hoyos-Trauttmansdorff und Dr. Johannes Margreiter .",
+                  "timeStart": "7.620",
+                  "timeEnd": "8.640"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Lukas Brandweiner , Mag. Michael Hammer , Dr. Gudrun Kugler , Ing. Klaus Lindinger, BSc , Christoph Stark , Ing. Johann Weber , Christoph Zarits , Mag. Christian Drobits , Cornelia Ecker , Gabriele Heinisch-Hosek , Dietmar Keck , Maximilian Köllner, MA , Mario Lindner , Nurten Yılmaz , Hermann Brückl, MA , Dipl.-Ing. Gerhard Deimek , Christian Lausch , Mag. Christian Ragger , Walter Rauch , Ing. Mag. Volker Reifenberger , Petra Steger , Mag. Philipp Schrangl , Mag. Ulrike Fischer , Mag. Nina Tomaselli , Dipl.-Ing. Karin Doppelbauer , Douglas Hoyos-Trauttmansdorff und Dr. Johannes Margreiter ."
@@ -111,7 +130,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "8.640",
+                  "timeEnd": "9.040"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -122,7 +143,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "9.040",
+                  "timeEnd": "10.280"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -133,7 +156,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "10.280",
+                  "timeEnd": "10.400"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -144,7 +169,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "10.400",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -155,7 +182,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortung: 9063/AB"
+                  "text": "1. Anfragebeantwortung: 9063/AB",
+                  "timeStart": "10.920",
+                  "timeEnd": "11.080"
                 }
               ],
               "text": "1. Anfragebeantwortung: 9063/AB"
@@ -166,7 +195,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Anträge:"
+                  "text": "2. Anträge:",
+                  "timeStart": "11.080",
+                  "timeEnd": "11.080"
                 }
               ],
               "text": "2. Anträge:"
@@ -177,7 +208,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zurückziehungen: Zu 2251/A(E) und Zu 2252/A(E)"
+                  "text": "Zurückziehungen: Zu 2251/A(E) und Zu 2252/A(E)",
+                  "timeStart": "11.080",
+                  "timeEnd": "12.560"
                 }
               ],
               "text": "Zurückziehungen: Zu 2251/A(E) und Zu 2252/A(E)"
@@ -188,7 +221,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "12.560",
+                  "timeEnd": "13.760"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -199,7 +234,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "13.760",
+                  "timeEnd": "13.760"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -210,7 +247,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "13.760",
+                  "timeEnd": "13.960"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -221,7 +260,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Pflegeoffensive sofort in Angriff nehmen ( 2349/A(E) )"
+                  "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Pflegeoffensive sofort in Angriff nehmen ( 2349/A(E) )",
+                  "timeStart": "13.960",
+                  "timeEnd": "14.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Pflegeoffensive sofort in Angriff nehmen ( 2349/A(E) )"
@@ -232,7 +273,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird ( 2350/A )"
+                  "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird ( 2350/A )",
+                  "timeStart": "14.760",
+                  "timeEnd": "16.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird ( 2350/A )"
@@ -243,7 +286,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "16.480",
+                  "timeEnd": "16.600"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -254,10 +299,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "16.600",
+                  "timeEnd": "16.840"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Beobachterstatus Taiwans in der WHO ( 2353/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Beobachterstatus Taiwans in der WHO ( 2353/A(E) )",
+                  "timeStart": "16.840",
+                  "timeEnd": "18.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Beobachterstatus Taiwans in der WHO ( 2353/A(E) )"
@@ -268,7 +317,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "18.280",
+                  "timeEnd": "18.480"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -279,10 +330,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "18.480",
+                  "timeEnd": "18.720"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Beobachterstatus Taiwans in der WHO ( 2352/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Beobachterstatus Taiwans in der WHO ( 2352/A(E) )",
+                  "timeStart": "18.720",
+                  "timeEnd": "20.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Beobachterstatus Taiwans in der WHO ( 2352/A(E) )"
@@ -293,7 +348,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Weiterverordnung von Heilmitteln ( 2354/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Weiterverordnung von Heilmitteln ( 2354/A(E) )",
+                  "timeStart": "20.200",
+                  "timeEnd": "20.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Weiterverordnung von Heilmitteln ( 2354/A(E) )"
@@ -304,7 +361,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Impfpflichtbefreiung ohne bürokratische Hürden ( 2355/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Impfpflichtbefreiung ohne bürokratische Hürden ( 2355/A(E) )",
+                  "timeStart": "20.920",
+                  "timeEnd": "22.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Impfpflichtbefreiung ohne bürokratische Hürden ( 2355/A(E) )"
@@ -315,7 +374,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "22.560",
+                  "timeEnd": "22.800"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -326,13 +387,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "22.800",
+                  "timeEnd": "23.120"
                 },
                 {
-                  "text": "Meri Disoski , Dipl.-Kffr. ("
+                  "text": "Meri Disoski , Dipl.-Kffr. (",
+                  "timeStart": "23.120",
+                  "timeEnd": "23.560"
                 },
                 {
-                  "text": "FH) Elisabeth Pfurtscheller , Eva Maria Holzleitner, BSc , Rosa Ecker, MBA , Henrike Brandstötter , Kolleginnen und Kollegen betreffend der Erstellung eines Frauengesundheitsberichts, zur Verbesserung der Frauengesundheit und Stärkung der Gender-Medizin ( 2351/A(E) )"
+                  "text": "FH) Elisabeth Pfurtscheller , Eva Maria Holzleitner, BSc , Rosa Ecker, MBA , Henrike Brandstötter , Kolleginnen und Kollegen betreffend der Erstellung eines Frauengesundheitsberichts, zur Verbesserung der Frauengesundheit und Stärkung der Gender-Medizin ( 2351/A(E) )",
+                  "timeStart": "23.560",
+                  "timeEnd": "25.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Meri Disoski , Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Eva Maria Holzleitner, BSc , Rosa Ecker, MBA , Henrike Brandstötter , Kolleginnen und Kollegen betreffend der Erstellung eines Frauengesundheitsberichts, zur Verbesserung der Frauengesundheit und Stärkung der Gender-Medizin ( 2351/A(E) )"
@@ -343,7 +410,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "25.880",
+                  "timeEnd": "26.160"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -354,13 +423,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "26.160",
+                  "timeEnd": "26.400"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Organisation der Sicherheitsverwaltung und die Ausübung der Sicherheitspolizei (Sicherheitspolizeigesetz – SPG), BGBl."
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Organisation der Sicherheitsverwaltung und die Ausübung der Sicherheitspolizei (Sicherheitspolizeigesetz – SPG), BGBl.",
+                  "timeStart": "26.400",
+                  "timeEnd": "27.360"
                 },
                 {
-                  "text": "Nr. 566/1991, geändert wird ( 2356/A )"
+                  "text": "Nr. 566/1991, geändert wird ( 2356/A )",
+                  "timeStart": "27.360",
+                  "timeEnd": "29.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Organisation der Sicherheitsverwaltung und die Ausübung der Sicherheitspolizei (Sicherheitspolizeigesetz – SPG), BGBl. Nr. 566/1991, geändert wird ( 2356/A )"
@@ -371,7 +446,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "29.080",
+                  "timeEnd": "29.360"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -382,7 +459,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte ( 2357/A(E) )"
+                  "text": "Antrag der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte ( 2357/A(E) )",
+                  "timeStart": "29.360",
+                  "timeEnd": "31.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte ( 2357/A(E) )"
@@ -393,7 +472,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "31.880",
+                  "timeEnd": "32.640"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -404,7 +485,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Stopp der laufenden Zentralstellenreform und die damit einhergehende Zerstörung der militärischen Führungsfähigkeit im Einsatz ( 2358/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Stopp der laufenden Zentralstellenreform und die damit einhergehende Zerstörung der militärischen Führungsfähigkeit im Einsatz ( 2358/A(E) )",
+                  "timeStart": "32.640",
+                  "timeEnd": "33.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Stopp der laufenden Zentralstellenreform und die damit einhergehende Zerstörung der militärischen Führungsfähigkeit im Einsatz ( 2358/A(E) )"
@@ -415,7 +498,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 2359/A dem Ausschuss für Wirtschaft, Industrie und Energie zu."
+                  "text": "Weiters weise ich den Antrag 2359/A dem Ausschuss für Wirtschaft, Industrie und Energie zu.",
+                  "timeStart": "33.720",
+                  "timeEnd": "34.040"
                 }
               ],
               "text": "Weiters weise ich den Antrag 2359/A dem Ausschuss für Wirtschaft, Industrie und Energie zu."
@@ -426,7 +511,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 23. März 2022, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 23. März 2022, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "34.040",
+                  "timeEnd": "35.840"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 23. März 2022, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -437,7 +524,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "35.840",
+                  "timeEnd": "35.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -449,7 +538,8 @@
         "mediaIndex": 1,
         "stdId": 262492,
         "debatteId": 300,
-        "proceedingIndex": 262492
+        "proceedingIndex": 262492,
+        "alignDuration": 0.6640241146087646
       },
       "originalLanguage": "de"
     }

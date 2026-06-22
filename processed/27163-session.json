@@ -4,11 +4,11 @@
     "session": "27163",
     "dateStart": "2022-06-15T23:22:16",
     "dateEnd": "2022-06-15T23:24:25",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:58+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T17:48:10",
     "processing": {
       "merge": "2026-06-16T04:23:58+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T17:48:10"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "270808",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/e90031b7-80cf-4a70-80a6-6ae40d046444/e90031b7-80cf-4a70-80a6-6ae40d046444.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/e90031b7-80cf-4a70-80a6-6ae40d046444/e90031b7-80cf-4a70-80a6-6ae40d046444.mp3",
-        "duration": 129
+        "duration": 129,
+        "aligned": true
       },
       "dateStart": "2022-06-15T23:22:16",
       "dateEnd": "2022-06-15T23:24:25",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 163. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 163. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.960"
                 }
               ],
               "text": "Ich eröffne die 163. Sitzung des Nationalrates."
@@ -79,19 +82,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag.",
+                  "timeStart": "1.960",
+                  "timeEnd": "2.920"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "2.920",
+                  "timeEnd": "3.000"
                 },
                 {
-                  "text": "Hubert Fuchs , Ing. Norbert Hofer , MMMag."
+                  "text": "Hubert Fuchs , Ing. Norbert Hofer , MMMag.",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.800"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Wolfgang Zanger Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag."
+                  "text": "Dr. Axel Kassegger , Wolfgang Zanger Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag.",
+                  "timeStart": "3.800",
+                  "timeEnd": "4.920"
                 },
                 {
-                  "text": "Yannick Shetty ."
+                  "text": "Yannick Shetty .",
+                  "timeStart": "4.920",
+                  "timeEnd": "5.480"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag. DDr. Hubert Fuchs , Ing. Norbert Hofer , MMMag. Dr. Axel Kassegger , Wolfgang Zanger Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag. Yannick Shetty ."
@@ -102,7 +115,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "5.480",
+                  "timeEnd": "5.600"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "5.600",
+                  "timeEnd": "7.360"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "7.360",
+                  "timeEnd": "8.200"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "8.200",
+                  "timeEnd": "8.600"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Regierungsvorlagen:"
+                  "text": "1. Regierungsvorlagen:",
+                  "timeStart": "8.600",
+                  "timeEnd": "8.600"
                 }
               ],
               "text": "1. Regierungsvorlagen:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )"
+                  "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )",
+                  "timeStart": "8.600",
+                  "timeEnd": "10.640"
                 }
               ],
               "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Meldegesetz 1991 geändert wird ( 1525 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Meldegesetz 1991 geändert wird ( 1525 d.B. )",
+                  "timeStart": "10.640",
+                  "timeEnd": "10.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Meldegesetz 1991 geändert wird ( 1525 d.B. )"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Übernahmegesetz und das Gerichtsgebührengesetz geändert werden (Übernahmegesetz-Novelle 2022 – ÜbG-Nov 2022) ( 1526 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Übernahmegesetz und das Gerichtsgebührengesetz geändert werden (Übernahmegesetz-Novelle 2022 – ÜbG-Nov 2022) ( 1526 d.B. )",
+                  "timeStart": "10.640",
+                  "timeEnd": "10.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Übernahmegesetz und das Gerichtsgebührengesetz geändert werden (Übernahmegesetz-Novelle 2022 – ÜbG-Nov 2022) ( 1526 d.B. )"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )",
+                  "timeStart": "10.640",
+                  "timeEnd": "14.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )",
+                  "timeStart": "14.720",
+                  "timeEnd": "14.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )",
+                  "timeStart": "14.720",
+                  "timeEnd": "14.960"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )",
+                  "timeStart": "14.960",
+                  "timeEnd": "19.440"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesstraßengesetz 1971 und das Straßentunnel-Sicherheitsgesetz geändert werden ( 1531 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesstraßengesetz 1971 und das Straßentunnel-Sicherheitsgesetz geändert werden ( 1531 d.B. )",
+                  "timeStart": "19.440",
+                  "timeEnd": "21.240"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesstraßengesetz 1971 und das Straßentunnel-Sicherheitsgesetz geändert werden ( 1531 d.B. )"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz zur Gewährung eines Zweckzuschusses an die Länder zur Unterstützung von Investitionen ( 1532 d.B. )"
+                  "text": "Bundesgesetz zur Gewährung eines Zweckzuschusses an die Länder zur Unterstützung von Investitionen ( 1532 d.B. )",
+                  "timeStart": "21.240",
+                  "timeEnd": "24.140"
                 }
               ],
               "text": "Bundesgesetz zur Gewährung eines Zweckzuschusses an die Länder zur Unterstützung von Investitionen ( 1532 d.B. )"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )",
+                  "timeStart": "24.140",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )"
@@ -267,7 +310,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Abgabenänderungsgesetz 2022 – AbgÄG 2022 ( 1534 d.B. )"
+                  "text": "Abgabenänderungsgesetz 2022 – AbgÄG 2022 ( 1534 d.B. )",
+                  "timeStart": "25.160",
+                  "timeEnd": "27.440"
                 }
               ],
               "text": "Abgabenänderungsgesetz 2022 – AbgÄG 2022 ( 1534 d.B. )"
@@ -278,7 +323,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "33. StVO-Novelle ( 1535 d.B. )"
+                  "text": "33. StVO-Novelle ( 1535 d.B. )",
+                  "timeStart": "27.440",
+                  "timeEnd": "28.920"
                 }
               ],
               "text": "33. StVO-Novelle ( 1535 d.B. )"
@@ -289,7 +336,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Anträge:"
+                  "text": "2. Anträge:",
+                  "timeStart": "28.920",
+                  "timeEnd": "29.540"
                 }
               ],
               "text": "2. Anträge:"
@@ -300,7 +349,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zurückziehung: Zu 2606/A(E)"
+                  "text": "Zurückziehung: Zu 2606/A(E)",
+                  "timeStart": "29.540",
+                  "timeEnd": "30.320"
                 }
               ],
               "text": "Zurückziehung: Zu 2606/A(E)"
@@ -311,7 +362,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "30.320",
+                  "timeEnd": "30.560"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "30.560",
+                  "timeEnd": "30.800"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "30.800",
+                  "timeEnd": "31.160"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheits- und Krankenpflegegesetz geändert wird (GuKG-Novelle 2022) ( 2653/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheits- und Krankenpflegegesetz geändert wird (GuKG-Novelle 2022) ( 2653/A )",
+                  "timeStart": "31.160",
+                  "timeEnd": "37.560"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheits- und Krankenpflegegesetz geändert wird (GuKG-Novelle 2022) ( 2653/A )"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2022 bis 2025 zur Attraktivierung der Ausbildung von Pflegeberufen (Pflegeausbildungs-Zweckzuschussgesetz – PAusbZG) erlassen wird ( 2654/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2022 bis 2025 zur Attraktivierung der Ausbildung von Pflegeberufen (Pflegeausbildungs-Zweckzuschussgesetz – PAusbZG) erlassen wird ( 2654/A )",
+                  "timeStart": "37.560",
+                  "timeEnd": "46.800"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2022 bis 2025 zur Attraktivierung der Ausbildung von Pflegeberufen (Pflegeausbildungs-Zweckzuschussgesetz – PAusbZG) erlassen wird ( 2654/A )"
@@ -366,7 +427,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird ( 2655/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird ( 2655/A )",
+                  "timeStart": "46.800",
+                  "timeEnd": "48.080"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird ( 2655/A )"
@@ -377,7 +440,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2022 und 2023 für die Erhöhung des Entgelts in der Pflege (Entgelterhöhungs-Zweckzuschussgesetz – EEZG) erlassen wird ( 2656/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2022 und 2023 für die Erhöhung des Entgelts in der Pflege (Entgelterhöhungs-Zweckzuschussgesetz – EEZG) erlassen wird ( 2656/A )",
+                  "timeStart": "48.080",
+                  "timeEnd": "51.600"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2022 und 2023 für die Erhöhung des Entgelts in der Pflege (Entgelterhöhungs-Zweckzuschussgesetz – EEZG) erlassen wird ( 2656/A )"
@@ -388,7 +453,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "51.600",
+                  "timeEnd": "51.800"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -399,7 +466,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend besorgniserregende Entwicklungen in Afghanistan ( 2657/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend besorgniserregende Entwicklungen in Afghanistan ( 2657/A(E) )",
+                  "timeStart": "51.800",
+                  "timeEnd": "53.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend besorgniserregende Entwicklungen in Afghanistan ( 2657/A(E) )"
@@ -410,10 +479,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "53.840",
+                  "timeEnd": "54.040"
                 },
                 {
-                  "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend Aufrechterhaltung der rechtlichen Bestimmungen hinsichtlich der Aufnahme weiterer Länder in die Europäische Union ( 2661/A(E) )"
+                  "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend Aufrechterhaltung der rechtlichen Bestimmungen hinsichtlich der Aufnahme weiterer Länder in die Europäische Union ( 2661/A(E) )",
+                  "timeStart": "54.040",
+                  "timeEnd": "55.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Martin Graf , Kolleginnen und Kollegen betreffend Aufrechterhaltung der rechtlichen Bestimmungen hinsichtlich der Aufnahme weiterer Länder in die Europäische Union ( 2661/A(E) )"
@@ -424,7 +497,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "55.280",
+                  "timeEnd": "55.480"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -435,7 +510,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Familienlastenausgleichsgesetz 1967, das Kommunalsteuergesetz 1993, das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Nationale Emissionszertifikatehandelsgesetz 2022, das Arbeitslosenversicherungsgesetz 1977, das COVID-19-Gesetz-Armut, das Pensionsgesetz 1965 und das Bundesbahn-Pensionsgesetz geändert werden sowie das Bundesgesetz über einen Ausgleich inflationsbedingt hoher Lebenshaltungs- und Wohnkosten (Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz – LWA-G) und das Bundesgesetz über den Teuerungsausgleich für Bezieherinnen und Bezieher von Förderungen nach dem Studienförderungsgesetz erlassen werden (Teuerungs-Entlastungspaket) ( 2662/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Familienlastenausgleichsgesetz 1967, das Kommunalsteuergesetz 1993, das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Nationale Emissionszertifikatehandelsgesetz 2022, das Arbeitslosenversicherungsgesetz 1977, das COVID-19-Gesetz-Armut, das Pensionsgesetz 1965 und das Bundesbahn-Pensionsgesetz geändert werden sowie das Bundesgesetz über einen Ausgleich inflationsbedingt hoher Lebenshaltungs- und Wohnkosten (Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz – LWA-G) und das Bundesgesetz über den Teuerungsausgleich für Bezieherinnen und Bezieher von Förderungen nach dem Studienförderungsgesetz erlassen werden (Teuerungs-Entlastungspaket) ( 2662/A )",
+                  "timeStart": "55.480",
+                  "timeEnd": "60.600"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Familienlastenausgleichsgesetz 1967, das Kommunalsteuergesetz 1993, das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Nationale Emissionszertifikatehandelsgesetz 2022, das Arbeitslosenversicherungsgesetz 1977, das COVID-19-Gesetz-Armut, das Pensionsgesetz 1965 und das Bundesbahn-Pensionsgesetz geändert werden sowie das Bundesgesetz über einen Ausgleich inflationsbedingt hoher Lebenshaltungs- und Wohnkosten (Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz – LWA-G) und das Bundesgesetz über den Teuerungsausgleich für Bezieherinnen und Bezieher von Förderungen nach dem Studienförderungsgesetz erlassen werden (Teuerungs-Entlastungspaket) ( 2662/A )"
@@ -446,7 +523,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "60.600",
+                  "timeEnd": "60.600"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -457,10 +536,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Die Zukunft der Trafiken ist in Gefahr!\" –"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Die Zukunft der Trafiken ist in Gefahr!\" –",
+                  "timeStart": "60.600",
+                  "timeEnd": "61.240"
                 },
                 {
-                  "text": "Forderungspaket der Trafikanten an die türkis-grüne Bundesregierung ( 2641/A(E) )"
+                  "text": "Forderungspaket der Trafikanten an die türkis-grüne Bundesregierung ( 2641/A(E) )",
+                  "timeStart": "61.240",
+                  "timeEnd": "62.820"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Die Zukunft der Trafiken ist in Gefahr!\" – Forderungspaket der Trafikanten an die türkis-grüne Bundesregierung ( 2641/A(E) )"
@@ -471,7 +554,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stillstand bei Risikokapital und Wachstumsfinanzierung ( 2646/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stillstand bei Risikokapital und Wachstumsfinanzierung ( 2646/A(E) )",
+                  "timeStart": "62.820",
+                  "timeEnd": "64.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stillstand bei Risikokapital und Wachstumsfinanzierung ( 2646/A(E) )"
@@ -482,7 +567,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 und das Finanzausgleichsgesetz 2017 geändert wird ( 2647/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 und das Finanzausgleichsgesetz 2017 geändert wird ( 2647/A )",
+                  "timeStart": "64.160",
+                  "timeEnd": "65.760"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 und das Finanzausgleichsgesetz 2017 geändert wird ( 2647/A )"
@@ -493,10 +580,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Energiekostenausgleich BGBl."
+                  "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Energiekostenausgleich BGBl.",
+                  "timeStart": "65.760",
+                  "timeEnd": "66.320"
                 },
                 {
-                  "text": "I Nr. 37/2022 geändert wird ( 2650/A )"
+                  "text": "I Nr. 37/2022 geändert wird ( 2650/A )",
+                  "timeStart": "66.320",
+                  "timeEnd": "66.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Energiekostenausgleich BGBl. I Nr. 37/2022 geändert wird ( 2650/A )"
@@ -507,7 +598,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "66.800",
+                  "timeEnd": "67.320"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -518,7 +611,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend Förderprogramm für erneuerbare Kraftstoffe ( 2644/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend Förderprogramm für erneuerbare Kraftstoffe ( 2644/A(E) )",
+                  "timeStart": "67.320",
+                  "timeEnd": "68.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend Förderprogramm für erneuerbare Kraftstoffe ( 2644/A(E) )"
@@ -529,7 +624,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "68.480",
+                  "timeEnd": "68.560"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -540,7 +637,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden ( 2652/A )"
+                  "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden ( 2652/A )",
+                  "timeStart": "68.560",
+                  "timeEnd": "71.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden ( 2652/A )"
@@ -551,7 +650,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird ( 2659/A )"
+                  "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird ( 2659/A )",
+                  "timeStart": "71.040",
+                  "timeEnd": "73.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird ( 2659/A )"
@@ -562,7 +663,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "73.840",
+                  "timeEnd": "74.160"
                 }
               ],
               "text": "Justizausschuss:"
@@ -573,7 +676,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend unter Strafe stellen von Herunterladen, Hochladen, Weiterleiten oder Veröffentlichen von Pädophilen-Handbüchern und ähnlichen Anleitungen zum sexuellen Missbrauch an unmündigen Minderjährigen und mündigen Minderjährigen sowie auch einen Verkauf von Kindersexpuppen ( 2660/A(E) )"
+                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend unter Strafe stellen von Herunterladen, Hochladen, Weiterleiten oder Veröffentlichen von Pädophilen-Handbüchern und ähnlichen Anleitungen zum sexuellen Missbrauch an unmündigen Minderjährigen und mündigen Minderjährigen sowie auch einen Verkauf von Kindersexpuppen ( 2660/A(E) )",
+                  "timeStart": "74.160",
+                  "timeEnd": "79.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend unter Strafe stellen von Herunterladen, Hochladen, Weiterleiten oder Veröffentlichen von Pädophilen-Handbüchern und ähnlichen Anleitungen zum sexuellen Missbrauch an unmündigen Minderjährigen und mündigen Minderjährigen sowie auch einen Verkauf von Kindersexpuppen ( 2660/A(E) )"
@@ -584,7 +689,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "79.280",
+                  "timeEnd": "79.520"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -595,7 +702,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend Immerwährende Neutralität für Österreich ( 2651/A(E) )"
+                  "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend Immerwährende Neutralität für Österreich ( 2651/A(E) )",
+                  "timeStart": "79.520",
+                  "timeEnd": "81.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend Immerwährende Neutralität für Österreich ( 2651/A(E) )"
@@ -606,7 +715,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "81.160",
+                  "timeEnd": "81.400"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -617,10 +728,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Mag."
+                  "text": "Antrag der Abgeordneten August Wöginger , Mag.",
+                  "timeStart": "81.400",
+                  "timeEnd": "82.000"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus geändert wird (Klimabonusgesetz – KliBG) ( 2663/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus geändert wird (Klimabonusgesetz – KliBG) ( 2663/A )",
+                  "timeStart": "82.000",
+                  "timeEnd": "85.340"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus geändert wird (Klimabonusgesetz – KliBG) ( 2663/A )"
@@ -631,7 +746,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "85.340",
+                  "timeEnd": "85.760"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -642,7 +759,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend sichere Präsenz-Schule 2022/23 ohne Masken-, Test- und Impfzwang ( 2642/A(E) )"
+                  "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend sichere Präsenz-Schule 2022/23 ohne Masken-, Test- und Impfzwang ( 2642/A(E) )",
+                  "timeStart": "85.760",
+                  "timeEnd": "88.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend sichere Präsenz-Schule 2022/23 ohne Masken-, Test- und Impfzwang ( 2642/A(E) )"
@@ -653,7 +772,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "88.840",
+                  "timeEnd": "88.840"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -664,13 +785,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "88.840",
+                  "timeEnd": "89.920"
                 },
                 {
-                  "text": "Michael Hammer , Mag."
+                  "text": "Michael Hammer , Mag.",
+                  "timeStart": "89.920",
+                  "timeEnd": "90.840"
                 },
                 {
-                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Beamten-Dienstrechtsgesetz 1979, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948, das Landeslehrer-Dienstrechtsgesetz, das Land- und forstwirtschaftliche Landeslehrpersonen-Dienstrechtsgesetz, das Landesvertragslehrpersonengesetz 1966 und das Land- und forstwirtschaftliche Landesvertragslehrpersonengesetz geändert werden (Dienstrechts-Novelle 2022) ( 2658/A )"
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Beamten-Dienstrechtsgesetz 1979, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948, das Landeslehrer-Dienstrechtsgesetz, das Land- und forstwirtschaftliche Landeslehrpersonen-Dienstrechtsgesetz, das Landesvertragslehrpersonengesetz 1966 und das Land- und forstwirtschaftliche Landesvertragslehrpersonengesetz geändert werden (Dienstrechts-Novelle 2022) ( 2658/A )",
+                  "timeStart": "90.840",
+                  "timeEnd": "97.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michael Hammer , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Beamten-Dienstrechtsgesetz 1979, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948, das Landeslehrer-Dienstrechtsgesetz, das Land- und forstwirtschaftliche Landeslehrpersonen-Dienstrechtsgesetz, das Landesvertragslehrpersonengesetz 1966 und das Land- und forstwirtschaftliche Landesvertragslehrpersonengesetz geändert werden (Dienstrechts-Novelle 2022) ( 2658/A )"
@@ -681,7 +808,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "97.160",
+                  "timeEnd": "97.900"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -692,7 +821,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "3. Vereinbarung gemäß Artikel 15a B-VG zwischen dem Bund und den Ländern Niederösterreich, Oberösterreich und Wien über Vorhaben des Hochwasserschutzes im Bereich der österreichischen Donau ( 1536 d.B. )"
+                  "text": "3. Vereinbarung gemäß Artikel 15a B-VG zwischen dem Bund und den Ländern Niederösterreich, Oberösterreich und Wien über Vorhaben des Hochwasserschutzes im Bereich der österreichischen Donau ( 1536 d.B. )",
+                  "timeStart": "97.900",
+                  "timeEnd": "100.720"
                 }
               ],
               "text": "3. Vereinbarung gemäß Artikel 15a B-VG zwischen dem Bund und den Ländern Niederösterreich, Oberösterreich und Wien über Vorhaben des Hochwasserschutzes im Bereich der österreichischen Donau ( 1536 d.B. )"
@@ -703,7 +834,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zusatzvereinbarung zur 3. Vereinbarung gemäß Artikel 15a B-VG zwischen dem Bund und den Ländern Niederösterreich und Wien über Vorhaben des Hochwasserschutzes im Bereich der österreichischen Donau ( 1537 d.B. )"
+                  "text": "Zusatzvereinbarung zur 3. Vereinbarung gemäß Artikel 15a B-VG zwischen dem Bund und den Ländern Niederösterreich und Wien über Vorhaben des Hochwasserschutzes im Bereich der österreichischen Donau ( 1537 d.B. )",
+                  "timeStart": "100.720",
+                  "timeEnd": "100.720"
                 }
               ],
               "text": "Zusatzvereinbarung zur 3. Vereinbarung gemäß Artikel 15a B-VG zwischen dem Bund und den Ländern Niederösterreich und Wien über Vorhaben des Hochwasserschutzes im Bereich der österreichischen Donau ( 1537 d.B. )"
@@ -714,7 +847,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Rechtsabbiegen bei Rot für alle Lenker von Fahrzeugen – mit Ausnahme der Lenker von Lastkraftfahrzeugen oder Bussen mit einem höchsten zulässigen Gesamtgewicht von jeweils mehr als 7,5 t ( 2645/A(E) )"
+                  "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Rechtsabbiegen bei Rot für alle Lenker von Fahrzeugen – mit Ausnahme der Lenker von Lastkraftfahrzeugen oder Bussen mit einem höchsten zulässigen Gesamtgewicht von jeweils mehr als 7,5 t ( 2645/A(E) )",
+                  "timeStart": "100.720",
+                  "timeEnd": "100.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Rechtsabbiegen bei Rot für alle Lenker von Fahrzeugen – mit Ausnahme der Lenker von Lastkraftfahrzeugen oder Bussen mit einem höchsten zulässigen Gesamtgewicht von jeweils mehr als 7,5 t ( 2645/A(E) )"
@@ -725,7 +860,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "100.920",
+                  "timeEnd": "100.920"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -736,7 +873,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Übergewinne in Anti-Teuerungsmaßnahmen und Ausbau von erneuerbaren Energien umleiten ( 2639/A(E) )"
+                  "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Übergewinne in Anti-Teuerungsmaßnahmen und Ausbau von erneuerbaren Energien umleiten ( 2639/A(E) )",
+                  "timeStart": "100.920",
+                  "timeEnd": "102.820"
                 }
               ],
               "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Übergewinne in Anti-Teuerungsmaßnahmen und Ausbau von erneuerbaren Energien umleiten ( 2639/A(E) )"
@@ -747,7 +886,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend Lehrlingsförderung sicherstellen – Keine Kürzungen bei der Lehrlingsförderung im Budget 2023 ( 2640/A(E) )"
+                  "text": "Antrag der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend Lehrlingsförderung sicherstellen – Keine Kürzungen bei der Lehrlingsförderung im Budget 2023 ( 2640/A(E) )",
+                  "timeStart": "102.820",
+                  "timeEnd": "103.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend Lehrlingsförderung sicherstellen – Keine Kürzungen bei der Lehrlingsförderung im Budget 2023 ( 2640/A(E) )"
@@ -758,7 +899,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014, das Wirtschaftskammergesetz 1998, das Wirtschaftstreuhandberufsgesetz 2017, das Ziviltechnikergesetz 2019 und das Arbeiterkammergesetz 1992 geändert wird ( 2648/A )"
+                  "text": "Antrag der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014, das Wirtschaftskammergesetz 1998, das Wirtschaftstreuhandberufsgesetz 2017, das Ziviltechnikergesetz 2019 und das Arbeiterkammergesetz 1992 geändert wird ( 2648/A )",
+                  "timeStart": "103.400",
+                  "timeEnd": "110.540"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014, das Wirtschaftskammergesetz 1998, das Wirtschaftstreuhandberufsgesetz 2017, das Ziviltechnikergesetz 2019 und das Arbeiterkammergesetz 1992 geändert wird ( 2648/A )"
@@ -769,7 +912,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Vereinfachung der Photovoltaik-Förderung für Private ( 2649/A(E) )"
+                  "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Vereinfachung der Photovoltaik-Förderung für Private ( 2649/A(E) )",
+                  "timeStart": "110.540",
+                  "timeEnd": "114.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Vereinfachung der Photovoltaik-Förderung für Private ( 2649/A(E) )"
@@ -780,7 +925,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "114.200",
+                  "timeEnd": "115.300"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -791,10 +938,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "115.300",
+                  "timeEnd": "116.600"
                 },
                 {
-                  "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend Weiterentwicklung der Universitätsfinanzierung zu einer \"echten\" Studienplatzfinanzierung und Ausbau des kompetitiven Anteils ( 2643/A(E) )"
+                  "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend Weiterentwicklung der Universitätsfinanzierung zu einer \"echten\" Studienplatzfinanzierung und Ausbau des kompetitiven Anteils ( 2643/A(E) )",
+                  "timeStart": "116.600",
+                  "timeEnd": "119.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Martin Graf , Kolleginnen und Kollegen betreffend Weiterentwicklung der Universitätsfinanzierung zu einer \"echten\" Studienplatzfinanzierung und Ausbau des kompetitiven Anteils ( 2643/A(E) )"
@@ -805,7 +956,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zusätzlich weise ich den Antrag 2664/A dem Landesverteidigungsausschuss zu."
+                  "text": "Zusätzlich weise ich den Antrag 2664/A dem Landesverteidigungsausschuss zu.",
+                  "timeStart": "119.080",
+                  "timeEnd": "120.000"
                 }
               ],
               "text": "Zusätzlich weise ich den Antrag 2664/A dem Landesverteidigungsausschuss zu."
@@ -816,7 +969,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "120.000",
+                  "timeEnd": "120.040"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -827,7 +982,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass die Abgeordneten Strasser, Voglauer beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2586/A der Abgeordneten Strasser, El-Nagashi, Kolleginnen und Kollegen eine Frist bis zum 6. Juli 2022 zu setzen."
+                  "text": "Weiters teile ich mit, dass die Abgeordneten Strasser, Voglauer beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2586/A der Abgeordneten Strasser, El-Nagashi, Kolleginnen und Kollegen eine Frist bis zum 6. Juli 2022 zu setzen.",
+                  "timeStart": "120.040",
+                  "timeEnd": "124.480"
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Strasser, Voglauer beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2586/A der Abgeordneten Strasser, El-Nagashi, Kolleginnen und Kollegen eine Frist bis zum 6. Juli 2022 zu setzen."
@@ -838,16 +995,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters darf ich mitteilen, dass die Abgeordneten Wöginger, Maurer beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 2662/A der Abgeordneten August Wöginger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis zum 19. Juni zu setzen. ("
+                  "text": "Weiters darf ich mitteilen, dass die Abgeordneten Wöginger, Maurer beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 2662/A der Abgeordneten August Wöginger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis zum 19. Juni zu setzen. (",
+                  "timeStart": "124.480",
+                  "timeEnd": "126.640"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "126.640",
+                  "timeEnd": "126.640"
                 },
                 {
-                  "text": "Krainer: Frechheit!"
+                  "text": "Krainer: Frechheit!",
+                  "timeStart": "126.640",
+                  "timeEnd": "126.640"
                 },
                 {
-                  "text": "Frechheit!)"
+                  "text": "Frechheit!)",
+                  "timeStart": "126.640",
+                  "timeEnd": "126.640"
                 }
               ],
               "text": "Weiters darf ich mitteilen, dass die Abgeordneten Wöginger, Maurer beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 2662/A der Abgeordneten August Wöginger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis zum 19. Juni zu setzen. (Abg. Krainer: Frechheit! Frechheit!)"
@@ -858,7 +1023,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf schließlich mitteilen, dass die Abgeordneten Wöginger, Schwarz beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 2663/A der Abgeordneten Wöginger, Schwarz, Kolleginnen und Kollegen eine Frist bis zum 19. Juni 2022 zu setzen."
+                  "text": "Ich darf schließlich mitteilen, dass die Abgeordneten Wöginger, Schwarz beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 2663/A der Abgeordneten Wöginger, Schwarz, Kolleginnen und Kollegen eine Frist bis zum 19. Juni 2022 zu setzen.",
+                  "timeStart": "126.640",
+                  "timeEnd": "130.160"
                 }
               ],
               "text": "Ich darf schließlich mitteilen, dass die Abgeordneten Wöginger, Schwarz beantragt haben, dem Budgetausschuss zur Berichterstattung über den Antrag 2663/A der Abgeordneten Wöginger, Schwarz, Kolleginnen und Kollegen eine Frist bis zum 19. Juni 2022 zu setzen."
@@ -869,7 +1036,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Fristsetzungsanträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Die gegenständlichen Fristsetzungsanträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "130.160",
+                  "timeEnd": "131.960"
                 }
               ],
               "text": "Die gegenständlichen Fristsetzungsanträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -881,7 +1050,8 @@
         "mediaIndex": 1,
         "stdId": 270808,
         "debatteId": 300,
-        "proceedingIndex": 270808
+        "proceedingIndex": 270808,
+        "alignDuration": 1.5598080158233643
       },
       "originalLanguage": "de"
     }

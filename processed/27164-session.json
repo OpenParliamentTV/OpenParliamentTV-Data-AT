@@ -4,11 +4,11 @@
     "session": "27164",
     "dateStart": "2022-06-15T23:24:32",
     "dateEnd": "2022-06-15T23:24:56",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:58+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T17:48:29",
     "processing": {
       "merge": "2026-06-16T04:23:58+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T17:48:29"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "270812",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/393496a8-fd61-4efe-9ba4-45f254072b0d/393496a8-fd61-4efe-9ba4-45f254072b0d.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/393496a8-fd61-4efe-9ba4-45f254072b0d/393496a8-fd61-4efe-9ba4-45f254072b0d.mp3",
-        "duration": 24
+        "duration": 24,
+        "aligned": true
       },
       "dateStart": "2022-06-15T23:24:32",
       "dateEnd": "2022-06-15T23:24:56",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 164. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 164. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.560"
                 }
               ],
               "text": "Ich eröffne die 164. Sitzung des Nationalrates."
@@ -79,19 +82,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag.",
+                  "timeStart": "1.560",
+                  "timeEnd": "3.000"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.000"
                 },
                 {
-                  "text": "Hubert Fuchs , Ing. Norbert Hofer , MMMag."
+                  "text": "Hubert Fuchs , Ing. Norbert Hofer , MMMag.",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.800"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Wolfgang Zanger , Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag."
+                  "text": "Dr. Axel Kassegger , Wolfgang Zanger , Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag.",
+                  "timeStart": "3.800",
+                  "timeEnd": "5.280"
                 },
                 {
-                  "text": "Yannick Shetty ."
+                  "text": "Yannick Shetty .",
+                  "timeStart": "5.280",
+                  "timeEnd": "5.560"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag. DDr. Hubert Fuchs , Ing. Norbert Hofer , MMMag. Dr. Axel Kassegger , Wolfgang Zanger , Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag. Yannick Shetty ."
@@ -102,7 +115,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "5.560",
+                  "timeEnd": "5.640"
                 }
               ],
               "text": "Zuweisungen"
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "5.640",
+                  "timeEnd": "8.560"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "8.560",
+                  "timeEnd": "8.760"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "8.760",
+                  "timeEnd": "9.320"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "9.320",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.600"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )",
+                  "timeStart": "10.600",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz zur Gewährung eines Zweckzuschusses an die Länder zur Unterstützung von Investitionen ( 1532 d.B. )"
+                  "text": "Bundesgesetz zur Gewährung eines Zweckzuschusses an die Länder zur Unterstützung von Investitionen ( 1532 d.B. )",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Bundesgesetz zur Gewährung eines Zweckzuschusses an die Länder zur Unterstützung von Investitionen ( 1532 d.B. )"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Abgabenänderungsgesetz 2022 – AbgÄG 2022 ( 1534 d.B. )"
+                  "text": "Abgabenänderungsgesetz 2022 – AbgÄG 2022 ( 1534 d.B. )",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Abgabenänderungsgesetz 2022 – AbgÄG 2022 ( 1534 d.B. )"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Meldegesetz 1991 geändert wird ( 1525 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Meldegesetz 1991 geändert wird ( 1525 d.B. )",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Meldegesetz 1991 geändert wird ( 1525 d.B. )"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Justizausschuss:"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Übernahmegesetz und das Gerichtsgebührengesetz geändert werden (Übernahmegesetz-Novelle 2022 – ÜbG-Nov 2022) ( 1526 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Übernahmegesetz und das Gerichtsgebührengesetz geändert werden (Übernahmegesetz-Novelle 2022 – ÜbG-Nov 2022) ( 1526 d.B. )",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Übernahmegesetz und das Gerichtsgebührengesetz geändert werden (Übernahmegesetz-Novelle 2022 – ÜbG-Nov 2022) ( 1526 d.B. )"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )"
@@ -267,7 +310,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "10.920",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -278,7 +323,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesstraßengesetz 1971 und das Straßentunnel-Sicherheitsgesetz geändert werden ( 1531 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesstraßengesetz 1971 und das Straßentunnel-Sicherheitsgesetz geändert werden ( 1531 d.B. )",
+                  "timeStart": "10.920",
+                  "timeEnd": "14.280"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesstraßengesetz 1971 und das Straßentunnel-Sicherheitsgesetz geändert werden ( 1531 d.B. )"
@@ -289,7 +336,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )",
+                  "timeStart": "14.280",
+                  "timeEnd": "16.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )"
@@ -300,7 +349,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "33. StVO-Novelle ( 1535 d.B. )"
+                  "text": "33. StVO-Novelle ( 1535 d.B. )",
+                  "timeStart": "16.720",
+                  "timeEnd": "17.520"
                 }
               ],
               "text": "33. StVO-Novelle ( 1535 d.B. )"
@@ -311,7 +362,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "17.520",
+                  "timeEnd": "18.040"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )",
+                  "timeStart": "18.040",
+                  "timeEnd": "20.560"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )",
+                  "timeStart": "20.560",
+                  "timeEnd": "24.000"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "24.000",
+                  "timeEnd": "24.040"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -355,7 +414,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )"
+                  "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )",
+                  "timeStart": "24.040",
+                  "timeEnd": "24.040"
                 }
               ],
               "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )"
@@ -366,7 +427,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 6. Juli 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 6. Juli 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "24.040",
+                  "timeEnd": "25.920"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 6. Juli 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -377,7 +440,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "25.920",
+                  "timeEnd": "26.000"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -389,7 +454,8 @@
         "mediaIndex": 1,
         "stdId": 270812,
         "debatteId": 300,
-        "proceedingIndex": 270812
+        "proceedingIndex": 270812,
+        "alignDuration": 0.6383779048919678
       },
       "originalLanguage": "de"
     }

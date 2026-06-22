@@ -4,11 +4,11 @@
     "session": "27166",
     "dateStart": "2022-06-23T18:03:22",
     "dateEnd": "2022-06-23T18:10:37",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:23:58+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-22T19:20:21",
     "processing": {
       "merge": "2026-06-16T04:23:58+00:00",
-      "nel": "2026-06-16T06:24:23"
+      "align": "2026-06-22T19:20:21"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "271493",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/e32a3b49-c889-4064-ab2a-8a0a2f74193e/e32a3b49-c889-4064-ab2a-8a0a2f74193e.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/e32a3b49-c889-4064-ab2a-8a0a2f74193e/e32a3b49-c889-4064-ab2a-8a0a2f74193e.mp3",
-        "duration": 224
+        "duration": 224,
+        "aligned": true
       },
       "dateStart": "2022-06-23T18:03:22",
       "dateEnd": "2022-06-23T18:07:06",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die 166. Sitzung des Nationalrates ist eröffnet."
+                  "text": "Die 166. Sitzung des Nationalrates ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.440"
                 }
               ],
               "text": "Die 166. Sitzung des Nationalrates ist eröffnet."
@@ -79,49 +82,79 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Peter Haubner , Karlheinz Kopf , Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Peter Haubner , Karlheinz Kopf , Mag.",
+                  "timeStart": "3.440",
+                  "timeEnd": "5.320"
                 },
                 {
-                  "text": "Friedrich Ofenauer , Dr. Josef Smolle , Dr. Christian Stocker , Mag."
+                  "text": "Friedrich Ofenauer , Dr. Josef Smolle , Dr. Christian Stocker , Mag.",
+                  "timeStart": "5.320",
+                  "timeEnd": "7.520"
                 },
                 {
-                  "text": "Ruth Becher , Cornelia Ecker , Robert Laimer , Mag."
+                  "text": "Ruth Becher , Cornelia Ecker , Robert Laimer , Mag.",
+                  "timeStart": "7.520",
+                  "timeEnd": "7.960"
                 },
                 {
-                  "text": "Verena Nussbaum , Alois Schroll , Dr. Harald Troch , Petra Vorderwinkler , Mag."
+                  "text": "Verena Nussbaum , Alois Schroll , Dr. Harald Troch , Petra Vorderwinkler , Mag.",
+                  "timeStart": "7.960",
+                  "timeEnd": "10.880"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Dr. Dagmar Belakowitsch , Dr. Reinhard Eugen Bösch , MMag."
+                  "text": "Hannes Amesbauer, BA , Dr. Dagmar Belakowitsch , Dr. Reinhard Eugen Bösch , MMag.",
+                  "timeStart": "10.880",
+                  "timeEnd": "13.520"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "13.520",
+                  "timeEnd": "13.840"
                 },
                 {
-                  "text": "Hubert Fuchs , Mag."
+                  "text": "Hubert Fuchs , Mag.",
+                  "timeStart": "13.840",
+                  "timeEnd": "14.560"
                 },
                 {
-                  "text": "Gerhard Kaniak , MMMag."
+                  "text": "Gerhard Kaniak , MMMag.",
+                  "timeStart": "14.560",
+                  "timeEnd": "15.120"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Ing. Mag."
+                  "text": "Dr. Axel Kassegger , Ing. Mag.",
+                  "timeStart": "15.120",
+                  "timeEnd": "15.520"
                 },
                 {
-                  "text": "Volker Reifenberger , Mag."
+                  "text": "Volker Reifenberger , Mag.",
+                  "timeStart": "15.520",
+                  "timeEnd": "15.720"
                 },
                 {
-                  "text": "Philipp Schrangl , Mag."
+                  "text": "Philipp Schrangl , Mag.",
+                  "timeStart": "15.720",
+                  "timeEnd": "16.040"
                 },
                 {
-                  "text": "Harald Stefan , Peter Wurm , Dr. Ewa Ernst-Dziedzic , Michael Bernhard , Dr. Helmut Brandstätter , Mag."
+                  "text": "Harald Stefan , Peter Wurm , Dr. Ewa Ernst-Dziedzic , Michael Bernhard , Dr. Helmut Brandstätter , Mag.",
+                  "timeStart": "16.040",
+                  "timeEnd": "18.320"
                 },
                 {
-                  "text": "Beate Meinl-Reisinger, MES , Mag."
+                  "text": "Beate Meinl-Reisinger, MES , Mag.",
+                  "timeStart": "18.320",
+                  "timeEnd": "18.880"
                 },
                 {
-                  "text": "Yannick Shetty und MMag."
+                  "text": "Yannick Shetty und MMag.",
+                  "timeStart": "18.880",
+                  "timeEnd": "19.120"
                 },
                 {
-                  "text": "Katharina Werner, Bakk."
+                  "text": "Katharina Werner, Bakk.",
+                  "timeStart": "19.120",
+                  "timeEnd": "20.840"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Peter Haubner , Karlheinz Kopf , Mag. Friedrich Ofenauer , Dr. Josef Smolle , Dr. Christian Stocker , Mag. Ruth Becher , Cornelia Ecker , Robert Laimer , Mag. Verena Nussbaum , Alois Schroll , Dr. Harald Troch , Petra Vorderwinkler , Mag. Hannes Amesbauer, BA , Dr. Dagmar Belakowitsch , Dr. Reinhard Eugen Bösch , MMag. DDr. Hubert Fuchs , Mag. Gerhard Kaniak , MMMag. Dr. Axel Kassegger , Ing. Mag. Volker Reifenberger , Mag. Philipp Schrangl , Mag. Harald Stefan , Peter Wurm , Dr. Ewa Ernst-Dziedzic , Michael Bernhard , Dr. Helmut Brandstätter , Mag. Beate Meinl-Reisinger, MES , Mag. Yannick Shetty und MMag. Katharina Werner, Bakk."
@@ -132,7 +165,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "20.840",
+                  "timeEnd": "21.760"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -143,7 +178,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "21.760",
+                  "timeEnd": "24.040"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -154,7 +191,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "24.040",
+                  "timeEnd": "25.040"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -165,7 +204,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "25.040",
+                  "timeEnd": "26.440"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -176,7 +217,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortung: 10500/AB"
+                  "text": "Anfragebeantwortung: 10500/AB",
+                  "timeStart": "26.440",
+                  "timeEnd": "27.920"
                 }
               ],
               "text": "Anfragebeantwortung: 10500/AB"
@@ -187,7 +230,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "27.920",
+                  "timeEnd": "28.240"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -198,7 +243,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "28.240",
+                  "timeEnd": "28.960"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -209,7 +256,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "28.960",
+                  "timeEnd": "29.920"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -220,7 +269,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 2665/A(E)"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 2665/A(E)",
+                  "timeStart": "29.920",
+                  "timeEnd": "34.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 2665/A(E)"
@@ -231,7 +282,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 2670/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 2670/A(E) )",
+                  "timeStart": "34.480",
+                  "timeEnd": "38.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 2670/A(E) )"
@@ -242,7 +295,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2673/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2673/A(E) )",
+                  "timeStart": "38.400",
+                  "timeEnd": "41.180"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2673/A(E) )"
@@ -253,7 +308,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "41.180",
+                  "timeEnd": "41.600"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -264,7 +321,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesgesetz über die Errichtung des COVID-19-Krisenbewältigungsfonds (COVID-19-FondsG) geändert wird ( 1570 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesgesetz über die Errichtung des COVID-19-Krisenbewältigungsfonds (COVID-19-FondsG) geändert wird ( 1570 d.B. )",
+                  "timeStart": "41.600",
+                  "timeEnd": "42.380"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über die Errichtung des COVID-19-Krisenbewältigungsfonds (COVID-19-FondsG) geändert wird ( 1570 d.B. )"
@@ -275,7 +334,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2022 bis 2025 und das Bundesfinanzgesetz 2022 geändert werden (2. Budget-Novelle 2022) ( 1572 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2022 bis 2025 und das Bundesfinanzgesetz 2022 geändert werden (2. Budget-Novelle 2022) ( 1572 d.B. )",
+                  "timeStart": "42.380",
+                  "timeEnd": "48.120"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2022 bis 2025 und das Bundesfinanzgesetz 2022 geändert werden (2. Budget-Novelle 2022) ( 1572 d.B. )"
@@ -286,7 +347,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "48.120",
+                  "timeEnd": "48.720"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -297,7 +360,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Investmentfondsgesetz 2011, das Alternative Investmentfonds Manager-Gesetz und das Immobilien-Investmentfondsgesetz geändert werden ( 1569 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Investmentfondsgesetz 2011, das Alternative Investmentfonds Manager-Gesetz und das Immobilien-Investmentfondsgesetz geändert werden ( 1569 d.B. )",
+                  "timeStart": "48.720",
+                  "timeEnd": "54.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Investmentfondsgesetz 2011, das Alternative Investmentfonds Manager-Gesetz und das Immobilien-Investmentfondsgesetz geändert werden ( 1569 d.B. )"
@@ -308,7 +373,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ausfuhrförderungsgesetz geändert wird ( 2666/A )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ausfuhrförderungsgesetz geändert wird ( 2666/A )",
+                  "timeStart": "54.720",
+                  "timeEnd": "58.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ausfuhrförderungsgesetz geändert wird ( 2666/A )"
@@ -319,10 +386,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Finanzielle Offensive zur Kräftigung der österreichischen Regionen – Regionale Handlungsebene stärken!\" ("
+                  "text": "Antrag der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Finanzielle Offensive zur Kräftigung der österreichischen Regionen – Regionale Handlungsebene stärken!\" (",
+                  "timeStart": "58.280",
+                  "timeEnd": "61.560"
                 },
                 {
-                  "text": "2667/A(E) )"
+                  "text": "2667/A(E) )",
+                  "timeStart": "61.560",
+                  "timeEnd": "63.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Finanzielle Offensive zur Kräftigung der österreichischen Regionen – Regionale Handlungsebene stärken!\" ( 2667/A(E) )"
@@ -333,10 +404,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Andreas Ottenschläger , Mag."
+                  "text": "Antrag der Abgeordneten Andreas Ottenschläger , Mag.",
+                  "timeStart": "63.640",
+                  "timeEnd": "64.520"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 2669/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 2669/A )",
+                  "timeStart": "64.520",
+                  "timeEnd": "70.240"
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Ottenschläger , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 2669/A )"
@@ -347,7 +422,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "70.240",
+                  "timeEnd": "70.600"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -358,7 +435,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Weiterverwendung von Informationen öffentlicher Stellen, öffentlicher Unternehmen und von Forschungsdaten (Informationsweiterverwendungsgesetz 2022 – IWG 2022) erlassen wird sowie das Forschungsorganisationsgesetz, das Geodateninfrastrukturgesetz, das Firmenbuchgesetz und das Vermessungsgesetz geändert werden ( 1571 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Weiterverwendung von Informationen öffentlicher Stellen, öffentlicher Unternehmen und von Forschungsdaten (Informationsweiterverwendungsgesetz 2022 – IWG 2022) erlassen wird sowie das Forschungsorganisationsgesetz, das Geodateninfrastrukturgesetz, das Firmenbuchgesetz und das Vermessungsgesetz geändert werden ( 1571 d.B. )",
+                  "timeStart": "70.600",
+                  "timeEnd": "79.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Weiterverwendung von Informationen öffentlicher Stellen, öffentlicher Unternehmen und von Forschungsdaten (Informationsweiterverwendungsgesetz 2022 – IWG 2022) erlassen wird sowie das Forschungsorganisationsgesetz, das Geodateninfrastrukturgesetz, das Firmenbuchgesetz und das Vermessungsgesetz geändert werden ( 1571 d.B. )"
@@ -369,7 +448,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "79.680",
+                  "timeEnd": "80.780"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -380,10 +461,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "80.780",
+                  "timeEnd": "82.640"
                 },
                 {
-                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Antikörper als sicheren und verlässlichen Schutz gegen Corona anerkennen ( 2675/A(E) )"
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Antikörper als sicheren und verlässlichen Schutz gegen Corona anerkennen ( 2675/A(E) )",
+                  "timeStart": "82.640",
+                  "timeEnd": "88.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Antikörper als sicheren und verlässlichen Schutz gegen Corona anerkennen ( 2675/A(E) )"
@@ -394,7 +479,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Impfpflichtgesetz, die COVID-19-Impfpflichtverordnung und die Verordnung betreffend die vorübergehende Nichtanwendung des COVID-19-Impfpflichtgesetzes und der COVID-19-Impfpflichtverordnung aufgehoben werden und das Epidemiegesetz 1950 geändert wird ( 2676/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Impfpflichtgesetz, die COVID-19-Impfpflichtverordnung und die Verordnung betreffend die vorübergehende Nichtanwendung des COVID-19-Impfpflichtgesetzes und der COVID-19-Impfpflichtverordnung aufgehoben werden und das Epidemiegesetz 1950 geändert wird ( 2676/A )",
+                  "timeStart": "88.400",
+                  "timeEnd": "97.000"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Impfpflichtgesetz, die COVID-19-Impfpflichtverordnung und die Verordnung betreffend die vorübergehende Nichtanwendung des COVID-19-Impfpflichtgesetzes und der COVID-19-Impfpflichtverordnung aufgehoben werden und das Epidemiegesetz 1950 geändert wird ( 2676/A )"
@@ -405,7 +492,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 2677/A )"
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 2677/A )",
+                  "timeStart": "97.000",
+                  "timeEnd": "103.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 2677/A )"
@@ -416,7 +505,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "103.040",
+                  "timeEnd": "103.920"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -427,10 +518,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Vereinbarung zwischen dem Bund und den Ländern gemäß Artikel 15a B-VG, mit der insbesondere eine Erhöhung ausgewählter Kostenhöchstsätze des Art."
+                  "text": "Vereinbarung zwischen dem Bund und den Ländern gemäß Artikel 15a B-VG, mit der insbesondere eine Erhöhung ausgewählter Kostenhöchstsätze des Art.",
+                  "timeStart": "103.920",
+                  "timeEnd": "108.440"
                 },
                 {
-                  "text": "9 der Grundversorgungsvereinbarung sowie eine Erstversorgungspauschale festgelegt wird ( 1584 d.B. )"
+                  "text": "9 der Grundversorgungsvereinbarung sowie eine Erstversorgungspauschale festgelegt wird ( 1584 d.B. )",
+                  "timeStart": "108.440",
+                  "timeEnd": "111.480"
                 }
               ],
               "text": "Vereinbarung zwischen dem Bund und den Ländern gemäß Artikel 15a B-VG, mit der insbesondere eine Erhöhung ausgewählter Kostenhöchstsätze des Art. 9 der Grundversorgungsvereinbarung sowie eine Erstversorgungspauschale festgelegt wird ( 1584 d.B. )"
@@ -441,7 +536,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Nico Marchetti , Dr. Ewa Ernst-Dziedzic , Mario Lindner , Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zu Hassverbrechen gegen LGBTIQ Personen ( 2668/A(E) )"
+                  "text": "Antrag der Abgeordneten Nico Marchetti , Dr. Ewa Ernst-Dziedzic , Mario Lindner , Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zu Hassverbrechen gegen LGBTIQ Personen ( 2668/A(E) )",
+                  "timeStart": "111.480",
+                  "timeEnd": "118.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Nico Marchetti , Dr. Ewa Ernst-Dziedzic , Mario Lindner , Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zu Hassverbrechen gegen LGBTIQ Personen ( 2668/A(E) )"
@@ -452,7 +549,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "118.560",
+                  "timeEnd": "119.160"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -463,7 +562,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2674/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2674/A(E) )",
+                  "timeStart": "119.160",
+                  "timeEnd": "121.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2674/A(E) )"
@@ -474,7 +575,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "121.840",
+                  "timeEnd": "122.280"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -485,7 +588,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 2671/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 2671/A(E) )",
+                  "timeStart": "122.280",
+                  "timeEnd": "126.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 2671/A(E) )"
@@ -496,7 +601,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2672/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2672/A(E) )",
+                  "timeStart": "126.400",
+                  "timeEnd": "129.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2672/A(E) )"
@@ -507,7 +614,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich"
+                  "text": "Weiters weise ich",
+                  "timeStart": "129.960",
+                  "timeEnd": "130.320"
                 }
               ],
               "text": "Weiters weise ich"
@@ -518,7 +627,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 2678/A der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend Flag dem Ausschuss für Familie und Jugend,"
+                  "text": "den Antrag 2678/A der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend Flag dem Ausschuss für Familie und Jugend,",
+                  "timeStart": "130.320",
+                  "timeEnd": "131.920"
                 }
               ],
               "text": "den Antrag 2678/A der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend Flag dem Ausschuss für Familie und Jugend,"
@@ -529,7 +640,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 2679/A und"
+                  "text": "den Antrag 2679/A und",
+                  "timeStart": "131.920",
+                  "timeEnd": "133.160"
                 }
               ],
               "text": "den Antrag 2679/A und"
@@ -540,7 +653,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 2680/A dem Budgetausschuss sowie"
+                  "text": "den Antrag 2680/A dem Budgetausschuss sowie",
+                  "timeStart": "133.160",
+                  "timeEnd": "134.080"
                 }
               ],
               "text": "den Antrag 2680/A dem Budgetausschuss sowie"
@@ -551,7 +666,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "den Antrag 2681/A dem Ausschuss für Wirtschaft, Industrie und Energie zu."
+                  "text": "den Antrag 2681/A dem Ausschuss für Wirtschaft, Industrie und Energie zu.",
+                  "timeStart": "134.080",
+                  "timeEnd": "136.000"
                 }
               ],
               "text": "den Antrag 2681/A dem Ausschuss für Wirtschaft, Industrie und Energie zu."
@@ -562,7 +679,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters ist folgender Verhandlungsgegenstand eingelangt: Abkommen mit Ungarn zur Beendigung des Abkommens mit der ungarischen Volksrepublik über die Förderung und den Schutz von Investitionen, 1581 der Beilagen ."
+                  "text": "Weiters ist folgender Verhandlungsgegenstand eingelangt: Abkommen mit Ungarn zur Beendigung des Abkommens mit der ungarischen Volksrepublik über die Förderung und den Schutz von Investitionen, 1581 der Beilagen .",
+                  "timeStart": "136.000",
+                  "timeEnd": "142.200"
                 }
               ],
               "text": "Weiters ist folgender Verhandlungsgegenstand eingelangt: Abkommen mit Ungarn zur Beendigung des Abkommens mit der ungarischen Volksrepublik über die Förderung und den Schutz von Investitionen, 1581 der Beilagen ."
@@ -573,7 +692,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Nach Rücksprache mit den Mitgliedern der Präsidialkonferenz schlage ich gemäß § 28a der Geschäftsordnung vor, von der Zuweisung dieses Gegenstandes an einen Ausschuss abzusehen und ihn bei Erstellung der Tagesordnung einer der nächsten Sitzungen zu berücksichtigen."
+                  "text": "Nach Rücksprache mit den Mitgliedern der Präsidialkonferenz schlage ich gemäß § 28a der Geschäftsordnung vor, von der Zuweisung dieses Gegenstandes an einen Ausschuss abzusehen und ihn bei Erstellung der Tagesordnung einer der nächsten Sitzungen zu berücksichtigen.",
+                  "timeStart": "142.200",
+                  "timeEnd": "146.400"
                 }
               ],
               "text": "Nach Rücksprache mit den Mitgliedern der Präsidialkonferenz schlage ich gemäß § 28a der Geschäftsordnung vor, von der Zuweisung dieses Gegenstandes an einen Ausschuss abzusehen und ihn bei Erstellung der Tagesordnung einer der nächsten Sitzungen zu berücksichtigen."
@@ -584,13 +705,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wird dagegen Widerspruch erhoben? –"
+                  "text": "Wird dagegen Widerspruch erhoben? –",
+                  "timeStart": "146.400",
+                  "timeEnd": "146.680"
                 },
                 {
-                  "text": "Das ist nicht der Fall."
+                  "text": "Das ist nicht der Fall.",
+                  "timeStart": "146.680",
+                  "timeEnd": "147.040"
                 },
                 {
-                  "text": "Ich gehe daher so vor."
+                  "text": "Ich gehe daher so vor.",
+                  "timeStart": "147.040",
+                  "timeEnd": "147.520"
                 }
               ],
               "text": "Wird dagegen Widerspruch erhoben? – Das ist nicht der Fall. Ich gehe daher so vor."
@@ -601,7 +728,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "147.520",
+                  "timeEnd": "147.640"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -612,7 +741,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge eingelangt sind:"
+                  "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge eingelangt sind:",
+                  "timeStart": "147.640",
+                  "timeEnd": "149.520"
                 }
               ],
               "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge eingelangt sind:"
@@ -623,13 +754,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Mag."
+                  "text": "Antrag des Abgeordneten Mag.",
+                  "timeStart": "149.520",
+                  "timeEnd": "150.560"
                 },
                 {
-                  "text": "Gerald Hauser , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2227/A der Abgeordneten Mag."
+                  "text": "Gerald Hauser , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2227/A der Abgeordneten Mag.",
+                  "timeStart": "150.560",
+                  "timeEnd": "153.160"
                 },
                 {
-                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen eine Frist bis 24. Juni 2022 zu setzen;"
+                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen eine Frist bis 24. Juni 2022 zu setzen;",
+                  "timeStart": "153.160",
+                  "timeEnd": "157.320"
                 }
               ],
               "text": "Antrag des Abgeordneten Mag. Gerald Hauser , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2227/A der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen eine Frist bis 24. Juni 2022 zu setzen;"
@@ -640,10 +777,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag."
+                  "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag.",
+                  "timeStart": "157.320",
+                  "timeEnd": "160.000"
                 },
                 {
-                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2652/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
+                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2652/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;",
+                  "timeStart": "160.000",
+                  "timeEnd": "165.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag. Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2652/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
@@ -654,10 +795,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag."
+                  "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag.",
+                  "timeStart": "165.920",
+                  "timeEnd": "167.240"
                 },
                 {
-                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2659/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
+                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2659/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;",
+                  "timeStart": "167.240",
+                  "timeEnd": "174.740"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag. Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2659/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
@@ -668,10 +813,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag."
+                  "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag.",
+                  "timeStart": "174.740",
+                  "timeEnd": "178.120"
                 },
                 {
-                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2676/A der Abgeordneten August Wöginger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
+                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2676/A der Abgeordneten August Wöginger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;",
+                  "timeStart": "178.120",
+                  "timeEnd": "184.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriela Schwarz und Mag. Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2676/A der Abgeordneten August Wöginger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
@@ -682,7 +831,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Andreas Ottenschläger und Sigrid Maurer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2487/A der Abgeordneten Andreas Ottenschläger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
+                  "text": "Antrag der Abgeordneten Andreas Ottenschläger und Sigrid Maurer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2487/A der Abgeordneten Andreas Ottenschläger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;",
+                  "timeStart": "184.160",
+                  "timeEnd": "192.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Ottenschläger und Sigrid Maurer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2487/A der Abgeordneten Andreas Ottenschläger , Sigrid Maurer, Kolleginnen und Kollegen eine Frist bis 6. Juli 2022 zu setzen;"
@@ -693,13 +844,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "192.480",
+                  "timeEnd": "193.880"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2679/A der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2679/A der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "193.880",
+                  "timeEnd": "197.720"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, Kolleginnen und Kollegen eine Frist bis 5. Juli 2022 zu setzen;"
+                  "text": "Dr. Jakob Schwarz, Kolleginnen und Kollegen eine Frist bis 5. Juli 2022 zu setzen;",
+                  "timeStart": "197.720",
+                  "timeEnd": "200.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2679/A der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, Kolleginnen und Kollegen eine Frist bis 5. Juli 2022 zu setzen;"
@@ -710,10 +867,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "200.920",
+                  "timeEnd": "203.320"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1570 der Beilagen eine Frist bis 5. Juli 2022 zu setzen;"
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1570 der Beilagen eine Frist bis 5. Juli 2022 zu setzen;",
+                  "timeStart": "203.320",
+                  "timeEnd": "208.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1570 der Beilagen eine Frist bis 5. Juli 2022 zu setzen;"
@@ -724,10 +885,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "208.640",
+                  "timeEnd": "210.480"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1572 der Beilagen eine Frist bis 5. Juli 2022 zu setzen; und"
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1572 der Beilagen eine Frist bis 5. Juli 2022 zu setzen; und",
+                  "timeStart": "210.480",
+                  "timeEnd": "216.240"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1572 der Beilagen eine Frist bis 5. Juli 2022 zu setzen; und"
@@ -738,10 +903,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Tanja Graf und Mag."
+                  "text": "Antrag der Abgeordneten Tanja Graf und Mag.",
+                  "timeStart": "216.240",
+                  "timeEnd": "217.880"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2680/A eine Frist bis 5. Juli 2022 zu setzen."
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2680/A eine Frist bis 5. Juli 2022 zu setzen.",
+                  "timeStart": "217.880",
+                  "timeEnd": "221.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Tanja Graf und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2680/A eine Frist bis 5. Juli 2022 zu setzen."
@@ -752,7 +921,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Fristsetzungsanträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Die gegenständlichen Fristsetzungsanträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "221.800",
+                  "timeEnd": "226.000"
                 }
               ],
               "text": "Die gegenständlichen Fristsetzungsanträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -764,7 +935,8 @@
         "mediaIndex": 1,
         "stdId": 271493,
         "debatteId": 300,
-        "proceedingIndex": 271493
+        "proceedingIndex": 271493,
+        "alignDuration": 1.3302569389343262
       },
       "originalLanguage": "de"
     },
@@ -792,7 +964,8 @@
         "originMediaID": "271509",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6c92dff6-aef9-442e-b6da-78097fe3f024/6c92dff6-aef9-442e-b6da-78097fe3f024.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6c92dff6-aef9-442e-b6da-78097fe3f024/6c92dff6-aef9-442e-b6da-78097fe3f024.mp3",
-        "duration": 211
+        "duration": 211,
+        "aligned": true
       },
       "dateStart": "2022-06-23T18:07:06",
       "dateEnd": "2022-06-23T18:10:37",
@@ -824,7 +997,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.120"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -835,10 +1010,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag."
+                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag.",
+                  "timeStart": "2.120",
+                  "timeEnd": "3.320"
                 },
                 {
-                  "text": "Gerald Hauser , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2227/A eine Frist bis 24. Juni 2022 zu setzen."
+                  "text": "Gerald Hauser , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2227/A eine Frist bis 24. Juni 2022 zu setzen.",
+                  "timeStart": "3.320",
+                  "timeEnd": "12.840"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag. Gerald Hauser , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2227/A eine Frist bis 24. Juni 2022 zu setzen."
@@ -849,13 +1028,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "12.840",
+                  "timeEnd": "17.540"
                 },
                 {
-                  "text": "Das ist die Minderheit."
+                  "text": "Das ist die Minderheit.",
+                  "timeStart": "17.540",
+                  "timeEnd": "18.840"
                 },
                 {
-                  "text": "Der Antrag ist abgelehnt."
+                  "text": "Der Antrag ist abgelehnt.",
+                  "timeStart": "18.840",
+                  "timeEnd": "20.060"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Minderheit. Der Antrag ist abgelehnt."
@@ -866,10 +1051,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag."
+                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag.",
+                  "timeStart": "20.060",
+                  "timeEnd": "24.160"
                 },
                 {
-                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2652/A eine Frist bis 6. Juli 2022 zu setzen."
+                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2652/A eine Frist bis 6. Juli 2022 zu setzen.",
+                  "timeStart": "24.160",
+                  "timeEnd": "34.040"
                 }
               ],
               "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag. Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2652/A eine Frist bis 6. Juli 2022 zu setzen."
@@ -880,13 +1069,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "34.040",
+                  "timeEnd": "38.660"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "38.660",
+                  "timeEnd": "39.800"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "39.800",
+                  "timeEnd": "41.180"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -897,10 +1092,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag."
+                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag.",
+                  "timeStart": "41.180",
+                  "timeEnd": "45.320"
                 },
                 {
-                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2659/A eine Frist bis 6. Juli 2022 zu setzen."
+                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2659/A eine Frist bis 6. Juli 2022 zu setzen.",
+                  "timeStart": "45.320",
+                  "timeEnd": "54.660"
                 }
               ],
               "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag. Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2659/A eine Frist bis 6. Juli 2022 zu setzen."
@@ -911,13 +1110,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "54.660",
+                  "timeEnd": "59.880"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "59.880",
+                  "timeEnd": "60.800"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "60.800",
+                  "timeEnd": "62.000"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -928,10 +1133,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag."
+                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag.",
+                  "timeStart": "62.000",
+                  "timeEnd": "66.080"
                 },
                 {
-                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2676/A eine Frist bis 6. Juli 2022 zu setzen."
+                  "text": "Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2676/A eine Frist bis 6. Juli 2022 zu setzen.",
+                  "timeStart": "66.080",
+                  "timeEnd": "75.240"
                 }
               ],
               "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriela Schwarz und Mag. Markus Koza , dem Gesundheitsausschuss zur Berichterstattung über den Antrag 2676/A eine Frist bis 6. Juli 2022 zu setzen."
@@ -942,13 +1151,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "75.240",
+                  "timeEnd": "79.200"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "79.200",
+                  "timeEnd": "80.000"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "80.000",
+                  "timeEnd": "81.460"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -959,7 +1174,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir gelangen weiters zur Abstimmung über den Antrag der Abgeordneten Andreas Ottenschläger und Sigrid Maurer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2487/A eine Frist bis 6. Juli 2022 zu setzen."
+                  "text": "Wir gelangen weiters zur Abstimmung über den Antrag der Abgeordneten Andreas Ottenschläger und Sigrid Maurer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2487/A eine Frist bis 6. Juli 2022 zu setzen.",
+                  "timeStart": "81.460",
+                  "timeEnd": "95.500"
                 }
               ],
               "text": "Wir gelangen weiters zur Abstimmung über den Antrag der Abgeordneten Andreas Ottenschläger und Sigrid Maurer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2487/A eine Frist bis 6. Juli 2022 zu setzen."
@@ -970,13 +1187,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "95.500",
+                  "timeEnd": "100.060"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "100.060",
+                  "timeEnd": "100.920"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "100.920",
+                  "timeEnd": "102.300"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -987,10 +1210,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "102.300",
+                  "timeEnd": "106.760"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2679/A eine Frist bis 5. Juli 2022 zu setzen."
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2679/A eine Frist bis 5. Juli 2022 zu setzen.",
+                  "timeStart": "106.760",
+                  "timeEnd": "116.180"
                 }
               ],
               "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2679/A eine Frist bis 5. Juli 2022 zu setzen."
@@ -1001,13 +1228,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "116.180",
+                  "timeEnd": "120.380"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "120.380",
+                  "timeEnd": "121.320"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "121.320",
+                  "timeEnd": "122.440"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -1018,10 +1251,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "125.520",
+                  "timeEnd": "130.360"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1570 der Beilagen eine Frist bis 5. Juli 2022 zu setzen."
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1570 der Beilagen eine Frist bis 5. Juli 2022 zu setzen.",
+                  "timeStart": "130.360",
+                  "timeEnd": "140.400"
                 }
               ],
               "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1570 der Beilagen eine Frist bis 5. Juli 2022 zu setzen."
@@ -1032,13 +1269,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "140.400",
+                  "timeEnd": "144.160"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "144.160",
+                  "timeEnd": "144.960"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "144.960",
+                  "timeEnd": "146.780"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -1049,10 +1292,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "146.780",
+                  "timeEnd": "151.000"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1572 der Beilagen eine Frist bis 5. Juli 2022 zu setzen."
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1572 der Beilagen eine Frist bis 5. Juli 2022 zu setzen.",
+                  "timeStart": "151.000",
+                  "timeEnd": "161.200"
                 }
               ],
               "text": "Weiters gelangen wir zur Abstimmung über den Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über die Regierungsvorlage 1572 der Beilagen eine Frist bis 5. Juli 2022 zu setzen."
@@ -1063,13 +1310,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "161.200",
+                  "timeEnd": "165.600"
                 },
                 {
-                  "text": "Das ist die Mehrheit."
+                  "text": "Das ist die Mehrheit.",
+                  "timeStart": "165.600",
+                  "timeEnd": "166.400"
                 },
                 {
-                  "text": "Der Antrag ist angenommen."
+                  "text": "Der Antrag ist angenommen.",
+                  "timeStart": "166.400",
+                  "timeEnd": "167.700"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit. Der Antrag ist angenommen."
@@ -1080,10 +1333,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Schließlich gelangen wir zur Abstimmung über den Antrag der Abgeordneten Tanja Graf und Mag."
+                  "text": "Schließlich gelangen wir zur Abstimmung über den Antrag der Abgeordneten Tanja Graf und Mag.",
+                  "timeStart": "167.700",
+                  "timeEnd": "172.600"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2680/A eine Frist bis 5. Juli 2022 zu setzen."
+                  "text": "Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2680/A eine Frist bis 5. Juli 2022 zu setzen.",
+                  "timeStart": "172.600",
+                  "timeEnd": "182.580"
                 }
               ],
               "text": "Schließlich gelangen wir zur Abstimmung über den Antrag der Abgeordneten Tanja Graf und Mag. Dr. Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 2680/A eine Frist bis 5. Juli 2022 zu setzen."
@@ -1094,10 +1351,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "182.580",
+                  "timeEnd": "187.980"
                 },
                 {
-                  "text": "Auch das ist mehrheitlich angenommen."
+                  "text": "Auch das ist mehrheitlich angenommen.",
+                  "timeStart": "187.980",
+                  "timeEnd": "190.100"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Auch das ist mehrheitlich angenommen."
@@ -1108,7 +1369,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 6. Juli 2022, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 6. Juli 2022, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "190.100",
+                  "timeEnd": "200.340"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 6. Juli 2022, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -1119,7 +1382,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der ÖVP-Korruptions-Untersuchungsausschuss seine Sitzung im Camineum fortsetzt."
+                  "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der ÖVP-Korruptions-Untersuchungsausschuss seine Sitzung im Camineum fortsetzt.",
+                  "timeStart": "200.340",
+                  "timeEnd": "209.600"
                 }
               ],
               "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der ÖVP-Korruptions-Untersuchungsausschuss seine Sitzung im Camineum fortsetzt."
@@ -1130,7 +1395,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "209.600",
+                  "timeEnd": "211.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -1142,7 +1409,8 @@
         "mediaIndex": 2,
         "stdId": 271509,
         "debatteId": 310,
-        "proceedingIndex": 271509
+        "proceedingIndex": 271509,
+        "alignDuration": 0.7717978954315186
       },
       "originalLanguage": "de"
     }
