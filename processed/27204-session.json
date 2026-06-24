@@ -4,11 +4,11 @@
     "session": "27204",
     "dateStart": "2023-03-02T00:54:59",
     "dateEnd": "2023-03-02T00:55:40",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:05+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-24T11:17:17",
     "processing": {
       "merge": "2026-06-16T04:24:05+00:00",
-      "nel": "2026-06-16T06:24:25"
+      "align": "2026-06-24T11:17:17"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "291651",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/70bab3d7-8ed4-4f5c-b11f-30893dad518f/70bab3d7-8ed4-4f5c-b11f-30893dad518f.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/70bab3d7-8ed4-4f5c-b11f-30893dad518f/70bab3d7-8ed4-4f5c-b11f-30893dad518f.mp3",
-        "duration": 41
+        "duration": 41,
+        "aligned": true
       },
       "dateStart": "2023-03-02T00:54:59",
       "dateEnd": "2023-03-02T00:55:40",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 204. Sitzung, Donnerstag, 2. März, 0.54 Uhr."
+                  "text": "Ich eröffne die 204. Sitzung, Donnerstag, 2. März, 0.54 Uhr.",
+                  "timeStart": "1.000",
+                  "timeEnd": "6.560"
                 }
               ],
               "text": "Ich eröffne die 204. Sitzung, Donnerstag, 2. März, 0.54 Uhr."
@@ -79,10 +82,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "6.560",
+                  "timeEnd": "8.360"
                 },
                 {
-                  "text": "Peter Weidinger , Katharina Kucharowits , Dr. Susanne Fürst , Michael Schnedlitz , Heike Grebien und Dipl.-Ing. Olga Voglauer ."
+                  "text": "Peter Weidinger , Katharina Kucharowits , Dr. Susanne Fürst , Michael Schnedlitz , Heike Grebien und Dipl.-Ing. Olga Voglauer .",
+                  "timeStart": "8.360",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Peter Weidinger , Katharina Kucharowits , Dr. Susanne Fürst , Michael Schnedlitz , Heike Grebien und Dipl.-Ing. Olga Voglauer ."
@@ -93,7 +100,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.120"
                 }
               ],
               "text": "Zuweisungen"
@@ -104,7 +113,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "10.120",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -115,7 +126,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.920"
                 }
               ],
               "text": "Die Mitteilung hat folgenden Wortlaut:"
@@ -126,7 +139,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "13.920",
+                  "timeEnd": "13.920"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -137,7 +152,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "13.920",
+                  "timeEnd": "14.000"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -148,7 +165,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "14.000",
+                  "timeEnd": "14.800"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -159,7 +178,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2015/751 über Interbankenentgelte für kartengebundene Zahlungsvorgänge (Interbankenentgeltevollzugsgesetz – IEVG) erlassen und das E-Geldgesetz 2010, das Wettbewerbsgesetz und das Zahlungsdienstegesetz 2018 geändert werden ( 1957 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2015/751 über Interbankenentgelte für kartengebundene Zahlungsvorgänge (Interbankenentgeltevollzugsgesetz – IEVG) erlassen und das E-Geldgesetz 2010, das Wettbewerbsgesetz und das Zahlungsdienstegesetz 2018 geändert werden ( 1957 d.B. )",
+                  "timeStart": "14.800",
+                  "timeEnd": "23.840"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2015/751 über Interbankenentgelte für kartengebundene Zahlungsvorgänge (Interbankenentgeltevollzugsgesetz – IEVG) erlassen und das E-Geldgesetz 2010, das Wettbewerbsgesetz und das Zahlungsdienstegesetz 2018 geändert werden ( 1957 d.B. )"
@@ -170,7 +191,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "23.840",
+                  "timeEnd": "24.040"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -181,7 +204,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Patentverträge-Einführungsgesetz, das Patentgesetz 1970, das Gebrauchsmustergesetz, das Markenschutzgesetz 1970, das Musterschutzgesetz 1990 und das Patentamtsgebührengesetz geändert werden ( 1955 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Patentverträge-Einführungsgesetz, das Patentgesetz 1970, das Gebrauchsmustergesetz, das Markenschutzgesetz 1970, das Musterschutzgesetz 1990 und das Patentamtsgebührengesetz geändert werden ( 1955 d.B. )",
+                  "timeStart": "24.040",
+                  "timeEnd": "28.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Patentverträge-Einführungsgesetz, das Patentgesetz 1970, das Gebrauchsmustergesetz, das Markenschutzgesetz 1970, das Musterschutzgesetz 1990 und das Patentamtsgebührengesetz geändert werden ( 1955 d.B. )"
@@ -192,7 +217,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "28.800",
+                  "timeEnd": "29.120"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -203,7 +230,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulpflichtgesetz 1985, das Pflichtschulerhaltungs-Grundsatzgesetz und das COVID-19-Hochschulgesetzes – C-HG geändert werden ( 1956 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulpflichtgesetz 1985, das Pflichtschulerhaltungs-Grundsatzgesetz und das COVID-19-Hochschulgesetzes – C-HG geändert werden ( 1956 d.B. )",
+                  "timeStart": "29.120",
+                  "timeEnd": "34.600"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulpflichtgesetz 1985, das Pflichtschulerhaltungs-Grundsatzgesetz und das COVID-19-Hochschulgesetzes – C-HG geändert werden ( 1956 d.B. )"
@@ -214,7 +243,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "34.600",
+                  "timeEnd": "34.600"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -225,7 +256,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Kraftfahrgesetz 1967 geändert wird (41. KFG-Novelle) ( 1954 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Kraftfahrgesetz 1967 geändert wird (41. KFG-Novelle) ( 1954 d.B. )",
+                  "timeStart": "34.600",
+                  "timeEnd": "37.760"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Kraftfahrgesetz 1967 geändert wird (41. KFG-Novelle) ( 1954 d.B. )"
@@ -236,7 +269,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 29. März, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 29. März, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "37.760",
+                  "timeEnd": "41.280"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 29. März, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -247,7 +282,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen allen eine schöne gute Nacht."
+                  "text": "Ich wünsche Ihnen allen eine schöne gute Nacht.",
+                  "timeStart": "41.280",
+                  "timeEnd": "41.440"
                 }
               ],
               "text": "Ich wünsche Ihnen allen eine schöne gute Nacht."
@@ -258,7 +295,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "41.440",
+                  "timeEnd": "41.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -270,7 +309,8 @@
         "mediaIndex": 1,
         "stdId": 291651,
         "debatteId": 300,
-        "proceedingIndex": 291651
+        "proceedingIndex": 291651,
+        "alignDuration": 0.6169071197509766
       },
       "originalLanguage": "de"
     }

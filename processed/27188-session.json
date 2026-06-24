@@ -4,11 +4,11 @@
     "session": "27188",
     "dateStart": "2022-12-13T21:28:45",
     "dateEnd": "2022-12-13T21:29:18",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:03+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-23T20:08:05",
     "processing": {
       "merge": "2026-06-16T04:24:03+00:00",
-      "nel": "2026-06-16T06:24:25"
+      "align": "2026-06-23T20:08:05"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "285683",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/4c23e66c-a20f-4eb2-a670-8bb8e3c9e246/4c23e66c-a20f-4eb2-a670-8bb8e3c9e246.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/4c23e66c-a20f-4eb2-a670-8bb8e3c9e246/4c23e66c-a20f-4eb2-a670-8bb8e3c9e246.mp3",
-        "duration": 33
+        "duration": 33,
+        "aligned": true
       },
       "dateStart": "2022-12-13T21:28:45",
       "dateEnd": "2022-12-13T21:29:18",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 188. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 188. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.400"
                 }
               ],
               "text": "Ich eröffne die 188. Sitzung des Nationalrates."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Dr. Reinhold Lopatka , Alexander Melchior , Dipl.-Kffr. ("
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Dr. Reinhold Lopatka , Alexander Melchior , Dipl.-Kffr. (",
+                  "timeStart": "1.400",
+                  "timeEnd": "3.560"
                 },
                 {
-                  "text": "FH) Elisabeth Pfurtscheller , Dr. Josef Smolle , Mag."
+                  "text": "FH) Elisabeth Pfurtscheller , Dr. Josef Smolle , Mag.",
+                  "timeStart": "3.560",
+                  "timeEnd": "4.160"
                 },
                 {
-                  "text": "Karin Greiner , Rudolf Silvan , Dr. Harald Troch , Heike Grebien und Hermann Weratschnig, MBA MSc ."
+                  "text": "Karin Greiner , Rudolf Silvan , Dr. Harald Troch , Heike Grebien und Hermann Weratschnig, MBA MSc .",
+                  "timeStart": "4.160",
+                  "timeEnd": "5.360"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Dr. Reinhold Lopatka , Alexander Melchior , Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Dr. Josef Smolle , Mag. Karin Greiner , Rudolf Silvan , Dr. Harald Troch , Heike Grebien und Hermann Weratschnig, MBA MSc ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "5.360",
+                  "timeEnd": "5.360"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "5.360",
+                  "timeEnd": "5.880"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.600"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "6.600",
+                  "timeEnd": "6.880"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 12386/AB bis 12404/AB"
+                  "text": "Anfragebeantwortungen: 12386/AB bis 12404/AB",
+                  "timeStart": "6.880",
+                  "timeEnd": "7.600"
                 }
               ],
               "text": "Anfragebeantwortungen: 12386/AB bis 12404/AB"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "7.600",
+                  "timeEnd": "7.640"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "7.640",
+                  "timeEnd": "7.760"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "7.760",
+                  "timeEnd": "8.040"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -184,10 +209,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "8.040",
+                  "timeEnd": "8.080"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einen Vorsitzenden für die Alterssicherungskommission (ASK) ( 3032/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einen Vorsitzenden für die Alterssicherungskommission (ASK) ( 3032/A(E) )",
+                  "timeStart": "8.080",
+                  "timeEnd": "8.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einen Vorsitzenden für die Alterssicherungskommission (ASK) ( 3032/A(E) )"
@@ -198,10 +227,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "8.320",
+                  "timeEnd": "8.320"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung eines Pensionsgipfels ( 3037/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung eines Pensionsgipfels ( 3037/A(E) )",
+                  "timeStart": "8.320",
+                  "timeEnd": "8.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung eines Pensionsgipfels ( 3037/A(E) )"
@@ -212,10 +245,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "8.320",
+                  "timeEnd": "8.320"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3045/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3045/A(E) )",
+                  "timeStart": "8.320",
+                  "timeEnd": "9.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3045/A(E) )"
@@ -226,7 +263,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Echte Pensionsanpassung statt sozialpolitischem Falschspielertrick ( 3048/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Echte Pensionsanpassung statt sozialpolitischem Falschspielertrick ( 3048/A(E) )",
+                  "timeStart": "9.560",
+                  "timeEnd": "9.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Echte Pensionsanpassung statt sozialpolitischem Falschspielertrick ( 3048/A(E) )"
@@ -237,7 +276,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 3049/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 3049/A(E) )",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 3049/A(E) )"
@@ -248,7 +289,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Zuwanderungsstopp in den österreichischen Sozialstaat jetzt – \"Unser Geld für unsere Leute\" ( 3051/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Zuwanderungsstopp in den österreichischen Sozialstaat jetzt – \"Unser Geld für unsere Leute\" ( 3051/A(E) )",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Zuwanderungsstopp in den österreichischen Sozialstaat jetzt – \"Unser Geld für unsere Leute\" ( 3051/A(E) )"
@@ -259,10 +302,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend AMS-Schulungen: Mehr als 50 Prozent Ausländer! ("
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend AMS-Schulungen: Mehr als 50 Prozent Ausländer! (",
+                  "timeStart": "9.960",
+                  "timeEnd": "10.360"
                 },
                 {
-                  "text": "3052/AE))"
+                  "text": "3052/AE))",
+                  "timeStart": "10.360",
+                  "timeEnd": "10.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend AMS-Schulungen: Mehr als 50 Prozent Ausländer! (3052/AE))"
@@ -273,7 +320,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "10.720",
+                  "timeEnd": "10.720"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -284,7 +333,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Entschuldung des Sudans ( 3044/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Entschuldung des Sudans ( 3044/A(E) )",
+                  "timeStart": "10.720",
+                  "timeEnd": "12.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Entschuldung des Sudans ( 3044/A(E) )"
@@ -295,7 +346,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "12.680",
+                  "timeEnd": "13.160"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -306,7 +359,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit dem Warten auf die Familienbeihilfe – Mehr Personal für die Finanzämter\" ( 3027/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit dem Warten auf die Familienbeihilfe – Mehr Personal für die Finanzämter\" ( 3027/A(E) )",
+                  "timeStart": "13.160",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit dem Warten auf die Familienbeihilfe – Mehr Personal für die Finanzämter\" ( 3027/A(E) )"
@@ -317,7 +372,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -328,10 +385,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Overhead-Finanzierung von Forschungsprojekten ( 3031/A(E) )"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Overhead-Finanzierung von Forschungsprojekten ( 3031/A(E) )",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Overhead-Finanzierung von Forschungsprojekten ( 3031/A(E) )"
@@ -342,7 +403,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -353,7 +416,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Vorbereitende Maßnahmen für den EHDS ( 3029/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Vorbereitende Maßnahmen für den EHDS ( 3029/A(E) )",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Vorbereitende Maßnahmen für den EHDS ( 3029/A(E) )"
@@ -364,10 +429,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3047/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3047/A(E) )",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3047/A(E) )"
@@ -378,7 +447,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -389,7 +460,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Gezielte Präventionsarbeit gegen Gewalt an Mädchen und Frauen ( 3042/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Gezielte Präventionsarbeit gegen Gewalt an Mädchen und Frauen ( 3042/A(E) )",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Gezielte Präventionsarbeit gegen Gewalt an Mädchen und Frauen ( 3042/A(E) )"
@@ -400,7 +473,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "13.800",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -411,7 +486,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Durchgriffsrecht zur Unterbringung von Asylwerber:innen ( 3030/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Durchgriffsrecht zur Unterbringung von Asylwerber:innen ( 3030/A(E) )",
+                  "timeStart": "13.800",
+                  "timeEnd": "15.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Durchgriffsrecht zur Unterbringung von Asylwerber:innen ( 3030/A(E) )"
@@ -422,10 +499,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "15.880",
+                  "timeEnd": "15.880"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Verschärfung des Asylrechts nach Migrantenkrawallen ( 3046/A(E) )"
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Verschärfung des Asylrechts nach Migrantenkrawallen ( 3046/A(E) )",
+                  "timeStart": "15.880",
+                  "timeEnd": "17.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Verschärfung des Asylrechts nach Migrantenkrawallen ( 3046/A(E) )"
@@ -436,10 +517,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "17.600",
+                  "timeEnd": "17.600"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aufnahme von Klimaterrorismus und -extremismus in den Verfassungsschutzbericht ( 3050/A(E) )"
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aufnahme von Klimaterrorismus und -extremismus in den Verfassungsschutzbericht ( 3050/A(E) )",
+                  "timeStart": "17.600",
+                  "timeEnd": "19.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aufnahme von Klimaterrorismus und -extremismus in den Verfassungsschutzbericht ( 3050/A(E) )"
@@ -450,7 +535,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "19.640",
+                  "timeEnd": "20.120"
                 }
               ],
               "text": "Justizausschuss:"
@@ -461,7 +548,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend die Verankerung von Stealthing im Strafgesetzbuch ( 3028/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend die Verankerung von Stealthing im Strafgesetzbuch ( 3028/A(E) )",
+                  "timeStart": "20.120",
+                  "timeEnd": "21.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend die Verankerung von Stealthing im Strafgesetzbuch ( 3028/A(E) )"
@@ -472,7 +561,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Schutzmaßnahmen in der Justiz ( 3033/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Schutzmaßnahmen in der Justiz ( 3033/A(E) )",
+                  "timeStart": "21.840",
+                  "timeEnd": "24.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Schutzmaßnahmen in der Justiz ( 3033/A(E) )"
@@ -483,7 +574,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Rechtsverbindlichkeit von öffentlichen Beschaffungen erst mit Veröffentlichung ( 3034/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Rechtsverbindlichkeit von öffentlichen Beschaffungen erst mit Veröffentlichung ( 3034/A(E) )",
+                  "timeStart": "24.000",
+                  "timeEnd": "25.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Rechtsverbindlichkeit von öffentlichen Beschaffungen erst mit Veröffentlichung ( 3034/A(E) )"
@@ -494,7 +587,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "25.560",
+                  "timeEnd": "26.320"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -505,13 +600,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMag."
+                  "text": "Antrag der Abgeordneten MMag.",
+                  "timeStart": "26.320",
+                  "timeEnd": "26.320"
                 },
                 {
-                  "text": "Katharina Werner, Bakk. ,"
+                  "text": "Katharina Werner, Bakk. ,",
+                  "timeStart": "26.320",
+                  "timeEnd": "26.320"
                 },
                 {
-                  "text": "Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Alternative-Streitbeilegung-Gesetz geändert wird ( 3025/A )"
+                  "text": "Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Alternative-Streitbeilegung-Gesetz geändert wird ( 3025/A )",
+                  "timeStart": "26.320",
+                  "timeEnd": "27.160"
                 }
               ],
               "text": "Antrag der Abgeordneten MMag. Katharina Werner, Bakk. , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Alternative-Streitbeilegung-Gesetz geändert wird ( 3025/A )"
@@ -522,7 +623,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "27.160",
+                  "timeEnd": "27.760"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -533,7 +636,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Verankerung von Stealthing im Sexualkundeunterricht ( 3043/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Verankerung von Stealthing im Sexualkundeunterricht ( 3043/A(E) )",
+                  "timeStart": "27.760",
+                  "timeEnd": "28.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Verankerung von Stealthing im Sexualkundeunterricht ( 3043/A(E) )"
@@ -544,7 +649,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "28.040",
+                  "timeEnd": "28.120"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -555,7 +662,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Finanzierung politischer Parteien (Parteiengesetz 2012 – PartG) geändert wird ( 3026/A )"
+                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Finanzierung politischer Parteien (Parteiengesetz 2012 – PartG) geändert wird ( 3026/A )",
+                  "timeStart": "28.120",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Finanzierung politischer Parteien (Parteiengesetz 2012 – PartG) geändert wird ( 3026/A )"
@@ -566,7 +675,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend transparente Veröffentlichung der Entscheidungen der RTR-Beirät:innen ( 3038/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend transparente Veröffentlichung der Entscheidungen der RTR-Beirät:innen ( 3038/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend transparente Veröffentlichung der Entscheidungen der RTR-Beirät:innen ( 3038/A(E) )"
@@ -577,7 +688,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neuaufstellung des Fonds zur Förderung der digitalen Transformation ( 3039/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neuaufstellung des Fonds zur Förderung der digitalen Transformation ( 3039/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neuaufstellung des Fonds zur Förderung der digitalen Transformation ( 3039/A(E) )"
@@ -588,7 +701,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bericht über Wirkungsziele bei der RTR ( 3040/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bericht über Wirkungsziele bei der RTR ( 3040/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bericht über Wirkungsziele bei der RTR ( 3040/A(E) )"
@@ -599,10 +714,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Finanzielle und politische Unabhängigkeit für die Wiener Zeitung! ("
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Finanzielle und politische Unabhängigkeit für die Wiener Zeitung! (",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 },
                 {
-                  "text": "3041/A(E) )"
+                  "text": "3041/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Finanzielle und politische Unabhängigkeit für die Wiener Zeitung! ( 3041/A(E) )"
@@ -613,7 +732,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -624,7 +745,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Befristete Zulassungsentziehung statt Enteignung ( 3035/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Befristete Zulassungsentziehung statt Enteignung ( 3035/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Befristete Zulassungsentziehung statt Enteignung ( 3035/A(E) )"
@@ -635,7 +758,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -646,10 +771,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Masterstudium Schulsozialarbeit einrichten ( 3036/A(E) )"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Masterstudium Schulsozialarbeit einrichten ( 3036/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Masterstudium Schulsozialarbeit einrichten ( 3036/A(E) )"
@@ -660,13 +789,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 },
                 {
-                  "text": "Dr. Rudolf Taschner , Mag."
+                  "text": "Dr. Rudolf Taschner , Mag.",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600"
                 },
                 {
-                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG) geändert wird (3053/A)"
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG) geändert wird (3053/A)",
+                  "timeStart": "29.600",
+                  "timeEnd": "31.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Rudolf Taschner , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG) geändert wird (3053/A)"
@@ -677,7 +812,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen um 9 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen um 9 Uhr ein.",
+                  "timeStart": "31.600",
+                  "timeEnd": "32.600"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen um 9 Uhr ein."
@@ -688,7 +825,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "32.600",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -699,7 +838,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen einen schönen Abend."
+                  "text": "Ich wünsche Ihnen einen schönen Abend.",
+                  "timeStart": "32.720",
+                  "timeEnd": "33.160"
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen Abend."
@@ -710,7 +851,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "33.160",
+                  "timeEnd": "34.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -722,7 +865,8 @@
         "mediaIndex": 1,
         "stdId": 285683,
         "debatteId": 300,
-        "proceedingIndex": 285683
+        "proceedingIndex": 285683,
+        "alignDuration": 0.9552829265594482
       },
       "originalLanguage": "de"
     }

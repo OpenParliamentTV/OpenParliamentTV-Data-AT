@@ -4,11 +4,11 @@
     "session": "27182",
     "dateStart": "2022-11-02T15:32:43",
     "dateEnd": "2022-11-02T15:35:28",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:02+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-23T12:44:37",
     "processing": {
       "merge": "2026-06-16T04:24:02+00:00",
-      "nel": "2026-06-16T06:24:24"
+      "align": "2026-06-23T12:44:37"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "281056",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/22c3ba94-4ecd-4df0-bd1d-5ce48e747d24/22c3ba94-4ecd-4df0-bd1d-5ce48e747d24.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/22c3ba94-4ecd-4df0-bd1d-5ce48e747d24/22c3ba94-4ecd-4df0-bd1d-5ce48e747d24.mp3",
-        "duration": 80
+        "duration": 80,
+        "aligned": true
       },
       "dateStart": "2022-11-02T15:32:43",
       "dateEnd": "2022-11-02T15:34:03",
@@ -68,7 +69,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "15.32.40*****"
+                  "text": "15.32.40*****",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.000"
                 }
               ],
               "text": "15.32.40*****"
@@ -79,7 +82,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 182. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 182. Sitzung des Nationalrates.",
+                  "timeStart": "2.000",
+                  "timeEnd": "3.920"
                 }
               ],
               "text": "Ich eröffne die 182. Sitzung des Nationalrates."
@@ -90,28 +95,44 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag.",
+                  "timeStart": "3.920",
+                  "timeEnd": "4.000"
                 },
                 {
-                  "text": "Ernst Gödl , Rebecca Kirchbaumer , Dr. Gudrun Kugler , Mag."
+                  "text": "Ernst Gödl , Rebecca Kirchbaumer , Dr. Gudrun Kugler , Mag.",
+                  "timeStart": "4.000",
+                  "timeEnd": "4.880"
                 },
                 {
-                  "text": "Dr. Maria Theresia Niss, MBA , Maximilian Lercher , Mag."
+                  "text": "Dr. Maria Theresia Niss, MBA , Maximilian Lercher , Mag.",
+                  "timeStart": "4.880",
+                  "timeEnd": "6.080"
                 },
                 {
-                  "text": "Verena Nussbaum , Petra Tanzler , Dipl.-Ing. Gerhard Deimek , Mag."
+                  "text": "Verena Nussbaum , Petra Tanzler , Dipl.-Ing. Gerhard Deimek , Mag.",
+                  "timeStart": "6.080",
+                  "timeEnd": "7.880"
                 },
                 {
-                  "text": "Dr. Martin Graf , MMMag."
+                  "text": "Dr. Martin Graf , MMMag.",
+                  "timeStart": "7.880",
+                  "timeEnd": "8.320"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Ing. Mag."
+                  "text": "Dr. Axel Kassegger , Ing. Mag.",
+                  "timeStart": "8.320",
+                  "timeEnd": "9.680"
                 },
                 {
-                  "text": "Volker Reifenberger , Christian Ries , Mag."
+                  "text": "Volker Reifenberger , Christian Ries , Mag.",
+                  "timeStart": "9.680",
+                  "timeEnd": "11.520"
                 },
                 {
-                  "text": "Faika El-Nagashi und Barbara Neßler ."
+                  "text": "Faika El-Nagashi und Barbara Neßler .",
+                  "timeStart": "11.520",
+                  "timeEnd": "12.560"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag. Ernst Gödl , Rebecca Kirchbaumer , Dr. Gudrun Kugler , Mag. Dr. Maria Theresia Niss, MBA , Maximilian Lercher , Mag. Verena Nussbaum , Petra Tanzler , Dipl.-Ing. Gerhard Deimek , Mag. Dr. Martin Graf , MMMag. Dr. Axel Kassegger , Ing. Mag. Volker Reifenberger , Christian Ries , Mag. Faika El-Nagashi und Barbara Neßler ."
@@ -122,7 +143,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "12.560",
+                  "timeEnd": "13.000"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -133,7 +156,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "13.000",
+                  "timeEnd": "16.760"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -144,7 +169,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "16.760",
+                  "timeEnd": "17.880"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -155,7 +182,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "17.880",
+                  "timeEnd": "19.640"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -166,7 +195,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortung: 11775/AB"
+                  "text": "1. Anfragebeantwortung: 11775/AB",
+                  "timeStart": "19.640",
+                  "timeEnd": "21.920"
                 }
               ],
               "text": "1. Anfragebeantwortung: 11775/AB"
@@ -177,7 +208,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "2. Regierungsvorlagen:"
+                  "text": "2. Regierungsvorlagen:",
+                  "timeStart": "21.920",
+                  "timeEnd": "23.320"
                 }
               ],
               "text": "2. Regierungsvorlagen:"
@@ -188,7 +221,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Erneuerbare-Wärme–Gesetz – EWG ( 1773 d.B. )"
+                  "text": "Erneuerbare-Wärme–Gesetz – EWG ( 1773 d.B. )",
+                  "timeStart": "23.320",
+                  "timeEnd": "25.680"
                 }
               ],
               "text": "Erneuerbare-Wärme–Gesetz – EWG ( 1773 d.B. )"
@@ -199,7 +234,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Strompreiskosten-Ausgleichsgesetz 2022, SAG 2022 ( 1774 d.B. )"
+                  "text": "Strompreiskosten-Ausgleichsgesetz 2022, SAG 2022 ( 1774 d.B. )",
+                  "timeStart": "25.680",
+                  "timeEnd": "28.800"
                 }
               ],
               "text": "Strompreiskosten-Ausgleichsgesetz 2022, SAG 2022 ( 1774 d.B. )"
@@ -210,7 +247,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "28.800",
+                  "timeEnd": "29.200"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -221,7 +260,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "29.200",
+                  "timeEnd": "29.280"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -232,7 +273,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "29.280",
+                  "timeEnd": "30.120"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -243,7 +286,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Zivildienstgesetz 1986 geändert wird ( 1771 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Zivildienstgesetz 1986 geändert wird ( 1771 d.B. )",
+                  "timeStart": "30.120",
+                  "timeEnd": "31.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Zivildienstgesetz 1986 geändert wird ( 1771 d.B. )"
@@ -254,13 +299,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "31.680",
+                  "timeEnd": "32.240"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! ("
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! (",
+                  "timeStart": "32.240",
+                  "timeEnd": "33.400"
                 },
                 {
-                  "text": "2901/A(E) )"
+                  "text": "2901/A(E) )",
+                  "timeStart": "33.400",
+                  "timeEnd": "33.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! ( 2901/A(E) )"
@@ -271,7 +322,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2903/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2903/A(E) )",
+                  "timeStart": "33.920",
+                  "timeEnd": "34.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2903/A(E) )"
@@ -282,7 +335,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2906/A(E) )"
+                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2906/A(E) )",
+                  "timeStart": "34.920",
+                  "timeEnd": "37.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2906/A(E) )"
@@ -293,7 +348,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "37.000",
+                  "timeEnd": "37.000"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -304,7 +361,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 1770 d.B. )"
+                  "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 1770 d.B. )",
+                  "timeStart": "37.000",
+                  "timeEnd": "38.240"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 1770 d.B. )"
@@ -315,7 +374,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "38.240",
+                  "timeEnd": "38.680"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -326,7 +387,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Beaufsichtigung von Wertpapierfirmen (Wertpapierfirmengesetz – WPFG) erlassen wird und das Alternative Investmentfonds Manager-Gesetz, das Bankwesengesetz, das Einlagensicherungs- und Anlegerentschädigungsgesetz, das Finanzkonglomerategesetz, das Finanzmarktaufsichtsbehördengesetz, das Investmentfondsgesetz 2011, das Sanierungs- und Abwicklungsgesetz und das Wertpapieraufsichtsgesetz 2018 geändert werden ( 1757 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Beaufsichtigung von Wertpapierfirmen (Wertpapierfirmengesetz – WPFG) erlassen wird und das Alternative Investmentfonds Manager-Gesetz, das Bankwesengesetz, das Einlagensicherungs- und Anlegerentschädigungsgesetz, das Finanzkonglomerategesetz, das Finanzmarktaufsichtsbehördengesetz, das Investmentfondsgesetz 2011, das Sanierungs- und Abwicklungsgesetz und das Wertpapieraufsichtsgesetz 2018 geändert werden ( 1757 d.B. )",
+                  "timeStart": "38.680",
+                  "timeEnd": "47.520"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Beaufsichtigung von Wertpapierfirmen (Wertpapierfirmengesetz – WPFG) erlassen wird und das Alternative Investmentfonds Manager-Gesetz, das Bankwesengesetz, das Einlagensicherungs- und Anlegerentschädigungsgesetz, das Finanzkonglomerategesetz, das Finanzmarktaufsichtsbehördengesetz, das Investmentfondsgesetz 2011, das Sanierungs- und Abwicklungsgesetz und das Wertpapieraufsichtsgesetz 2018 geändert werden ( 1757 d.B. )"
@@ -337,7 +400,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "47.520",
+                  "timeEnd": "48.000"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -348,7 +413,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2899/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2899/A(E) )",
+                  "timeStart": "48.000",
+                  "timeEnd": "55.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2899/A(E) )"
@@ -359,7 +426,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2907/A(E) )"
+                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2907/A(E) )",
+                  "timeStart": "55.680",
+                  "timeEnd": "56.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2907/A(E) )"
@@ -370,7 +439,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "56.160",
+                  "timeEnd": "56.200"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -381,7 +452,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Fachstelle-Normungsbeteiligung-Gesetz – FNBG ( 1752 d.B. )"
+                  "text": "Fachstelle-Normungsbeteiligung-Gesetz – FNBG ( 1752 d.B. )",
+                  "timeStart": "56.200",
+                  "timeEnd": "56.360"
                 }
               ],
               "text": "Fachstelle-Normungsbeteiligung-Gesetz – FNBG ( 1752 d.B. )"
@@ -392,7 +465,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2900/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2900/A(E) )",
+                  "timeStart": "56.360",
+                  "timeEnd": "61.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2900/A(E) )"
@@ -403,13 +478,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "61.520",
+                  "timeEnd": "61.520"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! ("
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! (",
+                  "timeStart": "61.520",
+                  "timeEnd": "62.040"
                 },
                 {
-                  "text": "2902/A(E) )"
+                  "text": "2902/A(E) )",
+                  "timeStart": "62.040",
+                  "timeEnd": "62.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! ( 2902/A(E) )"
@@ -420,7 +501,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2904/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2904/A(E) )",
+                  "timeStart": "62.040",
+                  "timeEnd": "64.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2904/A(E) )"
@@ -431,7 +514,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Kennzeichnung von Honig ( 2908/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Kennzeichnung von Honig ( 2908/A(E) )",
+                  "timeStart": "64.880",
+                  "timeEnd": "66.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Kennzeichnung von Honig ( 2908/A(E) )"
@@ -442,7 +527,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "66.080",
+                  "timeEnd": "66.720"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -453,7 +540,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wehrrechtsänderungsgesetz 2023 – WRÄG 2023 ( 1772 d.B. )"
+                  "text": "Wehrrechtsänderungsgesetz 2023 – WRÄG 2023 ( 1772 d.B. )",
+                  "timeStart": "66.720",
+                  "timeEnd": "67.920"
                 }
               ],
               "text": "Wehrrechtsänderungsgesetz 2023 – WRÄG 2023 ( 1772 d.B. )"
@@ -464,7 +553,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Sportausschuss:"
+                  "text": "Sportausschuss:",
+                  "timeStart": "67.920",
+                  "timeEnd": "67.920"
                 }
               ],
               "text": "Sportausschuss:"
@@ -475,7 +566,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend sofortiger Stopp der Sanktionen gegen russische Sportler ( 2898/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend sofortiger Stopp der Sanktionen gegen russische Sportler ( 2898/A(E) )",
+                  "timeStart": "67.920",
+                  "timeEnd": "67.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend sofortiger Stopp der Sanktionen gegen russische Sportler ( 2898/A(E) )"
@@ -486,7 +579,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "67.920",
+                  "timeEnd": "67.920"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -497,10 +592,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII."
+                  "text": "Antrag der Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
+                  "timeStart": "67.920",
+                  "timeEnd": "67.920"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2896/A )"
+                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2896/A )",
+                  "timeStart": "67.920",
+                  "timeEnd": "70.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII. Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2896/A )"
@@ -511,10 +610,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII."
+                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
+                  "timeStart": "70.720",
+                  "timeEnd": "71.400"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2897/A )"
+                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2897/A )",
+                  "timeStart": "71.400",
+                  "timeEnd": "71.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII. Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2897/A )"
@@ -525,7 +628,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "71.800",
+                  "timeEnd": "71.800"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -536,7 +641,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass die folgenden Fristsetzungsanträge vorliegen:"
+                  "text": "Weiters teile ich mit, dass die folgenden Fristsetzungsanträge vorliegen:",
+                  "timeStart": "71.800",
+                  "timeEnd": "71.800"
                 }
               ],
               "text": "Weiters teile ich mit, dass die folgenden Fristsetzungsanträge vorliegen:"
@@ -547,7 +654,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anträge des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über die Anträge 66/A(E) und 361/A(E) sowie dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A jeweils eine Frist bis 12. Dezember 2022 zu setzen."
+                  "text": "Anträge des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über die Anträge 66/A(E) und 361/A(E) sowie dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A jeweils eine Frist bis 12. Dezember 2022 zu setzen.",
+                  "timeStart": "71.800",
+                  "timeEnd": "75.800"
                 }
               ],
               "text": "Anträge des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über die Anträge 66/A(E) und 361/A(E) sowie dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A jeweils eine Frist bis 12. Dezember 2022 zu setzen."
@@ -558,7 +667,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außerdem liegt der Fristsetzungsantrag des Abgeordneten Stefan vor, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen."
+                  "text": "Außerdem liegt der Fristsetzungsantrag des Abgeordneten Stefan vor, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen.",
+                  "timeStart": "75.800",
+                  "timeEnd": "79.920"
                 }
               ],
               "text": "Außerdem liegt der Fristsetzungsantrag des Abgeordneten Stefan vor, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen."
@@ -569,7 +680,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden."
+                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden.",
+                  "timeStart": "79.920",
+                  "timeEnd": "82.000"
                 }
               ],
               "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden."
@@ -581,7 +694,8 @@
         "mediaIndex": 1,
         "stdId": 281056,
         "debatteId": 300,
-        "proceedingIndex": 281056
+        "proceedingIndex": 281056,
+        "alignDuration": 0.93377685546875
       },
       "originalLanguage": "de"
     },
@@ -609,7 +723,8 @@
         "originMediaID": "281236",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/022f02e1-834a-4a5c-a1ba-ab5846998a7b/022f02e1-834a-4a5c-a1ba-ab5846998a7b.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/022f02e1-834a-4a5c-a1ba-ab5846998a7b/022f02e1-834a-4a5c-a1ba-ab5846998a7b.mp3",
-        "duration": 85
+        "duration": 85,
+        "aligned": true
       },
       "dateStart": "2022-11-02T15:34:03",
       "dateEnd": "2022-11-02T15:35:28",
@@ -641,7 +756,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.160"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -652,7 +769,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 66/A(E) eine Frist bis 12. Dezember 2022 zu setzen."
+                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 66/A(E) eine Frist bis 12. Dezember 2022 zu setzen.",
+                  "timeStart": "1.160",
+                  "timeEnd": "13.960"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 66/A(E) eine Frist bis 12. Dezember 2022 zu setzen."
@@ -663,10 +782,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist dafür? –"
+                  "text": "Wer ist dafür? –",
+                  "timeStart": "13.960",
+                  "timeEnd": "15.540"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "15.540",
+                  "timeEnd": "18.480"
                 }
               ],
               "text": "Wer ist dafür? – Das ist die Minderheit, abgelehnt."
@@ -677,7 +800,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 361/A(E) eine Frist bis 12. Dezember 2022 zu setzen."
+                  "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 361/A(E) eine Frist bis 12. Dezember 2022 zu setzen.",
+                  "timeStart": "18.480",
+                  "timeEnd": "31.040"
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 361/A(E) eine Frist bis 12. Dezember 2022 zu setzen."
@@ -688,10 +813,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diesen Fristsetzungsantrag? –"
+                  "text": "Wer ist für diesen Fristsetzungsantrag? –",
+                  "timeStart": "31.040",
+                  "timeEnd": "33.600"
                 },
                 {
-                  "text": "Auch das ist die Minderheit, abgelehnt."
+                  "text": "Auch das ist die Minderheit, abgelehnt.",
+                  "timeStart": "33.600",
+                  "timeEnd": "36.400"
                 }
               ],
               "text": "Wer ist für diesen Fristsetzungsantrag? – Auch das ist die Minderheit, abgelehnt."
@@ -702,7 +831,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A eine Frist bis 12. Dezember 2022 zu setzen."
+                  "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A eine Frist bis 12. Dezember 2022 zu setzen.",
+                  "timeStart": "36.400",
+                  "timeEnd": "48.400"
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A eine Frist bis 12. Dezember 2022 zu setzen."
@@ -713,10 +844,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diesen Fristsetzungsantrag? –"
+                  "text": "Wer ist für diesen Fristsetzungsantrag? –",
+                  "timeStart": "48.400",
+                  "timeEnd": "50.220"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "50.220",
+                  "timeEnd": "52.400"
                 }
               ],
               "text": "Wer ist für diesen Fristsetzungsantrag? – Das ist die Minderheit, abgelehnt."
@@ -727,7 +862,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Schließlich kommen wir zur Abstimmung über den Antrag des Abgeordneten Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen."
+                  "text": "Schließlich kommen wir zur Abstimmung über den Antrag des Abgeordneten Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen.",
+                  "timeStart": "52.400",
+                  "timeEnd": "67.280"
                 }
               ],
               "text": "Schließlich kommen wir zur Abstimmung über den Antrag des Abgeordneten Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen."
@@ -738,10 +875,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer spricht sich dafür aus? –"
+                  "text": "Wer spricht sich dafür aus? –",
+                  "timeStart": "67.280",
+                  "timeEnd": "69.580"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "69.580",
+                  "timeEnd": "72.120"
                 }
               ],
               "text": "Wer spricht sich dafür aus? – Das ist die Minderheit, abgelehnt."
@@ -752,7 +893,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 15. November 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 15. November 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "72.120",
+                  "timeEnd": "81.160"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 15. November 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -763,7 +906,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen noch einen schönen Tag."
+                  "text": "Ich wünsche Ihnen noch einen schönen Tag.",
+                  "timeStart": "81.160",
+                  "timeEnd": "83.240"
                 }
               ],
               "text": "Ich wünsche Ihnen noch einen schönen Tag."
@@ -774,7 +919,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "83.240",
+                  "timeEnd": "85.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -786,7 +933,8 @@
         "mediaIndex": 2,
         "stdId": 281236,
         "debatteId": 310,
-        "proceedingIndex": 281236
+        "proceedingIndex": 281236,
+        "alignDuration": 0.46146583557128906
       },
       "originalLanguage": "de"
     }

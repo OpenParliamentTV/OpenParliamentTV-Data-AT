@@ -4,11 +4,11 @@
     "session": "27199",
     "dateStart": "2023-02-01T19:29:44",
     "dateEnd": "2023-02-01T19:30:22",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:04+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-24T08:32:20",
     "processing": {
       "merge": "2026-06-16T04:24:04+00:00",
-      "nel": "2026-06-16T06:24:25"
+      "align": "2026-06-24T08:32:20"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "289781",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/5bb7a42d-e447-4ae9-915b-f807f104cb1a/5bb7a42d-e447-4ae9-915b-f807f104cb1a.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/5bb7a42d-e447-4ae9-915b-f807f104cb1a/5bb7a42d-e447-4ae9-915b-f807f104cb1a.mp3",
-        "duration": 38
+        "duration": 38,
+        "aligned": true
       },
       "dateStart": "2023-02-01T19:29:44",
       "dateEnd": "2023-02-01T19:30:22",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 199. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 199. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.720"
                 }
               ],
               "text": "Ich eröffne die 199. Sitzung des Nationalrates."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Karl Schmidhofer , Michael Seemayer , Petra Wimmer , Herbert Kickl , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Karl Schmidhofer , Michael Seemayer , Petra Wimmer , Herbert Kickl , Mag.",
+                  "timeStart": "2.720",
+                  "timeEnd": "6.760"
                 },
                 {
-                  "text": "Christian Ragger , Michael Schnedlitz , Mag."
+                  "text": "Christian Ragger , Michael Schnedlitz , Mag.",
+                  "timeStart": "6.760",
+                  "timeEnd": "7.320"
                 },
                 {
-                  "text": "Meri Disoski , Sigrid Maurer, BA und Süleyman Zorba ."
+                  "text": "Meri Disoski , Sigrid Maurer, BA und Süleyman Zorba .",
+                  "timeStart": "7.320",
+                  "timeEnd": "8.320"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Karl Schmidhofer , Michael Seemayer , Petra Wimmer , Herbert Kickl , Mag. Christian Ragger , Michael Schnedlitz , Mag. Meri Disoski , Sigrid Maurer, BA und Süleyman Zorba ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "8.320",
+                  "timeEnd": "8.880"
                 }
               ],
               "text": "Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "8.880",
+                  "timeEnd": "12.080"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "12.080",
+                  "timeEnd": "13.000"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "13.000",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "13.800",
+                  "timeEnd": "14.240"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "14.240",
+                  "timeEnd": "14.520"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Transparenzdatenbankgesetz 2012 geändert wird ( 1928 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Transparenzdatenbankgesetz 2012 geändert wird ( 1928 d.B. )",
+                  "timeStart": "14.520",
+                  "timeEnd": "19.080"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Transparenzdatenbankgesetz 2012 geändert wird ( 1928 d.B. )"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "19.080",
+                  "timeEnd": "20.480"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein FWIT-Rat-Gesetz erlassen wird und das Forschungs- und Technologieförderungsgesetz, das Forschungsorganisationsgesetz, das Innovationsstiftung-Bildung-Gesetz, das FTE-Nationalstiftungsgesetz sowie das Universitätsgesetz 2002 geändert werden (FWIT-Rat-Errichtungsgesetz – FREG) ( 1927 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein FWIT-Rat-Gesetz erlassen wird und das Forschungs- und Technologieförderungsgesetz, das Forschungsorganisationsgesetz, das Innovationsstiftung-Bildung-Gesetz, das FTE-Nationalstiftungsgesetz sowie das Universitätsgesetz 2002 geändert werden (FWIT-Rat-Errichtungsgesetz – FREG) ( 1927 d.B. )",
+                  "timeStart": "20.480",
+                  "timeEnd": "29.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein FWIT-Rat-Gesetz erlassen wird und das Forschungs- und Technologieförderungsgesetz, das Forschungsorganisationsgesetz, das Innovationsstiftung-Bildung-Gesetz, das FTE-Nationalstiftungsgesetz sowie das Universitätsgesetz 2002 geändert werden (FWIT-Rat-Errichtungsgesetz – FREG) ( 1927 d.B. )"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "29.800",
+                  "timeEnd": "30.840"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -206,7 +235,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Energieeffizienz-Reformgesetz 2023 – EEff-RefG 2023 ( 1929 d.B. )"
+                  "text": "Energieeffizienz-Reformgesetz 2023 – EEff-RefG 2023 ( 1929 d.B. )",
+                  "timeStart": "30.840",
+                  "timeEnd": "34.400"
                 }
               ],
               "text": "Energieeffizienz-Reformgesetz 2023 – EEff-RefG 2023 ( 1929 d.B. )"
@@ -217,7 +248,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 1. März, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 1. März, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "34.400",
+                  "timeEnd": "37.480"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 1. März, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -228,7 +261,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen einen schönen Abend."
+                  "text": "Ich wünsche Ihnen einen schönen Abend.",
+                  "timeStart": "37.480",
+                  "timeEnd": "37.760"
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen Abend."
@@ -239,7 +274,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "37.760",
+                  "timeEnd": "37.960"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -251,7 +288,8 @@
         "mediaIndex": 1,
         "stdId": 289781,
         "debatteId": 300,
-        "proceedingIndex": 289781
+        "proceedingIndex": 289781,
+        "alignDuration": 0.5655989646911621
       },
       "originalLanguage": "de"
     }

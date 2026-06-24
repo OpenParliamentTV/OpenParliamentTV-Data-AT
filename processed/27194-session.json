@@ -4,11 +4,11 @@
     "session": "27194",
     "dateStart": "2023-01-25T15:53:48",
     "dateEnd": "2023-01-25T15:56:27",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:04+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-24T03:16:11",
     "processing": {
       "merge": "2026-06-16T04:24:04+00:00",
-      "nel": "2026-06-16T06:24:25"
+      "align": "2026-06-24T03:16:11"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "288086",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/02cb5e54-e556-4eaf-a961-ae9184852e6f/02cb5e54-e556-4eaf-a961-ae9184852e6f.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/02cb5e54-e556-4eaf-a961-ae9184852e6f/02cb5e54-e556-4eaf-a961-ae9184852e6f.mp3",
-        "duration": 78
+        "duration": 78,
+        "aligned": true
       },
       "dateStart": "2023-01-25T15:53:48",
       "dateEnd": "2023-01-25T15:55:06",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.440"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -79,22 +82,34 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.",
+                  "timeStart": "2.440",
+                  "timeEnd": "3.040"
                 },
                 {
-                  "text": "Klaus Fürlinger , Mag."
+                  "text": "Klaus Fürlinger , Mag.",
+                  "timeStart": "3.040",
+                  "timeEnd": "3.400"
                 },
                 {
-                  "text": "Corinna Scharzenberger , Kira Grünberg , Petra Bayr, MA MLS , Mag."
+                  "text": "Corinna Scharzenberger , Kira Grünberg , Petra Bayr, MA MLS , Mag.",
+                  "timeStart": "3.400",
+                  "timeEnd": "4.720"
                 },
                 {
-                  "text": "Dr. Petra Oberrauner , Mag."
+                  "text": "Dr. Petra Oberrauner , Mag.",
+                  "timeStart": "4.720",
+                  "timeEnd": "5.000"
                 },
                 {
-                  "text": "Dr. Martin Graf und Mag."
+                  "text": "Dr. Martin Graf und Mag.",
+                  "timeStart": "5.000",
+                  "timeEnd": "5.400"
                 },
                 {
-                  "text": "Julia Seidl ."
+                  "text": "Julia Seidl .",
+                  "timeStart": "5.400",
+                  "timeEnd": "5.880"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag. Klaus Fürlinger , Mag. Corinna Scharzenberger , Kira Grünberg , Petra Bayr, MA MLS , Mag. Dr. Petra Oberrauner , Mag. Dr. Martin Graf und Mag. Julia Seidl ."
@@ -105,7 +120,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.520"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -116,7 +133,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "6.520",
+                  "timeEnd": "7.600"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -127,7 +146,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "7.600",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -138,7 +159,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "8.280",
+                  "timeEnd": "8.600"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -149,7 +172,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortungen: 12796/AB und 12797/AB"
+                  "text": "1. Anfragebeantwortungen: 12796/AB und 12797/AB",
+                  "timeStart": "8.600",
+                  "timeEnd": "9.360"
                 }
               ],
               "text": "1. Anfragebeantwortungen: 12796/AB und 12797/AB"
@@ -160,7 +185,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Regierungsvorlagen:"
+                  "text": "2. Regierungsvorlagen:",
+                  "timeStart": "9.360",
+                  "timeEnd": "10.680"
                 }
               ],
               "text": "2. Regierungsvorlagen:"
@@ -171,7 +198,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Fundrechts-Novelle 2023 – FundR-Nov 2023) ( 1920 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Fundrechts-Novelle 2023 – FundR-Nov 2023) ( 1920 d.B. )",
+                  "timeStart": "10.680",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Fundrechts-Novelle 2023 – FundR-Nov 2023) ( 1920 d.B. )"
@@ -182,7 +211,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "13.800",
+                  "timeEnd": "14.240"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -193,7 +224,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "14.240",
+                  "timeEnd": "14.880"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -204,7 +237,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "14.880",
+                  "timeEnd": "15.680"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -215,7 +250,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Abschaffung der Aliquotierung der ersten Anpassung ( 3091/A(E) )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Abschaffung der Aliquotierung der ersten Anpassung ( 3091/A(E) )",
+                  "timeStart": "15.680",
+                  "timeEnd": "19.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Abschaffung der Aliquotierung der ersten Anpassung ( 3091/A(E) )"
@@ -226,7 +263,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Schutzklausel bei der Aufwertung der Pensionskontogutschriften ( 3092/A(E) )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Schutzklausel bei der Aufwertung der Pensionskontogutschriften ( 3092/A(E) )",
+                  "timeStart": "19.000",
+                  "timeEnd": "21.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Schutzklausel bei der Aufwertung der Pensionskontogutschriften ( 3092/A(E) )"
@@ -237,7 +276,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend keine Abschaffung der geblockten Altersteilzeit ( 3093/A(E) )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend keine Abschaffung der geblockten Altersteilzeit ( 3093/A(E) )",
+                  "timeStart": "21.480",
+                  "timeEnd": "24.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend keine Abschaffung der geblockten Altersteilzeit ( 3093/A(E) )"
@@ -248,7 +289,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "24.160",
+                  "timeEnd": "24.640"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -259,16 +302,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl."
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl.",
+                  "timeStart": "24.640",
+                  "timeEnd": "27.280"
                 },
                 {
-                  "text": "Nr. 1/1930 idF BGBl."
+                  "text": "Nr. 1/1930 idF BGBl.",
+                  "timeStart": "27.280",
+                  "timeEnd": "28.400"
                 },
                 {
-                  "text": "I Nr. 194/1999, zuletzt geändert mit BGBl."
+                  "text": "I Nr. 194/1999, zuletzt geändert mit BGBl.",
+                  "timeStart": "28.400",
+                  "timeEnd": "28.840"
                 },
                 {
-                  "text": "I Nr. 222/2022, geändert wird ( 3101/A )"
+                  "text": "I Nr. 222/2022, geändert wird ( 3101/A )",
+                  "timeStart": "28.840",
+                  "timeEnd": "32.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl. Nr. 1/1930 idF BGBl. I Nr. 194/1999, zuletzt geändert mit BGBl. I Nr. 222/2022, geändert wird ( 3101/A )"
@@ -279,7 +330,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Bauten und Wohnen:"
+                  "text": "Ausschuss für Bauten und Wohnen:",
+                  "timeStart": "32.400",
+                  "timeEnd": "32.520"
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -290,7 +343,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Maklergesetz geändert wird (Maklergesetz-Änderungsgesetz – MaklerG-ÄG) ( 1900 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Maklergesetz geändert wird (Maklergesetz-Änderungsgesetz – MaklerG-ÄG) ( 1900 d.B. )",
+                  "timeStart": "32.520",
+                  "timeEnd": "33.880"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Maklergesetz geändert wird (Maklergesetz-Änderungsgesetz – MaklerG-ÄG) ( 1900 d.B. )"
@@ -301,10 +356,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "33.880",
+                  "timeEnd": "33.880"
                 },
                 {
-                  "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz und das Richtwertgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz) ( 3090/A )"
+                  "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz und das Richtwertgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz) ( 3090/A )",
+                  "timeStart": "33.880",
+                  "timeEnd": "35.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz und das Richtwertgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz) ( 3090/A )"
@@ -315,7 +374,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Wiedereinführung der Wohnbauinvestitionsbank (WBIB) ( 3094/A(E) )"
+                  "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Wiedereinführung der Wohnbauinvestitionsbank (WBIB) ( 3094/A(E) )",
+                  "timeStart": "35.080",
+                  "timeEnd": "36.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Wiedereinführung der Wohnbauinvestitionsbank (WBIB) ( 3094/A(E) )"
@@ -326,10 +387,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Johann Singer , Mag."
+                  "text": "Antrag der Abgeordneten Johann Singer , Mag.",
+                  "timeStart": "36.160",
+                  "timeEnd": "36.720"
                 },
                 {
-                  "text": "Nina Tomaselli , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Heiz- und Kältekostenabrechnungsgesetz geändert wird ( 3095/A )"
+                  "text": "Nina Tomaselli , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Heiz- und Kältekostenabrechnungsgesetz geändert wird ( 3095/A )",
+                  "timeStart": "36.720",
+                  "timeEnd": "38.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Johann Singer , Mag. Nina Tomaselli , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Heiz- und Kältekostenabrechnungsgesetz geändert wird ( 3095/A )"
@@ -340,10 +405,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "38.440",
+                  "timeEnd": "39.520"
                 },
                 {
-                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Keine Anlegerwohnungen bei Wohnungsgenossenschaften ( 3097/A(E) )"
+                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Keine Anlegerwohnungen bei Wohnungsgenossenschaften ( 3097/A(E) )",
+                  "timeStart": "39.520",
+                  "timeEnd": "40.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Keine Anlegerwohnungen bei Wohnungsgenossenschaften ( 3097/A(E) )"
@@ -354,7 +423,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "40.280",
+                  "timeEnd": "40.280"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -365,10 +436,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "40.280",
+                  "timeEnd": "40.600"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3089/A )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3089/A )",
+                  "timeStart": "40.600",
+                  "timeEnd": "42.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3089/A )"
@@ -379,7 +454,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3104/A )"
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3104/A )",
+                  "timeStart": "42.040",
+                  "timeEnd": "43.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3104/A )"
@@ -390,7 +467,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "43.920",
+                  "timeEnd": "44.120"
                 }
               ],
               "text": "Justizausschuss:"
@@ -401,7 +480,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Maßnahmen gegen Pädophilie und Kinderpornographie ( 3105/A(E) )"
+                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Maßnahmen gegen Pädophilie und Kinderpornographie ( 3105/A(E) )",
+                  "timeStart": "44.120",
+                  "timeEnd": "44.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Maßnahmen gegen Pädophilie und Kinderpornographie ( 3105/A(E) )"
@@ -412,7 +493,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "44.280",
+                  "timeEnd": "44.720"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -423,7 +506,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Zuleitung eines Berichts über die verschiedenen Möglichkeiten zur Sicherstellung einer langfristigen Finanzierung des Vereins für Konsumenteninformation bis zum 31.3.2023 ( 3099/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Zuleitung eines Berichts über die verschiedenen Möglichkeiten zur Sicherstellung einer langfristigen Finanzierung des Vereins für Konsumenteninformation bis zum 31.3.2023 ( 3099/A(E) )",
+                  "timeStart": "44.720",
+                  "timeEnd": "48.240"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Zuleitung eines Berichts über die verschiedenen Möglichkeiten zur Sicherstellung einer langfristigen Finanzierung des Vereins für Konsumenteninformation bis zum 31.3.2023 ( 3099/A(E) )"
@@ -434,7 +519,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Herkunftskennzeichnung von importierten Honigmischungen ( 3100/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Herkunftskennzeichnung von importierten Honigmischungen ( 3100/A(E) )",
+                  "timeStart": "48.240",
+                  "timeEnd": "48.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Herkunftskennzeichnung von importierten Honigmischungen ( 3100/A(E) )"
@@ -445,7 +532,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "48.600",
+                  "timeEnd": "48.720"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -456,7 +545,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Ausloten des Synergiepotentials durch die Verringerung der Anzahl an Förderstellen im Bereich der Filmförderung ( 3098/A(E) )"
+                  "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Ausloten des Synergiepotentials durch die Verringerung der Anzahl an Förderstellen im Bereich der Filmförderung ( 3098/A(E) )",
+                  "timeStart": "48.720",
+                  "timeEnd": "50.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Ausloten des Synergiepotentials durch die Verringerung der Anzahl an Förderstellen im Bereich der Filmförderung ( 3098/A(E) )"
@@ -467,7 +558,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Tourismusausschuss:"
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "50.320",
+                  "timeEnd": "50.600"
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -478,10 +571,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "50.600",
+                  "timeEnd": "51.240"
                 },
                 {
-                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Kulanzlösung und Entschädigung für alle im Zeitraum 17. bis 25. März 2020 nach dem Epidemiegesetz zwangsgeschlossene Gastronomiebetriebe ( 3102/A(E) )"
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Kulanzlösung und Entschädigung für alle im Zeitraum 17. bis 25. März 2020 nach dem Epidemiegesetz zwangsgeschlossene Gastronomiebetriebe ( 3102/A(E) )",
+                  "timeStart": "51.240",
+                  "timeEnd": "54.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Kulanzlösung und Entschädigung für alle im Zeitraum 17. bis 25. März 2020 nach dem Epidemiegesetz zwangsgeschlossene Gastronomiebetriebe ( 3102/A(E) )"
@@ -492,7 +589,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "54.160",
+                  "timeEnd": "54.400"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -503,7 +602,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Umweltverträglichkeitsprüfungsgesetz 2000 geändert wird ( 1901 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Umweltverträglichkeitsprüfungsgesetz 2000 geändert wird ( 1901 d.B. )",
+                  "timeStart": "54.400",
+                  "timeEnd": "56.360"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Umweltverträglichkeitsprüfungsgesetz 2000 geändert wird ( 1901 d.B. )"
@@ -514,7 +615,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "56.360",
+                  "timeEnd": "56.440"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -525,16 +628,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl."
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl.",
+                  "timeStart": "56.440",
+                  "timeEnd": "58.760"
                 },
                 {
-                  "text": "Nr. 1/1930 idF BGBl."
+                  "text": "Nr. 1/1930 idF BGBl.",
+                  "timeStart": "58.760",
+                  "timeEnd": "59.360"
                 },
                 {
-                  "text": "I Nr. 194/1999, zuletzt geändert mit BGBl."
+                  "text": "I Nr. 194/1999, zuletzt geändert mit BGBl.",
+                  "timeStart": "59.360",
+                  "timeEnd": "59.920"
                 },
                 {
-                  "text": "I Nr. 222/2022, geändert wird ( 3103/A )"
+                  "text": "I Nr. 222/2022, geändert wird ( 3103/A )",
+                  "timeStart": "59.920",
+                  "timeEnd": "61.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl. Nr. 1/1930 idF BGBl. I Nr. 194/1999, zuletzt geändert mit BGBl. I Nr. 222/2022, geändert wird ( 3103/A )"
@@ -545,7 +656,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "61.400",
+                  "timeEnd": "62.040"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -556,7 +669,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umgehende Verlängerung der Schwellenwerteverordnung 2018 für das Jahr 2023 ( 3096/A(E) )"
+                  "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umgehende Verlängerung der Schwellenwerteverordnung 2018 für das Jahr 2023 ( 3096/A(E) )",
+                  "timeStart": "62.040",
+                  "timeEnd": "65.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umgehende Verlängerung der Schwellenwerteverordnung 2018 für das Jahr 2023 ( 3096/A(E) )"
@@ -567,7 +682,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich weise den Antrag 3106/A dem Ausschuss für Wirtschaft, Industrie und Energie zu."
+                  "text": "Ich weise den Antrag 3106/A dem Ausschuss für Wirtschaft, Industrie und Energie zu.",
+                  "timeStart": "65.000",
+                  "timeEnd": "66.680"
                 }
               ],
               "text": "Ich weise den Antrag 3106/A dem Ausschuss für Wirtschaft, Industrie und Energie zu."
@@ -578,7 +695,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "66.680",
+                  "timeEnd": "67.080"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -589,10 +708,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich teile mit, dass Abgeordneter Mag."
+                  "text": "Ich teile mit, dass Abgeordneter Mag.",
+                  "timeStart": "67.080",
+                  "timeEnd": "67.720"
                 },
                 {
-                  "text": "Gerald Loacker beantragt hat, dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen."
+                  "text": "Gerald Loacker beantragt hat, dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen.",
+                  "timeStart": "67.720",
+                  "timeEnd": "71.320"
                 }
               ],
               "text": "Ich teile mit, dass Abgeordneter Mag. Gerald Loacker beantragt hat, dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen."
@@ -603,7 +726,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass die Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen."
+                  "text": "Weiters teile ich mit, dass die Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen.",
+                  "timeStart": "71.320",
+                  "timeEnd": "77.080"
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen."
@@ -614,10 +739,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ferner hat Abgeordneter Mag."
+                  "text": "Ferner hat Abgeordneter Mag.",
+                  "timeStart": "77.080",
+                  "timeEnd": "77.440"
                 },
                 {
-                  "text": "Philipp Schrangl beantragt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen."
+                  "text": "Philipp Schrangl beantragt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen.",
+                  "timeStart": "77.440",
+                  "timeEnd": "79.600"
                 }
               ],
               "text": "Ferner hat Abgeordneter Mag. Philipp Schrangl beantragt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen."
@@ -628,7 +757,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden."
+                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden.",
+                  "timeStart": "79.600",
+                  "timeEnd": "80.000"
                 }
               ],
               "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden."
@@ -640,7 +771,8 @@
         "mediaIndex": 1,
         "stdId": 288086,
         "debatteId": 300,
-        "proceedingIndex": 288086
+        "proceedingIndex": 288086,
+        "alignDuration": 0.9427621364593506
       },
       "originalLanguage": "de"
     },
@@ -668,7 +800,8 @@
         "originMediaID": "288191",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6545366d-b461-4fa6-bef5-31b3642a9c7f/6545366d-b461-4fa6-bef5-31b3642a9c7f.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6545366d-b461-4fa6-bef5-31b3642a9c7f/6545366d-b461-4fa6-bef5-31b3642a9c7f.mp3",
-        "duration": 81
+        "duration": 81,
+        "aligned": true
       },
       "dateStart": "2023-01-25T15:55:06",
       "dateEnd": "2023-01-25T15:56:27",
@@ -700,7 +833,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.200"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -711,10 +846,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen nunmehr zur Abstimmung über den Antrag des Abgeordneten Mag."
+                  "text": "Wir kommen nunmehr zur Abstimmung über den Antrag des Abgeordneten Mag.",
+                  "timeStart": "3.200",
+                  "timeEnd": "6.320"
                 },
                 {
-                  "text": "Gerald Loacker , dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen."
+                  "text": "Gerald Loacker , dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen.",
+                  "timeStart": "6.320",
+                  "timeEnd": "14.700"
                 }
               ],
               "text": "Wir kommen nunmehr zur Abstimmung über den Antrag des Abgeordneten Mag. Gerald Loacker , dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen."
@@ -725,10 +864,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer diesen Fristsetzungsantrag unterstützt, möge ein Zeichen der Zustimmung geben. –"
+                  "text": "Wer diesen Fristsetzungsantrag unterstützt, möge ein Zeichen der Zustimmung geben. –",
+                  "timeStart": "14.700",
+                  "timeEnd": "19.380"
                 },
                 {
-                  "text": "Das ist die Minderheit, der Antrag ist abgelehnt."
+                  "text": "Das ist die Minderheit, der Antrag ist abgelehnt.",
+                  "timeStart": "19.380",
+                  "timeEnd": "22.700"
                 }
               ],
               "text": "Wer diesen Fristsetzungsantrag unterstützt, möge ein Zeichen der Zustimmung geben. – Das ist die Minderheit, der Antrag ist abgelehnt."
@@ -739,7 +882,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen schließlich zur Abstimmung über den Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen."
+                  "text": "Wir kommen schließlich zur Abstimmung über den Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen.",
+                  "timeStart": "22.700",
+                  "timeEnd": "37.100"
                 }
               ],
               "text": "Wir kommen schließlich zur Abstimmung über den Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen."
@@ -750,10 +895,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "37.100",
+                  "timeEnd": "42.460"
                 },
                 {
-                  "text": "Das ist die Minderheit, der Antrag ist abgelehnt."
+                  "text": "Das ist die Minderheit, der Antrag ist abgelehnt.",
+                  "timeStart": "42.460",
+                  "timeEnd": "45.740"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Minderheit, der Antrag ist abgelehnt."
@@ -764,10 +913,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag."
+                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag.",
+                  "timeStart": "45.740",
+                  "timeEnd": "48.840"
                 },
                 {
-                  "text": "Philipp Schrangl , Kolleginnen und Kollegen, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen."
+                  "text": "Philipp Schrangl , Kolleginnen und Kollegen, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen.",
+                  "timeStart": "48.840",
+                  "timeEnd": "60.680"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen."
@@ -778,10 +931,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "60.680",
+                  "timeEnd": "65.260"
                 },
                 {
-                  "text": "Das ist die Minderheit, der Antrag ist abgelehnt."
+                  "text": "Das ist die Minderheit, der Antrag ist abgelehnt.",
+                  "timeStart": "65.260",
+                  "timeEnd": "67.940"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Minderheit, der Antrag ist abgelehnt."
@@ -792,7 +949,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 31. Jänner 2023, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 31. Jänner 2023, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "67.940",
+                  "timeEnd": "78.720"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 31. Jänner 2023, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -803,7 +962,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "78.720",
+                  "timeEnd": "80.000"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -815,7 +976,8 @@
         "mediaIndex": 2,
         "stdId": 288191,
         "debatteId": 310,
-        "proceedingIndex": 288191
+        "proceedingIndex": 288191,
+        "alignDuration": 0.45166897773742676
       },
       "originalLanguage": "de"
     }

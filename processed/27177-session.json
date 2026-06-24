@@ -4,11 +4,11 @@
     "session": "27177",
     "dateStart": "2022-10-04T14:06:22",
     "dateEnd": "2022-10-04T14:08:19",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:01+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-23T07:12:33",
     "processing": {
       "merge": "2026-06-16T04:24:01+00:00",
-      "nel": "2026-06-16T06:24:24"
+      "align": "2026-06-23T07:12:33"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "278116",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/8285c68b-e4d0-4c13-9d67-7c8da95c7caf/8285c68b-e4d0-4c13-9d67-7c8da95c7caf.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/8285c68b-e4d0-4c13-9d67-7c8da95c7caf/8285c68b-e4d0-4c13-9d67-7c8da95c7caf.mp3",
-        "duration": 84
+        "duration": 84,
+        "aligned": true
       },
       "dateStart": "2022-10-04T14:06:22",
       "dateEnd": "2022-10-04T14:07:46",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die 177. Sitzung des Nationalrates ist eröffnet."
+                  "text": "Die 177. Sitzung des Nationalrates ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.680"
                 }
               ],
               "text": "Die 177. Sitzung des Nationalrates ist eröffnet."
@@ -79,28 +82,44 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "3.680",
+                  "timeEnd": "5.640"
                 },
                 {
-                  "text": "Klaus Fürlinger , Tanja Graf , Mag."
+                  "text": "Klaus Fürlinger , Tanja Graf , Mag.",
+                  "timeStart": "5.640",
+                  "timeEnd": "7.920"
                 },
                 {
-                  "text": "Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , MMag."
+                  "text": "Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , MMag.",
+                  "timeStart": "7.920",
+                  "timeEnd": "10.920"
                 },
                 {
-                  "text": "Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag."
+                  "text": "Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag.",
+                  "timeStart": "10.920",
+                  "timeEnd": "12.880"
                 },
                 {
-                  "text": "Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag."
+                  "text": "Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag.",
+                  "timeStart": "12.880",
+                  "timeEnd": "17.160"
                 },
                 {
-                  "text": "Selma Yildirim , Dr. Reinhard Eugen Bösch , Ing. Mag."
+                  "text": "Selma Yildirim , Dr. Reinhard Eugen Bösch , Ing. Mag.",
+                  "timeStart": "17.160",
+                  "timeEnd": "19.160"
                 },
                 {
-                  "text": "Volker Reifenberger , Michael Schnedlitz , Mag."
+                  "text": "Volker Reifenberger , Michael Schnedlitz , Mag.",
+                  "timeStart": "19.160",
+                  "timeEnd": "20.240"
                 },
                 {
-                  "text": "Philipp Schrangl , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer und Douglas Hoyos-Trauttmansdorff ."
+                  "text": "Philipp Schrangl , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer und Douglas Hoyos-Trauttmansdorff .",
+                  "timeStart": "20.240",
+                  "timeEnd": "24.120"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Tanja Graf , Mag. Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , MMag. Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag. Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag. Selma Yildirim , Dr. Reinhard Eugen Bösch , Ing. Mag. Volker Reifenberger , Michael Schnedlitz , Mag. Philipp Schrangl , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer und Douglas Hoyos-Trauttmansdorff ."
@@ -111,7 +130,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisung"
+                  "text": "Einlauf und Zuweisung",
+                  "timeStart": "24.120",
+                  "timeEnd": "25.160"
                 }
               ],
               "text": "Einlauf und Zuweisung"
@@ -122,7 +143,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "25.160",
+                  "timeEnd": "30.560"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -133,7 +156,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "30.560",
+                  "timeEnd": "31.400"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -144,7 +169,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "31.400",
+                  "timeEnd": "32.320"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -155,7 +182,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 11674/AB bis 11680/AB"
+                  "text": "Anfragebeantwortungen: 11674/AB bis 11680/AB",
+                  "timeStart": "32.320",
+                  "timeEnd": "35.160"
                 }
               ],
               "text": "Anfragebeantwortungen: 11674/AB bis 11680/AB"
@@ -166,7 +195,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "35.160",
+                  "timeEnd": "35.760"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -177,7 +208,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "35.760",
+                  "timeEnd": "36.200"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -188,7 +221,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "36.200",
+                  "timeEnd": "36.800"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -199,10 +234,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMMag."
+                  "text": "Antrag der Abgeordneten MMMag.",
+                  "timeStart": "36.800",
+                  "timeEnd": "37.800"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Intensivierung der bilateralen Gespräche mit der Regierung der Republik Serbien zur Unterbindung illegaler Migrationsströme ( 2841/A(E) )"
+                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Intensivierung der bilateralen Gespräche mit der Regierung der Republik Serbien zur Unterbindung illegaler Migrationsströme ( 2841/A(E) )",
+                  "timeStart": "37.800",
+                  "timeEnd": "43.880"
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Intensivierung der bilateralen Gespräche mit der Regierung der Republik Serbien zur Unterbindung illegaler Migrationsströme ( 2841/A(E) )"
@@ -213,7 +252,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristerstreckungsantrag"
+                  "text": "Fristerstreckungsantrag",
+                  "timeStart": "43.880",
+                  "timeEnd": "45.080"
                 }
               ],
               "text": "Fristerstreckungsantrag"
@@ -224,10 +265,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass die Abgeordneten Nico Marchetti und Mag."
+                  "text": "Weiters teile ich mit, dass die Abgeordneten Nico Marchetti und Mag.",
+                  "timeStart": "45.080",
+                  "timeEnd": "46.760"
                 },
                 {
-                  "text": "Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 22. Oktober 2022 zu erstrecken."
+                  "text": "Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 22. Oktober 2022 zu erstrecken.",
+                  "timeStart": "52.480",
+                  "timeEnd": "56.480"
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Nico Marchetti und Mag. Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 22. Oktober 2022 zu erstrecken."
@@ -238,22 +283,34 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht. ("
+                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht. (",
+                  "timeStart": "56.480",
+                  "timeEnd": "57.280"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "57.280",
+                  "timeEnd": "57.320"
                 },
                 {
-                  "text": "Wöginger: Nein, nicht 22. Oktober!) –"
+                  "text": "Wöginger: Nein, nicht 22. Oktober!) –",
+                  "timeStart": "57.320",
+                  "timeEnd": "59.360"
                 },
                 {
-                  "text": "Habe ich 22. gesagt? ("
+                  "text": "Habe ich 22. gesagt? (",
+                  "timeStart": "59.360",
+                  "timeEnd": "61.080"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "61.080",
+                  "timeEnd": "61.080"
                 },
                 {
-                  "text": "Wöginger: Ja!)"
+                  "text": "Wöginger: Ja!)",
+                  "timeStart": "61.080",
+                  "timeEnd": "62.760"
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht. (Abg. Wöginger: Nein, nicht 22. Oktober!) – Habe ich 22. gesagt? (Abg. Wöginger: Ja!)"
@@ -264,7 +321,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich korrigiere: Gemeint ist der 12. Oktober – nicht, dass es da zu einem Irrtum kommt."
+                  "text": "Ich korrigiere: Gemeint ist der 12. Oktober – nicht, dass es da zu einem Irrtum kommt.",
+                  "timeStart": "62.760",
+                  "timeEnd": "64.640"
                 }
               ],
               "text": "Ich korrigiere: Gemeint ist der 12. Oktober – nicht, dass es da zu einem Irrtum kommt."
@@ -275,10 +334,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich wiederhole noch einmal: Ich teile mit, dass die Abgeordneten Nico Marchetti und Mag."
+                  "text": "Ich wiederhole noch einmal: Ich teile mit, dass die Abgeordneten Nico Marchetti und Mag.",
+                  "timeStart": "64.640",
+                  "timeEnd": "66.960"
                 },
                 {
-                  "text": "Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken."
+                  "text": "Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken.",
+                  "timeStart": "66.960",
+                  "timeEnd": "79.140"
                 }
               ],
               "text": "Ich wiederhole noch einmal: Ich teile mit, dass die Abgeordneten Nico Marchetti und Mag. Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken."
@@ -289,7 +352,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "79.140",
+                  "timeEnd": "81.920"
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -301,7 +366,8 @@
         "mediaIndex": 1,
         "stdId": 278116,
         "debatteId": 300,
-        "proceedingIndex": 278116
+        "proceedingIndex": 278116,
+        "alignDuration": 0.6911742687225342
       },
       "originalLanguage": "de"
     },
@@ -329,7 +395,8 @@
         "originMediaID": "278125",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/a9effbeb-8567-4098-b064-bb44732503a4/a9effbeb-8567-4098-b064-bb44732503a4.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/a9effbeb-8567-4098-b064-bb44732503a4/a9effbeb-8567-4098-b064-bb44732503a4.mp3",
-        "duration": 33
+        "duration": 33,
+        "aligned": true
       },
       "dateStart": "2022-10-04T14:07:46",
       "dateEnd": "2022-10-04T14:08:19",
@@ -361,7 +428,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über einen Fristerstreckungsantrag"
+                  "text": "Abstimmung über einen Fristerstreckungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.440"
                 }
               ],
               "text": "Abstimmung über einen Fristerstreckungsantrag"
@@ -372,10 +441,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Nico Marchetti und Mag."
+                  "text": "Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Nico Marchetti und Mag.",
+                  "timeStart": "1.440",
+                  "timeEnd": "3.680"
                 },
                 {
-                  "text": "Sibylle Hamann , dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken."
+                  "text": "Sibylle Hamann , dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken.",
+                  "timeStart": "3.680",
+                  "timeEnd": "13.560"
                 }
               ],
               "text": "Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Nico Marchetti und Mag. Sibylle Hamann , dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken."
@@ -386,10 +459,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristerstreckungsantrag sind, um ein Zeichen der Zustimmung. –"
+                  "text": "Ich bitte jene Damen und Herren, die für diesen Fristerstreckungsantrag sind, um ein Zeichen der Zustimmung. –",
+                  "timeStart": "13.560",
+                  "timeEnd": "18.820"
                 },
                 {
-                  "text": "Das ist die Mehrheit, der Antrag ist angenommen."
+                  "text": "Das ist die Mehrheit, der Antrag ist angenommen.",
+                  "timeStart": "18.820",
+                  "timeEnd": "21.720"
                 }
               ],
               "text": "Ich bitte jene Damen und Herren, die für diesen Fristerstreckungsantrag sind, um ein Zeichen der Zustimmung. – Das ist die Mehrheit, der Antrag ist angenommen."
@@ -400,7 +477,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Oktober 2022, 10 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Oktober 2022, 10 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "21.720",
+                  "timeEnd": "31.360"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Oktober 2022, 10 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -411,7 +490,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "31.360",
+                  "timeEnd": "33.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -423,7 +504,8 @@
         "mediaIndex": 2,
         "stdId": 278125,
         "debatteId": 310,
-        "proceedingIndex": 278125
+        "proceedingIndex": 278125,
+        "alignDuration": 0.34178781509399414
       },
       "originalLanguage": "de"
     }

@@ -4,11 +4,11 @@
     "session": "27173",
     "dateStart": "2022-09-21T21:45:35",
     "dateEnd": "2022-09-21T21:46:11",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:00+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-23T05:44:15",
     "processing": {
       "merge": "2026-06-16T04:24:00+00:00",
-      "nel": "2026-06-16T06:24:24"
+      "align": "2026-06-23T05:44:15"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "276909",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/5a6d59d9-5a53-425e-87bb-7e72180dc78d/5a6d59d9-5a53-425e-87bb-7e72180dc78d.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/5a6d59d9-5a53-425e-87bb-7e72180dc78d/5a6d59d9-5a53-425e-87bb-7e72180dc78d.mp3",
-        "duration": 36
+        "duration": 36,
+        "aligned": true
       },
       "dateStart": "2022-09-21T21:45:35",
       "dateEnd": "2022-09-21T21:46:11",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 173. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 173. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.720"
                 }
               ],
               "text": "Ich eröffne die 173. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "2.720",
+                  "timeEnd": "3.720"
                 },
                 {
-                  "text": "Bettina Rausch , Johann Singer , Mag."
+                  "text": "Bettina Rausch , Johann Singer , Mag.",
+                  "timeStart": "3.720",
+                  "timeEnd": "4.040"
                 },
                 {
-                  "text": "Ruth Becher , Cornelia Ecker , Mag."
+                  "text": "Ruth Becher , Cornelia Ecker , Mag.",
+                  "timeStart": "4.040",
+                  "timeEnd": "4.520"
                 },
                 {
-                  "text": "Karin Greiner , Gabriele Heinisch-Hosek , Katharina Kucharowits , Rosa Ecker, MBA , Edith Mühlberghuber und Dr. Helmut Brandstätter ."
+                  "text": "Karin Greiner , Gabriele Heinisch-Hosek , Katharina Kucharowits , Rosa Ecker, MBA , Edith Mühlberghuber und Dr. Helmut Brandstätter .",
+                  "timeStart": "4.520",
+                  "timeEnd": "8.120"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Bettina Rausch , Johann Singer , Mag. Ruth Becher , Cornelia Ecker , Mag. Karin Greiner , Gabriele Heinisch-Hosek , Katharina Kucharowits , Rosa Ecker, MBA , Edith Mühlberghuber und Dr. Helmut Brandstätter ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "8.120",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "8.280",
+                  "timeEnd": "12.360"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "12.360",
+                  "timeEnd": "12.960"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "12.960",
+                  "timeEnd": "13.000"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "13.000",
+                  "timeEnd": "14.080"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "14.080",
+                  "timeEnd": "15.040"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Maschinen – Inverkehrbringungs- und NotifizierungsG (MING), das Elektrotechnikgesetz 1992 – ETG 1992, das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG und die Gewerbeordnung 1994 – GewO 1994 geändert werden ( 1673 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Maschinen – Inverkehrbringungs- und NotifizierungsG (MING), das Elektrotechnikgesetz 1992 – ETG 1992, das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG und die Gewerbeordnung 1994 – GewO 1994 geändert werden ( 1673 d.B. )",
+                  "timeStart": "15.040",
+                  "timeEnd": "27.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Maschinen – Inverkehrbringungs- und NotifizierungsG (MING), das Elektrotechnikgesetz 1992 – ETG 1992, das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG und die Gewerbeordnung 1994 – GewO 1994 geändert werden ( 1673 d.B. )"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994 geändert wird ( 1674 d.B. )"
+                  "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994 geändert wird ( 1674 d.B. )",
+                  "timeStart": "27.640",
+                  "timeEnd": "29.120"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994 geändert wird ( 1674 d.B. )"
@@ -187,7 +214,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Maß- und Eichgesetz geändert wird ( 1675 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Maß- und Eichgesetz geändert wird ( 1675 d.B. )",
+                  "timeStart": "29.120",
+                  "timeEnd": "30.560"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Maß- und Eichgesetz geändert wird ( 1675 d.B. )"
@@ -198,7 +227,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Oktober 2022, 10 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Oktober 2022, 10 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "30.560",
+                  "timeEnd": "32.480"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 12. Oktober 2022, 10 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich wünsche eine gute Nacht, und kommen Sie gut nach Hause!"
+                  "text": "Ich wünsche eine gute Nacht, und kommen Sie gut nach Hause!",
+                  "timeStart": "32.480",
+                  "timeEnd": "34.880"
                 }
               ],
               "text": "Ich wünsche eine gute Nacht, und kommen Sie gut nach Hause!"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen ."
+                  "text": "Die Sitzung ist geschlossen .",
+                  "timeStart": "34.880",
+                  "timeEnd": "35.320"
                 }
               ],
               "text": "Die Sitzung ist geschlossen ."
@@ -232,7 +267,8 @@
         "mediaIndex": 1,
         "stdId": 276909,
         "debatteId": 300,
-        "proceedingIndex": 276909
+        "proceedingIndex": 276909,
+        "alignDuration": 0.5493669509887695
       },
       "originalLanguage": "de"
     }
