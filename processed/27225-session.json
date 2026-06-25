@@ -4,11 +4,11 @@
     "session": "27225",
     "dateStart": "2023-07-06T23:26:59",
     "dateEnd": "2023-07-06T23:27:39",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:08+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-25T10:26:08",
     "processing": {
       "merge": "2026-06-16T04:24:08+00:00",
-      "nel": "2026-06-16T06:24:26"
+      "align": "2026-06-25T10:26:08"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "301736",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/95db1ae2-507c-440a-97b4-c6ae14247dbd/95db1ae2-507c-440a-97b4-c6ae14247dbd.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/95db1ae2-507c-440a-97b4-c6ae14247dbd/95db1ae2-507c-440a-97b4-c6ae14247dbd.mp3",
-        "duration": 40
+        "duration": 40,
+        "aligned": true
       },
       "dateStart": "2023-07-06T23:26:59",
       "dateEnd": "2023-07-06T23:27:39",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 225. Sitzung."
+                  "text": "Ich eröffne die 225. Sitzung.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.840"
                 }
               ],
               "text": "Ich eröffne die 225. Sitzung."
@@ -79,10 +82,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Für die heutige Sitzung als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Ing. Mag. ("
+                  "text": "Für die heutige Sitzung als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Ing. Mag. (",
+                  "timeStart": "1.840",
+                  "timeEnd": "2.640"
                 },
                 {
-                  "text": "FH) Alexandra Tanda , Michael Schnedlitz und Heike Grebien ."
+                  "text": "FH) Alexandra Tanda , Michael Schnedlitz und Heike Grebien .",
+                  "timeStart": "2.640",
+                  "timeEnd": "3.880"
                 }
               ],
               "text": "Für die heutige Sitzung als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Ing. Mag. (FH) Alexandra Tanda , Michael Schnedlitz und Heike Grebien ."
@@ -93,7 +100,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "3.880",
+                  "timeEnd": "4.400"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -104,7 +113,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen.",
+                  "timeStart": "4.400",
+                  "timeEnd": "6.680"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen."
@@ -115,7 +126,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "6.680",
+                  "timeEnd": "7.120"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -126,7 +139,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.320"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -137,7 +152,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "7.320",
+                  "timeEnd": "7.800"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -148,7 +165,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "7.800",
+                  "timeEnd": "8.680"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -159,7 +178,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Aussetzung des EU-Beitrages Österreichs ( 3511/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Aussetzung des EU-Beitrages Österreichs ( 3511/A(E) )",
+                  "timeStart": "8.680",
+                  "timeEnd": "11.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Aussetzung des EU-Beitrages Österreichs ( 3511/A(E) )"
@@ -170,7 +191,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "11.920",
+                  "timeEnd": "12.080"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -181,10 +204,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "12.080",
+                  "timeEnd": "13.000"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Zahlungsbilanzstabilisierungsgesetz geändert wird ( 3520/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Zahlungsbilanzstabilisierungsgesetz geändert wird ( 3520/A )",
+                  "timeStart": "13.000",
+                  "timeEnd": "15.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Zahlungsbilanzstabilisierungsgesetz geändert wird ( 3520/A )"
@@ -195,10 +222,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "15.800",
+                  "timeEnd": "17.360"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Förderungsprüfungsgesetz geändert wird ( 3521/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Förderungsprüfungsgesetz geändert wird ( 3521/A )",
+                  "timeStart": "17.360",
+                  "timeEnd": "21.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Förderungsprüfungsgesetz geändert wird ( 3521/A )"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "21.080",
+                  "timeEnd": "21.240"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -220,10 +253,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "21.240",
+                  "timeEnd": "21.480"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verdoppelung des amtlichen Kilometergeldes ( 3512/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verdoppelung des amtlichen Kilometergeldes ( 3512/A(E) )",
+                  "timeStart": "21.480",
+                  "timeEnd": "23.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Verdoppelung des amtlichen Kilometergeldes ( 3512/A(E) )"
@@ -234,10 +271,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "23.160",
+                  "timeEnd": "23.160"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Erhöhungs-Stopp bei Gemeindegebühren – Mehr Geld für die Gemeinden durch den Finanzausgleich NEU ( 3513/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Erhöhungs-Stopp bei Gemeindegebühren – Mehr Geld für die Gemeinden durch den Finanzausgleich NEU ( 3513/A(E) )",
+                  "timeStart": "23.160",
+                  "timeEnd": "24.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Erhöhungs-Stopp bei Gemeindegebühren – Mehr Geld für die Gemeinden durch den Finanzausgleich NEU ( 3513/A(E) )"
@@ -248,10 +289,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "24.280",
+                  "timeEnd": "24.320"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Beibehaltung des erhöhten Pendlerpauschales ( 3514/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Beibehaltung des erhöhten Pendlerpauschales ( 3514/A(E) )",
+                  "timeStart": "24.320",
+                  "timeEnd": "26.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Beibehaltung des erhöhten Pendlerpauschales ( 3514/A(E) )"
@@ -262,7 +307,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "26.120",
+                  "timeEnd": "26.600"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -273,10 +320,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "26.600",
+                  "timeEnd": "26.640"
                 },
                 {
-                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbesserung der rechtlichen Ansprüche und Hebammenbetreuung bei Schwangerschaftsverlust ( 3515/A(E) )"
+                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbesserung der rechtlichen Ansprüche und Hebammenbetreuung bei Schwangerschaftsverlust ( 3515/A(E) )",
+                  "timeStart": "26.640",
+                  "timeEnd": "29.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbesserung der rechtlichen Ansprüche und Hebammenbetreuung bei Schwangerschaftsverlust ( 3515/A(E) )"
@@ -287,10 +338,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.800",
+                  "timeEnd": "31.000"
                 },
                 {
-                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Zusätzliche Kassenvertragsstellen für Einzel- und Gruppenpraxen im Zuge der aktuellen Reform der Primärversorgungszentren ( 3518/A(E) )"
+                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Zusätzliche Kassenvertragsstellen für Einzel- und Gruppenpraxen im Zuge der aktuellen Reform der Primärversorgungszentren ( 3518/A(E) )",
+                  "timeStart": "31.000",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Zusätzliche Kassenvertragsstellen für Einzel- und Gruppenpraxen im Zuge der aktuellen Reform der Primärversorgungszentren ( 3518/A(E) )"
@@ -301,7 +356,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -312,7 +369,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schutz der heimischen Getreidebauern vor Billig-Importen aus der Ukraine ( 3516/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schutz der heimischen Getreidebauern vor Billig-Importen aus der Ukraine ( 3516/A(E) )",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schutz der heimischen Getreidebauern vor Billig-Importen aus der Ukraine ( 3516/A(E) )"
@@ -323,7 +382,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Rechnungshof: Lebensmittelversorgung ist nicht gesichert ( 3517/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Rechnungshof: Lebensmittelversorgung ist nicht gesichert ( 3517/A(E) )",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Rechnungshof: Lebensmittelversorgung ist nicht gesichert ( 3517/A(E) )"
@@ -334,7 +395,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -345,7 +408,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Topf im Bildungsbudget für OpenSource einrichten\" ( 3510/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Topf im Bildungsbudget für OpenSource einrichten\" ( 3510/A(E) )",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Topf im Bildungsbudget für OpenSource einrichten\" ( 3510/A(E) )"
@@ -356,7 +421,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -367,13 +434,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über mineralische Rohstoffe, BGBl."
+                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über mineralische Rohstoffe, BGBl.",
+                  "timeStart": "31.560",
+                  "timeEnd": "31.560"
                 },
                 {
-                  "text": "I Nr. 38/1999, geändert wird. ("
+                  "text": "I Nr. 38/1999, geändert wird. (",
+                  "timeStart": "31.560",
+                  "timeEnd": "32.240"
                 },
                 {
-                  "text": "3519/A )"
+                  "text": "3519/A )",
+                  "timeStart": "32.240",
+                  "timeEnd": "32.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über mineralische Rohstoffe, BGBl. I Nr. 38/1999, geändert wird. ( 3519/A )"
@@ -384,7 +457,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 3522/A(E) dem Finanzausschuss zu."
+                  "text": "Weiters weise ich den Antrag 3522/A(E) dem Finanzausschuss zu.",
+                  "timeStart": "32.880",
+                  "timeEnd": "35.880"
                 }
               ],
               "text": "Weiters weise ich den Antrag 3522/A(E) dem Finanzausschuss zu."
@@ -395,7 +470,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates darf ich für morgen, Freitag, den 7. Juli 2023, um 9 Uhr einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates darf ich für morgen, Freitag, den 7. Juli 2023, um 9 Uhr einberufen.",
+                  "timeStart": "35.880",
+                  "timeEnd": "41.200"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates darf ich für morgen, Freitag, den 7. Juli 2023, um 9 Uhr einberufen."
@@ -406,7 +483,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ergeht auf schriftlichem Wege."
+                  "text": "Die Tagesordnung ergeht auf schriftlichem Wege.",
+                  "timeStart": "41.200",
+                  "timeEnd": "41.480"
                 }
               ],
               "text": "Die Tagesordnung ergeht auf schriftlichem Wege."
@@ -417,7 +496,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen, danke schön."
+                  "text": "Diese Sitzung ist geschlossen, danke schön.",
+                  "timeStart": "41.480",
+                  "timeEnd": "41.960"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen, danke schön."
@@ -429,7 +510,8 @@
         "mediaIndex": 1,
         "stdId": 301736,
         "debatteId": 300,
-        "proceedingIndex": 301736
+        "proceedingIndex": 301736,
+        "alignDuration": 0.5190401077270508
       },
       "originalLanguage": "de"
     }

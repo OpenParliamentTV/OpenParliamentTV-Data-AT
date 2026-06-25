@@ -4,11 +4,11 @@
     "session": "27221",
     "dateStart": "2023-06-14T20:56:27",
     "dateEnd": "2023-06-14T20:59:35",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:08+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-25T04:51:14",
     "processing": {
       "merge": "2026-06-16T04:24:08+00:00",
-      "nel": "2026-06-16T06:24:26"
+      "align": "2026-06-25T04:51:14"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "299343",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d2206739-dcc1-46b3-82b8-1ca845d824c6/d2206739-dcc1-46b3-82b8-1ca845d824c6.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d2206739-dcc1-46b3-82b8-1ca845d824c6/d2206739-dcc1-46b3-82b8-1ca845d824c6.mp3",
-        "duration": 74
+        "duration": 74,
+        "aligned": true
       },
       "dateStart": "2023-06-14T20:56:27",
       "dateEnd": "2023-06-14T20:57:41",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 221. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 221. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.160"
                 }
               ],
               "text": "Ich eröffne die 221. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Maximilian Lercher , Josef Muchitsch , Rainer Wimmer , MMag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Maximilian Lercher , Josef Muchitsch , Rainer Wimmer , MMag.",
+                  "timeStart": "1.160",
+                  "timeEnd": "2.000"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "2.000",
+                  "timeEnd": "2.000"
                 },
                 {
-                  "text": "Hubert Fuchs , Mag."
+                  "text": "Hubert Fuchs , Mag.",
+                  "timeStart": "2.000",
+                  "timeEnd": "2.240"
                 },
                 {
-                  "text": "Christian Ragger und Dr.in Stephanie Krisper ."
+                  "text": "Christian Ragger und Dr.in Stephanie Krisper .",
+                  "timeStart": "2.240",
+                  "timeEnd": "3.600"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Maximilian Lercher , Josef Muchitsch , Rainer Wimmer , MMag. DDr. Hubert Fuchs , Mag. Christian Ragger und Dr.in Stephanie Krisper ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen"
+                  "text": "Zuweisungen",
+                  "timeStart": "3.600",
+                  "timeEnd": "3.600"
                 }
               ],
               "text": "Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "3.600",
+                  "timeEnd": "5.080"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "5.080",
+                  "timeEnd": "5.720"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "5.720",
+                  "timeEnd": "6.040"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "6.040",
+                  "timeEnd": "6.280"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "6.280",
+                  "timeEnd": "7.120"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Freiwilligengesetz geändert wird ( 2085 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Freiwilligengesetz geändert wird ( 2085 d.B. )",
+                  "timeStart": "7.120",
+                  "timeEnd": "8.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Freiwilligengesetz geändert wird ( 2085 d.B. )"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "8.680",
+                  "timeEnd": "8.960"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -187,7 +214,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Abgabenänderungsgesetz 2023 – AbgÄG 2023 ( 2086 d.B. )"
+                  "text": "Abgabenänderungsgesetz 2023 – AbgÄG 2023 ( 2086 d.B. )",
+                  "timeStart": "8.960",
+                  "timeEnd": "11.760"
                 }
               ],
               "text": "Abgabenänderungsgesetz 2023 – AbgÄG 2023 ( 2086 d.B. )"
@@ -198,7 +227,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Umsatzsteuergesetz 1994, die Bundesabgabenordnung, das Finanzstrafgesetz und das Bankwesengesetz hinsichtlich der Meldung von Zahlungsdaten durch Zahlungsdienstleister geändert werden (CESOP-Umsetzungsgesetz 2023) ( 2090 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Umsatzsteuergesetz 1994, die Bundesabgabenordnung, das Finanzstrafgesetz und das Bankwesengesetz hinsichtlich der Meldung von Zahlungsdaten durch Zahlungsdienstleister geändert werden (CESOP-Umsetzungsgesetz 2023) ( 2090 d.B. )",
+                  "timeStart": "11.760",
+                  "timeEnd": "13.440"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Umsatzsteuergesetz 1994, die Bundesabgabenordnung, das Finanzstrafgesetz und das Bankwesengesetz hinsichtlich der Meldung von Zahlungsdaten durch Zahlungsdienstleister geändert werden (CESOP-Umsetzungsgesetz 2023) ( 2090 d.B. )"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Wirtschaftliche Eigentümer Registergesetz geändert wird ( 2091 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Wirtschaftliche Eigentümer Registergesetz geändert wird ( 2091 d.B. )",
+                  "timeStart": "13.440",
+                  "timeEnd": "14.520"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Wirtschaftliche Eigentümer Registergesetz geändert wird ( 2091 d.B. )"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 geändert wird ( 2095 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 geändert wird ( 2095 d.B. )",
+                  "timeStart": "14.520",
+                  "timeEnd": "15.880"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 geändert wird ( 2095 d.B. )"
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über Wagniskapitalfonds erlassen (Wagniskapitalfondsgesetz – WKFG) und das Finanzmarktaufsichtsbehördengesetz, das Alternative Investmentfonds Manager-Gesetz, das Investmentfondsgesetz 2011 und das Einkommensteuergesetz 1988 geändert werden ( 2096 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über Wagniskapitalfonds erlassen (Wagniskapitalfondsgesetz – WKFG) und das Finanzmarktaufsichtsbehördengesetz, das Alternative Investmentfonds Manager-Gesetz, das Investmentfondsgesetz 2011 und das Einkommensteuergesetz 1988 geändert werden ( 2096 d.B. )",
+                  "timeStart": "15.880",
+                  "timeEnd": "20.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über Wagniskapitalfonds erlassen (Wagniskapitalfondsgesetz – WKFG) und das Finanzmarktaufsichtsbehördengesetz, das Alternative Investmentfonds Manager-Gesetz, das Investmentfondsgesetz 2011 und das Einkommensteuergesetz 1988 geändert werden ( 2096 d.B. )"
@@ -242,7 +279,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "20.640",
+                  "timeEnd": "21.160"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -253,7 +292,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Primärversorgungsgesetz und das Allgemeine Sozialversicherungsgesetz geändert werden ( 2087 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Primärversorgungsgesetz und das Allgemeine Sozialversicherungsgesetz geändert werden ( 2087 d.B. )",
+                  "timeStart": "21.160",
+                  "timeEnd": "21.960"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Primärversorgungsgesetz und das Allgemeine Sozialversicherungsgesetz geändert werden ( 2087 d.B. )"
@@ -264,7 +305,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "21.960",
+                  "timeEnd": "22.600"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -275,7 +318,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesgesetz über die Sicherstellung der staatlichen Resilienz und Koordination in Krisen (Bundes-Krisensicherheitsgesetz – B-KSG) erlassen wird sowie das Bundes-Verfassungsgesetz, das Wehrgesetz 2001 und das Meldegesetz 1991 geändert werden ( 2084 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesgesetz über die Sicherstellung der staatlichen Resilienz und Koordination in Krisen (Bundes-Krisensicherheitsgesetz – B-KSG) erlassen wird sowie das Bundes-Verfassungsgesetz, das Wehrgesetz 2001 und das Meldegesetz 1991 geändert werden ( 2084 d.B. )",
+                  "timeStart": "22.600",
+                  "timeEnd": "25.560"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über die Sicherstellung der staatlichen Resilienz und Koordination in Krisen (Bundes-Krisensicherheitsgesetz – B-KSG) erlassen wird sowie das Bundes-Verfassungsgesetz, das Wehrgesetz 2001 und das Meldegesetz 1991 geändert werden ( 2084 d.B. )"
@@ -286,7 +331,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Gesetz über das Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung geändert wird ( 2089 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Gesetz über das Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung geändert wird ( 2089 d.B. )",
+                  "timeStart": "25.560",
+                  "timeEnd": "26.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesetz über das Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung geändert wird ( 2089 d.B. )"
@@ -297,7 +344,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "26.680",
+                  "timeEnd": "26.840"
                 }
               ],
               "text": "Justizausschuss:"
@@ -308,7 +357,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Strafgesetzbuch und das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG geändert werden ( 2088 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Strafgesetzbuch und das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG geändert werden ( 2088 d.B. )",
+                  "timeStart": "26.840",
+                  "timeEnd": "29.280"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Strafgesetzbuch und das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG geändert werden ( 2088 d.B. )"
@@ -319,7 +370,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zivilverfahrens-Novelle 2023 – ZVN 2023 ( 2093 d.B. )"
+                  "text": "Zivilverfahrens-Novelle 2023 – ZVN 2023 ( 2093 d.B. )",
+                  "timeStart": "29.280",
+                  "timeEnd": "33.880"
                 }
               ],
               "text": "Zivilverfahrens-Novelle 2023 – ZVN 2023 ( 2093 d.B. )"
@@ -330,7 +383,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Durchführung virtueller Gesellschafterversammlungen (Virtuelle Gesellschafterversammlungen-Gesetz – VirtGesG) erlassen wird ( 2094 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Durchführung virtueller Gesellschafterversammlungen (Virtuelle Gesellschafterversammlungen-Gesetz – VirtGesG) erlassen wird ( 2094 d.B. )",
+                  "timeStart": "33.880",
+                  "timeEnd": "34.000"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Durchführung virtueller Gesellschafterversammlungen (Virtuelle Gesellschafterversammlungen-Gesetz – VirtGesG) erlassen wird ( 2094 d.B. )"
@@ -341,7 +396,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Korruptionsstrafrechtsänderungsgesetz 2023 – KorrStrÄG 2023 ( 2098 d.B. )"
+                  "text": "Korruptionsstrafrechtsänderungsgesetz 2023 – KorrStrÄG 2023 ( 2098 d.B. )",
+                  "timeStart": "34.000",
+                  "timeEnd": "35.400"
                 }
               ],
               "text": "Korruptionsstrafrechtsänderungsgesetz 2023 – KorrStrÄG 2023 ( 2098 d.B. )"
@@ -352,7 +409,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "35.400",
+                  "timeEnd": "35.560"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -363,7 +422,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Allgemeine Verwaltungsverfahrensgesetz 1991, das Verwaltungsstrafgesetz 1991, das Verwaltungsgerichtsverfahrensgesetz, das Verwaltungsgerichtshofgesetz 1985 und das Verfassungsgerichtshofgesetz 1953 geändert werden ( 2081 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Allgemeine Verwaltungsverfahrensgesetz 1991, das Verwaltungsstrafgesetz 1991, das Verwaltungsgerichtsverfahrensgesetz, das Verwaltungsgerichtshofgesetz 1985 und das Verfassungsgerichtshofgesetz 1953 geändert werden ( 2081 d.B. )",
+                  "timeStart": "35.560",
+                  "timeEnd": "40.320"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine Verwaltungsverfahrensgesetz 1991, das Verwaltungsstrafgesetz 1991, das Verwaltungsgerichtsverfahrensgesetz, das Verwaltungsgerichtshofgesetz 1985 und das Verfassungsgerichtshofgesetz 1953 geändert werden ( 2081 d.B. )"
@@ -374,7 +435,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das ORF-Gesetz, die Fernmeldegebührenordnung, das Fernsprechentgeltzuschussgesetz, das Finanzausgleichsgesetz 2017, das KommAustria-Gesetz, das Kommunikationsplattformen-Gesetz, das Fernseh-Exklusivrechtegesetz und das Künstler-Sozialversicherungsfondsgesetz geändert werden, ein ORF-Beitrags-Gesetz 2024 erlassen wird sowie das Rundfunkgebührengesetz, das Fernmeldegebührengesetz und das Kunstförderungsbeitragsgesetzes 1981 aufgehoben werden ( 2082 d.B. )"
+                  "text": "Bundesgesetz, mit dem das ORF-Gesetz, die Fernmeldegebührenordnung, das Fernsprechentgeltzuschussgesetz, das Finanzausgleichsgesetz 2017, das KommAustria-Gesetz, das Kommunikationsplattformen-Gesetz, das Fernseh-Exklusivrechtegesetz und das Künstler-Sozialversicherungsfondsgesetz geändert werden, ein ORF-Beitrags-Gesetz 2024 erlassen wird sowie das Rundfunkgebührengesetz, das Fernmeldegebührengesetz und das Kunstförderungsbeitragsgesetzes 1981 aufgehoben werden ( 2082 d.B. )",
+                  "timeStart": "40.320",
+                  "timeEnd": "44.680"
                 }
               ],
               "text": "Bundesgesetz, mit dem das ORF-Gesetz, die Fernmeldegebührenordnung, das Fernsprechentgeltzuschussgesetz, das Finanzausgleichsgesetz 2017, das KommAustria-Gesetz, das Kommunikationsplattformen-Gesetz, das Fernseh-Exklusivrechtegesetz und das Künstler-Sozialversicherungsfondsgesetz geändert werden, ein ORF-Beitrags-Gesetz 2024 erlassen wird sowie das Rundfunkgebührengesetz, das Fernmeldegebührengesetz und das Kunstförderungsbeitragsgesetzes 1981 aufgehoben werden ( 2082 d.B. )"
@@ -385,7 +448,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Terrorinhalte-Bekämpfungs-Gesetz erlassen und das KommAustria-Gesetz geändert wird ( 2083 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Terrorinhalte-Bekämpfungs-Gesetz erlassen und das KommAustria-Gesetz geändert wird ( 2083 d.B. )",
+                  "timeStart": "44.680",
+                  "timeEnd": "47.920"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Terrorinhalte-Bekämpfungs-Gesetz erlassen und das KommAustria-Gesetz geändert wird ( 2083 d.B. )"
@@ -396,7 +461,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "47.920",
+                  "timeEnd": "48.400"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -407,7 +474,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 (34. StVO-Novelle), das Führerscheingesetz und das Kraftfahrgesetz 1967 geändert werden ( 2092 d.B. )"
+                  "text": "Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 (34. StVO-Novelle), das Führerscheingesetz und das Kraftfahrgesetz 1967 geändert werden ( 2092 d.B. )",
+                  "timeStart": "48.400",
+                  "timeEnd": "51.120"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 (34. StVO-Novelle), das Führerscheingesetz und das Kraftfahrgesetz 1967 geändert werden ( 2092 d.B. )"
@@ -418,7 +487,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz über die Übertragung des Teilbetriebes Infrastruktur der Graz-Köflacher Bahn und Busbetrieb GmbH an die ÖBB-Infrastruktur AG (GKB-Infrastruktur-Übertragungsgesetz) ( 2097 d.B. )"
+                  "text": "Bundesgesetz über die Übertragung des Teilbetriebes Infrastruktur der Graz-Köflacher Bahn und Busbetrieb GmbH an die ÖBB-Infrastruktur AG (GKB-Infrastruktur-Übertragungsgesetz) ( 2097 d.B. )",
+                  "timeStart": "51.120",
+                  "timeEnd": "56.200"
                 }
               ],
               "text": "Bundesgesetz über die Übertragung des Teilbetriebes Infrastruktur der Graz-Köflacher Bahn und Busbetrieb GmbH an die ÖBB-Infrastruktur AG (GKB-Infrastruktur-Übertragungsgesetz) ( 2097 d.B. )"
@@ -429,7 +500,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "56.200",
+                  "timeEnd": "56.200"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -440,7 +513,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mitteilen, dass zwei Fristsetzungsanträge der Abgeordneten Smolle und Schallmeiner vorliegen, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen sowie über den Antrag 3463/A jeweils eine Frist bis zum 5. Juli zu setzen."
+                  "text": "Ich darf mitteilen, dass zwei Fristsetzungsanträge der Abgeordneten Smolle und Schallmeiner vorliegen, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen sowie über den Antrag 3463/A jeweils eine Frist bis zum 5. Juli zu setzen.",
+                  "timeStart": "56.200",
+                  "timeEnd": "60.200"
                 }
               ],
               "text": "Ich darf mitteilen, dass zwei Fristsetzungsanträge der Abgeordneten Smolle und Schallmeiner vorliegen, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen sowie über den Antrag 3463/A jeweils eine Frist bis zum 5. Juli zu setzen."
@@ -451,7 +526,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es liegen weitere Fristsetzungsanträge vor, dem Verfassungsausschuss eine Frist bis zum 5. Juli 2023 zu setzen:"
+                  "text": "Es liegen weitere Fristsetzungsanträge vor, dem Verfassungsausschuss eine Frist bis zum 5. Juli 2023 zu setzen:",
+                  "timeStart": "60.200",
+                  "timeEnd": "62.200"
                 }
               ],
               "text": "Es liegen weitere Fristsetzungsanträge vor, dem Verfassungsausschuss eine Frist bis zum 5. Juli 2023 zu setzen:"
@@ -462,7 +539,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es gibt drei Anträge der Abgeordneten Egger und Blimlinger zur Berichterstattung über den Antrag 3438/A sowie über die Regierungsvorlagen 2082 der Beilagen und 2083 der Beilagen sowie den"
+                  "text": "Es gibt drei Anträge der Abgeordneten Egger und Blimlinger zur Berichterstattung über den Antrag 3438/A sowie über die Regierungsvorlagen 2082 der Beilagen und 2083 der Beilagen sowie den",
+                  "timeStart": "62.200",
+                  "timeEnd": "67.280"
                 }
               ],
               "text": "Es gibt drei Anträge der Abgeordneten Egger und Blimlinger zur Berichterstattung über den Antrag 3438/A sowie über die Regierungsvorlagen 2082 der Beilagen und 2083 der Beilagen sowie den"
@@ -473,7 +552,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen ."
+                  "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen .",
+                  "timeStart": "67.280",
+                  "timeEnd": "70.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen ."
@@ -484,7 +565,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "70.560",
+                  "timeEnd": "73.960"
                 }
               ],
               "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -496,7 +579,8 @@
         "mediaIndex": 1,
         "stdId": 299343,
         "debatteId": 300,
-        "proceedingIndex": 299343
+        "proceedingIndex": 299343,
+        "alignDuration": 0.866365909576416
       },
       "originalLanguage": "de"
     },
@@ -524,7 +608,8 @@
         "originMediaID": "299371",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/00a3a860-3ab7-4aec-b95f-012a892a2199/00a3a860-3ab7-4aec-b95f-012a892a2199.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/00a3a860-3ab7-4aec-b95f-012a892a2199/00a3a860-3ab7-4aec-b95f-012a892a2199.mp3",
-        "duration": 114
+        "duration": 114,
+        "aligned": true
       },
       "dateStart": "2023-06-14T20:57:41",
       "dateEnd": "2023-06-14T20:59:35",
@@ -556,7 +641,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.720"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -567,7 +654,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
+                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
+                  "timeStart": "2.720",
+                  "timeEnd": "10.760"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
@@ -578,10 +667,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dem zustimmt, wird um ein Zeichen den Zustimmung gebeten. –"
+                  "text": "Wer dem zustimmt, wird um ein Zeichen den Zustimmung gebeten. –",
+                  "timeStart": "10.760",
+                  "timeEnd": "13.400"
                 },
                 {
-                  "text": "Das ist die Mehrheit, daher angenommen ."
+                  "text": "Das ist die Mehrheit, daher angenommen .",
+                  "timeStart": "13.400",
+                  "timeEnd": "15.280"
                 }
               ],
               "text": "Wer dem zustimmt, wird um ein Zeichen den Zustimmung gebeten. – Das ist die Mehrheit, daher angenommen ."
@@ -592,7 +685,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3463/A eine Frist bis zum 5. Juli 2023 zu setzen."
+                  "text": "Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3463/A eine Frist bis zum 5. Juli 2023 zu setzen.",
+                  "timeStart": "15.280",
+                  "timeEnd": "27.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3463/A eine Frist bis zum 5. Juli 2023 zu setzen."
@@ -603,10 +698,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer ist dafür? –"
+                  "text": "Wer ist dafür? –",
+                  "timeStart": "27.760",
+                  "timeEnd": "29.200"
                 },
                 {
-                  "text": "Ebenfalls die Mehrheit, angenommen."
+                  "text": "Ebenfalls die Mehrheit, angenommen.",
+                  "timeStart": "29.200",
+                  "timeEnd": "32.080"
                 }
               ],
               "text": "Wer ist dafür? – Ebenfalls die Mehrheit, angenommen."
@@ -617,7 +716,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3438/A eine Frist bis zum 5. Juli zu setzen."
+                  "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3438/A eine Frist bis zum 5. Juli zu setzen.",
+                  "timeStart": "32.080",
+                  "timeEnd": "42.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3438/A eine Frist bis zum 5. Juli zu setzen."
@@ -628,10 +729,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dem zustimmt: Bitte um ein Zeichen der Zustimmung! –"
+                  "text": "Wer dem zustimmt: Bitte um ein Zeichen der Zustimmung! –",
+                  "timeStart": "42.560",
+                  "timeEnd": "44.760"
                 },
                 {
-                  "text": "Das ist die Mehrheit, daher angenommen ."
+                  "text": "Das ist die Mehrheit, daher angenommen .",
+                  "timeStart": "44.760",
+                  "timeEnd": "47.060"
                 }
               ],
               "text": "Wer dem zustimmt: Bitte um ein Zeichen der Zustimmung! – Das ist die Mehrheit, daher angenommen ."
@@ -642,7 +747,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2082 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
+                  "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2082 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
+                  "timeStart": "47.060",
+                  "timeEnd": "59.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2082 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
@@ -653,10 +760,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer ist dafür? –"
+                  "text": "Wer ist dafür? –",
+                  "timeStart": "59.800",
+                  "timeEnd": "60.600"
                 },
                 {
-                  "text": "Gleiches Stimmverhalten: mit Mehrheit angenommen."
+                  "text": "Gleiches Stimmverhalten: mit Mehrheit angenommen.",
+                  "timeStart": "60.600",
+                  "timeEnd": "64.160"
                 }
               ],
               "text": "Wer ist dafür? – Gleiches Stimmverhalten: mit Mehrheit angenommen."
@@ -667,7 +778,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2083 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
+                  "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2083 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
+                  "timeStart": "64.160",
+                  "timeEnd": "76.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2083 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
@@ -678,7 +791,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleiches Abstimmungsverhalten: mehrheitlich angenommen."
+                  "text": "Gleiches Abstimmungsverhalten: mehrheitlich angenommen.",
+                  "timeStart": "76.360",
+                  "timeEnd": "79.040"
                 }
               ],
               "text": "Gleiches Abstimmungsverhalten: mehrheitlich angenommen."
@@ -689,7 +804,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
+                  "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
+                  "timeStart": "79.040",
+                  "timeEnd": "92.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen."
@@ -700,10 +817,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer erteilt da die Zustimmung? –"
+                  "text": "Wer erteilt da die Zustimmung? –",
+                  "timeStart": "92.680",
+                  "timeEnd": "94.120"
                 },
                 {
-                  "text": "Gleiches Stimmverhalten, mehrheitlich angenommen."
+                  "text": "Gleiches Stimmverhalten, mehrheitlich angenommen.",
+                  "timeStart": "94.120",
+                  "timeEnd": "96.680"
                 }
               ],
               "text": "Wer erteilt da die Zustimmung? – Gleiches Stimmverhalten, mehrheitlich angenommen."
@@ -714,7 +835,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 5. Juli 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 5. Juli 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "96.680",
+                  "timeEnd": "105.520"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 5. Juli 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -725,7 +848,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich danke für die rege Diskussion und Mitarbeit und wünsche ein gutes Nachhausekommen."
+                  "text": "Ich danke für die rege Diskussion und Mitarbeit und wünsche ein gutes Nachhausekommen.",
+                  "timeStart": "105.520",
+                  "timeEnd": "110.000"
                 }
               ],
               "text": "Ich danke für die rege Diskussion und Mitarbeit und wünsche ein gutes Nachhausekommen."
@@ -736,7 +861,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "110.000",
+                  "timeEnd": "114.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -748,7 +875,8 @@
         "mediaIndex": 2,
         "stdId": 299371,
         "debatteId": 310,
-        "proceedingIndex": 299371
+        "proceedingIndex": 299371,
+        "alignDuration": 0.5257818698883057
       },
       "originalLanguage": "de"
     }

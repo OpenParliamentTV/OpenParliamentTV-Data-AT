@@ -4,11 +4,11 @@
     "session": "27212",
     "dateStart": "2023-05-12T15:45:13",
     "dateEnd": "2023-05-12T15:56:33",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:06+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-24T20:08:57",
     "processing": {
       "merge": "2026-06-16T04:24:06+00:00",
-      "nel": "2026-06-16T06:24:26"
+      "align": "2026-06-24T20:08:57"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "296023",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/864a1590-c5c5-44f8-9ffc-061108ea10f7/864a1590-c5c5-44f8-9ffc-061108ea10f7.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/864a1590-c5c5-44f8-9ffc-061108ea10f7/864a1590-c5c5-44f8-9ffc-061108ea10f7.mp3",
-        "duration": 42
+        "duration": 42,
+        "aligned": true
       },
       "dateStart": "2023-05-12T15:45:13",
       "dateEnd": "2023-05-12T15:45:55",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 212. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 212. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.920"
                 }
               ],
               "text": "Ich eröffne die 212. Sitzung des Nationalrates."
@@ -79,28 +82,44 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Kira Grünberg , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Kira Grünberg , Mag.",
+                  "timeStart": "1.920",
+                  "timeEnd": "2.680"
                 },
                 {
-                  "text": "Johanna Jachs , Martina Kaufmann, MMSc BA , Andreas Minnich , Gabriel Obernosterer , Petra Bayr, MA MLS , Rudolf Silvan , Petra Tanzler , Mag."
+                  "text": "Johanna Jachs , Martina Kaufmann, MMSc BA , Andreas Minnich , Gabriel Obernosterer , Petra Bayr, MA MLS , Rudolf Silvan , Petra Tanzler , Mag.",
+                  "timeStart": "2.680",
+                  "timeEnd": "5.520"
                 },
                 {
-                  "text": "Selma Yildirim , Dipl.-Ing. Gerhard Deimek , MMag."
+                  "text": "Selma Yildirim , Dipl.-Ing. Gerhard Deimek , MMag.",
+                  "timeStart": "5.520",
+                  "timeEnd": "5.960"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "5.960",
+                  "timeEnd": "5.960"
                 },
                 {
-                  "text": "Hubert Fuchs , Dr. Susanne Fürst , Mag."
+                  "text": "Hubert Fuchs , Dr. Susanne Fürst , Mag.",
+                  "timeStart": "5.960",
+                  "timeEnd": "6.600"
                 },
                 {
-                  "text": "Christian Ragger , Ing. Mag."
+                  "text": "Christian Ragger , Ing. Mag.",
+                  "timeStart": "6.600",
+                  "timeEnd": "6.880"
                 },
                 {
-                  "text": "Volker Reifenberger , Christian Ries , Wolfgang Zanger , Heike Grebien , Michel Reimon, MBA , Dr. Helmut Brandstätter , Fiona Fiedler, BEd , Dr. Stephanie Krisper und Mag."
+                  "text": "Volker Reifenberger , Christian Ries , Wolfgang Zanger , Heike Grebien , Michel Reimon, MBA , Dr. Helmut Brandstätter , Fiona Fiedler, BEd , Dr. Stephanie Krisper und Mag.",
+                  "timeStart": "6.880",
+                  "timeEnd": "9.320"
                 },
                 {
-                  "text": "Martina Künsberg Sarre ."
+                  "text": "Martina Künsberg Sarre .",
+                  "timeStart": "9.320",
+                  "timeEnd": "9.320"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Kira Grünberg , Mag. Johanna Jachs , Martina Kaufmann, MMSc BA , Andreas Minnich , Gabriel Obernosterer , Petra Bayr, MA MLS , Rudolf Silvan , Petra Tanzler , Mag. Selma Yildirim , Dipl.-Ing. Gerhard Deimek , MMag. DDr. Hubert Fuchs , Dr. Susanne Fürst , Mag. Christian Ragger , Ing. Mag. Volker Reifenberger , Christian Ries , Wolfgang Zanger , Heike Grebien , Michel Reimon, MBA , Dr. Helmut Brandstätter , Fiona Fiedler, BEd , Dr. Stephanie Krisper und Mag. Martina Künsberg Sarre ."
@@ -111,7 +130,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "9.320",
+                  "timeEnd": "9.360"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -122,13 +143,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen. ("
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen. (",
+                  "timeStart": "9.360",
+                  "timeEnd": "12.360"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "12.360",
+                  "timeEnd": "12.360"
                 },
                 {
-                  "text": "Kassegger: Zur Geschäftsordnung!)"
+                  "text": "Kassegger: Zur Geschäftsordnung!)",
+                  "timeStart": "12.360",
+                  "timeEnd": "13.120"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen. (Abg. Kassegger: Zur Geschäftsordnung!)"
@@ -139,7 +166,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "13.120",
+                  "timeEnd": "13.840"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -150,7 +179,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "13.840",
+                  "timeEnd": "14.120"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -161,7 +192,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 14032/AB bis 14034/AB"
+                  "text": "Anfragebeantwortungen: 14032/AB bis 14034/AB",
+                  "timeStart": "14.120",
+                  "timeEnd": "14.560"
                 }
               ],
               "text": "Anfragebeantwortungen: 14032/AB bis 14034/AB"
@@ -172,7 +205,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "14.560",
+                  "timeEnd": "14.920"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -183,7 +218,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "14.920",
+                  "timeEnd": "15.120"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -194,7 +231,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "15.120",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -205,7 +244,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Doppelstaatsbürgerschaft für Südtiroler ( 3370/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Doppelstaatsbürgerschaft für Südtiroler ( 3370/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "16.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Doppelstaatsbürgerschaft für Südtiroler ( 3370/A(E) )"
@@ -216,7 +257,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Rechnungshofausschuss:"
+                  "text": "Rechnungshofausschuss:",
+                  "timeStart": "16.600",
+                  "timeEnd": "16.800"
                 }
               ],
               "text": "Rechnungshofausschuss:"
@@ -227,7 +270,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Rechnungshofes betreffend Compliance – Korruptionsprävention bei Immobilientransaktionen: ÖBB-Immobilienmanagement GmbH und Österreichische Post AG – Reihe BUND 2023/14 ( III-941 d.B. )"
+                  "text": "Bericht des Rechnungshofes betreffend Compliance – Korruptionsprävention bei Immobilientransaktionen: ÖBB-Immobilienmanagement GmbH und Österreichische Post AG – Reihe BUND 2023/14 ( III-941 d.B. )",
+                  "timeStart": "16.800",
+                  "timeEnd": "20.320"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Compliance – Korruptionsprävention bei Immobilientransaktionen: ÖBB-Immobilienmanagement GmbH und Österreichische Post AG – Reihe BUND 2023/14 ( III-941 d.B. )"
@@ -238,7 +283,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "20.320",
+                  "timeEnd": "21.200"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -249,7 +296,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Rechtssicherheit im öffentlichen Dienst – auch nach dem Pensionsantrittsalter ( 3372/A(E) )"
+                  "text": "Antrag der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Rechtssicherheit im öffentlichen Dienst – auch nach dem Pensionsantrittsalter ( 3372/A(E) )",
+                  "timeStart": "21.200",
+                  "timeEnd": "24.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Rechtssicherheit im öffentlichen Dienst – auch nach dem Pensionsantrittsalter ( 3372/A(E) )"
@@ -260,7 +309,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "24.120",
+                  "timeEnd": "24.560"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -271,7 +322,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Maßnahmenkatalog zum Stopp der Pensionskürzungen gegenüber den Leistungsberechtigten der Pensionskassen ( 3369/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Maßnahmenkatalog zum Stopp der Pensionskürzungen gegenüber den Leistungsberechtigten der Pensionskassen ( 3369/A(E) )",
+                  "timeStart": "24.560",
+                  "timeEnd": "27.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Maßnahmenkatalog zum Stopp der Pensionskürzungen gegenüber den Leistungsberechtigten der Pensionskassen ( 3369/A(E) )"
@@ -282,7 +335,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU ( 3371/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU ( 3371/A(E) )",
+                  "timeStart": "27.040",
+                  "timeEnd": "30.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU ( 3371/A(E) )"
@@ -293,7 +348,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "30.080",
+                  "timeEnd": "30.640"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -304,19 +361,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640"
                 },
                 {
-                  "text": "Dr. Rudolf Taschner , Mag."
+                  "text": "Dr. Rudolf Taschner , Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640"
                 },
                 {
-                  "text": "Eva Blimlinger , Mag."
+                  "text": "Eva Blimlinger , Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640"
                 },
                 {
-                  "text": "Andrea Kuntzl , Mag."
+                  "text": "Andrea Kuntzl , Mag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640"
                 },
                 {
-                  "text": "Dr. Martin Graf , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 5. März 1952 über die Verleihung des Doktorates unter den Auspizien des Bundespräsidenten geändert wird ( 3368/A )"
+                  "text": "Dr. Martin Graf , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 5. März 1952 über die Verleihung des Doktorates unter den Auspizien des Bundespräsidenten geändert wird ( 3368/A )",
+                  "timeStart": "30.640",
+                  "timeEnd": "35.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Rudolf Taschner , Mag. Eva Blimlinger , Mag. Andrea Kuntzl , Mag. Dr. Martin Graf , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 5. März 1952 über die Verleihung des Doktorates unter den Auspizien des Bundespräsidenten geändert wird ( 3368/A )"
@@ -327,7 +394,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außerdem weise ich den Antrag 3373/A dem Budgetausschuss sowie den Antrag 3374/A dem Umweltausschuss zu."
+                  "text": "Außerdem weise ich den Antrag 3373/A dem Budgetausschuss sowie den Antrag 3374/A dem Umweltausschuss zu.",
+                  "timeStart": "35.760",
+                  "timeEnd": "38.600"
                 }
               ],
               "text": "Außerdem weise ich den Antrag 3373/A dem Budgetausschuss sowie den Antrag 3374/A dem Umweltausschuss zu."
@@ -338,10 +407,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf weiters mitteilen, dass folgende Fristsetzungsanträge vorliegen: Antrag des Abgeordneten - - (Abg."
+                  "text": "Ich darf weiters mitteilen, dass folgende Fristsetzungsanträge vorliegen: Antrag des Abgeordneten - - (Abg.",
+                  "timeStart": "38.600",
+                  "timeEnd": "40.840"
                 },
                 {
-                  "text": "Kassegger: Zur Geschäftsordnung!)"
+                  "text": "Kassegger: Zur Geschäftsordnung!)",
+                  "timeStart": "40.840",
+                  "timeEnd": "41.280"
                 }
               ],
               "text": "Ich darf weiters mitteilen, dass folgende Fristsetzungsanträge vorliegen: Antrag des Abgeordneten - - (Abg. Kassegger: Zur Geschäftsordnung!)"
@@ -352,10 +425,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zur Geschäftsbehandlung. –"
+                  "text": "Zur Geschäftsbehandlung. –",
+                  "timeStart": "41.280",
+                  "timeEnd": "41.600"
                 },
                 {
-                  "text": "Bitte sehr, Herr Abgeordneter."
+                  "text": "Bitte sehr, Herr Abgeordneter.",
+                  "timeStart": "41.600",
+                  "timeEnd": "42.000"
                 }
               ],
               "text": "Zur Geschäftsbehandlung. – Bitte sehr, Herr Abgeordneter."
@@ -367,7 +444,8 @@
         "mediaIndex": 1,
         "stdId": 296023,
         "debatteId": 300,
-        "proceedingIndex": 296023
+        "proceedingIndex": 296023,
+        "alignDuration": 0.6781039237976074
       },
       "originalLanguage": "de"
     },
@@ -395,7 +473,8 @@
         "originMediaID": "296032",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/3a40e6bb-8fcf-44d2-a294-ff2722e7be83/3a40e6bb-8fcf-44d2-a294-ff2722e7be83.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/3a40e6bb-8fcf-44d2-a294-ff2722e7be83/3a40e6bb-8fcf-44d2-a294-ff2722e7be83.mp3",
-        "duration": 197
+        "duration": 197,
+        "aligned": true
       },
       "dateStart": "2023-05-12T15:45:55",
       "dateEnd": "2023-05-12T15:49:12",
@@ -409,8 +488,7 @@
           "role": "Abgeordneter",
           "originPersonID": "83129",
           "faction": {
-            "label": "fortsetzend",
-            "wid": ""
+            "label": "fortsetzend"
           },
           "wid": "Q15784856",
           "wtype": "PERSON"
@@ -442,7 +520,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "15.45"
+                  "text": "15.45",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.560"
                 }
               ],
               "text": "15.45"
@@ -453,13 +533,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abgeordneter MMMag."
+                  "text": "Abgeordneter MMMag.",
+                  "timeStart": "1.560",
+                  "timeEnd": "2.080"
                 },
                 {
-                  "text": "Dr. Axel Kassegger (FPÖ) (zur Geschäftsbehandlung): Bevor wir über die Fristsetzungsanträge der Abgeordneten Hanger, Schwarz beziehungsweise Schmuckenschlager, Rössler abstimmen, möchte ich darauf hinweisen, dass vermutlich niemand hier im Hause den Inhalt dieser Anträge kennt. –"
+                  "text": "Dr. Axel Kassegger (FPÖ) (zur Geschäftsbehandlung): Bevor wir über die Fristsetzungsanträge der Abgeordneten Hanger, Schwarz beziehungsweise Schmuckenschlager, Rössler abstimmen, möchte ich darauf hinweisen, dass vermutlich niemand hier im Hause den Inhalt dieser Anträge kennt. –",
+                  "timeStart": "2.080",
+                  "timeEnd": "16.800"
                 },
                 {
-                  "text": "Ich zumindest nicht, meine Fraktion auch nicht."
+                  "text": "Ich zumindest nicht, meine Fraktion auch nicht.",
+                  "timeStart": "16.800",
+                  "timeEnd": "20.840"
                 }
               ],
               "text": "Abgeordneter MMMag. Dr. Axel Kassegger (FPÖ) (zur Geschäftsbehandlung): Bevor wir über die Fristsetzungsanträge der Abgeordneten Hanger, Schwarz beziehungsweise Schmuckenschlager, Rössler abstimmen, möchte ich darauf hinweisen, dass vermutlich niemand hier im Hause den Inhalt dieser Anträge kennt. – Ich zumindest nicht, meine Fraktion auch nicht."
@@ -470,13 +556,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Das ist schon sehr, sehr ungewöhnlich, wenn von uns jetzt verlangt wird, über etwas abzustimmen, dessen Inhalt gar nicht bekannt ist."
+                  "text": "Das ist schon sehr, sehr ungewöhnlich, wenn von uns jetzt verlangt wird, über etwas abzustimmen, dessen Inhalt gar nicht bekannt ist.",
+                  "timeStart": "20.840",
+                  "timeEnd": "27.320"
                 },
                 {
-                  "text": "Es ist auch die fortlaufende Nummer des Antrages handschriftlich da hineingeschrieben, bei einem Antrag unleserlich."
+                  "text": "Es ist auch die fortlaufende Nummer des Antrages handschriftlich da hineingeschrieben, bei einem Antrag unleserlich.",
+                  "timeStart": "27.320",
+                  "timeEnd": "35.880"
                 },
                 {
-                  "text": "Wir kennen den Inhalt nicht; angeblich liegt oben am Präsidium ein Exemplar vor."
+                  "text": "Wir kennen den Inhalt nicht; angeblich liegt oben am Präsidium ein Exemplar vor.",
+                  "timeStart": "35.880",
+                  "timeEnd": "41.080"
                 }
               ],
               "text": "Das ist schon sehr, sehr ungewöhnlich, wenn von uns jetzt verlangt wird, über etwas abzustimmen, dessen Inhalt gar nicht bekannt ist. Es ist auch die fortlaufende Nummer des Antrages handschriftlich da hineingeschrieben, bei einem Antrag unleserlich. Wir kennen den Inhalt nicht; angeblich liegt oben am Präsidium ein Exemplar vor."
@@ -487,10 +579,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Da wir mit dem Umgang der Regierung mit dem Parlament ja Erfahrung haben – mit Trägerraketen, praktisch leeren Gesetzesvorschlägen, Abänderungsanträgen in allerletzter Minute –, bin ich nicht der Meinung, dass es sinnvoll ist, über Anträge, deren Inhalt wir nicht kennen, abzustimmen."
+                  "text": "Da wir mit dem Umgang der Regierung mit dem Parlament ja Erfahrung haben – mit Trägerraketen, praktisch leeren Gesetzesvorschlägen, Abänderungsanträgen in allerletzter Minute –, bin ich nicht der Meinung, dass es sinnvoll ist, über Anträge, deren Inhalt wir nicht kennen, abzustimmen.",
+                  "timeStart": "41.080",
+                  "timeEnd": "61.240"
                 },
                 {
-                  "text": "Insoweit gibt es jetzt eine Möglichkeit, Anträge zur Geschäftsordnung zu stellen."
+                  "text": "Insoweit gibt es jetzt eine Möglichkeit, Anträge zur Geschäftsordnung zu stellen.",
+                  "timeStart": "61.240",
+                  "timeEnd": "65.320"
                 }
               ],
               "text": "Da wir mit dem Umgang der Regierung mit dem Parlament ja Erfahrung haben – mit Trägerraketen, praktisch leeren Gesetzesvorschlägen, Abänderungsanträgen in allerletzter Minute –, bin ich nicht der Meinung, dass es sinnvoll ist, über Anträge, deren Inhalt wir nicht kennen, abzustimmen. Insoweit gibt es jetzt eine Möglichkeit, Anträge zur Geschäftsordnung zu stellen."
@@ -501,19 +597,29 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Entweder könnte ich den Antrag stellen, die Sitzung zu unterbrechen, um Ihnen die Gelegenheit zu geben, das Ganze zu kopieren und uns zur Kenntnis zu bringen."
+                  "text": "Entweder könnte ich den Antrag stellen, die Sitzung zu unterbrechen, um Ihnen die Gelegenheit zu geben, das Ganze zu kopieren und uns zur Kenntnis zu bringen.",
+                  "timeStart": "65.320",
+                  "timeEnd": "72.680"
                 },
                 {
-                  "text": "Ich könnte aber auch den Antrag stellen, dass Sie, Herr Präsident, den Inhalt der Anträge verlesen."
+                  "text": "Ich könnte aber auch den Antrag stellen, dass Sie, Herr Präsident, den Inhalt der Anträge verlesen.",
+                  "timeStart": "72.680",
+                  "timeEnd": "78.120"
                 },
                 {
-                  "text": "Dann sparen wir uns Zeit und kommen früher nach Hause."
+                  "text": "Dann sparen wir uns Zeit und kommen früher nach Hause.",
+                  "timeStart": "78.120",
+                  "timeEnd": "81.600"
                 },
                 {
-                  "text": "Diesen Antrag zur Geschäftsordnung stelle ich daher. ("
+                  "text": "Diesen Antrag zur Geschäftsordnung stelle ich daher. (",
+                  "timeStart": "81.600",
+                  "timeEnd": "84.080"
                 },
                 {
-                  "text": "Beifall bei der FPÖ.)"
+                  "text": "Beifall bei der FPÖ.)",
+                  "timeStart": "84.080",
+                  "timeEnd": "88.720"
                 }
               ],
               "text": "Entweder könnte ich den Antrag stellen, die Sitzung zu unterbrechen, um Ihnen die Gelegenheit zu geben, das Ganze zu kopieren und uns zur Kenntnis zu bringen. Ich könnte aber auch den Antrag stellen, dass Sie, Herr Präsident, den Inhalt der Anträge verlesen. Dann sparen wir uns Zeit und kommen früher nach Hause. Diesen Antrag zur Geschäftsordnung stelle ich daher. (Beifall bei der FPÖ.)"
@@ -524,28 +630,44 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Welcher Antrag zur Geschäftsordnung war das jetzt? ("
+                  "text": "Welcher Antrag zur Geschäftsordnung war das jetzt? (",
+                  "timeStart": "88.720",
+                  "timeEnd": "93.240"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "93.240",
+                  "timeEnd": "94.480"
                 },
                 {
-                  "text": "Steinacker: Dass du es vorliest! –"
+                  "text": "Steinacker: Dass du es vorliest! –",
+                  "timeStart": "94.480",
+                  "timeEnd": "98.200"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "98.200",
+                  "timeEnd": "98.740"
                 },
                 {
-                  "text": "Martin Graf: Dass Sie lesen sollen! –"
+                  "text": "Martin Graf: Dass Sie lesen sollen! –",
+                  "timeStart": "98.740",
+                  "timeEnd": "100.840"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "100.840",
+                  "timeEnd": "100.840"
                 },
                 {
-                  "text": "Krainer: Dass Sie uns vorlesen, um was es hier geht!"
+                  "text": "Krainer: Dass Sie uns vorlesen, um was es hier geht!",
+                  "timeStart": "100.840",
+                  "timeEnd": "102.600"
                 },
                 {
-                  "text": "Ist ja nicht so schwierig!)"
+                  "text": "Ist ja nicht so schwierig!)",
+                  "timeStart": "102.600",
+                  "timeEnd": "104.600"
                 }
               ],
               "text": "Welcher Antrag zur Geschäftsordnung war das jetzt? (Abg. Steinacker: Dass du es vorliest! – Abg. Martin Graf: Dass Sie lesen sollen! – Abg. Krainer: Dass Sie uns vorlesen, um was es hier geht! Ist ja nicht so schwierig!)"
@@ -556,25 +678,39 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Genau, dass Sie, Herr Präsident, uns bitte vorlesen, worum es bei diesen Anträgen, beim Antrag 3373/A und – das kann ich leider nicht lesen, weil es handschriftlich reingefuzelt ist – wie ich annehme 3374/A geht. –"
+                  "text": "Genau, dass Sie, Herr Präsident, uns bitte vorlesen, worum es bei diesen Anträgen, beim Antrag 3373/A und – das kann ich leider nicht lesen, weil es handschriftlich reingefuzelt ist – wie ich annehme 3374/A geht. –",
+                  "timeStart": "104.600",
+                  "timeEnd": "119.640"
                 },
                 {
-                  "text": "Vielen Dank. ("
+                  "text": "Vielen Dank. (",
+                  "timeStart": "119.640",
+                  "timeEnd": "120.280"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "130.800",
+                  "timeEnd": "130.840"
                 },
                 {
-                  "text": "Martin Graf: Sehr gut, da ist sogar der Präsident überfordert! –"
+                  "text": "Martin Graf: Sehr gut, da ist sogar der Präsident überfordert! –",
+                  "timeStart": "136.720",
+                  "timeEnd": "139.240"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "139.240",
+                  "timeEnd": "139.600"
                 },
                 {
-                  "text": "Wöginger: Wieso?"
+                  "text": "Wöginger: Wieso?",
+                  "timeStart": "139.600",
+                  "timeEnd": "140.400"
                 },
                 {
-                  "text": "Abstimmen – fertig, aus!)"
+                  "text": "Abstimmen – fertig, aus!)",
+                  "timeStart": "140.400",
+                  "timeEnd": "141.000"
                 }
               ],
               "text": "Genau, dass Sie, Herr Präsident, uns bitte vorlesen, worum es bei diesen Anträgen, beim Antrag 3373/A und – das kann ich leider nicht lesen, weil es handschriftlich reingefuzelt ist – wie ich annehme 3374/A geht. – Vielen Dank. (Abg. Martin Graf: Sehr gut, da ist sogar der Präsident überfordert! – Abg. Wöginger: Wieso? Abstimmen – fertig, aus!)"
@@ -585,7 +721,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "15.47"
+                  "text": "15.47",
+                  "timeStart": "141.000",
+                  "timeEnd": "142.520"
                 }
               ],
               "text": "15.47"
@@ -596,10 +734,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Da die Anträge ordnungsgemäß eingebracht sind, darf ich die Schriftführer ersuchen, die Anträge zu verlesen."
+                  "text": "Da die Anträge ordnungsgemäß eingebracht sind, darf ich die Schriftführer ersuchen, die Anträge zu verlesen.",
+                  "timeStart": "142.520",
+                  "timeEnd": "147.720"
                 },
                 {
-                  "text": "Das ist an und für sich ein normaler Vorgang."
+                  "text": "Das ist an und für sich ein normaler Vorgang.",
+                  "timeStart": "147.720",
+                  "timeEnd": "149.520"
                 }
               ],
               "text": "Da die Anträge ordnungsgemäß eingebracht sind, darf ich die Schriftführer ersuchen, die Anträge zu verlesen. Das ist an und für sich ein normaler Vorgang."
@@ -610,25 +752,39 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf dementsprechend Frau Abgeordnete Steinacker ersuchen, den Antrag 3373/A , und Abgeordneten Zanger, den Antrag 3374/A vom Berichterstatterpult aus zu verlesen.– Bitte. ("
+                  "text": "Ich darf dementsprechend Frau Abgeordnete Steinacker ersuchen, den Antrag 3373/A , und Abgeordneten Zanger, den Antrag 3374/A vom Berichterstatterpult aus zu verlesen.– Bitte. (",
+                  "timeStart": "154.840",
+                  "timeEnd": "181.520"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "181.520",
+                  "timeEnd": "182.160"
                 },
                 {
-                  "text": "Martin Graf: Das war ein Schallmeiner-Schurkenstück! –"
+                  "text": "Martin Graf: Das war ein Schallmeiner-Schurkenstück! –",
+                  "timeStart": "182.160",
+                  "timeEnd": "188.520"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "188.520",
+                  "timeEnd": "188.720"
                 },
                 {
-                  "text": "Schallmeiner: ... kennt sich der Herr Graf aus, mit den Schurkenstücken! –"
+                  "text": "Schallmeiner: ... kennt sich der Herr Graf aus, mit den Schurkenstücken! –",
+                  "timeStart": "188.720",
+                  "timeEnd": "194.460"
                 },
                 {
-                  "text": "Unruhe im Saal. –"
+                  "text": "Unruhe im Saal. –",
+                  "timeStart": "194.460",
+                  "timeEnd": "195.520"
                 },
                 {
-                  "text": "Der Präsident gibt das Glockenzeichen.)"
+                  "text": "Der Präsident gibt das Glockenzeichen.)",
+                  "timeStart": "195.520",
+                  "timeEnd": "197.960"
                 }
               ],
               "text": "Ich darf dementsprechend Frau Abgeordnete Steinacker ersuchen, den Antrag 3373/A , und Abgeordneten Zanger, den Antrag 3374/A vom Berichterstatterpult aus zu verlesen.– Bitte. (Abg. Martin Graf: Das war ein Schallmeiner-Schurkenstück! – Abg. Schallmeiner: ... kennt sich der Herr Graf aus, mit den Schurkenstücken! – Unruhe im Saal. – Der Präsident gibt das Glockenzeichen.)"
@@ -640,7 +796,8 @@
         "mediaIndex": 2,
         "stdId": 296032,
         "debatteId": 300,
-        "proceedingIndex": 296032
+        "proceedingIndex": 296032,
+        "alignDuration": 0.6949269771575928
       },
       "originalLanguage": "de"
     },
@@ -668,7 +825,8 @@
         "originMediaID": "296205",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/4888cff3-a3b0-4c5c-8e8d-3ba3d2b3c704/4888cff3-a3b0-4c5c-8e8d-3ba3d2b3c704.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/4888cff3-a3b0-4c5c-8e8d-3ba3d2b3c704/4888cff3-a3b0-4c5c-8e8d-3ba3d2b3c704.mp3",
-        "duration": 197
+        "duration": 197,
+        "aligned": true
       },
       "dateStart": "2023-05-12T15:49:12",
       "dateEnd": "2023-05-12T15:52:29",
@@ -710,7 +868,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "15.49"
+                  "text": "15.49",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.080"
                 }
               ],
               "text": "15.49"
@@ -721,10 +881,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Schriftführerin Mag."
+                  "text": "Schriftführerin Mag.",
+                  "timeStart": "2.080",
+                  "timeEnd": "2.320"
                 },
                 {
-                  "text": "Michaela Steinacker : Ich darf verlesen:"
+                  "text": "Michaela Steinacker : Ich darf verlesen:",
+                  "timeStart": "2.320",
+                  "timeEnd": "3.200"
                 }
               ],
               "text": "Schriftführerin Mag. Michaela Steinacker : Ich darf verlesen:"
@@ -735,7 +899,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Antrag"
+                  "text": "Antrag",
+                  "timeStart": "3.200",
+                  "timeEnd": "3.560"
                 }
               ],
               "text": "Antrag"
@@ -746,13 +912,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "der Abgeordneten Mag."
+                  "text": "der Abgeordneten Mag.",
+                  "timeStart": "3.560",
+                  "timeEnd": "4.040"
                 },
                 {
-                  "text": "Andreas Hanger , Mag."
+                  "text": "Andreas Hanger , Mag.",
+                  "timeStart": "4.040",
+                  "timeEnd": "4.960"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen",
+                  "timeStart": "4.960",
+                  "timeEnd": "7.040"
                 }
               ],
               "text": "der Abgeordneten Mag. Andreas Hanger , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen"
@@ -763,7 +935,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "betreffend ein Bundesgesetz, mit dem das Erdgasabgabegesetz, das Elektrizitätsabgabegesetz und das Bundesgesetzes über den Energiekrisenbeitrag-Strom geändert werden"
+                  "text": "betreffend ein Bundesgesetz, mit dem das Erdgasabgabegesetz, das Elektrizitätsabgabegesetz und das Bundesgesetzes über den Energiekrisenbeitrag-Strom geändert werden",
+                  "timeStart": "7.040",
+                  "timeEnd": "16.960"
                 }
               ],
               "text": "betreffend ein Bundesgesetz, mit dem das Erdgasabgabegesetz, das Elektrizitätsabgabegesetz und das Bundesgesetzes über den Energiekrisenbeitrag-Strom geändert werden"
@@ -774,7 +948,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Der Nationalrat wolle beschließen:"
+                  "text": "Der Nationalrat wolle beschließen:",
+                  "timeStart": "16.960",
+                  "timeEnd": "18.520"
                 }
               ],
               "text": "Der Nationalrat wolle beschließen:"
@@ -785,7 +961,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "wiederum zuvor genanntes Bundesgesetz."
+                  "text": "wiederum zuvor genanntes Bundesgesetz.",
+                  "timeStart": "18.520",
+                  "timeEnd": "20.680"
                 }
               ],
               "text": "wiederum zuvor genanntes Bundesgesetz."
@@ -796,7 +974,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Artikel 1"
+                  "text": "Artikel 1",
+                  "timeStart": "20.680",
+                  "timeEnd": "21.880"
                 }
               ],
               "text": "Artikel 1"
@@ -807,7 +987,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Änderung des Erdgasabgabegesetzes"
+                  "text": "Änderung des Erdgasabgabegesetzes",
+                  "timeStart": "21.880",
+                  "timeEnd": "24.040"
                 }
               ],
               "text": "Änderung des Erdgasabgabegesetzes"
@@ -818,13 +1000,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Das Erdgasabgabegesetz, BGBl."
+                  "text": "Das Erdgasabgabegesetz, BGBl.",
+                  "timeStart": "24.040",
+                  "timeEnd": "26.080"
                 },
                 {
-                  "text": "Nr. 201/1996, zuletzt geändert durch das [...] BGBl."
+                  "text": "Nr. 201/1996, zuletzt geändert durch das [...] BGBl.",
+                  "timeStart": "26.080",
+                  "timeEnd": "30.200"
                 },
                 {
-                  "text": "I Nr. 63/2022, wird wie folgt geändert:"
+                  "text": "I Nr. 63/2022, wird wie folgt geändert:",
+                  "timeStart": "30.200",
+                  "timeEnd": "33.720"
                 }
               ],
               "text": "Das Erdgasabgabegesetz, BGBl. Nr. 201/1996, zuletzt geändert durch das [...] BGBl. I Nr. 63/2022, wird wie folgt geändert:"
@@ -835,7 +1023,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "In § 8 Abs. 6 wird das Datum „1. Juli 2023“ durch das Datum „1. Jänner 2024“ ersetzt."
+                  "text": "In § 8 Abs. 6 wird das Datum „1. Juli 2023“ durch das Datum „1. Jänner 2024“ ersetzt.",
+                  "timeStart": "33.720",
+                  "timeEnd": "40.840"
                 }
               ],
               "text": "In § 8 Abs. 6 wird das Datum „1. Juli 2023“ durch das Datum „1. Jänner 2024“ ersetzt."
@@ -846,7 +1036,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Artikel 2"
+                  "text": "Artikel 2",
+                  "timeStart": "40.840",
+                  "timeEnd": "41.840"
                 }
               ],
               "text": "Artikel 2"
@@ -857,7 +1049,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Änderung des Elektrizitätsabgabegesetzes"
+                  "text": "Änderung des Elektrizitätsabgabegesetzes",
+                  "timeStart": "41.840",
+                  "timeEnd": "44.120"
                 }
               ],
               "text": "Änderung des Elektrizitätsabgabegesetzes"
@@ -868,13 +1062,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Das Elektrizitätsabgabegesetz, BGBl."
+                  "text": "Das Elektrizitätsabgabegesetz, BGBl.",
+                  "timeStart": "44.120",
+                  "timeEnd": "46.000"
                 },
                 {
-                  "text": "Nr. 201/1996, zuletzt geändert durch das Bundesgesetz BGBl."
+                  "text": "Nr. 201/1996, zuletzt geändert durch das Bundesgesetz BGBl.",
+                  "timeStart": "46.000",
+                  "timeEnd": "50.880"
                 },
                 {
-                  "text": "I Nr. 108/2022, wird wie folgt geändert:"
+                  "text": "I Nr. 108/2022, wird wie folgt geändert:",
+                  "timeStart": "50.880",
+                  "timeEnd": "54.240"
                 }
               ],
               "text": "Das Elektrizitätsabgabegesetz, BGBl. Nr. 201/1996, zuletzt geändert durch das Bundesgesetz BGBl. I Nr. 108/2022, wird wie folgt geändert:"
@@ -885,7 +1085,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "In § 7 Abs. 11 und 12 wird jeweils das Datum „1. Juli 2023“ durch das Datum „1. Jänner 2024“ ersetzt."
+                  "text": "In § 7 Abs. 11 und 12 wird jeweils das Datum „1. Juli 2023“ durch das Datum „1. Jänner 2024“ ersetzt.",
+                  "timeStart": "54.240",
+                  "timeEnd": "61.320"
                 }
               ],
               "text": "In § 7 Abs. 11 und 12 wird jeweils das Datum „1. Juli 2023“ durch das Datum „1. Jänner 2024“ ersetzt."
@@ -896,7 +1098,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Artikel 3"
+                  "text": "Artikel 3",
+                  "timeStart": "61.320",
+                  "timeEnd": "62.360"
                 }
               ],
               "text": "Artikel 3"
@@ -907,7 +1111,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Änderung des Bundesgesetzes über den Energiekrisenbeitrag-Strom"
+                  "text": "Änderung des Bundesgesetzes über den Energiekrisenbeitrag-Strom",
+                  "timeStart": "62.360",
+                  "timeEnd": "67.520"
                 }
               ],
               "text": "Änderung des Bundesgesetzes über den Energiekrisenbeitrag-Strom"
@@ -918,7 +1124,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Das Bundesgesetz [...] wird wie folgt geändert:"
+                  "text": "Das Bundesgesetz [...] wird wie folgt geändert:",
+                  "timeStart": "67.520",
+                  "timeEnd": "70.880"
                 }
               ],
               "text": "Das Bundesgesetz [...] wird wie folgt geändert:"
@@ -929,7 +1137,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "1. § 3 Abs. 2 wird wie folgt geändert:"
+                  "text": "1. § 3 Abs. 2 wird wie folgt geändert:",
+                  "timeStart": "70.880",
+                  "timeEnd": "73.120"
                 }
               ],
               "text": "1. § 3 Abs. 2 wird wie folgt geändert:"
@@ -940,7 +1150,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "a) Z 1 lautet:"
+                  "text": "a) Z 1 lautet:",
+                  "timeStart": "73.120",
+                  "timeEnd": "75.120"
                 }
               ],
               "text": "a) Z 1 lautet:"
@@ -951,7 +1163,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„1. Überschusserlöse: eine positive Differenz zwischen den Markterlösen des Beitragsschuldners je MWh Strom und der jeweiligen Obergrenze für Markterlöse gemäß Z 3.“"
+                  "text": "„1. Überschusserlöse: eine positive Differenz zwischen den Markterlösen des Beitragsschuldners je MWh Strom und der jeweiligen Obergrenze für Markterlöse gemäß Z 3.“",
+                  "timeStart": "75.120",
+                  "timeEnd": "86.320"
                 }
               ],
               "text": "„1. Überschusserlöse: eine positive Differenz zwischen den Markterlösen des Beitragsschuldners je MWh Strom und der jeweiligen Obergrenze für Markterlöse gemäß Z 3.“"
@@ -962,7 +1176,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "b) Es wird folgende Z 3 angefügt:"
+                  "text": "b) Es wird folgende Z 3 angefügt:",
+                  "timeStart": "86.320",
+                  "timeEnd": "88.320"
                 }
               ],
               "text": "b) Es wird folgende Z 3 angefügt:"
@@ -973,7 +1189,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„3. Obergrenze für Markterlöse:"
+                  "text": "„3. Obergrenze für Markterlöse:",
+                  "timeStart": "88.320",
+                  "timeEnd": "90.120"
                 }
               ],
               "text": "„3. Obergrenze für Markterlöse:"
@@ -984,7 +1202,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "a) für Überschusserlöse, die von 1. Dezember 2022 bis 31. Mai 2023 erzielt wurden, beträgt die Obergrenze 140 Euro je MWh Strom;"
+                  "text": "a) für Überschusserlöse, die von 1. Dezember 2022 bis 31. Mai 2023 erzielt wurden, beträgt die Obergrenze 140 Euro je MWh Strom;",
+                  "timeStart": "90.120",
+                  "timeEnd": "98.960"
                 }
               ],
               "text": "a) für Überschusserlöse, die von 1. Dezember 2022 bis 31. Mai 2023 erzielt wurden, beträgt die Obergrenze 140 Euro je MWh Strom;"
@@ -995,7 +1215,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "b) für Überschusserlöse, die nach dem 31. Mai 2023 erzielt wurden, beträgt die Obergrenze 120 Euro je MWh Strom.“"
+                  "text": "b) für Überschusserlöse, die nach dem 31. Mai 2023 erzielt wurden, beträgt die Obergrenze 120 Euro je MWh Strom.“",
+                  "timeStart": "98.960",
+                  "timeEnd": "106.040"
                 }
               ],
               "text": "b) für Überschusserlöse, die nach dem 31. Mai 2023 erzielt wurden, beträgt die Obergrenze 120 Euro je MWh Strom.“"
@@ -1006,7 +1228,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "2. In § 4 Abs. 2 wird der letzte Satz durch folgenden Satz ersetzt:"
+                  "text": "2. In § 4 Abs. 2 wird der letzte Satz durch folgenden Satz ersetzt:",
+                  "timeStart": "106.040",
+                  "timeEnd": "110.520"
                 }
               ],
               "text": "2. In § 4 Abs. 2 wird der letzte Satz durch folgenden Satz ersetzt:"
@@ -1017,7 +1241,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„In Fällen des § 3 Abs. 3 kann der Absetzbetrag ebenfalls berücksichtigt werden, wobei für"
+                  "text": "„In Fällen des § 3 Abs. 3 kann der Absetzbetrag ebenfalls berücksichtigt werden, wobei für",
+                  "timeStart": "110.520",
+                  "timeEnd": "116.000"
                 }
               ],
               "text": "„In Fällen des § 3 Abs. 3 kann der Absetzbetrag ebenfalls berücksichtigt werden, wobei für"
@@ -1028,7 +1254,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "– den Zeitraum von 1. Dezember 2022 bis 31. Mai 2023 bei Erzeugungskosten zwischen 140 Euro und 180 Euro je MWh Strom und"
+                  "text": "– den Zeitraum von 1. Dezember 2022 bis 31. Mai 2023 bei Erzeugungskosten zwischen 140 Euro und 180 Euro je MWh Strom und",
+                  "timeStart": "116.000",
+                  "timeEnd": "125.840"
                 }
               ],
               "text": "– den Zeitraum von 1. Dezember 2022 bis 31. Mai 2023 bei Erzeugungskosten zwischen 140 Euro und 180 Euro je MWh Strom und"
@@ -1039,7 +1267,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "– den Zeitraum nach dem 31. Mai 2023 bei Erzeugungskosten zwischen 120 Euro und 180 Euro je MWh Strom"
+                  "text": "– den Zeitraum nach dem 31. Mai 2023 bei Erzeugungskosten zwischen 120 Euro und 180 Euro je MWh Strom",
+                  "timeStart": "125.840",
+                  "timeEnd": "134.400"
                 }
               ],
               "text": "– den Zeitraum nach dem 31. Mai 2023 bei Erzeugungskosten zwischen 120 Euro und 180 Euro je MWh Strom"
@@ -1050,16 +1280,24 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "die Obergrenze von 180 Euro nicht überschritten werden darf.“ ("
+                  "text": "die Obergrenze von 180 Euro nicht überschritten werden darf.“ (",
+                  "timeStart": "134.400",
+                  "timeEnd": "137.120"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "137.120",
+                  "timeEnd": "137.520"
                 },
                 {
-                  "text": "Höfinger: Hafenecker, pass auf!"
+                  "text": "Höfinger: Hafenecker, pass auf!",
+                  "timeStart": "137.520",
+                  "timeEnd": "138.320"
                 },
                 {
-                  "text": "Hafi, pass auf, sonst weißt du es wieder nicht!)"
+                  "text": "Hafi, pass auf, sonst weißt du es wieder nicht!)",
+                  "timeStart": "138.320",
+                  "timeEnd": "140.600"
                 }
               ],
               "text": "die Obergrenze von 180 Euro nicht überschritten werden darf.“ (Abg. Höfinger: Hafenecker, pass auf! Hafi, pass auf, sonst weißt du es wieder nicht!)"
@@ -1070,7 +1308,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "3. § 11 wird wie folgt geändert:"
+                  "text": "3. § 11 wird wie folgt geändert:",
+                  "timeStart": "140.600",
+                  "timeEnd": "143.320"
                 }
               ],
               "text": "3. § 11 wird wie folgt geändert:"
@@ -1081,7 +1321,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "a) Die bisherige Wortfolge erhält die Absatzbezeichnung „(1)“."
+                  "text": "a) Die bisherige Wortfolge erhält die Absatzbezeichnung „(1)“.",
+                  "timeStart": "143.320",
+                  "timeEnd": "146.440"
                 }
               ],
               "text": "a) Die bisherige Wortfolge erhält die Absatzbezeichnung „(1)“."
@@ -1092,7 +1334,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "b) Nach Abs. 1 wird folgender Abs. 2 angefügt:"
+                  "text": "b) Nach Abs. 1 wird folgender Abs. 2 angefügt:",
+                  "timeStart": "146.440",
+                  "timeEnd": "149.400"
                 }
               ],
               "text": "b) Nach Abs. 1 wird folgender Abs. 2 angefügt:"
@@ -1103,10 +1347,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„(2) § 3 Abs. 2 und § 4 Abs. 2, jeweils in der Fassung des Bundesgesetzes BGBl."
+                  "text": "„(2) § 3 Abs. 2 und § 4 Abs. 2, jeweils in der Fassung des Bundesgesetzes BGBl.",
+                  "timeStart": "149.400",
+                  "timeEnd": "155.640"
                 },
                 {
-                  "text": "I Nr. xx/2023, treten mit 1. Juni 2023 in Kraft.“"
+                  "text": "I Nr. xx/2023, treten mit 1. Juni 2023 in Kraft.“",
+                  "timeStart": "155.640",
+                  "timeEnd": "161.000"
                 }
               ],
               "text": "„(2) § 3 Abs. 2 und § 4 Abs. 2, jeweils in der Fassung des Bundesgesetzes BGBl. I Nr. xx/2023, treten mit 1. Juni 2023 in Kraft.“"
@@ -1117,16 +1365,24 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Das war der Text. ("
+                  "text": "Das war der Text. (",
+                  "timeStart": "161.000",
+                  "timeEnd": "162.320"
                 },
                 {
-                  "text": "Ruf bei der ÖVP – in Richtung FPÖ –: Ihr müsst schon aufpassen, weil wir verlesen das ja wegen euch! –"
+                  "text": "Ruf bei der ÖVP – in Richtung FPÖ –: Ihr müsst schon aufpassen, weil wir verlesen das ja wegen euch! –",
+                  "timeStart": "162.320",
+                  "timeEnd": "171.440"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "171.440",
+                  "timeEnd": "172.120"
                 },
                 {
-                  "text": "Belakowitsch: Das ist ein bisschen ein Scherz, oder?)"
+                  "text": "Belakowitsch: Das ist ein bisschen ein Scherz, oder?)",
+                  "timeStart": "172.120",
+                  "timeEnd": "180.880"
                 }
               ],
               "text": "Das war der Text. (Ruf bei der ÖVP – in Richtung FPÖ –: Ihr müsst schon aufpassen, weil wir verlesen das ja wegen euch! – Abg. Belakowitsch: Das ist ein bisschen ein Scherz, oder?)"
@@ -1137,7 +1393,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "15.51"
+                  "text": "15.51",
+                  "timeStart": "180.880",
+                  "timeEnd": "184.360"
                 }
               ],
               "text": "15.51"
@@ -1148,7 +1406,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Danke schön."
+                  "text": "Danke schön.",
+                  "timeStart": "184.360",
+                  "timeEnd": "185.040"
                 }
               ],
               "text": "Danke schön."
@@ -1159,10 +1419,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ist Frau Cornelia Ecker im Saal? –"
+                  "text": "Ist Frau Cornelia Ecker im Saal? –",
+                  "timeStart": "185.040",
+                  "timeEnd": "186.580"
                 },
                 {
-                  "text": "Nein."
+                  "text": "Nein.",
+                  "timeStart": "186.580",
+                  "timeEnd": "188.380"
                 }
               ],
               "text": "Ist Frau Cornelia Ecker im Saal? – Nein."
@@ -1173,13 +1437,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Haben wir noch einen Schriftführer? ("
+                  "text": "Haben wir noch einen Schriftführer? (",
+                  "timeStart": "188.380",
+                  "timeEnd": "191.300"
                 },
                 {
-                  "text": "Rufe bei den Grünen: Schallmeiner!) –"
+                  "text": "Rufe bei den Grünen: Schallmeiner!) –",
+                  "timeStart": "191.300",
+                  "timeEnd": "195.740"
                 },
                 {
-                  "text": "Abgeordneter Schallmeiner, bitte."
+                  "text": "Abgeordneter Schallmeiner, bitte.",
+                  "timeStart": "195.740",
+                  "timeEnd": "198.000"
                 }
               ],
               "text": "Haben wir noch einen Schriftführer? (Rufe bei den Grünen: Schallmeiner!) – Abgeordneter Schallmeiner, bitte."
@@ -1191,7 +1461,8 @@
         "mediaIndex": 3,
         "stdId": 296205,
         "debatteId": 300,
-        "proceedingIndex": 296205
+        "proceedingIndex": 296205,
+        "alignDuration": 0.7912471294403076
       },
       "originalLanguage": "de"
     },
@@ -1219,7 +1490,8 @@
         "originMediaID": "296096",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/57c5fd97-297e-421d-828c-90ce23800c58/57c5fd97-297e-421d-828c-90ce23800c58.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/57c5fd97-297e-421d-828c-90ce23800c58/57c5fd97-297e-421d-828c-90ce23800c58.mp3",
-        "duration": 142
+        "duration": 142,
+        "aligned": true
       },
       "dateStart": "2023-05-12T15:52:29",
       "dateEnd": "2023-05-12T15:54:51",
@@ -1250,7 +1522,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "15.52"
+                  "text": "15.52",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.320"
                 }
               ],
               "text": "15.52"
@@ -1261,7 +1535,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Schriftführer Ralph Schallmeiner :"
+                  "text": "Schriftführer Ralph Schallmeiner :",
+                  "timeStart": "2.320",
+                  "timeEnd": "3.400"
                 }
               ],
               "text": "Schriftführer Ralph Schallmeiner :"
@@ -1272,7 +1548,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Antrag"
+                  "text": "Antrag",
+                  "timeStart": "3.400",
+                  "timeEnd": "3.880"
                 }
               ],
               "text": "Antrag"
@@ -1283,7 +1561,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird"
+                  "text": "der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird",
+                  "timeStart": "3.880",
+                  "timeEnd": "7.560"
                 }
               ],
               "text": "der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird"
@@ -1294,7 +1574,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Der Nationalrat wolle beschließen:"
+                  "text": "Der Nationalrat wolle beschließen:",
+                  "timeStart": "7.560",
+                  "timeEnd": "9.520"
                 }
               ],
               "text": "Der Nationalrat wolle beschließen:"
@@ -1305,7 +1587,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird"
+                  "text": "Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird",
+                  "timeStart": "9.520",
+                  "timeEnd": "12.360"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird"
@@ -1316,7 +1600,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Der Nationalrat hat beschlossen:"
+                  "text": "Der Nationalrat hat beschlossen:",
+                  "timeStart": "12.360",
+                  "timeEnd": "13.480"
                 }
               ],
               "text": "Der Nationalrat hat beschlossen:"
@@ -1327,13 +1613,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Das Abfallwirtschaftsgesetz 2002 (AWG 2002), BGBl."
+                  "text": "Das Abfallwirtschaftsgesetz 2002 (AWG 2002), BGBl.",
+                  "timeStart": "13.480",
+                  "timeEnd": "18.080"
                 },
                 {
-                  "text": "I Nr. 102/2002, zuletzt geändert durch das Bundesgesetz BGBl."
+                  "text": "I Nr. 102/2002, zuletzt geändert durch das Bundesgesetz BGBl.",
+                  "timeStart": "18.080",
+                  "timeEnd": "22.720"
                 },
                 {
-                  "text": "I Nr. 200/2021, wird wie folgt geändert:"
+                  "text": "I Nr. 200/2021, wird wie folgt geändert:",
+                  "timeStart": "22.720",
+                  "timeEnd": "27.200"
                 }
               ],
               "text": "Das Abfallwirtschaftsgesetz 2002 (AWG 2002), BGBl. I Nr. 102/2002, zuletzt geändert durch das Bundesgesetz BGBl. I Nr. 200/2021, wird wie folgt geändert:"
@@ -1344,7 +1636,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "1. Im Inhaltsverzeichnis wird nach dem Eintrag zu § 11 folgender Eintrag zu § 11a eingefügt:"
+                  "text": "1. Im Inhaltsverzeichnis wird nach dem Eintrag zu § 11 folgender Eintrag zu § 11a eingefügt:",
+                  "timeStart": "27.200",
+                  "timeEnd": "34.280"
                 }
               ],
               "text": "1. Im Inhaltsverzeichnis wird nach dem Eintrag zu § 11 folgender Eintrag zu § 11a eingefügt:"
@@ -1355,10 +1649,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„§ 11a."
+                  "text": "„§ 11a.",
+                  "timeStart": "34.280",
+                  "timeEnd": "35.280"
                 },
                 {
-                  "text": "Transparenz zur Vermeidung der Lebensmittelverschwendung“"
+                  "text": "Transparenz zur Vermeidung der Lebensmittelverschwendung“",
+                  "timeStart": "35.280",
+                  "timeEnd": "38.480"
                 }
               ],
               "text": "„§ 11a. Transparenz zur Vermeidung der Lebensmittelverschwendung“"
@@ -1369,7 +1667,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "2. Nach § 11 wird folgender § 11a samt Überschrift eingefügt:"
+                  "text": "2. Nach § 11 wird folgender § 11a samt Überschrift eingefügt:",
+                  "timeStart": "38.480",
+                  "timeEnd": "42.960"
                 }
               ],
               "text": "2. Nach § 11 wird folgender § 11a samt Überschrift eingefügt:"
@@ -1380,7 +1680,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„Transparenz zur Vermeidung der Lebensmittelverschwendung"
+                  "text": "„Transparenz zur Vermeidung der Lebensmittelverschwendung",
+                  "timeStart": "42.960",
+                  "timeEnd": "45.320"
                 }
               ],
               "text": "„Transparenz zur Vermeidung der Lebensmittelverschwendung"
@@ -1391,10 +1693,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "§ 11a. ("
+                  "text": "§ 11a. (",
+                  "timeStart": "45.320",
+                  "timeEnd": "46.600"
                 },
                 {
-                  "text": "1) Lebensmitteleinzelhändler mit mindestens einer Verkaufsstelle über 400m2 oder mit mindestens fünf Verkaufsstellen und buchführungspflichtige Lebensmittelgroßhändler haben pro Kalenderquartal bis spätestens zum 10. des zweitfolgenden Monats folgende Daten zu melden:"
+                  "text": "1) Lebensmitteleinzelhändler mit mindestens einer Verkaufsstelle über 400m2 oder mit mindestens fünf Verkaufsstellen und buchführungspflichtige Lebensmittelgroßhändler haben pro Kalenderquartal bis spätestens zum 10. des zweitfolgenden Monats folgende Daten zu melden:",
+                  "timeStart": "46.600",
+                  "timeEnd": "60.000"
                 }
               ],
               "text": "§ 11a. (1) Lebensmitteleinzelhändler mit mindestens einer Verkaufsstelle über 400m2 oder mit mindestens fünf Verkaufsstellen und buchführungspflichtige Lebensmittelgroßhändler haben pro Kalenderquartal bis spätestens zum 10. des zweitfolgenden Monats folgende Daten zu melden:"
@@ -1405,7 +1711,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "a) die Masse der Lebensmittel, die unentgeltlich zum menschlichen Verzehr weitergegeben wurden (in Kilogramm Nettogewicht);"
+                  "text": "a) die Masse der Lebensmittel, die unentgeltlich zum menschlichen Verzehr weitergegeben wurden (in Kilogramm Nettogewicht);",
+                  "timeStart": "60.000",
+                  "timeEnd": "65.440"
                 }
               ],
               "text": "a) die Masse der Lebensmittel, die unentgeltlich zum menschlichen Verzehr weitergegeben wurden (in Kilogramm Nettogewicht);"
@@ -1416,7 +1724,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "b) die Masse der Lebensmittel, die als Abfall weitergegeben wurden (in Kilogramm Nettogewicht), sofern möglich untergliedert nach Warengruppen."
+                  "text": "b) die Masse der Lebensmittel, die als Abfall weitergegeben wurden (in Kilogramm Nettogewicht), sofern möglich untergliedert nach Warengruppen.",
+                  "timeStart": "65.440",
+                  "timeEnd": "72.800"
                 }
               ],
               "text": "b) die Masse der Lebensmittel, die als Abfall weitergegeben wurden (in Kilogramm Nettogewicht), sofern möglich untergliedert nach Warengruppen."
@@ -1427,13 +1737,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Diese Daten sind in automationsunterstützt verarbeitbarer Form und elektronisch – soweit eingerichtet im Wege des Registers gemäß § 22 Abs. 1 – an die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie zu übermitteln."
+                  "text": "Diese Daten sind in automationsunterstützt verarbeitbarer Form und elektronisch – soweit eingerichtet im Wege des Registers gemäß § 22 Abs. 1 – an die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie zu übermitteln.",
+                  "timeStart": "72.800",
+                  "timeEnd": "88.320"
                 },
                 {
-                  "text": "Diese Meldung hat erstmalig für das vierte Kalenderquartal 2023 zu erfolgen."
+                  "text": "Diese Meldung hat erstmalig für das vierte Kalenderquartal 2023 zu erfolgen.",
+                  "timeStart": "88.320",
+                  "timeEnd": "93.040"
                 },
                 {
-                  "text": "Die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie veröffentlicht vierteljährlich einen Bericht über die gemeldeten Daten.“"
+                  "text": "Die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie veröffentlicht vierteljährlich einen Bericht über die gemeldeten Daten.“",
+                  "timeStart": "93.040",
+                  "timeEnd": "99.920"
                 }
               ],
               "text": "Diese Daten sind in automationsunterstützt verarbeitbarer Form und elektronisch – soweit eingerichtet im Wege des Registers gemäß § 22 Abs. 1 – an die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie zu übermitteln. Diese Meldung hat erstmalig für das vierte Kalenderquartal 2023 zu erfolgen. Die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie veröffentlicht vierteljährlich einen Bericht über die gemeldeten Daten.“"
@@ -1444,7 +1760,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "3. Im § 75 Abs. 2 wird vor dem Zitat „13 bis 13f“ das Zitat „11a,“ eingefügt."
+                  "text": "3. Im § 75 Abs. 2 wird vor dem Zitat „13 bis 13f“ das Zitat „11a,“ eingefügt.",
+                  "timeStart": "99.920",
+                  "timeEnd": "107.480"
                 }
               ],
               "text": "3. Im § 75 Abs. 2 wird vor dem Zitat „13 bis 13f“ das Zitat „11a,“ eingefügt."
@@ -1455,13 +1773,19 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "4. Im § 79 Abs. 3 Z 1 wird nach dem Zitat „§ 7 Abs. 1 oder 7,“ das Zitat „§ 11a,“ eingefügt. ("
+                  "text": "4. Im § 79 Abs. 3 Z 1 wird nach dem Zitat „§ 7 Abs. 1 oder 7,“ das Zitat „§ 11a,“ eingefügt. (",
+                  "timeStart": "107.480",
+                  "timeEnd": "117.240"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "117.240",
+                  "timeEnd": "117.240"
                 },
                 {
-                  "text": "Belakowitsch: Superinteressant!)"
+                  "text": "Belakowitsch: Superinteressant!)",
+                  "timeStart": "117.240",
+                  "timeEnd": "117.640"
                 }
               ],
               "text": "4. Im § 79 Abs. 3 Z 1 wird nach dem Zitat „§ 7 Abs. 1 oder 7,“ das Zitat „§ 11a,“ eingefügt. (Abg. Belakowitsch: Superinteressant!)"
@@ -1472,7 +1796,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "5. Dem § 91 wird folgender Abs. 48 angefügt:"
+                  "text": "5. Dem § 91 wird folgender Abs. 48 angefügt:",
+                  "timeStart": "117.640",
+                  "timeEnd": "121.280"
                 }
               ],
               "text": "5. Dem § 91 wird folgender Abs. 48 angefügt:"
@@ -1483,10 +1809,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "„(48) Die Einträge im Inhaltsverzeichnis zu § 11a, § 11a samt Überschrift, § 75 Abs. 2 und § 79 Abs. 3 in der Fassung des Bundesgesetzes BGBl."
+                  "text": "„(48) Die Einträge im Inhaltsverzeichnis zu § 11a, § 11a samt Überschrift, § 75 Abs. 2 und § 79 Abs. 3 in der Fassung des Bundesgesetzes BGBl.",
+                  "timeStart": "121.280",
+                  "timeEnd": "131.320"
                 },
                 {
-                  "text": "I Nr. xxx treten mit dem der Kundmachtung folgenden Tag in Kraft.“"
+                  "text": "I Nr. xxx treten mit dem der Kundmachtung folgenden Tag in Kraft.“",
+                  "timeStart": "131.320",
+                  "timeEnd": "132.320"
                 }
               ],
               "text": "„(48) Die Einträge im Inhaltsverzeichnis zu § 11a, § 11a samt Überschrift, § 75 Abs. 2 und § 79 Abs. 3 in der Fassung des Bundesgesetzes BGBl. I Nr. xxx treten mit dem der Kundmachtung folgenden Tag in Kraft.“"
@@ -1497,28 +1827,44 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Die Begründung können wir uns, glaube ich, sparen. ("
+                  "text": "Die Begründung können wir uns, glaube ich, sparen. (",
+                  "timeStart": "132.320",
+                  "timeEnd": "133.240"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "133.240",
+                  "timeEnd": "133.280"
                 },
                 {
-                  "text": "Prinz: Bravo! –"
+                  "text": "Prinz: Bravo! –",
+                  "timeStart": "133.280",
+                  "timeEnd": "134.200"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "134.200",
+                  "timeEnd": "134.240"
                 },
                 {
-                  "text": "Belakowitsch: Ja, sparen wir es uns! –"
+                  "text": "Belakowitsch: Ja, sparen wir es uns! –",
+                  "timeStart": "134.240",
+                  "timeEnd": "137.080"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "137.080",
+                  "timeEnd": "137.080"
                 },
                 {
-                  "text": "Krainer: Aber wieso brauchen die eine Frist?"
+                  "text": "Krainer: Aber wieso brauchen die eine Frist?",
+                  "timeStart": "137.080",
+                  "timeEnd": "138.840"
                 },
                 {
-                  "text": "Das soll ja erst im Oktober gelten!)"
+                  "text": "Das soll ja erst im Oktober gelten!)",
+                  "timeStart": "138.840",
+                  "timeEnd": "139.760"
                 }
               ],
               "text": "Die Begründung können wir uns, glaube ich, sparen. (Abg. Prinz: Bravo! – Abg. Belakowitsch: Ja, sparen wir es uns! – Abg. Krainer: Aber wieso brauchen die eine Frist? Das soll ja erst im Oktober gelten!)"
@@ -1529,7 +1875,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "15.54"
+                  "text": "15.54",
+                  "timeStart": "139.760",
+                  "timeEnd": "141.960"
                 }
               ],
               "text": "15.54"
@@ -1541,7 +1889,8 @@
         "mediaIndex": 4,
         "stdId": 296096,
         "debatteId": 300,
-        "proceedingIndex": 296096
+        "proceedingIndex": 296096,
+        "alignDuration": 0.6493456363677979
       },
       "originalLanguage": "de"
     },
@@ -1569,7 +1918,8 @@
         "originMediaID": "296074",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/297afc01-2d95-427d-b106-0026d3a01e87/297afc01-2d95-427d-b106-0026d3a01e87.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/297afc01-2d95-427d-b106-0026d3a01e87/297afc01-2d95-427d-b106-0026d3a01e87.mp3",
-        "duration": 102
+        "duration": 102,
+        "aligned": true
       },
       "dateStart": "2023-05-12T15:54:51",
       "dateEnd": "2023-05-12T15:56:33",
@@ -1601,7 +1951,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.840"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -1612,7 +1964,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Danke schön."
+                  "text": "Danke schön.",
+                  "timeStart": "1.840",
+                  "timeEnd": "2.880"
                 }
               ],
               "text": "Danke schön."
@@ -1623,7 +1977,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf fortfahren."
+                  "text": "Ich darf fortfahren.",
+                  "timeStart": "2.880",
+                  "timeEnd": "4.240"
                 }
               ],
               "text": "Ich darf fortfahren."
@@ -1634,7 +1990,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Das sind die Fristsetzungsanträge, die vorliegen: der Antrag des Abgeordneten Linder, dem Verkehrsausschuss zur Berichterstattung über den Antrag 2218/A(E) eine Frist bis zum 24. Mai zu setzen,"
+                  "text": "Das sind die Fristsetzungsanträge, die vorliegen: der Antrag des Abgeordneten Linder, dem Verkehrsausschuss zur Berichterstattung über den Antrag 2218/A(E) eine Frist bis zum 24. Mai zu setzen,",
+                  "timeStart": "4.240",
+                  "timeEnd": "16.040"
                 }
               ],
               "text": "Das sind die Fristsetzungsanträge, die vorliegen: der Antrag des Abgeordneten Linder, dem Verkehrsausschuss zur Berichterstattung über den Antrag 2218/A(E) eine Frist bis zum 24. Mai zu setzen,"
@@ -1645,7 +2003,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "der Antrag der Abgeordneten Hanger und Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3373/A eine Frist bis zum 24. Mai zu setzen, sowie"
+                  "text": "der Antrag der Abgeordneten Hanger und Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3373/A eine Frist bis zum 24. Mai zu setzen, sowie",
+                  "timeStart": "16.040",
+                  "timeEnd": "25.840"
                 }
               ],
               "text": "der Antrag der Abgeordneten Hanger und Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3373/A eine Frist bis zum 24. Mai zu setzen, sowie"
@@ -1656,7 +2016,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "der Antrag der Abgeordneten Schmuckenschlager und Rössler, dem Umweltausschuss zur Berichterstattung über den Antrag 3374/A eine Frist bis zum 23. Mai zu setzen."
+                  "text": "der Antrag der Abgeordneten Schmuckenschlager und Rössler, dem Umweltausschuss zur Berichterstattung über den Antrag 3374/A eine Frist bis zum 23. Mai zu setzen.",
+                  "timeStart": "25.840",
+                  "timeEnd": "34.800"
                 }
               ],
               "text": "der Antrag der Abgeordneten Schmuckenschlager und Rössler, dem Umweltausschuss zur Berichterstattung über den Antrag 3374/A eine Frist bis zum 23. Mai zu setzen."
@@ -1667,7 +2029,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "34.800",
+                  "timeEnd": "41.560"
                 }
               ],
               "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -1678,7 +2042,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen daher zur Abstimmung über den Antrag des Abgeordneten Linder, dem Verkehrsausschuss zur Berichterstattung über den Antrag 2218/A(E) eine Frist bis zum 24. Mai 2023 zu setzen."
+                  "text": "Wir kommen daher zur Abstimmung über den Antrag des Abgeordneten Linder, dem Verkehrsausschuss zur Berichterstattung über den Antrag 2218/A(E) eine Frist bis zum 24. Mai 2023 zu setzen.",
+                  "timeStart": "41.560",
+                  "timeEnd": "52.240"
                 }
               ],
               "text": "Wir kommen daher zur Abstimmung über den Antrag des Abgeordneten Linder, dem Verkehrsausschuss zur Berichterstattung über den Antrag 2218/A(E) eine Frist bis zum 24. Mai 2023 zu setzen."
@@ -1689,10 +2055,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –"
+                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –",
+                  "timeStart": "52.240",
+                  "timeEnd": "55.360"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "55.360",
+                  "timeEnd": "56.960"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. – Das ist die Minderheit, abgelehnt."
@@ -1703,7 +2073,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Hanger, Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3373/A eine Frist bis zum 24. Mai 2023 zu setzen."
+                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Hanger, Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3373/A eine Frist bis zum 24. Mai 2023 zu setzen.",
+                  "timeStart": "56.960",
+                  "timeEnd": "67.960"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Hanger, Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3373/A eine Frist bis zum 24. Mai 2023 zu setzen."
@@ -1714,10 +2086,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –"
+                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –",
+                  "timeStart": "67.960",
+                  "timeEnd": "71.080"
                 },
                 {
-                  "text": "Das ist die Mehrheit, angenommen."
+                  "text": "Das ist die Mehrheit, angenommen.",
+                  "timeStart": "71.080",
+                  "timeEnd": "73.440"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. – Das ist die Mehrheit, angenommen."
@@ -1728,7 +2104,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Schmuckenschlager, Rössler, dem Umweltausschuss zur Berichterstattung über den Antrag 3374/A eine Frist bis zum 23. Mai zu setzen."
+                  "text": "Antrag der Abgeordneten Schmuckenschlager, Rössler, dem Umweltausschuss zur Berichterstattung über den Antrag 3374/A eine Frist bis zum 23. Mai zu setzen.",
+                  "timeStart": "73.440",
+                  "timeEnd": "83.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Schmuckenschlager, Rössler, dem Umweltausschuss zur Berichterstattung über den Antrag 3374/A eine Frist bis zum 23. Mai zu setzen."
@@ -1739,10 +2117,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, wird um ein dementsprechendes Zeichen gebeten. –"
+                  "text": "Wer dafür ist, wird um ein dementsprechendes Zeichen gebeten. –",
+                  "timeStart": "83.520",
+                  "timeEnd": "86.200"
                 },
                 {
-                  "text": "Das ist die Mehrheit , angenommen."
+                  "text": "Das ist die Mehrheit , angenommen.",
+                  "timeStart": "86.200",
+                  "timeEnd": "88.240"
                 }
               ],
               "text": "Wer dafür ist, wird um ein dementsprechendes Zeichen gebeten. – Das ist die Mehrheit , angenommen."
@@ -1753,7 +2135,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "88.240",
+                  "timeEnd": "97.200"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen."
@@ -1764,7 +2148,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Danke schön, kommen Sie gut nach Hause!"
+                  "text": "Danke schön, kommen Sie gut nach Hause!",
+                  "timeStart": "97.200",
+                  "timeEnd": "99.600"
                 }
               ],
               "text": "Danke schön, kommen Sie gut nach Hause!"
@@ -1775,7 +2161,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist damit geschlossen."
+                  "text": "Die Sitzung ist damit geschlossen.",
+                  "timeStart": "99.600",
+                  "timeEnd": "101.960"
                 }
               ],
               "text": "Die Sitzung ist damit geschlossen."
@@ -1787,7 +2175,8 @@
         "mediaIndex": 5,
         "stdId": 296074,
         "debatteId": 310,
-        "proceedingIndex": 296074
+        "proceedingIndex": 296074,
+        "alignDuration": 0.5481410026550293
       },
       "originalLanguage": "de"
     }

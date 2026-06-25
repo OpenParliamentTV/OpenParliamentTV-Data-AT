@@ -4,11 +4,11 @@
     "session": "27206",
     "dateStart": "2023-03-29T21:40:54",
     "dateEnd": "2023-03-29T21:41:36",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:05+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-24T14:07:30",
     "processing": {
       "merge": "2026-06-16T04:24:05+00:00",
-      "nel": "2026-06-16T06:24:25"
+      "align": "2026-06-24T14:07:30"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "293030",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/11dd478d-98ef-4f09-a984-f39ce4959d81/11dd478d-98ef-4f09-a984-f39ce4959d81.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/11dd478d-98ef-4f09-a984-f39ce4959d81/11dd478d-98ef-4f09-a984-f39ce4959d81.mp3",
-        "duration": 42
+        "duration": 42,
+        "aligned": true
       },
       "dateStart": "2023-03-29T21:40:54",
       "dateEnd": "2023-03-29T21:41:36",
@@ -68,10 +69,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 206. Sitzung."
+                  "text": "Ich eröffne die 206. Sitzung.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.400"
                 },
                 {
-                  "text": "Die Sitzung ist eröffnet."
+                  "text": "Die Sitzung ist eröffnet.",
+                  "timeStart": "1.400",
+                  "timeEnd": "1.840"
                 }
               ],
               "text": "Ich eröffne die 206. Sitzung. Die Sitzung ist eröffnet."
@@ -82,10 +87,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Hans Stefan Hintner , Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Hans Stefan Hintner , Mag.",
+                  "timeStart": "1.840",
+                  "timeEnd": "2.360"
                 },
                 {
-                  "text": "Maria Smodics-Neumann , Heike Grebien und Dipl.-Ing. Olga Voglauer ."
+                  "text": "Maria Smodics-Neumann , Heike Grebien und Dipl.-Ing. Olga Voglauer .",
+                  "timeStart": "2.360",
+                  "timeEnd": "2.840"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Hans Stefan Hintner , Mag. Maria Smodics-Neumann , Heike Grebien und Dipl.-Ing. Olga Voglauer ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "2.840",
+                  "timeEnd": "2.880"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen.",
+                  "timeStart": "2.880",
+                  "timeEnd": "4.040"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "4.040",
+                  "timeEnd": "4.120"
                 }
               ],
               "text": "Die Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "4.120",
+                  "timeEnd": "4.800"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Schriftliche Anfragen:"
+                  "text": "Schriftliche Anfragen:",
+                  "timeStart": "4.800",
+                  "timeEnd": "5.360"
                 }
               ],
               "text": "Schriftliche Anfragen:"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zurückziehung: 14605/J"
+                  "text": "Zurückziehung: 14605/J",
+                  "timeStart": "5.360",
+                  "timeEnd": "5.840"
                 }
               ],
               "text": "Zurückziehung: 14605/J"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "5.840",
+                  "timeEnd": "5.840"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "5.840",
+                  "timeEnd": "6.080"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "6.080",
+                  "timeEnd": "6.360"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Digitalisierung von Parkausweisen für Menschen mit Behinderungen ( 3261/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Digitalisierung von Parkausweisen für Menschen mit Behinderungen ( 3261/A(E) )",
+                  "timeStart": "6.360",
+                  "timeEnd": "6.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Digitalisierung von Parkausweisen für Menschen mit Behinderungen ( 3261/A(E) )"
@@ -206,7 +235,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Unterstützung für ältere Frauen am Arbeitsmarkt ( 3285/A(E) )"
+                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Unterstützung für ältere Frauen am Arbeitsmarkt ( 3285/A(E) )",
+                  "timeStart": "6.720",
+                  "timeEnd": "9.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Unterstützung für ältere Frauen am Arbeitsmarkt ( 3285/A(E) )"
@@ -217,7 +248,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "9.760",
+                  "timeEnd": "10.480"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -228,7 +261,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kulturgüterrestitution als Teil der österreichischen Afrikastrategie ( 3272/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kulturgüterrestitution als Teil der österreichischen Afrikastrategie ( 3272/A(E) )",
+                  "timeStart": "10.480",
+                  "timeEnd": "13.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kulturgüterrestitution als Teil der österreichischen Afrikastrategie ( 3272/A(E) )"
@@ -239,7 +274,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Bauten und Wohnen:"
+                  "text": "Ausschuss für Bauten und Wohnen:",
+                  "timeStart": "13.400",
+                  "timeEnd": "13.720"
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -250,10 +287,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "13.720",
+                  "timeEnd": "13.800"
                 },
                 {
-                  "text": "Ruth Becher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit das Wohnungsgemeinnützigkeitsgesetz (WGG) 1979 geändert wird ( 3259/A )"
+                  "text": "Ruth Becher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit das Wohnungsgemeinnützigkeitsgesetz (WGG) 1979 geändert wird ( 3259/A )",
+                  "timeStart": "13.800",
+                  "timeEnd": "15.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit das Wohnungsgemeinnützigkeitsgesetz (WGG) 1979 geändert wird ( 3259/A )"
@@ -264,7 +305,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "15.120",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -275,7 +318,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3280/A(E) )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3280/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3280/A(E) )"
@@ -286,7 +331,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -297,7 +344,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Abgabenquote in Richtung 40% senken ( 3268/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Abgabenquote in Richtung 40% senken ( 3268/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Abgabenquote in Richtung 40% senken ( 3268/A(E) )"
@@ -308,7 +357,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Mehr Aktivitätsanreize ins Steuer- und Abgabensystem ( 3269/A(E) )"
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Mehr Aktivitätsanreize ins Steuer- und Abgabensystem ( 3269/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Mehr Aktivitätsanreize ins Steuer- und Abgabensystem ( 3269/A(E) )"
@@ -319,10 +370,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Endlich die geplante Glücksspielreform umsetzen! ("
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Endlich die geplante Glücksspielreform umsetzen! (",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 },
                 {
-                  "text": "3270/A(E) )"
+                  "text": "3270/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Endlich die geplante Glücksspielreform umsetzen! ( 3270/A(E) )"
@@ -333,10 +388,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Überfällige Glücksspiel-Aufsicht endlich schaffen! ("
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Überfällige Glücksspiel-Aufsicht endlich schaffen! (",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 },
                 {
-                  "text": "3276/A(E) )"
+                  "text": "3276/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Überfällige Glücksspiel-Aufsicht endlich schaffen! ( 3276/A(E) )"
@@ -347,7 +406,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -358,10 +419,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 },
                 {
-                  "text": "Dr. Petra Oberrauner , Kolleginnen und Kollegen betreffend Angewandte Forschung in den Fachhochschulen stärken ( 3260/A(E) )"
+                  "text": "Dr. Petra Oberrauner , Kolleginnen und Kollegen betreffend Angewandte Forschung in den Fachhochschulen stärken ( 3260/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Petra Oberrauner , Kolleginnen und Kollegen betreffend Angewandte Forschung in den Fachhochschulen stärken ( 3260/A(E) )"
@@ -372,7 +437,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -383,7 +450,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird ( 3263/A )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird ( 3263/A )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird ( 3263/A )"
@@ -394,7 +463,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3281/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3281/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3281/A(E) )"
@@ -405,10 +476,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.320"
                 },
                 {
-                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbot der Off-Label-Verschreibung von \"Pubertätsblockern\" ( 3286/A(E) )"
+                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbot der Off-Label-Verschreibung von \"Pubertätsblockern\" ( 3286/A(E) )",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbot der Off-Label-Verschreibung von \"Pubertätsblockern\" ( 3286/A(E) )"
@@ -419,7 +494,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Stärkung der Frauengesundheit – Ausbau der Krebs-Früherkennungsprogramme sowie der automatischen Einladungen zu Voruntersuchungen ( 3287/A(E) )"
+                  "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Stärkung der Frauengesundheit – Ausbau der Krebs-Früherkennungsprogramme sowie der automatischen Einladungen zu Voruntersuchungen ( 3287/A(E) )",
+                  "timeStart": "15.760",
+                  "timeEnd": "17.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Stärkung der Frauengesundheit – Ausbau der Krebs-Früherkennungsprogramme sowie der automatischen Einladungen zu Voruntersuchungen ( 3287/A(E) )"
@@ -430,7 +507,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "17.880",
+                  "timeEnd": "17.880"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -441,7 +520,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3279/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3279/A(E) )",
+                  "timeStart": "17.880",
+                  "timeEnd": "19.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Social Egg Freezing erlauben ( 3279/A(E) )"
@@ -452,7 +533,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend PRIDEs nicht ohne den Bund – eigenes Budget für die LGBTIQ-Community sicherstellen ( 3290/A(E) )"
+                  "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend PRIDEs nicht ohne den Bund – eigenes Budget für die LGBTIQ-Community sicherstellen ( 3290/A(E) )",
+                  "timeStart": "19.040",
+                  "timeEnd": "22.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend PRIDEs nicht ohne den Bund – eigenes Budget für die LGBTIQ-Community sicherstellen ( 3290/A(E) )"
@@ -463,7 +546,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Auswirkungen von Beautyfiltern im Netz auf das Selbstbild von Mädchen und Frauen\" ( 3291/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Auswirkungen von Beautyfiltern im Netz auf das Selbstbild von Mädchen und Frauen\" ( 3291/A(E) )",
+                  "timeStart": "22.120",
+                  "timeEnd": "23.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Auswirkungen von Beautyfiltern im Netz auf das Selbstbild von Mädchen und Frauen\" ( 3291/A(E) )"
@@ -474,7 +559,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "23.680",
+                  "timeEnd": "23.920"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -485,7 +572,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Abschaffung der Anmeldebescheinigungen für EWR-Bürger:innen ( 3274/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Abschaffung der Anmeldebescheinigungen für EWR-Bürger:innen ( 3274/A(E) )",
+                  "timeStart": "23.920",
+                  "timeEnd": "24.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Abschaffung der Anmeldebescheinigungen für EWR-Bürger:innen ( 3274/A(E) )"
@@ -496,7 +585,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützungsmaßnahmen für private Quartiergeber:innen von Geflüchteten und Erhöhung der Tagessätze für unbegleitete minderjährige Asylsuchende ( 3277/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützungsmaßnahmen für private Quartiergeber:innen von Geflüchteten und Erhöhung der Tagessätze für unbegleitete minderjährige Asylsuchende ( 3277/A(E) )",
+                  "timeStart": "24.560",
+                  "timeEnd": "25.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützungsmaßnahmen für private Quartiergeber:innen von Geflüchteten und Erhöhung der Tagessätze für unbegleitete minderjährige Asylsuchende ( 3277/A(E) )"
@@ -507,10 +598,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "25.640",
+                  "timeEnd": "25.640"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Totalversagen der EU gegen die illegale Masseneinwanderung ( 3283/A(E) )"
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Totalversagen der EU gegen die illegale Masseneinwanderung ( 3283/A(E) )",
+                  "timeStart": "25.640",
+                  "timeEnd": "28.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Totalversagen der EU gegen die illegale Masseneinwanderung ( 3283/A(E) )"
@@ -521,10 +616,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "28.000",
+                  "timeEnd": "28.600"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung jeder Schengen-Erweiterung ohne effektiven Grenzschutz ( 3284/A(E) )"
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung jeder Schengen-Erweiterung ohne effektiven Grenzschutz ( 3284/A(E) )",
+                  "timeStart": "28.600",
+                  "timeEnd": "31.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung jeder Schengen-Erweiterung ohne effektiven Grenzschutz ( 3284/A(E) )"
@@ -535,10 +634,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "31.440",
+                  "timeEnd": "31.480"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend 23 Maßnahmen zur De-Attraktivierung Österreichs als Zielland für illegale Wirtschaftsmigranten und Scheinasylanten für 2023 ( 3288/A(E) )"
+                  "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend 23 Maßnahmen zur De-Attraktivierung Österreichs als Zielland für illegale Wirtschaftsmigranten und Scheinasylanten für 2023 ( 3288/A(E) )",
+                  "timeStart": "31.480",
+                  "timeEnd": "35.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend 23 Maßnahmen zur De-Attraktivierung Österreichs als Zielland für illegale Wirtschaftsmigranten und Scheinasylanten für 2023 ( 3288/A(E) )"
@@ -549,7 +652,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "35.120",
+                  "timeEnd": "35.120"
                 }
               ],
               "text": "Justizausschuss:"
@@ -560,7 +665,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB) geändert wird ( 3267/A )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB) geändert wird ( 3267/A )",
+                  "timeStart": "35.120",
+                  "timeEnd": "38.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB) geändert wird ( 3267/A )"
@@ -571,7 +678,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Obsorge ab Tag 1 für unbegleitete minderjährige Asylsuchende ( 3271/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Obsorge ab Tag 1 für unbegleitete minderjährige Asylsuchende ( 3271/A(E) )",
+                  "timeStart": "38.440",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Obsorge ab Tag 1 für unbegleitete minderjährige Asylsuchende ( 3271/A(E) )"
@@ -582,7 +691,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -593,13 +704,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMag."
+                  "text": "Antrag der Abgeordneten MMag.",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 },
                 {
-                  "text": "Katharina Werner, Bakk. ,"
+                  "text": "Katharina Werner, Bakk. ,",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 },
                 {
-                  "text": "Kolleginnen und Kollegen betreffend Klimalabel für Lebensmittel in Einrichtungen der öffentlichen Gemeinschaftsverpflegung ( 3262/A(E) )"
+                  "text": "Kolleginnen und Kollegen betreffend Klimalabel für Lebensmittel in Einrichtungen der öffentlichen Gemeinschaftsverpflegung ( 3262/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten MMag. Katharina Werner, Bakk. , Kolleginnen und Kollegen betreffend Klimalabel für Lebensmittel in Einrichtungen der öffentlichen Gemeinschaftsverpflegung ( 3262/A(E) )"
@@ -610,7 +727,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend \"Erweiterung des Reparaturbonus' auch auf Fahrräder ohne elektrischen Antrieb\" ( 3265/A(E) )"
+                  "text": "Antrag der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend \"Erweiterung des Reparaturbonus' auch auf Fahrräder ohne elektrischen Antrieb\" ( 3265/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Klaus Köchl , Kolleginnen und Kollegen betreffend \"Erweiterung des Reparaturbonus' auch auf Fahrräder ohne elektrischen Antrieb\" ( 3265/A(E) )"
@@ -621,10 +740,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend 3-jährigen Tilgungsplan für Verbraucher*innen auf Dauer beibehalten ( 3266/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend 3-jährigen Tilgungsplan für Verbraucher*innen auf Dauer beibehalten ( 3266/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend 3-jährigen Tilgungsplan für Verbraucher*innen auf Dauer beibehalten ( 3266/A(E) )"
@@ -635,7 +758,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -646,7 +771,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kulturgüterrestitution als Teil einer Afrikastrategie ( 3273/A(E) )"
+                  "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kulturgüterrestitution als Teil einer Afrikastrategie ( 3273/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kulturgüterrestitution als Teil einer Afrikastrategie ( 3273/A(E) )"
@@ -657,7 +784,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Erhalt des ORF Radio-Symphonieorchesters Wien ( 3289/A(E) )"
+                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Erhalt des ORF Radio-Symphonieorchesters Wien ( 3289/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Erhalt des ORF Radio-Symphonieorchesters Wien ( 3289/A(E) )"
@@ -668,7 +797,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Sportausschuss:"
+                  "text": "Sportausschuss:",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Sportausschuss:"
@@ -679,10 +810,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Christoph Zarits , Mag."
+                  "text": "Antrag der Abgeordneten Christoph Zarits , Mag.",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend Erarbeitung eines gesetzlichen Rahmens für Berufsgruppen im Sport ( 3282/A(E) )"
+                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend Erarbeitung eines gesetzlichen Rahmens für Berufsgruppen im Sport ( 3282/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Christoph Zarits , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend Erarbeitung eines gesetzlichen Rahmens für Berufsgruppen im Sport ( 3282/A(E) )"
@@ -693,7 +828,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Tourismusausschuss:"
+                  "text": "Tourismusausschuss:",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -704,7 +841,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Bekämpfung des Fachkräftemangels durch die Tourismuskasse ( 3264/A(E) )"
+                  "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Bekämpfung des Fachkräftemangels durch die Tourismuskasse ( 3264/A(E) )",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Bekämpfung des Fachkräftemangels durch die Tourismuskasse ( 3264/A(E) )"
@@ -715,7 +854,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "38.840",
+                  "timeEnd": "38.840"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -726,7 +867,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundesverfassungsgesetz (B-VG) geändert wird ( 3275/A )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundesverfassungsgesetz (B-VG) geändert wird ( 3275/A )",
+                  "timeStart": "38.840",
+                  "timeEnd": "40.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundesverfassungsgesetz (B-VG) geändert wird ( 3275/A )"
@@ -737,7 +880,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "40.000",
+                  "timeEnd": "40.840"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -748,10 +893,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "40.840",
+                  "timeEnd": "41.040"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Ende der österreichischen Blockadehaltung zum Mercosur-Abkommen ( 3278/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Ende der österreichischen Blockadehaltung zum Mercosur-Abkommen ( 3278/A(E) )",
+                  "timeStart": "41.040",
+                  "timeEnd": "41.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Ende der österreichischen Blockadehaltung zum Mercosur-Abkommen ( 3278/A(E) )"
@@ -762,22 +911,34 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 30. März, um 20.30 Uhr, um 10.30 Uhr ein. ("
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 30. März, um 20.30 Uhr, um 10.30 Uhr ein. (",
+                  "timeStart": "41.840",
+                  "timeEnd": "43.640"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "43.640",
+                  "timeEnd": "43.680"
                 },
                 {
-                  "text": "Michael Hammer: 10.30 Uhr!) –"
+                  "text": "Michael Hammer: 10.30 Uhr!) –",
+                  "timeStart": "43.680",
+                  "timeEnd": "44.520"
                 },
                 {
-                  "text": "10.30 Uhr, die Sitzung beginnt um 10.30 Uhr."
+                  "text": "10.30 Uhr, die Sitzung beginnt um 10.30 Uhr.",
+                  "timeStart": "44.520",
+                  "timeEnd": "45.040"
                 },
                 {
-                  "text": "Um 9 Uhr ist die Veranstaltung mit Präsident Selenskyj."
+                  "text": "Um 9 Uhr ist die Veranstaltung mit Präsident Selenskyj.",
+                  "timeStart": "45.040",
+                  "timeEnd": "47.120"
                 },
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "47.120",
+                  "timeEnd": "47.400"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 30. März, um 20.30 Uhr, um 10.30 Uhr ein. (Abg. Michael Hammer: 10.30 Uhr!) – 10.30 Uhr, die Sitzung beginnt um 10.30 Uhr. Um 9 Uhr ist die Veranstaltung mit Präsident Selenskyj. Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -788,7 +949,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich wünsche ein gutes Nachhausekommen."
+                  "text": "Ich wünsche ein gutes Nachhausekommen.",
+                  "timeStart": "47.400",
+                  "timeEnd": "47.760"
                 }
               ],
               "text": "Ich wünsche ein gutes Nachhausekommen."
@@ -799,7 +962,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "47.760",
+                  "timeEnd": "47.920"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -811,7 +976,8 @@
         "mediaIndex": 1,
         "stdId": 293030,
         "debatteId": 300,
-        "proceedingIndex": 293030
+        "proceedingIndex": 293030,
+        "alignDuration": 0.8668580055236816
       },
       "originalLanguage": "de"
     }

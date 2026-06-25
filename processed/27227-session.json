@@ -4,11 +4,11 @@
     "session": "27227",
     "dateStart": "2023-07-07T17:05:39",
     "dateEnd": "2023-07-07T17:16:49",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:09+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-25T12:33:56",
     "processing": {
       "merge": "2026-06-16T04:24:09+00:00",
-      "nel": "2026-06-16T06:24:26"
+      "align": "2026-06-25T12:33:56"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "302325",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6070525c-4cda-4e28-92eb-11e5552bb0dc/6070525c-4cda-4e28-92eb-11e5552bb0dc.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6070525c-4cda-4e28-92eb-11e5552bb0dc/6070525c-4cda-4e28-92eb-11e5552bb0dc.mp3",
-        "duration": 61
+        "duration": 61,
+        "aligned": true
       },
       "dateStart": "2023-07-07T17:05:39",
       "dateEnd": "2023-07-07T17:06:40",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 227. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 227. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.320"
                 }
               ],
               "text": "Ich eröffne die 227. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag. ("
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag. (",
+                  "timeStart": "3.320",
+                  "timeEnd": "3.800"
                 },
                 {
-                  "text": "FH) Kurt Egger , Mag."
+                  "text": "FH) Kurt Egger , Mag.",
+                  "timeStart": "3.800",
+                  "timeEnd": "4.160"
                 },
                 {
-                  "text": "Karin Greiner , Michael Schnedlitz , Dr. Ewa Ernst-Dziedzic , Heike Grebien und Mag."
+                  "text": "Karin Greiner , Michael Schnedlitz , Dr. Ewa Ernst-Dziedzic , Heike Grebien und Mag.",
+                  "timeStart": "4.160",
+                  "timeEnd": "4.280"
                 },
                 {
-                  "text": "Yannick Shetty ."
+                  "text": "Yannick Shetty .",
+                  "timeStart": "4.280",
+                  "timeEnd": "4.280"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. (FH) Kurt Egger , Mag. Karin Greiner , Michael Schnedlitz , Dr. Ewa Ernst-Dziedzic , Heike Grebien und Mag. Yannick Shetty ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "4.280",
+                  "timeEnd": "4.280"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "4.280",
+                  "timeEnd": "5.800"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "5.800",
+                  "timeEnd": "5.840"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände :"
+                  "text": "A. Eingelangte Verhandlungsgegenstände :",
+                  "timeStart": "5.840",
+                  "timeEnd": "5.840"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände :"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 14502/AB bis 14504/AB"
+                  "text": "Anfragebeantwortungen: 14502/AB bis 14504/AB",
+                  "timeStart": "5.840",
+                  "timeEnd": "6.280"
                 }
               ],
               "text": "Anfragebeantwortungen: 14502/AB bis 14504/AB"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "6.280",
+                  "timeEnd": "6.480"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "6.480",
+                  "timeEnd": "6.480"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "6.480",
+                  "timeEnd": "6.920"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -187,10 +214,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "6.920",
+                  "timeEnd": "6.920"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3527/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3527/A(E) )",
+                  "timeStart": "6.920",
+                  "timeEnd": "7.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3527/A(E) )"
@@ -201,10 +232,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Mag."
+                  "text": "Antrag der Abgeordneten August Wöginger , Mag.",
+                  "timeStart": "7.760",
+                  "timeEnd": "8.400"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 3533/A )"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 3533/A )",
+                  "timeStart": "8.400",
+                  "timeEnd": "12.640"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 3533/A )"
@@ -215,7 +250,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "12.640",
+                  "timeEnd": "13.400"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -226,7 +263,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Menschenrechtssituation in Peru ( 3532/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Menschenrechtssituation in Peru ( 3532/A(E) )",
+                  "timeStart": "13.400",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Menschenrechtssituation in Peru ( 3532/A(E) )"
@@ -237,7 +276,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss :"
+                  "text": "Budgetausschuss :",
+                  "timeStart": "14.840",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Budgetausschuss :"
@@ -248,7 +289,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2023 bis 2026 und das Bundesfinanzgesetz 2023 geändert werden ( 2170 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2023 bis 2026 und das Bundesfinanzgesetz 2023 geändert werden ( 2170 d.B. )",
+                  "timeStart": "14.840",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2023 bis 2026 und das Bundesfinanzgesetz 2023 geändert werden ( 2170 d.B. )"
@@ -259,7 +302,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss :"
+                  "text": "Gesundheitsausschuss :",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Gesundheitsausschuss :"
@@ -270,10 +315,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 },
                 {
-                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3528/A(E) )"
+                  "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3528/A(E) )",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3528/A(E) )"
@@ -284,7 +333,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss :"
+                  "text": "Gleichbehandlungsausschuss :",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Gleichbehandlungsausschuss :"
@@ -295,13 +346,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Kffr. ("
+                  "text": "Antrag der Abgeordneten Dipl.-Kffr. (",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 },
                 {
-                  "text": "FH) Elisabeth Pfurtscheller , Mag."
+                  "text": "FH) Elisabeth Pfurtscheller , Mag.",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 },
                 {
-                  "text": "Meri Disoski , Kolleginnen und Kollegen betreffend Informationskampagne betreffend Gewalt an Frauen ( 3534/A(E) )"
+                  "text": "Meri Disoski , Kolleginnen und Kollegen betreffend Informationskampagne betreffend Gewalt an Frauen ( 3534/A(E) )",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend Informationskampagne betreffend Gewalt an Frauen ( 3534/A(E) )"
@@ -312,7 +369,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hauptausschuss :"
+                  "text": "Hauptausschuss :",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 }
               ],
               "text": "Hauptausschuss :"
@@ -323,13 +382,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen gemäß Art."
+                  "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen gemäß Art.",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.080"
                 },
                 {
-                  "text": "49b B-VG iVm § 26 GOG-NR auf Durchführung einer Volksbefragung gem. Art."
+                  "text": "49b B-VG iVm § 26 GOG-NR auf Durchführung einer Volksbefragung gem. Art.",
+                  "timeStart": "17.080",
+                  "timeEnd": "18.960"
                 },
                 {
-                  "text": "49b B-VG über den Schutz des Bargeldes als Zahlungsmittel und Vermögensform ohne Obergrenzen und des uneingeschränkten Bargeldzahlungsverkehrs ( 3529/A )"
+                  "text": "49b B-VG über den Schutz des Bargeldes als Zahlungsmittel und Vermögensform ohne Obergrenzen und des uneingeschränkten Bargeldzahlungsverkehrs ( 3529/A )",
+                  "timeStart": "18.960",
+                  "timeEnd": "21.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen gemäß Art. 49b B-VG iVm § 26 GOG-NR auf Durchführung einer Volksbefragung gem. Art. 49b B-VG über den Schutz des Bargeldes als Zahlungsmittel und Vermögensform ohne Obergrenzen und des uneingeschränkten Bargeldzahlungsverkehrs ( 3529/A )"
@@ -340,7 +405,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss :"
+                  "text": "Justizausschuss :",
+                  "timeStart": "21.840",
+                  "timeEnd": "22.240"
                 }
               ],
               "text": "Justizausschuss :"
@@ -351,13 +418,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag. ("
+                  "text": "Antrag der Abgeordneten Mag. (",
+                  "timeStart": "22.240",
+                  "timeEnd": "22.240"
                 },
                 {
-                  "text": "FH) Kurt Egger , Mag."
+                  "text": "FH) Kurt Egger , Mag.",
+                  "timeStart": "22.240",
+                  "timeEnd": "22.520"
                 },
                 {
-                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwertungsgesellschaftengesetz 2016 geändert wird ( 3523/A )"
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwertungsgesellschaftengesetz 2016 geändert wird ( 3523/A )",
+                  "timeStart": "22.520",
+                  "timeEnd": "24.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. (FH) Kurt Egger , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwertungsgesellschaftengesetz 2016 geändert wird ( 3523/A )"
@@ -368,7 +441,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "24.800",
+                  "timeEnd": "24.800"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -379,10 +454,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "24.800",
+                  "timeEnd": "25.280"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Überprüfung unzulässiger Kostenabzugsklauseln bei Lebensversicherungen ( 3524/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Überprüfung unzulässiger Kostenabzugsklauseln bei Lebensversicherungen ( 3524/A(E) )",
+                  "timeStart": "25.280",
+                  "timeEnd": "27.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Überprüfung unzulässiger Kostenabzugsklauseln bei Lebensversicherungen ( 3524/A(E) )"
@@ -393,10 +472,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "27.920",
+                  "timeEnd": "28.760"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend mehr Transparenz bei Lebensversicherungen ( 3525/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend mehr Transparenz bei Lebensversicherungen ( 3525/A(E) )",
+                  "timeStart": "28.760",
+                  "timeEnd": "31.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend mehr Transparenz bei Lebensversicherungen ( 3525/A(E) )"
@@ -407,7 +490,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss :"
+                  "text": "Unterrichtsausschuss :",
+                  "timeStart": "31.840",
+                  "timeEnd": "32.480"
                 }
               ],
               "text": "Unterrichtsausschuss :"
@@ -418,7 +503,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend mehr höhere Schulen in stark wachsenden urbanen Räumen ( 3526/A(E) )"
+                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend mehr höhere Schulen in stark wachsenden urbanen Räumen ( 3526/A(E) )",
+                  "timeStart": "32.480",
+                  "timeEnd": "34.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend mehr höhere Schulen in stark wachsenden urbanen Räumen ( 3526/A(E) )"
@@ -429,7 +516,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "34.200",
+                  "timeEnd": "34.440"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -440,10 +529,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Nein zum Militärbündnis \"Sky Shield\" – Ja zur Neutralität! ("
+                  "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Nein zum Militärbündnis \"Sky Shield\" – Ja zur Neutralität! (",
+                  "timeStart": "34.440",
+                  "timeEnd": "35.680"
                 },
                 {
-                  "text": "3530/A(E) )"
+                  "text": "3530/A(E) )",
+                  "timeStart": "35.680",
+                  "timeEnd": "35.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Nein zum Militärbündnis \"Sky Shield\" – Ja zur Neutralität! ( 3530/A(E) )"
@@ -454,13 +547,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "35.960",
+                  "timeEnd": "36.520"
                 },
                 {
-                  "text": "Martin Engelberg , Mag."
+                  "text": "Martin Engelberg , Mag.",
+                  "timeStart": "36.520",
+                  "timeEnd": "37.000"
                 },
                 {
-                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus und das Bundesgesetz über die Einrichtung des Fonds zur Instandsetzung der jüdischen Friedhöfe in Österreich geändert werden ( 3537/A )"
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus und das Bundesgesetz über die Einrichtung des Fonds zur Instandsetzung der jüdischen Friedhöfe in Österreich geändert werden ( 3537/A )",
+                  "timeStart": "37.000",
+                  "timeEnd": "37.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martin Engelberg , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus und das Bundesgesetz über die Einrichtung des Fonds zur Instandsetzung der jüdischen Friedhöfe in Österreich geändert werden ( 3537/A )"
@@ -471,7 +570,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss :"
+                  "text": "Verkehrsausschuss :",
+                  "timeStart": "37.440",
+                  "timeEnd": "37.560"
                 }
               ],
               "text": "Verkehrsausschuss :"
@@ -482,7 +583,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Andreas Ottenschläger , Hermann Weratschnig, MBA MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das ASFINAG-Gesetz geändert wird ( 3535/A )"
+                  "text": "Antrag der Abgeordneten Andreas Ottenschläger , Hermann Weratschnig, MBA MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das ASFINAG-Gesetz geändert wird ( 3535/A )",
+                  "timeStart": "37.560",
+                  "timeEnd": "41.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Ottenschläger , Hermann Weratschnig, MBA MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das ASFINAG-Gesetz geändert wird ( 3535/A )"
@@ -493,7 +596,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesstraßengesetz 1971 geändert wird ( 3536/A )"
+                  "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesstraßengesetz 1971 geändert wird ( 3536/A )",
+                  "timeStart": "41.560",
+                  "timeEnd": "44.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesstraßengesetz 1971 geändert wird ( 3536/A )"
@@ -504,7 +609,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "44.600",
+                  "timeEnd": "45.160"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -515,7 +622,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011 (GWG 2011), das Erdölbevorratungsgesetz 2012 und das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (ElWOG 2010) geändert werden ( 3531/A )"
+                  "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011 (GWG 2011), das Erdölbevorratungsgesetz 2012 und das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (ElWOG 2010) geändert werden ( 3531/A )",
+                  "timeStart": "45.160",
+                  "timeEnd": "51.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011 (GWG 2011), das Erdölbevorratungsgesetz 2012 und das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (ElWOG 2010) geändert werden ( 3531/A )"
@@ -526,7 +635,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "51.600",
+                  "timeEnd": "51.920"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -537,7 +648,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss :"
+                  "text": "Budgetausschuss :",
+                  "timeStart": "51.920",
+                  "timeEnd": "51.960"
                 }
               ],
               "text": "Budgetausschuss :"
@@ -548,7 +661,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Erster Bericht zur Wettbewerbsfähigkeit Österreichs gemäß § 5 Z 5 Fiskalrat- und Produktivitätsratgesetz 2021, vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-979 d.B. )"
+                  "text": "Erster Bericht zur Wettbewerbsfähigkeit Österreichs gemäß § 5 Z 5 Fiskalrat- und Produktivitätsratgesetz 2021, vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-979 d.B. )",
+                  "timeStart": "51.960",
+                  "timeEnd": "56.360"
                 }
               ],
               "text": "Erster Bericht zur Wettbewerbsfähigkeit Österreichs gemäß § 5 Z 5 Fiskalrat- und Produktivitätsratgesetz 2021, vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-979 d.B. )"
@@ -559,7 +674,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss :"
+                  "text": "Gesundheitsausschuss :",
+                  "timeStart": "56.360",
+                  "timeEnd": "56.360"
                 }
               ],
               "text": "Gesundheitsausschuss :"
@@ -570,10 +687,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz betreffend Präventionsauftrag im Allgemeinen Sozialversicherungsgesetz aufgrund der Entschließung des Nationalrates vom 1. März 2023, 305/E XXVII."
+                  "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz betreffend Präventionsauftrag im Allgemeinen Sozialversicherungsgesetz aufgrund der Entschließung des Nationalrates vom 1. März 2023, 305/E XXVII.",
+                  "timeStart": "56.360",
+                  "timeEnd": "59.200"
                 },
                 {
-                  "text": "GP ( III-980 d.B. )"
+                  "text": "GP ( III-980 d.B. )",
+                  "timeStart": "59.200",
+                  "timeEnd": "59.640"
                 }
               ],
               "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz betreffend Präventionsauftrag im Allgemeinen Sozialversicherungsgesetz aufgrund der Entschließung des Nationalrates vom 1. März 2023, 305/E XXVII. GP ( III-980 d.B. )"
@@ -584,7 +705,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss :"
+                  "text": "Kulturausschuss :",
+                  "timeStart": "59.640",
+                  "timeEnd": "59.640"
                 }
               ],
               "text": "Kulturausschuss :"
@@ -595,7 +718,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2023, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-981 d.B. )"
+                  "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2023, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-981 d.B. )",
+                  "timeStart": "59.640",
+                  "timeEnd": "62.040"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2023, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-981 d.B. )"
@@ -606,7 +731,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 3538/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3539/A(E) dem Ausschuss für Land- und Forstwirtschaft zu."
+                  "text": "Weiters weise ich den Antrag 3538/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3539/A(E) dem Ausschuss für Land- und Forstwirtschaft zu.",
+                  "timeStart": "62.040",
+                  "timeEnd": "62.560"
                 }
               ],
               "text": "Weiters weise ich den Antrag 3538/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3539/A(E) dem Ausschuss für Land- und Forstwirtschaft zu."
@@ -617,7 +744,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsantrag"
+                  "text": "Fristsetzungsantrag",
+                  "timeStart": "62.560",
+                  "timeEnd": "63.080"
                 }
               ],
               "text": "Fristsetzungsantrag"
@@ -628,7 +757,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich teile mit, dass folgender Fristsetzungsantrag vorliegt:"
+                  "text": "Ich teile mit, dass folgender Fristsetzungsantrag vorliegt:",
+                  "timeStart": "63.080",
+                  "timeEnd": "63.860"
                 }
               ],
               "text": "Ich teile mit, dass folgender Fristsetzungsantrag vorliegt:"
@@ -639,10 +770,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
+                  "timeStart": "63.860",
+                  "timeEnd": "65.080"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen."
+                  "text": "Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen.",
+                  "timeStart": "65.080",
+                  "timeEnd": "66.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag. Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen."
@@ -653,7 +788,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Dieser Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht."
+                  "text": "Dieser Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht.",
+                  "timeStart": "66.640",
+                  "timeEnd": "67.960"
                 }
               ],
               "text": "Dieser Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht."
@@ -665,7 +802,8 @@
         "mediaIndex": 1,
         "stdId": 302325,
         "debatteId": 300,
-        "proceedingIndex": 302325
+        "proceedingIndex": 302325,
+        "alignDuration": 0.9885349273681641
       },
       "originalLanguage": "de"
     },
@@ -693,7 +831,8 @@
         "originMediaID": "302412",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/8ac563bf-7952-4162-8283-e05227c5f8e7/8ac563bf-7952-4162-8283-e05227c5f8e7.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/8ac563bf-7952-4162-8283-e05227c5f8e7/8ac563bf-7952-4162-8283-e05227c5f8e7.mp3",
-        "duration": 246
+        "duration": 246,
+        "aligned": true
       },
       "dateStart": "2023-07-07T17:06:40",
       "dateEnd": "2023-07-07T17:10:46",
@@ -725,7 +864,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Beschluss auf Beendigung der ordentlichen Tagung 2022/2023"
+                  "text": "Beschluss auf Beendigung der ordentlichen Tagung 2022/2023",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.640"
                 }
               ],
               "text": "Beschluss auf Beendigung der ordentlichen Tagung 2022/2023"
@@ -736,16 +877,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es liegt folgender Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag."
+                  "text": "Es liegt folgender Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag.",
+                  "timeStart": "1.640",
+                  "timeEnd": "4.040"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Mag."
+                  "text": "Dr. Jakob Schwarz, BA , Mag.",
+                  "timeStart": "4.040",
+                  "timeEnd": "5.320"
                 },
                 {
-                  "text": "Gerald Loacker und Mag."
+                  "text": "Gerald Loacker und Mag.",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.720"
                 },
                 {
-                  "text": "Harald Stefan vor:"
+                  "text": "Harald Stefan vor:",
+                  "timeStart": "5.720",
+                  "timeEnd": "6.960"
                 }
               ],
               "text": "Es liegt folgender Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag. Dr. Jakob Schwarz, BA , Mag. Gerald Loacker und Mag. Harald Stefan vor:"
@@ -756,10 +905,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII."
+                  "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII.",
+                  "timeStart": "6.960",
+                  "timeEnd": "14.920"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.“",
+                  "timeStart": "14.920",
+                  "timeEnd": "22.480"
                 }
               ],
               "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.“"
@@ -770,10 +923,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte die Damen und Herren, die dem Antrag ihre Zustimmung geben, um ein dementsprechendes Zeichen. –"
+                  "text": "Ich bitte die Damen und Herren, die dem Antrag ihre Zustimmung geben, um ein dementsprechendes Zeichen. –",
+                  "timeStart": "22.480",
+                  "timeEnd": "29.680"
                 },
                 {
-                  "text": "Das ist mehrheitlich angenommen."
+                  "text": "Das ist mehrheitlich angenommen.",
+                  "timeStart": "29.680",
+                  "timeEnd": "31.320"
                 }
               ],
               "text": "Ich bitte die Damen und Herren, die dem Antrag ihre Zustimmung geben, um ein dementsprechendes Zeichen. – Das ist mehrheitlich angenommen."
@@ -784,7 +941,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anträge auf Permanenterklärung von Ausschüssen"
+                  "text": "Anträge auf Permanenterklärung von Ausschüssen",
+                  "timeStart": "31.320",
+                  "timeEnd": "34.320"
                 }
               ],
               "text": "Anträge auf Permanenterklärung von Ausschüssen"
@@ -795,7 +954,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters liegen mir folgende Anträge betreffend Beauftragung von Ausschüssen, ihre Arbeit während der tagungsfreien Zeit fortzusetzen, vor:"
+                  "text": "Weiters liegen mir folgende Anträge betreffend Beauftragung von Ausschüssen, ihre Arbeit während der tagungsfreien Zeit fortzusetzen, vor:",
+                  "timeStart": "34.320",
+                  "timeEnd": "43.280"
                 }
               ],
               "text": "Weiters liegen mir folgende Anträge betreffend Beauftragung von Ausschüssen, ihre Arbeit während der tagungsfreien Zeit fortzusetzen, vor:"
@@ -806,13 +967,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag."
+                  "text": "Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag.",
+                  "timeStart": "43.280",
+                  "timeEnd": "44.960"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA und Mag."
+                  "text": "Dr. Jakob Schwarz, BA und Mag.",
+                  "timeStart": "44.960",
+                  "timeEnd": "47.440"
                 },
                 {
-                  "text": "Gerald Loacker betreffend den Ausschuss für Arbeit und Soziales;"
+                  "text": "Gerald Loacker betreffend den Ausschuss für Arbeit und Soziales;",
+                  "timeStart": "47.440",
+                  "timeEnd": "50.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag. Dr. Jakob Schwarz, BA und Mag. Gerald Loacker betreffend den Ausschuss für Arbeit und Soziales;"
@@ -823,7 +990,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch ebenfalls betreffend den Ausschuss für Arbeit und Soziales;"
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch ebenfalls betreffend den Ausschuss für Arbeit und Soziales;",
+                  "timeStart": "50.640",
+                  "timeEnd": "56.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch ebenfalls betreffend den Ausschuss für Arbeit und Soziales;"
@@ -834,7 +1003,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Anträge des Abgeordneten Philip Kucher betreffend den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) , den Ausschuss für Bauten und Wohnen hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) , den Finanzausschuss hinsichtlich des Antrages 3522/A(E) und den Ausschuss für Wirtschaft, Industrie und Energie hinsichtlich des Antrages 3437/A(E)"
+                  "text": "Anträge des Abgeordneten Philip Kucher betreffend den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) , den Ausschuss für Bauten und Wohnen hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) , den Finanzausschuss hinsichtlich des Antrages 3522/A(E) und den Ausschuss für Wirtschaft, Industrie und Energie hinsichtlich des Antrages 3437/A(E)",
+                  "timeStart": "56.640",
+                  "timeEnd": "91.560"
                 }
               ],
               "text": "Anträge des Abgeordneten Philip Kucher betreffend den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) , den Ausschuss für Bauten und Wohnen hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) , den Finanzausschuss hinsichtlich des Antrages 3522/A(E) und den Ausschuss für Wirtschaft, Industrie und Energie hinsichtlich des Antrages 3437/A(E)"
@@ -845,10 +1016,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "sowie der Antrag des Abgeordneten Mag."
+                  "text": "sowie der Antrag des Abgeordneten Mag.",
+                  "timeStart": "91.560",
+                  "timeEnd": "93.520"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA betreffend den Ausschuss für innere Angelegenheiten."
+                  "text": "Hannes Amesbauer, BA betreffend den Ausschuss für innere Angelegenheiten.",
+                  "timeStart": "93.520",
+                  "timeEnd": "98.840"
                 }
               ],
               "text": "sowie der Antrag des Abgeordneten Mag. Hannes Amesbauer, BA betreffend den Ausschuss für innere Angelegenheiten."
@@ -859,13 +1034,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich lasse zunächst über die gleichlautenden Anträge der Abgeordneten Dipl.-Ing. Georg Strasser , Mag."
+                  "text": "Ich lasse zunächst über die gleichlautenden Anträge der Abgeordneten Dipl.-Ing. Georg Strasser , Mag.",
+                  "timeStart": "98.840",
+                  "timeEnd": "103.080"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Mag."
+                  "text": "Dr. Jakob Schwarz, BA , Mag.",
+                  "timeStart": "103.080",
+                  "timeEnd": "105.760"
                 },
                 {
-                  "text": "Gerald Loacker und Dr. Dagmar Belakowitsch abstimmen, den Ausschuss für Arbeit und Soziales zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen."
+                  "text": "Gerald Loacker und Dr. Dagmar Belakowitsch abstimmen, den Ausschuss für Arbeit und Soziales zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen.",
+                  "timeStart": "105.760",
+                  "timeEnd": "116.360"
                 }
               ],
               "text": "Ich lasse zunächst über die gleichlautenden Anträge der Abgeordneten Dipl.-Ing. Georg Strasser , Mag. Dr. Jakob Schwarz, BA , Mag. Gerald Loacker und Dr. Dagmar Belakowitsch abstimmen, den Ausschuss für Arbeit und Soziales zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen."
@@ -876,10 +1057,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer diesen zustimmt, ist um ein Zeichen gebeten. –"
+                  "text": "Wer diesen zustimmt, ist um ein Zeichen gebeten. –",
+                  "timeStart": "116.360",
+                  "timeEnd": "119.200"
                 },
                 {
-                  "text": "Das ist einstimmig angenommen."
+                  "text": "Das ist einstimmig angenommen.",
+                  "timeStart": "119.200",
+                  "timeEnd": "121.960"
                 }
               ],
               "text": "Wer diesen zustimmt, ist um ein Zeichen gebeten. – Das ist einstimmig angenommen."
@@ -890,7 +1075,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Damit entfällt die Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen."
+                  "text": "Damit entfällt die Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen.",
+                  "timeStart": "121.960",
+                  "timeEnd": "140.040"
                 }
               ],
               "text": "Damit entfällt die Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen."
@@ -901,7 +1088,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen nun zur Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Bauten und Wohnen zu beauftragen, seine Arbeit hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) während der tagungsfreien Zeit fortzusetzen."
+                  "text": "Wir kommen nun zur Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Bauten und Wohnen zu beauftragen, seine Arbeit hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) während der tagungsfreien Zeit fortzusetzen.",
+                  "timeStart": "140.040",
+                  "timeEnd": "160.120"
                 }
               ],
               "text": "Wir kommen nun zur Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Bauten und Wohnen zu beauftragen, seine Arbeit hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) während der tagungsfreien Zeit fortzusetzen."
@@ -912,10 +1101,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen der Zustimmung. –"
+                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen der Zustimmung. –",
+                  "timeStart": "160.120",
+                  "timeEnd": "164.200"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "164.200",
+                  "timeEnd": "167.880"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen der Zustimmung. – Das ist die Minderheit, abgelehnt."
@@ -926,7 +1119,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über Antrag des Abgeordneten Philip Kucher , den Finanzausschuss zu beauftragen, seine Arbeit hinsichtlich des Antrages 3522/A(E) während der tagungsfreien Zeit fortzusetzen."
+                  "text": "Wir kommen zur Abstimmung über Antrag des Abgeordneten Philip Kucher , den Finanzausschuss zu beauftragen, seine Arbeit hinsichtlich des Antrages 3522/A(E) während der tagungsfreien Zeit fortzusetzen.",
+                  "timeStart": "167.880",
+                  "timeEnd": "181.080"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über Antrag des Abgeordneten Philip Kucher , den Finanzausschuss zu beauftragen, seine Arbeit hinsichtlich des Antrages 3522/A(E) während der tagungsfreien Zeit fortzusetzen."
@@ -937,10 +1132,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –"
+                  "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –",
+                  "timeStart": "181.080",
+                  "timeEnd": "184.240"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "184.240",
+                  "timeEnd": "187.040"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist die Minderheit, abgelehnt."
@@ -951,7 +1150,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters ein Antrag des Abgeordneten Philip Kucher , den Ausschuss für Wirtschaft, Industrie und Energie zu beauftragen, seine Arbeit hinsichtlich des Antrages 3437/A(E) während der tagungsfreien Zeit fortzusetzen."
+                  "text": "Weiters ein Antrag des Abgeordneten Philip Kucher , den Ausschuss für Wirtschaft, Industrie und Energie zu beauftragen, seine Arbeit hinsichtlich des Antrages 3437/A(E) während der tagungsfreien Zeit fortzusetzen.",
+                  "timeStart": "187.040",
+                  "timeEnd": "201.360"
                 }
               ],
               "text": "Weiters ein Antrag des Abgeordneten Philip Kucher , den Ausschuss für Wirtschaft, Industrie und Energie zu beauftragen, seine Arbeit hinsichtlich des Antrages 3437/A(E) während der tagungsfreien Zeit fortzusetzen."
@@ -962,10 +1163,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –"
+                  "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –",
+                  "timeStart": "201.360",
+                  "timeEnd": "204.960"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "204.960",
+                  "timeEnd": "208.320"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist die Minderheit, abgelehnt."
@@ -976,22 +1181,34 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag."
+                  "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag.",
+                  "timeStart": "208.320",
+                  "timeEnd": "212.680"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , den Ausschuss für innere Angelegenheiten zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen. ("
+                  "text": "Hannes Amesbauer, BA , den Ausschuss für innere Angelegenheiten zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen. (",
+                  "timeStart": "212.680",
+                  "timeEnd": "221.120"
                 },
                 {
-                  "text": "Rufe bei der ÖVP: Ja, wo ist er denn?"
+                  "text": "Rufe bei der ÖVP: Ja, wo ist er denn?",
+                  "timeStart": "221.120",
+                  "timeEnd": "224.200"
                 },
                 {
-                  "text": "Ja, wo ist er denn, der Amesbauer? –"
+                  "text": "Ja, wo ist er denn, der Amesbauer? –",
+                  "timeStart": "224.200",
+                  "timeEnd": "229.340"
                 },
                 {
-                  "text": "Der Präsident gibt das Glockenzeichen.) –"
+                  "text": "Der Präsident gibt das Glockenzeichen.) –",
+                  "timeStart": "229.340",
+                  "timeEnd": "230.800"
                 },
                 {
-                  "text": "Darf ich um etwas Aufmerksamkeit bitten?!"
+                  "text": "Darf ich um etwas Aufmerksamkeit bitten?!",
+                  "timeStart": "230.800",
+                  "timeEnd": "233.380"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag. Hannes Amesbauer, BA , den Ausschuss für innere Angelegenheiten zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen. (Rufe bei der ÖVP: Ja, wo ist er denn? Ja, wo ist er denn, der Amesbauer? – Der Präsident gibt das Glockenzeichen.) – Darf ich um etwas Aufmerksamkeit bitten?!"
@@ -1002,10 +1219,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich ersuche die Damen und Herren, die dem ihre Zustimmung geben, um ein dementsprechendes Zeichen. –"
+                  "text": "Ich ersuche die Damen und Herren, die dem ihre Zustimmung geben, um ein dementsprechendes Zeichen. –",
+                  "timeStart": "233.380",
+                  "timeEnd": "239.720"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "243.280",
+                  "timeEnd": "248.000"
                 }
               ],
               "text": "Ich ersuche die Damen und Herren, die dem ihre Zustimmung geben, um ein dementsprechendes Zeichen. – Das ist die Minderheit, abgelehnt."
@@ -1017,7 +1238,8 @@
         "mediaIndex": 2,
         "stdId": 302412,
         "debatteId": 310,
-        "proceedingIndex": 302412
+        "proceedingIndex": 302412,
+        "alignDuration": 0.8900423049926758
       },
       "originalLanguage": "de"
     },
@@ -1045,7 +1267,8 @@
         "originMediaID": "302416",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/1f6b853f-dcef-4c6b-b648-53e73df190c0/1f6b853f-dcef-4c6b-b648-53e73df190c0.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/1f6b853f-dcef-4c6b-b648-53e73df190c0/1f6b853f-dcef-4c6b-b648-53e73df190c0.mp3",
-        "duration": 35
+        "duration": 35,
+        "aligned": true
       },
       "dateStart": "2023-07-07T17:10:41",
       "dateEnd": "2023-07-07T17:11:16",
@@ -1077,7 +1300,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über einen Fristsetzungsantrag"
+                  "text": "Abstimmung über einen Fristsetzungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.700"
                 }
               ],
               "text": "Abstimmung über einen Fristsetzungsantrag"
@@ -1088,19 +1313,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen nun zur Abstimmung über den vorliegenden Fristsetzungsantrag der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Wir kommen nun zur Abstimmung über den vorliegenden Fristsetzungsantrag der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "3.700",
+                  "timeEnd": "11.600"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen. ("
+                  "text": "Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen. (",
+                  "timeStart": "11.600",
+                  "timeEnd": "25.000"
                 },
                 {
-                  "text": "Unruhe im Saal.) –"
+                  "text": "Unruhe im Saal.) –",
+                  "timeStart": "25.000",
+                  "timeEnd": "26.200"
                 },
                 {
-                  "text": "Dürfte ich bitten?"
+                  "text": "Dürfte ich bitten?",
+                  "timeStart": "26.200",
+                  "timeEnd": "27.720"
                 },
                 {
-                  "text": "Es dauert nicht mehr lange, dann sind wir fertig."
+                  "text": "Es dauert nicht mehr lange, dann sind wir fertig.",
+                  "timeStart": "27.720",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Wir kommen nun zur Abstimmung über den vorliegenden Fristsetzungsantrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen. (Unruhe im Saal.) – Dürfte ich bitten? Es dauert nicht mehr lange, dann sind wir fertig."
@@ -1111,10 +1346,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –"
+                  "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –",
+                  "timeStart": "29.520",
+                  "timeEnd": "32.680"
                 },
                 {
-                  "text": "Das ist die Mehrheit, angenommen."
+                  "text": "Das ist die Mehrheit, angenommen.",
+                  "timeStart": "32.680",
+                  "timeEnd": "36.000"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. – Das ist die Mehrheit, angenommen."
@@ -1126,7 +1365,8 @@
         "mediaIndex": 3,
         "stdId": 302416,
         "debatteId": 320,
-        "proceedingIndex": 302416
+        "proceedingIndex": 302416,
+        "alignDuration": 0.3269209861755371
       },
       "originalLanguage": "de"
     },
@@ -1154,7 +1394,8 @@
         "originMediaID": "302417",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/befa5872-cf96-4410-b23b-cc18cef133c8/befa5872-cf96-4410-b23b-cc18cef133c8.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/befa5872-cf96-4410-b23b-cc18cef133c8/befa5872-cf96-4410-b23b-cc18cef133c8.mp3",
-        "duration": 63
+        "duration": 63,
+        "aligned": true
       },
       "dateStart": "2023-07-07T17:11:16",
       "dateEnd": "2023-07-07T17:12:19",
@@ -1186,7 +1427,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Verlesung eines Teiles des Amtlichen Protokolls"
+                  "text": "Verlesung eines Teiles des Amtlichen Protokolls",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.720"
                 }
               ],
               "text": "Verlesung eines Teiles des Amtlichen Protokolls"
@@ -1197,10 +1440,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es liegt mir das schriftliche Verlagen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2022/2023 der XXVII."
+                  "text": "Es liegt mir das schriftliche Verlagen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2022/2023 der XXVII.",
+                  "timeStart": "1.720",
+                  "timeEnd": "14.840"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt."
+                  "text": "Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt.",
+                  "timeStart": "14.840",
+                  "timeEnd": "21.920"
                 }
               ],
               "text": "Es liegt mir das schriftliche Verlagen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2022/2023 der XXVII. Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt."
@@ -1211,7 +1458,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich verlese:"
+                  "text": "Ich verlese:",
+                  "timeStart": "21.920",
+                  "timeEnd": "22.400"
                 }
               ],
               "text": "Ich verlese:"
@@ -1222,16 +1471,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "„Auf Antrag der Abgeordneten Dipl.-Ing. Strasser, Mag."
+                  "text": "„Auf Antrag der Abgeordneten Dipl.-Ing. Strasser, Mag.",
+                  "timeStart": "22.400",
+                  "timeEnd": "25.040"
                 },
                 {
-                  "text": "Dr. Schwarz, BA, Mag."
+                  "text": "Dr. Schwarz, BA, Mag.",
+                  "timeStart": "25.040",
+                  "timeEnd": "26.560"
                 },
                 {
-                  "text": "Loacker und Mag."
+                  "text": "Loacker und Mag.",
+                  "timeStart": "26.560",
+                  "timeEnd": "27.120"
                 },
                 {
-                  "text": "Stefan (Beilage I) fasst der Nationalrat nachstehenden Beschluss:"
+                  "text": "Stefan (Beilage I) fasst der Nationalrat nachstehenden Beschluss:",
+                  "timeStart": "27.120",
+                  "timeEnd": "30.680"
                 }
               ],
               "text": "„Auf Antrag der Abgeordneten Dipl.-Ing. Strasser, Mag. Dr. Schwarz, BA, Mag. Loacker und Mag. Stefan (Beilage I) fasst der Nationalrat nachstehenden Beschluss:"
@@ -1242,10 +1499,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "‚Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII."
+                  "text": "‚Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII.",
+                  "timeStart": "30.680",
+                  "timeEnd": "37.560"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.‘“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.‘“",
+                  "timeStart": "37.560",
+                  "timeEnd": "45.560"
                 }
               ],
               "text": "‚Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.‘“"
@@ -1256,10 +1517,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses Teiles des Amtlichen Protokolls? –"
+                  "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses Teiles des Amtlichen Protokolls? –",
+                  "timeStart": "45.560",
+                  "timeEnd": "52.720"
                 },
                 {
-                  "text": "Das ist nicht der Fall."
+                  "text": "Das ist nicht der Fall.",
+                  "timeStart": "52.720",
+                  "timeEnd": "53.720"
                 }
               ],
               "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses Teiles des Amtlichen Protokolls? – Das ist nicht der Fall."
@@ -1270,7 +1535,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt."
+                  "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.",
+                  "timeStart": "53.720",
+                  "timeEnd": "64.000"
                 }
               ],
               "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt."
@@ -1282,7 +1549,8 @@
         "mediaIndex": 4,
         "stdId": 302417,
         "debatteId": 330,
-        "proceedingIndex": 302417
+        "proceedingIndex": 302417,
+        "alignDuration": 0.4021720886230469
       },
       "originalLanguage": "de"
     },
@@ -1310,7 +1578,8 @@
         "originMediaID": "302418",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/f00e9c39-d107-4b33-af4e-53b80a2b1833/f00e9c39-d107-4b33-af4e-53b80a2b1833.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/f00e9c39-d107-4b33-af4e-53b80a2b1833/f00e9c39-d107-4b33-af4e-53b80a2b1833.mp3",
-        "duration": 236
+        "duration": 236,
+        "aligned": true
       },
       "dateStart": "2023-07-07T17:12:19",
       "dateEnd": "2023-07-07T17:16:15",
@@ -1342,7 +1611,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Schlussansprache des Präsidenten"
+                  "text": "Schlussansprache des Präsidenten",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.640"
                 }
               ],
               "text": "Schlussansprache des Präsidenten"
@@ -1353,7 +1624,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf zum Abschluss dieses Tagungsjahres, das sicherlich ein ganz besonderes für den Nationalrat und auch für den Bundesrat war – ein Tagungsjahr, wie es in der Zeit der Zweiten Republik, seit dem Entstehen des Nationalrates, selten vorkam –, noch einmal in Erinnerung rufen, was dieses Jahr alles mit sich gebracht hat."
+                  "text": "Ich darf zum Abschluss dieses Tagungsjahres, das sicherlich ein ganz besonderes für den Nationalrat und auch für den Bundesrat war – ein Tagungsjahr, wie es in der Zeit der Zweiten Republik, seit dem Entstehen des Nationalrates, selten vorkam –, noch einmal in Erinnerung rufen, was dieses Jahr alles mit sich gebracht hat.",
+                  "timeStart": "2.640",
+                  "timeEnd": "23.600"
                 }
               ],
               "text": "Ich darf zum Abschluss dieses Tagungsjahres, das sicherlich ein ganz besonderes für den Nationalrat und auch für den Bundesrat war – ein Tagungsjahr, wie es in der Zeit der Zweiten Republik, seit dem Entstehen des Nationalrates, selten vorkam –, noch einmal in Erinnerung rufen, was dieses Jahr alles mit sich gebracht hat."
@@ -1364,13 +1637,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich glaube, wir haben die Hofburg schon weit hinter uns gelassen."
+                  "text": "Ich glaube, wir haben die Hofburg schon weit hinter uns gelassen.",
+                  "timeStart": "23.600",
+                  "timeEnd": "28.520"
                 },
                 {
-                  "text": "Wir haben die Ausweichquartiere hinter uns gelassen und wir sind inzwischen auch mit dem Herzen ganz in dieses Haus übersiedelt."
+                  "text": "Wir haben die Ausweichquartiere hinter uns gelassen und wir sind inzwischen auch mit dem Herzen ganz in dieses Haus übersiedelt.",
+                  "timeStart": "28.520",
+                  "timeEnd": "36.520"
                 },
                 {
-                  "text": "Dafür ein herzliches Dankeschön!"
+                  "text": "Dafür ein herzliches Dankeschön!",
+                  "timeStart": "36.520",
+                  "timeEnd": "38.920"
                 }
               ],
               "text": "Ich glaube, wir haben die Hofburg schon weit hinter uns gelassen. Wir haben die Ausweichquartiere hinter uns gelassen und wir sind inzwischen auch mit dem Herzen ganz in dieses Haus übersiedelt. Dafür ein herzliches Dankeschön!"
@@ -1381,13 +1660,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich vor allem bei den Klubs, bei den Mitarbeitern der Klubs und bei den parlamentarischen Mitarbeitern bedanken."
+                  "text": "Ich darf mich vor allem bei den Klubs, bei den Mitarbeitern der Klubs und bei den parlamentarischen Mitarbeitern bedanken.",
+                  "timeStart": "38.920",
+                  "timeEnd": "47.000"
                 },
                 {
-                  "text": "Es ist gerade durch die Übersiedlung vieles notwendig geworden, um sich auf dieses Haus einzustellen. ("
+                  "text": "Es ist gerade durch die Übersiedlung vieles notwendig geworden, um sich auf dieses Haus einzustellen. (",
+                  "timeStart": "47.000",
+                  "timeEnd": "55.320"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "55.320",
+                  "timeEnd": "60.360"
                 }
               ],
               "text": "Ich darf mich vor allem bei den Klubs, bei den Mitarbeitern der Klubs und bei den parlamentarischen Mitarbeitern bedanken. Es ist gerade durch die Übersiedlung vieles notwendig geworden, um sich auf dieses Haus einzustellen. (Allgemeiner Beifall.)"
@@ -1398,13 +1683,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Mein besonderer Dank gilt den Mitgliedern der Präsidiale, meinen Präsidentenkolleg:innen Präsidentin Bures, Präsident Hofer und den Klubobleuten aller Fraktionen, die gerade in dieser Zeit sehr vieles auf den Weg gebracht haben – zum Schluss jetzt auch noch die Hausordnung."
+                  "text": "Mein besonderer Dank gilt den Mitgliedern der Präsidiale, meinen Präsidentenkolleg:innen Präsidentin Bures, Präsident Hofer und den Klubobleuten aller Fraktionen, die gerade in dieser Zeit sehr vieles auf den Weg gebracht haben – zum Schluss jetzt auch noch die Hausordnung.",
+                  "timeStart": "60.360",
+                  "timeEnd": "77.480"
                 },
                 {
-                  "text": "Vielen herzlichen Dank für Ihre/eure Unterstützung! ("
+                  "text": "Vielen herzlichen Dank für Ihre/eure Unterstützung! (",
+                  "timeStart": "77.480",
+                  "timeEnd": "82.320"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "82.320",
+                  "timeEnd": "89.000"
                 }
               ],
               "text": "Mein besonderer Dank gilt den Mitgliedern der Präsidiale, meinen Präsidentenkolleg:innen Präsidentin Bures, Präsident Hofer und den Klubobleuten aller Fraktionen, die gerade in dieser Zeit sehr vieles auf den Weg gebracht haben – zum Schluss jetzt auch noch die Hausordnung. Vielen herzlichen Dank für Ihre/eure Unterstützung! (Allgemeiner Beifall.)"
@@ -1415,7 +1706,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich beim Rechnungshof, bei der Volksanwaltschaft und auch bei der Regierung und ihren Mitarbeitern für die Kooperation bedanken."
+                  "text": "Ich darf mich beim Rechnungshof, bei der Volksanwaltschaft und auch bei der Regierung und ihren Mitarbeitern für die Kooperation bedanken.",
+                  "timeStart": "89.000",
+                  "timeEnd": "98.880"
                 }
               ],
               "text": "Ich darf mich beim Rechnungshof, bei der Volksanwaltschaft und auch bei der Regierung und ihren Mitarbeitern für die Kooperation bedanken."
@@ -1426,16 +1719,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Insbesondere – die Arbeit ist für sie in dieser Tagungsperiode noch nicht zu Ende – darf ich mich aber bei unseren Mitarbeitern im Haus bedanken."
+                  "text": "Insbesondere – die Arbeit ist für sie in dieser Tagungsperiode noch nicht zu Ende – darf ich mich aber bei unseren Mitarbeitern im Haus bedanken.",
+                  "timeStart": "98.880",
+                  "timeEnd": "110.280"
                 },
                 {
-                  "text": "Es beginnt bei Direktor Dr. Dossi und geht bis zur Reinigungskraft."
+                  "text": "Es beginnt bei Direktor Dr. Dossi und geht bis zur Reinigungskraft.",
+                  "timeStart": "110.280",
+                  "timeEnd": "116.240"
                 },
                 {
-                  "text": "Es ist ein ungeheuer breites Feld, das unsere Mitarbeiter abdecken, auch jene, die hier extern Arbeit verrichten."
+                  "text": "Es ist ein ungeheuer breites Feld, das unsere Mitarbeiter abdecken, auch jene, die hier extern Arbeit verrichten.",
+                  "timeStart": "116.240",
+                  "timeEnd": "124.000"
                 },
                 {
-                  "text": "Sie haben wirklich Unglaubliches geleistet, um damit zu ermöglichen, dass wir hier im Wesentlichen störungsfrei und problemfrei tagen können, die Ausschusssitzungen wahrnehmen können, damit wir unserer Arbeit und auch der Betreuung der Besucher nachkommen können."
+                  "text": "Sie haben wirklich Unglaubliches geleistet, um damit zu ermöglichen, dass wir hier im Wesentlichen störungsfrei und problemfrei tagen können, die Ausschusssitzungen wahrnehmen können, damit wir unserer Arbeit und auch der Betreuung der Besucher nachkommen können.",
+                  "timeStart": "124.000",
+                  "timeEnd": "142.000"
                 }
               ],
               "text": "Insbesondere – die Arbeit ist für sie in dieser Tagungsperiode noch nicht zu Ende – darf ich mich aber bei unseren Mitarbeitern im Haus bedanken. Es beginnt bei Direktor Dr. Dossi und geht bis zur Reinigungskraft. Es ist ein ungeheuer breites Feld, das unsere Mitarbeiter abdecken, auch jene, die hier extern Arbeit verrichten. Sie haben wirklich Unglaubliches geleistet, um damit zu ermöglichen, dass wir hier im Wesentlichen störungsfrei und problemfrei tagen können, die Ausschusssitzungen wahrnehmen können, damit wir unserer Arbeit und auch der Betreuung der Besucher nachkommen können."
@@ -1446,19 +1747,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Dieses Haus hat sich ja durch die Rückkehr vollkommen geändert."
+                  "text": "Dieses Haus hat sich ja durch die Rückkehr vollkommen geändert.",
+                  "timeStart": "142.000",
+                  "timeEnd": "146.000"
                 },
                 {
-                  "text": "Es ist stets von 9 Uhr bis 18 Uhr geöffnet, am Donnerstag bis 21 Uhr."
+                  "text": "Es ist stets von 9 Uhr bis 18 Uhr geöffnet, am Donnerstag bis 21 Uhr.",
+                  "timeStart": "146.000",
+                  "timeEnd": "150.480"
                 },
                 {
-                  "text": "Wir sind im wahrsten Sinn des Wortes ein Haus des Dialogs und der Begegnung geworden."
+                  "text": "Wir sind im wahrsten Sinn des Wortes ein Haus des Dialogs und der Begegnung geworden.",
+                  "timeStart": "150.480",
+                  "timeEnd": "155.680"
                 },
                 {
-                  "text": "Vielen herzlichen Dank für Ihre/eure Arbeit und – um da noch etwas draufzusetzen – ein ganz besonderes Dankeschön dem Nationalratsdienst für seine Arbeit. ("
+                  "text": "Vielen herzlichen Dank für Ihre/eure Arbeit und – um da noch etwas draufzusetzen – ein ganz besonderes Dankeschön dem Nationalratsdienst für seine Arbeit. (",
+                  "timeStart": "155.680",
+                  "timeEnd": "166.120"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "166.120",
+                  "timeEnd": "176.520"
                 }
               ],
               "text": "Dieses Haus hat sich ja durch die Rückkehr vollkommen geändert. Es ist stets von 9 Uhr bis 18 Uhr geöffnet, am Donnerstag bis 21 Uhr. Wir sind im wahrsten Sinn des Wortes ein Haus des Dialogs und der Begegnung geworden. Vielen herzlichen Dank für Ihre/eure Arbeit und – um da noch etwas draufzusetzen – ein ganz besonderes Dankeschön dem Nationalratsdienst für seine Arbeit. (Allgemeiner Beifall.)"
@@ -1469,16 +1780,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich auch bei unseren Zusehern zu Hause beziehungsweise auf der Galerie – jetzt sind nur mehr wenige hier – stellvertretend für alle bedanken."
+                  "text": "Ich darf mich auch bei unseren Zusehern zu Hause beziehungsweise auf der Galerie – jetzt sind nur mehr wenige hier – stellvertretend für alle bedanken.",
+                  "timeStart": "176.520",
+                  "timeEnd": "186.080"
                 },
                 {
-                  "text": "Es sind in diesem halben Jahr über 3 000 Leute pro Tag zugegen gewesen, es sind insgesamt 250 000 Besucher:innen auf der Galerie oder in unserem Besucherzentrum gewesen."
+                  "text": "Es sind in diesem halben Jahr über 3 000 Leute pro Tag zugegen gewesen, es sind insgesamt 250 000 Besucher:innen auf der Galerie oder in unserem Besucherzentrum gewesen.",
+                  "timeStart": "186.080",
+                  "timeEnd": "201.000"
                 },
                 {
-                  "text": "Das zeigt, wie attraktiv wir sind. ("
+                  "text": "Das zeigt, wie attraktiv wir sind. (",
+                  "timeStart": "201.000",
+                  "timeEnd": "203.280"
                 },
                 {
-                  "text": "Allgemeine Heiterkeit.)"
+                  "text": "Allgemeine Heiterkeit.)",
+                  "timeStart": "203.280",
+                  "timeEnd": "204.160"
                 }
               ],
               "text": "Ich darf mich auch bei unseren Zusehern zu Hause beziehungsweise auf der Galerie – jetzt sind nur mehr wenige hier – stellvertretend für alle bedanken. Es sind in diesem halben Jahr über 3 000 Leute pro Tag zugegen gewesen, es sind insgesamt 250 000 Besucher:innen auf der Galerie oder in unserem Besucherzentrum gewesen. Das zeigt, wie attraktiv wir sind. (Allgemeine Heiterkeit.)"
@@ -1489,13 +1808,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich denke, wir sollten allesamt dementsprechend einen Beitrag leisten – auch zum Ausklang –, um eine Stimmung zu gewähren, die es ermöglicht, dass wir in den Sommermonaten auftanken, damit wir mit neuer Kraft und neuem Mut im September wiederkommen."
+                  "text": "Ich denke, wir sollten allesamt dementsprechend einen Beitrag leisten – auch zum Ausklang –, um eine Stimmung zu gewähren, die es ermöglicht, dass wir in den Sommermonaten auftanken, damit wir mit neuer Kraft und neuem Mut im September wiederkommen.",
+                  "timeStart": "204.160",
+                  "timeEnd": "222.640"
                 },
                 {
-                  "text": "Das wünsche ich Ihnen und auch Ihren Familienmitgliedern, die gerade heuer vielleicht das eine oder andere mitzutragen hatten."
+                  "text": "Das wünsche ich Ihnen und auch Ihren Familienmitgliedern, die gerade heuer vielleicht das eine oder andere mitzutragen hatten.",
+                  "timeStart": "222.640",
+                  "timeEnd": "229.680"
                 },
                 {
-                  "text": "Erholen Sie sich gut, kommen Sie gut wieder in die nächste Tagungsperiode!"
+                  "text": "Erholen Sie sich gut, kommen Sie gut wieder in die nächste Tagungsperiode!",
+                  "timeStart": "229.680",
+                  "timeEnd": "236.000"
                 }
               ],
               "text": "Ich denke, wir sollten allesamt dementsprechend einen Beitrag leisten – auch zum Ausklang –, um eine Stimmung zu gewähren, die es ermöglicht, dass wir in den Sommermonaten auftanken, damit wir mit neuer Kraft und neuem Mut im September wiederkommen. Das wünsche ich Ihnen und auch Ihren Familienmitgliedern, die gerade heuer vielleicht das eine oder andere mitzutragen hatten. Erholen Sie sich gut, kommen Sie gut wieder in die nächste Tagungsperiode!"
@@ -1507,7 +1832,8 @@
         "mediaIndex": 5,
         "stdId": 302418,
         "debatteId": 340,
-        "proceedingIndex": 302418
+        "proceedingIndex": 302418,
+        "alignDuration": 0.7308328151702881
       },
       "originalLanguage": "de"
     },
@@ -1535,7 +1861,8 @@
         "originMediaID": "302419",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/ad3e175a-a9dd-4bfe-b7f1-23665bb3d72c/ad3e175a-a9dd-4bfe-b7f1-23665bb3d72c.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/ad3e175a-a9dd-4bfe-b7f1-23665bb3d72c/ad3e175a-a9dd-4bfe-b7f1-23665bb3d72c.mp3",
-        "duration": 34
+        "duration": 34,
+        "aligned": true
       },
       "dateStart": "2023-07-07T17:16:15",
       "dateEnd": "2023-07-07T17:16:49",
@@ -1567,7 +1894,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "1.000",
+                  "timeEnd": "10.280"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
@@ -1578,7 +1907,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters darf ich bekannt geben, dass nach Ende dieser Sitzung der Hauptausschuss im Lokal 5 zusammentreten wird."
+                  "text": "Weiters darf ich bekannt geben, dass nach Ende dieser Sitzung der Hauptausschuss im Lokal 5 zusammentreten wird.",
+                  "timeStart": "10.280",
+                  "timeEnd": "17.800"
                 }
               ],
               "text": "Weiters darf ich bekannt geben, dass nach Ende dieser Sitzung der Hauptausschuss im Lokal 5 zusammentreten wird."
@@ -1589,10 +1920,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen. ("
+                  "text": "Die Sitzung ist geschlossen. (",
+                  "timeStart": "17.800",
+                  "timeEnd": "19.880"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "19.880",
+                  "timeEnd": "33.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen. (Allgemeiner Beifall.)"
@@ -1604,7 +1939,8 @@
         "mediaIndex": 6,
         "stdId": 302419,
         "debatteId": 350,
-        "proceedingIndex": 302419
+        "proceedingIndex": 302419,
+        "alignDuration": 0.3108961582183838
       },
       "originalLanguage": "de"
     }
