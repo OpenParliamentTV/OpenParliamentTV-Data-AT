@@ -4,11 +4,11 @@
     "session": "27242",
     "dateStart": "2023-11-24T16:38:09",
     "dateEnd": "2023-11-24T16:40:30",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:11+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T05:04:53",
     "processing": {
       "merge": "2026-06-16T04:24:11+00:00",
-      "nel": "2026-06-16T06:24:27"
+      "align": "2026-06-26T05:04:53"
     }
   },
   "data": [
@@ -857,7 +857,8 @@
         "mediaIndex": 1,
         "stdId": 310943,
         "debatteId": 300,
-        "proceedingIndex": 310943
+        "proceedingIndex": 310943,
+        "alignError": "exit 1"
       },
       "originalLanguage": "de"
     },
@@ -883,7 +884,8 @@
         "creator": "Parlamentsdirektion / Parlament Österreich",
         "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
         "originMediaID": "310950",
-        "duration": 59
+        "duration": 59,
+        "aligned": true
       },
       "dateStart": "2023-11-24T16:39:31",
       "dateEnd": "2023-11-24T16:40:30",
@@ -915,7 +917,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über einen Fristsetzungsantrag"
+                  "text": "Abstimmung über einen Fristsetzungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "5.240"
                 }
               ],
               "text": "Abstimmung über einen Fristsetzungsantrag"
@@ -926,7 +930,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen daher zur Abstimmung über den Antrag der Abgeordneten Fürst, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2905/A eine Frist bis zum 25. November 2023 zu setzen."
+                  "text": "Wir kommen daher zur Abstimmung über den Antrag der Abgeordneten Fürst, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2905/A eine Frist bis zum 25. November 2023 zu setzen.",
+                  "timeStart": "5.240",
+                  "timeEnd": "53.160"
                 }
               ],
               "text": "Wir kommen daher zur Abstimmung über den Antrag der Abgeordneten Fürst, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2905/A eine Frist bis zum 25. November 2023 zu setzen."
@@ -937,10 +943,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –"
+                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –",
+                  "timeStart": "53.160",
+                  "timeEnd": "56.240"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "56.240",
+                  "timeEnd": "59.960"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. – Das ist die Minderheit, abgelehnt."
@@ -952,7 +962,8 @@
         "mediaIndex": 2,
         "stdId": 310950,
         "debatteId": 310,
-        "proceedingIndex": 310950
+        "proceedingIndex": 310950,
+        "alignDuration": 0.33451104164123535
       },
       "originalLanguage": "de"
     }

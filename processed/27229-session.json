@@ -4,11 +4,11 @@
     "session": "27229",
     "dateStart": "2023-08-30T15:23:53",
     "dateEnd": "2023-08-30T15:29:10",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:09+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-25T13:27:49",
     "processing": {
       "merge": "2026-06-16T04:24:09+00:00",
-      "nel": "2026-06-16T06:24:26"
+      "align": "2026-06-25T13:27:49"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "303667",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/ebe1f963-b153-4dcf-87fc-39a79fd129e0/ebe1f963-b153-4dcf-87fc-39a79fd129e0.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/ebe1f963-b153-4dcf-87fc-39a79fd129e0/ebe1f963-b153-4dcf-87fc-39a79fd129e0.mp3",
-        "duration": 118
+        "duration": 118,
+        "aligned": true
       },
       "dateStart": "2023-08-30T15:23:53",
       "dateEnd": "2023-08-30T15:25:51",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 229. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 229. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.080"
                 }
               ],
               "text": "Ich eröffne die 229. Sitzung des Nationalrates."
@@ -79,40 +82,64 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Hermann Gahr , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Hermann Gahr , Mag.",
+                  "timeStart": "4.080",
+                  "timeEnd": "4.720"
                 },
                 {
-                  "text": "Carmen Jeitler-Cincelli, BA , Rebecca Kirchbaumer , Dr. Reinhold Lopatka , Mag."
+                  "text": "Carmen Jeitler-Cincelli, BA , Rebecca Kirchbaumer , Dr. Reinhold Lopatka , Mag.",
+                  "timeStart": "4.720",
+                  "timeEnd": "5.080"
                 },
                 {
-                  "text": "Corinna Scharzenberger , Cornelia Ecker , Mag."
+                  "text": "Corinna Scharzenberger , Cornelia Ecker , Mag.",
+                  "timeStart": "5.080",
+                  "timeEnd": "5.880"
                 },
                 {
-                  "text": "Verena Nussbaum , Mag."
+                  "text": "Verena Nussbaum , Mag.",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.040"
                 },
                 {
-                  "text": "Hannes Amesbauer, BA , Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , MMMag."
+                  "text": "Hannes Amesbauer, BA , Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , MMMag.",
+                  "timeStart": "6.040",
+                  "timeEnd": "7.040"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Mag."
+                  "text": "Dr. Axel Kassegger , Mag.",
+                  "timeStart": "7.040",
+                  "timeEnd": "7.480"
                 },
                 {
-                  "text": "Eva Blimlinger , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Dr. Astrid Rössler , Mag."
+                  "text": "Eva Blimlinger , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Dr. Astrid Rössler , Mag.",
+                  "timeStart": "7.480",
+                  "timeEnd": "9.240"
                 },
                 {
-                  "text": "Nina Tomaselli , Henrike Brandstötter , Dipl.-Ing. Karin Doppelbauer , Mag."
+                  "text": "Nina Tomaselli , Henrike Brandstötter , Dipl.-Ing. Karin Doppelbauer , Mag.",
+                  "timeStart": "9.240",
+                  "timeEnd": "11.160"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Mag."
+                  "text": "Martina Künsberg Sarre , Mag.",
+                  "timeStart": "11.160",
+                  "timeEnd": "11.640"
                 },
                 {
-                  "text": "Gerald Loacker , Dr. Johannes Margreiter , Mag."
+                  "text": "Gerald Loacker , Dr. Johannes Margreiter , Mag.",
+                  "timeStart": "11.640",
+                  "timeEnd": "12.480"
                 },
                 {
-                  "text": "Yannick Shetty und MMag."
+                  "text": "Yannick Shetty und MMag.",
+                  "timeStart": "12.480",
+                  "timeEnd": "12.920"
                 },
                 {
-                  "text": "Katharina Werner, Bakk."
+                  "text": "Katharina Werner, Bakk.",
+                  "timeStart": "12.920",
+                  "timeEnd": "13.080"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Hermann Gahr , Mag. Carmen Jeitler-Cincelli, BA , Rebecca Kirchbaumer , Dr. Reinhold Lopatka , Mag. Corinna Scharzenberger , Cornelia Ecker , Mag. Verena Nussbaum , Mag. Hannes Amesbauer, BA , Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , MMMag. Dr. Axel Kassegger , Mag. Eva Blimlinger , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Dr. Astrid Rössler , Mag. Nina Tomaselli , Henrike Brandstötter , Dipl.-Ing. Karin Doppelbauer , Mag. Martina Künsberg Sarre , Mag. Gerald Loacker , Dr. Johannes Margreiter , Mag. Yannick Shetty und MMag. Katharina Werner, Bakk."
@@ -123,7 +150,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "13.080",
+                  "timeEnd": "13.440"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -134,7 +163,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "13.440",
+                  "timeEnd": "15.840"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -145,7 +176,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "15.840",
+                  "timeEnd": "15.960"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -156,7 +189,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "15.960",
+                  "timeEnd": "16.040"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -167,7 +202,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 14947/AB bis 14951/AB"
+                  "text": "Anfragebeantwortungen: 14947/AB bis 14951/AB",
+                  "timeStart": "16.040",
+                  "timeEnd": "17.480"
                 }
               ],
               "text": "Anfragebeantwortungen: 14947/AB bis 14951/AB"
@@ -178,7 +215,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "17.480",
+                  "timeEnd": "17.520"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -189,7 +228,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "17.520",
+                  "timeEnd": "18.000"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -200,7 +241,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "18.000",
+                  "timeEnd": "18.640"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -211,7 +254,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Deckelung der Anpassung für Luxuspensionen ( 3541/A(E) )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Deckelung der Anpassung für Luxuspensionen ( 3541/A(E) )",
+                  "timeStart": "18.640",
+                  "timeEnd": "19.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Deckelung der Anpassung für Luxuspensionen ( 3541/A(E) )"
@@ -222,7 +267,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz – APG geändert wird ( 3543/A )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz – APG geändert wird ( 3543/A )",
+                  "timeStart": "19.960",
+                  "timeEnd": "22.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz – APG geändert wird ( 3543/A )"
@@ -233,10 +280,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Norbert Sieber , Mag."
+                  "text": "Antrag der Abgeordneten Norbert Sieber , Mag.",
+                  "timeStart": "22.640",
+                  "timeEnd": "23.760"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend Bundesgesetz, mit dem das Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz – LWA-G geändert wird ( 3547/A )"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend Bundesgesetz, mit dem das Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz – LWA-G geändert wird ( 3547/A )",
+                  "timeStart": "23.760",
+                  "timeEnd": "27.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Norbert Sieber , Mag. Markus Koza , Kolleginnen und Kollegen betreffend Bundesgesetz, mit dem das Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz – LWA-G geändert wird ( 3547/A )"
@@ -247,10 +298,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz Schluss mit Privilegien, Parteipolitik, Spitzengagen und Zwangsmitgliedschaft in der Arbeiter- und Wirtschaftskammer! ("
+                  "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz Schluss mit Privilegien, Parteipolitik, Spitzengagen und Zwangsmitgliedschaft in der Arbeiter- und Wirtschaftskammer! (",
+                  "timeStart": "27.480",
+                  "timeEnd": "32.680"
                 },
                 {
-                  "text": "3549/A(E) )"
+                  "text": "3549/A(E) )",
+                  "timeStart": "32.680",
+                  "timeEnd": "33.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz Schluss mit Privilegien, Parteipolitik, Spitzengagen und Zwangsmitgliedschaft in der Arbeiter- und Wirtschaftskammer! ( 3549/A(E) )"
@@ -261,7 +316,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3550/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3550/A(E) )",
+                  "timeStart": "33.280",
+                  "timeEnd": "37.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3550/A(E) )"
@@ -272,7 +329,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "37.760",
+                  "timeEnd": "38.280"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -283,7 +342,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Solidarität mit den Frauen in Afghanistan ( 3551/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Solidarität mit den Frauen in Afghanistan ( 3551/A(E) )",
+                  "timeStart": "38.280",
+                  "timeEnd": "39.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Solidarität mit den Frauen in Afghanistan ( 3551/A(E) )"
@@ -294,7 +355,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Internationalen Druck auf Saudi-Arabien erhöhen ( 3554/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Internationalen Druck auf Saudi-Arabien erhöhen ( 3554/A(E) )",
+                  "timeStart": "39.800",
+                  "timeEnd": "42.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Internationalen Druck auf Saudi-Arabien erhöhen ( 3554/A(E) )"
@@ -305,7 +368,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der indigenen Rechte ( 3555/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der indigenen Rechte ( 3555/A(E) )",
+                  "timeStart": "42.360",
+                  "timeEnd": "43.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der indigenen Rechte ( 3555/A(E) )"
@@ -316,7 +381,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Bauten und Wohnen:"
+                  "text": "Ausschuss für Bauten und Wohnen:",
+                  "timeStart": "43.320",
+                  "timeEnd": "44.080"
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -327,10 +394,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "44.080",
+                  "timeEnd": "45.200"
                 },
                 {
-                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mieter schützen – Nach der Mietpreisbremse jetzt auch Verbot von Anlegerwohnungen bei Wohnungsgenossenschaften ( 3553/A(E) )"
+                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mieter schützen – Nach der Mietpreisbremse jetzt auch Verbot von Anlegerwohnungen bei Wohnungsgenossenschaften ( 3553/A(E) )",
+                  "timeStart": "45.200",
+                  "timeEnd": "50.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Mieter schützen – Nach der Mietpreisbremse jetzt auch Verbot von Anlegerwohnungen bei Wohnungsgenossenschaften ( 3553/A(E) )"
@@ -341,7 +412,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz, das Richtwertgesetz und das Wohnungsgemeinnützigkeitsgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz – 3. MILG) ( 3558/A )"
+                  "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz, das Richtwertgesetz und das Wohnungsgemeinnützigkeitsgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz – 3. MILG) ( 3558/A )",
+                  "timeStart": "50.360",
+                  "timeEnd": "57.440"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz, das Richtwertgesetz und das Wohnungsgemeinnützigkeitsgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz – 3. MILG) ( 3558/A )"
@@ -352,7 +425,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "57.440",
+                  "timeEnd": "58.200"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -363,10 +438,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "58.200",
+                  "timeEnd": "58.480"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz über einen Zuschuss an die Länder zur Finanzierung einer Gebührenbremse ( 3545/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz über einen Zuschuss an die Länder zur Finanzierung einer Gebührenbremse ( 3545/A )",
+                  "timeStart": "58.480",
+                  "timeEnd": "61.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz über einen Zuschuss an die Länder zur Finanzierung einer Gebührenbremse ( 3545/A )"
@@ -377,10 +456,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "61.960",
+                  "timeEnd": "62.480"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Energiekrisenbeitrag-fossile Energieträger (EKBFG) geändert wird ( 3546/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Energiekrisenbeitrag-fossile Energieträger (EKBFG) geändert wird ( 3546/A )",
+                  "timeStart": "62.480",
+                  "timeEnd": "63.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Energiekrisenbeitrag-fossile Energieträger (EKBFG) geändert wird ( 3546/A )"
@@ -391,7 +474,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "63.560",
+                  "timeEnd": "63.960"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -402,7 +487,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Sicherung der Bargeldversorgung (mindestens ein Bankomat je Gemeinde) und der Annahmepflicht von Bargeld ( 3542/A(E) )"
+                  "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Sicherung der Bargeldversorgung (mindestens ein Bankomat je Gemeinde) und der Annahmepflicht von Bargeld ( 3542/A(E) )",
+                  "timeStart": "63.960",
+                  "timeEnd": "68.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Sicherung der Bargeldversorgung (mindestens ein Bankomat je Gemeinde) und der Annahmepflicht von Bargeld ( 3542/A(E) )"
@@ -413,7 +500,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend Vorziehen der Maßnahmen für Spielerschutz aus dem Glücksspielpaket der Bundesregierung ( 3556/A(E) )"
+                  "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend Vorziehen der Maßnahmen für Spielerschutz aus dem Glücksspielpaket der Bundesregierung ( 3556/A(E) )",
+                  "timeStart": "68.160",
+                  "timeEnd": "72.740"
                 }
               ],
               "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend Vorziehen der Maßnahmen für Spielerschutz aus dem Glücksspielpaket der Bundesregierung ( 3556/A(E) )"
@@ -424,7 +513,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "72.740",
+                  "timeEnd": "73.600"
                 }
               ],
               "text": "Justizausschuss:"
@@ -435,7 +526,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Solidarität mit den Menschen in Afghanistan durch effektive Strafverfolgung von involvierten Taliban ( 3552/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Solidarität mit den Menschen in Afghanistan durch effektive Strafverfolgung von involvierten Taliban ( 3552/A(E) )",
+                  "timeStart": "73.600",
+                  "timeEnd": "77.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Solidarität mit den Menschen in Afghanistan durch effektive Strafverfolgung von involvierten Taliban ( 3552/A(E) )"
@@ -446,7 +539,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "77.600",
+                  "timeEnd": "78.240"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -457,7 +552,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Staatsgrundgesetz über die allgemeinen Rechte der Staatsbürger geändert wird ( 3544/A )"
+                  "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Staatsgrundgesetz über die allgemeinen Rechte der Staatsbürger geändert wird ( 3544/A )",
+                  "timeStart": "78.240",
+                  "timeEnd": "81.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Staatsgrundgesetz über die allgemeinen Rechte der Staatsbürger geändert wird ( 3544/A )"
@@ -468,7 +565,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "81.720",
+                  "timeEnd": "82.440"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -479,7 +578,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3548/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3548/A(E) )",
+                  "timeStart": "82.440",
+                  "timeEnd": "87.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3548/A(E) )"
@@ -490,10 +591,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Schluss mit Privilegien, Parteipolitik, Spitzengagen und Zwangsmitgliedschaft in der Arbeiter- und Wirtschaftskammer! ("
+                  "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Schluss mit Privilegien, Parteipolitik, Spitzengagen und Zwangsmitgliedschaft in der Arbeiter- und Wirtschaftskammer! (",
+                  "timeStart": "87.080",
+                  "timeEnd": "88.440"
                 },
                 {
-                  "text": "3557/A(E)"
+                  "text": "3557/A(E)",
+                  "timeStart": "88.440",
+                  "timeEnd": "89.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Schluss mit Privilegien, Parteipolitik, Spitzengagen und Zwangsmitgliedschaft in der Arbeiter- und Wirtschaftskammer! ( 3557/A(E)"
@@ -504,7 +609,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 3559/A dem Ausschuss für Familie und Jugend zu."
+                  "text": "Weiters weise ich den Antrag 3559/A dem Ausschuss für Familie und Jugend zu.",
+                  "timeStart": "89.280",
+                  "timeEnd": "91.280"
                 }
               ],
               "text": "Weiters weise ich den Antrag 3559/A dem Ausschuss für Familie und Jugend zu."
@@ -515,7 +622,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "91.280",
+                  "timeEnd": "91.480"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -526,7 +635,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich teile mit, dass folgende Fristsetzungsanträge vorliegen:"
+                  "text": "Ich teile mit, dass folgende Fristsetzungsanträge vorliegen:",
+                  "timeStart": "91.480",
+                  "timeEnd": "93.440"
                 }
               ],
               "text": "Ich teile mit, dass folgende Fristsetzungsanträge vorliegen:"
@@ -537,7 +648,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2939/A eine Frist bis 19. September 2023 zu setzen."
+                  "text": "Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2939/A eine Frist bis 19. September 2023 zu setzen.",
+                  "timeStart": "93.440",
+                  "timeEnd": "100.200"
                 }
               ],
               "text": "Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2939/A eine Frist bis 19. September 2023 zu setzen."
@@ -548,7 +661,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Christian Lausch , dem Justizausschuss zur Berichterstattung über den Antrag 3349/A(E) eine Frist bis 19. September 2023 zu setzen."
+                  "text": "Antrag des Abgeordneten Christian Lausch , dem Justizausschuss zur Berichterstattung über den Antrag 3349/A(E) eine Frist bis 19. September 2023 zu setzen.",
+                  "timeStart": "100.200",
+                  "timeEnd": "103.360"
                 }
               ],
               "text": "Antrag des Abgeordneten Christian Lausch , dem Justizausschuss zur Berichterstattung über den Antrag 3349/A(E) eine Frist bis 19. September 2023 zu setzen."
@@ -559,7 +674,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Peter Wurm , dem Verfassungsausschuss zur Berichterstattung über den Antrag 3544/A eine Frist bis 19. September 2023 zu setzen."
+                  "text": "Antrag des Abgeordneten Peter Wurm , dem Verfassungsausschuss zur Berichterstattung über den Antrag 3544/A eine Frist bis 19. September 2023 zu setzen.",
+                  "timeStart": "103.360",
+                  "timeEnd": "107.960"
                 }
               ],
               "text": "Antrag des Abgeordneten Peter Wurm , dem Verfassungsausschuss zur Berichterstattung über den Antrag 3544/A eine Frist bis 19. September 2023 zu setzen."
@@ -570,10 +687,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "(In Richtung Bundeskanzler Nehammer:) Vielleicht kann man die Besprechung, Herr Bundeskanzler, dann im Anschluss an die Sitzung machen."
+                  "text": "(In Richtung Bundeskanzler Nehammer:) Vielleicht kann man die Besprechung, Herr Bundeskanzler, dann im Anschluss an die Sitzung machen.",
+                  "timeStart": "107.960",
+                  "timeEnd": "109.760"
                 },
                 {
-                  "text": "So ist es ein bisschen schwierig, wir sind nämlich noch in der Sitzung."
+                  "text": "So ist es ein bisschen schwierig, wir sind nämlich noch in der Sitzung.",
+                  "timeStart": "109.760",
+                  "timeEnd": "110.400"
                 }
               ],
               "text": "(In Richtung Bundeskanzler Nehammer:) Vielleicht kann man die Besprechung, Herr Bundeskanzler, dann im Anschluss an die Sitzung machen. So ist es ein bisschen schwierig, wir sind nämlich noch in der Sitzung."
@@ -584,7 +705,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3545/A eine Frist bis 19. September 2023 zu setzen."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3545/A eine Frist bis 19. September 2023 zu setzen.",
+                  "timeStart": "110.400",
+                  "timeEnd": "115.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer und Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3545/A eine Frist bis 19. September 2023 zu setzen."
@@ -595,7 +718,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3546/A eine Frist bis 19. September 2023 zu setzen."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer und Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3546/A eine Frist bis 19. September 2023 zu setzen.",
+                  "timeStart": "115.480",
+                  "timeEnd": "118.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer und Jakob Schwarz, dem Budgetausschuss zur Berichterstattung über den Antrag 3546/A eine Frist bis 19. September 2023 zu setzen."
@@ -606,7 +731,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Diese Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht."
+                  "text": "Diese Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht.",
+                  "timeStart": "118.160",
+                  "timeEnd": "120.000"
                 }
               ],
               "text": "Diese Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht."
@@ -618,7 +745,8 @@
         "mediaIndex": 1,
         "stdId": 303667,
         "debatteId": 300,
-        "proceedingIndex": 303667
+        "proceedingIndex": 303667,
+        "alignDuration": 0.8277430534362793
       },
       "originalLanguage": "de"
     },
@@ -646,7 +774,8 @@
         "originMediaID": "303670",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/92392fb2-76c4-49ef-bbde-21bc31ebe772/92392fb2-76c4-49ef-bbde-21bc31ebe772.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/92392fb2-76c4-49ef-bbde-21bc31ebe772/92392fb2-76c4-49ef-bbde-21bc31ebe772.mp3",
-        "duration": 33
+        "duration": 33,
+        "aligned": true
       },
       "dateStart": "2023-08-30T15:25:51",
       "dateEnd": "2023-08-30T15:26:24",
@@ -678,7 +807,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Beschluss auf Beendigung der außerordentlichen Tagung 2023"
+                  "text": "Beschluss auf Beendigung der außerordentlichen Tagung 2023",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Beschluss auf Beendigung der außerordentlichen Tagung 2023"
@@ -689,7 +820,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ferner liegt mir folgender Antrag vor:"
+                  "text": "Ferner liegt mir folgender Antrag vor:",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.960"
                 }
               ],
               "text": "Ferner liegt mir folgender Antrag vor:"
@@ -700,10 +833,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 30. August 2023 der XXVII."
+                  "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 30. August 2023 der XXVII.",
+                  "timeStart": "3.960",
+                  "timeEnd": "10.880"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 30. August 2023 für beendet zu erklären.“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 30. August 2023 für beendet zu erklären.“",
+                  "timeStart": "10.880",
+                  "timeEnd": "18.920"
                 }
               ],
               "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 30. August 2023 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 30. August 2023 für beendet zu erklären.“"
@@ -714,10 +851,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich lasse sofort darüber abstimmen und bitte jene Damen und Herren, die diesem Antrag ihre Zustimmung geben, um ein entsprechendes Zeichen. –"
+                  "text": "Ich lasse sofort darüber abstimmen und bitte jene Damen und Herren, die diesem Antrag ihre Zustimmung geben, um ein entsprechendes Zeichen. –",
+                  "timeStart": "18.920",
+                  "timeEnd": "29.300"
                 },
                 {
-                  "text": "Das ist einstimmig angenommen."
+                  "text": "Das ist einstimmig angenommen.",
+                  "timeStart": "29.300",
+                  "timeEnd": "34.000"
                 }
               ],
               "text": "Ich lasse sofort darüber abstimmen und bitte jene Damen und Herren, die diesem Antrag ihre Zustimmung geben, um ein entsprechendes Zeichen. – Das ist einstimmig angenommen."
@@ -729,7 +870,8 @@
         "mediaIndex": 2,
         "stdId": 303670,
         "debatteId": 310,
-        "proceedingIndex": 303670
+        "proceedingIndex": 303670,
+        "alignDuration": 0.33507466316223145
       },
       "originalLanguage": "de"
     },
@@ -757,7 +899,8 @@
         "originMediaID": "303671",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/784e10a0-68f8-424f-b257-70b3c5c242f4/784e10a0-68f8-424f-b257-70b3c5c242f4.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/784e10a0-68f8-424f-b257-70b3c5c242f4/784e10a0-68f8-424f-b257-70b3c5c242f4.mp3",
-        "duration": 85
+        "duration": 85,
+        "aligned": true
       },
       "dateStart": "2023-08-30T15:26:24",
       "dateEnd": "2023-08-30T15:27:49",
@@ -789,7 +932,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.760"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -800,7 +945,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Nun kommen wir zur Abstimmung über die vorliegenden Fristsetzungsanträge."
+                  "text": "Nun kommen wir zur Abstimmung über die vorliegenden Fristsetzungsanträge.",
+                  "timeStart": "1.760",
+                  "timeEnd": "3.520"
                 }
               ],
               "text": "Nun kommen wir zur Abstimmung über die vorliegenden Fristsetzungsanträge."
@@ -811,7 +958,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag des Abgeordneten Stefan, Justizausschuss, Berichterstattung über den Antrag 2939/A , Frist 19. September 2023:"
+                  "text": "Abstimmung über den Antrag des Abgeordneten Stefan, Justizausschuss, Berichterstattung über den Antrag 2939/A , Frist 19. September 2023:",
+                  "timeStart": "3.520",
+                  "timeEnd": "14.080"
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Stefan, Justizausschuss, Berichterstattung über den Antrag 2939/A , Frist 19. September 2023:"
@@ -822,10 +971,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist dafür? –"
+                  "text": "Wer ist dafür? –",
+                  "timeStart": "14.080",
+                  "timeEnd": "15.660"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "15.660",
+                  "timeEnd": "18.120"
                 }
               ],
               "text": "Wer ist dafür? – Das ist die Minderheit, abgelehnt."
@@ -836,7 +989,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Christian Lausch , Justizausschuss, Berichterstattung über den Antrag 3349/A(E) , Frist 19. September 2023:"
+                  "text": "Antrag des Abgeordneten Christian Lausch , Justizausschuss, Berichterstattung über den Antrag 3349/A(E) , Frist 19. September 2023:",
+                  "timeStart": "18.120",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "Antrag des Abgeordneten Christian Lausch , Justizausschuss, Berichterstattung über den Antrag 3349/A(E) , Frist 19. September 2023:"
@@ -847,10 +1002,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diese Fristsetzung? –"
+                  "text": "Wer ist für diese Fristsetzung? –",
+                  "timeStart": "27.800",
+                  "timeEnd": "30.100"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "30.100",
+                  "timeEnd": "32.480"
                 }
               ],
               "text": "Wer ist für diese Fristsetzung? – Das ist die Minderheit, abgelehnt."
@@ -861,7 +1020,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag des Abgeordneten Peter Wurm , Verfassungsausschuss, Berichterstattung über den Antrag 3544/A , Frist 19. September 2023:"
+                  "text": "Abstimmung über den Antrag des Abgeordneten Peter Wurm , Verfassungsausschuss, Berichterstattung über den Antrag 3544/A , Frist 19. September 2023:",
+                  "timeStart": "32.480",
+                  "timeEnd": "43.680"
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Peter Wurm , Verfassungsausschuss, Berichterstattung über den Antrag 3544/A , Frist 19. September 2023:"
@@ -872,10 +1033,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diese Fristsetzung? –"
+                  "text": "Wer ist für diese Fristsetzung? –",
+                  "timeStart": "43.680",
+                  "timeEnd": "45.960"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "45.960",
+                  "timeEnd": "48.880"
                 }
               ],
               "text": "Wer ist für diese Fristsetzung? – Das ist die Minderheit, abgelehnt."
@@ -886,7 +1051,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Jakob Schwarz, Budgetausschuss, Berichterstattung über den Antrag 3545/A , Frist 19. September 2023:"
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Jakob Schwarz, Budgetausschuss, Berichterstattung über den Antrag 3545/A , Frist 19. September 2023:",
+                  "timeStart": "48.880",
+                  "timeEnd": "62.240"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Jakob Schwarz, Budgetausschuss, Berichterstattung über den Antrag 3545/A , Frist 19. September 2023:"
@@ -897,10 +1064,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer spricht sich dafür aus? –"
+                  "text": "Wer spricht sich dafür aus? –",
+                  "timeStart": "62.240",
+                  "timeEnd": "64.340"
                 },
                 {
-                  "text": "Das ist mit Mehrheit angenommen."
+                  "text": "Das ist mit Mehrheit angenommen.",
+                  "timeStart": "64.340",
+                  "timeEnd": "67.540"
                 }
               ],
               "text": "Wer spricht sich dafür aus? – Das ist mit Mehrheit angenommen."
@@ -911,7 +1082,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Jakob Schwarz, Budgetausschuss, Berichterstattung über den Antrag 3546/A , Frist 19. September 2023:"
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Jakob Schwarz, Budgetausschuss, Berichterstattung über den Antrag 3546/A , Frist 19. September 2023:",
+                  "timeStart": "67.540",
+                  "timeEnd": "82.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Jakob Schwarz, Budgetausschuss, Berichterstattung über den Antrag 3546/A , Frist 19. September 2023:"
@@ -922,10 +1095,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diese Fristsetzung? –"
+                  "text": "Wer ist für diese Fristsetzung? –",
+                  "timeStart": "82.320",
+                  "timeEnd": "84.440"
                 },
                 {
-                  "text": "Das ist mit Mehrheit angenommen."
+                  "text": "Das ist mit Mehrheit angenommen.",
+                  "timeStart": "84.440",
+                  "timeEnd": "85.960"
                 }
               ],
               "text": "Wer ist für diese Fristsetzung? – Das ist mit Mehrheit angenommen."
@@ -937,7 +1114,8 @@
         "mediaIndex": 3,
         "stdId": 303671,
         "debatteId": 320,
-        "proceedingIndex": 303671
+        "proceedingIndex": 303671,
+        "alignDuration": 0.4356389045715332
       },
       "originalLanguage": "de"
     },
@@ -965,7 +1143,8 @@
         "originMediaID": "303672",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d5ee457e-5116-4b86-8553-cd6e47520259/d5ee457e-5116-4b86-8553-cd6e47520259.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d5ee457e-5116-4b86-8553-cd6e47520259/d5ee457e-5116-4b86-8553-cd6e47520259.mp3",
-        "duration": 81
+        "duration": 81,
+        "aligned": true
       },
       "dateStart": "2023-08-30T15:27:49",
       "dateEnd": "2023-08-30T15:29:10",
@@ -997,7 +1176,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Verlesung eines Teiles des Amtlichen Protokolls"
+                  "text": "Verlesung eines Teiles des Amtlichen Protokolls",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.800"
                 }
               ],
               "text": "Verlesung eines Teiles des Amtlichen Protokolls"
@@ -1008,7 +1189,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Um eine umgehende Ausfertigung des Beschlusses auf Beendigung der außerordentlichen Tagung zu ermöglichen, verlese ich entsprechend einem schriftlichen Verlangen von 20 Abgeordneten den diesbezüglichen Teil des Amtlichen Protokolls, damit dieser mit Schluss der Sitzung auch als genehmigt gilt."
+                  "text": "Um eine umgehende Ausfertigung des Beschlusses auf Beendigung der außerordentlichen Tagung zu ermöglichen, verlese ich entsprechend einem schriftlichen Verlangen von 20 Abgeordneten den diesbezüglichen Teil des Amtlichen Protokolls, damit dieser mit Schluss der Sitzung auch als genehmigt gilt.",
+                  "timeStart": "2.800",
+                  "timeEnd": "16.520"
                 }
               ],
               "text": "Um eine umgehende Ausfertigung des Beschlusses auf Beendigung der außerordentlichen Tagung zu ermöglichen, verlese ich entsprechend einem schriftlichen Verlangen von 20 Abgeordneten den diesbezüglichen Teil des Amtlichen Protokolls, damit dieser mit Schluss der Sitzung auch als genehmigt gilt."
@@ -1019,7 +1202,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich verlese:"
+                  "text": "Ich verlese:",
+                  "timeStart": "16.520",
+                  "timeEnd": "16.720"
                 }
               ],
               "text": "Ich verlese:"
@@ -1030,16 +1215,24 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "„Auf Antrag der Abgeordneten Sieber, Lukas Hammer , Dr. Scherak, MA, Mag."
+                  "text": "„Auf Antrag der Abgeordneten Sieber, Lukas Hammer , Dr. Scherak, MA, Mag.",
+                  "timeStart": "18.800",
+                  "timeEnd": "25.040"
                 },
                 {
-                  "text": "Bürstmayr, Ing. Mag."
+                  "text": "Bürstmayr, Ing. Mag.",
+                  "timeStart": "25.040",
+                  "timeEnd": "27.120"
                 },
                 {
-                  "text": "Reifenberger und Mag."
+                  "text": "Reifenberger und Mag.",
+                  "timeStart": "27.120",
+                  "timeEnd": "28.860"
                 },
                 {
-                  "text": "Greiner fasst der Nationalrat einstimmig nachstehenden Beschluss:"
+                  "text": "Greiner fasst der Nationalrat einstimmig nachstehenden Beschluss:",
+                  "timeStart": "28.860",
+                  "timeEnd": "32.000"
                 }
               ],
               "text": "„Auf Antrag der Abgeordneten Sieber, Lukas Hammer , Dr. Scherak, MA, Mag. Bürstmayr, Ing. Mag. Reifenberger und Mag. Greiner fasst der Nationalrat einstimmig nachstehenden Beschluss:"
@@ -1050,10 +1243,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "‚Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 30. August 2023 der XXVII."
+                  "text": "‚Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 30. August 2023 der XXVII.",
+                  "timeStart": "32.000",
+                  "timeEnd": "39.320"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 30. August 2023 für beendet zu erklären.‘“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 30. August 2023 für beendet zu erklären.‘“",
+                  "timeStart": "39.320",
+                  "timeEnd": "47.360"
                 }
               ],
               "text": "‚Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 30. August 2023 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 30. August 2023 für beendet zu erklären.‘“"
@@ -1064,10 +1261,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses verlesenen Teils des Amtlichen Protokolls? –"
+                  "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses verlesenen Teils des Amtlichen Protokolls? –",
+                  "timeStart": "47.360",
+                  "timeEnd": "53.480"
                 },
                 {
-                  "text": "Das scheint nicht der Fall zu sein."
+                  "text": "Das scheint nicht der Fall zu sein.",
+                  "timeStart": "53.480",
+                  "timeEnd": "55.560"
                 }
               ],
               "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses verlesenen Teils des Amtlichen Protokolls? – Das scheint nicht der Fall zu sein."
@@ -1078,7 +1279,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Damit gilt dieser Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt."
+                  "text": "Damit gilt dieser Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.",
+                  "timeStart": "55.560",
+                  "timeEnd": "66.560"
                 }
               ],
               "text": "Damit gilt dieser Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt."
@@ -1089,7 +1292,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "66.560",
+                  "timeEnd": "75.000"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -1100,7 +1305,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen noch einen schönen Tag."
+                  "text": "Ich wünsche Ihnen noch einen schönen Tag.",
+                  "timeStart": "75.000",
+                  "timeEnd": "77.280"
                 }
               ],
               "text": "Ich wünsche Ihnen noch einen schönen Tag."
@@ -1111,7 +1318,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "77.280",
+                  "timeEnd": "78.200"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -1123,7 +1332,8 @@
         "mediaIndex": 4,
         "stdId": 303672,
         "debatteId": 330,
-        "proceedingIndex": 303672
+        "proceedingIndex": 303672,
+        "alignDuration": 0.4244520664215088
       },
       "originalLanguage": "de"
     }

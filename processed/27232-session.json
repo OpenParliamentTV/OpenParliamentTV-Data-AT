@@ -4,11 +4,11 @@
     "session": "27232",
     "dateStart": "2023-09-20T23:40:39",
     "dateEnd": "2023-09-20T23:42:00",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:09+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-25T16:21:08",
     "processing": {
       "merge": "2026-06-16T04:24:09+00:00",
-      "nel": "2026-06-16T06:24:27"
+      "align": "2026-06-25T16:21:08"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "304911",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/60bed957-4c9f-40b2-80be-d039bc434e07/60bed957-4c9f-40b2-80be-d039bc434e07.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/60bed957-4c9f-40b2-80be-d039bc434e07/60bed957-4c9f-40b2-80be-d039bc434e07.mp3",
-        "duration": 44
+        "duration": 44,
+        "aligned": true
       },
       "dateStart": "2023-09-20T23:40:39",
       "dateEnd": "2023-09-20T23:41:23",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 232. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 232. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.600"
                 }
               ],
               "text": "Ich eröffne die 232. Sitzung des Nationalrates."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "2.600",
+                  "timeEnd": "3.080"
                 },
                 {
-                  "text": "Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag."
+                  "text": "Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag.",
+                  "timeStart": "3.080",
+                  "timeEnd": "4.520"
                 },
                 {
-                  "text": "Philipp Schrangl , Heike Grebien und Michel Reimon, MBA ."
+                  "text": "Philipp Schrangl , Heike Grebien und Michel Reimon, MBA .",
+                  "timeStart": "4.520",
+                  "timeEnd": "4.680"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag. Philipp Schrangl , Heike Grebien und Michel Reimon, MBA ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "4.680",
+                  "timeEnd": "5.000"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "5.000",
+                  "timeEnd": "6.840"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "6.840",
+                  "timeEnd": "7.280"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "7.280",
+                  "timeEnd": "7.280"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "7.280",
+                  "timeEnd": "7.480"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "7.480",
+                  "timeEnd": "7.880"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz über österreichische Beiträge an internationale Finanzinstitutionen (IFI-Beitragsgesetz 2023) ( 2199 d.B. )"
+                  "text": "Bundesgesetz über österreichische Beiträge an internationale Finanzinstitutionen (IFI-Beitragsgesetz 2023) ( 2199 d.B. )",
+                  "timeStart": "7.880",
+                  "timeEnd": "9.480"
                 }
               ],
               "text": "Bundesgesetz über österreichische Beiträge an internationale Finanzinstitutionen (IFI-Beitragsgesetz 2023) ( 2199 d.B. )"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "9.480",
+                  "timeEnd": "9.640"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Gesundheits-Zielsteuerungsgesetz – (G-ZG) geändert wird ( 2207 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Gesundheits-Zielsteuerungsgesetz – (G-ZG) geändert wird ( 2207 d.B. )",
+                  "timeStart": "9.640",
+                  "timeEnd": "11.160"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesundheits-Zielsteuerungsgesetz – (G-ZG) geändert wird ( 2207 d.B. )"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )",
+                  "timeStart": "11.160",
+                  "timeEnd": "19.760"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )"
@@ -206,7 +235,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "19.760",
+                  "timeEnd": "20.840"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -217,7 +248,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )",
+                  "timeStart": "20.840",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )"
@@ -228,7 +261,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "23.760",
+                  "timeEnd": "24.120"
                 }
               ],
               "text": "Justizausschuss:"
@@ -239,7 +274,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Verkehrsopfer-Entschädigungsgesetz, das Kraftfahrzeug-Haftpflichtversicherungsgesetz 1994, das Kraftfahrgesetz 1967, das Versicherungsaufsichtsgesetz 2016 und die Straßenverkehrsordnung 1960 geändert werden (Kraftfahr-Versicherungsrechts-Änderungsgesetz 2023 –KraftVerÄG 2023) ( 2198 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Verkehrsopfer-Entschädigungsgesetz, das Kraftfahrzeug-Haftpflichtversicherungsgesetz 1994, das Kraftfahrgesetz 1967, das Versicherungsaufsichtsgesetz 2016 und die Straßenverkehrsordnung 1960 geändert werden (Kraftfahr-Versicherungsrechts-Änderungsgesetz 2023 –KraftVerÄG 2023) ( 2198 d.B. )",
+                  "timeStart": "24.120",
+                  "timeEnd": "30.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Verkehrsopfer-Entschädigungsgesetz, das Kraftfahrzeug-Haftpflichtversicherungsgesetz 1994, das Kraftfahrgesetz 1967, das Versicherungsaufsichtsgesetz 2016 und die Straßenverkehrsordnung 1960 geändert werden (Kraftfahr-Versicherungsrechts-Änderungsgesetz 2023 –KraftVerÄG 2023) ( 2198 d.B. )"
@@ -250,7 +287,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Strafgesetzbuch, die Strafprozeßordnung 1975, das Kommunikationsplattformen-Gesetz und das Audiovisuelle Mediendienste-Gesetz geändert werden ( 2208 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Strafgesetzbuch, die Strafprozeßordnung 1975, das Kommunikationsplattformen-Gesetz und das Audiovisuelle Mediendienste-Gesetz geändert werden ( 2208 d.B. )",
+                  "timeStart": "30.640",
+                  "timeEnd": "33.160"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Strafgesetzbuch, die Strafprozeßordnung 1975, das Kommunikationsplattformen-Gesetz und das Audiovisuelle Mediendienste-Gesetz geändert werden ( 2208 d.B. )"
@@ -261,7 +300,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem die Exekutionsordnung hinsichtlich der Vergütung für Leistungen der Gerichtvollzieher geändert wird (Gerichtsvollzieher-Vergütungs-Novelle 2023 – GVV-Nov 2023) ( 2209 d.B. )"
+                  "text": "Bundesgesetz, mit dem die Exekutionsordnung hinsichtlich der Vergütung für Leistungen der Gerichtvollzieher geändert wird (Gerichtsvollzieher-Vergütungs-Novelle 2023 – GVV-Nov 2023) ( 2209 d.B. )",
+                  "timeStart": "33.160",
+                  "timeEnd": "35.400"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Exekutionsordnung hinsichtlich der Vergütung für Leistungen der Gerichtvollzieher geändert wird (Gerichtsvollzieher-Vergütungs-Novelle 2023 – GVV-Nov 2023) ( 2209 d.B. )"
@@ -272,7 +313,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "35.400",
+                  "timeEnd": "36.200"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -283,7 +326,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Forstgesetz 1975 geändert wird ( 2205 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Forstgesetz 1975 geändert wird ( 2205 d.B. )",
+                  "timeStart": "36.200",
+                  "timeEnd": "37.400"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Forstgesetz 1975 geändert wird ( 2205 d.B. )"
@@ -294,7 +339,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "37.400",
+                  "timeEnd": "37.680"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -305,7 +352,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird ( 2200 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird ( 2200 d.B. )",
+                  "timeStart": "37.680",
+                  "timeEnd": "37.840"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird ( 2200 d.B. )"
@@ -316,7 +365,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Anstellungserfordernisse-Grundsatzgesetz geändert wird ( 2203 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Anstellungserfordernisse-Grundsatzgesetz geändert wird ( 2203 d.B. )",
+                  "timeStart": "37.840",
+                  "timeEnd": "37.840"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Anstellungserfordernisse-Grundsatzgesetz geändert wird ( 2203 d.B. )"
@@ -327,7 +378,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "37.840",
+                  "timeEnd": "37.840"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -338,7 +391,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )",
+                  "timeStart": "37.840",
+                  "timeEnd": "37.840"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )"
@@ -349,7 +404,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Österreichisch-Jüdisches Kulturerbegesetz geändert wird ( 2206 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Österreichisch-Jüdisches Kulturerbegesetz geändert wird ( 2206 d.B. )",
+                  "timeStart": "37.840",
+                  "timeEnd": "37.840"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Österreichisch-Jüdisches Kulturerbegesetz geändert wird ( 2206 d.B. )"
@@ -360,7 +417,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "37.840",
+                  "timeEnd": "37.840"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -371,7 +430,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundesstraßen-Mautgesetz 2002 und das ASFINAG-Gesetz geändert werden ( 2204 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundesstraßen-Mautgesetz 2002 und das ASFINAG-Gesetz geändert werden ( 2204 d.B. )",
+                  "timeStart": "37.840",
+                  "timeEnd": "40.160"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesstraßen-Mautgesetz 2002 und das ASFINAG-Gesetz geändert werden ( 2204 d.B. )"
@@ -382,7 +443,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "40.160",
+                  "timeEnd": "40.320"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -393,7 +456,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Hochschülerinnen- und Hochschülerschaftsgesetz 2014 geändert wird ( 2201 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Hochschülerinnen- und Hochschülerschaftsgesetz 2014 geändert wird ( 2201 d.B. )",
+                  "timeStart": "40.320",
+                  "timeEnd": "43.600"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Hochschülerinnen- und Hochschülerschaftsgesetz 2014 geändert wird ( 2201 d.B. )"
@@ -404,7 +469,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsantrag"
+                  "text": "Fristsetzungsantrag",
+                  "timeStart": "43.600",
+                  "timeEnd": "44.120"
                 }
               ],
               "text": "Fristsetzungsantrag"
@@ -415,7 +482,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf weiters mitteilen, dass ein Fristsetzungsantrag der Abgeordneten Becher vorliegt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis 4. Oktober 2023 zu setzen."
+                  "text": "Ich darf weiters mitteilen, dass ein Fristsetzungsantrag der Abgeordneten Becher vorliegt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis 4. Oktober 2023 zu setzen.",
+                  "timeStart": "44.120",
+                  "timeEnd": "44.480"
                 }
               ],
               "text": "Ich darf weiters mitteilen, dass ein Fristsetzungsantrag der Abgeordneten Becher vorliegt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis 4. Oktober 2023 zu setzen."
@@ -426,7 +495,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
+                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "44.480",
+                  "timeEnd": "46.000"
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht."
@@ -438,7 +509,8 @@
         "mediaIndex": 1,
         "stdId": 304911,
         "debatteId": 300,
-        "proceedingIndex": 304911
+        "proceedingIndex": 304911,
+        "alignDuration": 0.719886064529419
       },
       "originalLanguage": "de"
     },
@@ -466,7 +538,8 @@
         "originMediaID": "304915",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/51c62996-c70e-46f2-82c3-ebfc0dd95582/51c62996-c70e-46f2-82c3-ebfc0dd95582.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/51c62996-c70e-46f2-82c3-ebfc0dd95582/51c62996-c70e-46f2-82c3-ebfc0dd95582.mp3",
-        "duration": 37
+        "duration": 37,
+        "aligned": true
       },
       "dateStart": "2023-09-20T23:41:23",
       "dateEnd": "2023-09-20T23:42:00",
@@ -498,7 +571,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über einen Fristsetzungsantrag"
+                  "text": "Abstimmung über einen Fristsetzungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.360"
                 }
               ],
               "text": "Abstimmung über einen Fristsetzungsantrag"
@@ -509,7 +584,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Becher, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis zum 4. Oktober 2023 zu setzen."
+                  "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Becher, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis zum 4. Oktober 2023 zu setzen.",
+                  "timeStart": "4.360",
+                  "timeEnd": "25.920"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Becher, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis zum 4. Oktober 2023 zu setzen."
@@ -520,10 +597,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –"
+                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –",
+                  "timeStart": "25.920",
+                  "timeEnd": "30.460"
                 },
                 {
-                  "text": "Das ist die Minderheit, daher abgelehnt."
+                  "text": "Das ist die Minderheit, daher abgelehnt.",
+                  "timeStart": "30.460",
+                  "timeEnd": "33.120"
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. – Das ist die Minderheit, daher abgelehnt."
@@ -535,7 +616,8 @@
         "mediaIndex": 2,
         "stdId": 304915,
         "debatteId": 310,
-        "proceedingIndex": 304915
+        "proceedingIndex": 304915,
+        "alignDuration": 0.3495290279388428
       },
       "originalLanguage": "de"
     }
