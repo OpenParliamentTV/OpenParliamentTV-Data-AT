@@ -4,11 +4,11 @@
     "session": "27260",
     "dateStart": "2024-04-17T22:51:43",
     "dateEnd": "2024-04-17T22:52:32",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:14+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-27T00:08:30",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "nel": "2026-06-16T06:24:28"
+      "align": "2026-06-27T00:08:30"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "322109",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d8d41322-025c-4ce0-b578-9ee892a87740/d8d41322-025c-4ce0-b578-9ee892a87740.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d8d41322-025c-4ce0-b578-9ee892a87740/d8d41322-025c-4ce0-b578-9ee892a87740.mp3",
-        "duration": 49
+        "duration": 49,
+        "aligned": true
       },
       "dateStart": "2024-04-17T22:51:43",
       "dateEnd": "2024-04-17T22:52:32",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 260. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 260. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.960"
                 }
               ],
               "text": "Ich eröffne die 260. Sitzung des Nationalrates."
@@ -79,19 +82,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst.",
+                  "timeStart": "1.960",
+                  "timeEnd": "3.000"
                 },
                 {
-                  "text": "Mag. ("
+                  "text": "Mag. (",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.080"
                 },
                 {
-                  "text": "FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag."
+                  "text": "FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag.",
+                  "timeStart": "3.080",
+                  "timeEnd": "4.520"
                 },
                 {
-                  "text": "Eva Blimlinger und Mag."
+                  "text": "Eva Blimlinger und Mag.",
+                  "timeStart": "4.520",
+                  "timeEnd": "4.520"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer ."
+                  "text": "Agnes Sirkka Prammer .",
+                  "timeStart": "4.520",
+                  "timeEnd": "4.840"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst. Mag. (FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag. Eva Blimlinger und Mag. Agnes Sirkka Prammer ."
@@ -102,7 +115,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "4.840",
+                  "timeEnd": "4.960"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "4.960",
+                  "timeEnd": "5.840"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "5.840",
+                  "timeEnd": "6.000"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Regierungsvorlagen:"
+                  "text": "Regierungsvorlagen:",
+                  "timeStart": "6.000",
+                  "timeEnd": "6.000"
                 }
               ],
               "text": "Regierungsvorlagen:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )",
+                  "timeStart": "6.000",
+                  "timeEnd": "7.760"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )"
+                  "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )",
+                  "timeStart": "7.760",
+                  "timeEnd": "8.320"
                 }
               ],
               "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )",
+                  "timeStart": "8.320",
+                  "timeEnd": "10.160"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "10.160",
+                  "timeEnd": "10.640"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "10.640",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "10.880",
+                  "timeEnd": "11.080"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schutzmaßnahmen im Arbeitsrecht zur Abwendung der Gefahren durch Hitze am Arbeitsplatz ( 3998/A(E) )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schutzmaßnahmen im Arbeitsrecht zur Abwendung der Gefahren durch Hitze am Arbeitsplatz ( 3998/A(E) )",
+                  "timeStart": "11.080",
+                  "timeEnd": "12.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schutzmaßnahmen im Arbeitsrecht zur Abwendung der Gefahren durch Hitze am Arbeitsplatz ( 3998/A(E) )"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Seemayer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Arbeitsmarktservicegesetz BGBI 314/1994 geändert wird ( 4003/A )"
+                  "text": "Antrag der Abgeordneten Michael Seemayer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Arbeitsmarktservicegesetz BGBI 314/1994 geändert wird ( 4003/A )",
+                  "timeStart": "12.920",
+                  "timeEnd": "13.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Seemayer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Arbeitsmarktservicegesetz BGBI 314/1994 geändert wird ( 4003/A )"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "13.960",
+                  "timeEnd": "13.960"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3992/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3992/A(E) )",
+                  "timeStart": "13.960",
+                  "timeEnd": "14.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3992/A(E) )"
@@ -267,10 +310,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Hermann Gahr , Mag."
+                  "text": "Antrag der Abgeordneten Hermann Gahr , Mag.",
+                  "timeStart": "14.640",
+                  "timeEnd": "14.920"
                 },
                 {
-                  "text": "Selma Yildirim , Peter Wurm , Hermann Weratschnig, MBA MSc , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend gegenseitige Anerkennung von Fachhochschulabschlüssen zwischen Österreich und Italien zur weiteren Erleichterung für Studierende ( 4000/A(E) )"
+                  "text": "Selma Yildirim , Peter Wurm , Hermann Weratschnig, MBA MSc , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend gegenseitige Anerkennung von Fachhochschulabschlüssen zwischen Österreich und Italien zur weiteren Erleichterung für Studierende ( 4000/A(E) )",
+                  "timeStart": "14.920",
+                  "timeEnd": "15.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Gahr , Mag. Selma Yildirim , Peter Wurm , Hermann Weratschnig, MBA MSc , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend gegenseitige Anerkennung von Fachhochschulabschlüssen zwischen Österreich und Italien zur weiteren Erleichterung für Studierende ( 4000/A(E) )"
@@ -281,7 +328,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Kontrollstelle und -berichte für alle an die Ukraine getätigten Zahlungen ( 4006/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Kontrollstelle und -berichte für alle an die Ukraine getätigten Zahlungen ( 4006/A(E) )",
+                  "timeStart": "15.640",
+                  "timeEnd": "17.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Kontrollstelle und -berichte für alle an die Ukraine getätigten Zahlungen ( 4006/A(E) )"
@@ -292,7 +341,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "17.120",
+                  "timeEnd": "17.480"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -303,7 +354,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz über die Erhöhung der Quote Österreichs beim Internationalen Währungsfonds (IWF-Quotenerhöhungsgesetz 2024) ( 2509 d.B. )"
+                  "text": "Bundesgesetz über die Erhöhung der Quote Österreichs beim Internationalen Währungsfonds (IWF-Quotenerhöhungsgesetz 2024) ( 2509 d.B. )",
+                  "timeStart": "17.480",
+                  "timeEnd": "19.220"
                 }
               ],
               "text": "Bundesgesetz über die Erhöhung der Quote Österreichs beim Internationalen Währungsfonds (IWF-Quotenerhöhungsgesetz 2024) ( 2509 d.B. )"
@@ -314,7 +367,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994, das ArbeitnehmerInnenschutzgesetz und die Bundesabgabenordnung geändert werden (Grace-Period – Gesetz) ( 2510 d.B. )"
+                  "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994, das ArbeitnehmerInnenschutzgesetz und die Bundesabgabenordnung geändert werden (Grace-Period – Gesetz) ( 2510 d.B. )",
+                  "timeStart": "19.220",
+                  "timeEnd": "20.920"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994, das ArbeitnehmerInnenschutzgesetz und die Bundesabgabenordnung geändert werden (Grace-Period – Gesetz) ( 2510 d.B. )"
@@ -325,7 +380,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Erneute Zweckbindung der Wohnbauförderung ( 3993/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Erneute Zweckbindung der Wohnbauförderung ( 3993/A(E) )",
+                  "timeStart": "20.920",
+                  "timeEnd": "24.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Erneute Zweckbindung der Wohnbauförderung ( 3993/A(E) )"
@@ -336,7 +393,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch geändert wird ( 4004/A )"
+                  "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch geändert wird ( 4004/A )",
+                  "timeStart": "24.320",
+                  "timeEnd": "24.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch geändert wird ( 4004/A )"
@@ -347,7 +406,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "24.760",
+                  "timeEnd": "25.360"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -358,10 +419,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "25.360",
+                  "timeEnd": "26.180"
                 },
                 {
-                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das mit dem das Bundesgesetz der Tierärztinnen und Tierärzte (Tierärztegesetz-TÄG) geändert wird ( 4012/A )"
+                  "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das mit dem das Bundesgesetz der Tierärztinnen und Tierärzte (Tierärztegesetz-TÄG) geändert wird ( 4012/A )",
+                  "timeStart": "26.180",
+                  "timeEnd": "28.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das mit dem das Bundesgesetz der Tierärztinnen und Tierärzte (Tierärztegesetz-TÄG) geändert wird ( 4012/A )"
@@ -372,7 +437,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.560"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -383,13 +450,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Kffr. ("
+                  "text": "Antrag der Abgeordneten Dipl.-Kffr. (",
+                  "timeStart": "28.560",
+                  "timeEnd": "28.720"
                 },
                 {
-                  "text": "FH) Elisabeth Pfurtscheller , Mag."
+                  "text": "FH) Elisabeth Pfurtscheller , Mag.",
+                  "timeStart": "28.720",
+                  "timeEnd": "30.220"
                 },
                 {
-                  "text": "Meri Disoski , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 3996/A(E) )"
+                  "text": "Meri Disoski , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 3996/A(E) )",
+                  "timeStart": "30.220",
+                  "timeEnd": "32.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 3996/A(E) )"
@@ -400,7 +473,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "32.520",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -411,10 +486,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Ausreichend kompetentes Personal im Verfassungsschutz zur Bekämpfung von russischer Spionage! ("
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Ausreichend kompetentes Personal im Verfassungsschutz zur Bekämpfung von russischer Spionage! (",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 },
                 {
-                  "text": "3995/A(E) )"
+                  "text": "3995/A(E) )",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Ausreichend kompetentes Personal im Verfassungsschutz zur Bekämpfung von russischer Spionage! ( 3995/A(E) )"
@@ -425,7 +504,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Justizausschuss:"
@@ -436,7 +517,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Erweiterung der Strafbarkeit von Spionage ( 3994/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Erweiterung der Strafbarkeit von Spionage ( 3994/A(E) )",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Erweiterung der Strafbarkeit von Spionage ( 3994/A(E) )"
@@ -447,7 +530,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -458,7 +543,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Import-Stopp für pestizidbelastetes und gentechnisch verändertes Getreide aus der Ukraine ( 4007/A(E) )"
+                  "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Import-Stopp für pestizidbelastetes und gentechnisch verändertes Getreide aus der Ukraine ( 4007/A(E) )",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Import-Stopp für pestizidbelastetes und gentechnisch verändertes Getreide aus der Ukraine ( 4007/A(E) )"
@@ -469,7 +556,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -480,7 +569,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Recht auf Gesundheit sowie auf Prävention und Vorsorge ( 3991/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Recht auf Gesundheit sowie auf Prävention und Vorsorge ( 3991/A(E) )",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Recht auf Gesundheit sowie auf Prävention und Vorsorge ( 3991/A(E) )"
@@ -491,7 +582,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend \"Sicherung der Pressefreiheit in Österreich\" ( 4002/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend \"Sicherung der Pressefreiheit in Österreich\" ( 4002/A(E) )",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend \"Sicherung der Pressefreiheit in Österreich\" ( 4002/A(E) )"
@@ -502,7 +595,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Verteidigung der Presse- und Meinungsfreiheit im Fall Julian Assange ( 4005/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Verteidigung der Presse- und Meinungsfreiheit im Fall Julian Assange ( 4005/A(E) )",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Verteidigung der Presse- und Meinungsfreiheit im Fall Julian Assange ( 4005/A(E) )"
@@ -513,7 +608,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -524,7 +621,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über eine nachhaltige Abfallwirtschaft (Abfallwirtschaftsgesetz 2002 – AWG 2002) geändert wird ( 3997/A )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über eine nachhaltige Abfallwirtschaft (Abfallwirtschaftsgesetz 2002 – AWG 2002) geändert wird ( 3997/A )",
+                  "timeStart": "32.720",
+                  "timeEnd": "34.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über eine nachhaltige Abfallwirtschaft (Abfallwirtschaftsgesetz 2002 – AWG 2002) geändert wird ( 3997/A )"
@@ -535,7 +634,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Emissionsgesetz-Luft 2018 geändert wird ( 4001/A )"
+                  "text": "Antrag der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Emissionsgesetz-Luft 2018 geändert wird ( 4001/A )",
+                  "timeStart": "34.640",
+                  "timeEnd": "36.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Emissionsgesetz-Luft 2018 geändert wird ( 4001/A )"
@@ -546,7 +647,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4009/A(E) )"
+                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4009/A(E) )",
+                  "timeStart": "36.800",
+                  "timeEnd": "38.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4009/A(E) )"
@@ -557,7 +660,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend eine europäische Wasserstrategie vorantreiben ( 4011/A(E) )"
+                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend eine europäische Wasserstrategie vorantreiben ( 4011/A(E) )",
+                  "timeStart": "38.760",
+                  "timeEnd": "39.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend eine europäische Wasserstrategie vorantreiben ( 4011/A(E) )"
@@ -568,7 +673,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "39.160",
+                  "timeEnd": "39.280"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -579,7 +686,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Sondertopf im Bildungsbudget für Familiennachzug einrichten\" ( 4008/A(E) )"
+                  "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Sondertopf im Bildungsbudget für Familiennachzug einrichten\" ( 4008/A(E) )",
+                  "timeStart": "39.280",
+                  "timeEnd": "40.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Sondertopf im Bildungsbudget für Familiennachzug einrichten\" ( 4008/A(E) )"
@@ -590,7 +699,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "40.400",
+                  "timeEnd": "40.600"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -601,7 +712,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Gratis Öffis für alle Kinder ( 3999/A(E) )"
+                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Gratis Öffis für alle Kinder ( 3999/A(E) )",
+                  "timeStart": "40.600",
+                  "timeEnd": "41.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Gratis Öffis für alle Kinder ( 3999/A(E) )"
@@ -612,7 +725,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "41.360",
+                  "timeEnd": "41.360"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -623,7 +738,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4010/A(E) )"
+                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4010/A(E) )",
+                  "timeStart": "41.360",
+                  "timeEnd": "41.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4010/A(E) )"
@@ -634,7 +751,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "41.360",
+                  "timeEnd": "41.520"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -645,7 +764,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "41.520",
+                  "timeEnd": "41.600"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -656,7 +777,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außen- und Europapolitischer Bericht 2022 der Bundesregierung ( III-1151 d.B. )"
+                  "text": "Außen- und Europapolitischer Bericht 2022 der Bundesregierung ( III-1151 d.B. )",
+                  "timeStart": "41.600",
+                  "timeEnd": "42.880"
                 }
               ],
               "text": "Außen- und Europapolitischer Bericht 2022 der Bundesregierung ( III-1151 d.B. )"
@@ -667,7 +790,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "42.880",
+                  "timeEnd": "43.600"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -678,7 +803,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht der Bundesregierung über die innere Sicherheit in Österreich (Sicherheitsbericht 2022) ( III-1150 d.B. )"
+                  "text": "Bericht der Bundesregierung über die innere Sicherheit in Österreich (Sicherheitsbericht 2022) ( III-1150 d.B. )",
+                  "timeStart": "43.600",
+                  "timeEnd": "45.520"
                 }
               ],
               "text": "Bericht der Bundesregierung über die innere Sicherheit in Österreich (Sicherheitsbericht 2022) ( III-1150 d.B. )"
@@ -689,7 +816,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich dem Verfassungsausschuss den Antrag 4013/A , dem Finanzausschuss die Anträge 4014/A und 4015/A und dem Umweltausschuss den Antrag 4016/A zu."
+                  "text": "Weiters weise ich dem Verfassungsausschuss den Antrag 4013/A , dem Finanzausschuss die Anträge 4014/A und 4015/A und dem Umweltausschuss den Antrag 4016/A zu.",
+                  "timeStart": "45.520",
+                  "timeEnd": "47.320"
                 }
               ],
               "text": "Weiters weise ich dem Verfassungsausschuss den Antrag 4013/A , dem Finanzausschuss die Anträge 4014/A und 4015/A und dem Umweltausschuss den Antrag 4016/A zu."
@@ -700,7 +829,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 22.52 Uhr, das ist gleich im Anschluss an diese Sitzung, ein."
+                  "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 22.52 Uhr, das ist gleich im Anschluss an diese Sitzung, ein.",
+                  "timeStart": "47.320",
+                  "timeEnd": "49.400"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 22.52 Uhr, das ist gleich im Anschluss an diese Sitzung, ein."
@@ -711,7 +842,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "49.400",
+                  "timeEnd": "50.000"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -723,7 +856,8 @@
         "mediaIndex": 1,
         "stdId": 322109,
         "debatteId": 300,
-        "proceedingIndex": 322109
+        "proceedingIndex": 322109,
+        "alignDuration": 0.7697720527648926
       },
       "originalLanguage": "de"
     }

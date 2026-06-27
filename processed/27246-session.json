@@ -4,11 +4,11 @@
     "session": "27246",
     "dateStart": "2023-12-14T18:53:02",
     "dateEnd": "2023-12-14T18:53:50",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:12+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T10:42:21",
     "processing": {
       "merge": "2026-06-16T04:24:12+00:00",
-      "nel": "2026-06-16T06:24:27"
+      "align": "2026-06-26T10:42:21"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "313182",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/cc4eccb7-85d6-4f91-bbd6-99463dd0b654/cc4eccb7-85d6-4f91-bbd6-99463dd0b654.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/cc4eccb7-85d6-4f91-bbd6-99463dd0b654/cc4eccb7-85d6-4f91-bbd6-99463dd0b654.mp3",
-        "duration": 48
+        "duration": 48,
+        "aligned": true
       },
       "dateStart": "2023-12-14T18:53:02",
       "dateEnd": "2023-12-14T18:53:50",
@@ -68,7 +69,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "18.52.54*****"
+                  "text": "18.52.54*****",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.200"
                 }
               ],
               "text": "18.52.54*****"
@@ -79,7 +82,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 246. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 246. Sitzung des Nationalrates.",
+                  "timeStart": "3.200",
+                  "timeEnd": "5.000"
                 }
               ],
               "text": "Ich eröffne die 246. Sitzung des Nationalrates."
@@ -90,19 +95,29 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "5.000",
+                  "timeEnd": "5.720"
                 },
                 {
-                  "text": "Bettina Rausch-Amon , Julia Elisabeth Herr , Klaus Köchl , Petra Tanzler , MMag."
+                  "text": "Bettina Rausch-Amon , Julia Elisabeth Herr , Klaus Köchl , Petra Tanzler , MMag.",
+                  "timeStart": "5.720",
+                  "timeEnd": "7.120"
                 },
                 {
-                  "text": "DDr."
+                  "text": "DDr.",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.120"
                 },
                 {
-                  "text": "Fuchs, Wolfgang Zanger , Heike Grebien , Bedrana Ribo, MA , Dipl.-Ing. Karin Doppelbauer und Mag."
+                  "text": "Fuchs, Wolfgang Zanger , Heike Grebien , Bedrana Ribo, MA , Dipl.-Ing. Karin Doppelbauer und Mag.",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.120"
                 },
                 {
-                  "text": "Julia Seidl ."
+                  "text": "Julia Seidl .",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.120"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Bettina Rausch-Amon , Julia Elisabeth Herr , Klaus Köchl , Petra Tanzler , MMag. DDr. Fuchs, Wolfgang Zanger , Heike Grebien , Bedrana Ribo, MA , Dipl.-Ing. Karin Doppelbauer und Mag. Julia Seidl ."
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.800"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "7.800",
+                  "timeEnd": "12.520"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "12.520",
+                  "timeEnd": "13.720"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "13.720",
+                  "timeEnd": "14.400"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "14.400",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "14.840",
+                  "timeEnd": "15.680"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 3803/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 3803/A(E) )",
+                  "timeStart": "15.680",
+                  "timeEnd": "21.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 3803/A(E) )"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "21.160",
+                  "timeEnd": "21.480"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend erweiterter Beobachtungszeitraum für das Erfordernis der Erwerbstätigkeit beim einkommensabhängigen Kinderbetreuungsgeld ( 3802/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend erweiterter Beobachtungszeitraum für das Erfordernis der Erwerbstätigkeit beim einkommensabhängigen Kinderbetreuungsgeld ( 3802/A(E) )",
+                  "timeStart": "21.480",
+                  "timeEnd": "26.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend erweiterter Beobachtungszeitraum für das Erfordernis der Erwerbstätigkeit beim einkommensabhängigen Kinderbetreuungsgeld ( 3802/A(E) )"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "26.000",
+                  "timeEnd": "26.680"
                 }
               ],
               "text": "Justizausschuss:"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 3804/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 3804/A(E) )",
+                  "timeStart": "26.680",
+                  "timeEnd": "30.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 3804/A(E) )"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "30.800",
+                  "timeEnd": "31.800"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Kinder und Jugendliche durch politische Krisen begleiten und Demokratiebildung ausbauen\" ( 3805/A(E) )"
+                  "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Kinder und Jugendliche durch politische Krisen begleiten und Demokratiebildung ausbauen\" ( 3805/A(E) )",
+                  "timeStart": "31.800",
+                  "timeEnd": "35.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Kinder und Jugendliche durch politische Krisen begleiten und Demokratiebildung ausbauen\" ( 3805/A(E) )"
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "35.160",
+                  "timeEnd": "35.400"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -267,10 +310,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "35.400",
+                  "timeEnd": "35.400"
                 },
                 {
-                  "text": "Muna Duzdar , Kolleginnen und Kollegen betreffend \"ORF-Finanzierung sozial gestalten\" ( 3806/A(E) )"
+                  "text": "Muna Duzdar , Kolleginnen und Kollegen betreffend \"ORF-Finanzierung sozial gestalten\" ( 3806/A(E) )",
+                  "timeStart": "35.400",
+                  "timeEnd": "38.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Muna Duzdar , Kolleginnen und Kollegen betreffend \"ORF-Finanzierung sozial gestalten\" ( 3806/A(E) )"
@@ -281,10 +328,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, Freitag, den 15. Dezember, um 9 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, Freitag, den 15. Dezember, um 9 Uhr ein.",
+                  "timeStart": "38.640",
+                  "timeEnd": "40.320"
                 },
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "40.320",
+                  "timeEnd": "41.400"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, Freitag, den 15. Dezember, um 9 Uhr ein. Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -295,7 +346,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters gebe ich bekannt, dass jetzt im Anschluss an diese Sitzung der Geschäftsordnungsausschuss im Lokal 5 tagen wird."
+                  "text": "Weiters gebe ich bekannt, dass jetzt im Anschluss an diese Sitzung der Geschäftsordnungsausschuss im Lokal 5 tagen wird.",
+                  "timeStart": "41.400",
+                  "timeEnd": "45.840"
                 }
               ],
               "text": "Weiters gebe ich bekannt, dass jetzt im Anschluss an diese Sitzung der Geschäftsordnungsausschuss im Lokal 5 tagen wird."
@@ -306,7 +359,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen einen schönen Abend."
+                  "text": "Ich wünsche Ihnen einen schönen Abend.",
+                  "timeStart": "45.840",
+                  "timeEnd": "46.840"
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen Abend."
@@ -317,7 +372,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "46.840",
+                  "timeEnd": "47.920"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -329,7 +386,8 @@
         "mediaIndex": 1,
         "stdId": 313182,
         "debatteId": 300,
-        "proceedingIndex": 313182
+        "proceedingIndex": 313182,
+        "alignDuration": 0.48099780082702637
       },
       "originalLanguage": "de"
     }

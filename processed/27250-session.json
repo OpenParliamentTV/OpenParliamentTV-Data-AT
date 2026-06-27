@@ -4,11 +4,11 @@
     "session": "27250",
     "dateStart": "2024-01-31T21:54:42",
     "dateEnd": "2024-01-31T21:55:53",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:13+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T16:04:04",
     "processing": {
       "merge": "2026-06-16T04:24:13+00:00",
-      "nel": "2026-06-16T06:24:27"
+      "align": "2026-06-26T16:04:04"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "315820",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/ebe699c2-f95c-4e85-84d8-40fc8a2b4593/ebe699c2-f95c-4e85-84d8-40fc8a2b4593.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/ebe699c2-f95c-4e85-84d8-40fc8a2b4593/ebe699c2-f95c-4e85-84d8-40fc8a2b4593.mp3",
-        "duration": 43
+        "duration": 43,
+        "aligned": true
       },
       "dateStart": "2024-01-31T21:54:42",
       "dateEnd": "2024-01-31T21:55:25",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die 250. Sitzung des Nationalrates ist eröffnet."
+                  "text": "Die 250. Sitzung des Nationalrates ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Die 250. Sitzung des Nationalrates ist eröffnet."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag.",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.000"
                 },
                 {
-                  "text": "Gerald Hauser , Heike Grebien , Mag."
+                  "text": "Gerald Hauser , Heike Grebien , Mag.",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.920"
                 },
                 {
-                  "text": "Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer ."
+                  "text": "Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer .",
+                  "timeStart": "3.920",
+                  "timeEnd": "4.200"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag. Gerald Hauser , Heike Grebien , Mag. Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "4.200",
+                  "timeEnd": "4.280"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "4.280",
+                  "timeEnd": "4.840"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "4.840",
+                  "timeEnd": "5.080"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "5.080",
+                  "timeEnd": "5.240"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Regierungsvorlagen:"
+                  "text": "Regierungsvorlagen:",
+                  "timeStart": "5.240",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Regierungsvorlagen:"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)"
+                  "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen:"
+                  "text": "B. Zuweisungen:",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "B. Zuweisungen:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:"
+                  "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -206,7 +235,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Finanzen gemäß § 54 Abs. 12 BHG 2013 über die Genehmigung von Mittelverwendungsüberschreitungen und gemäß § 60 Abs. 3 BHG 2013 über zugestimmte Vorbelastungen im 4. Quartal 2023 (Vorlage 147 BA)"
+                  "text": "Bericht des Bundesministers für Finanzen gemäß § 54 Abs. 12 BHG 2013 über die Genehmigung von Mittelverwendungsüberschreitungen und gemäß § 60 Abs. 3 BHG 2013 über zugestimmte Vorbelastungen im 4. Quartal 2023 (Vorlage 147 BA)",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen gemäß § 54 Abs. 12 BHG 2013 über die Genehmigung von Mittelverwendungsüberschreitungen und gemäß § 60 Abs. 3 BHG 2013 über zugestimmte Vorbelastungen im 4. Quartal 2023 (Vorlage 147 BA)"
@@ -217,7 +248,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Monatserfolg Dezember 2023 sowie COVID-19 Berichterstattung gemäß § 3 Abs. 2 Kommunalinvestitionsgesetz 2023, § 3 Abs. 4 COVID-19 Fondsgesetz und § 3b Abs. 4 ABBAG-Gesetz sowie das Monitoring von Verschuldung und Investitionstätigkeit der Gemeinden, vorgelegt vom Bundesminister für Finanzen (Vorlage 148 BA)"
+                  "text": "Monatserfolg Dezember 2023 sowie COVID-19 Berichterstattung gemäß § 3 Abs. 2 Kommunalinvestitionsgesetz 2023, § 3 Abs. 4 COVID-19 Fondsgesetz und § 3b Abs. 4 ABBAG-Gesetz sowie das Monitoring von Verschuldung und Investitionstätigkeit der Gemeinden, vorgelegt vom Bundesminister für Finanzen (Vorlage 148 BA)",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Monatserfolg Dezember 2023 sowie COVID-19 Berichterstattung gemäß § 3 Abs. 2 Kommunalinvestitionsgesetz 2023, § 3 Abs. 4 COVID-19 Fondsgesetz und § 3b Abs. 4 ABBAG-Gesetz sowie das Monitoring von Verschuldung und Investitionstätigkeit der Gemeinden, vorgelegt vom Bundesminister für Finanzen (Vorlage 148 BA)"
@@ -228,10 +261,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Finanzen gemäß Art."
+                  "text": "Bericht des Bundesministers für Finanzen gemäß Art.",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.320"
                 },
                 {
-                  "text": "50c Abs. 3 B-VG iVm § 6 der Anlage 2 zum GOG (ESM-Informationsordnung) über die im Rahmen des Europäischen Stabilitätsmechanismus getroffenen Maßnahmen im 4. Quartal 2023 (Vorlage 149 BA)"
+                  "text": "50c Abs. 3 B-VG iVm § 6 der Anlage 2 zum GOG (ESM-Informationsordnung) über die im Rahmen des Europäischen Stabilitätsmechanismus getroffenen Maßnahmen im 4. Quartal 2023 (Vorlage 149 BA)",
+                  "timeStart": "5.320",
+                  "timeEnd": "6.120"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen gemäß Art. 50c Abs. 3 B-VG iVm § 6 der Anlage 2 zum GOG (ESM-Informationsordnung) über die im Rahmen des Europäischen Stabilitätsmechanismus getroffenen Maßnahmen im 4. Quartal 2023 (Vorlage 149 BA)"
@@ -242,7 +279,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Finanzen gemäß § 78 Absatz 5 des Bundeshaushaltsgesetzes über das Eingehen, die Prolongierung und die Konvertierung von Finanzschulden und Währungstauschverträgen im Finanzjahr 2023 (Vorlage 150 BA)"
+                  "text": "Bericht des Bundesministers für Finanzen gemäß § 78 Absatz 5 des Bundeshaushaltsgesetzes über das Eingehen, die Prolongierung und die Konvertierung von Finanzschulden und Währungstauschverträgen im Finanzjahr 2023 (Vorlage 150 BA)",
+                  "timeStart": "6.120",
+                  "timeEnd": "6.440"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen gemäß § 78 Absatz 5 des Bundeshaushaltsgesetzes über das Eingehen, die Prolongierung und die Konvertierung von Finanzschulden und Währungstauschverträgen im Finanzjahr 2023 (Vorlage 150 BA)"
@@ -253,7 +292,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Finanzen über die Übernahme von Bundeshaftungen im Jahr 2023 (Vorlage 151 BA)"
+                  "text": "Bericht des Bundesministers für Finanzen über die Übernahme von Bundeshaftungen im Jahr 2023 (Vorlage 151 BA)",
+                  "timeStart": "6.440",
+                  "timeEnd": "7.800"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen über die Übernahme von Bundeshaftungen im Jahr 2023 (Vorlage 151 BA)"
@@ -264,7 +305,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Finanzen gemäß § 4a Zahlungsbilanzstabilisierungsgesetz über die im 4. Quartal 2023 ergriffenen Maßnahmen (Vorlage 152 BA)"
+                  "text": "Bericht des Bundesministers für Finanzen gemäß § 4a Zahlungsbilanzstabilisierungsgesetz über die im 4. Quartal 2023 ergriffenen Maßnahmen (Vorlage 152 BA)",
+                  "timeStart": "7.800",
+                  "timeEnd": "9.200"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen gemäß § 4a Zahlungsbilanzstabilisierungsgesetz über die im 4. Quartal 2023 ergriffenen Maßnahmen (Vorlage 152 BA)"
@@ -275,7 +318,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Zuweisungen in dieser Sitzung:"
+                  "text": "2. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "9.200",
+                  "timeEnd": "9.520"
                 }
               ],
               "text": "2. Zuweisungen in dieser Sitzung:"
@@ -286,7 +331,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.720"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -297,7 +344,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "9.720",
+                  "timeEnd": "9.720"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -308,10 +357,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "9.720",
+                  "timeEnd": "9.720"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Chance statt Chaos: Modernes Einwanderungsgesetz ( 3839/A(E) )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Chance statt Chaos: Modernes Einwanderungsgesetz ( 3839/A(E) )",
+                  "timeStart": "9.720",
+                  "timeEnd": "9.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Chance statt Chaos: Modernes Einwanderungsgesetz ( 3839/A(E) )"
@@ -322,7 +375,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Stichtagsregelung bei Arbeitsunfähigkeit ( 3841/A(E) )"
+                  "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Stichtagsregelung bei Arbeitsunfähigkeit ( 3841/A(E) )",
+                  "timeStart": "9.720",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Stichtagsregelung bei Arbeitsunfähigkeit ( 3841/A(E) )"
@@ -333,7 +388,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Ausweitung der gesetzlichen Unfallversicherung für Kinder in Kinderbetreuungseinrichtungen ( 3852/A(E) )"
+                  "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Ausweitung der gesetzlichen Unfallversicherung für Kinder in Kinderbetreuungseinrichtungen ( 3852/A(E) )",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Ausweitung der gesetzlichen Unfallversicherung für Kinder in Kinderbetreuungseinrichtungen ( 3852/A(E) )"
@@ -344,7 +401,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Gesetzliche Verankerung der Auszahlung des 13. und 14. Monatsgehalts ( 3859/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Gesetzliche Verankerung der Auszahlung des 13. und 14. Monatsgehalts ( 3859/A(E) )",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Gesetzliche Verankerung der Auszahlung des 13. und 14. Monatsgehalts ( 3859/A(E) )"
@@ -355,10 +414,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 },
                 {
-                  "text": "Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird ( 3866/A )"
+                  "text": "Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird ( 3866/A )",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird ( 3866/A )"
@@ -369,7 +432,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -380,10 +445,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 },
                 {
-                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Zwangsassimilierung in Tibet ( 3840/A(E) )"
+                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Zwangsassimilierung in Tibet ( 3840/A(E) )",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Zwangsassimilierung in Tibet ( 3840/A(E) )"
@@ -394,10 +463,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Islamische Revolutionsgarde des Iran (IRGC) auf die EU-Terrorliste! ("
+                  "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Islamische Revolutionsgarde des Iran (IRGC) auf die EU-Terrorliste! (",
+                  "timeStart": "10.880",
+                  "timeEnd": "10.920"
                 },
                 {
-                  "text": "3861/A(E) )"
+                  "text": "3861/A(E) )",
+                  "timeStart": "10.920",
+                  "timeEnd": "11.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Islamische Revolutionsgarde des Iran (IRGC) auf die EU-Terrorliste! ( 3861/A(E) )"
@@ -408,7 +481,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend ein globales Moratorium gegen kommerziellen Tiefseebergbau in internationalen Gewässern ( 3862/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend ein globales Moratorium gegen kommerziellen Tiefseebergbau in internationalen Gewässern ( 3862/A(E) )",
+                  "timeStart": "11.440",
+                  "timeEnd": "12.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend ein globales Moratorium gegen kommerziellen Tiefseebergbau in internationalen Gewässern ( 3862/A(E) )"
@@ -419,7 +494,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "12.080",
+                  "timeEnd": "12.080"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -430,10 +507,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag."
+                  "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
+                  "timeStart": "12.080",
+                  "timeEnd": "12.080"
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Energiekrisenbeitrag-Strom und das Bundesgesetz über den Energiekrisenbeitrag-fossile Energieträger sowie das Einkommensteuergesetz 1988 geändert werden ( 3824/A )"
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Energiekrisenbeitrag-Strom und das Bundesgesetz über den Energiekrisenbeitrag-fossile Energieträger sowie das Einkommensteuergesetz 1988 geändert werden ( 3824/A )",
+                  "timeStart": "12.080",
+                  "timeEnd": "13.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Energiekrisenbeitrag-Strom und das Bundesgesetz über den Energiekrisenbeitrag-fossile Energieträger sowie das Einkommensteuergesetz 1988 geändert werden ( 3824/A )"
@@ -444,7 +525,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "13.640",
+                  "timeEnd": "14.120"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -455,7 +538,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend überfällige Valorisierung des Einkommensabhängigen Kinderbetreuungsgeldes ( 3844/A(E) )"
+                  "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend überfällige Valorisierung des Einkommensabhängigen Kinderbetreuungsgeldes ( 3844/A(E) )",
+                  "timeStart": "14.120",
+                  "timeEnd": "14.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend überfällige Valorisierung des Einkommensabhängigen Kinderbetreuungsgeldes ( 3844/A(E) )"
@@ -466,7 +551,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "14.680",
+                  "timeEnd": "14.680"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -477,10 +564,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "14.680",
+                  "timeEnd": "14.680"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Umsatzsteuergesetz 1994 – UStG 1994 geändert wird ( 3828/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Umsatzsteuergesetz 1994 – UStG 1994 geändert wird ( 3828/A )",
+                  "timeStart": "14.680",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Umsatzsteuergesetz 1994 – UStG 1994 geändert wird ( 3828/A )"
@@ -491,7 +582,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Sportwetten müssen unters Glücksspielgesetz fallen ( 3860/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Sportwetten müssen unters Glücksspielgesetz fallen ( 3860/A(E) )",
+                  "timeStart": "14.840",
+                  "timeEnd": "15.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Sportwetten müssen unters Glücksspielgesetz fallen ( 3860/A(E) )"
@@ -502,7 +595,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Geschäftsordnungsausschuss:"
+                  "text": "Geschäftsordnungsausschuss:",
+                  "timeStart": "15.160",
+                  "timeEnd": "15.240"
                 }
               ],
               "text": "Geschäftsordnungsausschuss:"
@@ -513,16 +608,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "15.240",
+                  "timeEnd": "15.680"
                 },
                 {
-                  "text": "Ernst Gödl , Mag."
+                  "text": "Ernst Gödl , Mag.",
+                  "timeStart": "15.680",
+                  "timeEnd": "15.680"
                 },
                 {
-                  "text": "Jörg Leichtfried , Werner Herbert , Mag."
+                  "text": "Jörg Leichtfried , Werner Herbert , Mag.",
+                  "timeStart": "15.680",
+                  "timeEnd": "15.760"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird ( 3848/A )"
+                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird ( 3848/A )",
+                  "timeStart": "15.760",
+                  "timeEnd": "16.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ernst Gödl , Mag. Jörg Leichtfried , Werner Herbert , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundes-Verfassungsgesetz geändert wird ( 3848/A )"
@@ -533,7 +636,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "16.840",
+                  "timeEnd": "17.000"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -544,13 +649,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMag."
+                  "text": "Antrag der Abgeordneten MMag.",
+                  "timeStart": "17.000",
+                  "timeEnd": "17.040"
                 },
                 {
-                  "text": "Katharina Werner, Bakk. ,"
+                  "text": "Katharina Werner, Bakk. ,",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040"
                 },
                 {
-                  "text": "Kolleginnen und Kollegen betreffend Export von trächtigen Rindern nach Algerien stoppen ( 3838/A(E) )"
+                  "text": "Kolleginnen und Kollegen betreffend Export von trächtigen Rindern nach Algerien stoppen ( 3838/A(E) )",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.760"
                 }
               ],
               "text": "Antrag der Abgeordneten MMag. Katharina Werner, Bakk. , Kolleginnen und Kollegen betreffend Export von trächtigen Rindern nach Algerien stoppen ( 3838/A(E) )"
@@ -561,10 +672,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wechseljahre in den Fokus rücken! ("
+                  "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wechseljahre in den Fokus rücken! (",
+                  "timeStart": "17.760",
+                  "timeEnd": "18.160"
                 },
                 {
-                  "text": "3850/A(E) )"
+                  "text": "3850/A(E) )",
+                  "timeStart": "18.160",
+                  "timeEnd": "18.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wechseljahre in den Fokus rücken! ( 3850/A(E) )"
@@ -575,7 +690,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998 geändert wird ( 3865/A )"
+                  "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998 geändert wird ( 3865/A )",
+                  "timeStart": "18.160",
+                  "timeEnd": "18.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998 geändert wird ( 3865/A )"
@@ -586,7 +703,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Krankenanstalten und Kuranstalten geändert wird ( 3867/A )"
+                  "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Krankenanstalten und Kuranstalten geändert wird ( 3867/A )",
+                  "timeStart": "18.160",
+                  "timeEnd": "18.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Krankenanstalten und Kuranstalten geändert wird ( 3867/A )"
@@ -597,7 +716,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Laurenz Pöttinger , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekengesetz, das Apothekerkammergesetz 2001 und das Gehaltskassengesetz 2002 geändert werden ( 3868/A )"
+                  "text": "Antrag der Abgeordneten Laurenz Pöttinger , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekengesetz, das Apothekerkammergesetz 2001 und das Gehaltskassengesetz 2002 geändert werden ( 3868/A )",
+                  "timeStart": "18.480",
+                  "timeEnd": "19.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Laurenz Pöttinger , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekengesetz, das Apothekerkammergesetz 2001 und das Gehaltskassengesetz 2002 geändert werden ( 3868/A )"
@@ -608,7 +729,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "19.760",
+                  "timeEnd": "19.880"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -619,10 +742,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wechseljahre in den Fokus rücken! ("
+                  "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wechseljahre in den Fokus rücken! (",
+                  "timeStart": "19.880",
+                  "timeEnd": "20.360"
                 },
                 {
-                  "text": "3849/A(E) )"
+                  "text": "3849/A(E) )",
+                  "timeStart": "20.360",
+                  "timeEnd": "20.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wechseljahre in den Fokus rücken! ( 3849/A(E) )"
@@ -633,7 +760,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "20.400",
+                  "timeEnd": "20.560"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -644,10 +773,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "20.560",
+                  "timeEnd": "20.880"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem BFA-Verfahrensgesetz geändert wird ( 3827/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem BFA-Verfahrensgesetz geändert wird ( 3827/A )",
+                  "timeStart": "20.880",
+                  "timeEnd": "20.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem BFA-Verfahrensgesetz geändert wird ( 3827/A )"
@@ -658,7 +791,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Neuregelung Verleihung der Staatsbürgerschaft ( 3832/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Neuregelung Verleihung der Staatsbürgerschaft ( 3832/A(E) )",
+                  "timeStart": "20.960",
+                  "timeEnd": "21.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Neuregelung Verleihung der Staatsbürgerschaft ( 3832/A(E) )"
@@ -669,7 +804,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Forcierung Resettlement-Programme für schutzsuchende Personen ( 3833/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Forcierung Resettlement-Programme für schutzsuchende Personen ( 3833/A(E) )",
+                  "timeStart": "21.280",
+                  "timeEnd": "22.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Forcierung Resettlement-Programme für schutzsuchende Personen ( 3833/A(E) )"
@@ -680,7 +817,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Sorgfältige Prüfung von Vereinen und Moscheen auf extremistisches, demokratiefeindliches Agieren ( 3834/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Sorgfältige Prüfung von Vereinen und Moscheen auf extremistisches, demokratiefeindliches Agieren ( 3834/A(E) )",
+                  "timeStart": "22.160",
+                  "timeEnd": "23.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Chance statt Chaos: Sorgfältige Prüfung von Vereinen und Moscheen auf extremistisches, demokratiefeindliches Agieren ( 3834/A(E) )"
@@ -691,7 +830,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "23.560",
+                  "timeEnd": "23.560"
                 }
               ],
               "text": "Justizausschuss:"
@@ -702,7 +843,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ehegesetz geändert wird ( 3825/A )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ehegesetz geändert wird ( 3825/A )",
+                  "timeStart": "23.560",
+                  "timeEnd": "24.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ehegesetz geändert wird ( 3825/A )"
@@ -713,7 +856,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Zivilprozessordnung (ZPO) geändert wird ( 3826/A )"
+                  "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Zivilprozessordnung (ZPO) geändert wird ( 3826/A )",
+                  "timeStart": "24.440",
+                  "timeEnd": "25.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Zivilprozessordnung (ZPO) geändert wird ( 3826/A )"
@@ -724,13 +869,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "25.640",
+                  "timeEnd": "25.800"
                 },
                 {
-                  "text": "Dr. Petra Oberrauner , Kolleginnen und Kollegen betreffend EU-Richtlinie zu Verbandsklagen endlich umsetzen! ("
+                  "text": "Dr. Petra Oberrauner , Kolleginnen und Kollegen betreffend EU-Richtlinie zu Verbandsklagen endlich umsetzen! (",
+                  "timeStart": "25.800",
+                  "timeEnd": "26.440"
                 },
                 {
-                  "text": "3864/A(E) )"
+                  "text": "3864/A(E) )",
+                  "timeStart": "26.440",
+                  "timeEnd": "27.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Petra Oberrauner , Kolleginnen und Kollegen betreffend EU-Richtlinie zu Verbandsklagen endlich umsetzen! ( 3864/A(E) )"
@@ -741,7 +892,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "27.000",
+                  "timeEnd": "27.000"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -752,13 +905,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMag."
+                  "text": "Antrag der Abgeordneten MMag.",
+                  "timeStart": "27.000",
+                  "timeEnd": "27.000"
                 },
                 {
-                  "text": "Katharina Werner, Bakk. ,"
+                  "text": "Katharina Werner, Bakk. ,",
+                  "timeStart": "27.000",
+                  "timeEnd": "27.200"
                 },
                 {
-                  "text": "Kolleginnen und Kollegen betreffend eine Europäische Lösung für Tierpelz-Kennzeichnung ( 3837/A(E) )"
+                  "text": "Kolleginnen und Kollegen betreffend eine Europäische Lösung für Tierpelz-Kennzeichnung ( 3837/A(E) )",
+                  "timeStart": "27.200",
+                  "timeEnd": "27.720"
                 }
               ],
               "text": "Antrag der Abgeordneten MMag. Katharina Werner, Bakk. , Kolleginnen und Kollegen betreffend eine Europäische Lösung für Tierpelz-Kennzeichnung ( 3837/A(E) )"
@@ -769,7 +928,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend Konsument:innen auch bei 'Nur-Flug-Buchung' gegen Insolvenzen absichern ( 3845/A(E) )"
+                  "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend Konsument:innen auch bei 'Nur-Flug-Buchung' gegen Insolvenzen absichern ( 3845/A(E) )",
+                  "timeStart": "27.720",
+                  "timeEnd": "27.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend Konsument:innen auch bei 'Nur-Flug-Buchung' gegen Insolvenzen absichern ( 3845/A(E) )"
@@ -780,7 +941,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend Maturareise Stornokosten ( 3846/A(E) )"
+                  "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend Maturareise Stornokosten ( 3846/A(E) )",
+                  "timeStart": "27.720",
+                  "timeEnd": "28.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend Maturareise Stornokosten ( 3846/A(E) )"
@@ -791,7 +954,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Generalüberholung der Abfertigung Neu zum Schutz der Arbeitnehmeransprüche ( 3858/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Generalüberholung der Abfertigung Neu zum Schutz der Arbeitnehmeransprüche ( 3858/A(E) )",
+                  "timeStart": "28.720",
+                  "timeEnd": "29.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Generalüberholung der Abfertigung Neu zum Schutz der Arbeitnehmeransprüche ( 3858/A(E) )"
@@ -802,7 +967,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "29.360",
+                  "timeEnd": "29.360"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -813,7 +980,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Austauschprogramm für Künstler:innen aus dem Globalen Süden ( 3823/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Austauschprogramm für Künstler:innen aus dem Globalen Süden ( 3823/A(E) )",
+                  "timeStart": "29.360",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Austauschprogramm für Künstler:innen aus dem Globalen Süden ( 3823/A(E) )"
@@ -824,7 +993,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Landesverteidigungsausschuss:"
+                  "text": "Landesverteidigungsausschuss:",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -835,7 +1006,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Definitive Besetzung des Postens des Truppenübungsplatz-Kommandanten für den TÜPl Allentsteig ( 3863/A(E) )"
+                  "text": "Antrag der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Definitive Besetzung des Postens des Truppenübungsplatz-Kommandanten für den TÜPl Allentsteig ( 3863/A(E) )",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Definitive Besetzung des Postens des Truppenübungsplatz-Kommandanten für den TÜPl Allentsteig ( 3863/A(E) )"
@@ -846,7 +1019,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -857,7 +1032,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Protokoll zur Änderung des Gründungsübereinkommens der Internationalen Organisation für Rebe und Wein vom 3. April 2001 in Bezug auf den Sitz der OIV ( 2434 d.B. )"
+                  "text": "Protokoll zur Änderung des Gründungsübereinkommens der Internationalen Organisation für Rebe und Wein vom 3. April 2001 in Bezug auf den Sitz der OIV ( 2434 d.B. )",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Protokoll zur Änderung des Gründungsübereinkommens der Internationalen Organisation für Rebe und Wein vom 3. April 2001 in Bezug auf den Sitz der OIV ( 2434 d.B. )"
@@ -868,7 +1045,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung in Österreich ( 3831/A(E) )"
+                  "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung in Österreich ( 3831/A(E) )",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung in Österreich ( 3831/A(E) )"
@@ -879,7 +1058,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -890,10 +1071,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 },
                 {
-                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Chance statt Chaos: Verpflichtende Deutsch- und Orientierungskurse ab Tag 1 ( 3835/A(E) )"
+                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Chance statt Chaos: Verpflichtende Deutsch- und Orientierungskurse ab Tag 1 ( 3835/A(E) )",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Chance statt Chaos: Verpflichtende Deutsch- und Orientierungskurse ab Tag 1 ( 3835/A(E) )"
@@ -904,10 +1089,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.520",
+                  "timeEnd": "29.520"
                 },
                 {
-                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Chance statt Chaos: Verpflichtendes Integrationsjahr ( 3842/A(E) )"
+                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Chance statt Chaos: Verpflichtendes Integrationsjahr ( 3842/A(E) )",
+                  "timeStart": "29.520",
+                  "timeEnd": "30.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Chance statt Chaos: Verpflichtendes Integrationsjahr ( 3842/A(E) )"
@@ -918,10 +1107,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "30.000",
+                  "timeEnd": "30.640"
                 },
                 {
-                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Kein Zwang zur Ehe: Maßnahmen gegen Zwangsverheiratung ( 3843/A(E) )"
+                  "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Kein Zwang zur Ehe: Maßnahmen gegen Zwangsverheiratung ( 3843/A(E) )",
+                  "timeStart": "30.640",
+                  "timeEnd": "31.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Kein Zwang zur Ehe: Maßnahmen gegen Zwangsverheiratung ( 3843/A(E) )"
@@ -932,7 +1125,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "31.000",
+                  "timeEnd": "31.080"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -943,10 +1138,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Demokratiebildung stärker im Fach Politische Bildung verankern!\" ("
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Demokratiebildung stärker im Fach Politische Bildung verankern!\" (",
+                  "timeStart": "31.080",
+                  "timeEnd": "31.640"
                 },
                 {
-                  "text": "3856/A(E) )"
+                  "text": "3856/A(E) )",
+                  "timeStart": "31.640",
+                  "timeEnd": "31.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Demokratiebildung stärker im Fach Politische Bildung verankern!\" ( 3856/A(E) )"
@@ -957,10 +1156,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Handlungsauftrag PISA- Ergebnisse 2023: Soziale Benachteiligung im Bildungssystem beenden!\" ("
+                  "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Handlungsauftrag PISA- Ergebnisse 2023: Soziale Benachteiligung im Bildungssystem beenden!\" (",
+                  "timeStart": "31.800",
+                  "timeEnd": "32.760"
                 },
                 {
-                  "text": "3857/A(E) )"
+                  "text": "3857/A(E) )",
+                  "timeStart": "32.760",
+                  "timeEnd": "33.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Handlungsauftrag PISA- Ergebnisse 2023: Soziale Benachteiligung im Bildungssystem beenden!\" ( 3857/A(E) )"
@@ -971,7 +1174,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "33.320",
+                  "timeEnd": "33.400"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -982,7 +1187,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Organstellung für Stadtrechnungshöfe ( 3836/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Organstellung für Stadtrechnungshöfe ( 3836/A(E) )",
+                  "timeStart": "33.400",
+                  "timeEnd": "34.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Organstellung für Stadtrechnungshöfe ( 3836/A(E) )"
@@ -993,10 +1200,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII."
+                  "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
+                  "timeStart": "34.320",
+                  "timeEnd": "34.800"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3853/A )"
+                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3853/A )",
+                  "timeStart": "34.800",
+                  "timeEnd": "35.740"
                 }
               ],
               "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII. Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3853/A )"
@@ -1007,10 +1218,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII."
+                  "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
+                  "timeStart": "35.740",
+                  "timeEnd": "36.320"
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3854/A )"
+                  "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3854/A )",
+                  "timeStart": "36.320",
+                  "timeEnd": "37.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII. Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3854/A )"
@@ -1021,7 +1236,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "37.160",
+                  "timeEnd": "37.480"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -1032,13 +1249,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "37.480",
+                  "timeEnd": "37.640"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Gewerbeordnung 1994 BGBI."
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Gewerbeordnung 1994 BGBI.",
+                  "timeStart": "37.640",
+                  "timeEnd": "38.720"
                 },
                 {
-                  "text": "194/1994 geändert wird ( 3829/A )"
+                  "text": "194/1994 geändert wird ( 3829/A )",
+                  "timeStart": "38.720",
+                  "timeEnd": "38.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Gewerbeordnung 1994 BGBI. 194/1994 geändert wird ( 3829/A )"
@@ -1049,10 +1272,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "38.880",
+                  "timeEnd": "39.240"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Wohnbauförderungsbeitragsgesetz 2018 § 2 Abs. 2 geändert und § 10 Abs. 5 angefügt wird ( 3830/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Wohnbauförderungsbeitragsgesetz 2018 § 2 Abs. 2 geändert und § 10 Abs. 5 angefügt wird ( 3830/A )",
+                  "timeStart": "39.240",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Wohnbauförderungsbeitragsgesetz 2018 § 2 Abs. 2 geändert und § 10 Abs. 5 angefügt wird ( 3830/A )"
@@ -1063,7 +1290,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -1074,10 +1303,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 },
                 {
-                  "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend \"Befristungshöchstquote\" ( 3851/A(E) )"
+                  "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend \"Befristungshöchstquote\" ( 3851/A(E) )",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend \"Befristungshöchstquote\" ( 3851/A(E) )"
@@ -1088,10 +1321,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 },
                 {
-                  "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend \"Leistungsmessung der öffentlichen Universitäten\" ( 3855/A(E) )"
+                  "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend \"Leistungsmessung der öffentlichen Universitäten\" ( 3855/A(E) )",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend \"Leistungsmessung der öffentlichen Universitäten\" ( 3855/A(E) )"
@@ -1102,7 +1339,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -1113,7 +1352,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -1124,7 +1365,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für europäische und internationale Angelegenheiten betreffend EU-Arbeitsprogramm 2024 ( III-1109 d.B. )"
+                  "text": "Bericht des Bundesministers für europäische und internationale Angelegenheiten betreffend EU-Arbeitsprogramm 2024 ( III-1109 d.B. )",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Bericht des Bundesministers für europäische und internationale Angelegenheiten betreffend EU-Arbeitsprogramm 2024 ( III-1109 d.B. )"
@@ -1135,7 +1378,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.400"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -1146,7 +1391,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Finanzen betreffend EU-Jahresvorschau 2024 ( III-1110 d.B. )"
+                  "text": "Bericht des Bundesministers für Finanzen betreffend EU-Jahresvorschau 2024 ( III-1110 d.B. )",
+                  "timeStart": "39.400",
+                  "timeEnd": "39.520"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen betreffend EU-Jahresvorschau 2024 ( III-1110 d.B. )"
@@ -1157,7 +1404,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "39.520",
+                  "timeEnd": "39.520"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -1168,7 +1417,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Kunst, Kultur, öffentlichen Dienst und Sport betreffend EU-Jahresvorschau 2024 ( III-1108 d.B. )"
+                  "text": "Bericht des Bundesministers für Kunst, Kultur, öffentlichen Dienst und Sport betreffend EU-Jahresvorschau 2024 ( III-1108 d.B. )",
+                  "timeStart": "39.520",
+                  "timeEnd": "39.960"
                 }
               ],
               "text": "Bericht des Bundesministers für Kunst, Kultur, öffentlichen Dienst und Sport betreffend EU-Jahresvorschau 2024 ( III-1108 d.B. )"
@@ -1179,7 +1430,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Land- und Forstwirtschaft:"
+                  "text": "Ausschuss für Land- und Forstwirtschaft:",
+                  "timeStart": "39.960",
+                  "timeEnd": "40.700"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -1190,7 +1443,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft betreffend EU-Jahresvorschau 2024 gemäß Artikel 23f Absatz 2 B-VG iVm § 7 EU-InfoG, auf der Grundlage des Arbeitsprogramms der Europäischen Kommission für 2024 und zum 18-Monatsprogramm des Rates für 2023/2024 ( III-1113 d.B. )"
+                  "text": "Bericht des Bundesministers für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft betreffend EU-Jahresvorschau 2024 gemäß Artikel 23f Absatz 2 B-VG iVm § 7 EU-InfoG, auf der Grundlage des Arbeitsprogramms der Europäischen Kommission für 2024 und zum 18-Monatsprogramm des Rates für 2023/2024 ( III-1113 d.B. )",
+                  "timeStart": "40.700",
+                  "timeEnd": "42.400"
                 }
               ],
               "text": "Bericht des Bundesministers für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft betreffend EU-Jahresvorschau 2024 gemäß Artikel 23f Absatz 2 B-VG iVm § 7 EU-InfoG, auf der Grundlage des Arbeitsprogramms der Europäischen Kommission für 2024 und zum 18-Monatsprogramm des Rates für 2023/2024 ( III-1113 d.B. )"
@@ -1201,7 +1456,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "42.400",
+                  "timeEnd": "42.400"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -1212,7 +1469,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gemeinsamer Bericht des Bundeskanzlers und der Bundesministerin für EU und Verfassung betreffend EU-Jahresvorschau 2024 gemäß Artikel 23f Absatz 2 B-VG ( III-1112 d.B. )"
+                  "text": "Gemeinsamer Bericht des Bundeskanzlers und der Bundesministerin für EU und Verfassung betreffend EU-Jahresvorschau 2024 gemäß Artikel 23f Absatz 2 B-VG ( III-1112 d.B. )",
+                  "timeStart": "42.400",
+                  "timeEnd": "43.260"
                 }
               ],
               "text": "Gemeinsamer Bericht des Bundeskanzlers und der Bundesministerin für EU und Verfassung betreffend EU-Jahresvorschau 2024 gemäß Artikel 23f Absatz 2 B-VG ( III-1112 d.B. )"
@@ -1223,7 +1482,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "43.260",
+                  "timeEnd": "43.480"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -1234,7 +1495,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bericht des Bundesministers für Arbeit und Wirtschaft betreffend EU Vorhaben 2024 ( III-1111 d.B. )"
+                  "text": "Bericht des Bundesministers für Arbeit und Wirtschaft betreffend EU Vorhaben 2024 ( III-1111 d.B. )",
+                  "timeStart": "43.480",
+                  "timeEnd": "43.720"
                 }
               ],
               "text": "Bericht des Bundesministers für Arbeit und Wirtschaft betreffend EU Vorhaben 2024 ( III-1111 d.B. )"
@@ -1245,7 +1508,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters weise ich die Anträge 3869/A dem Budgetausschuss, 3870/A dem Gesundheitsausschuss, 3871/A dem Ausschuss für Arbeit und Soziales, 3872/A dem Verkehrsausschuss und 3873/A dem Ausschuss für innere Angelegenheiten zu."
+                  "text": "Weiters weise ich die Anträge 3869/A dem Budgetausschuss, 3870/A dem Gesundheitsausschuss, 3871/A dem Ausschuss für Arbeit und Soziales, 3872/A dem Verkehrsausschuss und 3873/A dem Ausschuss für innere Angelegenheiten zu.",
+                  "timeStart": "43.720",
+                  "timeEnd": "43.720"
                 }
               ],
               "text": "Weiters weise ich die Anträge 3869/A dem Budgetausschuss, 3870/A dem Gesundheitsausschuss, 3871/A dem Ausschuss für Arbeit und Soziales, 3872/A dem Verkehrsausschuss und 3873/A dem Ausschuss für innere Angelegenheiten zu."
@@ -1256,7 +1521,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir gehen in die Tagesordnung ein."
+                  "text": "Wir gehen in die Tagesordnung ein.",
+                  "timeStart": "43.720",
+                  "timeEnd": "44.000"
                 }
               ],
               "text": "Wir gehen in die Tagesordnung ein."
@@ -1268,7 +1535,8 @@
         "mediaIndex": 1,
         "stdId": 315820,
         "debatteId": 300,
-        "proceedingIndex": 315820
+        "proceedingIndex": 315820,
+        "alignDuration": 1.2433340549468994
       },
       "originalLanguage": "de"
     },
@@ -1296,7 +1564,8 @@
         "originMediaID": "315829",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/bc007240-32d2-4d04-81cf-95686b697d67/bc007240-32d2-4d04-81cf-95686b697d67.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/bc007240-32d2-4d04-81cf-95686b697d67/bc007240-32d2-4d04-81cf-95686b697d67.mp3",
-        "duration": 1
+        "duration": 1,
+        "aligned": true
       },
       "dateStart": "2024-01-31T21:55:25",
       "dateEnd": "2024-01-31T21:55:26",
@@ -1327,7 +1596,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "21.55.151. Punkt"
+                  "text": "21.55.151. Punkt",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "21.55.151. Punkt"
@@ -1338,16 +1609,24 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Erste Lesung: Antrag der Abgeordneten Mag."
+                  "text": "Erste Lesung: Antrag der Abgeordneten Mag.",
+                  "timeStart": "1.360",
+                  "timeEnd": "1.480"
                 },
                 {
-                  "text": "Ernst Gödl , Mag."
+                  "text": "Ernst Gödl , Mag.",
+                  "timeStart": "1.480",
+                  "timeEnd": "1.520"
                 },
                 {
-                  "text": "Jörg Leichtfried , Werner Herbert , Mag."
+                  "text": "Jörg Leichtfried , Werner Herbert , Mag.",
+                  "timeStart": "1.520",
+                  "timeEnd": "1.520"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Geschäftsordnungsgesetz 1975 geändert wird ( 3847/A )"
+                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Geschäftsordnungsgesetz 1975 geändert wird ( 3847/A )",
+                  "timeStart": "1.520",
+                  "timeEnd": "2.000"
                 }
               ],
               "text": "Erste Lesung: Antrag der Abgeordneten Mag. Ernst Gödl , Mag. Jörg Leichtfried , Werner Herbert , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Geschäftsordnungsgesetz 1975 geändert wird ( 3847/A )"
@@ -1359,7 +1638,8 @@
         "mediaIndex": 2,
         "stdId": 315829,
         "debatteId": 1,
-        "proceedingIndex": 315829
+        "proceedingIndex": 315829,
+        "alignDuration": 0.2956259250640869
       },
       "originalLanguage": "de"
     },
@@ -1387,7 +1667,8 @@
         "originMediaID": "315877",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/1e2498b6-ce6f-4f00-95de-3903e255b2e3/1e2498b6-ce6f-4f00-95de-3903e255b2e3.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/1e2498b6-ce6f-4f00-95de-3903e255b2e3/1e2498b6-ce6f-4f00-95de-3903e255b2e3.mp3",
-        "duration": 27
+        "duration": 27,
+        "aligned": true
       },
       "dateStart": "2024-01-31T21:55:26",
       "dateEnd": "2024-01-31T21:55:53",
@@ -1419,7 +1700,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "21.55.16"
+                  "text": "21.55.16",
+                  "timeStart": "1.000",
+                  "timeEnd": "8.440"
                 }
               ],
               "text": "21.55.16"
@@ -1430,7 +1713,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir gelangen zum einzigen Punkt der Tagesordnung."
+                  "text": "Wir gelangen zum einzigen Punkt der Tagesordnung.",
+                  "timeStart": "8.440",
+                  "timeEnd": "14.800"
                 }
               ],
               "text": "Wir gelangen zum einzigen Punkt der Tagesordnung."
@@ -1441,7 +1726,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir gehen in die Debatte ein."
+                  "text": "Wir gehen in die Debatte ein.",
+                  "timeStart": "14.800",
+                  "timeEnd": "16.980"
                 }
               ],
               "text": "Wir gehen in die Debatte ein."
@@ -1452,10 +1739,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort ist dazu niemand gemeldet."
+                  "text": "Zu Wort ist dazu niemand gemeldet.",
+                  "timeStart": "16.980",
+                  "timeEnd": "18.940"
                 },
                 {
-                  "text": "Die Debatte ist geschlossen."
+                  "text": "Die Debatte ist geschlossen.",
+                  "timeStart": "18.940",
+                  "timeEnd": "20.580"
                 }
               ],
               "text": "Zu Wort ist dazu niemand gemeldet. Die Debatte ist geschlossen."
@@ -1466,7 +1757,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich weise den Antrag 3847/A dem Geschäftsordnungsausschuss zu."
+                  "text": "Ich weise den Antrag 3847/A dem Geschäftsordnungsausschuss zu.",
+                  "timeStart": "20.580",
+                  "timeEnd": "25.240"
                 }
               ],
               "text": "Ich weise den Antrag 3847/A dem Geschäftsordnungsausschuss zu."
@@ -1477,7 +1770,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist erschöpft."
+                  "text": "Die Tagesordnung ist erschöpft.",
+                  "timeStart": "25.240",
+                  "timeEnd": "27.960"
                 }
               ],
               "text": "Die Tagesordnung ist erschöpft."
@@ -1489,7 +1784,8 @@
         "mediaIndex": 3,
         "stdId": 315877,
         "debatteId": 1,
-        "proceedingIndex": 315877
+        "proceedingIndex": 315877,
+        "alignDuration": 0.31671810150146484
       },
       "originalLanguage": "de"
     },
@@ -1516,7 +1812,8 @@
         "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
         "originMediaID": "315868",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/85fd4fc6-dec2-4412-898f-95e1b144685e/85fd4fc6-dec2-4412-898f-95e1b144685e.mp4",
-        "audioFileURI": "https://parlament-live.mdn.ors.at/assets/85fd4fc6-dec2-4412-898f-95e1b144685e/85fd4fc6-dec2-4412-898f-95e1b144685e.mp3"
+        "audioFileURI": "https://parlament-live.mdn.ors.at/assets/85fd4fc6-dec2-4412-898f-95e1b144685e/85fd4fc6-dec2-4412-898f-95e1b144685e.mp3",
+        "aligned": true
       },
       "dateStart": "2024-01-31T21:55:53",
       "people": [
@@ -1547,7 +1844,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 21.55 Uhr, das ist gleich im Anschluss an diese Sitzung, ein."
+                  "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 21.55 Uhr, das ist gleich im Anschluss an diese Sitzung, ein.",
+                  "timeStart": "1.000",
+                  "timeEnd": "36.600"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 21.55 Uhr, das ist gleich im Anschluss an diese Sitzung, ein."
@@ -1558,7 +1857,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Diese Sitzung ist geschlossen."
+                  "text": "Diese Sitzung ist geschlossen.",
+                  "timeStart": "36.600",
+                  "timeEnd": "40.000"
                 }
               ],
               "text": "Diese Sitzung ist geschlossen."
@@ -1570,7 +1871,8 @@
         "mediaIndex": 4,
         "stdId": 315868,
         "debatteId": 310,
-        "proceedingIndex": 315868
+        "proceedingIndex": 315868,
+        "alignDuration": 0.31958508491516113
       },
       "originalLanguage": "de"
     }

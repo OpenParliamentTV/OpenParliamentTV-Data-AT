@@ -4,11 +4,11 @@
     "session": "27254",
     "dateStart": "2024-02-28T22:58:33",
     "dateEnd": "2024-02-28T22:59:18",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:13+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T18:47:54",
     "processing": {
       "merge": "2026-06-16T04:24:13+00:00",
-      "nel": "2026-06-16T06:24:28"
+      "align": "2026-06-26T18:47:54"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "317292",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/4a205514-162a-414e-b485-f7b7589a4272/4a205514-162a-414e-b485-f7b7589a4272.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/4a205514-162a-414e-b485-f7b7589a4272/4a205514-162a-414e-b485-f7b7589a4272.mp3",
-        "duration": 45
+        "duration": 45,
+        "aligned": true
       },
       "dateStart": "2024-02-28T22:58:33",
       "dateEnd": "2024-02-28T22:59:18",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 254. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 254. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.600"
                 }
               ],
               "text": "Ich eröffne die 254. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "4.600",
+                  "timeEnd": "5.680"
                 },
                 {
-                  "text": "Dr. Juliane Bogner-Strauß , Mag."
+                  "text": "Dr. Juliane Bogner-Strauß , Mag.",
+                  "timeStart": "5.680",
+                  "timeEnd": "6.800"
                 },
                 {
-                  "text": "Johanna Jachs , Ing. Klaus Lindinger, BSc , Julia Elisabeth Herr , Dr. Harald Troch , Mag."
+                  "text": "Johanna Jachs , Ing. Klaus Lindinger, BSc , Julia Elisabeth Herr , Dr. Harald Troch , Mag.",
+                  "timeStart": "6.800",
+                  "timeEnd": "9.280"
                 },
                 {
-                  "text": "Gerhard Kaniak , Wolfgang Zanger und Heike Grebien ."
+                  "text": "Gerhard Kaniak , Wolfgang Zanger und Heike Grebien .",
+                  "timeStart": "9.280",
+                  "timeEnd": "10.800"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Dr. Juliane Bogner-Strauß , Mag. Johanna Jachs , Ing. Klaus Lindinger, BSc , Julia Elisabeth Herr , Dr. Harald Troch , Mag. Gerhard Kaniak , Wolfgang Zanger und Heike Grebien ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "10.800",
+                  "timeEnd": "11.440"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "11.440",
+                  "timeEnd": "17.200"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "17.200",
+                  "timeEnd": "18.480"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "18.480",
+                  "timeEnd": "18.920"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "18.920",
+                  "timeEnd": "19.560"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "19.560",
+                  "timeEnd": "19.880"
                 }
               ],
               "text": "Justizausschuss:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem zur Lösung haftungsrechtlicher Fragen bei Bäumen das allgemeine bürgerliche Gesetzbuch geändert wird (Haftungsrechts-Änderungsgesetz 2024 – HaftRÄG 2024) ( 2462 d.B. )"
+                  "text": "Bundesgesetz, mit dem zur Lösung haftungsrechtlicher Fragen bei Bäumen das allgemeine bürgerliche Gesetzbuch geändert wird (Haftungsrechts-Änderungsgesetz 2024 – HaftRÄG 2024) ( 2462 d.B. )",
+                  "timeStart": "19.880",
+                  "timeEnd": "25.480"
                 }
               ],
               "text": "Bundesgesetz, mit dem zur Lösung haftungsrechtlicher Fragen bei Bäumen das allgemeine bürgerliche Gesetzbuch geändert wird (Haftungsrechts-Änderungsgesetz 2024 – HaftRÄG 2024) ( 2462 d.B. )"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "25.480",
+                  "timeEnd": "26.320"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -187,7 +214,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Denkmalschutzgesetz geändert wird ( 2463 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Denkmalschutzgesetz geändert wird ( 2463 d.B. )",
+                  "timeStart": "26.320",
+                  "timeEnd": "27.760"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Denkmalschutzgesetz geändert wird ( 2463 d.B. )"
@@ -198,7 +227,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wissenschaftsausschuss:"
+                  "text": "Wissenschaftsausschuss:",
+                  "timeStart": "27.760",
+                  "timeEnd": "28.000"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -209,7 +240,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz über das Institute of Digital Sciences Austria (Interdisciplinary Transformation University) ( 2461 d.B. )"
+                  "text": "Bundesgesetz über das Institute of Digital Sciences Austria (Interdisciplinary Transformation University) ( 2461 d.B. )",
+                  "timeStart": "28.000",
+                  "timeEnd": "29.320"
                 }
               ],
               "text": "Bundesgesetz über das Institute of Digital Sciences Austria (Interdisciplinary Transformation University) ( 2461 d.B. )"
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. März 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. März 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "29.320",
+                  "timeEnd": "32.160"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. März 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf weiters bekannt geben, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss und danach der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt."
+                  "text": "Ich darf weiters bekannt geben, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss und danach der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt.",
+                  "timeStart": "32.160",
+                  "timeEnd": "41.760"
                 }
               ],
               "text": "Ich darf weiters bekannt geben, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss und danach der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt."
@@ -242,7 +279,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "41.760",
+                  "timeEnd": "45.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -254,7 +293,8 @@
         "mediaIndex": 1,
         "stdId": 317292,
         "debatteId": 300,
-        "proceedingIndex": 317292
+        "proceedingIndex": 317292,
+        "alignDuration": 0.411297082901001
       },
       "originalLanguage": "de"
     }

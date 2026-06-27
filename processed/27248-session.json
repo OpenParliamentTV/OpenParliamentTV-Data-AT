@@ -4,11 +4,11 @@
     "session": "27248",
     "dateStart": "2023-12-15T18:56:28",
     "dateEnd": "2023-12-15T19:17:06",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:12+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T13:31:33",
     "processing": {
       "merge": "2026-06-16T04:24:12+00:00",
-      "nel": "2026-06-16T06:24:27"
+      "align": "2026-06-26T13:31:33"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "313801",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/c84ef2af-c74a-4bae-bbfd-fd84fcc08ba3/c84ef2af-c74a-4bae-bbfd-fd84fcc08ba3.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/c84ef2af-c74a-4bae-bbfd-fd84fcc08ba3/c84ef2af-c74a-4bae-bbfd-fd84fcc08ba3.mp3",
-        "duration": 90
+        "duration": 90,
+        "aligned": true
       },
       "dateStart": "2023-12-15T18:56:28",
       "dateEnd": "2023-12-15T18:57:58",
@@ -68,10 +69,14 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Bericht des Immunitätsausschusses über das Ersuchen der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (GZ 17 St 5/23k) um Zustimmung zur behördlichen Verfolgung des Präsidenten des Nationalrates Mag."
+                  "text": "Bericht des Immunitätsausschusses über das Ersuchen der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (GZ 17 St 5/23k) um Zustimmung zur behördlichen Verfolgung des Präsidenten des Nationalrates Mag.",
+                  "timeStart": "1.000",
+                  "timeEnd": "59.600"
                 },
                 {
-                  "text": "Wolfgang Sobotka ( 2405 d.B. )"
+                  "text": "Wolfgang Sobotka ( 2405 d.B. )",
+                  "timeStart": "59.600",
+                  "timeEnd": "71.280"
                 }
               ],
               "text": "Bericht des Immunitätsausschusses über das Ersuchen der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (GZ 17 St 5/23k) um Zustimmung zur behördlichen Verfolgung des Präsidenten des Nationalrates Mag. Wolfgang Sobotka ( 2405 d.B. )"
@@ -82,7 +87,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Auf eine mündliche Berichterstattung wurde verzichtet."
+                  "text": "Auf eine mündliche Berichterstattung wurde verzichtet.",
+                  "timeStart": "71.280",
+                  "timeEnd": "84.240"
                 }
               ],
               "text": "Auf eine mündliche Berichterstattung wurde verzichtet."
@@ -93,10 +100,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Ofenauer. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Ofenauer. –",
+                  "timeStart": "84.240",
+                  "timeEnd": "90.960"
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "90.960",
+                  "timeEnd": "92.000"
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Ofenauer. – Bitte."
@@ -108,7 +119,8 @@
         "mediaIndex": 1,
         "stdId": 313801,
         "debatteId": 1,
-        "proceedingIndex": 313801
+        "proceedingIndex": 313801,
+        "alignDuration": 0.3712730407714844
       },
       "originalLanguage": "de"
     },
@@ -136,7 +148,8 @@
         "originMediaID": "313807",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/7e688769-09f6-482e-9327-2c6ff98876ee/7e688769-09f6-482e-9327-2c6ff98876ee.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/7e688769-09f6-482e-9327-2c6ff98876ee/7e688769-09f6-482e-9327-2c6ff98876ee.mp3",
-        "duration": 113
+        "duration": 113,
+        "aligned": true
       },
       "dateStart": "2023-12-15T18:58:28",
       "dateEnd": "2023-12-15T19:00:21",
@@ -183,7 +196,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "18.58"
+                  "text": "18.58",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.760"
                 }
               ],
               "text": "18.58"
@@ -194,34 +209,54 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident!"
+                  "text": "Herr Präsident!",
+                  "timeStart": "2.760",
+                  "timeEnd": "3.640"
                 },
                 {
-                  "text": "Meine sehr verehrten Zuseherinnen und Zuseher!"
+                  "text": "Meine sehr verehrten Zuseherinnen und Zuseher!",
+                  "timeStart": "3.640",
+                  "timeEnd": "6.580"
                 },
                 {
-                  "text": "Geschätzte Kolleginnen und Kollegen im Hohen Haus!"
+                  "text": "Geschätzte Kolleginnen und Kollegen im Hohen Haus!",
+                  "timeStart": "6.580",
+                  "timeEnd": "9.160"
                 },
                 {
-                  "text": "Meine Damen und Herren!"
+                  "text": "Meine Damen und Herren!",
+                  "timeStart": "9.160",
+                  "timeEnd": "10.360"
                 },
                 {
-                  "text": "Die Vorwürfe, um die es hier geht, sind Ihnen ja aus den Medien bekannt."
+                  "text": "Die Vorwürfe, um die es hier geht, sind Ihnen ja aus den Medien bekannt.",
+                  "timeStart": "10.360",
+                  "timeEnd": "15.220"
                 },
                 {
-                  "text": "Was wir von der ÖVP wollen ist volle und vor allem rasche Aufklärung."
+                  "text": "Was wir von der ÖVP wollen ist volle und vor allem rasche Aufklärung.",
+                  "timeStart": "15.220",
+                  "timeEnd": "19.880"
                 },
                 {
-                  "text": "Das möchte auch unser Nationalratspräsident Wolfgang Sobotka."
+                  "text": "Das möchte auch unser Nationalratspräsident Wolfgang Sobotka.",
+                  "timeStart": "19.880",
+                  "timeEnd": "22.520"
                 },
                 {
-                  "text": "Das ist auch der Grund, warum er ersucht hat, eine rasche Entscheidung über seine Auslieferung zu treffen, was wir auch tun, wobei, und auch das muss man festhalten, natürlich der Beschluss über die Aufhebung der Immunität eines Abgeordneten, Kollege Scherak, ein Recht des Vertretungskörpers des Nationalrates als Ganzes ist. ("
+                  "text": "Das ist auch der Grund, warum er ersucht hat, eine rasche Entscheidung über seine Auslieferung zu treffen, was wir auch tun, wobei, und auch das muss man festhalten, natürlich der Beschluss über die Aufhebung der Immunität eines Abgeordneten, Kollege Scherak, ein Recht des Vertretungskörpers des Nationalrates als Ganzes ist. (",
+                  "timeStart": "22.520",
+                  "timeEnd": "39.360"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "39.360",
+                  "timeEnd": "39.480"
                 },
                 {
-                  "text": "Scherak: Das musst du ihm sagen!)"
+                  "text": "Scherak: Das musst du ihm sagen!)",
+                  "timeStart": "39.480",
+                  "timeEnd": "41.320"
                 }
               ],
               "text": "Herr Präsident! Meine sehr verehrten Zuseherinnen und Zuseher! Geschätzte Kolleginnen und Kollegen im Hohen Haus! Meine Damen und Herren! Die Vorwürfe, um die es hier geht, sind Ihnen ja aus den Medien bekannt. Was wir von der ÖVP wollen ist volle und vor allem rasche Aufklärung. Das möchte auch unser Nationalratspräsident Wolfgang Sobotka. Das ist auch der Grund, warum er ersucht hat, eine rasche Entscheidung über seine Auslieferung zu treffen, was wir auch tun, wobei, und auch das muss man festhalten, natürlich der Beschluss über die Aufhebung der Immunität eines Abgeordneten, Kollege Scherak, ein Recht des Vertretungskörpers des Nationalrates als Ganzes ist. (Abg. Scherak: Das musst du ihm sagen!)"
@@ -232,16 +267,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es ist notwendig, dass der Nationalrat seine Arbeitsfähigkeit aufrechterhält, indem Gesetze beschlossen werden und die Regierung kontrolliert wird."
+                  "text": "Es ist notwendig, dass der Nationalrat seine Arbeitsfähigkeit aufrechterhält, indem Gesetze beschlossen werden und die Regierung kontrolliert wird.",
+                  "timeStart": "41.320",
+                  "timeEnd": "50.060"
                 },
                 {
-                  "text": "Deshalb wird auch der einzelne Abgeordnete geschützt."
+                  "text": "Deshalb wird auch der einzelne Abgeordnete geschützt.",
+                  "timeStart": "50.060",
+                  "timeEnd": "53.960"
                 },
                 {
-                  "text": "Es ist wichtig, dass wir diese Immunität weiterhin pflegen und berücksichtigen, auch wenn man feststellen muss, dass diese außerberufliche Immunität in ihrer aktuellen Ausprägung möglicherweise nicht mehr denselben Schutz bietet."
+                  "text": "Es ist wichtig, dass wir diese Immunität weiterhin pflegen und berücksichtigen, auch wenn man feststellen muss, dass diese außerberufliche Immunität in ihrer aktuellen Ausprägung möglicherweise nicht mehr denselben Schutz bietet.",
+                  "timeStart": "53.960",
+                  "timeEnd": "69.960"
                 },
                 {
-                  "text": "Man müsste sich sicherlich überlegen, wie man die außerberufliche Immunität in Zukunft ausgestaltet."
+                  "text": "Man müsste sich sicherlich überlegen, wie man die außerberufliche Immunität in Zukunft ausgestaltet.",
+                  "timeStart": "69.960",
+                  "timeEnd": "78.420"
                 }
               ],
               "text": "Es ist notwendig, dass der Nationalrat seine Arbeitsfähigkeit aufrechterhält, indem Gesetze beschlossen werden und die Regierung kontrolliert wird. Deshalb wird auch der einzelne Abgeordnete geschützt. Es ist wichtig, dass wir diese Immunität weiterhin pflegen und berücksichtigen, auch wenn man feststellen muss, dass diese außerberufliche Immunität in ihrer aktuellen Ausprägung möglicherweise nicht mehr denselben Schutz bietet. Man müsste sich sicherlich überlegen, wie man die außerberufliche Immunität in Zukunft ausgestaltet."
@@ -252,25 +295,39 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Meine Damen und Herren!"
+                  "text": "Meine Damen und Herren!",
+                  "timeStart": "78.420",
+                  "timeEnd": "79.840"
                 },
                 {
-                  "text": "Wir von der ÖVP wollen eine rasche Aufklärung, aus diesem Grund gibt es auch Konsens, dass festgestellt wird, dass dieser Vorgang nicht in Zusammenhang mit der politischen Tätigkeit steht."
+                  "text": "Wir von der ÖVP wollen eine rasche Aufklärung, aus diesem Grund gibt es auch Konsens, dass festgestellt wird, dass dieser Vorgang nicht in Zusammenhang mit der politischen Tätigkeit steht.",
+                  "timeStart": "79.840",
+                  "timeEnd": "91.640"
                 },
                 {
-                  "text": "Deswegen können die Strafverfolgungsbehörden eine entsprechende Ermittlungshandlung setzen."
+                  "text": "Deswegen können die Strafverfolgungsbehörden eine entsprechende Ermittlungshandlung setzen.",
+                  "timeStart": "91.640",
+                  "timeEnd": "97.400"
                 },
                 {
-                  "text": "Wir hoffen wie gesagt auf eine rasche Aufklärung."
+                  "text": "Wir hoffen wie gesagt auf eine rasche Aufklärung.",
+                  "timeStart": "97.400",
+                  "timeEnd": "100.600"
                 },
                 {
-                  "text": "Das wäre auch ein Ersuchen an die entsprechenden Behörden. –"
+                  "text": "Das wäre auch ein Ersuchen an die entsprechenden Behörden. –",
+                  "timeStart": "100.600",
+                  "timeEnd": "102.640"
                 },
                 {
-                  "text": "Danke schön. ("
+                  "text": "Danke schön. (",
+                  "timeStart": "102.640",
+                  "timeEnd": "103.160"
                 },
                 {
-                  "text": "Beifall bei der ÖVP.)"
+                  "text": "Beifall bei der ÖVP.)",
+                  "timeStart": "103.160",
+                  "timeEnd": "105.200"
                 }
               ],
               "text": "Meine Damen und Herren! Wir von der ÖVP wollen eine rasche Aufklärung, aus diesem Grund gibt es auch Konsens, dass festgestellt wird, dass dieser Vorgang nicht in Zusammenhang mit der politischen Tätigkeit steht. Deswegen können die Strafverfolgungsbehörden eine entsprechende Ermittlungshandlung setzen. Wir hoffen wie gesagt auf eine rasche Aufklärung. Das wäre auch ein Ersuchen an die entsprechenden Behörden. – Danke schön. (Beifall bei der ÖVP.)"
@@ -281,7 +338,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "19.00"
+                  "text": "19.00",
+                  "timeStart": "105.200",
+                  "timeEnd": "105.720"
                 }
               ],
               "text": "19.00"
@@ -292,10 +351,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Leichtfried. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Leichtfried. –",
+                  "timeStart": "105.720",
+                  "timeEnd": "109.440"
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "109.440",
+                  "timeEnd": "114.000"
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Leichtfried. – Bitte."
@@ -307,7 +370,8 @@
         "mediaIndex": 2,
         "stdId": 313807,
         "debatteId": 1,
-        "proceedingIndex": 313807
+        "proceedingIndex": 313807,
+        "alignDuration": 0.4831409454345703
       },
       "originalLanguage": "de"
     },
@@ -335,7 +399,8 @@
         "originMediaID": "313771",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/47207bfe-dc3e-425b-9f54-ea21597a655c/47207bfe-dc3e-425b-9f54-ea21597a655c.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/47207bfe-dc3e-425b-9f54-ea21597a655c/47207bfe-dc3e-425b-9f54-ea21597a655c.mp3",
-        "duration": 239
+        "duration": 239,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:00:21",
       "dateEnd": "2023-12-15T19:04:20",
@@ -382,7 +447,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "19.00"
+                  "text": "19.00",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.400"
                 }
               ],
               "text": "19.00"
@@ -393,46 +460,74 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Geschätzte Damen und Herren!"
+                  "text": "Geschätzte Damen und Herren!",
+                  "timeStart": "2.400",
+                  "timeEnd": "4.280"
                 },
                 {
-                  "text": "Ich habe mir jetzt gerade selbst die Frage gestellt: Empfinde nur ich es als etwas merkwürdig (Abg."
+                  "text": "Ich habe mir jetzt gerade selbst die Frage gestellt: Empfinde nur ich es als etwas merkwürdig (Abg.",
+                  "timeStart": "4.280",
+                  "timeEnd": "12.160"
                 },
                 {
-                  "text": "Krisper: Nein!),"
+                  "text": "Krisper: Nein!),",
+                  "timeStart": "12.160",
+                  "timeEnd": "14.080"
                 },
                 {
-                  "text": "dass Sie, Herr Sobotka, jetzt diese Sitzung leiten (Rufe bei den NEOS: Nein!),"
+                  "text": "dass Sie, Herr Sobotka, jetzt diese Sitzung leiten (Rufe bei den NEOS: Nein!),",
+                  "timeStart": "14.080",
+                  "timeEnd": "16.440"
                 },
                 {
-                  "text": "oder empfinden das andere vielleicht auch so? ("
+                  "text": "oder empfinden das andere vielleicht auch so? (",
+                  "timeStart": "16.440",
+                  "timeEnd": "18.000"
                 },
                 {
-                  "text": "Beifall bei der SPÖ. –"
+                  "text": "Beifall bei der SPÖ. –",
+                  "timeStart": "18.000",
+                  "timeEnd": "19.500"
                 },
                 {
-                  "text": "Rufe bei FPÖ und NEOS: Ja! –"
+                  "text": "Rufe bei FPÖ und NEOS: Ja! –",
+                  "timeStart": "19.500",
+                  "timeEnd": "21.840"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "21.840",
+                  "timeEnd": "22.540"
                 },
                 {
-                  "text": "Michael Hammer: Wenn die Frau Bures nicht mehr Zeit hat! –"
+                  "text": "Michael Hammer: Wenn die Frau Bures nicht mehr Zeit hat! –",
+                  "timeStart": "22.540",
+                  "timeEnd": "25.440"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "25.440",
+                  "timeEnd": "26.280"
                 },
                 {
-                  "text": "Greiner: Na geh, jetzt ist da aber einmal Ruhe da drüben!"
+                  "text": "Greiner: Na geh, jetzt ist da aber einmal Ruhe da drüben!",
+                  "timeStart": "26.280",
+                  "timeEnd": "34.080"
                 },
                 {
-                  "text": "Blöde Zwischenrufe! –"
+                  "text": "Blöde Zwischenrufe! –",
+                  "timeStart": "34.080",
+                  "timeEnd": "34.960"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "34.960",
+                  "timeEnd": "35.320"
                 },
                 {
-                  "text": "Michael Hammer: Wo ist sie denn?)"
+                  "text": "Michael Hammer: Wo ist sie denn?)",
+                  "timeStart": "35.320",
+                  "timeEnd": "36.920"
                 }
               ],
               "text": "Geschätzte Damen und Herren! Ich habe mir jetzt gerade selbst die Frage gestellt: Empfinde nur ich es als etwas merkwürdig (Abg. Krisper: Nein!), dass Sie, Herr Sobotka, jetzt diese Sitzung leiten (Rufe bei den NEOS: Nein!), oder empfinden das andere vielleicht auch so? (Beifall bei der SPÖ. – Rufe bei FPÖ und NEOS: Ja! – Abg. Michael Hammer: Wenn die Frau Bures nicht mehr Zeit hat! – Abg. Greiner: Na geh, jetzt ist da aber einmal Ruhe da drüben! Blöde Zwischenrufe! – Abg. Michael Hammer: Wo ist sie denn?)"
@@ -443,16 +538,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Einige von Ihnen und Sie, Herr Präsident, können sich wahrscheinlich daran erinnern, dass ich vor einigen Jahren – nicht hier, sondern im Ausweichquartier – heraußen gestanden bin und Folgendes gesagt habe: Es ist „Gift für die Demokratie“, wenn der Eindruck entsteht, dass reiche Menschen politische Prozesse stärker beeinflussen können als jene, „die zur Wahl gehen“. ("
+                  "text": "Einige von Ihnen und Sie, Herr Präsident, können sich wahrscheinlich daran erinnern, dass ich vor einigen Jahren – nicht hier, sondern im Ausweichquartier – heraußen gestanden bin und Folgendes gesagt habe: Es ist „Gift für die Demokratie“, wenn der Eindruck entsteht, dass reiche Menschen politische Prozesse stärker beeinflussen können als jene, „die zur Wahl gehen“. (",
+                  "timeStart": "36.920",
+                  "timeEnd": "60.200"
                 },
                 {
-                  "text": "Zwischenruf des Abg."
+                  "text": "Zwischenruf des Abg.",
+                  "timeStart": "60.200",
+                  "timeEnd": "61.240"
                 },
                 {
-                  "text": "Hörl. ) –"
+                  "text": "Hörl. ) –",
+                  "timeStart": "61.240",
+                  "timeEnd": "61.640"
                 },
                 {
-                  "text": "Das habe ich mehr oder weniger wörtlich gesagt."
+                  "text": "Das habe ich mehr oder weniger wörtlich gesagt.",
+                  "timeStart": "61.640",
+                  "timeEnd": "63.880"
                 }
               ],
               "text": "Einige von Ihnen und Sie, Herr Präsident, können sich wahrscheinlich daran erinnern, dass ich vor einigen Jahren – nicht hier, sondern im Ausweichquartier – heraußen gestanden bin und Folgendes gesagt habe: Es ist „Gift für die Demokratie“, wenn der Eindruck entsteht, dass reiche Menschen politische Prozesse stärker beeinflussen können als jene, „die zur Wahl gehen“. (Zwischenruf des Abg. Hörl. ) – Das habe ich mehr oder weniger wörtlich gesagt."
@@ -463,19 +566,29 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Nachdem ich das gesagt hatte, Herr Präsident – Sie erlauben mir, dass ich das so ausdrücke–, sind Sie ein bisschen ausgezuckt – ein bisschen ist sogar untertrieben."
+                  "text": "Nachdem ich das gesagt hatte, Herr Präsident – Sie erlauben mir, dass ich das so ausdrücke–, sind Sie ein bisschen ausgezuckt – ein bisschen ist sogar untertrieben.",
+                  "timeStart": "63.880",
+                  "timeEnd": "77.060"
                 },
                 {
-                  "text": "Ich bin heraußen gestanden und habe mir gedacht: Was hat er denn?"
+                  "text": "Ich bin heraußen gestanden und habe mir gedacht: Was hat er denn?",
+                  "timeStart": "77.060",
+                  "timeEnd": "81.840"
                 },
                 {
-                  "text": "Habe ich jetzt etwas komplett Falsches gesagt, oder hat er sich ertappt gefühlt? –"
+                  "text": "Habe ich jetzt etwas komplett Falsches gesagt, oder hat er sich ertappt gefühlt? –",
+                  "timeStart": "81.840",
+                  "timeEnd": "86.920"
                 },
                 {
-                  "text": "Im Laufe der Jahre hat sich eines als wahr herausgestellt: Herr Präsident, Sie haben sich damals ertappt gefühlt. ("
+                  "text": "Im Laufe der Jahre hat sich eines als wahr herausgestellt: Herr Präsident, Sie haben sich damals ertappt gefühlt. (",
+                  "timeStart": "86.920",
+                  "timeEnd": "97.720"
                 },
                 {
-                  "text": "Beifall bei der SPÖ.)"
+                  "text": "Beifall bei der SPÖ.)",
+                  "timeStart": "97.720",
+                  "timeEnd": "99.600"
                 }
               ],
               "text": "Nachdem ich das gesagt hatte, Herr Präsident – Sie erlauben mir, dass ich das so ausdrücke–, sind Sie ein bisschen ausgezuckt – ein bisschen ist sogar untertrieben. Ich bin heraußen gestanden und habe mir gedacht: Was hat er denn? Habe ich jetzt etwas komplett Falsches gesagt, oder hat er sich ertappt gefühlt? – Im Laufe der Jahre hat sich eines als wahr herausgestellt: Herr Präsident, Sie haben sich damals ertappt gefühlt. (Beifall bei der SPÖ.)"
@@ -486,34 +599,54 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Die ÖVP und insbesondere die Kurz-Clique haben dem Land ständig den Eindruck vermittelt, dass es wichtiger ist, reich zu sein, als zur Wahl zu gehen. ("
+                  "text": "Die ÖVP und insbesondere die Kurz-Clique haben dem Land ständig den Eindruck vermittelt, dass es wichtiger ist, reich zu sein, als zur Wahl zu gehen. (",
+                  "timeStart": "99.600",
+                  "timeEnd": "110.020"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "110.020",
+                  "timeEnd": "111.080"
                 },
                 {
-                  "text": "Kirchbaumer: Es wird nicht wahrer, wenn man es immer wieder wiederholt, ganz sicher nicht!)"
+                  "text": "Kirchbaumer: Es wird nicht wahrer, wenn man es immer wieder wiederholt, ganz sicher nicht!)",
+                  "timeStart": "111.080",
+                  "timeEnd": "114.860"
                 },
                 {
-                  "text": "Sie, Herr Präsident, waren in dieser Kurz-Clique fürs Grobe zuständig und haben agiert."
+                  "text": "Sie, Herr Präsident, waren in dieser Kurz-Clique fürs Grobe zuständig und haben agiert.",
+                  "timeStart": "114.860",
+                  "timeEnd": "122.120"
                 },
                 {
-                  "text": "Sie waren zentraler Bestandteil dieser Kurz-Clique, und Sie sind dann mit dem Präsidentenamt belohnt worden."
+                  "text": "Sie waren zentraler Bestandteil dieser Kurz-Clique, und Sie sind dann mit dem Präsidentenamt belohnt worden.",
+                  "timeStart": "122.120",
+                  "timeEnd": "128.200"
                 },
                 {
-                  "text": "Sie, Herr Präsident, waren der parteipolitischste Präsident (Ruf bei der ÖVP: Blödsinn!),"
+                  "text": "Sie, Herr Präsident, waren der parteipolitischste Präsident (Ruf bei der ÖVP: Blödsinn!),",
+                  "timeStart": "128.200",
+                  "timeEnd": "134.160"
                 },
                 {
-                  "text": "den dieses Haus je erlebt hat."
+                  "text": "den dieses Haus je erlebt hat.",
+                  "timeStart": "134.160",
+                  "timeEnd": "135.640"
                 },
                 {
-                  "text": "Herr Präsident, das ist einfach dieser Funktion unwürdig und des österreichischen Parlaments, des österreichischen Nationalrates unwürdig. ("
+                  "text": "Herr Präsident, das ist einfach dieser Funktion unwürdig und des österreichischen Parlaments, des österreichischen Nationalrates unwürdig. (",
+                  "timeStart": "135.640",
+                  "timeEnd": "143.040"
                 },
                 {
-                  "text": "Beifall bei der SPÖ sowie des Abg."
+                  "text": "Beifall bei der SPÖ sowie des Abg.",
+                  "timeStart": "143.040",
+                  "timeEnd": "147.160"
                 },
                 {
-                  "text": "Amesbauer. )"
+                  "text": "Amesbauer. )",
+                  "timeStart": "147.160",
+                  "timeEnd": "147.720"
                 }
               ],
               "text": "Die ÖVP und insbesondere die Kurz-Clique haben dem Land ständig den Eindruck vermittelt, dass es wichtiger ist, reich zu sein, als zur Wahl zu gehen. (Abg. Kirchbaumer: Es wird nicht wahrer, wenn man es immer wieder wiederholt, ganz sicher nicht!) Sie, Herr Präsident, waren in dieser Kurz-Clique fürs Grobe zuständig und haben agiert. Sie waren zentraler Bestandteil dieser Kurz-Clique, und Sie sind dann mit dem Präsidentenamt belohnt worden. Sie, Herr Präsident, waren der parteipolitischste Präsident (Ruf bei der ÖVP: Blödsinn!), den dieses Haus je erlebt hat. Herr Präsident, das ist einfach dieser Funktion unwürdig und des österreichischen Parlaments, des österreichischen Nationalrates unwürdig. (Beifall bei der SPÖ sowie des Abg. Amesbauer. )"
@@ -524,28 +657,44 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das Ergebnis darf einen nicht wundern: Sie sind der Präsident mit der niedrigsten Zustimmung, die ein Nationalratspräsident je gehabt hat."
+                  "text": "Das Ergebnis darf einen nicht wundern: Sie sind der Präsident mit der niedrigsten Zustimmung, die ein Nationalratspräsident je gehabt hat.",
+                  "timeStart": "147.720",
+                  "timeEnd": "156.640"
                 },
                 {
-                  "text": "Sie sind der erste Nationalratspräsident, der mit dem Satz berühmt wurde: „Für jedes Inserat gibt es ein Gegengeschäft“."
+                  "text": "Sie sind der erste Nationalratspräsident, der mit dem Satz berühmt wurde: „Für jedes Inserat gibt es ein Gegengeschäft“.",
+                  "timeStart": "156.640",
+                  "timeEnd": "165.200"
                 },
                 {
-                  "text": "Sie sind der erste Präsident, der einen Untersuchungsausschuss leiten wollte und auch geleitet hat, in dem er selbst Untersuchungsgegenstand war."
+                  "text": "Sie sind der erste Präsident, der einen Untersuchungsausschuss leiten wollte und auch geleitet hat, in dem er selbst Untersuchungsgegenstand war.",
+                  "timeStart": "165.200",
+                  "timeEnd": "173.680"
                 },
                 {
-                  "text": "Sie sind der erste Präsident, gegen den ein Verfahren wegen Verdachts des Amtsmissbrauchs geführt wird."
+                  "text": "Sie sind der erste Präsident, gegen den ein Verfahren wegen Verdachts des Amtsmissbrauchs geführt wird.",
+                  "timeStart": "173.680",
+                  "timeEnd": "180.580"
                 },
                 {
-                  "text": "Sie sind der Präsident, der das Vertrauen in die parlamentarische Republik am meisten geschädigt hat."
+                  "text": "Sie sind der Präsident, der das Vertrauen in die parlamentarische Republik am meisten geschädigt hat.",
+                  "timeStart": "180.580",
+                  "timeEnd": "190.220"
                 },
                 {
-                  "text": "Herr Präsident, Sie schaden unserem Haus, Sie schaden dem Nationalrat (Ruf bei der ÖVP: Der größte Schaden bist du!),"
+                  "text": "Herr Präsident, Sie schaden unserem Haus, Sie schaden dem Nationalrat (Ruf bei der ÖVP: Der größte Schaden bist du!),",
+                  "timeStart": "190.220",
+                  "timeEnd": "196.800"
                 },
                 {
-                  "text": "und auch das ist eines Nationalratspräsidenten nicht würdig – nein, das ist unwürdig, geschätzte Damen und Herren. ("
+                  "text": "und auch das ist eines Nationalratspräsidenten nicht würdig – nein, das ist unwürdig, geschätzte Damen und Herren. (",
+                  "timeStart": "196.800",
+                  "timeEnd": "201.320"
                 },
                 {
-                  "text": "Beifall bei der SPÖ.)"
+                  "text": "Beifall bei der SPÖ.)",
+                  "timeStart": "201.320",
+                  "timeEnd": "206.080"
                 }
               ],
               "text": "Das Ergebnis darf einen nicht wundern: Sie sind der Präsident mit der niedrigsten Zustimmung, die ein Nationalratspräsident je gehabt hat. Sie sind der erste Nationalratspräsident, der mit dem Satz berühmt wurde: „Für jedes Inserat gibt es ein Gegengeschäft“. Sie sind der erste Präsident, der einen Untersuchungsausschuss leiten wollte und auch geleitet hat, in dem er selbst Untersuchungsgegenstand war. Sie sind der erste Präsident, gegen den ein Verfahren wegen Verdachts des Amtsmissbrauchs geführt wird. Sie sind der Präsident, der das Vertrauen in die parlamentarische Republik am meisten geschädigt hat. Herr Präsident, Sie schaden unserem Haus, Sie schaden dem Nationalrat (Ruf bei der ÖVP: Der größte Schaden bist du!), und auch das ist eines Nationalratspräsidenten nicht würdig – nein, das ist unwürdig, geschätzte Damen und Herren. (Beifall bei der SPÖ.)"
@@ -556,28 +705,44 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich möchte aber nicht an Sie appellieren, weil mir das relativ sinnlos erscheint, sondern ich möchte an die ÖVP appellieren: Sie haben es in der Hand, Sie haben genug geeignete Persönlichkeiten in Ihren Reihen, die in der Lage wären, das Amt des Nationalratspräsidenten würdevoll auszuüben. ("
+                  "text": "Ich möchte aber nicht an Sie appellieren, weil mir das relativ sinnlos erscheint, sondern ich möchte an die ÖVP appellieren: Sie haben es in der Hand, Sie haben genug geeignete Persönlichkeiten in Ihren Reihen, die in der Lage wären, das Amt des Nationalratspräsidenten würdevoll auszuüben. (",
+                  "timeStart": "206.080",
+                  "timeEnd": "223.620"
                 },
                 {
-                  "text": "Zwischenruf der Abg."
+                  "text": "Zwischenruf der Abg.",
+                  "timeStart": "223.620",
+                  "timeEnd": "224.640"
                 },
                 {
-                  "text": "Totter. )"
+                  "text": "Totter. )",
+                  "timeStart": "224.640",
+                  "timeEnd": "225.400"
                 },
                 {
-                  "text": "Ziehen Sie endlich die notwendigen Konsequenzen! –"
+                  "text": "Ziehen Sie endlich die notwendigen Konsequenzen! –",
+                  "timeStart": "225.400",
+                  "timeEnd": "228.120"
                 },
                 {
-                  "text": "Schöne Weihnachten. ("
+                  "text": "Schöne Weihnachten. (",
+                  "timeStart": "228.120",
+                  "timeEnd": "229.240"
                 },
                 {
-                  "text": "Beifall bei der SPÖ. –"
+                  "text": "Beifall bei der SPÖ. –",
+                  "timeStart": "229.240",
+                  "timeEnd": "229.920"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "229.920",
+                  "timeEnd": "230.480"
                 },
                 {
-                  "text": "Stögmüller: ... Chance!)"
+                  "text": "Stögmüller: ... Chance!)",
+                  "timeStart": "230.480",
+                  "timeEnd": "231.560"
                 }
               ],
               "text": "Ich möchte aber nicht an Sie appellieren, weil mir das relativ sinnlos erscheint, sondern ich möchte an die ÖVP appellieren: Sie haben es in der Hand, Sie haben genug geeignete Persönlichkeiten in Ihren Reihen, die in der Lage wären, das Amt des Nationalratspräsidenten würdevoll auszuüben. (Zwischenruf der Abg. Totter. ) Ziehen Sie endlich die notwendigen Konsequenzen! – Schöne Weihnachten. (Beifall bei der SPÖ. – Abg. Stögmüller: ... Chance!)"
@@ -588,7 +753,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "19.03"
+                  "text": "19.03",
+                  "timeStart": "231.560",
+                  "timeEnd": "233.040"
                 }
               ],
               "text": "19.03"
@@ -599,10 +766,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Schrangl. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Schrangl. –",
+                  "timeStart": "233.040",
+                  "timeEnd": "239.400"
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "239.400",
+                  "timeEnd": "239.600"
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Schrangl. – Bitte."
@@ -614,7 +785,8 @@
         "mediaIndex": 3,
         "stdId": 313771,
         "debatteId": 1,
-        "proceedingIndex": 313771
+        "proceedingIndex": 313771,
+        "alignDuration": 0.9208121299743652
       },
       "originalLanguage": "de"
     },
@@ -642,7 +814,8 @@
         "originMediaID": "313776",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/27ee95b3-ab55-48a2-b7f6-ec5ebc125693/27ee95b3-ab55-48a2-b7f6-ec5ebc125693.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/27ee95b3-ab55-48a2-b7f6-ec5ebc125693/27ee95b3-ab55-48a2-b7f6-ec5ebc125693.mp3",
-        "duration": 215
+        "duration": 215,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:04:20",
       "dateEnd": "2023-12-15T19:07:55",
@@ -689,7 +862,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "19.04"
+                  "text": "19.04",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.820"
                 }
               ],
               "text": "19.04"
@@ -700,22 +875,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Sehr geehrter Herr Präsident!"
+                  "text": "Sehr geehrter Herr Präsident!",
+                  "timeStart": "4.820",
+                  "timeEnd": "8.880"
                 },
                 {
-                  "text": "Hohes Haus!"
+                  "text": "Hohes Haus!",
+                  "timeStart": "8.880",
+                  "timeEnd": "9.720"
                 },
                 {
-                  "text": "Meine sehr verehrten Damen und Herren!"
+                  "text": "Meine sehr verehrten Damen und Herren!",
+                  "timeStart": "9.720",
+                  "timeEnd": "13.400"
                 },
                 {
-                  "text": "Die Bundesverfassung – der Bundespräsident als Hüter der Verfassung hat ja schon öfter von der Schönheit der Verfassung gesprochen (Abg."
+                  "text": "Die Bundesverfassung – der Bundespräsident als Hüter der Verfassung hat ja schon öfter von der Schönheit der Verfassung gesprochen (Abg.",
+                  "timeStart": "13.400",
+                  "timeEnd": "19.320"
                 },
                 {
-                  "text": "Meinl-Reisinger: Eleganz!),"
+                  "text": "Meinl-Reisinger: Eleganz!),",
+                  "timeStart": "19.320",
+                  "timeEnd": "21.000"
                 },
                 {
-                  "text": "und es wundert mich, dass er sich in dieser Causa wieder einmal nicht zu Wort meldet; die Stille, die von ihm ausgeht, ist eigentlich schon fast unüberhörbar – sagt sinngemäß: Vor dem Gesetz sind alle gleich."
+                  "text": "und es wundert mich, dass er sich in dieser Causa wieder einmal nicht zu Wort meldet; die Stille, die von ihm ausgeht, ist eigentlich schon fast unüberhörbar – sagt sinngemäß: Vor dem Gesetz sind alle gleich.",
+                  "timeStart": "21.000",
+                  "timeEnd": "35.280"
                 }
               ],
               "text": "Sehr geehrter Herr Präsident! Hohes Haus! Meine sehr verehrten Damen und Herren! Die Bundesverfassung – der Bundespräsident als Hüter der Verfassung hat ja schon öfter von der Schönheit der Verfassung gesprochen (Abg. Meinl-Reisinger: Eleganz!), und es wundert mich, dass er sich in dieser Causa wieder einmal nicht zu Wort meldet; die Stille, die von ihm ausgeht, ist eigentlich schon fast unüberhörbar – sagt sinngemäß: Vor dem Gesetz sind alle gleich."
@@ -726,10 +913,14 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Kollege (in Richtung Abg."
+                  "text": "Herr Kollege (in Richtung Abg.",
+                  "timeStart": "35.280",
+                  "timeEnd": "36.320"
                 },
                 {
-                  "text": "Leichtfried), ich darf vielleicht einen Satz von Ihnen aufgreifen: Sie haben gesagt, es ist „Gift für die Demokratie“, und ich glaube, es ist tatsächlich Gift für die Demokratie, wenn der Eindruck entsteht, dass manche gleicher sind als die anderen."
+                  "text": "Leichtfried), ich darf vielleicht einen Satz von Ihnen aufgreifen: Sie haben gesagt, es ist „Gift für die Demokratie“, und ich glaube, es ist tatsächlich Gift für die Demokratie, wenn der Eindruck entsteht, dass manche gleicher sind als die anderen.",
+                  "timeStart": "36.320",
+                  "timeEnd": "50.000"
                 }
               ],
               "text": "Herr Kollege (in Richtung Abg. Leichtfried), ich darf vielleicht einen Satz von Ihnen aufgreifen: Sie haben gesagt, es ist „Gift für die Demokratie“, und ich glaube, es ist tatsächlich Gift für die Demokratie, wenn der Eindruck entsteht, dass manche gleicher sind als die anderen."
@@ -740,16 +931,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Sehr geehrter Herr Präsident, auch ich finde es befremdlich, dass Sie heute hier über die Sitzung wachen, die über Ihre eigene Auslieferung entscheidet (Zwischenruf des Abg."
+                  "text": "Sehr geehrter Herr Präsident, auch ich finde es befremdlich, dass Sie heute hier über die Sitzung wachen, die über Ihre eigene Auslieferung entscheidet (Zwischenruf des Abg.",
+                  "timeStart": "50.000",
+                  "timeEnd": "64.040"
                 },
                 {
-                  "text": "Hörl – Abg."
+                  "text": "Hörl – Abg.",
+                  "timeStart": "64.040",
+                  "timeEnd": "64.680"
                 },
                 {
-                  "text": "Schmuckenschlager: ... gerade einstimmig beschlossen, das ist doch lächerlich!),"
+                  "text": "Schmuckenschlager: ... gerade einstimmig beschlossen, das ist doch lächerlich!),",
+                  "timeStart": "64.680",
+                  "timeEnd": "68.180"
                 },
                 {
-                  "text": "und nicht nur ich finde das befremdlich, sondern auch der Verfahrensrichter im U-Ausschuss hat mehrmals geäußert, dass er es für befremdlich hält, dass Sie, wenn Sie dort befragt werden, selber den Vorsitz führen."
+                  "text": "und nicht nur ich finde das befremdlich, sondern auch der Verfahrensrichter im U-Ausschuss hat mehrmals geäußert, dass er es für befremdlich hält, dass Sie, wenn Sie dort befragt werden, selber den Vorsitz führen.",
+                  "timeStart": "68.180",
+                  "timeEnd": "88.200"
                 }
               ],
               "text": "Sehr geehrter Herr Präsident, auch ich finde es befremdlich, dass Sie heute hier über die Sitzung wachen, die über Ihre eigene Auslieferung entscheidet (Zwischenruf des Abg. Hörl – Abg. Schmuckenschlager: ... gerade einstimmig beschlossen, das ist doch lächerlich!), und nicht nur ich finde das befremdlich, sondern auch der Verfahrensrichter im U-Ausschuss hat mehrmals geäußert, dass er es für befremdlich hält, dass Sie, wenn Sie dort befragt werden, selber den Vorsitz führen."
@@ -760,34 +959,54 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Auch dieses Mal muss ich wieder sagen: Mich wundert, dass der Anstand, den die Grünen ja immer für sich beanspruchen, so ruhig ist."
+                  "text": "Auch dieses Mal muss ich wieder sagen: Mich wundert, dass der Anstand, den die Grünen ja immer für sich beanspruchen, so ruhig ist.",
+                  "timeStart": "88.200",
+                  "timeEnd": "98.160"
                 },
                 {
-                  "text": "Auch jetzt höre ich wieder nichts, aber wahrscheinlich habt ihr euch so an die Futtertröge der Macht gewöhnt - - (Abg."
+                  "text": "Auch jetzt höre ich wieder nichts, aber wahrscheinlich habt ihr euch so an die Futtertröge der Macht gewöhnt - - (Abg.",
+                  "timeStart": "98.160",
+                  "timeEnd": "104.000"
                 },
                 {
-                  "text": "Disoski: Waren wir schon dran? –"
+                  "text": "Disoski: Waren wir schon dran? –",
+                  "timeStart": "104.000",
+                  "timeEnd": "104.600"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "104.600",
+                  "timeEnd": "104.640"
                 },
                 {
-                  "text": "Stögmüller: Vielleicht bist zu wenig im Parlament! –"
+                  "text": "Stögmüller: Vielleicht bist zu wenig im Parlament! –",
+                  "timeStart": "104.640",
+                  "timeEnd": "106.480"
                 },
                 {
-                  "text": "Weitere Zwischenrufe bei den Grünen.) –"
+                  "text": "Weitere Zwischenrufe bei den Grünen.) –",
+                  "timeStart": "106.480",
+                  "timeEnd": "107.080"
                 },
                 {
-                  "text": "Ah, jetzt, wenn man sie anspricht, werden sie gleich ganz nervös."
+                  "text": "Ah, jetzt, wenn man sie anspricht, werden sie gleich ganz nervös.",
+                  "timeStart": "107.080",
+                  "timeEnd": "109.960"
                 },
                 {
-                  "text": "Na, ihr kommt dann eh gleich dran, ich bin gespannt – ja, ja, ja."
+                  "text": "Na, ihr kommt dann eh gleich dran, ich bin gespannt – ja, ja, ja.",
+                  "timeStart": "109.960",
+                  "timeEnd": "113.120"
                 },
                 {
-                  "text": "Nervös sind sie also, wenn die Futtertröge der Macht in Gefahr sind. ("
+                  "text": "Nervös sind sie also, wenn die Futtertröge der Macht in Gefahr sind. (",
+                  "timeStart": "113.120",
+                  "timeEnd": "116.880"
                 },
                 {
-                  "text": "Beifall bei der FPÖ.)"
+                  "text": "Beifall bei der FPÖ.)",
+                  "timeStart": "116.880",
+                  "timeEnd": "118.300"
                 }
               ],
               "text": "Auch dieses Mal muss ich wieder sagen: Mich wundert, dass der Anstand, den die Grünen ja immer für sich beanspruchen, so ruhig ist. Auch jetzt höre ich wieder nichts, aber wahrscheinlich habt ihr euch so an die Futtertröge der Macht gewöhnt - - (Abg. Disoski: Waren wir schon dran? – Abg. Stögmüller: Vielleicht bist zu wenig im Parlament! – Weitere Zwischenrufe bei den Grünen.) – Ah, jetzt, wenn man sie anspricht, werden sie gleich ganz nervös. Na, ihr kommt dann eh gleich dran, ich bin gespannt – ja, ja, ja. Nervös sind sie also, wenn die Futtertröge der Macht in Gefahr sind. (Beifall bei der FPÖ.)"
@@ -798,10 +1017,14 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Vizekanzler Kogler hat ja schon im Oktober 2020, als bekannt geworden ist, dass Novomatic 109 000 Euro an das Alois-Mock-Institut überwiesen hat, gefordert, dass der Präsident seinen Hut nimmt, aber nein, ihr Grünen steht das bis zum Letzten durch."
+                  "text": "Vizekanzler Kogler hat ja schon im Oktober 2020, als bekannt geworden ist, dass Novomatic 109 000 Euro an das Alois-Mock-Institut überwiesen hat, gefordert, dass der Präsident seinen Hut nimmt, aber nein, ihr Grünen steht das bis zum Letzten durch.",
+                  "timeStart": "118.300",
+                  "timeEnd": "139.760"
                 },
                 {
-                  "text": "Es wird wahrscheinlich auch nach dieser Wahl das Letzte sein."
+                  "text": "Es wird wahrscheinlich auch nach dieser Wahl das Letzte sein.",
+                  "timeStart": "139.760",
+                  "timeEnd": "143.360"
                 }
               ],
               "text": "Vizekanzler Kogler hat ja schon im Oktober 2020, als bekannt geworden ist, dass Novomatic 109 000 Euro an das Alois-Mock-Institut überwiesen hat, gefordert, dass der Präsident seinen Hut nimmt, aber nein, ihr Grünen steht das bis zum Letzten durch. Es wird wahrscheinlich auch nach dieser Wahl das Letzte sein."
@@ -812,16 +1035,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Sehr geehrter Herr Präsident, Sie wissen, die Liste Ihrer Verfehlungen ist lang, und das belastet das Parlament, die Würde des Hauses und die der Politik als Ganzes. ("
+                  "text": "Sehr geehrter Herr Präsident, Sie wissen, die Liste Ihrer Verfehlungen ist lang, und das belastet das Parlament, die Würde des Hauses und die der Politik als Ganzes. (",
+                  "timeStart": "143.360",
+                  "timeEnd": "152.760"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "152.760",
+                  "timeEnd": "153.120"
                 },
                 {
-                  "text": "Hörl: Ihr seids eine Schande für die Würde des Hauses!)"
+                  "text": "Hörl: Ihr seids eine Schande für die Würde des Hauses!)",
+                  "timeStart": "153.120",
+                  "timeEnd": "155.400"
                 },
                 {
-                  "text": "Bitte, zumindest, wenn Anklage gegen Sie erhoben wird – jetzt gilt die Unschuldsvermutung; der Herr Kollege von den NEOS wird es noch genauer ausführen, wir haben es auch schon gesagt –: Die Immunität schützt nicht den einzelnen Abgeordneten – sehr geehrte Journalistinnen und Journalisten, bitte transportieren Sie das auch richtig in die Bevölkerung, damit nicht der Eindruck entsteht, dass eben manche gleicher sind als andere; nein, wir sind alle gleich –, sondern die Immunität schützt diesen Vertretungskörper als Ganzen."
+                  "text": "Bitte, zumindest, wenn Anklage gegen Sie erhoben wird – jetzt gilt die Unschuldsvermutung; der Herr Kollege von den NEOS wird es noch genauer ausführen, wir haben es auch schon gesagt –: Die Immunität schützt nicht den einzelnen Abgeordneten – sehr geehrte Journalistinnen und Journalisten, bitte transportieren Sie das auch richtig in die Bevölkerung, damit nicht der Eindruck entsteht, dass eben manche gleicher sind als andere; nein, wir sind alle gleich –, sondern die Immunität schützt diesen Vertretungskörper als Ganzen.",
+                  "timeStart": "155.400",
+                  "timeEnd": "185.080"
                 }
               ],
               "text": "Sehr geehrter Herr Präsident, Sie wissen, die Liste Ihrer Verfehlungen ist lang, und das belastet das Parlament, die Würde des Hauses und die der Politik als Ganzes. (Abg. Hörl: Ihr seids eine Schande für die Würde des Hauses!) Bitte, zumindest, wenn Anklage gegen Sie erhoben wird – jetzt gilt die Unschuldsvermutung; der Herr Kollege von den NEOS wird es noch genauer ausführen, wir haben es auch schon gesagt –: Die Immunität schützt nicht den einzelnen Abgeordneten – sehr geehrte Journalistinnen und Journalisten, bitte transportieren Sie das auch richtig in die Bevölkerung, damit nicht der Eindruck entsteht, dass eben manche gleicher sind als andere; nein, wir sind alle gleich –, sondern die Immunität schützt diesen Vertretungskörper als Ganzen."
@@ -832,13 +1063,19 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Daher fordere ich Sie auf, Herr Präsident: Wenn Anklage gegen Sie erhoben wird, achten Sie bitte die Würde des Hauses und treten Sie zurück!"
+                  "text": "Daher fordere ich Sie auf, Herr Präsident: Wenn Anklage gegen Sie erhoben wird, achten Sie bitte die Würde des Hauses und treten Sie zurück!",
+                  "timeStart": "185.080",
+                  "timeEnd": "194.040"
                 },
                 {
-                  "text": "Und die Grünen: Fordern Sie sie auf, bevor sie die Futtertröge der Macht noch mehr missbrauchen! ("
+                  "text": "Und die Grünen: Fordern Sie sie auf, bevor sie die Futtertröge der Macht noch mehr missbrauchen! (",
+                  "timeStart": "194.040",
+                  "timeEnd": "199.640"
                 },
                 {
-                  "text": "Beifall bei der FPÖ.)"
+                  "text": "Beifall bei der FPÖ.)",
+                  "timeStart": "199.640",
+                  "timeEnd": "201.520"
                 }
               ],
               "text": "Daher fordere ich Sie auf, Herr Präsident: Wenn Anklage gegen Sie erhoben wird, achten Sie bitte die Würde des Hauses und treten Sie zurück! Und die Grünen: Fordern Sie sie auf, bevor sie die Futtertröge der Macht noch mehr missbrauchen! (Beifall bei der FPÖ.)"
@@ -849,7 +1086,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "19.07"
+                  "text": "19.07",
+                  "timeStart": "201.520",
+                  "timeEnd": "204.640"
                 }
               ],
               "text": "19.07"
@@ -860,10 +1099,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Frau Abgeordnete Prammer. –"
+                  "text": "Zu Wort gemeldet ist Frau Abgeordnete Prammer. –",
+                  "timeStart": "204.640",
+                  "timeEnd": "206.920"
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "210.360",
+                  "timeEnd": "216.000"
                 }
               ],
               "text": "Zu Wort gemeldet ist Frau Abgeordnete Prammer. – Bitte."
@@ -875,7 +1118,8 @@
         "mediaIndex": 4,
         "stdId": 313776,
         "debatteId": 1,
-        "proceedingIndex": 313776
+        "proceedingIndex": 313776,
+        "alignDuration": 0.692183256149292
       },
       "originalLanguage": "de"
     },
@@ -903,7 +1147,8 @@
         "originMediaID": "313792",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6f70a03b-6e66-4484-8308-75502ea627b9/6f70a03b-6e66-4484-8308-75502ea627b9.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6f70a03b-6e66-4484-8308-75502ea627b9/6f70a03b-6e66-4484-8308-75502ea627b9.mp3",
-        "duration": 108
+        "duration": 108,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:07:55",
       "dateEnd": "2023-12-15T19:09:43",
@@ -950,7 +1195,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "19.07"
+                  "text": "19.07",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.020"
                 }
               ],
               "text": "19.07"
@@ -961,19 +1208,29 @@
               "speakerstatus": "Abgeordnete",
               "sentences": [
                 {
-                  "text": "Herr Präsident!"
+                  "text": "Herr Präsident!",
+                  "timeStart": "3.020",
+                  "timeEnd": "4.600"
                 },
                 {
-                  "text": "Ja, das Szenario wirkt, als müsste man in dieser Republik tatsächlich etwas zurechtrücken."
+                  "text": "Ja, das Szenario wirkt, als müsste man in dieser Republik tatsächlich etwas zurechtrücken.",
+                  "timeStart": "4.600",
+                  "timeEnd": "13.480"
                 },
                 {
-                  "text": "Was man aber zurechtrücken muss – ich denke, das ist wirklich wichtig, und ich habe das hier an dieser Stelle bei einer ähnlichen Debatte auch schon einmal gesagt –, ist nicht, dass wir daran rütteln sollten – es ist zum Glück heute auch nicht ausgesprochen worden –, ob es möglich sein soll, Präsidenten, Präsidentinnen abzuwählen oder nicht, denn ich denke, es ist wirklich wichtig, dass dieses Amt geschützt wird. ("
+                  "text": "Was man aber zurechtrücken muss – ich denke, das ist wirklich wichtig, und ich habe das hier an dieser Stelle bei einer ähnlichen Debatte auch schon einmal gesagt –, ist nicht, dass wir daran rütteln sollten – es ist zum Glück heute auch nicht ausgesprochen worden –, ob es möglich sein soll, Präsidenten, Präsidentinnen abzuwählen oder nicht, denn ich denke, es ist wirklich wichtig, dass dieses Amt geschützt wird. (",
+                  "timeStart": "13.480",
+                  "timeEnd": "34.920"
                 },
                 {
-                  "text": "Beifall bei den Grünen, bei Abgeordneten der NEOS sowie des Abg."
+                  "text": "Beifall bei den Grünen, bei Abgeordneten der NEOS sowie des Abg.",
+                  "timeStart": "34.920",
+                  "timeEnd": "37.080"
                 },
                 {
-                  "text": "Lindner. )"
+                  "text": "Lindner. )",
+                  "timeStart": "37.080",
+                  "timeEnd": "37.280"
                 }
               ],
               "text": "Herr Präsident! Ja, das Szenario wirkt, als müsste man in dieser Republik tatsächlich etwas zurechtrücken. Was man aber zurechtrücken muss – ich denke, das ist wirklich wichtig, und ich habe das hier an dieser Stelle bei einer ähnlichen Debatte auch schon einmal gesagt –, ist nicht, dass wir daran rütteln sollten – es ist zum Glück heute auch nicht ausgesprochen worden –, ob es möglich sein soll, Präsidenten, Präsidentinnen abzuwählen oder nicht, denn ich denke, es ist wirklich wichtig, dass dieses Amt geschützt wird. (Beifall bei den Grünen, bei Abgeordneten der NEOS sowie des Abg. Lindner. )"
@@ -984,13 +1241,19 @@
               "speakerstatus": "Abgeordnete",
               "sentences": [
                 {
-                  "text": "Umgekehrt ist es genauso wichtig, dass dieses Amt mit einer besonderen Sorgfalt für die Verantwortung, die dieses Amt mit sich bringt, ausgeübt wird – für die Verantwortung gegenüber diesem Haus und für die Verantwortung gegenüber der Republik."
+                  "text": "Umgekehrt ist es genauso wichtig, dass dieses Amt mit einer besonderen Sorgfalt für die Verantwortung, die dieses Amt mit sich bringt, ausgeübt wird – für die Verantwortung gegenüber diesem Haus und für die Verantwortung gegenüber der Republik.",
+                  "timeStart": "37.280",
+                  "timeEnd": "58.860"
                 },
                 {
-                  "text": "Ich denke, zu dieser Verantwortung gehört auch, zu erkennen, wann dieses Amt mit einer Person nicht mehr vereinbar ist. ("
+                  "text": "Ich denke, zu dieser Verantwortung gehört auch, zu erkennen, wann dieses Amt mit einer Person nicht mehr vereinbar ist. (",
+                  "timeStart": "58.860",
+                  "timeEnd": "69.940"
                 },
                 {
-                  "text": "Beifall bei den Grünen sowie bei Abgeordneten von SPÖ und FPÖ.)"
+                  "text": "Beifall bei den Grünen sowie bei Abgeordneten von SPÖ und FPÖ.)",
+                  "timeStart": "69.940",
+                  "timeEnd": "78.280"
                 }
               ],
               "text": "Umgekehrt ist es genauso wichtig, dass dieses Amt mit einer besonderen Sorgfalt für die Verantwortung, die dieses Amt mit sich bringt, ausgeübt wird – für die Verantwortung gegenüber diesem Haus und für die Verantwortung gegenüber der Republik. Ich denke, zu dieser Verantwortung gehört auch, zu erkennen, wann dieses Amt mit einer Person nicht mehr vereinbar ist. (Beifall bei den Grünen sowie bei Abgeordneten von SPÖ und FPÖ.)"
@@ -1001,16 +1264,24 @@
               "speakerstatus": "Abgeordnete",
               "sentences": [
                 {
-                  "text": "Dennoch – und da komme ich wieder zum Anfang zurück – ist es nicht an uns, das zu beurteilen."
+                  "text": "Dennoch – und da komme ich wieder zum Anfang zurück – ist es nicht an uns, das zu beurteilen.",
+                  "timeStart": "78.280",
+                  "timeEnd": "84.280"
                 },
                 {
-                  "text": "Ich habe es damals schon gesagt und ich werde es wieder sagen: Die Geschichte hat uns gezeigt, wie wichtig es ist, dieses Amt zu schützen, und die Geschichte wird über die Amtsführung urteilen. ("
+                  "text": "Ich habe es damals schon gesagt und ich werde es wieder sagen: Die Geschichte hat uns gezeigt, wie wichtig es ist, dieses Amt zu schützen, und die Geschichte wird über die Amtsführung urteilen. (",
+                  "timeStart": "84.280",
+                  "timeEnd": "96.480"
                 },
                 {
-                  "text": "Beifall bei den Grünen sowie des Abg."
+                  "text": "Beifall bei den Grünen sowie des Abg.",
+                  "timeStart": "96.480",
+                  "timeEnd": "101.480"
                 },
                 {
-                  "text": "Lindner. )"
+                  "text": "Lindner. )",
+                  "timeStart": "101.480",
+                  "timeEnd": "102.160"
                 }
               ],
               "text": "Dennoch – und da komme ich wieder zum Anfang zurück – ist es nicht an uns, das zu beurteilen. Ich habe es damals schon gesagt und ich werde es wieder sagen: Die Geschichte hat uns gezeigt, wie wichtig es ist, dieses Amt zu schützen, und die Geschichte wird über die Amtsführung urteilen. (Beifall bei den Grünen sowie des Abg. Lindner. )"
@@ -1021,7 +1292,9 @@
               "speakerstatus": "Abgeordnete",
               "sentences": [
                 {
-                  "text": "19.09"
+                  "text": "19.09",
+                  "timeStart": "102.160",
+                  "timeEnd": "104.240"
                 }
               ],
               "text": "19.09"
@@ -1032,10 +1305,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Scherak. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Scherak. –",
+                  "timeStart": "104.240",
+                  "timeEnd": "105.360"
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "107.560",
+                  "timeEnd": "108.000"
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Scherak. – Bitte."
@@ -1047,7 +1324,8 @@
         "mediaIndex": 5,
         "stdId": 313792,
         "debatteId": 1,
-        "proceedingIndex": 313792
+        "proceedingIndex": 313792,
+        "alignDuration": 0.4568827152252197
       },
       "originalLanguage": "de"
     },
@@ -1075,7 +1353,8 @@
         "originMediaID": "313797",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/1fe8f5a0-cedd-4338-ac37-349816d72743/1fe8f5a0-cedd-4338-ac37-349816d72743.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/1fe8f5a0-cedd-4338-ac37-349816d72743/1fe8f5a0-cedd-4338-ac37-349816d72743.mp3",
-        "duration": 202
+        "duration": 202,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:09:43",
       "dateEnd": "2023-12-15T19:13:05",
@@ -1111,7 +1390,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "19.09"
+                  "text": "19.09",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.480"
                 }
               ],
               "text": "19.09"
@@ -1122,13 +1403,19 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident!"
+                  "text": "Herr Präsident!",
+                  "timeStart": "2.480",
+                  "timeEnd": "3.280"
                 },
                 {
-                  "text": "Hohes Haus!"
+                  "text": "Hohes Haus!",
+                  "timeStart": "3.280",
+                  "timeEnd": "4.200"
                 },
                 {
-                  "text": "Ja, Herr Präsident, im Gegensatz zu meinen Vorrednern freue ich mich, dass Sie jetzt hier sind, denn vielleicht hilft das, ein paar Dinge außer Streit stellen zu können."
+                  "text": "Ja, Herr Präsident, im Gegensatz zu meinen Vorrednern freue ich mich, dass Sie jetzt hier sind, denn vielleicht hilft das, ein paar Dinge außer Streit stellen zu können.",
+                  "timeStart": "4.200",
+                  "timeEnd": "11.240"
                 }
               ],
               "text": "Herr Präsident! Hohes Haus! Ja, Herr Präsident, im Gegensatz zu meinen Vorrednern freue ich mich, dass Sie jetzt hier sind, denn vielleicht hilft das, ein paar Dinge außer Streit stellen zu können."
@@ -1139,7 +1426,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Nummer eins: Es ist, glaube ich, unstrittig – das hat der Immunitätsausschuss heute auch einstimmig so festgestellt –, dass die Vorwürfe, die gegen Sie im Raum stehen, in keinem Zusammenhang mit Ihrer politischen Tätigkeit als Abgeordneter stehen und daher dem Auslieferungsbegehren der WKStA natürlich zu entsprechen war."
+                  "text": "Nummer eins: Es ist, glaube ich, unstrittig – das hat der Immunitätsausschuss heute auch einstimmig so festgestellt –, dass die Vorwürfe, die gegen Sie im Raum stehen, in keinem Zusammenhang mit Ihrer politischen Tätigkeit als Abgeordneter stehen und daher dem Auslieferungsbegehren der WKStA natürlich zu entsprechen war.",
+                  "timeStart": "11.240",
+                  "timeEnd": "29.040"
                 }
               ],
               "text": "Nummer eins: Es ist, glaube ich, unstrittig – das hat der Immunitätsausschuss heute auch einstimmig so festgestellt –, dass die Vorwürfe, die gegen Sie im Raum stehen, in keinem Zusammenhang mit Ihrer politischen Tätigkeit als Abgeordneter stehen und daher dem Auslieferungsbegehren der WKStA natürlich zu entsprechen war."
@@ -1150,10 +1439,14 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das Zweite – und das ist vielleicht etwas, worüber wir hier und jetzt diskutieren sollten – ist, wer denn darüber entscheidet, ob die Immunität eines Abgeordneten aufgehoben wird."
+                  "text": "Das Zweite – und das ist vielleicht etwas, worüber wir hier und jetzt diskutieren sollten – ist, wer denn darüber entscheidet, ob die Immunität eines Abgeordneten aufgehoben wird.",
+                  "timeStart": "29.040",
+                  "timeEnd": "37.920"
                 },
                 {
-                  "text": "Es entscheidet einzig und allein der Immunitätsausschuss, und der entscheidet auch nur über eine einzige Frage, nämlich, ob Vorwürfe, die von der Staatsanwaltschaft kommen, im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind oder eben nicht."
+                  "text": "Es entscheidet einzig und allein der Immunitätsausschuss, und der entscheidet auch nur über eine einzige Frage, nämlich, ob Vorwürfe, die von der Staatsanwaltschaft kommen, im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind oder eben nicht.",
+                  "timeStart": "37.920",
+                  "timeEnd": "52.520"
                 }
               ],
               "text": "Das Zweite – und das ist vielleicht etwas, worüber wir hier und jetzt diskutieren sollten – ist, wer denn darüber entscheidet, ob die Immunität eines Abgeordneten aufgehoben wird. Es entscheidet einzig und allein der Immunitätsausschuss, und der entscheidet auch nur über eine einzige Frage, nämlich, ob Vorwürfe, die von der Staatsanwaltschaft kommen, im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind oder eben nicht."
@@ -1164,7 +1457,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wenn sie im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind, dann haben wir als Immunitätsausschuss, als Parlament darauf zu schauen, dass die Abgeordneten nicht ausgeliefert werden, weil wir darauf achten müssen, dass dieser Vertretungskörper geschützt wird."
+                  "text": "Wenn sie im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind, dann haben wir als Immunitätsausschuss, als Parlament darauf zu schauen, dass die Abgeordneten nicht ausgeliefert werden, weil wir darauf achten müssen, dass dieser Vertretungskörper geschützt wird.",
+                  "timeStart": "52.520",
+                  "timeEnd": "68.040"
                 }
               ],
               "text": "Wenn sie im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind, dann haben wir als Immunitätsausschuss, als Parlament darauf zu schauen, dass die Abgeordneten nicht ausgeliefert werden, weil wir darauf achten müssen, dass dieser Vertretungskörper geschützt wird."
@@ -1175,16 +1470,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wenn umgekehrt die Vorwürfe nicht im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind, dann haben wir zu entscheiden, dass selbstverständlich ausgeliefert wird."
+                  "text": "Wenn umgekehrt die Vorwürfe nicht im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind, dann haben wir zu entscheiden, dass selbstverständlich ausgeliefert wird.",
+                  "timeStart": "68.040",
+                  "timeEnd": "78.280"
                 },
                 {
-                  "text": "Herr Präsident, da geht es nicht darum, was Sie sich wünschen. ("
+                  "text": "Herr Präsident, da geht es nicht darum, was Sie sich wünschen. (",
+                  "timeStart": "78.280",
+                  "timeEnd": "82.120"
                 },
                 {
-                  "text": "Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.)"
+                  "text": "Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.)",
+                  "timeStart": "82.120",
+                  "timeEnd": "85.680"
                 },
                 {
-                  "text": "Es ist vollkommen irrelevant, was ein einzelner Abgeordneter sich wünscht."
+                  "text": "Es ist vollkommen irrelevant, was ein einzelner Abgeordneter sich wünscht.",
+                  "timeStart": "85.680",
+                  "timeEnd": "88.520"
                 }
               ],
               "text": "Wenn umgekehrt die Vorwürfe nicht im Zusammenhang mit der politischen Tätigkeit eines Abgeordneten sind, dann haben wir zu entscheiden, dass selbstverständlich ausgeliefert wird. Herr Präsident, da geht es nicht darum, was Sie sich wünschen. (Beifall bei den NEOS sowie bei Abgeordneten von SPÖ und FPÖ.) Es ist vollkommen irrelevant, was ein einzelner Abgeordneter sich wünscht."
@@ -1195,13 +1498,19 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es wird keine Person, kein einzelner Abgeordneter geschützt, sondern es werden ausnahmslos wir als Parlament, als Vertretungskörper geschützt."
+                  "text": "Es wird keine Person, kein einzelner Abgeordneter geschützt, sondern es werden ausnahmslos wir als Parlament, als Vertretungskörper geschützt.",
+                  "timeStart": "88.520",
+                  "timeEnd": "95.880"
                 },
                 {
-                  "text": "Wir werden historisch geschützt, damit die Verwaltung nicht mit purer Willkür Parlamente zerstören kann, damit nicht einzelne Abgeordnete von der Polizei abgeholt werden können."
+                  "text": "Wir werden historisch geschützt, damit die Verwaltung nicht mit purer Willkür Parlamente zerstören kann, damit nicht einzelne Abgeordnete von der Polizei abgeholt werden können.",
+                  "timeStart": "95.880",
+                  "timeEnd": "105.040"
                 },
                 {
-                  "text": "Deswegen gibt es die parlamentarische Immunität, und über die entscheidet einzig und allein der Immunitätsausschuss."
+                  "text": "Deswegen gibt es die parlamentarische Immunität, und über die entscheidet einzig und allein der Immunitätsausschuss.",
+                  "timeStart": "105.040",
+                  "timeEnd": "110.920"
                 }
               ],
               "text": "Es wird keine Person, kein einzelner Abgeordneter geschützt, sondern es werden ausnahmslos wir als Parlament, als Vertretungskörper geschützt. Wir werden historisch geschützt, damit die Verwaltung nicht mit purer Willkür Parlamente zerstören kann, damit nicht einzelne Abgeordnete von der Polizei abgeholt werden können. Deswegen gibt es die parlamentarische Immunität, und über die entscheidet einzig und allein der Immunitätsausschuss."
@@ -1212,22 +1521,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Im Übrigen wäre es im Umkehrschluss auch so: Wenn Sie sich gewünscht hätten, dass wir Sie ausliefern, weil Sie wollen, dass die Vorwürfe geklärt werden, und der Immunitätsausschuss beschlossen hätte: Nein, die Vorwürfe sind im Zusammenhang mit der politischen Tätigkeit des Abgeordneten!,"
+                  "text": "Im Übrigen wäre es im Umkehrschluss auch so: Wenn Sie sich gewünscht hätten, dass wir Sie ausliefern, weil Sie wollen, dass die Vorwürfe geklärt werden, und der Immunitätsausschuss beschlossen hätte: Nein, die Vorwürfe sind im Zusammenhang mit der politischen Tätigkeit des Abgeordneten!,",
+                  "timeStart": "110.920",
+                  "timeEnd": "123.240"
                 },
                 {
-                  "text": "na, dann hätten wir selbstverständlich nicht ausgeliefert, ganz unabhängig davon, was Sie sich wünschen, weil Ihr Wunsch irrelevant ist. ("
+                  "text": "na, dann hätten wir selbstverständlich nicht ausgeliefert, ganz unabhängig davon, was Sie sich wünschen, weil Ihr Wunsch irrelevant ist. (",
+                  "timeStart": "123.240",
+                  "timeEnd": "128.080"
                 },
                 {
-                  "text": "Beifall bei den NEOS sowie bei Abgeordneten von SPÖ, FPÖ und Grünen. –"
+                  "text": "Beifall bei den NEOS sowie bei Abgeordneten von SPÖ, FPÖ und Grünen. –",
+                  "timeStart": "128.080",
+                  "timeEnd": "132.440"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "132.440",
+                  "timeEnd": "132.880"
                 },
                 {
-                  "text": "Pfurtscheller: Aber er darf es ja trotzdem, oder? ..."
+                  "text": "Pfurtscheller: Aber er darf es ja trotzdem, oder? ...",
+                  "timeStart": "132.880",
+                  "timeEnd": "134.440"
                 },
                 {
-                  "text": "Logik!)"
+                  "text": "Logik!)",
+                  "timeStart": "134.440",
+                  "timeEnd": "134.440"
                 }
               ],
               "text": "Im Übrigen wäre es im Umkehrschluss auch so: Wenn Sie sich gewünscht hätten, dass wir Sie ausliefern, weil Sie wollen, dass die Vorwürfe geklärt werden, und der Immunitätsausschuss beschlossen hätte: Nein, die Vorwürfe sind im Zusammenhang mit der politischen Tätigkeit des Abgeordneten!, na, dann hätten wir selbstverständlich nicht ausgeliefert, ganz unabhängig davon, was Sie sich wünschen, weil Ihr Wunsch irrelevant ist. (Beifall bei den NEOS sowie bei Abgeordneten von SPÖ, FPÖ und Grünen. – Abg. Pfurtscheller: Aber er darf es ja trotzdem, oder? ... Logik!)"
@@ -1238,16 +1559,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident, vielleicht zum Abschluss: Wir haben diese Diskussion schon früher immer wieder gehabt."
+                  "text": "Herr Präsident, vielleicht zum Abschluss: Wir haben diese Diskussion schon früher immer wieder gehabt.",
+                  "timeStart": "134.440",
+                  "timeEnd": "137.160"
                 },
                 {
-                  "text": "Dass sich Abgeordnete irgendetwas wünschen, das mag passieren."
+                  "text": "Dass sich Abgeordnete irgendetwas wünschen, das mag passieren.",
+                  "timeStart": "137.160",
+                  "timeEnd": "140.400"
                 },
                 {
-                  "text": "Ich glaube aber, dass ausgerechnet ein Nationalratspräsident diese Regelungen des Immunitätsrechts intensiver kennen sollte, sich vielleicht intensiver damit auseinandersetzen sollte und solche Wünsche nicht an den Ausschuss herantragen sollte. ("
+                  "text": "Ich glaube aber, dass ausgerechnet ein Nationalratspräsident diese Regelungen des Immunitätsrechts intensiver kennen sollte, sich vielleicht intensiver damit auseinandersetzen sollte und solche Wünsche nicht an den Ausschuss herantragen sollte. (",
+                  "timeStart": "140.400",
+                  "timeEnd": "153.920"
                 },
                 {
-                  "text": "Beifall bei den NEOS.)"
+                  "text": "Beifall bei den NEOS.)",
+                  "timeStart": "153.920",
+                  "timeEnd": "154.680"
                 }
               ],
               "text": "Herr Präsident, vielleicht zum Abschluss: Wir haben diese Diskussion schon früher immer wieder gehabt. Dass sich Abgeordnete irgendetwas wünschen, das mag passieren. Ich glaube aber, dass ausgerechnet ein Nationalratspräsident diese Regelungen des Immunitätsrechts intensiver kennen sollte, sich vielleicht intensiver damit auseinandersetzen sollte und solche Wünsche nicht an den Ausschuss herantragen sollte. (Beifall bei den NEOS.)"
@@ -1258,28 +1587,44 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Insgesamt, Herr Präsident: Wir haben es schon gehört - - (Abg."
+                  "text": "Insgesamt, Herr Präsident: Wir haben es schon gehört - - (Abg.",
+                  "timeStart": "154.680",
+                  "timeEnd": "157.720"
                 },
                 {
-                  "text": "Pfurtscheller: Erbsenklauberei! –"
+                  "text": "Pfurtscheller: Erbsenklauberei! –",
+                  "timeStart": "157.720",
+                  "timeEnd": "159.320"
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "159.320",
+                  "timeEnd": "159.400"
                 },
                 {
-                  "text": "Stocker: ... Wunsch, dass er zurücktritt!) –"
+                  "text": "Stocker: ... Wunsch, dass er zurücktritt!) –",
+                  "timeStart": "159.400",
+                  "timeEnd": "161.240"
                 },
                 {
-                  "text": "Frau Kollegin Pfurtscheller hat da offensichtlich eine andere Meinung."
+                  "text": "Frau Kollegin Pfurtscheller hat da offensichtlich eine andere Meinung.",
+                  "timeStart": "161.240",
+                  "timeEnd": "165.400"
                 },
                 {
-                  "text": "Wie können das gerne in Ruhe auch im nächsten Immunitätsausschuss besprechen."
+                  "text": "Wie können das gerne in Ruhe auch im nächsten Immunitätsausschuss besprechen.",
+                  "timeStart": "165.400",
+                  "timeEnd": "167.680"
                 },
                 {
-                  "text": "Wir machen das immer wieder."
+                  "text": "Wir machen das immer wieder.",
+                  "timeStart": "167.680",
+                  "timeEnd": "168.960"
                 },
                 {
-                  "text": "Ich wiederhole es gerne noch einmal: Es geht einzig und allein darum, ob die Vorwürfe mit seiner politischen Tätigkeit als Abgeordneter im Zusammenhang stehen oder nicht."
+                  "text": "Ich wiederhole es gerne noch einmal: Es geht einzig und allein darum, ob die Vorwürfe mit seiner politischen Tätigkeit als Abgeordneter im Zusammenhang stehen oder nicht.",
+                  "timeStart": "168.960",
+                  "timeEnd": "175.560"
                 }
               ],
               "text": "Insgesamt, Herr Präsident: Wir haben es schon gehört - - (Abg. Pfurtscheller: Erbsenklauberei! – Abg. Stocker: ... Wunsch, dass er zurücktritt!) – Frau Kollegin Pfurtscheller hat da offensichtlich eine andere Meinung. Wie können das gerne in Ruhe auch im nächsten Immunitätsausschuss besprechen. Wir machen das immer wieder. Ich wiederhole es gerne noch einmal: Es geht einzig und allein darum, ob die Vorwürfe mit seiner politischen Tätigkeit als Abgeordneter im Zusammenhang stehen oder nicht."
@@ -1290,16 +1635,24 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident, ich glaube, das Hauptproblem ist, dass Sie diesem Amt einen schweren Schaden zufügen, und das mit jedem einzelnen Vorwurf, der dazukommt."
+                  "text": "Herr Präsident, ich glaube, das Hauptproblem ist, dass Sie diesem Amt einen schweren Schaden zufügen, und das mit jedem einzelnen Vorwurf, der dazukommt.",
+                  "timeStart": "175.560",
+                  "timeEnd": "184.680"
                 },
                 {
-                  "text": "Jetzt werden Sie auch noch ausgeliefert, es wird weiterhin gegen Sie ermittelt."
+                  "text": "Jetzt werden Sie auch noch ausgeliefert, es wird weiterhin gegen Sie ermittelt.",
+                  "timeStart": "184.680",
+                  "timeEnd": "188.960"
                 },
                 {
-                  "text": "Ich glaube, es wäre wirklich an der Zeit, dass Sie ganz tief in sich gehen und sich überlegen, ob es nicht besser wäre, endlich den Schaden von diesem Amt abzuwenden. ("
+                  "text": "Ich glaube, es wäre wirklich an der Zeit, dass Sie ganz tief in sich gehen und sich überlegen, ob es nicht besser wäre, endlich den Schaden von diesem Amt abzuwenden. (",
+                  "timeStart": "188.960",
+                  "timeEnd": "195.840"
                 },
                 {
-                  "text": "Beifall bei den NEOS sowie bei Abgeordneten von SPÖ, FPÖ und Grünen.)"
+                  "text": "Beifall bei den NEOS sowie bei Abgeordneten von SPÖ, FPÖ und Grünen.)",
+                  "timeStart": "195.840",
+                  "timeEnd": "200.360"
                 }
               ],
               "text": "Herr Präsident, ich glaube, das Hauptproblem ist, dass Sie diesem Amt einen schweren Schaden zufügen, und das mit jedem einzelnen Vorwurf, der dazukommt. Jetzt werden Sie auch noch ausgeliefert, es wird weiterhin gegen Sie ermittelt. Ich glaube, es wäre wirklich an der Zeit, dass Sie ganz tief in sich gehen und sich überlegen, ob es nicht besser wäre, endlich den Schaden von diesem Amt abzuwenden. (Beifall bei den NEOS sowie bei Abgeordneten von SPÖ, FPÖ und Grünen.)"
@@ -1310,7 +1663,9 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "19.12"
+                  "text": "19.12",
+                  "timeStart": "200.360",
+                  "timeEnd": "202.000"
                 }
               ],
               "text": "19.12"
@@ -1322,7 +1677,8 @@
         "mediaIndex": 6,
         "stdId": 313797,
         "debatteId": 1,
-        "proceedingIndex": 313797
+        "proceedingIndex": 313797,
+        "alignDuration": 0.7682271003723145
       },
       "originalLanguage": "de"
     },
@@ -1350,7 +1706,8 @@
         "originMediaID": "313802",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d29bfec2-b7fb-4e65-af02-e12037b77850/d29bfec2-b7fb-4e65-af02-e12037b77850.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d29bfec2-b7fb-4e65-af02-e12037b77850/d29bfec2-b7fb-4e65-af02-e12037b77850.mp3",
-        "duration": 47
+        "duration": 47,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:13:05",
       "dateEnd": "2023-12-15T19:13:52",
@@ -1382,10 +1739,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort ist niemand mehr gemeldet."
+                  "text": "Zu Wort ist niemand mehr gemeldet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.880"
                 },
                 {
-                  "text": "Die Debatte ist geschlossen."
+                  "text": "Die Debatte ist geschlossen.",
+                  "timeStart": "2.880",
+                  "timeEnd": "5.080"
                 }
               ],
               "text": "Zu Wort ist niemand mehr gemeldet. Die Debatte ist geschlossen."
@@ -1396,10 +1757,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wünscht der Berichterstatter ein Schlusswort? –"
+                  "text": "Wünscht der Berichterstatter ein Schlusswort? –",
+                  "timeStart": "5.080",
+                  "timeEnd": "7.520"
                 },
                 {
-                  "text": "Das ist auch nicht der Fall."
+                  "text": "Das ist auch nicht der Fall.",
+                  "timeStart": "7.520",
+                  "timeEnd": "9.240"
                 }
               ],
               "text": "Wünscht der Berichterstatter ein Schlusswort? – Das ist auch nicht der Fall."
@@ -1410,7 +1775,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir gelangen nun zur Abstimmung über den Antrag des Immunitätsausschusses in 2405 der Beilagen , Folgendes zu beschließen:"
+                  "text": "Wir gelangen nun zur Abstimmung über den Antrag des Immunitätsausschusses in 2405 der Beilagen , Folgendes zu beschließen:",
+                  "timeStart": "9.240",
+                  "timeEnd": "15.720"
                 }
               ],
               "text": "Wir gelangen nun zur Abstimmung über den Antrag des Immunitätsausschusses in 2405 der Beilagen , Folgendes zu beschließen:"
@@ -1421,10 +1788,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "„In Behandlung des Ersuchens der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (GZ 17 St 5/23k) um Zustimmung zur strafrechtlichen Verfolgung des Abgeordneten zum Nationalrat und Präsidenten des Nationalrates Wolfgang Sobotka wird im Sinne des Art."
+                  "text": "„In Behandlung des Ersuchens der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (GZ 17 St 5/23k) um Zustimmung zur strafrechtlichen Verfolgung des Abgeordneten zum Nationalrat und Präsidenten des Nationalrates Wolfgang Sobotka wird im Sinne des Art.",
+                  "timeStart": "15.720",
+                  "timeEnd": "27.920"
                 },
                 {
-                  "text": "57 Abs. 3 B-VG festgestellt, dass kein Zusammenhang zwischen der inkriminierten Handlung und der politischen Tätigkeit des Abgeordneten zum Nationalrat und Präsidenten des Nationalrates Wolfgang Sobotka besteht.“"
+                  "text": "57 Abs. 3 B-VG festgestellt, dass kein Zusammenhang zwischen der inkriminierten Handlung und der politischen Tätigkeit des Abgeordneten zum Nationalrat und Präsidenten des Nationalrates Wolfgang Sobotka besteht.“",
+                  "timeStart": "27.920",
+                  "timeEnd": "37.520"
                 }
               ],
               "text": "„In Behandlung des Ersuchens der Zentralen Staatsanwaltschaft zur Verfolgung von Wirtschaftsstrafsachen und Korruption (GZ 17 St 5/23k) um Zustimmung zur strafrechtlichen Verfolgung des Abgeordneten zum Nationalrat und Präsidenten des Nationalrates Wolfgang Sobotka wird im Sinne des Art. 57 Abs. 3 B-VG festgestellt, dass kein Zusammenhang zwischen der inkriminierten Handlung und der politischen Tätigkeit des Abgeordneten zum Nationalrat und Präsidenten des Nationalrates Wolfgang Sobotka besteht.“"
@@ -1435,10 +1806,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte daher die Damen und Herren, die sich diesem Antrag anschließen, um ein dementsprechendes Zeichen. –"
+                  "text": "Ich bitte daher die Damen und Herren, die sich diesem Antrag anschließen, um ein dementsprechendes Zeichen. –",
+                  "timeStart": "37.520",
+                  "timeEnd": "42.160"
                 },
                 {
-                  "text": "Das ist einstimmig angenommen."
+                  "text": "Das ist einstimmig angenommen.",
+                  "timeStart": "42.160",
+                  "timeEnd": "44.960"
                 }
               ],
               "text": "Ich bitte daher die Damen und Herren, die sich diesem Antrag anschließen, um ein dementsprechendes Zeichen. – Das ist einstimmig angenommen."
@@ -1449,7 +1824,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist erschöpft."
+                  "text": "Die Tagesordnung ist erschöpft.",
+                  "timeStart": "44.960",
+                  "timeEnd": "48.000"
                 }
               ],
               "text": "Die Tagesordnung ist erschöpft."
@@ -1461,7 +1838,8 @@
         "mediaIndex": 7,
         "stdId": 313802,
         "debatteId": 1,
-        "proceedingIndex": 313802
+        "proceedingIndex": 313802,
+        "alignDuration": 0.3796830177307129
       },
       "originalLanguage": "de"
     },
@@ -1489,7 +1867,8 @@
         "originMediaID": "313924",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/463f8efb-1313-4dbb-a01e-0b74ce7687cd/463f8efb-1313-4dbb-a01e-0b74ce7687cd.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/463f8efb-1313-4dbb-a01e-0b74ce7687cd/463f8efb-1313-4dbb-a01e-0b74ce7687cd.mp3",
-        "duration": 180
+        "duration": 180,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:13:52",
       "dateEnd": "2023-12-15T19:16:52",
@@ -1521,7 +1900,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Schlussansprache des Präsidenten"
+                  "text": "Schlussansprache des Präsidenten",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.600"
                 }
               ],
               "text": "Schlussansprache des Präsidenten"
@@ -1532,7 +1913,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich nach Schluss der Tagesordnung ganz kurz noch an Sie wenden."
+                  "text": "Ich darf mich nach Schluss der Tagesordnung ganz kurz noch an Sie wenden.",
+                  "timeStart": "1.600",
+                  "timeEnd": "7.440"
                 }
               ],
               "text": "Ich darf mich nach Schluss der Tagesordnung ganz kurz noch an Sie wenden."
@@ -1543,7 +1926,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ein Jahr im neuen Hohen Haus, das uns viele Besucher gebracht hat, das mit großem Enthusiasmus von der Bevölkerung angenommen wurde, wo viele unserer Mandatare die Leute begleitet haben: Dafür darf ich mich bedanken."
+                  "text": "Ein Jahr im neuen Hohen Haus, das uns viele Besucher gebracht hat, das mit großem Enthusiasmus von der Bevölkerung angenommen wurde, wo viele unserer Mandatare die Leute begleitet haben: Dafür darf ich mich bedanken.",
+                  "timeStart": "7.440",
+                  "timeEnd": "24.120"
                 }
               ],
               "text": "Ein Jahr im neuen Hohen Haus, das uns viele Besucher gebracht hat, das mit großem Enthusiasmus von der Bevölkerung angenommen wurde, wo viele unserer Mandatare die Leute begleitet haben: Dafür darf ich mich bedanken."
@@ -1554,7 +1939,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich werde auch keine Wünsche irgendwelcher moralischer Art an irgendjemanden richten, weil man schlussendlich, wenn man mit dem Finger auf jemanden zeigt, mit drei Fingern zugleich auf sich selbst zeigt."
+                  "text": "Ich werde auch keine Wünsche irgendwelcher moralischer Art an irgendjemanden richten, weil man schlussendlich, wenn man mit dem Finger auf jemanden zeigt, mit drei Fingern zugleich auf sich selbst zeigt.",
+                  "timeStart": "24.120",
+                  "timeEnd": "34.880"
                 }
               ],
               "text": "Ich werde auch keine Wünsche irgendwelcher moralischer Art an irgendjemanden richten, weil man schlussendlich, wenn man mit dem Finger auf jemanden zeigt, mit drei Fingern zugleich auf sich selbst zeigt."
@@ -1565,10 +1952,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich aber bei meiner Mitkollegin, Präsidentin Bures, und bei Präsident Hofer für die Vorsitzführung hier bedanken. ("
+                  "text": "Ich darf mich aber bei meiner Mitkollegin, Präsidentin Bures, und bei Präsident Hofer für die Vorsitzführung hier bedanken. (",
+                  "timeStart": "34.880",
+                  "timeEnd": "51.480"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "51.480",
+                  "timeEnd": "52.400"
                 }
               ],
               "text": "Ich darf mich aber bei meiner Mitkollegin, Präsidentin Bures, und bei Präsident Hofer für die Vorsitzführung hier bedanken. (Allgemeiner Beifall.)"
@@ -1579,13 +1970,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mir wünschen – auch im Sinne aller drei Präsidenten –, dass wir die Geschäftsordnung möglichst genau beobachten."
+                  "text": "Ich darf mir wünschen – auch im Sinne aller drei Präsidenten –, dass wir die Geschäftsordnung möglichst genau beobachten.",
+                  "timeStart": "52.400",
+                  "timeEnd": "58.360"
                 },
                 {
-                  "text": "Es gilt für die Regierungsparteien genauso, Anträge früher einzubringen, wie für die Opposition, das mit einem Maßhalten zu kommentieren."
+                  "text": "Es gilt für die Regierungsparteien genauso, Anträge früher einzubringen, wie für die Opposition, das mit einem Maßhalten zu kommentieren.",
+                  "timeStart": "58.360",
+                  "timeEnd": "69.520"
                 },
                 {
-                  "text": "Ich glaube, für uns gemeinsam ist es wichtig, welches Bild wir in der Öffentlichkeit abgeben."
+                  "text": "Ich glaube, für uns gemeinsam ist es wichtig, welches Bild wir in der Öffentlichkeit abgeben.",
+                  "timeStart": "69.520",
+                  "timeEnd": "74.880"
                 }
               ],
               "text": "Ich darf mir wünschen – auch im Sinne aller drei Präsidenten –, dass wir die Geschäftsordnung möglichst genau beobachten. Es gilt für die Regierungsparteien genauso, Anträge früher einzubringen, wie für die Opposition, das mit einem Maßhalten zu kommentieren. Ich glaube, für uns gemeinsam ist es wichtig, welches Bild wir in der Öffentlichkeit abgeben."
@@ -1596,16 +1993,24 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich bei allen Abgeordneten bedanken, vor allem aber auch bei ihren Familien, weil die in dieser Zeit vieles mitzutragen haben."
+                  "text": "Ich darf mich bei allen Abgeordneten bedanken, vor allem aber auch bei ihren Familien, weil die in dieser Zeit vieles mitzutragen haben.",
+                  "timeStart": "74.880",
+                  "timeEnd": "82.240"
                 },
                 {
-                  "text": "Ein herzliches Dankeschön für Ihre Arbeit, auch an Ihre parlamentarischen Mitarbeiter."
+                  "text": "Ein herzliches Dankeschön für Ihre Arbeit, auch an Ihre parlamentarischen Mitarbeiter.",
+                  "timeStart": "82.240",
+                  "timeEnd": "87.840"
                 },
                 {
-                  "text": "Herzlichen Dank. ("
+                  "text": "Herzlichen Dank. (",
+                  "timeStart": "87.840",
+                  "timeEnd": "97.120"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "97.120",
+                  "timeEnd": "97.520"
                 }
               ],
               "text": "Ich darf mich bei allen Abgeordneten bedanken, vor allem aber auch bei ihren Familien, weil die in dieser Zeit vieles mitzutragen haben. Ein herzliches Dankeschön für Ihre Arbeit, auch an Ihre parlamentarischen Mitarbeiter. Herzlichen Dank. (Allgemeiner Beifall.)"
@@ -1616,7 +2021,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich bei den Journalisten bedanken, die uns während dieses Jahres begleitet haben."
+                  "text": "Ich darf mich bei den Journalisten bedanken, die uns während dieses Jahres begleitet haben.",
+                  "timeStart": "97.520",
+                  "timeEnd": "100.540"
                 }
               ],
               "text": "Ich darf mich bei den Journalisten bedanken, die uns während dieses Jahres begleitet haben."
@@ -1627,13 +2034,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich ganz herzlich bei den Klubs bedanken, die die Vorarbeiten leisten, egal in welcher Hinsicht, ob es in der Aufbereitung der Präsidiale ist, die Arbeit der Klubdirektoren betrifft, oder ob es dann hier die Debatte betrifft."
+                  "text": "Ich darf mich ganz herzlich bei den Klubs bedanken, die die Vorarbeiten leisten, egal in welcher Hinsicht, ob es in der Aufbereitung der Präsidiale ist, die Arbeit der Klubdirektoren betrifft, oder ob es dann hier die Debatte betrifft.",
+                  "timeStart": "100.540",
+                  "timeEnd": "118.280"
                 },
                 {
-                  "text": "Vielen herzlichen Dank an alle Mitarbeiterinnen und Mitarbeiter der Klubs. ("
+                  "text": "Vielen herzlichen Dank an alle Mitarbeiterinnen und Mitarbeiter der Klubs. (",
+                  "timeStart": "118.280",
+                  "timeEnd": "131.000"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "131.000",
+                  "timeEnd": "131.400"
                 }
               ],
               "text": "Ich darf mich ganz herzlich bei den Klubs bedanken, die die Vorarbeiten leisten, egal in welcher Hinsicht, ob es in der Aufbereitung der Präsidiale ist, die Arbeit der Klubdirektoren betrifft, oder ob es dann hier die Debatte betrifft. Vielen herzlichen Dank an alle Mitarbeiterinnen und Mitarbeiter der Klubs. (Allgemeiner Beifall.)"
@@ -1644,28 +2057,44 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich schlussendlich bei unseren Mitarbeitern der Parlamentsdirektion bedanken. ("
+                  "text": "Ich darf mich schlussendlich bei unseren Mitarbeitern der Parlamentsdirektion bedanken. (",
+                  "timeStart": "131.400",
+                  "timeEnd": "133.720"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "133.720",
+                  "timeEnd": "140.720"
                 },
                 {
-                  "text": "Sie haben in diesem Jahr – beginnend bei Parlamentsdirektor Dossi bis hin zur Security – wirklich hervorragende Arbeit geleistet."
+                  "text": "Sie haben in diesem Jahr – beginnend bei Parlamentsdirektor Dossi bis hin zur Security – wirklich hervorragende Arbeit geleistet.",
+                  "timeStart": "140.720",
+                  "timeEnd": "148.400"
                 },
                 {
-                  "text": "Es war nicht immer alles ganz einfach, mit den Besucheranstürmen zurechtzukommen, alle Wünsche zu befriedigen, und wir wissen, dass wir, was die Lüftung anlangt, noch das eine oder andere nachzubessern haben, wir wissen, dass wir das eine oder andere, was die Sicherheit anlangt, noch zu diskutieren haben."
+                  "text": "Es war nicht immer alles ganz einfach, mit den Besucheranstürmen zurechtzukommen, alle Wünsche zu befriedigen, und wir wissen, dass wir, was die Lüftung anlangt, noch das eine oder andere nachzubessern haben, wir wissen, dass wir das eine oder andere, was die Sicherheit anlangt, noch zu diskutieren haben.",
+                  "timeStart": "148.400",
+                  "timeEnd": "164.080"
                 },
                 {
-                  "text": "Jedenfalls: Allen Mitarbeitern, insbesondere jenen im Nationalratsdienst, ein herzliches Dankeschön."
+                  "text": "Jedenfalls: Allen Mitarbeitern, insbesondere jenen im Nationalratsdienst, ein herzliches Dankeschön.",
+                  "timeStart": "164.080",
+                  "timeEnd": "169.760"
                 },
                 {
-                  "text": "Sie waren für uns eine ganz wichtige Begleitung."
+                  "text": "Sie waren für uns eine ganz wichtige Begleitung.",
+                  "timeStart": "169.760",
+                  "timeEnd": "173.040"
                 },
                 {
-                  "text": "Vielen herzlichen Dank. ("
+                  "text": "Vielen herzlichen Dank. (",
+                  "timeStart": "173.040",
+                  "timeEnd": "181.480"
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "181.480",
+                  "timeEnd": "181.960"
                 }
               ],
               "text": "Ich darf mich schlussendlich bei unseren Mitarbeitern der Parlamentsdirektion bedanken. (Allgemeiner Beifall.) Sie haben in diesem Jahr – beginnend bei Parlamentsdirektor Dossi bis hin zur Security – wirklich hervorragende Arbeit geleistet. Es war nicht immer alles ganz einfach, mit den Besucheranstürmen zurechtzukommen, alle Wünsche zu befriedigen, und wir wissen, dass wir, was die Lüftung anlangt, noch das eine oder andere nachzubessern haben, wir wissen, dass wir das eine oder andere, was die Sicherheit anlangt, noch zu diskutieren haben. Jedenfalls: Allen Mitarbeitern, insbesondere jenen im Nationalratsdienst, ein herzliches Dankeschön. Sie waren für uns eine ganz wichtige Begleitung. Vielen herzlichen Dank. (Allgemeiner Beifall.)"
@@ -1677,7 +2106,8 @@
         "mediaIndex": 8,
         "stdId": 313924,
         "debatteId": 290,
-        "proceedingIndex": 313924
+        "proceedingIndex": 313924,
+        "alignDuration": 0.606597900390625
       },
       "originalLanguage": "de"
     },
@@ -1705,7 +2135,8 @@
         "originMediaID": "313925",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d452c793-eb0d-43ff-b3ab-555b3e77c32f/d452c793-eb0d-43ff-b3ab-555b3e77c32f.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d452c793-eb0d-43ff-b3ab-555b3e77c32f/d452c793-eb0d-43ff-b3ab-555b3e77c32f.mp3",
-        "duration": 14
+        "duration": 14,
+        "aligned": true
       },
       "dateStart": "2023-12-15T19:16:52",
       "dateEnd": "2023-12-15T19:17:06",
@@ -1736,7 +2167,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 31. Jänner 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 31. Jänner 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1134.760"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 31. Jänner 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
@@ -1747,7 +2180,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "1134.760",
+                  "timeEnd": "1153.920"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -1759,7 +2194,8 @@
         "mediaIndex": 9,
         "stdId": 313925,
         "debatteId": 300,
-        "proceedingIndex": 313925
+        "proceedingIndex": 313925,
+        "alignDuration": 1.6241140365600586
       },
       "originalLanguage": "de"
     }

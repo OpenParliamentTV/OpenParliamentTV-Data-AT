@@ -4,11 +4,11 @@
     "session": "27258",
     "dateStart": "2024-03-21T18:36:58",
     "dateEnd": "2024-03-21T18:41:34",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:14+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T21:25:30",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "nel": "2026-06-16T06:24:28"
+      "align": "2026-06-26T21:25:30"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "319750",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/fb163042-df96-4aa6-966f-9879e128c1c3/fb163042-df96-4aa6-966f-9879e128c1c3.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/fb163042-df96-4aa6-966f-9879e128c1c3/fb163042-df96-4aa6-966f-9879e128c1c3.mp3",
-        "duration": 138
+        "duration": 138,
+        "aligned": true
       },
       "dateStart": "2024-03-21T18:36:58",
       "dateEnd": "2024-03-21T18:39:16",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 258. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 258. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "4.280"
                 }
               ],
               "text": "Ich eröffne die 258. Sitzung des Nationalrates."
@@ -79,16 +82,24 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag.",
+                  "timeStart": "4.280",
+                  "timeEnd": "6.080"
                 },
                 {
-                  "text": "Johanna Jachs , Dr. Gudrun Kugler , Mag."
+                  "text": "Johanna Jachs , Dr. Gudrun Kugler , Mag.",
+                  "timeStart": "6.080",
+                  "timeEnd": "6.840"
                 },
                 {
-                  "text": "Dr. Maria Theresia Niss, MBA , Rudolf Silvan , Dr. Harald Troch , Walter Rauch , Christian Ries , Wolfgang Zanger , Heike Grebien , Mag."
+                  "text": "Dr. Maria Theresia Niss, MBA , Rudolf Silvan , Dr. Harald Troch , Walter Rauch , Christian Ries , Wolfgang Zanger , Heike Grebien , Mag.",
+                  "timeStart": "6.840",
+                  "timeEnd": "9.600"
                 },
                 {
-                  "text": "Ulrike Fischer , Dr. Helmut Brandstätter , Fiona Fiedler, BEd und Dr. Johannes Margreiter ."
+                  "text": "Ulrike Fischer , Dr. Helmut Brandstätter , Fiona Fiedler, BEd und Dr. Johannes Margreiter .",
+                  "timeStart": "9.600",
+                  "timeEnd": "11.040"
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag. Johanna Jachs , Dr. Gudrun Kugler , Mag. Dr. Maria Theresia Niss, MBA , Rudolf Silvan , Dr. Harald Troch , Walter Rauch , Christian Ries , Wolfgang Zanger , Heike Grebien , Mag. Ulrike Fischer , Dr. Helmut Brandstätter , Fiona Fiedler, BEd und Dr. Johannes Margreiter ."
@@ -99,7 +110,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "11.040",
+                  "timeEnd": "11.120"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -110,7 +123,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "11.120",
+                  "timeEnd": "14.120"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -121,7 +136,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "14.120",
+                  "timeEnd": "14.200"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +149,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "14.200",
+                  "timeEnd": "14.800"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -143,7 +162,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Anfragebeantwortungen: 16964/AB und 16965/AB"
+                  "text": "Anfragebeantwortungen: 16964/AB und 16965/AB",
+                  "timeStart": "14.800",
+                  "timeEnd": "16.640"
                 }
               ],
               "text": "Anfragebeantwortungen: 16964/AB und 16965/AB"
@@ -154,7 +175,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "16.640",
+                  "timeEnd": "17.000"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -165,7 +188,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "17.000",
+                  "timeEnd": "17.120"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -176,7 +201,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "17.120",
+                  "timeEnd": "17.640"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -187,13 +214,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "17.640",
+                  "timeEnd": "18.640"
                 },
                 {
-                  "text": "Ernst Gödl , Mag."
+                  "text": "Ernst Gödl , Mag.",
+                  "timeStart": "18.640",
+                  "timeEnd": "19.560"
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Selbständigen-Sozialversicherungsgesetz und das Sozialversicherungs-Ergänzungsgesetz geändert werden ( 3983/A )"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Selbständigen-Sozialversicherungsgesetz und das Sozialversicherungs-Ergänzungsgesetz geändert werden ( 3983/A )",
+                  "timeStart": "19.560",
+                  "timeEnd": "29.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ernst Gödl , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Selbständigen-Sozialversicherungsgesetz und das Sozialversicherungs-Ergänzungsgesetz geändert werden ( 3983/A )"
@@ -204,7 +237,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Außenpolitischer Ausschuss:"
+                  "text": "Außenpolitischer Ausschuss:",
+                  "timeStart": "29.360",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -215,7 +250,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Ablehnung des \"WHO-Pandemievertrags\" sowie der novellierten Internationalen Gesundheitsvorschriften (IGV) ( 3978/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Ablehnung des \"WHO-Pandemievertrags\" sowie der novellierten Internationalen Gesundheitsvorschriften (IGV) ( 3978/A(E) )",
+                  "timeStart": "29.600",
+                  "timeEnd": "34.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Ablehnung des \"WHO-Pandemievertrags\" sowie der novellierten Internationalen Gesundheitsvorschriften (IGV) ( 3978/A(E) )"
@@ -226,7 +263,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "34.520",
+                  "timeEnd": "35.120"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -237,7 +276,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3982/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3982/A(E) )",
+                  "timeStart": "35.120",
+                  "timeEnd": "39.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3982/A(E) )"
@@ -248,7 +289,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wahlen vor Deepfakes schützen\" ( 3979/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wahlen vor Deepfakes schützen\" ( 3979/A(E) )",
+                  "timeStart": "39.560",
+                  "timeEnd": "43.560"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wahlen vor Deepfakes schützen\" ( 3979/A(E) )"
@@ -259,7 +302,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "43.560",
+                  "timeEnd": "43.760"
                 }
               ],
               "text": "Justizausschuss:"
@@ -270,7 +315,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Modernisierung des Bundesarchivgesetzes – Zugang zu historischen Gerichtsakten ( 3985/A(E) )"
+                  "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Modernisierung des Bundesarchivgesetzes – Zugang zu historischen Gerichtsakten ( 3985/A(E) )",
+                  "timeStart": "43.760",
+                  "timeEnd": "52.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Modernisierung des Bundesarchivgesetzes – Zugang zu historischen Gerichtsakten ( 3985/A(E) )"
@@ -281,7 +328,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "52.400",
+                  "timeEnd": "52.840"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -292,7 +341,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend vorausschauende Planung und besseres Datenmonitoring für eine resiliente Wasserwirtschaft ( 3986/A(E) )"
+                  "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend vorausschauende Planung und besseres Datenmonitoring für eine resiliente Wasserwirtschaft ( 3986/A(E) )",
+                  "timeStart": "52.840",
+                  "timeEnd": "58.880"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend vorausschauende Planung und besseres Datenmonitoring für eine resiliente Wasserwirtschaft ( 3986/A(E) )"
@@ -303,7 +354,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "58.880",
+                  "timeEnd": "59.640"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -314,10 +367,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Weg mit der verpflichtenden abschließenden Arbeit! ("
+                  "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Weg mit der verpflichtenden abschließenden Arbeit! (",
+                  "timeStart": "59.640",
+                  "timeEnd": "61.720"
                 },
                 {
-                  "text": "3977/A(E) )"
+                  "text": "3977/A(E) )",
+                  "timeStart": "61.720",
+                  "timeEnd": "62.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Weg mit der verpflichtenden abschließenden Arbeit! ( 3977/A(E) )"
@@ -328,7 +385,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3981/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3981/A(E) )",
+                  "timeStart": "62.760",
+                  "timeEnd": "65.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3981/A(E) )"
@@ -339,7 +398,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "65.720",
+                  "timeEnd": "66.040"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -350,13 +411,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Verordnung der Bundesregierung vom 29. März 1955, betreffend die Gebühren bei Dienstreisen, Dienstverrichtungen im Dienstort, Dienstzuteilungen und Versetzungen (Reisegebührenvorschrift 1955), BGBI."
+                  "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Verordnung der Bundesregierung vom 29. März 1955, betreffend die Gebühren bei Dienstreisen, Dienstverrichtungen im Dienstort, Dienstzuteilungen und Versetzungen (Reisegebührenvorschrift 1955), BGBI.",
+                  "timeStart": "66.040",
+                  "timeEnd": "74.600"
                 },
                 {
-                  "text": "Nr. 133/1955, zuletzt geändert mit BGBI."
+                  "text": "Nr. 133/1955, zuletzt geändert mit BGBI.",
+                  "timeStart": "74.600",
+                  "timeEnd": "77.960"
                 },
                 {
-                  "text": "I Nr. 205/2022, geändert wird ( 3980/A )"
+                  "text": "I Nr. 205/2022, geändert wird ( 3980/A )",
+                  "timeStart": "77.960",
+                  "timeEnd": "80.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Verordnung der Bundesregierung vom 29. März 1955, betreffend die Gebühren bei Dienstreisen, Dienstverrichtungen im Dienstort, Dienstzuteilungen und Versetzungen (Reisegebührenvorschrift 1955), BGBI. Nr. 133/1955, zuletzt geändert mit BGBI. I Nr. 205/2022, geändert wird ( 3980/A )"
@@ -367,13 +434,19 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "80.160",
+                  "timeEnd": "80.240"
                 },
                 {
-                  "text": "Wolfgang Gerstl , Mag."
+                  "text": "Wolfgang Gerstl , Mag.",
+                  "timeStart": "80.240",
+                  "timeEnd": "80.480"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird (Bundesministeriengesetz-Novelle 2024) ( 3984/A )"
+                  "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird (Bundesministeriengesetz-Novelle 2024) ( 3984/A )",
+                  "timeStart": "80.480",
+                  "timeEnd": "85.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird (Bundesministeriengesetz-Novelle 2024) ( 3984/A )"
@@ -384,7 +457,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "85.760",
+                  "timeEnd": "86.280"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -395,7 +470,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 geändert wird (35. StVO-Novelle) ( 3975/A )"
+                  "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 geändert wird (35. StVO-Novelle) ( 3975/A )",
+                  "timeStart": "86.280",
+                  "timeEnd": "89.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 geändert wird (35. StVO-Novelle) ( 3975/A )"
@@ -406,7 +483,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "89.600",
+                  "timeEnd": "91.920"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -417,10 +496,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Schluss mit den obszönen Übergewinnen – her mit leistbaren Preisen! ("
+                  "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Schluss mit den obszönen Übergewinnen – her mit leistbaren Preisen! (",
+                  "timeStart": "91.920",
+                  "timeEnd": "95.600"
                 },
                 {
-                  "text": "3976/A(E) )"
+                  "text": "3976/A(E) )",
+                  "timeStart": "95.600",
+                  "timeEnd": "97.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Schluss mit den obszönen Übergewinnen – her mit leistbaren Preisen! ( 3976/A(E) )"
@@ -431,7 +514,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters weise ich den Antrag 3987/A(E) dem Verfassungsausschuss, den Antrag 3988/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3989/A(E) dem Tourismusausschuss zu."
+                  "text": "Weiters weise ich den Antrag 3987/A(E) dem Verfassungsausschuss, den Antrag 3988/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3989/A(E) dem Tourismusausschuss zu.",
+                  "timeStart": "97.600",
+                  "timeEnd": "105.680"
                 }
               ],
               "text": "Weiters weise ich den Antrag 3987/A(E) dem Verfassungsausschuss, den Antrag 3988/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3989/A(E) dem Tourismusausschuss zu."
@@ -442,7 +527,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Fristsetzungsanträge"
+                  "text": "Fristsetzungsanträge",
+                  "timeStart": "105.680",
+                  "timeEnd": "106.880"
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -453,7 +540,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Ich teile mit, dass"
+                  "text": "Ich teile mit, dass",
+                  "timeStart": "106.880",
+                  "timeEnd": "107.200"
                 }
               ],
               "text": "Ich teile mit, dass"
@@ -464,7 +553,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "die Abgeordneten Taschner und Blimlinger beantragt haben, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen , sowie"
+                  "text": "die Abgeordneten Taschner und Blimlinger beantragt haben, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen , sowie",
+                  "timeStart": "107.200",
+                  "timeEnd": "113.560"
                 }
               ],
               "text": "die Abgeordneten Taschner und Blimlinger beantragt haben, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen , sowie"
@@ -475,7 +566,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "die Abgeordneten Weratschnig und Ottenschläger beantragt haben, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A"
+                  "text": "die Abgeordneten Weratschnig und Ottenschläger beantragt haben, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A",
+                  "timeStart": "113.560",
+                  "timeEnd": "118.080"
                 }
               ],
               "text": "die Abgeordneten Weratschnig und Ottenschläger beantragt haben, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A"
@@ -486,7 +579,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "jeweils eine Frist bis zum 16. April 2024 zu setzen."
+                  "text": "jeweils eine Frist bis zum 16. April 2024 zu setzen.",
+                  "timeStart": "118.080",
+                  "timeEnd": "120.880"
                 }
               ],
               "text": "jeweils eine Frist bis zum 16. April 2024 zu setzen."
@@ -497,7 +592,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge, dem Justizausschuss jeweils eine Frist bis zum 17. April 2024 zu setzen, vorliegen:"
+                  "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge, dem Justizausschuss jeweils eine Frist bis zum 17. April 2024 zu setzen, vorliegen:",
+                  "timeStart": "120.880",
+                  "timeEnd": "125.320"
                 }
               ],
               "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge, dem Justizausschuss jeweils eine Frist bis zum 17. April 2024 zu setzen, vorliegen:"
@@ -508,7 +605,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Schmiedlechner zur Berichterstattung über den Antrag 1078/A(E) ,"
+                  "text": "Antrag des Abgeordneten Schmiedlechner zur Berichterstattung über den Antrag 1078/A(E) ,",
+                  "timeStart": "125.320",
+                  "timeEnd": "129.280"
                 }
               ],
               "text": "Antrag des Abgeordneten Schmiedlechner zur Berichterstattung über den Antrag 1078/A(E) ,"
@@ -519,7 +618,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag des Abgeordneten Stefan zur Berichterstattung über den Antrag 3967/A ."
+                  "text": "Antrag des Abgeordneten Stefan zur Berichterstattung über den Antrag 3967/A .",
+                  "timeStart": "129.280",
+                  "timeEnd": "130.480"
                 }
               ],
               "text": "Antrag des Abgeordneten Stefan zur Berichterstattung über den Antrag 3967/A ."
@@ -530,7 +631,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters teile ich mit, dass die Abgeordneten Haubner, Götze beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A , sowie"
+                  "text": "Weiters teile ich mit, dass die Abgeordneten Haubner, Götze beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A , sowie",
+                  "timeStart": "130.480",
+                  "timeEnd": "135.440"
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Haubner, Götze beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A , sowie"
@@ -541,7 +644,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "die Abgeordneten Gerstl und Agnes Sirkka Prammer beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A"
+                  "text": "die Abgeordneten Gerstl und Agnes Sirkka Prammer beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A",
+                  "timeStart": "135.440",
+                  "timeEnd": "138.080"
                 }
               ],
               "text": "die Abgeordneten Gerstl und Agnes Sirkka Prammer beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A"
@@ -552,7 +657,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "jeweils eine Frist bis zum 16. April zu setzen."
+                  "text": "jeweils eine Frist bis zum 16. April zu setzen.",
+                  "timeStart": "138.080",
+                  "timeEnd": "139.160"
                 }
               ],
               "text": "jeweils eine Frist bis zum 16. April zu setzen."
@@ -563,7 +670,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gelangen."
+                  "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gelangen.",
+                  "timeStart": "139.160",
+                  "timeEnd": "139.960"
                 }
               ],
               "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gelangen."
@@ -575,7 +684,8 @@
         "mediaIndex": 1,
         "stdId": 319750,
         "debatteId": 300,
-        "proceedingIndex": 319750
+        "proceedingIndex": 319750,
+        "alignDuration": 0.7927649021148682
       },
       "originalLanguage": "de"
     },
@@ -603,7 +713,8 @@
         "originMediaID": "319751",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/ad4da726-6050-43d6-84ab-c12c16bc85b0/ad4da726-6050-43d6-84ab-c12c16bc85b0.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/ad4da726-6050-43d6-84ab-c12c16bc85b0/ad4da726-6050-43d6-84ab-c12c16bc85b0.mp3",
-        "duration": 104
+        "duration": 104,
+        "aligned": true
       },
       "dateStart": "2024-03-21T18:39:16",
       "dateEnd": "2024-03-21T18:41:00",
@@ -635,7 +746,9 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über Fristsetzungsanträge"
+                  "text": "Abstimmung über Fristsetzungsanträge",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Abstimmung über Fristsetzungsanträge"
@@ -646,7 +759,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wir kommen zur Abstimmung über die vorliegenden Fristsetzungsanträge."
+                  "text": "Wir kommen zur Abstimmung über die vorliegenden Fristsetzungsanträge.",
+                  "timeStart": "1.360",
+                  "timeEnd": "5.000"
                 }
               ],
               "text": "Wir kommen zur Abstimmung über die vorliegenden Fristsetzungsanträge."
@@ -657,7 +772,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag der Abgeordneten Taschner und Blimlinger, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen eine Frist bis zum 16. April zu setzen."
+                  "text": "Abstimmung über den Antrag der Abgeordneten Taschner und Blimlinger, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen eine Frist bis zum 16. April zu setzen.",
+                  "timeStart": "5.000",
+                  "timeEnd": "18.120"
                 }
               ],
               "text": "Abstimmung über den Antrag der Abgeordneten Taschner und Blimlinger, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen eine Frist bis zum 16. April zu setzen."
@@ -668,10 +785,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer spricht sich dafür aus? –"
+                  "text": "Wer spricht sich dafür aus? –",
+                  "timeStart": "18.120",
+                  "timeEnd": "20.420"
                 },
                 {
-                  "text": "Das ist mit Mehrheit angenommen."
+                  "text": "Das ist mit Mehrheit angenommen.",
+                  "timeStart": "20.420",
+                  "timeEnd": "23.160"
                 }
               ],
               "text": "Wer spricht sich dafür aus? – Das ist mit Mehrheit angenommen."
@@ -682,7 +803,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag der Abgeordneten Weratschnig und Ottenschläger, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A eine Frist bis zum 16. April zu setzen."
+                  "text": "Abstimmung über den Antrag der Abgeordneten Weratschnig und Ottenschläger, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A eine Frist bis zum 16. April zu setzen.",
+                  "timeStart": "23.160",
+                  "timeEnd": "36.240"
                 }
               ],
               "text": "Abstimmung über den Antrag der Abgeordneten Weratschnig und Ottenschläger, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A eine Frist bis zum 16. April zu setzen."
@@ -693,10 +816,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diese Fristsetzung? –"
+                  "text": "Wer ist für diese Fristsetzung? –",
+                  "timeStart": "36.240",
+                  "timeEnd": "38.580"
                 },
                 {
-                  "text": "Das ist mit Mehrheit so angenommen."
+                  "text": "Das ist mit Mehrheit so angenommen.",
+                  "timeStart": "38.580",
+                  "timeEnd": "41.120"
                 }
               ],
               "text": "Wer ist für diese Fristsetzung? – Das ist mit Mehrheit so angenommen."
@@ -707,10 +834,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag des Abgeordneten Schmiedlechner, dem Justizausschuss zur Berichterstattung über den Antrag 1078/A(E) eine Frist bis zum 17. April 2024 zu setzen. –"
+                  "text": "Abstimmung über den Antrag des Abgeordneten Schmiedlechner, dem Justizausschuss zur Berichterstattung über den Antrag 1078/A(E) eine Frist bis zum 17. April 2024 zu setzen. –",
+                  "timeStart": "41.120",
+                  "timeEnd": "52.420"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "52.420",
+                  "timeEnd": "54.600"
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Schmiedlechner, dem Justizausschuss zur Berichterstattung über den Antrag 1078/A(E) eine Frist bis zum 17. April 2024 zu setzen. – Das ist die Minderheit, abgelehnt."
@@ -721,7 +852,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 3967/A eine Frist bis zum 17. April 2024 zu setzen."
+                  "text": "Abstimmung über den Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 3967/A eine Frist bis zum 17. April 2024 zu setzen.",
+                  "timeStart": "54.600",
+                  "timeEnd": "67.960"
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 3967/A eine Frist bis zum 17. April 2024 zu setzen."
@@ -732,10 +865,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer ist für diese Fristsetzung? –"
+                  "text": "Wer ist für diese Fristsetzung? –",
+                  "timeStart": "67.960",
+                  "timeEnd": "68.560"
                 },
                 {
-                  "text": "Das ist die Minderheit, abgelehnt."
+                  "text": "Das ist die Minderheit, abgelehnt.",
+                  "timeStart": "68.560",
+                  "timeEnd": "70.460"
                 }
               ],
               "text": "Wer ist für diese Fristsetzung? – Das ist die Minderheit, abgelehnt."
@@ -746,7 +883,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Haubner und Götze, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A eine Frist bis zum 16. April 2024 zu setzen."
+                  "text": "Antrag der Abgeordneten Haubner und Götze, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A eine Frist bis zum 16. April 2024 zu setzen.",
+                  "timeStart": "70.460",
+                  "timeEnd": "83.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Haubner und Götze, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A eine Frist bis zum 16. April 2024 zu setzen."
@@ -757,10 +896,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer spricht sich dafür aus? –"
+                  "text": "Wer spricht sich dafür aus? –",
+                  "timeStart": "83.680",
+                  "timeEnd": "85.340"
                 },
                 {
-                  "text": "Das ist die Mehrheit, angenommen."
+                  "text": "Das ist die Mehrheit, angenommen.",
+                  "timeStart": "85.340",
+                  "timeEnd": "87.520"
                 }
               ],
               "text": "Wer spricht sich dafür aus? – Das ist die Mehrheit, angenommen."
@@ -771,7 +914,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Abstimmung über den Antrag der Abgeordneten Gerstl und Prammer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A eine Frist bis zum 16. April 2024 zu setzen."
+                  "text": "Abstimmung über den Antrag der Abgeordneten Gerstl und Prammer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A eine Frist bis zum 16. April 2024 zu setzen.",
+                  "timeStart": "87.520",
+                  "timeEnd": "99.900"
                 }
               ],
               "text": "Abstimmung über den Antrag der Abgeordneten Gerstl und Prammer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A eine Frist bis zum 16. April 2024 zu setzen."
@@ -782,10 +927,14 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Wer spricht sich dafür aus? –"
+                  "text": "Wer spricht sich dafür aus? –",
+                  "timeStart": "99.900",
+                  "timeEnd": "101.920"
                 },
                 {
-                  "text": "Das ist mit Mehrheit angenommen."
+                  "text": "Das ist mit Mehrheit angenommen.",
+                  "timeStart": "101.920",
+                  "timeEnd": "106.000"
                 }
               ],
               "text": "Wer spricht sich dafür aus? – Das ist mit Mehrheit angenommen."
@@ -797,7 +946,8 @@
         "mediaIndex": 2,
         "stdId": 319751,
         "debatteId": 310,
-        "proceedingIndex": 319751
+        "proceedingIndex": 319751,
+        "alignDuration": 0.49184513092041016
       },
       "originalLanguage": "de"
     },
@@ -825,7 +975,8 @@
         "originMediaID": "319725",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/701797af-a0a3-4fe5-b40c-0782cdbcb65c/701797af-a0a3-4fe5-b40c-0782cdbcb65c.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/701797af-a0a3-4fe5-b40c-0782cdbcb65c/701797af-a0a3-4fe5-b40c-0782cdbcb65c.mp3",
-        "duration": 34
+        "duration": 34,
+        "aligned": true
       },
       "dateStart": "2024-03-21T18:41:00",
       "dateEnd": "2024-03-21T18:41:34",
@@ -857,7 +1008,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 17. April 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 17. April 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "1.000",
+                  "timeEnd": "9.400"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 17. April 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -868,7 +1021,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Weiters gebe ich noch bekannt, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss, danach der Rot-blauer-Machtmissbrauchs-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt."
+                  "text": "Weiters gebe ich noch bekannt, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss, danach der Rot-blauer-Machtmissbrauchs-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt.",
+                  "timeStart": "9.400",
+                  "timeEnd": "22.280"
                 }
               ],
               "text": "Weiters gebe ich noch bekannt, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss, danach der Rot-blauer-Machtmissbrauchs-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt."
@@ -879,7 +1034,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Allen anderen, die nicht diesen Ausschüssen angehören, wünsche ich jetzt schon einen schönen Abend, den anderen dann im Anschluss."
+                  "text": "Allen anderen, die nicht diesen Ausschüssen angehören, wünsche ich jetzt schon einen schönen Abend, den anderen dann im Anschluss.",
+                  "timeStart": "22.280",
+                  "timeEnd": "29.420"
                 }
               ],
               "text": "Allen anderen, die nicht diesen Ausschüssen angehören, wünsche ich jetzt schon einen schönen Abend, den anderen dann im Anschluss."
@@ -890,7 +1047,9 @@
               "speakerstatus": "Präsidentin",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "29.420",
+                  "timeEnd": "32.320"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -902,7 +1061,8 @@
         "mediaIndex": 3,
         "stdId": 319725,
         "debatteId": 320,
-        "proceedingIndex": 319725
+        "proceedingIndex": 319725,
+        "alignDuration": 0.3241729736328125
       },
       "originalLanguage": "de"
     }

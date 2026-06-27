@@ -4,11 +4,11 @@
     "session": "27263",
     "dateStart": "2024-05-15T20:53:33",
     "dateEnd": "2024-05-15T20:54:05",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:15+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-27T03:14:16",
     "processing": {
       "merge": "2026-06-16T04:24:15+00:00",
-      "nel": "2026-06-16T06:24:28"
+      "align": "2026-06-27T03:14:16"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "323739",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/7de9fc54-2cc6-4ef8-8863-5374b816aea8/7de9fc54-2cc6-4ef8-8863-5374b816aea8.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/7de9fc54-2cc6-4ef8-8863-5374b816aea8/7de9fc54-2cc6-4ef8-8863-5374b816aea8.mp3",
-        "duration": 32
+        "duration": 32,
+        "aligned": true
       },
       "dateStart": "2024-05-15T20:53:33",
       "dateEnd": "2024-05-15T20:54:05",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die 263. Sitzung des Nationalrates ist eröffnet."
+                  "text": "Die 263. Sitzung des Nationalrates ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.040"
                 }
               ],
               "text": "Die 263. Sitzung des Nationalrates ist eröffnet."
@@ -79,10 +82,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Rainer Wimmer , Hermann Brückl, MA , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Rainer Wimmer , Hermann Brückl, MA , Mag.",
+                  "timeStart": "1.040",
+                  "timeEnd": "1.280"
                 },
                 {
-                  "text": "Gerhard Kaniak , Lukas Hammer , Michel Reimon, MBA und David Stögmüller ."
+                  "text": "Gerhard Kaniak , Lukas Hammer , Michel Reimon, MBA und David Stögmüller .",
+                  "timeStart": "1.280",
+                  "timeEnd": "1.920"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Rainer Wimmer , Hermann Brückl, MA , Mag. Gerhard Kaniak , Lukas Hammer , Michel Reimon, MBA und David Stögmüller ."
@@ -93,7 +100,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "1.920",
+                  "timeEnd": "2.040"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -104,7 +113,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "2.040",
+                  "timeEnd": "2.240"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -115,7 +126,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "2.240",
+                  "timeEnd": "2.240"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -126,7 +139,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "2.240",
+                  "timeEnd": "2.240"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -137,7 +152,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortungen: 17543/AB bis 17548/AB"
+                  "text": "1. Anfragebeantwortungen: 17543/AB bis 17548/AB",
+                  "timeStart": "2.240",
+                  "timeEnd": "2.440"
                 }
               ],
               "text": "1. Anfragebeantwortungen: 17543/AB bis 17548/AB"
@@ -148,7 +165,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Regierungsvorlagen:"
+                  "text": "2. Regierungsvorlagen:",
+                  "timeStart": "2.440",
+                  "timeEnd": "2.760"
                 }
               ],
               "text": "2. Regierungsvorlagen:"
@@ -159,7 +178,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird ( 2550 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird ( 2550 d.B. )",
+                  "timeStart": "2.760",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird ( 2550 d.B. )"
@@ -170,7 +191,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Medizinproduktegesetz 2021 geändert wird ( 2551 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Medizinproduktegesetz 2021 geändert wird ( 2551 d.B. )",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Medizinproduktegesetz 2021 geändert wird ( 2551 d.B. )"
@@ -181,7 +204,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz zur Einrichtung einer nationalen Behörde für die Cybersicherheitszertifizierung (Cybersicherheitszertifizierungs-Gesetz – CSZG) ( 2552 d.B. )"
+                  "text": "Bundesgesetz zur Einrichtung einer nationalen Behörde für die Cybersicherheitszertifizierung (Cybersicherheitszertifizierungs-Gesetz – CSZG) ( 2552 d.B. )",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.000"
                 }
               ],
               "text": "Bundesgesetz zur Einrichtung einer nationalen Behörde für die Cybersicherheitszertifizierung (Cybersicherheitszertifizierungs-Gesetz – CSZG) ( 2552 d.B. )"
@@ -192,7 +217,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Kinderbetreuungsgeldgesetz, das Familienlastenausgleichsgesetz 1967, das Mutterschutzgesetz, das Väter-Karenzgesetz, das Landarbeitsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden (Sonderwochengeld-Gesetz) ( 2553 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Kinderbetreuungsgeldgesetz, das Familienlastenausgleichsgesetz 1967, das Mutterschutzgesetz, das Väter-Karenzgesetz, das Landarbeitsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden (Sonderwochengeld-Gesetz) ( 2553 d.B. )",
+                  "timeStart": "3.000",
+                  "timeEnd": "5.180"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Kinderbetreuungsgeldgesetz, das Familienlastenausgleichsgesetz 1967, das Mutterschutzgesetz, das Väter-Karenzgesetz, das Landarbeitsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden (Sonderwochengeld-Gesetz) ( 2553 d.B. )"
@@ -203,7 +230,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Wehrgesetz 2001, das Heeresdisziplinargesetz 2014, das Heeresgebührengesetz 2001, das Auslandseinsatzgesetz 2001, das Militärbefugnisgesetz und das Militärauszeichnungsgesetz 2002 geändert werden (Wehrrechtsänderungsgesetz 2024 – WRÄG 2024) ( 2554 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Wehrgesetz 2001, das Heeresdisziplinargesetz 2014, das Heeresgebührengesetz 2001, das Auslandseinsatzgesetz 2001, das Militärbefugnisgesetz und das Militärauszeichnungsgesetz 2002 geändert werden (Wehrrechtsänderungsgesetz 2024 – WRÄG 2024) ( 2554 d.B. )",
+                  "timeStart": "5.180",
+                  "timeEnd": "8.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Wehrgesetz 2001, das Heeresdisziplinargesetz 2014, das Heeresgebührengesetz 2001, das Auslandseinsatzgesetz 2001, das Militärbefugnisgesetz und das Militärauszeichnungsgesetz 2002 geändert werden (Wehrrechtsänderungsgesetz 2024 – WRÄG 2024) ( 2554 d.B. )"
@@ -214,7 +243,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Förderung der Erzeugung von erneuerbarem Wasserstoff nicht biogenen Ursprungs sowie ein Bundesgesetz zur Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie erlassen werden ( 2555 d.B. )"
+                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Förderung der Erzeugung von erneuerbarem Wasserstoff nicht biogenen Ursprungs sowie ein Bundesgesetz zur Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie erlassen werden ( 2555 d.B. )",
+                  "timeStart": "8.640",
+                  "timeEnd": "8.640"
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Förderung der Erzeugung von erneuerbarem Wasserstoff nicht biogenen Ursprungs sowie ein Bundesgesetz zur Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie erlassen werden ( 2555 d.B. )"
@@ -225,7 +256,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen:"
+                  "text": "B. Zuweisungen:",
+                  "timeStart": "8.640",
+                  "timeEnd": "8.640"
                 }
               ],
               "text": "B. Zuweisungen:"
@@ -236,7 +269,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs. 4, 100b Abs. 1 und 100c Abs. 1:"
+                  "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs. 4, 100b Abs. 1 und 100c Abs. 1:",
+                  "timeStart": "8.640",
+                  "timeEnd": "9.760"
                 }
               ],
               "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs. 4, 100b Abs. 1 und 100c Abs. 1:"
@@ -247,7 +282,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Petitionen und Bürgerinitiativen:"
+                  "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
+                  "timeStart": "9.760",
+                  "timeEnd": "9.840"
                 }
               ],
               "text": "Ausschuss für Petitionen und Bürgerinitiativen:"
@@ -258,7 +295,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bürgerinitiative betreffend \"Wir fordern einen wirksamen Schutz gegen den A22-Lärm zwischen Stockerau Ost und Stockerau Nord\" ( 68/BI )"
+                  "text": "Bürgerinitiative betreffend \"Wir fordern einen wirksamen Schutz gegen den A22-Lärm zwischen Stockerau Ost und Stockerau Nord\" ( 68/BI )",
+                  "timeStart": "9.840",
+                  "timeEnd": "9.840"
                 }
               ],
               "text": "Bürgerinitiative betreffend \"Wir fordern einen wirksamen Schutz gegen den A22-Lärm zwischen Stockerau Ost und Stockerau Nord\" ( 68/BI )"
@@ -269,7 +308,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bürgerinitiative betreffend \"Für einen Waffenstillstand in Gaza im Sinne der Neutralität\" ( 69/BI )"
+                  "text": "Bürgerinitiative betreffend \"Für einen Waffenstillstand in Gaza im Sinne der Neutralität\" ( 69/BI )",
+                  "timeStart": "9.840",
+                  "timeEnd": "10.040"
                 }
               ],
               "text": "Bürgerinitiative betreffend \"Für einen Waffenstillstand in Gaza im Sinne der Neutralität\" ( 69/BI )"
@@ -280,7 +321,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Zuweisungen in dieser Sitzung:"
+                  "text": "2. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "10.040",
+                  "timeEnd": "10.440"
                 }
               ],
               "text": "2. Zuweisungen in dieser Sitzung:"
@@ -291,7 +334,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "10.440",
+                  "timeEnd": "11.220"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -302,7 +347,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "11.220",
+                  "timeEnd": "12.160"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -313,7 +360,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Jobgarantie zur Beschäftigungsförderung von Langzeitbeschäftigungslosen ( 4027/A(E) )"
+                  "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Jobgarantie zur Beschäftigungsförderung von Langzeitbeschäftigungslosen ( 4027/A(E) )",
+                  "timeStart": "12.160",
+                  "timeEnd": "12.800"
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Jobgarantie zur Beschäftigungsförderung von Langzeitbeschäftigungslosen ( 4027/A(E) )"
@@ -324,10 +373,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "12.800",
+                  "timeEnd": "13.280"
                 },
                 {
-                  "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Schaffung eines Inklusionsfonds zur Verbesserung der Lebenssituation von Menschen mit Behinderungen ( 4028/A(E) )"
+                  "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Schaffung eines Inklusionsfonds zur Verbesserung der Lebenssituation von Menschen mit Behinderungen ( 4028/A(E) )",
+                  "timeStart": "13.280",
+                  "timeEnd": "14.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend Schaffung eines Inklusionsfonds zur Verbesserung der Lebenssituation von Menschen mit Behinderungen ( 4028/A(E) )"
@@ -338,10 +391,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "14.040",
+                  "timeEnd": "14.120"
                 },
                 {
-                  "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Überarbeitung der Kriterien für die Zusatzeintragung der \"Unzumutbarkeit der Benützung öffentlicher Verkehrsmittel wegen dauerhafter Mobilitätseinschränkung aufgrund einer Behinderung\" ( 4029/A(E) )"
+                  "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Überarbeitung der Kriterien für die Zusatzeintragung der \"Unzumutbarkeit der Benützung öffentlicher Verkehrsmittel wegen dauerhafter Mobilitätseinschränkung aufgrund einer Behinderung\" ( 4029/A(E) )",
+                  "timeStart": "14.120",
+                  "timeEnd": "15.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend Überarbeitung der Kriterien für die Zusatzeintragung der \"Unzumutbarkeit der Benützung öffentlicher Verkehrsmittel wegen dauerhafter Mobilitätseinschränkung aufgrund einer Behinderung\" ( 4029/A(E) )"
@@ -352,10 +409,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend \"Kindergrundsicherung – Jedes Kind hat das Recht auf ein Aufwachsen ohne finanzielle Sorgen!\" ("
+                  "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend \"Kindergrundsicherung – Jedes Kind hat das Recht auf ein Aufwachsen ohne finanzielle Sorgen!\" (",
+                  "timeStart": "15.520",
+                  "timeEnd": "16.000"
                 },
                 {
-                  "text": "4033/A(E) )"
+                  "text": "4033/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend \"Kindergrundsicherung – Jedes Kind hat das Recht auf ein Aufwachsen ohne finanzielle Sorgen!\" ( 4033/A(E) )"
@@ -366,10 +427,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! ("
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! (",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 },
                 {
-                  "text": "4041/A(E) )"
+                  "text": "4041/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! ( 4041/A(E) )"
@@ -380,7 +445,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend AMS-Debakel für mehrfach geringfügig Beschäftigte ( 4046/A(E) )"
+                  "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend AMS-Debakel für mehrfach geringfügig Beschäftigte ( 4046/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend AMS-Debakel für mehrfach geringfügig Beschäftigte ( 4046/A(E) )"
@@ -391,7 +458,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Familie und Jugend:"
+                  "text": "Ausschuss für Familie und Jugend:",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -402,7 +471,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Recht auf einen ganztägigen Kinderbildungs- und betreuungsplatz\" ( 4035/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Recht auf einen ganztägigen Kinderbildungs- und betreuungsplatz\" ( 4035/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Recht auf einen ganztägigen Kinderbildungs- und betreuungsplatz\" ( 4035/A(E) )"
@@ -413,7 +484,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Finanzausschuss:"
+                  "text": "Finanzausschuss:",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -424,10 +497,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4039/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4039/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4039/A(E) )"
@@ -438,7 +515,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
+                  "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -449,10 +528,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Forschungsstandort im Fokus: Reformen gegen den Abwärtstrend in Österreich ( 4025/A(E) )"
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Forschungsstandort im Fokus: Reformen gegen den Abwärtstrend in Österreich ( 4025/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Forschungsstandort im Fokus: Reformen gegen den Abwärtstrend in Österreich ( 4025/A(E) )"
@@ -463,7 +546,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichbehandlungsausschuss:"
+                  "text": "Gleichbehandlungsausschuss:",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -474,7 +559,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4032/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4032/A(E) )",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4032/A(E) )"
@@ -485,10 +572,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "16.960",
+                  "timeEnd": "17.000"
                 },
                 {
-                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Mehr Transparenz bei Gehaltsangaben in Stelleninseraten ( 4037/A(E) )"
+                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Mehr Transparenz bei Gehaltsangaben in Stelleninseraten ( 4037/A(E) )",
+                  "timeStart": "17.000",
+                  "timeEnd": "17.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Mehr Transparenz bei Gehaltsangaben in Stelleninseraten ( 4037/A(E) )"
@@ -499,13 +590,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dipl.-Kffr. ("
+                  "text": "Antrag der Abgeordneten Dipl.-Kffr. (",
+                  "timeStart": "17.080",
+                  "timeEnd": "17.080"
                 },
                 {
-                  "text": "FH) Elisabeth Pfurtscheller , Mag."
+                  "text": "FH) Elisabeth Pfurtscheller , Mag.",
+                  "timeStart": "17.080",
+                  "timeEnd": "17.080"
                 },
                 {
-                  "text": "Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 4038/A )"
+                  "text": "Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 4038/A )",
+                  "timeStart": "17.080",
+                  "timeEnd": "17.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 4038/A )"
@@ -516,7 +613,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "17.080",
+                  "timeEnd": "17.080"
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -527,7 +626,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Österreich fehlen 4.000 Polizist*innen ( 4019/A(E) )"
+                  "text": "Antrag der Abgeordneten Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Österreich fehlen 4.000 Polizist*innen ( 4019/A(E) )",
+                  "timeStart": "17.080",
+                  "timeEnd": "17.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Österreich fehlen 4.000 Polizist*innen ( 4019/A(E) )"
@@ -538,7 +639,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4020/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4020/A(E) )",
+                  "timeStart": "17.400",
+                  "timeEnd": "18.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4020/A(E) )"
@@ -549,7 +652,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Ausreichend Ressourcen für die Umsetzung des EU Asyl- und Migrationspakts ( 4021/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Ausreichend Ressourcen für die Umsetzung des EU Asyl- und Migrationspakts ( 4021/A(E) )",
+                  "timeStart": "18.000",
+                  "timeEnd": "19.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Ausreichend Ressourcen für die Umsetzung des EU Asyl- und Migrationspakts ( 4021/A(E) )"
@@ -560,7 +665,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Integrationsjahr und Integrationsjahr-Jugend reaktivieren, mit ausreichend finanziellen Mitteln budgetieren und österreichweit beginnend mit 1. Juli 2024 umsetzen ( 4026/A(E) )"
+                  "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Integrationsjahr und Integrationsjahr-Jugend reaktivieren, mit ausreichend finanziellen Mitteln budgetieren und österreichweit beginnend mit 1. Juli 2024 umsetzen ( 4026/A(E) )",
+                  "timeStart": "19.360",
+                  "timeEnd": "20.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Integrationsjahr und Integrationsjahr-Jugend reaktivieren, mit ausreichend finanziellen Mitteln budgetieren und österreichweit beginnend mit 1. Juli 2024 umsetzen ( 4026/A(E) )"
@@ -571,7 +678,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Justizausschuss:"
+                  "text": "Justizausschuss:",
+                  "timeStart": "20.160",
+                  "timeEnd": "20.160"
                 }
               ],
               "text": "Justizausschuss:"
@@ -582,10 +691,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "20.160",
+                  "timeEnd": "20.200"
                 },
                 {
-                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Missbrauch des Besitzschutzes ( 4018/A(E) )"
+                  "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Missbrauch des Besitzschutzes ( 4018/A(E) )",
+                  "timeStart": "20.200",
+                  "timeEnd": "20.680"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Missbrauch des Besitzschutzes ( 4018/A(E) )"
@@ -596,13 +709,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "20.680",
+                  "timeEnd": "21.080"
                 },
                 {
-                  "text": "Michaela Steinacker , Mag."
+                  "text": "Michaela Steinacker , Mag.",
+                  "timeStart": "21.080",
+                  "timeEnd": "21.080"
                 },
                 {
-                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Datenschutzgesetz geändert wird ( 4031/A )"
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Datenschutzgesetz geändert wird ( 4031/A )",
+                  "timeStart": "21.080",
+                  "timeEnd": "21.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Datenschutzgesetz geändert wird ( 4031/A )"
@@ -613,7 +732,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Konsumentenschutz:"
+                  "text": "Ausschuss für Konsumentenschutz:",
+                  "timeStart": "21.440",
+                  "timeEnd": "21.440"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -624,10 +745,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "21.440",
+                  "timeEnd": "21.440"
                 },
                 {
-                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4030/A(E) )"
+                  "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4030/A(E) )",
+                  "timeStart": "21.440",
+                  "timeEnd": "23.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4030/A(E) )"
@@ -638,10 +763,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! ("
+                  "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! (",
+                  "timeStart": "23.080",
+                  "timeEnd": "23.360"
                 },
                 {
-                  "text": "4042/A(E) )"
+                  "text": "4042/A(E) )",
+                  "timeStart": "23.360",
+                  "timeEnd": "23.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! ( 4042/A(E) )"
@@ -652,7 +781,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Kulturausschuss:"
+                  "text": "Kulturausschuss:",
+                  "timeStart": "23.760",
+                  "timeEnd": "24.080"
                 }
               ],
               "text": "Kulturausschuss:"
@@ -663,7 +794,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Angemessene Vergütung für Kreative im Kontext der KI-Nutzung ( 4045/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Angemessene Vergütung für Kreative im Kontext der KI-Nutzung ( 4045/A(E) )",
+                  "timeStart": "24.080",
+                  "timeEnd": "25.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Angemessene Vergütung für Kreative im Kontext der KI-Nutzung ( 4045/A(E) )"
@@ -674,7 +807,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Menschenrechte:"
+                  "text": "Ausschuss für Menschenrechte:",
+                  "timeStart": "25.640",
+                  "timeEnd": "25.840"
                 }
               ],
               "text": "Ausschuss für Menschenrechte:"
@@ -685,7 +820,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4022/A(E) )"
+                  "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4022/A(E) )",
+                  "timeStart": "25.840",
+                  "timeEnd": "27.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4022/A(E) )"
@@ -696,7 +833,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 4034/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 4034/A(E) )",
+                  "timeStart": "27.080",
+                  "timeEnd": "27.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 4034/A(E) )"
@@ -707,7 +846,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Unterrichtsausschuss:"
+                  "text": "Unterrichtsausschuss:",
+                  "timeStart": "27.360",
+                  "timeEnd": "27.600"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -718,13 +859,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "27.600",
+                  "timeEnd": "27.800"
                 },
                 {
-                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Volle Aufmerksamkeit den Kindern, Schulbürokratie endlich abbauen! ("
+                  "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Volle Aufmerksamkeit den Kindern, Schulbürokratie endlich abbauen! (",
+                  "timeStart": "27.800",
+                  "timeEnd": "28.000"
                 },
                 {
-                  "text": "4040/A(E) )"
+                  "text": "4040/A(E) )",
+                  "timeStart": "28.000",
+                  "timeEnd": "28.000"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Volle Aufmerksamkeit den Kindern, Schulbürokratie endlich abbauen! ( 4040/A(E) )"
@@ -735,7 +882,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Künstliche Intelligenz (KI) an Schulen\" ( 4047/A(E) )"
+                  "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Künstliche Intelligenz (KI) an Schulen\" ( 4047/A(E) )",
+                  "timeStart": "28.000",
+                  "timeEnd": "28.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Künstliche Intelligenz (KI) an Schulen\" ( 4047/A(E) )"
@@ -746,7 +895,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Jobticket auch für Bundeslehrerinnen und -lehrer\" ( 4048/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Jobticket auch für Bundeslehrerinnen und -lehrer\" ( 4048/A(E) )",
+                  "timeStart": "28.360",
+                  "timeEnd": "28.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Jobticket auch für Bundeslehrerinnen und -lehrer\" ( 4048/A(E) )"
@@ -757,7 +908,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "28.400",
+                  "timeEnd": "28.400"
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -768,7 +921,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend Rampen an Bahn-Verkehrsstationen ( 4036/A(E) )"
+                  "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend Rampen an Bahn-Verkehrsstationen ( 4036/A(E) )",
+                  "timeStart": "28.400",
+                  "timeEnd": "28.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend Rampen an Bahn-Verkehrsstationen ( 4036/A(E) )"
@@ -779,7 +934,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
+                  "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
+                  "timeStart": "28.600",
+                  "timeEnd": "28.600"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -790,10 +947,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "28.600",
+                  "timeEnd": "28.600"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über die Kammern der gewerblichen Wirtschaft geändert wird ( 4023/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über die Kammern der gewerblichen Wirtschaft geändert wird ( 4023/A )",
+                  "timeStart": "28.600",
+                  "timeEnd": "29.600"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über die Kammern der gewerblichen Wirtschaft geändert wird ( 4023/A )"
@@ -804,10 +965,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "29.600",
+                  "timeEnd": "30.000"
                 },
                 {
-                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das Verbot der geologischen Speicherung von Kohlenstoffdioxid geändert wird ( 4024/A )"
+                  "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das Verbot der geologischen Speicherung von Kohlenstoffdioxid geändert wird ( 4024/A )",
+                  "timeStart": "30.000",
+                  "timeEnd": "30.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das Verbot der geologischen Speicherung von Kohlenstoffdioxid geändert wird ( 4024/A )"
@@ -818,13 +983,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMMag."
+                  "text": "Antrag der Abgeordneten MMMag.",
+                  "timeStart": "30.200",
+                  "timeEnd": "30.200"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! ("
+                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! (",
+                  "timeStart": "30.200",
+                  "timeEnd": "30.640"
                 },
                 {
-                  "text": "4043/A(E) )"
+                  "text": "4043/A(E) )",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.640"
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! ( 4043/A(E) )"
@@ -835,10 +1006,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten MMMag."
+                  "text": "Antrag der Abgeordneten MMMag.",
+                  "timeStart": "30.640",
+                  "timeEnd": "30.680"
                 },
                 {
-                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes ( 4044/A(E) )"
+                  "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes ( 4044/A(E) )",
+                  "timeStart": "30.680",
+                  "timeEnd": "31.080"
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes ( 4044/A(E) )"
@@ -849,7 +1024,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 16. Mai 2024, um 9 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 16. Mai 2024, um 9 Uhr ein.",
+                  "timeStart": "31.080",
+                  "timeEnd": "31.400"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 16. Mai 2024, um 9 Uhr ein."
@@ -860,7 +1037,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
+                  "timeStart": "31.400",
+                  "timeEnd": "31.680"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -871,7 +1050,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "31.680",
+                  "timeEnd": "31.960"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -883,7 +1064,8 @@
         "mediaIndex": 1,
         "stdId": 323739,
         "debatteId": 300,
-        "proceedingIndex": 323739
+        "proceedingIndex": 323739,
+        "alignDuration": 0.9268839359283447
       },
       "originalLanguage": "de"
     }

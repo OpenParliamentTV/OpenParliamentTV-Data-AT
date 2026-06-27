@@ -4,11 +4,11 @@
     "session": "27251",
     "dateStart": "2024-01-31T21:56:05",
     "dateEnd": "2024-01-31T21:56:52",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:13+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-26T16:04:29",
     "processing": {
       "merge": "2026-06-16T04:24:13+00:00",
-      "nel": "2026-06-16T06:24:27"
+      "align": "2026-06-26T16:04:29"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "315839",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/a3ca48b7-f4f0-4c9c-8bf0-df61471d5ca2/a3ca48b7-f4f0-4c9c-8bf0-df61471d5ca2.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/a3ca48b7-f4f0-4c9c-8bf0-df61471d5ca2/a3ca48b7-f4f0-4c9c-8bf0-df61471d5ca2.mp3",
-        "duration": 47
+        "duration": 47,
+        "aligned": true
       },
       "dateStart": "2024-01-31T21:56:05",
       "dateEnd": "2024-01-31T21:56:52",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die 251. Sitzung des Nationalrates ist eröffnet."
+                  "text": "Die 251. Sitzung des Nationalrates ist eröffnet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.120"
                 }
               ],
               "text": "Die 251. Sitzung des Nationalrates ist eröffnet."
@@ -79,13 +82,19 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag.",
+                  "timeStart": "2.120",
+                  "timeEnd": "3.200"
                 },
                 {
-                  "text": "Gerald Hauser , Heike Grebien , Mag."
+                  "text": "Gerald Hauser , Heike Grebien , Mag.",
+                  "timeStart": "3.200",
+                  "timeEnd": "3.560"
                 },
                 {
-                  "text": "Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer ."
+                  "text": "Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer .",
+                  "timeStart": "3.560",
+                  "timeEnd": "3.640"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag. Gerald Hauser , Heike Grebien , Mag. Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer ."
@@ -96,7 +105,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "3.640",
+                  "timeEnd": "4.000"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -107,7 +118,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "4.000",
+                  "timeEnd": "8.020"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -118,7 +131,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "8.020",
+                  "timeEnd": "8.680"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -129,7 +144,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "8.680",
+                  "timeEnd": "9.240"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -140,7 +157,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "9.240",
+                  "timeEnd": "9.680"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -151,7 +170,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "9.680",
+                  "timeEnd": "9.840"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -162,7 +183,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)"
+                  "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)",
+                  "timeStart": "9.840",
+                  "timeEnd": "11.920"
                 }
               ],
               "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)"
@@ -173,7 +196,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Umweltausschuss:"
+                  "text": "Umweltausschuss:",
+                  "timeStart": "11.920",
+                  "timeEnd": "12.400"
                 }
               ],
               "text": "Umweltausschuss:"
@@ -184,7 +209,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )",
+                  "timeStart": "12.400",
+                  "timeEnd": "17.780"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )"
@@ -195,7 +222,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 28. Februar 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 28. Februar 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
+                  "timeStart": "17.780",
+                  "timeEnd": "27.460"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 28. Februar 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -206,10 +235,14 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich gebe weiters bekannt, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss in Lokal 1 zusammentritt."
+                  "text": "Ich gebe weiters bekannt, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss in Lokal 1 zusammentritt.",
+                  "timeStart": "27.460",
+                  "timeEnd": "35.440"
                 },
                 {
-                  "text": "Wir sehen uns dann dort."
+                  "text": "Wir sehen uns dann dort.",
+                  "timeStart": "35.440",
+                  "timeEnd": "36.820"
                 }
               ],
               "text": "Ich gebe weiters bekannt, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss in Lokal 1 zusammentritt. Wir sehen uns dann dort."
@@ -220,7 +253,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Im Anschluss tritt der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss ebenfalls in Lokal 1 zusammen."
+                  "text": "Im Anschluss tritt der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss ebenfalls in Lokal 1 zusammen.",
+                  "timeStart": "36.820",
+                  "timeEnd": "43.720"
                 }
               ],
               "text": "Im Anschluss tritt der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss ebenfalls in Lokal 1 zusammen."
@@ -231,7 +266,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "43.720",
+                  "timeEnd": "44.760"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -243,7 +280,8 @@
         "mediaIndex": 1,
         "stdId": 315839,
         "debatteId": 300,
-        "proceedingIndex": 315839
+        "proceedingIndex": 315839,
+        "alignDuration": 0.4071171283721924
       },
       "originalLanguage": "de"
     }

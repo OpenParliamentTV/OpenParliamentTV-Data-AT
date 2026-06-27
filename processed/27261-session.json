@@ -4,11 +4,11 @@
     "session": "27261",
     "dateStart": "2024-04-17T22:52:42",
     "dateEnd": "2024-04-17T22:53:26",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:14+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-27T00:08:50",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "nel": "2026-06-16T06:24:28"
+      "align": "2026-06-27T00:08:50"
     }
   },
   "data": [
@@ -36,7 +36,8 @@
         "originMediaID": "322115",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/c9990e00-2125-4507-a65e-93c76cdeae12/c9990e00-2125-4507-a65e-93c76cdeae12.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/c9990e00-2125-4507-a65e-93c76cdeae12/c9990e00-2125-4507-a65e-93c76cdeae12.mp3",
-        "duration": 44
+        "duration": 44,
+        "aligned": true
       },
       "dateStart": "2024-04-17T22:52:42",
       "dateEnd": "2024-04-17T22:53:26",
@@ -68,7 +69,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 261. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 261. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.840"
                 }
               ],
               "text": "Ich eröffne die 261. Sitzung des Nationalrates."
@@ -79,19 +82,29 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst.",
+                  "timeStart": "2.840",
+                  "timeEnd": "5.160"
                 },
                 {
-                  "text": "Mag. ("
+                  "text": "Mag. (",
+                  "timeStart": "5.160",
+                  "timeEnd": "5.360"
                 },
                 {
-                  "text": "FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag."
+                  "text": "FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag.",
+                  "timeStart": "5.360",
+                  "timeEnd": "6.040"
                 },
                 {
-                  "text": "Eva Blimlinger und Mag."
+                  "text": "Eva Blimlinger und Mag.",
+                  "timeStart": "6.040",
+                  "timeEnd": "6.040"
                 },
                 {
-                  "text": "Agnes Sirkka Prammer ."
+                  "text": "Agnes Sirkka Prammer .",
+                  "timeStart": "6.040",
+                  "timeEnd": "6.440"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst. Mag. (FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag. Eva Blimlinger und Mag. Agnes Sirkka Prammer ."
@@ -102,7 +115,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "6.440",
+                  "timeEnd": "6.960"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -113,7 +128,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungsaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungsaal verteilte Mitteilung.",
+                  "timeStart": "6.960",
+                  "timeEnd": "9.720"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungsaal verteilte Mitteilung."
@@ -124,7 +141,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "9.720",
+                  "timeEnd": "10.920"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -135,7 +154,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen:"
+                  "text": "Zuweisungen:",
+                  "timeStart": "10.920",
+                  "timeEnd": "11.120"
                 }
               ],
               "text": "Zuweisungen:"
@@ -146,7 +167,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "11.120",
+                  "timeEnd": "12.040"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -157,7 +180,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "12.040",
+                  "timeEnd": "12.280"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -168,7 +193,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Arbeit und Soziales:"
+                  "text": "Ausschuss für Arbeit und Soziales:",
+                  "timeStart": "12.280",
+                  "timeEnd": "13.000"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -179,7 +206,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )",
+                  "timeStart": "13.000",
+                  "timeEnd": "16.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )"
@@ -190,7 +219,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "16.800",
+                  "timeEnd": "17.200"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -201,7 +232,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )"
+                  "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )",
+                  "timeStart": "17.200",
+                  "timeEnd": "21.360"
                 }
               ],
               "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )"
@@ -212,7 +245,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gesundheitsausschuss:"
+                  "text": "Gesundheitsausschuss:",
+                  "timeStart": "21.360",
+                  "timeEnd": "21.440"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -223,7 +258,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )",
+                  "timeStart": "21.440",
+                  "timeEnd": "26.080"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )"
@@ -234,7 +271,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "26.080",
+                  "timeEnd": "28.920"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen."
@@ -245,7 +284,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Weiters darf ich bekannt geben, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss und der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss – jeweils im Lokal Hansen – zusammentreten."
+                  "text": "Weiters darf ich bekannt geben, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss und der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss – jeweils im Lokal Hansen – zusammentreten.",
+                  "timeStart": "28.920",
+                  "timeEnd": "39.880"
                 }
               ],
               "text": "Weiters darf ich bekannt geben, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss und der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss – jeweils im Lokal Hansen – zusammentreten."
@@ -256,7 +297,9 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "39.880",
+                  "timeEnd": "41.560"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -268,7 +311,8 @@
         "mediaIndex": 1,
         "stdId": 322115,
         "debatteId": 300,
-        "proceedingIndex": 322115
+        "proceedingIndex": 322115,
+        "alignDuration": 0.4267120361328125
       },
       "originalLanguage": "de"
     }
