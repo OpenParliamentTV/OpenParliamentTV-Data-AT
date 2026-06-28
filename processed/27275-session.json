@@ -4,11 +4,12 @@
     "session": "27275",
     "dateStart": "2024-07-05T17:21:40",
     "dateEnd": "2024-07-05T17:52:42",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:17+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-27T21:35:26",
     "processing": {
       "merge": "2026-06-16T04:24:17+00:00",
-      "nel": "2026-06-16T06:24:29"
+      "align": "2026-06-27T21:35:26",
+      "ner": "2026-06-28T03:37:34"
     }
   },
   "data": [
@@ -36,7 +37,8 @@
         "originMediaID": "330447",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/96b57558-eccc-4093-81d9-de1d88d4ab6a/96b57558-eccc-4093-81d9-de1d88d4ab6a.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/96b57558-eccc-4093-81d9-de1d88d4ab6a/96b57558-eccc-4093-81d9-de1d88d4ab6a.mp3",
-        "duration": 19
+        "duration": 19,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:21:40",
       "dateEnd": "2024-07-05T17:21:59",
@@ -68,7 +70,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 275. Sitzung."
+                  "text": "Ich eröffne die 275. Sitzung.",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.520",
+                  "entities": []
                 }
               ],
               "text": "Ich eröffne die 275. Sitzung."
@@ -79,22 +84,40 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
+                  "timeStart": "1.520",
+                  "timeEnd": "1.880",
+                  "entities": []
                 },
                 {
-                  "text": "Martin Engelberg , Tanja Graf , Mag."
+                  "text": "Martin Engelberg , Tanja Graf , Mag.",
+                  "timeStart": "1.880",
+                  "timeEnd": "1.880",
+                  "entities": []
                 },
                 {
-                  "text": "Dr. Maria Theresia Niss, MBA , Mag."
+                  "text": "Dr. Maria Theresia Niss, MBA , Mag.",
+                  "timeStart": "1.880",
+                  "timeEnd": "1.880",
+                  "entities": []
                 },
                 {
-                  "text": "Muna Duzdar , Klaus Köchl , Mag."
+                  "text": "Muna Duzdar , Klaus Köchl , Mag.",
+                  "timeStart": "1.880",
+                  "timeEnd": "1.880",
+                  "entities": []
                 },
                 {
-                  "text": "Andrea Kuntzl , Maximilian Lercher , Petra Wimmer , Christian Lausch , Wolfgang Zanger , Dr. Johannes Margreiter und Mag."
+                  "text": "Andrea Kuntzl , Maximilian Lercher , Petra Wimmer , Christian Lausch , Wolfgang Zanger , Dr. Johannes Margreiter und Mag.",
+                  "timeStart": "1.880",
+                  "timeEnd": "1.880",
+                  "entities": []
                 },
                 {
-                  "text": "Yannick Shetty ."
+                  "text": "Yannick Shetty .",
+                  "timeStart": "1.880",
+                  "timeEnd": "1.880",
+                  "entities": []
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Tanja Graf , Mag. Dr. Maria Theresia Niss, MBA , Mag. Muna Duzdar , Klaus Köchl , Mag. Andrea Kuntzl , Maximilian Lercher , Petra Wimmer , Christian Lausch , Wolfgang Zanger , Dr. Johannes Margreiter und Mag. Yannick Shetty ."
@@ -105,7 +128,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "1.880",
+                  "timeEnd": "1.880",
+                  "entities": []
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -116,7 +142,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Saal verteilte Mitteilung verweisen."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Saal verteilte Mitteilung verweisen.",
+                  "timeStart": "1.880",
+                  "timeEnd": "3.880",
+                  "entities": []
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Saal verteilte Mitteilung verweisen."
@@ -127,7 +156,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "3.880",
+                  "timeEnd": "4.360",
+                  "entities": []
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -138,7 +170,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "A. Eingelangte Verhandlungsgegenstände:"
+                  "text": "A. Eingelangte Verhandlungsgegenstände:",
+                  "timeStart": "4.360",
+                  "timeEnd": "4.360",
+                  "entities": []
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -149,7 +184,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "1. Anfragebeantwortungen: 17875/AB bis 17885/AB"
+                  "text": "1. Anfragebeantwortungen: 17875/AB bis 17885/AB",
+                  "timeStart": "4.360",
+                  "timeEnd": "4.360",
+                  "entities": []
                 }
               ],
               "text": "1. Anfragebeantwortungen: 17875/AB bis 17885/AB"
@@ -160,7 +198,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "2. Regierungsvorlagen:"
+                  "text": "2. Regierungsvorlagen:",
+                  "timeStart": "4.360",
+                  "timeEnd": "4.360",
+                  "entities": []
                 }
               ],
               "text": "2. Regierungsvorlagen:"
@@ -171,7 +212,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem das Bundeshaushaltsgesetz 2013 geändert wird ( 2704 d.B. )"
+                  "text": "Bundesgesetz, mit dem das Bundeshaushaltsgesetz 2013 geändert wird ( 2704 d.B. )",
+                  "timeStart": "4.360",
+                  "timeEnd": "6.020",
+                  "entities": []
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundeshaushaltsgesetz 2013 geändert wird ( 2704 d.B. )"
@@ -182,7 +226,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "B. Zuweisungen in dieser Sitzung:"
+                  "text": "B. Zuweisungen in dieser Sitzung:",
+                  "timeStart": "6.020",
+                  "timeEnd": "6.920",
+                  "entities": []
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -193,7 +240,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "zur Vorberatung:"
+                  "text": "zur Vorberatung:",
+                  "timeStart": "6.920",
+                  "timeEnd": "6.960",
+                  "entities": []
                 }
               ],
               "text": "zur Vorberatung:"
@@ -204,7 +254,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für Bauten und Wohnen:"
+                  "text": "Ausschuss für Bauten und Wohnen:",
+                  "timeStart": "6.960",
+                  "timeEnd": "7.280",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -215,10 +268,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "7.280",
+                  "timeEnd": "7.480",
+                  "entities": []
                 },
                 {
-                  "text": "Ruth Becher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wohnungsgemeinnützigkeitsgesetz (WGG) 1979 geändert wird ( 4144/A )"
+                  "text": "Ruth Becher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wohnungsgemeinnützigkeitsgesetz (WGG) 1979 geändert wird ( 4144/A )",
+                  "timeStart": "7.480",
+                  "timeEnd": "8.640",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wohnungsgemeinnützigkeitsgesetz (WGG) 1979 geändert wird ( 4144/A )"
@@ -229,7 +288,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "8.640",
+                  "timeEnd": "8.640",
+                  "entities": []
                 }
               ],
               "text": "Budgetausschuss:"
@@ -240,10 +302,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten August Wöginger , Mag."
+                  "text": "Antrag der Abgeordneten August Wöginger , Mag.",
+                  "timeStart": "8.640",
+                  "timeEnd": "8.640",
+                  "entities": []
                 },
                 {
-                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz, das Pensionsgesetz 1965, das Bundestheaterpensionsgesetz und das Bundesbahn-Pensionsgesetz geändert werden ( 4141/A )"
+                  "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz, das Pensionsgesetz 1965, das Bundestheaterpensionsgesetz und das Bundesbahn-Pensionsgesetz geändert werden ( 4141/A )",
+                  "timeStart": "8.640",
+                  "timeEnd": "8.960",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz, das Pensionsgesetz 1965, das Bundestheaterpensionsgesetz und das Bundesbahn-Pensionsgesetz geändert werden ( 4141/A )"
@@ -254,10 +322,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "8.960",
+                  "timeEnd": "8.960",
+                  "entities": []
                 },
                 {
-                  "text": "Friedrich Ofenauer , David Stögmüller , Kolleginnen und Kollegen betreffend Österreichs Teilnahme an der European Sky Shield Initiative und Bekenntnis zur Stärkung der Luftverteidigung ( 4145/A(E) )"
+                  "text": "Friedrich Ofenauer , David Stögmüller , Kolleginnen und Kollegen betreffend Österreichs Teilnahme an der European Sky Shield Initiative und Bekenntnis zur Stärkung der Luftverteidigung ( 4145/A(E) )",
+                  "timeStart": "8.960",
+                  "timeEnd": "8.960",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Friedrich Ofenauer , David Stögmüller , Kolleginnen und Kollegen betreffend Österreichs Teilnahme an der European Sky Shield Initiative und Bekenntnis zur Stärkung der Luftverteidigung ( 4145/A(E) )"
@@ -268,7 +342,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ausschuss für innere Angelegenheiten:"
+                  "text": "Ausschuss für innere Angelegenheiten:",
+                  "timeStart": "8.960",
+                  "timeEnd": "8.960",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für innere Angelegenheiten:"
@@ -279,7 +356,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Eröffnung eines Wachzimmers am Bahnhof in Wiener Neustadt und mehr Planstellen für die Polizei\" ( 4143/A(E) )"
+                  "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Eröffnung eines Wachzimmers am Bahnhof in Wiener Neustadt und mehr Planstellen für die Polizei\" ( 4143/A(E) )",
+                  "timeStart": "8.960",
+                  "timeEnd": "9.680",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Eröffnung eines Wachzimmers am Bahnhof in Wiener Neustadt und mehr Planstellen für die Polizei\" ( 4143/A(E) )"
@@ -290,7 +370,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verfassungsausschuss:"
+                  "text": "Verfassungsausschuss:",
+                  "timeStart": "9.680",
+                  "timeEnd": "9.760",
+                  "entities": []
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -301,13 +384,22 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "9.760",
+                  "timeEnd": "9.800",
+                  "entities": []
                 },
                 {
-                  "text": "Romana Deckenbacher , Mag."
+                  "text": "Romana Deckenbacher , Mag.",
+                  "timeStart": "9.800",
+                  "timeEnd": "10.000",
+                  "entities": []
                 },
                 {
-                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Beamten-Dienstrechtsgesetz 1979, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948, das Richter- und Staatsanwaltschaftsdienstgesetz, das Landeslehrer-Dienstrechtsgesetz, das Land- und forstwirtschaftliche Landeslehrpersonen-Dienstrechtsgesetz, das Landesvertragslehrpersonengesetz 1966, das Land- und forstwirtschaftliche Landesvertragslehrpersonengesetz, das Land- und Forstarbeiter-Dienstrechtsgesetz, die Reisegebührenvorschrift 1955, das Bundes-Gleichbehandlungsgesetz, das Bundes-Personalvertretungsgesetz, das Ausschreibungsgesetz 1989, das Pensionsgesetz 1965, das Bundes-Bedienstetenschutzgesetz und das Bundeslehrer-Lehrverpflichtungsgesetz geändert werden (Dienstrechts-Novelle 2024) ( 4142/A )"
+                  "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Beamten-Dienstrechtsgesetz 1979, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948, das Richter- und Staatsanwaltschaftsdienstgesetz, das Landeslehrer-Dienstrechtsgesetz, das Land- und forstwirtschaftliche Landeslehrpersonen-Dienstrechtsgesetz, das Landesvertragslehrpersonengesetz 1966, das Land- und forstwirtschaftliche Landesvertragslehrpersonengesetz, das Land- und Forstarbeiter-Dienstrechtsgesetz, die Reisegebührenvorschrift 1955, das Bundes-Gleichbehandlungsgesetz, das Bundes-Personalvertretungsgesetz, das Ausschreibungsgesetz 1989, das Pensionsgesetz 1965, das Bundes-Bedienstetenschutzgesetz und das Bundeslehrer-Lehrverpflichtungsgesetz geändert werden (Dienstrechts-Novelle 2024) ( 4142/A )",
+                  "timeStart": "10.000",
+                  "timeEnd": "18.000",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Romana Deckenbacher , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Beamten-Dienstrechtsgesetz 1979, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948, das Richter- und Staatsanwaltschaftsdienstgesetz, das Landeslehrer-Dienstrechtsgesetz, das Land- und forstwirtschaftliche Landeslehrpersonen-Dienstrechtsgesetz, das Landesvertragslehrpersonengesetz 1966, das Land- und forstwirtschaftliche Landesvertragslehrpersonengesetz, das Land- und Forstarbeiter-Dienstrechtsgesetz, die Reisegebührenvorschrift 1955, das Bundes-Gleichbehandlungsgesetz, das Bundes-Personalvertretungsgesetz, das Ausschreibungsgesetz 1989, das Pensionsgesetz 1965, das Bundes-Bedienstetenschutzgesetz und das Bundeslehrer-Lehrverpflichtungsgesetz geändert werden (Dienstrechts-Novelle 2024) ( 4142/A )"
@@ -319,7 +411,9 @@
         "mediaIndex": 1,
         "stdId": 330447,
         "debatteId": 300,
-        "proceedingIndex": 330447
+        "proceedingIndex": 330447,
+        "alignDuration": 0.6323158740997314,
+        "nerDuration": 0.1516411304473877
       },
       "originalLanguage": "de"
     },
@@ -347,7 +441,8 @@
         "originMediaID": "330494",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/508003f9-6633-4608-8439-8f8342256df8/508003f9-6633-4608-8439-8f8342256df8.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/508003f9-6633-4608-8439-8f8342256df8/508003f9-6633-4608-8439-8f8342256df8.mp3",
-        "duration": 118
+        "duration": 118,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:21:59",
       "dateEnd": "2024-07-05T17:23:57",
@@ -379,7 +474,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "17.21.49Beschluss auf Beendigung der ordentlichen Tagung 2023/2024"
+                  "text": "17.21.49Beschluss auf Beendigung der ordentlichen Tagung 2023/2024",
+                  "timeStart": "1.000",
+                  "timeEnd": "34.120",
+                  "entities": []
                 }
               ],
               "text": "17.21.49Beschluss auf Beendigung der ordentlichen Tagung 2023/2024"
@@ -390,13 +488,22 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es liegt mir folgender Antrag der Abgeordneten Haubner, Mag."
+                  "text": "Es liegt mir folgender Antrag der Abgeordneten Haubner, Mag.",
+                  "timeStart": "34.120",
+                  "timeEnd": "45.280",
+                  "entities": []
                 },
                 {
-                  "text": "Dr. Schwarz, BA, Mag."
+                  "text": "Dr. Schwarz, BA, Mag.",
+                  "timeStart": "45.280",
+                  "timeEnd": "54.000",
+                  "entities": []
                 },
                 {
-                  "text": "Greiner, Ing. Hofer, Dr. Scherak, MA vor:"
+                  "text": "Greiner, Ing. Hofer, Dr. Scherak, MA vor:",
+                  "timeStart": "54.000",
+                  "timeEnd": "61.320",
+                  "entities": []
                 }
               ],
               "text": "Es liegt mir folgender Antrag der Abgeordneten Haubner, Mag. Dr. Schwarz, BA, Mag. Greiner, Ing. Hofer, Dr. Scherak, MA vor:"
@@ -407,10 +514,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2023/2024 der XXVII."
+                  "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2023/2024 der XXVII.",
+                  "timeStart": "61.320",
+                  "timeEnd": "84.360",
+                  "entities": []
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2024 für beendet zu erklären.“"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2024 für beendet zu erklären.“",
+                  "timeStart": "84.360",
+                  "timeEnd": "105.200",
+                  "entities": []
                 }
               ],
               "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2023/2024 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2024 für beendet zu erklären.“"
@@ -421,10 +534,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer damit einverstanden ist, den darf ich um ein Zeichen bitten. –"
+                  "text": "Wer damit einverstanden ist, den darf ich um ein Zeichen bitten. –",
+                  "timeStart": "105.200",
+                  "timeEnd": "113.880",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist einstimmig angenommen ."
+                  "text": "Das ist einstimmig angenommen .",
+                  "timeStart": "113.880",
+                  "timeEnd": "117.960",
+                  "entities": []
                 }
               ],
               "text": "Wer damit einverstanden ist, den darf ich um ein Zeichen bitten. – Das ist einstimmig angenommen ."
@@ -436,7 +555,9 @@
         "mediaIndex": 2,
         "stdId": 330494,
         "debatteId": 310,
-        "proceedingIndex": 330494
+        "proceedingIndex": 330494,
+        "alignDuration": 0.407426118850708,
+        "nerDuration": 0.037286996841430664
       },
       "originalLanguage": "de"
     },
@@ -464,7 +585,8 @@
         "originMediaID": "330485",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/9c34b149-0d2e-4734-9757-9aa0cc209dcf/9c34b149-0d2e-4734-9757-9aa0cc209dcf.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/9c34b149-0d2e-4734-9757-9aa0cc209dcf/9c34b149-0d2e-4734-9757-9aa0cc209dcf.mp3",
-        "duration": 21
+        "duration": 21,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:23:57",
       "dateEnd": "2024-07-05T17:24:18",
@@ -496,7 +618,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Debatte über einen Antrag auf Permanenterklärung eines Ausschusses"
+                  "text": "Debatte über einen Antrag auf Permanenterklärung eines Ausschusses",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.560",
+                  "entities": []
                 }
               ],
               "text": "Debatte über einen Antrag auf Permanenterklärung eines Ausschusses"
@@ -507,7 +632,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir gehen nun in die Debatte ein."
+                  "text": "Wir gehen nun in die Debatte ein.",
+                  "timeStart": "3.560",
+                  "timeEnd": "4.440",
+                  "entities": []
                 }
               ],
               "text": "Wir gehen nun in die Debatte ein."
@@ -518,7 +646,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich beschränke die Redezeiten in dieser Debatte gemäß § 59 Abs. 3 der Geschäftsordnung auf 5 Minuten."
+                  "text": "Ich beschränke die Redezeiten in dieser Debatte gemäß § 59 Abs. 3 der Geschäftsordnung auf 5 Minuten.",
+                  "timeStart": "4.440",
+                  "timeEnd": "8.360",
+                  "entities": []
                 }
               ],
               "text": "Ich beschränke die Redezeiten in dieser Debatte gemäß § 59 Abs. 3 der Geschäftsordnung auf 5 Minuten."
@@ -529,10 +660,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich erteile Abgeordnetem Hanger, weil in der Reihenfolge der Fraktionsstärke vorgegangen wird, das Wort. –"
+                  "text": "Ich erteile Abgeordnetem Hanger, weil in der Reihenfolge der Fraktionsstärke vorgegangen wird, das Wort. –",
+                  "timeStart": "8.360",
+                  "timeEnd": "15.400",
+                  "entities": []
                 },
                 {
-                  "text": "Bitte, Herr Abgeordneter Hanger, Sie sind zu Wort gemeldet."
+                  "text": "Bitte, Herr Abgeordneter Hanger, Sie sind zu Wort gemeldet.",
+                  "timeStart": "15.400",
+                  "timeEnd": "21.960",
+                  "entities": []
                 }
               ],
               "text": "Ich erteile Abgeordnetem Hanger, weil in der Reihenfolge der Fraktionsstärke vorgegangen wird, das Wort. – Bitte, Herr Abgeordneter Hanger, Sie sind zu Wort gemeldet."
@@ -544,7 +681,9 @@
         "mediaIndex": 3,
         "stdId": 330485,
         "debatteId": 95,
-        "proceedingIndex": 330485
+        "proceedingIndex": 330485,
+        "alignDuration": 0.31368494033813477,
+        "nerDuration": 0.024211883544921875
       },
       "originalLanguage": "de"
     },
@@ -572,7 +711,8 @@
         "originMediaID": "330462",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d3bcba32-3ca8-4e19-8f0a-48aed849564a/d3bcba32-3ca8-4e19-8f0a-48aed849564a.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d3bcba32-3ca8-4e19-8f0a-48aed849564a/d3bcba32-3ca8-4e19-8f0a-48aed849564a.mp3",
-        "duration": 299
+        "duration": 299,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:24:18",
       "dateEnd": "2024-07-05T17:29:17",
@@ -619,7 +759,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "17.24"
+                  "text": "17.24",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.440",
+                  "entities": []
                 }
               ],
               "text": "17.24"
@@ -630,16 +773,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident!"
+                  "text": "Herr Präsident!",
+                  "timeStart": "2.440",
+                  "timeEnd": "2.920",
+                  "entities": []
                 },
                 {
-                  "text": "Werte Kolleginnen und Kollegen!"
+                  "text": "Werte Kolleginnen und Kollegen!",
+                  "timeStart": "2.920",
+                  "timeEnd": "3.760",
+                  "entities": []
                 },
                 {
-                  "text": "Liebe Zuseherinnen und Zuseher hier im Parlament und natürlich auch zu Hause vor den entsprechenden Geräten."
+                  "text": "Liebe Zuseherinnen und Zuseher hier im Parlament und natürlich auch zu Hause vor den entsprechenden Geräten.",
+                  "timeStart": "3.760",
+                  "timeEnd": "10.160",
+                  "entities": []
                 },
                 {
-                  "text": "Ich darf einleitend gleich einmal festhalten, dass wir den Antrag des Kollegen Krainer, der SPÖ unterstützen, weil auch wir die Notwendigkeit sehen, dass der Unvereinbarkeitsausschuss auch während der tagungsfreien Zeit tagen kann."
+                  "text": "Ich darf einleitend gleich einmal festhalten, dass wir den Antrag des Kollegen Krainer, der SPÖ unterstützen, weil auch wir die Notwendigkeit sehen, dass der Unvereinbarkeitsausschuss auch während der tagungsfreien Zeit tagen kann.",
+                  "timeStart": "10.160",
+                  "timeEnd": "23.880",
+                  "entities": []
                 }
               ],
               "text": "Herr Präsident! Werte Kolleginnen und Kollegen! Liebe Zuseherinnen und Zuseher hier im Parlament und natürlich auch zu Hause vor den entsprechenden Geräten. Ich darf einleitend gleich einmal festhalten, dass wir den Antrag des Kollegen Krainer, der SPÖ unterstützen, weil auch wir die Notwendigkeit sehen, dass der Unvereinbarkeitsausschuss auch während der tagungsfreien Zeit tagen kann."
@@ -650,7 +805,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich darf ganz kurz erklären, worum es geht: Es geht darum, dass es sehr deutliche Indizien dafür gibt, dass sich Herr Klubobmann Kickl zum einen nicht an das Berufsverbot gehalten hat; Klubobleute haben ein Berufsverbot, sie dürfen keiner Tätigkeit mit Erwerbsabsicht nachgehen."
+                  "text": "Ich darf ganz kurz erklären, worum es geht: Es geht darum, dass es sehr deutliche Indizien dafür gibt, dass sich Herr Klubobmann Kickl zum einen nicht an das Berufsverbot gehalten hat; Klubobleute haben ein Berufsverbot, sie dürfen keiner Tätigkeit mit Erwerbsabsicht nachgehen.",
+                  "timeStart": "23.880",
+                  "timeEnd": "41.480",
+                  "entities": []
                 }
               ],
               "text": "Ich darf ganz kurz erklären, worum es geht: Es geht darum, dass es sehr deutliche Indizien dafür gibt, dass sich Herr Klubobmann Kickl zum einen nicht an das Berufsverbot gehalten hat; Klubobleute haben ein Berufsverbot, sie dürfen keiner Tätigkeit mit Erwerbsabsicht nachgehen."
@@ -661,10 +819,16 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es gibt ein zweites Thema: Es gibt sehr starke Indizien dafür, dass auch Meldepflichten an das Parlament verletzt worden sind."
+                  "text": "Es gibt ein zweites Thema: Es gibt sehr starke Indizien dafür, dass auch Meldepflichten an das Parlament verletzt worden sind.",
+                  "timeStart": "41.480",
+                  "timeEnd": "51.240",
+                  "entities": []
                 },
                 {
-                  "text": "Wir alle wissen, wir Abgeordnete haben kein Berufsverbot, wir dürfen Tätigkeiten neben unserer Abgeordnetentätigkeit nachgehen, haben das aber dem Parlament zu melden."
+                  "text": "Wir alle wissen, wir Abgeordnete haben kein Berufsverbot, wir dürfen Tätigkeiten neben unserer Abgeordnetentätigkeit nachgehen, haben das aber dem Parlament zu melden.",
+                  "timeStart": "51.240",
+                  "timeEnd": "60.040",
+                  "entities": []
                 }
               ],
               "text": "Es gibt ein zweites Thema: Es gibt sehr starke Indizien dafür, dass auch Meldepflichten an das Parlament verletzt worden sind. Wir alle wissen, wir Abgeordnete haben kein Berufsverbot, wir dürfen Tätigkeiten neben unserer Abgeordnetentätigkeit nachgehen, haben das aber dem Parlament zu melden."
@@ -675,7 +839,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wir haben zu unterscheiden: Tätigkeiten, aus denen wir ein Einkommen haben, und Tätigkeiten, aus denen wir kein Einkommen haben – das sind Tätigkeiten als Obmann eines Vereines, als Geschäftsführer einer GesmbH, als Vorstand einer Genossenschaft oder was auch immer."
+                  "text": "Wir haben zu unterscheiden: Tätigkeiten, aus denen wir ein Einkommen haben, und Tätigkeiten, aus denen wir kein Einkommen haben – das sind Tätigkeiten als Obmann eines Vereines, als Geschäftsführer einer GesmbH, als Vorstand einer Genossenschaft oder was auch immer.",
+                  "timeStart": "60.040",
+                  "timeEnd": "73.660",
+                  "entities": []
                 }
               ],
               "text": "Wir haben zu unterscheiden: Tätigkeiten, aus denen wir ein Einkommen haben, und Tätigkeiten, aus denen wir kein Einkommen haben – das sind Tätigkeiten als Obmann eines Vereines, als Geschäftsführer einer GesmbH, als Vorstand einer Genossenschaft oder was auch immer."
@@ -686,16 +853,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Und ja, anknüpfen muss ich am Untersuchungsausschuss zum blau-roten Machtmissbrauch."
+                  "text": "Und ja, anknüpfen muss ich am Untersuchungsausschuss zum blau-roten Machtmissbrauch.",
+                  "timeStart": "73.660",
+                  "timeEnd": "80.960",
+                  "entities": []
                 },
                 {
-                  "text": "Klubobmann Kickl war als Auskunftsperson geladen, und das Ergebnis war ganz einfach, dass am Ende der Befragung mehr Fragen offen geblieben sind, als er beantwortet hat."
+                  "text": "Klubobmann Kickl war als Auskunftsperson geladen, und das Ergebnis war ganz einfach, dass am Ende der Befragung mehr Fragen offen geblieben sind, als er beantwortet hat.",
+                  "timeStart": "80.960",
+                  "timeEnd": "90.440",
+                  "entities": []
                 },
                 {
-                  "text": "Wir hätten ja gerne Klubobmann Kickl ein zweites Mal geladen, doch er hat dann eine Bergtour machen müssen."
+                  "text": "Wir hätten ja gerne Klubobmann Kickl ein zweites Mal geladen, doch er hat dann eine Bergtour machen müssen.",
+                  "timeStart": "90.440",
+                  "timeEnd": "96.280",
+                  "entities": []
                 },
                 {
-                  "text": "Das alleine halte ich schon für einen demokratiepolitischen Skandal, einen Missbrauch des Parlaments."
+                  "text": "Das alleine halte ich schon für einen demokratiepolitischen Skandal, einen Missbrauch des Parlaments.",
+                  "timeStart": "96.280",
+                  "timeEnd": "101.560",
+                  "entities": []
                 }
               ],
               "text": "Und ja, anknüpfen muss ich am Untersuchungsausschuss zum blau-roten Machtmissbrauch. Klubobmann Kickl war als Auskunftsperson geladen, und das Ergebnis war ganz einfach, dass am Ende der Befragung mehr Fragen offen geblieben sind, als er beantwortet hat. Wir hätten ja gerne Klubobmann Kickl ein zweites Mal geladen, doch er hat dann eine Bergtour machen müssen. Das alleine halte ich schon für einen demokratiepolitischen Skandal, einen Missbrauch des Parlaments."
@@ -706,10 +885,16 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ganz konkret aber zu den Sachverhalten, die es aufzuklären gilt: Einmal mehr geht es um die Unternehmerpersönlichkeit Kickl."
+                  "text": "Ganz konkret aber zu den Sachverhalten, die es aufzuklären gilt: Einmal mehr geht es um die Unternehmerpersönlichkeit Kickl.",
+                  "timeStart": "101.560",
+                  "timeEnd": "110.080",
+                  "entities": []
                 },
                 {
-                  "text": "Ich halte schon auch fest: Natürlich darf auch Herr Kickl ein Unternehmen gründen – ganz im Gegenteil, ich begrüße das sogar sehr –, nur sind da ein paar Dinge, die halt ein bisschen dubios und merkwürdig sind und die man aufklären muss."
+                  "text": "Ich halte schon auch fest: Natürlich darf auch Herr Kickl ein Unternehmen gründen – ganz im Gegenteil, ich begrüße das sogar sehr –, nur sind da ein paar Dinge, die halt ein bisschen dubios und merkwürdig sind und die man aufklären muss.",
+                  "timeStart": "110.080",
+                  "timeEnd": "120.080",
+                  "entities": []
                 }
               ],
               "text": "Ganz konkret aber zu den Sachverhalten, die es aufzuklären gilt: Einmal mehr geht es um die Unternehmerpersönlichkeit Kickl. Ich halte schon auch fest: Natürlich darf auch Herr Kickl ein Unternehmen gründen – ganz im Gegenteil, ich begrüße das sogar sehr –, nur sind da ein paar Dinge, die halt ein bisschen dubios und merkwürdig sind und die man aufklären muss."
@@ -720,13 +905,22 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Zum einen 2005, erste Unternehmensgründung: Es wird eine Werbeagentur mit Herrn Thomas Sila gegründet."
+                  "text": "Zum einen 2005, erste Unternehmensgründung: Es wird eine Werbeagentur mit Herrn Thomas Sila gegründet.",
+                  "timeStart": "120.080",
+                  "timeEnd": "125.680",
+                  "entities": []
                 },
                 {
-                  "text": "Beide waren Mitarbeiter der FPÖ Kärnten."
+                  "text": "Beide waren Mitarbeiter der FPÖ Kärnten.",
+                  "timeStart": "125.680",
+                  "timeEnd": "127.960",
+                  "entities": []
                 },
                 {
-                  "text": "Das Besondere daran war, dass Kickl zu 50 Prozent treuhänderisch Eigentümer dieser GesmbH ist und das nicht öffentlich gemacht hat."
+                  "text": "Das Besondere daran war, dass Kickl zu 50 Prozent treuhänderisch Eigentümer dieser GesmbH ist und das nicht öffentlich gemacht hat.",
+                  "timeStart": "127.960",
+                  "timeEnd": "136.760",
+                  "entities": []
                 }
               ],
               "text": "Zum einen 2005, erste Unternehmensgründung: Es wird eine Werbeagentur mit Herrn Thomas Sila gegründet. Beide waren Mitarbeiter der FPÖ Kärnten. Das Besondere daran war, dass Kickl zu 50 Prozent treuhänderisch Eigentümer dieser GesmbH ist und das nicht öffentlich gemacht hat."
@@ -737,16 +931,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Die erste Frage ist: Wieso macht er das?"
+                  "text": "Die erste Frage ist: Wieso macht er das?",
+                  "timeStart": "136.760",
+                  "timeEnd": "138.480",
+                  "entities": []
                 },
                 {
-                  "text": "Also das verstehe ich bis heute nicht."
+                  "text": "Also das verstehe ich bis heute nicht.",
+                  "timeStart": "138.480",
+                  "timeEnd": "139.880",
+                  "entities": []
                 },
                 {
-                  "text": "Er sagt dann zwar: Ja, wenige Tage, wenige Wochen danach – Notariatsakt, muss man dazusagen, Stammeinlage wurde bezahlt –, wenige Tage danach habe ich das mündlich aufgelöst!"
+                  "text": "Er sagt dann zwar: Ja, wenige Tage, wenige Wochen danach – Notariatsakt, muss man dazusagen, Stammeinlage wurde bezahlt –, wenige Tage danach habe ich das mündlich aufgelöst!",
+                  "timeStart": "139.880",
+                  "timeEnd": "150.720",
+                  "entities": []
                 },
                 {
-                  "text": "Nur: Dazu gibt es jetzt schon auch eine sehr klare Rechtsmeinung, dass das mündlich nicht geht."
+                  "text": "Nur: Dazu gibt es jetzt schon auch eine sehr klare Rechtsmeinung, dass das mündlich nicht geht.",
+                  "timeStart": "150.720",
+                  "timeEnd": "155.920",
+                  "entities": []
                 }
               ],
               "text": "Die erste Frage ist: Wieso macht er das? Also das verstehe ich bis heute nicht. Er sagt dann zwar: Ja, wenige Tage, wenige Wochen danach – Notariatsakt, muss man dazusagen, Stammeinlage wurde bezahlt –, wenige Tage danach habe ich das mündlich aufgelöst! Nur: Dazu gibt es jetzt schon auch eine sehr klare Rechtsmeinung, dass das mündlich nicht geht."
@@ -757,7 +963,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Diese Frage ist zu klären, denn wenn das nicht geht, hat das weitreichende wirtschaftliche Implikationen, nämlich insofern, als dass die Ideenschmiede GmbH – um die geht es – dann über Jahre sehr hohe Gewinnausschüttungen gemacht hat, und Herr Kickl hat dann natürlich zu 50 Prozent Anspruch auf diese Gewinnausschüttungen."
+                  "text": "Diese Frage ist zu klären, denn wenn das nicht geht, hat das weitreichende wirtschaftliche Implikationen, nämlich insofern, als dass die Ideenschmiede GmbH – um die geht es – dann über Jahre sehr hohe Gewinnausschüttungen gemacht hat, und Herr Kickl hat dann natürlich zu 50 Prozent Anspruch auf diese Gewinnausschüttungen.",
+                  "timeStart": "155.920",
+                  "timeEnd": "172.200",
+                  "entities": []
                 }
               ],
               "text": "Diese Frage ist zu klären, denn wenn das nicht geht, hat das weitreichende wirtschaftliche Implikationen, nämlich insofern, als dass die Ideenschmiede GmbH – um die geht es – dann über Jahre sehr hohe Gewinnausschüttungen gemacht hat, und Herr Kickl hat dann natürlich zu 50 Prozent Anspruch auf diese Gewinnausschüttungen."
@@ -768,7 +977,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das wird insofern sehr interessant, als die Ideenschmiede zu seiner Zeit als Innenminister immer noch da war und es sogar eine Zusammenarbeit mit der Ideenschmiede, genau genommen mit der Nachfolgefirma, der Signs GmbH, gegeben hat."
+                  "text": "Das wird insofern sehr interessant, als die Ideenschmiede zu seiner Zeit als Innenminister immer noch da war und es sogar eine Zusammenarbeit mit der Ideenschmiede, genau genommen mit der Nachfolgefirma, der Signs GmbH, gegeben hat.",
+                  "timeStart": "172.200",
+                  "timeEnd": "185.480",
+                  "entities": []
                 }
               ],
               "text": "Das wird insofern sehr interessant, als die Ideenschmiede zu seiner Zeit als Innenminister immer noch da war und es sogar eine Zusammenarbeit mit der Ideenschmiede, genau genommen mit der Nachfolgefirma, der Signs GmbH, gegeben hat."
@@ -779,19 +991,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Rein theoretisch schaut es also so aus, dass Innenminister Kickl sich selber Aufträge an eine GesmbH gegeben hat und – das wissen wir relativ genau – in seiner Zeit als Generalsekretär."
+                  "text": "Rein theoretisch schaut es also so aus, dass Innenminister Kickl sich selber Aufträge an eine GesmbH gegeben hat und – das wissen wir relativ genau – in seiner Zeit als Generalsekretär.",
+                  "timeStart": "185.480",
+                  "timeEnd": "194.960",
+                  "entities": []
                 },
                 {
-                  "text": "Er war ja dann Generalsekretär."
+                  "text": "Er war ja dann Generalsekretär.",
+                  "timeStart": "194.960",
+                  "timeEnd": "197.080",
+                  "entities": []
                 },
                 {
-                  "text": "Wir wissen, da wurde dann sein Gehalt durch die FPÖ Wien verdreifacht."
+                  "text": "Wir wissen, da wurde dann sein Gehalt durch die FPÖ Wien verdreifacht.",
+                  "timeStart": "197.080",
+                  "timeEnd": "200.280",
+                  "entities": []
                 },
                 {
-                  "text": "Als Generalsekretär, als Mitarbeiter der FPÖ Wien hat er Millionenaufträge an diese Agentur vergeben, da wurden Millionen Euro an Gewinnausschüttungen gemacht."
+                  "text": "Als Generalsekretär, als Mitarbeiter der FPÖ Wien hat er Millionenaufträge an diese Agentur vergeben, da wurden Millionen Euro an Gewinnausschüttungen gemacht.",
+                  "timeStart": "200.280",
+                  "timeEnd": "209.600",
+                  "entities": []
                 },
                 {
-                  "text": "Da steht natürlich im Raum, ob dieses Berufsverbot entsprechend verletzt wurde."
+                  "text": "Da steht natürlich im Raum, ob dieses Berufsverbot entsprechend verletzt wurde.",
+                  "timeStart": "209.600",
+                  "timeEnd": "215.080",
+                  "entities": []
                 }
               ],
               "text": "Rein theoretisch schaut es also so aus, dass Innenminister Kickl sich selber Aufträge an eine GesmbH gegeben hat und – das wissen wir relativ genau – in seiner Zeit als Generalsekretär. Er war ja dann Generalsekretär. Wir wissen, da wurde dann sein Gehalt durch die FPÖ Wien verdreifacht. Als Generalsekretär, als Mitarbeiter der FPÖ Wien hat er Millionenaufträge an diese Agentur vergeben, da wurden Millionen Euro an Gewinnausschüttungen gemacht. Da steht natürlich im Raum, ob dieses Berufsverbot entsprechend verletzt wurde."
@@ -802,19 +1029,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Spannend wird es noch ein zweites Mal, 2010, wieder ein Treuhandvertrag: Da geht es nicht um eine GesmbH, sondern um eine Immobilie."
+                  "text": "Spannend wird es noch ein zweites Mal, 2010, wieder ein Treuhandvertrag: Da geht es nicht um eine GesmbH, sondern um eine Immobilie.",
+                  "timeStart": "215.080",
+                  "timeEnd": "223.280",
+                  "entities": []
                 },
                 {
-                  "text": "Wir wissen, dass Herr Kickl zu 50 Prozent treuhänderisch Eigentümer der Immobilie war, wo die Werbeagentur eingemietet war."
+                  "text": "Wir wissen, dass Herr Kickl zu 50 Prozent treuhänderisch Eigentümer der Immobilie war, wo die Werbeagentur eingemietet war.",
+                  "timeStart": "223.280",
+                  "timeEnd": "232.520",
+                  "entities": []
                 },
                 {
-                  "text": "Da sehen wir auch sehr klar, dass er natürlich dort auch Mieteinnahmen hatte, zu 50 Prozent in jedem Fall."
+                  "text": "Da sehen wir auch sehr klar, dass er natürlich dort auch Mieteinnahmen hatte, zu 50 Prozent in jedem Fall.",
+                  "timeStart": "232.520",
+                  "timeEnd": "238.440",
+                  "entities": []
                 },
                 {
-                  "text": "Da sehen wir auch eine unternehmerische Tätigkeit, eine Verletzung des Berufsverbotes."
+                  "text": "Da sehen wir auch eine unternehmerische Tätigkeit, eine Verletzung des Berufsverbotes.",
+                  "timeStart": "238.440",
+                  "timeEnd": "243.560",
+                  "entities": []
                 },
                 {
-                  "text": "Das gehört entsprechend aufgeklärt."
+                  "text": "Das gehört entsprechend aufgeklärt.",
+                  "timeStart": "243.560",
+                  "timeEnd": "245.360",
+                  "entities": []
                 }
               ],
               "text": "Spannend wird es noch ein zweites Mal, 2010, wieder ein Treuhandvertrag: Da geht es nicht um eine GesmbH, sondern um eine Immobilie. Wir wissen, dass Herr Kickl zu 50 Prozent treuhänderisch Eigentümer der Immobilie war, wo die Werbeagentur eingemietet war. Da sehen wir auch sehr klar, dass er natürlich dort auch Mieteinnahmen hatte, zu 50 Prozent in jedem Fall. Da sehen wir auch eine unternehmerische Tätigkeit, eine Verletzung des Berufsverbotes. Das gehört entsprechend aufgeklärt."
@@ -825,7 +1067,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es gibt auch einen dritten Sachverhalt, der ganz spannend ist: Er behauptet ja immer wieder, dass er die Tätigkeit als Bundesparteiobmann immer ehrenamtlich gemacht hat, aber da sehen wir möglicherweise – aber das gilt es jetzt entsprechend aufzuklären – eine entsprechende Einkommenssituation, die er dem Parlament hätte melden müssen."
+                  "text": "Es gibt auch einen dritten Sachverhalt, der ganz spannend ist: Er behauptet ja immer wieder, dass er die Tätigkeit als Bundesparteiobmann immer ehrenamtlich gemacht hat, aber da sehen wir möglicherweise – aber das gilt es jetzt entsprechend aufzuklären – eine entsprechende Einkommenssituation, die er dem Parlament hätte melden müssen.",
+                  "timeStart": "245.360",
+                  "timeEnd": "264.120",
+                  "entities": []
                 }
               ],
               "text": "Es gibt auch einen dritten Sachverhalt, der ganz spannend ist: Er behauptet ja immer wieder, dass er die Tätigkeit als Bundesparteiobmann immer ehrenamtlich gemacht hat, aber da sehen wir möglicherweise – aber das gilt es jetzt entsprechend aufzuklären – eine entsprechende Einkommenssituation, die er dem Parlament hätte melden müssen."
@@ -836,19 +1081,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Also ich resümiere und halte fest: Es sind tatsächlich alle Akten und Unterlagen wichtig, und Herr Kickl ist einfach aufgefordert, das nachzuliefern, dann kann man das ja entsprechend aufklären."
+                  "text": "Also ich resümiere und halte fest: Es sind tatsächlich alle Akten und Unterlagen wichtig, und Herr Kickl ist einfach aufgefordert, das nachzuliefern, dann kann man das ja entsprechend aufklären.",
+                  "timeStart": "264.120",
+                  "timeEnd": "274.640",
+                  "entities": []
                 },
                 {
-                  "text": "Im Untersuchungsausschuss, unter Wahrheitspflicht, wollte er es nicht machen, jetzt bekommt er eine zweite Chance."
+                  "text": "Im Untersuchungsausschuss, unter Wahrheitspflicht, wollte er es nicht machen, jetzt bekommt er eine zweite Chance.",
+                  "timeStart": "274.640",
+                  "timeEnd": "279.640",
+                  "entities": []
                 },
                 {
-                  "text": "Diese zweite Chance sollten wir ihm geben, aber die Indizienlast ist mehr als erdrückend. ("
+                  "text": "Diese zweite Chance sollten wir ihm geben, aber die Indizienlast ist mehr als erdrückend. (",
+                  "timeStart": "279.640",
+                  "timeEnd": "282.920",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei ÖVP und Grünen sowie des Abg."
+                  "text": "Beifall bei ÖVP und Grünen sowie des Abg.",
+                  "timeStart": "282.920",
+                  "timeEnd": "283.640",
+                  "entities": []
                 },
                 {
-                  "text": "Lindner. )"
+                  "text": "Lindner. )",
+                  "timeStart": "283.640",
+                  "timeEnd": "283.800",
+                  "entities": []
                 }
               ],
               "text": "Also ich resümiere und halte fest: Es sind tatsächlich alle Akten und Unterlagen wichtig, und Herr Kickl ist einfach aufgefordert, das nachzuliefern, dann kann man das ja entsprechend aufklären. Im Untersuchungsausschuss, unter Wahrheitspflicht, wollte er es nicht machen, jetzt bekommt er eine zweite Chance. Diese zweite Chance sollten wir ihm geben, aber die Indizienlast ist mehr als erdrückend. (Beifall bei ÖVP und Grünen sowie des Abg. Lindner. )"
@@ -859,7 +1119,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "17.28"
+                  "text": "17.28",
+                  "timeStart": "283.800",
+                  "timeEnd": "287.160",
+                  "entities": []
                 }
               ],
               "text": "17.28"
@@ -870,10 +1133,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Krainer. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Krainer. –",
+                  "timeStart": "287.160",
+                  "timeEnd": "298.760",
+                  "entities": []
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "298.760",
+                  "timeEnd": "299.960",
+                  "entities": []
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Krainer. – Bitte."
@@ -885,7 +1154,9 @@
         "mediaIndex": 4,
         "stdId": 330462,
         "debatteId": 95,
-        "proceedingIndex": 330462
+        "proceedingIndex": 330462,
+        "alignDuration": 1.0249781608581543,
+        "nerDuration": 0.2624340057373047
       },
       "originalLanguage": "de"
     },
@@ -913,7 +1184,8 @@
         "originMediaID": "330474",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6e4806fe-7640-4f58-bd04-483e59ab279c/6e4806fe-7640-4f58-bd04-483e59ab279c.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6e4806fe-7640-4f58-bd04-483e59ab279c/6e4806fe-7640-4f58-bd04-483e59ab279c.mp3",
-        "duration": 333
+        "duration": 333,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:29:17",
       "dateEnd": "2024-07-05T17:34:50",
@@ -960,7 +1232,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "17.29"
+                  "text": "17.29",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.800",
+                  "entities": []
                 }
               ],
               "text": "17.29"
@@ -971,13 +1246,22 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident!"
+                  "text": "Herr Präsident!",
+                  "timeStart": "2.800",
+                  "timeEnd": "4.000",
+                  "entities": []
                 },
                 {
-                  "text": "Meine sehr geehrten Damen und Herren!"
+                  "text": "Meine sehr geehrten Damen und Herren!",
+                  "timeStart": "4.000",
+                  "timeEnd": "5.440",
+                  "entities": []
                 },
                 {
-                  "text": "Wir haben das Unvereinbarkeits- und Transparenz-Gesetz, das uns als Politiker verpflichtet, da wir auch Vorbilder sein müssen, klar auf den Tisch zu legen, ob uns eine Firma gehört, welches Einkommen wir haben et cetera."
+                  "text": "Wir haben das Unvereinbarkeits- und Transparenz-Gesetz, das uns als Politiker verpflichtet, da wir auch Vorbilder sein müssen, klar auf den Tisch zu legen, ob uns eine Firma gehört, welches Einkommen wir haben et cetera.",
+                  "timeStart": "5.440",
+                  "timeEnd": "23.040",
+                  "entities": []
                 }
               ],
               "text": "Herr Präsident! Meine sehr geehrten Damen und Herren! Wir haben das Unvereinbarkeits- und Transparenz-Gesetz, das uns als Politiker verpflichtet, da wir auch Vorbilder sein müssen, klar auf den Tisch zu legen, ob uns eine Firma gehört, welches Einkommen wir haben et cetera."
@@ -988,10 +1272,16 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das, was bereits angesprochen wurde, ist: Haben wir einen unter uns, der nicht so sehr für Transparenz steht, sondern fürs Verbergen?"
+                  "text": "Das, was bereits angesprochen wurde, ist: Haben wir einen unter uns, der nicht so sehr für Transparenz steht, sondern fürs Verbergen?",
+                  "timeStart": "23.040",
+                  "timeEnd": "32.520",
+                  "entities": []
                 },
                 {
-                  "text": "Die vorhin angesprochenen Treuhandverträge haben ja interessante Klauseln, wie zum Beispiel, dass Herr Sila sich verpflichtet, den Namen des Herrn Kickl ohne dessen ausdrückliche Zustimmung nicht preiszugeben."
+                  "text": "Die vorhin angesprochenen Treuhandverträge haben ja interessante Klauseln, wie zum Beispiel, dass Herr Sila sich verpflichtet, den Namen des Herrn Kickl ohne dessen ausdrückliche Zustimmung nicht preiszugeben.",
+                  "timeStart": "32.520",
+                  "timeEnd": "46.960",
+                  "entities": []
                 }
               ],
               "text": "Das, was bereits angesprochen wurde, ist: Haben wir einen unter uns, der nicht so sehr für Transparenz steht, sondern fürs Verbergen? Die vorhin angesprochenen Treuhandverträge haben ja interessante Klauseln, wie zum Beispiel, dass Herr Sila sich verpflichtet, den Namen des Herrn Kickl ohne dessen ausdrückliche Zustimmung nicht preiszugeben."
@@ -1002,22 +1292,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das heißt, offenbar hat Herr Kickl zu verbergen, dass er Eigentümer von Liegenschaften, von Firmen ist."
+                  "text": "Das heißt, offenbar hat Herr Kickl zu verbergen, dass er Eigentümer von Liegenschaften, von Firmen ist.",
+                  "timeStart": "46.960",
+                  "timeEnd": "55.160",
+                  "entities": []
                 },
                 {
-                  "text": "Wir wissen nicht, ob er noch immer Eigentümer ist."
+                  "text": "Wir wissen nicht, ob er noch immer Eigentümer ist.",
+                  "timeStart": "55.160",
+                  "timeEnd": "58.160",
+                  "entities": []
                 },
                 {
-                  "text": "Er hat im Untersuchungsausschuss zur GmbH gemeint, das hätte er mündlich aufgelöst, zur Liegenschaft hat er nicht gesagt, ob er sie aufgelöst hat oder nicht."
+                  "text": "Er hat im Untersuchungsausschuss zur GmbH gemeint, das hätte er mündlich aufgelöst, zur Liegenschaft hat er nicht gesagt, ob er sie aufgelöst hat oder nicht.",
+                  "timeStart": "58.160",
+                  "timeEnd": "67.560",
+                  "entities": []
                 },
                 {
-                  "text": "Wir wissen, dass beide unterschreiben, dass Herr Kickl Herrn Sila das Geld gegeben hat und dass er Eigentümer wurde."
+                  "text": "Wir wissen, dass beide unterschreiben, dass Herr Kickl Herrn Sila das Geld gegeben hat und dass er Eigentümer wurde.",
+                  "timeStart": "67.560",
+                  "timeEnd": "79.760",
+                  "entities": []
                 },
                 {
-                  "text": "Es gibt sogar einen Kündigungspassus, dass eben von beiden Seiten mit dreimonatiger Kündigungsfrist gekündigt werden kann, auch ohne Angabe von Gründen."
+                  "text": "Es gibt sogar einen Kündigungspassus, dass eben von beiden Seiten mit dreimonatiger Kündigungsfrist gekündigt werden kann, auch ohne Angabe von Gründen.",
+                  "timeStart": "79.760",
+                  "timeEnd": "88.280",
+                  "entities": []
                 },
                 {
-                  "text": "Er wollte das aber bis jetzt nicht vorlegen."
+                  "text": "Er wollte das aber bis jetzt nicht vorlegen.",
+                  "timeStart": "88.280",
+                  "timeEnd": "92.280",
+                  "entities": []
                 }
               ],
               "text": "Das heißt, offenbar hat Herr Kickl zu verbergen, dass er Eigentümer von Liegenschaften, von Firmen ist. Wir wissen nicht, ob er noch immer Eigentümer ist. Er hat im Untersuchungsausschuss zur GmbH gemeint, das hätte er mündlich aufgelöst, zur Liegenschaft hat er nicht gesagt, ob er sie aufgelöst hat oder nicht. Wir wissen, dass beide unterschreiben, dass Herr Kickl Herrn Sila das Geld gegeben hat und dass er Eigentümer wurde. Es gibt sogar einen Kündigungspassus, dass eben von beiden Seiten mit dreimonatiger Kündigungsfrist gekündigt werden kann, auch ohne Angabe von Gründen. Er wollte das aber bis jetzt nicht vorlegen."
@@ -1028,16 +1336,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es hat natürlich weitreichende Konsequenzen, wenn jemand Meldepflichten nicht einhält, einerseits als Minister, andererseits auch als Abgeordneter."
+                  "text": "Es hat natürlich weitreichende Konsequenzen, wenn jemand Meldepflichten nicht einhält, einerseits als Minister, andererseits auch als Abgeordneter.",
+                  "timeStart": "92.280",
+                  "timeEnd": "103.480",
+                  "entities": []
                 },
                 {
-                  "text": "Es ist eh gesagt worden: Er ist einmal vor dem Untersuchungsausschuss gesessen, da sind jedenfalls einige Fragen offengeblieben."
+                  "text": "Es ist eh gesagt worden: Er ist einmal vor dem Untersuchungsausschuss gesessen, da sind jedenfalls einige Fragen offengeblieben.",
+                  "timeStart": "103.480",
+                  "timeEnd": "112.800",
+                  "entities": []
                 },
                 {
-                  "text": "Die zweite Befragung kam nicht zustande, weil er einen Urlaub gebucht hatte."
+                  "text": "Die zweite Befragung kam nicht zustande, weil er einen Urlaub gebucht hatte.",
+                  "timeStart": "112.800",
+                  "timeEnd": "118.760",
+                  "entities": []
                 },
                 {
-                  "text": "Wir müssen ihn jetzt halt über den Weg des Unvereinbarkeitsausschusses die Gelegenheit geben, die offenen Fragen zu beantworten."
+                  "text": "Wir müssen ihn jetzt halt über den Weg des Unvereinbarkeitsausschusses die Gelegenheit geben, die offenen Fragen zu beantworten.",
+                  "timeStart": "118.760",
+                  "timeEnd": "127.080",
+                  "entities": []
                 }
               ],
               "text": "Es hat natürlich weitreichende Konsequenzen, wenn jemand Meldepflichten nicht einhält, einerseits als Minister, andererseits auch als Abgeordneter. Es ist eh gesagt worden: Er ist einmal vor dem Untersuchungsausschuss gesessen, da sind jedenfalls einige Fragen offengeblieben. Die zweite Befragung kam nicht zustande, weil er einen Urlaub gebucht hatte. Wir müssen ihn jetzt halt über den Weg des Unvereinbarkeitsausschusses die Gelegenheit geben, die offenen Fragen zu beantworten."
@@ -1048,46 +1368,88 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Worum geht es konkret? –"
+                  "text": "Worum geht es konkret? –",
+                  "timeStart": "127.080",
+                  "timeEnd": "128.600",
+                  "entities": []
                 },
                 {
-                  "text": "Es geht konkret um die Frage: Hatte oder hat er eine leitende Funktion in einer GmbH?,"
+                  "text": "Es geht konkret um die Frage: Hatte oder hat er eine leitende Funktion in einer GmbH?,",
+                  "timeStart": "128.600",
+                  "timeEnd": "135.280",
+                  "entities": []
                 },
                 {
-                  "text": "denn die ist zu melden."
+                  "text": "denn die ist zu melden.",
+                  "timeStart": "135.280",
+                  "timeEnd": "137.120",
+                  "entities": []
                 },
                 {
-                  "text": "Die zweite Frage ist: Ist er Liegenschaftseigentümer – jedenfalls bis heuer gewesen?,"
+                  "text": "Die zweite Frage ist: Ist er Liegenschaftseigentümer – jedenfalls bis heuer gewesen?,",
+                  "timeStart": "137.120",
+                  "timeEnd": "144.000",
+                  "entities": []
                 },
                 {
-                  "text": "denn dann hätte er nämlich gewerbliche Einkünfte gehabt, die natürlich zu melden sind. ("
+                  "text": "denn dann hätte er nämlich gewerbliche Einkünfte gehabt, die natürlich zu melden sind. (",
+                  "timeStart": "144.000",
+                  "timeEnd": "148.200",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "148.200",
+                  "timeEnd": "148.280",
+                  "entities": []
                 },
                 {
-                  "text": "Kassegger: Seit wann ist das gewerblich ...?"
+                  "text": "Kassegger: Seit wann ist das gewerblich ...?",
+                  "timeStart": "148.280",
+                  "timeEnd": "151.120",
+                  "entities": []
                 },
                 {
-                  "text": "Seit wann ist das gewerblich?"
+                  "text": "Seit wann ist das gewerblich?",
+                  "timeStart": "151.120",
+                  "timeEnd": "153.000",
+                  "entities": []
                 },
                 {
-                  "text": "Absurd! ..."
+                  "text": "Absurd! ...",
+                  "timeStart": "153.000",
+                  "timeEnd": "153.560",
+                  "entities": []
                 },
                 {
-                  "text": "keine Ahnung, was gewerblich ist und was nicht gewerblich ist! –"
+                  "text": "keine Ahnung, was gewerblich ist und was nicht gewerblich ist! –",
+                  "timeStart": "153.560",
+                  "timeEnd": "156.560",
+                  "entities": []
                 },
                 {
-                  "text": "Weitere Zwischenrufe bei der FPÖ.)"
+                  "text": "Weitere Zwischenrufe bei der FPÖ.)",
+                  "timeStart": "156.560",
+                  "timeEnd": "157.920",
+                  "entities": []
                 },
                 {
-                  "text": "Die hätte er übrigens auch als Minister gegenüber dem Rechnungshof melden müssen, was er nicht getan hat."
+                  "text": "Die hätte er übrigens auch als Minister gegenüber dem Rechnungshof melden müssen, was er nicht getan hat.",
+                  "timeStart": "157.920",
+                  "timeEnd": "161.960",
+                  "entities": []
                 },
                 {
-                  "text": "Das Dritte: Sobald man mehr als drei Mietverträge hat, ist das gewerblich und nicht mehr privat."
+                  "text": "Das Dritte: Sobald man mehr als drei Mietverträge hat, ist das gewerblich und nicht mehr privat.",
+                  "timeStart": "161.960",
+                  "timeEnd": "166.000",
+                  "entities": []
                 },
                 {
-                  "text": "Das müssten Sie eigentlich wissen, denn Sie sind ja Teil der Gesetzgebung."
+                  "text": "Das müssten Sie eigentlich wissen, denn Sie sind ja Teil der Gesetzgebung.",
+                  "timeStart": "166.000",
+                  "timeEnd": "168.400",
+                  "entities": []
                 }
               ],
               "text": "Worum geht es konkret? – Es geht konkret um die Frage: Hatte oder hat er eine leitende Funktion in einer GmbH?, denn die ist zu melden. Die zweite Frage ist: Ist er Liegenschaftseigentümer – jedenfalls bis heuer gewesen?, denn dann hätte er nämlich gewerbliche Einkünfte gehabt, die natürlich zu melden sind. (Abg. Kassegger: Seit wann ist das gewerblich ...? Seit wann ist das gewerblich? Absurd! ... keine Ahnung, was gewerblich ist und was nicht gewerblich ist! – Weitere Zwischenrufe bei der FPÖ.) Die hätte er übrigens auch als Minister gegenüber dem Rechnungshof melden müssen, was er nicht getan hat. Das Dritte: Sobald man mehr als drei Mietverträge hat, ist das gewerblich und nicht mehr privat. Das müssten Sie eigentlich wissen, denn Sie sind ja Teil der Gesetzgebung."
@@ -1098,25 +1460,46 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Der dritte Punkt ist Falschangabe bei ehrenamtlichen Tätigkeiten: Er sagt, dass er seine Funktion als Vorsitzender der FPÖ ehrenamtlich ausübt."
+                  "text": "Der dritte Punkt ist Falschangabe bei ehrenamtlichen Tätigkeiten: Er sagt, dass er seine Funktion als Vorsitzender der FPÖ ehrenamtlich ausübt.",
+                  "timeStart": "168.400",
+                  "timeEnd": "176.680",
+                  "entities": []
                 },
                 {
-                  "text": "Ehrlich gesagt, wissen wir nicht, ob das stimmt oder nicht; da muss man auch so ehrlich sein."
+                  "text": "Ehrlich gesagt, wissen wir nicht, ob das stimmt oder nicht; da muss man auch so ehrlich sein.",
+                  "timeStart": "176.680",
+                  "timeEnd": "182.000",
+                  "entities": []
                 },
                 {
-                  "text": "Das, was wir aber aus Unterlagen des Untersuchungsausschusses wissen, ist, dass er eine Funktionsgebühr in der Höhe von brutto fast 12 000 Euro im Jahr bezieht."
+                  "text": "Das, was wir aber aus Unterlagen des Untersuchungsausschusses wissen, ist, dass er eine Funktionsgebühr in der Höhe von brutto fast 12 000 Euro im Jahr bezieht.",
+                  "timeStart": "182.000",
+                  "timeEnd": "192.600",
+                  "entities": []
                 },
                 {
-                  "text": "Man kann aufgrund des Betrages annehmen, dass es sich um die Privatnutzung eines Dienstautos handelt, weil steuerrechtlich genau dieser Betrag dort steht."
+                  "text": "Man kann aufgrund des Betrages annehmen, dass es sich um die Privatnutzung eines Dienstautos handelt, weil steuerrechtlich genau dieser Betrag dort steht.",
+                  "timeStart": "192.600",
+                  "timeEnd": "202.840",
+                  "entities": []
                 },
                 {
-                  "text": "Dazu kann ich gleich sagen: Als das Transparenz-Gesetz hier beschlossen wurde, wurde in den Ausschussbericht aufgenommen: „Unter dem Begriff ‚Vermögensvorteile‘ sind alle Bezüge (Geld- und Sachbezüge), Entschädigungen und Ähnliches“ zu sehen. „"
+                  "text": "Dazu kann ich gleich sagen: Als das Transparenz-Gesetz hier beschlossen wurde, wurde in den Ausschussbericht aufgenommen: „Unter dem Begriff ‚Vermögensvorteile‘ sind alle Bezüge (Geld- und Sachbezüge), Entschädigungen und Ähnliches“ zu sehen. „",
+                  "timeStart": "202.840",
+                  "timeEnd": "217.240",
+                  "entities": []
                 },
                 {
-                  "text": "Wird etwa ein Dienstauto auch privat genutzt und wird dafür kein angemessenes Entgelt entrichtet, liegt ein zu meldender Vermögensvorteil vor.“"
+                  "text": "Wird etwa ein Dienstauto auch privat genutzt und wird dafür kein angemessenes Entgelt entrichtet, liegt ein zu meldender Vermögensvorteil vor.“",
+                  "timeStart": "217.240",
+                  "timeEnd": "228.640",
+                  "entities": []
                 },
                 {
-                  "text": "Wenn es sich dabei darum handelt, muss er es melden – und das fällt dann auch in die Einkommenskategorie, denn er hat angegeben, dass er null Euro verdient, und dann wäre diese Meldung falsch."
+                  "text": "Wenn es sich dabei darum handelt, muss er es melden – und das fällt dann auch in die Einkommenskategorie, denn er hat angegeben, dass er null Euro verdient, und dann wäre diese Meldung falsch.",
+                  "timeStart": "228.640",
+                  "timeEnd": "239.760",
+                  "entities": []
                 }
               ],
               "text": "Der dritte Punkt ist Falschangabe bei ehrenamtlichen Tätigkeiten: Er sagt, dass er seine Funktion als Vorsitzender der FPÖ ehrenamtlich ausübt. Ehrlich gesagt, wissen wir nicht, ob das stimmt oder nicht; da muss man auch so ehrlich sein. Das, was wir aber aus Unterlagen des Untersuchungsausschusses wissen, ist, dass er eine Funktionsgebühr in der Höhe von brutto fast 12 000 Euro im Jahr bezieht. Man kann aufgrund des Betrages annehmen, dass es sich um die Privatnutzung eines Dienstautos handelt, weil steuerrechtlich genau dieser Betrag dort steht. Dazu kann ich gleich sagen: Als das Transparenz-Gesetz hier beschlossen wurde, wurde in den Ausschussbericht aufgenommen: „Unter dem Begriff ‚Vermögensvorteile‘ sind alle Bezüge (Geld- und Sachbezüge), Entschädigungen und Ähnliches“ zu sehen. „Wird etwa ein Dienstauto auch privat genutzt und wird dafür kein angemessenes Entgelt entrichtet, liegt ein zu meldender Vermögensvorteil vor.“ Wenn es sich dabei darum handelt, muss er es melden – und das fällt dann auch in die Einkommenskategorie, denn er hat angegeben, dass er null Euro verdient, und dann wäre diese Meldung falsch."
@@ -1127,22 +1510,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es gibt eine Reihe offener Fragen, die hier geklärt werden müssen."
+                  "text": "Es gibt eine Reihe offener Fragen, die hier geklärt werden müssen.",
+                  "timeStart": "239.760",
+                  "timeEnd": "243.880",
+                  "entities": []
                 },
                 {
-                  "text": "Ehrlich gesagt, gilt das für uns alle als Parlamentarier: dass wir zur Transparenz verpflichtet sind und nichts verbergen dürfen, dass wir weder unsere Einkünfte noch unser Vermögen gegenüber den meldepflichtigen Stellen verbergen dürfen."
+                  "text": "Ehrlich gesagt, gilt das für uns alle als Parlamentarier: dass wir zur Transparenz verpflichtet sind und nichts verbergen dürfen, dass wir weder unsere Einkünfte noch unser Vermögen gegenüber den meldepflichtigen Stellen verbergen dürfen.",
+                  "timeStart": "243.880",
+                  "timeEnd": "258.760",
+                  "entities": []
                 },
                 {
-                  "text": "Das gilt auch für Herrn Kickl, und ich finde es eigentlich sehr schade, dass er an der Debatte hier nicht teilnimmt, weil er immer, wenn es um ihn als Person geht, nicht hier ist. ("
+                  "text": "Das gilt auch für Herrn Kickl, und ich finde es eigentlich sehr schade, dass er an der Debatte hier nicht teilnimmt, weil er immer, wenn es um ihn als Person geht, nicht hier ist. (",
+                  "timeStart": "258.760",
+                  "timeEnd": "265.760",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "265.760",
+                  "timeEnd": "265.760",
+                  "entities": []
                 },
                 {
-                  "text": "Michael Hammer: Der ist ja der Miststreuer, der kommt hier und da und ladet den Mist ab!)"
+                  "text": "Michael Hammer: Der ist ja der Miststreuer, der kommt hier und da und ladet den Mist ab!)",
+                  "timeStart": "265.760",
+                  "timeEnd": "268.320",
+                  "entities": []
                 },
                 {
-                  "text": "Ehrlich gesagt, könnte er einfach auch hier selbst Rede und Antwort stehen und diese Sachen aufklären."
+                  "text": "Ehrlich gesagt, könnte er einfach auch hier selbst Rede und Antwort stehen und diese Sachen aufklären.",
+                  "timeStart": "268.320",
+                  "timeEnd": "273.000",
+                  "entities": []
                 }
               ],
               "text": "Es gibt eine Reihe offener Fragen, die hier geklärt werden müssen. Ehrlich gesagt, gilt das für uns alle als Parlamentarier: dass wir zur Transparenz verpflichtet sind und nichts verbergen dürfen, dass wir weder unsere Einkünfte noch unser Vermögen gegenüber den meldepflichtigen Stellen verbergen dürfen. Das gilt auch für Herrn Kickl, und ich finde es eigentlich sehr schade, dass er an der Debatte hier nicht teilnimmt, weil er immer, wenn es um ihn als Person geht, nicht hier ist. (Abg. Michael Hammer: Der ist ja der Miststreuer, der kommt hier und da und ladet den Mist ab!) Ehrlich gesagt, könnte er einfach auch hier selbst Rede und Antwort stehen und diese Sachen aufklären."
@@ -1153,22 +1554,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wenn er das nicht tut, dann gibt es eben den Antrag, dass er das vor dem Unvereinbarkeitsausschuss machen soll und machen muss."
+                  "text": "Wenn er das nicht tut, dann gibt es eben den Antrag, dass er das vor dem Unvereinbarkeitsausschuss machen soll und machen muss.",
+                  "timeStart": "273.000",
+                  "timeEnd": "280.360",
+                  "entities": []
                 },
                 {
-                  "text": "Das Prozedere dort ist klar: Es gibt ein sogenanntes Nachfrageverfahren."
+                  "text": "Das Prozedere dort ist klar: Es gibt ein sogenanntes Nachfrageverfahren.",
+                  "timeStart": "280.360",
+                  "timeEnd": "284.680",
+                  "entities": []
                 },
                 {
-                  "text": "Wenn es konkrete Anhaltspunkte gibt, dass eine Meldung nicht richtig oder unvollständig ist – und da gibt es genügend, ich habe sie hier bereits aufgezählt –, dann hat er die Möglichkeit, diese offenen Fragen in einer angemessenen Frist zu beantworten. ("
+                  "text": "Wenn es konkrete Anhaltspunkte gibt, dass eine Meldung nicht richtig oder unvollständig ist – und da gibt es genügend, ich habe sie hier bereits aufgezählt –, dann hat er die Möglichkeit, diese offenen Fragen in einer angemessenen Frist zu beantworten. (",
+                  "timeStart": "284.680",
+                  "timeEnd": "295.760",
+                  "entities": []
                 },
                 {
-                  "text": "Zwischenruf des Abg."
+                  "text": "Zwischenruf des Abg.",
+                  "timeStart": "295.760",
+                  "timeEnd": "297.240",
+                  "entities": []
                 },
                 {
-                  "text": "Deimek. )"
+                  "text": "Deimek. )",
+                  "timeStart": "297.240",
+                  "timeEnd": "297.880",
+                  "entities": []
                 },
                 {
-                  "text": "Wenn er das wieder nicht tut, dann steht es dem Ausschuss frei – wie allen anderen Ausschüssen auch –, da selbst Erhebungen durchzuführen, um zu wissen, ob Herr Kickl da die Wahrheit sagt oder lieber weiter Sachen verbergen will."
+                  "text": "Wenn er das wieder nicht tut, dann steht es dem Ausschuss frei – wie allen anderen Ausschüssen auch –, da selbst Erhebungen durchzuführen, um zu wissen, ob Herr Kickl da die Wahrheit sagt oder lieber weiter Sachen verbergen will.",
+                  "timeStart": "297.880",
+                  "timeEnd": "312.800",
+                  "entities": []
                 }
               ],
               "text": "Wenn er das nicht tut, dann gibt es eben den Antrag, dass er das vor dem Unvereinbarkeitsausschuss machen soll und machen muss. Das Prozedere dort ist klar: Es gibt ein sogenanntes Nachfrageverfahren. Wenn es konkrete Anhaltspunkte gibt, dass eine Meldung nicht richtig oder unvollständig ist – und da gibt es genügend, ich habe sie hier bereits aufgezählt –, dann hat er die Möglichkeit, diese offenen Fragen in einer angemessenen Frist zu beantworten. (Zwischenruf des Abg. Deimek. ) Wenn er das wieder nicht tut, dann steht es dem Ausschuss frei – wie allen anderen Ausschüssen auch –, da selbst Erhebungen durchzuführen, um zu wissen, ob Herr Kickl da die Wahrheit sagt oder lieber weiter Sachen verbergen will."
@@ -1179,16 +1598,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich bin der Meinung, verbergen geht in diesem Fall gar nicht."
+                  "text": "Ich bin der Meinung, verbergen geht in diesem Fall gar nicht.",
+                  "timeStart": "312.800",
+                  "timeEnd": "316.240",
+                  "entities": []
                 },
                 {
-                  "text": "Wir brauchen hier Transparenz, und das gilt auch für Herrn Kickl. –"
+                  "text": "Wir brauchen hier Transparenz, und das gilt auch für Herrn Kickl. –",
+                  "timeStart": "316.240",
+                  "timeEnd": "319.240",
+                  "entities": []
                 },
                 {
-                  "text": "Vielen Dank. ("
+                  "text": "Vielen Dank. (",
+                  "timeStart": "319.240",
+                  "timeEnd": "320.360",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei SPÖ und Grünen.)"
+                  "text": "Beifall bei SPÖ und Grünen.)",
+                  "timeStart": "320.360",
+                  "timeEnd": "322.680",
+                  "entities": []
                 }
               ],
               "text": "Ich bin der Meinung, verbergen geht in diesem Fall gar nicht. Wir brauchen hier Transparenz, und das gilt auch für Herrn Kickl. – Vielen Dank. (Beifall bei SPÖ und Grünen.)"
@@ -1199,7 +1630,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "17.34"
+                  "text": "17.34",
+                  "timeStart": "322.680",
+                  "timeEnd": "327.840",
+                  "entities": []
                 }
               ],
               "text": "17.34"
@@ -1210,10 +1644,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Stögmüller. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Stögmüller. –",
+                  "timeStart": "331.640",
+                  "timeEnd": "333.840",
+                  "entities": []
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "333.840",
+                  "timeEnd": "333.960",
+                  "entities": []
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Stögmüller. – Bitte."
@@ -1225,7 +1665,9 @@
         "mediaIndex": 5,
         "stdId": 330474,
         "debatteId": 95,
-        "proceedingIndex": 330474
+        "proceedingIndex": 330474,
+        "alignDuration": 0.994239091873169,
+        "nerDuration": 0.3074910640716553
       },
       "originalLanguage": "de"
     },
@@ -1253,7 +1695,8 @@
         "originMediaID": "330581",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/6dae1624-2c01-4807-badb-ab1054950108/6dae1624-2c01-4807-badb-ab1054950108.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/6dae1624-2c01-4807-badb-ab1054950108/6dae1624-2c01-4807-badb-ab1054950108.mp3",
-        "duration": 180
+        "duration": 180,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:34:50",
       "dateEnd": "2024-07-05T17:37:50",
@@ -1300,7 +1743,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "17.34"
+                  "text": "17.34",
+                  "timeStart": "1.000",
+                  "timeEnd": "1.560",
+                  "entities": []
                 }
               ],
               "text": "17.34"
@@ -1311,19 +1757,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Präsident!"
+                  "text": "Herr Präsident!",
+                  "timeStart": "1.560",
+                  "timeEnd": "1.760",
+                  "entities": []
                 },
                 {
-                  "text": "Werte Kolleginnen und Kollegen!"
+                  "text": "Werte Kolleginnen und Kollegen!",
+                  "timeStart": "1.760",
+                  "timeEnd": "2.240",
+                  "entities": []
                 },
                 {
-                  "text": "Ich bin überrascht, dass es von der FPÖ gar keinen Redebeitrag zu der Causa gibt. ("
+                  "text": "Ich bin überrascht, dass es von der FPÖ gar keinen Redebeitrag zu der Causa gibt. (",
+                  "timeStart": "2.240",
+                  "timeEnd": "5.960",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "5.960",
+                  "timeEnd": "6.000",
+                  "entities": []
                 },
                 {
-                  "text": "Michael Hammer: ... er selber grad ..., weil er’s verscheißt!)"
+                  "text": "Michael Hammer: ... er selber grad ..., weil er’s verscheißt!)",
+                  "timeStart": "6.000",
+                  "timeEnd": "8.160",
+                  "entities": []
                 }
               ],
               "text": "Herr Präsident! Werte Kolleginnen und Kollegen! Ich bin überrascht, dass es von der FPÖ gar keinen Redebeitrag zu der Causa gibt. (Abg. Michael Hammer: ... er selber grad ..., weil er’s verscheißt!)"
@@ -1334,13 +1795,22 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Als Obmann des Unvereinbarkeitsausschusses des Hauses möchte ich festhalten, dass allen Abgeordneten bewusst ist, und es wird uns auch immer bewusst gemacht, dass das ein extrem wichtiger Ausschuss ist, auch wenn er nicht anhand der täglichen Konfrontation und des täglichen Geschehens irgendwie wahrgenommen wird."
+                  "text": "Als Obmann des Unvereinbarkeitsausschusses des Hauses möchte ich festhalten, dass allen Abgeordneten bewusst ist, und es wird uns auch immer bewusst gemacht, dass das ein extrem wichtiger Ausschuss ist, auch wenn er nicht anhand der täglichen Konfrontation und des täglichen Geschehens irgendwie wahrgenommen wird.",
+                  "timeStart": "8.160",
+                  "timeEnd": "25.640",
+                  "entities": []
                 },
                 {
-                  "text": "Es ist aber ein extrem wichtiger Ausschuss, weil er Minister, Abgeordnete und auch den Bundeskanzler dahin gehend kontrolliert, welche Nebeneinkünfte sie haben, welche Tätigkeiten sie ausführen, welche leitenden Stellen sie innehaben und welche ehrenamtlichen Stellen sie übernehmen – weil er quasi kontrolliert, dass wir alle nicht korrumpierbar sind: dass wir alle wissen, woher das Geld kommt, damit wir die Einkommenskategorien angeben."
+                  "text": "Es ist aber ein extrem wichtiger Ausschuss, weil er Minister, Abgeordnete und auch den Bundeskanzler dahin gehend kontrolliert, welche Nebeneinkünfte sie haben, welche Tätigkeiten sie ausführen, welche leitenden Stellen sie innehaben und welche ehrenamtlichen Stellen sie übernehmen – weil er quasi kontrolliert, dass wir alle nicht korrumpierbar sind: dass wir alle wissen, woher das Geld kommt, damit wir die Einkommenskategorien angeben.",
+                  "timeStart": "25.640",
+                  "timeEnd": "50.000",
+                  "entities": []
                 },
                 {
-                  "text": "Das muss jeder von uns machen – das muss jeder Bundeskanzler, jeder Minister und jeder Abgeordneter in diesem Haus machen."
+                  "text": "Das muss jeder von uns machen – das muss jeder Bundeskanzler, jeder Minister und jeder Abgeordneter in diesem Haus machen.",
+                  "timeStart": "50.000",
+                  "timeEnd": "56.520",
+                  "entities": []
                 }
               ],
               "text": "Als Obmann des Unvereinbarkeitsausschusses des Hauses möchte ich festhalten, dass allen Abgeordneten bewusst ist, und es wird uns auch immer bewusst gemacht, dass das ein extrem wichtiger Ausschuss ist, auch wenn er nicht anhand der täglichen Konfrontation und des täglichen Geschehens irgendwie wahrgenommen wird. Es ist aber ein extrem wichtiger Ausschuss, weil er Minister, Abgeordnete und auch den Bundeskanzler dahin gehend kontrolliert, welche Nebeneinkünfte sie haben, welche Tätigkeiten sie ausführen, welche leitenden Stellen sie innehaben und welche ehrenamtlichen Stellen sie übernehmen – weil er quasi kontrolliert, dass wir alle nicht korrumpierbar sind: dass wir alle wissen, woher das Geld kommt, damit wir die Einkommenskategorien angeben. Das muss jeder von uns machen – das muss jeder Bundeskanzler, jeder Minister und jeder Abgeordneter in diesem Haus machen."
@@ -1351,22 +1821,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wenn uns als Ausschuss entsprechende Informationen zukommen, werden und müssen wir das sehr ernst nehmen."
+                  "text": "Wenn uns als Ausschuss entsprechende Informationen zukommen, werden und müssen wir das sehr ernst nehmen.",
+                  "timeStart": "56.520",
+                  "timeEnd": "62.800",
+                  "entities": []
                 },
                 {
-                  "text": "Auch die Mitglieder dieses Ausschusses sind sich dessen bewusst, und ich werde diesbezüglich – nach diesem Schreiben – so rasch wie möglich mit allen Fraktionen sprechen."
+                  "text": "Auch die Mitglieder dieses Ausschusses sind sich dessen bewusst, und ich werde diesbezüglich – nach diesem Schreiben – so rasch wie möglich mit allen Fraktionen sprechen.",
+                  "timeStart": "62.800",
+                  "timeEnd": "72.560",
+                  "entities": []
                 },
                 {
-                  "text": "Wir müssen uns schnellstmöglich um Aufklärung bemühen, wir müssen schauen, dass wir diese Vorwürfe entsprechend aufbereiten und sie entkräften oder bestärken und auch die entsprechende Transparenz schaffen."
+                  "text": "Wir müssen uns schnellstmöglich um Aufklärung bemühen, wir müssen schauen, dass wir diese Vorwürfe entsprechend aufbereiten und sie entkräften oder bestärken und auch die entsprechende Transparenz schaffen.",
+                  "timeStart": "72.560",
+                  "timeEnd": "86.640",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist das eine."
+                  "text": "Das ist das eine.",
+                  "timeStart": "86.640",
+                  "timeEnd": "87.520",
+                  "entities": []
                 },
                 {
-                  "text": "Es braucht da relativ schnell einen Termin, sodass wir das bearbeiten können."
+                  "text": "Es braucht da relativ schnell einen Termin, sodass wir das bearbeiten können.",
+                  "timeStart": "87.520",
+                  "timeEnd": "92.620",
+                  "entities": []
                 },
                 {
-                  "text": "Das wird heute auch beschlossen, das finde ich gut; wir als Grüne unterstützen, dass wir sehr schnell in einem neuen Unvereinbarkeitsausschuss zusammenkommen."
+                  "text": "Das wird heute auch beschlossen, das finde ich gut; wir als Grüne unterstützen, dass wir sehr schnell in einem neuen Unvereinbarkeitsausschuss zusammenkommen.",
+                  "timeStart": "92.620",
+                  "timeEnd": "100.280",
+                  "entities": []
                 }
               ],
               "text": "Wenn uns als Ausschuss entsprechende Informationen zukommen, werden und müssen wir das sehr ernst nehmen. Auch die Mitglieder dieses Ausschusses sind sich dessen bewusst, und ich werde diesbezüglich – nach diesem Schreiben – so rasch wie möglich mit allen Fraktionen sprechen. Wir müssen uns schnellstmöglich um Aufklärung bemühen, wir müssen schauen, dass wir diese Vorwürfe entsprechend aufbereiten und sie entkräften oder bestärken und auch die entsprechende Transparenz schaffen. Das ist das eine. Es braucht da relativ schnell einen Termin, sodass wir das bearbeiten können. Das wird heute auch beschlossen, das finde ich gut; wir als Grüne unterstützen, dass wir sehr schnell in einem neuen Unvereinbarkeitsausschuss zusammenkommen."
@@ -1377,16 +1865,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Herr Kollege Krainer hat es gesagt: Es gibt die Möglichkeit des Nachfrageverfahrens."
+                  "text": "Herr Kollege Krainer hat es gesagt: Es gibt die Möglichkeit des Nachfrageverfahrens.",
+                  "timeStart": "100.280",
+                  "timeEnd": "107.040",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist ein Verfahren, in dem Herr Kickl zu den Vorwürfen, die im Raum stehen, entsprechend Stellung beziehen kann."
+                  "text": "Das ist ein Verfahren, in dem Herr Kickl zu den Vorwürfen, die im Raum stehen, entsprechend Stellung beziehen kann.",
+                  "timeStart": "107.040",
+                  "timeEnd": "114.080",
+                  "entities": []
                 },
                 {
-                  "text": "Ich unterstütze das, ich finde es gescheit, dass da auch entsprechend die Chance gegeben wird, zur Klärung ein Nachfrageverfahren einzuleiten, damit das nicht weiter im Raum steht."
+                  "text": "Ich unterstütze das, ich finde es gescheit, dass da auch entsprechend die Chance gegeben wird, zur Klärung ein Nachfrageverfahren einzuleiten, damit das nicht weiter im Raum steht.",
+                  "timeStart": "114.080",
+                  "timeEnd": "122.960",
+                  "entities": []
                 },
                 {
-                  "text": "Dann wird der Ausschuss auch entsprechend weitere Schritte setzen."
+                  "text": "Dann wird der Ausschuss auch entsprechend weitere Schritte setzen.",
+                  "timeStart": "122.960",
+                  "timeEnd": "126.160",
+                  "entities": []
                 }
               ],
               "text": "Herr Kollege Krainer hat es gesagt: Es gibt die Möglichkeit des Nachfrageverfahrens. Das ist ein Verfahren, in dem Herr Kickl zu den Vorwürfen, die im Raum stehen, entsprechend Stellung beziehen kann. Ich unterstütze das, ich finde es gescheit, dass da auch entsprechend die Chance gegeben wird, zur Klärung ein Nachfrageverfahren einzuleiten, damit das nicht weiter im Raum steht. Dann wird der Ausschuss auch entsprechend weitere Schritte setzen."
@@ -1397,10 +1897,16 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich glaube, es ist im Sinne der Demokratie und der Transparenz, dass Transparenz geschaffen wird und da entsprechende Aufklärungsarbeit geleistet wird."
+                  "text": "Ich glaube, es ist im Sinne der Demokratie und der Transparenz, dass Transparenz geschaffen wird und da entsprechende Aufklärungsarbeit geleistet wird.",
+                  "timeStart": "126.160",
+                  "timeEnd": "133.800",
+                  "entities": []
                 },
                 {
-                  "text": "Dazu müssen wir jeden gleichstellen, egal welcher Mandatar es ist, ob es ein Klubobmann, ein Minister oder ein Bundeskanzler ist."
+                  "text": "Dazu müssen wir jeden gleichstellen, egal welcher Mandatar es ist, ob es ein Klubobmann, ein Minister oder ein Bundeskanzler ist.",
+                  "timeStart": "133.800",
+                  "timeEnd": "140.560",
+                  "entities": []
                 }
               ],
               "text": "Ich glaube, es ist im Sinne der Demokratie und der Transparenz, dass Transparenz geschaffen wird und da entsprechende Aufklärungsarbeit geleistet wird. Dazu müssen wir jeden gleichstellen, egal welcher Mandatar es ist, ob es ein Klubobmann, ein Minister oder ein Bundeskanzler ist."
@@ -1411,10 +1917,16 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich bin schon fünf Jahre lang in Untersuchungsausschüssen tätig gewesen – und ich weiß, dass der FPÖ diese Worte immer genauso wichtig waren: Aufklärung und die Tatsachen auf den Tisch."
+                  "text": "Ich bin schon fünf Jahre lang in Untersuchungsausschüssen tätig gewesen – und ich weiß, dass der FPÖ diese Worte immer genauso wichtig waren: Aufklärung und die Tatsachen auf den Tisch.",
+                  "timeStart": "140.560",
+                  "timeEnd": "152.840",
+                  "entities": []
                 },
                 {
-                  "text": "Entsprechend erwarte ich mir auch Zusammenarbeit, dass wir da Transparenz schaffen, dass wir – alle Abgeordneten in diesem Haus – entsprechend die gleichen Regeln befolgen und auch die gleichen Transparenzrichtlinien einhalten."
+                  "text": "Entsprechend erwarte ich mir auch Zusammenarbeit, dass wir da Transparenz schaffen, dass wir – alle Abgeordneten in diesem Haus – entsprechend die gleichen Regeln befolgen und auch die gleichen Transparenzrichtlinien einhalten.",
+                  "timeStart": "152.840",
+                  "timeEnd": "163.360",
+                  "entities": []
                 }
               ],
               "text": "Ich bin schon fünf Jahre lang in Untersuchungsausschüssen tätig gewesen – und ich weiß, dass der FPÖ diese Worte immer genauso wichtig waren: Aufklärung und die Tatsachen auf den Tisch. Entsprechend erwarte ich mir auch Zusammenarbeit, dass wir da Transparenz schaffen, dass wir – alle Abgeordneten in diesem Haus – entsprechend die gleichen Regeln befolgen und auch die gleichen Transparenzrichtlinien einhalten."
@@ -1425,22 +1937,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Dementsprechend hoffe ich auf eine gute Zusammenarbeit, damit wir diese Causa relativ rasch aufklären. –"
+                  "text": "Dementsprechend hoffe ich auf eine gute Zusammenarbeit, damit wir diese Causa relativ rasch aufklären. –",
+                  "timeStart": "163.360",
+                  "timeEnd": "167.800",
+                  "entities": []
                 },
                 {
-                  "text": "Vielen Dank. ("
+                  "text": "Vielen Dank. (",
+                  "timeStart": "167.800",
+                  "timeEnd": "168.320",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei den Grünen und bei Abgeordneten der SPÖ. –"
+                  "text": "Beifall bei den Grünen und bei Abgeordneten der SPÖ. –",
+                  "timeStart": "168.320",
+                  "timeEnd": "170.360",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "170.360",
+                  "timeEnd": "170.720",
+                  "entities": []
                 },
                 {
-                  "text": "Kassegger: Tatsachen, Tatsachen?"
+                  "text": "Kassegger: Tatsachen, Tatsachen?",
+                  "timeStart": "170.720",
+                  "timeEnd": "172.720",
+                  "entities": []
                 },
                 {
-                  "text": "Vermutungen!)"
+                  "text": "Vermutungen!)",
+                  "timeStart": "172.720",
+                  "timeEnd": "173.360",
+                  "entities": []
                 }
               ],
               "text": "Dementsprechend hoffe ich auf eine gute Zusammenarbeit, damit wir diese Causa relativ rasch aufklären. – Vielen Dank. (Beifall bei den Grünen und bei Abgeordneten der SPÖ. – Abg. Kassegger: Tatsachen, Tatsachen? Vermutungen!)"
@@ -1451,7 +1981,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "17.37"
+                  "text": "17.37",
+                  "timeStart": "173.360",
+                  "timeEnd": "175.200",
+                  "entities": []
                 }
               ],
               "text": "17.37"
@@ -1462,10 +1995,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuletzt ist Abgeordneter Scherak zu Wort gemeldet. –"
+                  "text": "Zuletzt ist Abgeordneter Scherak zu Wort gemeldet. –",
+                  "timeStart": "175.200",
+                  "timeEnd": "177.800",
+                  "entities": []
                 },
                 {
-                  "text": "Bitte."
+                  "text": "Bitte.",
+                  "timeStart": "181.360",
+                  "timeEnd": "181.960",
+                  "entities": []
                 }
               ],
               "text": "Zuletzt ist Abgeordneter Scherak zu Wort gemeldet. – Bitte."
@@ -1477,7 +2016,9 @@
         "mediaIndex": 6,
         "stdId": 330581,
         "debatteId": 95,
-        "proceedingIndex": 330581
+        "proceedingIndex": 330581,
+        "alignDuration": 0.6814327239990234,
+        "nerDuration": 0.17579007148742676
       },
       "originalLanguage": "de"
     },
@@ -1505,7 +2046,8 @@
         "originMediaID": "330477",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/5e4e1192-f2b2-44c7-816f-89e86a185c5b/5e4e1192-f2b2-44c7-816f-89e86a185c5b.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/5e4e1192-f2b2-44c7-816f-89e86a185c5b/5e4e1192-f2b2-44c7-816f-89e86a185c5b.mp3",
-        "duration": 116
+        "duration": 116,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:37:50",
       "dateEnd": "2024-07-05T17:39:46",
@@ -1552,7 +2094,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "17.37"
+                  "text": "17.37",
+                  "timeStart": "1.000",
+                  "timeEnd": "5.720",
+                  "entities": []
                 }
               ],
               "text": "17.37"
@@ -1563,10 +2108,16 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich kann mich dem, was mein Vorredner Kollege Stögmüller als Ausschussobmann gesagt hat, nur anschließen."
+                  "text": "Ich kann mich dem, was mein Vorredner Kollege Stögmüller als Ausschussobmann gesagt hat, nur anschließen.",
+                  "timeStart": "5.720",
+                  "timeEnd": "9.320",
+                  "entities": []
                 },
                 {
-                  "text": "Ich glaube, es ist selbstverständlich, dass man, wenn da Vorwürfe im Raum stehen, diese aufklären muss."
+                  "text": "Ich glaube, es ist selbstverständlich, dass man, wenn da Vorwürfe im Raum stehen, diese aufklären muss.",
+                  "timeStart": "9.320",
+                  "timeEnd": "13.120",
+                  "entities": []
                 }
               ],
               "text": "Ich kann mich dem, was mein Vorredner Kollege Stögmüller als Ausschussobmann gesagt hat, nur anschließen. Ich glaube, es ist selbstverständlich, dass man, wenn da Vorwürfe im Raum stehen, diese aufklären muss."
@@ -1577,16 +2128,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich bin mir nur ehrlich gesagt nicht ganz sicher, ob die Art und Weise, wie hier Vorwürfe geäußert werden, uns insgesamt als Politik guttun."
+                  "text": "Ich bin mir nur ehrlich gesagt nicht ganz sicher, ob die Art und Weise, wie hier Vorwürfe geäußert werden, uns insgesamt als Politik guttun.",
+                  "timeStart": "13.120",
+                  "timeEnd": "22.680",
+                  "entities": []
                 },
                 {
-                  "text": "Man muss ehrlich dazusagen, dass es wahrscheinlich eine Zeit her ist, dass diese Art und Weise hier eingerissen ist."
+                  "text": "Man muss ehrlich dazusagen, dass es wahrscheinlich eine Zeit her ist, dass diese Art und Weise hier eingerissen ist.",
+                  "timeStart": "22.680",
+                  "timeEnd": "31.660",
+                  "entities": []
                 },
                 {
-                  "text": "Ich kann lange zurückdenken – ich würde annehmen, dass es viele Jahre und wahrscheinlich auch immer noch Teil der Politik der Freiheitlichen war, manche Vorwürfe auch zu äußern."
+                  "text": "Ich kann lange zurückdenken – ich würde annehmen, dass es viele Jahre und wahrscheinlich auch immer noch Teil der Politik der Freiheitlichen war, manche Vorwürfe auch zu äußern.",
+                  "timeStart": "31.660",
+                  "timeEnd": "41.240",
+                  "entities": []
                 },
                 {
-                  "text": "Ob es intelligent ist, ohne stichhaltige Beweise oder entsprechende Ideen das jetzt umgekehrt auch so zu machen, weiß ich nicht."
+                  "text": "Ob es intelligent ist, ohne stichhaltige Beweise oder entsprechende Ideen das jetzt umgekehrt auch so zu machen, weiß ich nicht.",
+                  "timeStart": "41.240",
+                  "timeEnd": "54.760",
+                  "entities": []
                 }
               ],
               "text": "Ich bin mir nur ehrlich gesagt nicht ganz sicher, ob die Art und Weise, wie hier Vorwürfe geäußert werden, uns insgesamt als Politik guttun. Man muss ehrlich dazusagen, dass es wahrscheinlich eine Zeit her ist, dass diese Art und Weise hier eingerissen ist. Ich kann lange zurückdenken – ich würde annehmen, dass es viele Jahre und wahrscheinlich auch immer noch Teil der Politik der Freiheitlichen war, manche Vorwürfe auch zu äußern. Ob es intelligent ist, ohne stichhaltige Beweise oder entsprechende Ideen das jetzt umgekehrt auch so zu machen, weiß ich nicht."
@@ -1597,16 +2160,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ich kenne diesen Brief."
+                  "text": "Ich kenne diesen Brief.",
+                  "timeStart": "54.760",
+                  "timeEnd": "55.200",
+                  "entities": []
                 },
                 {
-                  "text": "Wenn ich ihn mir durchlese, hätte ich zum Beispiel bei der Frage, ob die Vermietung, falls es eine war, von Herrn Kickl, wie hier angeführt, angeblich gewerblich ist, eine ganz andere Rechtsansicht."
+                  "text": "Wenn ich ihn mir durchlese, hätte ich zum Beispiel bei der Frage, ob die Vermietung, falls es eine war, von Herrn Kickl, wie hier angeführt, angeblich gewerblich ist, eine ganz andere Rechtsansicht.",
+                  "timeStart": "55.200",
+                  "timeEnd": "68.680",
+                  "entities": []
                 },
                 {
-                  "text": "Ich weiß es schlichtweg nicht, es werden hier einfach Dinge in den Raum gestellt."
+                  "text": "Ich weiß es schlichtweg nicht, es werden hier einfach Dinge in den Raum gestellt.",
+                  "timeStart": "68.680",
+                  "timeEnd": "71.400",
+                  "entities": []
                 },
                 {
-                  "text": "Ich meine, es ist richtig, sie aufzuklären, aber ich denke, dass wir uns vielleicht insgesamt überlegen sollten, ob das der richtige Weg ist."
+                  "text": "Ich meine, es ist richtig, sie aufzuklären, aber ich denke, dass wir uns vielleicht insgesamt überlegen sollten, ob das der richtige Weg ist.",
+                  "timeStart": "71.400",
+                  "timeEnd": "78.760",
+                  "entities": []
                 }
               ],
               "text": "Ich kenne diesen Brief. Wenn ich ihn mir durchlese, hätte ich zum Beispiel bei der Frage, ob die Vermietung, falls es eine war, von Herrn Kickl, wie hier angeführt, angeblich gewerblich ist, eine ganz andere Rechtsansicht. Ich weiß es schlichtweg nicht, es werden hier einfach Dinge in den Raum gestellt. Ich meine, es ist richtig, sie aufzuklären, aber ich denke, dass wir uns vielleicht insgesamt überlegen sollten, ob das der richtige Weg ist."
@@ -1617,19 +2192,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wenn Klubobmann Kickl Dinge nicht gemeldet hat, die er hätte melden müssen, dann ist das selbstverständlich ein Problem."
+                  "text": "Wenn Klubobmann Kickl Dinge nicht gemeldet hat, die er hätte melden müssen, dann ist das selbstverständlich ein Problem.",
+                  "timeStart": "78.760",
+                  "timeEnd": "85.480",
+                  "entities": []
                 },
                 {
-                  "text": "Es gibt aus guten Gründen das Unvereinbarkeitsgesetz, in dem klar geregelt ist, was wir transparent zu machen haben, aber mir erschließen sich die Indizien, die bis jetzt hier geäußert wurden, noch nicht, ich sehe es noch nicht."
+                  "text": "Es gibt aus guten Gründen das Unvereinbarkeitsgesetz, in dem klar geregelt ist, was wir transparent zu machen haben, aber mir erschließen sich die Indizien, die bis jetzt hier geäußert wurden, noch nicht, ich sehe es noch nicht.",
+                  "timeStart": "85.480",
+                  "timeEnd": "97.960",
+                  "entities": []
                 },
                 {
-                  "text": "Aber bitte, machen wir eine Sitzung des Unvereinbarkeitsausschusses, schauen wir uns das an, und dann werden wir ja sehen, was am Schluss dran ist. ("
+                  "text": "Aber bitte, machen wir eine Sitzung des Unvereinbarkeitsausschusses, schauen wir uns das an, und dann werden wir ja sehen, was am Schluss dran ist. (",
+                  "timeStart": "97.960",
+                  "timeEnd": "103.960",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei NEOS und Grünen. –"
+                  "text": "Beifall bei NEOS und Grünen. –",
+                  "timeStart": "103.960",
+                  "timeEnd": "104.120",
+                  "entities": []
                 },
                 {
-                  "text": "Ruf: Gute Wortmeldung!)"
+                  "text": "Ruf: Gute Wortmeldung!)",
+                  "timeStart": "104.120",
+                  "timeEnd": "104.320",
+                  "entities": []
                 }
               ],
               "text": "Wenn Klubobmann Kickl Dinge nicht gemeldet hat, die er hätte melden müssen, dann ist das selbstverständlich ein Problem. Es gibt aus guten Gründen das Unvereinbarkeitsgesetz, in dem klar geregelt ist, was wir transparent zu machen haben, aber mir erschließen sich die Indizien, die bis jetzt hier geäußert wurden, noch nicht, ich sehe es noch nicht. Aber bitte, machen wir eine Sitzung des Unvereinbarkeitsausschusses, schauen wir uns das an, und dann werden wir ja sehen, was am Schluss dran ist. (Beifall bei NEOS und Grünen. – Ruf: Gute Wortmeldung!)"
@@ -1640,7 +2230,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "17.39"
+                  "text": "17.39",
+                  "timeStart": "104.320",
+                  "timeEnd": "106.040",
+                  "entities": []
                 }
               ],
               "text": "17.39"
@@ -1651,16 +2244,28 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort gemeldet ist Abgeordneter Stefan. –"
+                  "text": "Zu Wort gemeldet ist Abgeordneter Stefan. –",
+                  "timeStart": "106.040",
+                  "timeEnd": "108.640",
+                  "entities": []
                 },
                 {
-                  "text": "Bitte. ("
+                  "text": "Bitte. (",
+                  "timeStart": "108.640",
+                  "timeEnd": "109.440",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "109.440",
+                  "timeEnd": "109.960",
+                  "entities": []
                 },
                 {
-                  "text": "Matznetter: Der ist ja groß gewachsen!)"
+                  "text": "Matznetter: Der ist ja groß gewachsen!)",
+                  "timeStart": "109.960",
+                  "timeEnd": "117.960",
+                  "entities": []
                 }
               ],
               "text": "Zu Wort gemeldet ist Abgeordneter Stefan. – Bitte. (Abg. Matznetter: Der ist ja groß gewachsen!)"
@@ -1672,7 +2277,9 @@
         "mediaIndex": 7,
         "stdId": 330477,
         "debatteId": 95,
-        "proceedingIndex": 330477
+        "proceedingIndex": 330477,
+        "alignDuration": 0.5253839492797852,
+        "nerDuration": 0.11509227752685547
       },
       "originalLanguage": "de"
     },
@@ -1700,7 +2307,8 @@
         "originMediaID": "330590",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/5be40e91-b28c-4d3e-a6c0-88d1f331fff8/5be40e91-b28c-4d3e-a6c0-88d1f331fff8.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/5be40e91-b28c-4d3e-a6c0-88d1f331fff8/5be40e91-b28c-4d3e-a6c0-88d1f331fff8.mp3",
-        "duration": 378
+        "duration": 378,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:39:46",
       "dateEnd": "2024-07-05T17:46:04",
@@ -1747,7 +2355,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "17.39"
+                  "text": "17.39",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.280",
+                  "entities": []
                 }
               ],
               "text": "17.39"
@@ -1758,16 +2369,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Sehr geehrter Herr Präsident!"
+                  "text": "Sehr geehrter Herr Präsident!",
+                  "timeStart": "3.280",
+                  "timeEnd": "3.800",
+                  "entities": []
                 },
                 {
-                  "text": "Sehr geehrte Damen und Herren!"
+                  "text": "Sehr geehrte Damen und Herren!",
+                  "timeStart": "3.800",
+                  "timeEnd": "6.280",
+                  "entities": []
                 },
                 {
-                  "text": "Was jetzt hier passiert, ist eindeutig dem Wahlkampf geschuldet, da brauchen wir ja nicht darüber zu reden."
+                  "text": "Was jetzt hier passiert, ist eindeutig dem Wahlkampf geschuldet, da brauchen wir ja nicht darüber zu reden.",
+                  "timeStart": "6.280",
+                  "timeEnd": "11.440",
+                  "entities": []
                 },
                 {
-                  "text": "Wer das jetzt hier leugnen will, der soll es machen, aber es ist zu durchsichtig."
+                  "text": "Wer das jetzt hier leugnen will, der soll es machen, aber es ist zu durchsichtig.",
+                  "timeStart": "11.440",
+                  "timeEnd": "16.360",
+                  "entities": []
                 }
               ],
               "text": "Sehr geehrter Herr Präsident! Sehr geehrte Damen und Herren! Was jetzt hier passiert, ist eindeutig dem Wahlkampf geschuldet, da brauchen wir ja nicht darüber zu reden. Wer das jetzt hier leugnen will, der soll es machen, aber es ist zu durchsichtig."
@@ -1778,16 +2401,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Es gab gerade erst einen Untersuchungsausschuss, in dem die Themen, die jetzt auch hier wieder im Unvereinbarkeitsausschuss besprochen werden sollen, behandelt worden sind, und dort ist festgehalten worden, dass es kein Fehlverhalten von Herbert Kickl gegeben hat."
+                  "text": "Es gab gerade erst einen Untersuchungsausschuss, in dem die Themen, die jetzt auch hier wieder im Unvereinbarkeitsausschuss besprochen werden sollen, behandelt worden sind, und dort ist festgehalten worden, dass es kein Fehlverhalten von Herbert Kickl gegeben hat.",
+                  "timeStart": "16.360",
+                  "timeEnd": "31.040",
+                  "entities": []
                 },
                 {
-                  "text": "Sie machen das jetzt also mit haltlosen Behauptungen und offenbar in Unkenntnis der gesetzlichen Bestimmungen, aber das ist Ihr gutes Recht."
+                  "text": "Sie machen das jetzt also mit haltlosen Behauptungen und offenbar in Unkenntnis der gesetzlichen Bestimmungen, aber das ist Ihr gutes Recht.",
+                  "timeStart": "31.040",
+                  "timeEnd": "40.160",
+                  "entities": []
                 },
                 {
-                  "text": "Sie können diesen Beschluss fassen."
+                  "text": "Sie können diesen Beschluss fassen.",
+                  "timeStart": "40.160",
+                  "timeEnd": "41.680",
+                  "entities": []
                 },
                 {
-                  "text": "Wir werden völlig entspannt Auskunft erteilen, und dann wird sich das alles auflösen."
+                  "text": "Wir werden völlig entspannt Auskunft erteilen, und dann wird sich das alles auflösen.",
+                  "timeStart": "41.680",
+                  "timeEnd": "46.640",
+                  "entities": []
                 }
               ],
               "text": "Es gab gerade erst einen Untersuchungsausschuss, in dem die Themen, die jetzt auch hier wieder im Unvereinbarkeitsausschuss besprochen werden sollen, behandelt worden sind, und dort ist festgehalten worden, dass es kein Fehlverhalten von Herbert Kickl gegeben hat. Sie machen das jetzt also mit haltlosen Behauptungen und offenbar in Unkenntnis der gesetzlichen Bestimmungen, aber das ist Ihr gutes Recht. Sie können diesen Beschluss fassen. Wir werden völlig entspannt Auskunft erteilen, und dann wird sich das alles auflösen."
@@ -1798,31 +2433,58 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ganz kurz aber zu den einzelnen Punkten (Abg."
+                  "text": "Ganz kurz aber zu den einzelnen Punkten (Abg.",
+                  "timeStart": "46.640",
+                  "timeEnd": "49.040",
+                  "entities": []
                 },
                 {
-                  "text": "Michael Hammer: Das muss er machen!):"
+                  "text": "Michael Hammer: Das muss er machen!):",
+                  "timeStart": "49.040",
+                  "timeEnd": "50.760",
+                  "entities": []
                 },
                 {
-                  "text": "Da wird einmal ein Verstoß gegen das Berufsverbot behauptet, weil Herbert Kickl einen Dienstwagen hätte. –"
+                  "text": "Da wird einmal ein Verstoß gegen das Berufsverbot behauptet, weil Herbert Kickl einen Dienstwagen hätte. –",
+                  "timeStart": "50.760",
+                  "timeEnd": "56.200",
+                  "entities": []
                 },
                 {
-                  "text": "Also jetzt frage ich einmal die anderen Klubobleute – einer ist gerade nicht da –, ob Sie vielleicht auch mit einem Dienstwagen fahren."
+                  "text": "Also jetzt frage ich einmal die anderen Klubobleute – einer ist gerade nicht da –, ob Sie vielleicht auch mit einem Dienstwagen fahren.",
+                  "timeStart": "56.200",
+                  "timeEnd": "63.200",
+                  "entities": []
                 },
                 {
-                  "text": "Oder steigen Sie nur zufällig in einen großen BMW ein, und ein Freund fährt Sie gratis herum?"
+                  "text": "Oder steigen Sie nur zufällig in einen großen BMW ein, und ein Freund fährt Sie gratis herum?",
+                  "timeStart": "63.200",
+                  "timeEnd": "67.880",
+                  "entities": []
                 },
                 {
-                  "text": "Ich weiß es nicht, aber wahrscheinlich haben Sie auch einen Dienstwagen."
+                  "text": "Ich weiß es nicht, aber wahrscheinlich haben Sie auch einen Dienstwagen.",
+                  "timeStart": "67.880",
+                  "timeEnd": "70.560",
+                  "entities": []
                 },
                 {
-                  "text": "Also wenn das der Verstoß gegen das Berufsverbot ist!?"
+                  "text": "Also wenn das der Verstoß gegen das Berufsverbot ist!?",
+                  "timeStart": "70.560",
+                  "timeEnd": "73.400",
+                  "entities": []
                 },
                 {
-                  "text": "Ich weiß nur, dass alle Klubobleute angegeben haben, dass sie kein Einkommen haben. –"
+                  "text": "Ich weiß nur, dass alle Klubobleute angegeben haben, dass sie kein Einkommen haben. –",
+                  "timeStart": "73.400",
+                  "timeEnd": "77.760",
+                  "entities": []
                 },
                 {
-                  "text": "Also gut, ja, das nehme ich zur Kenntnis."
+                  "text": "Also gut, ja, das nehme ich zur Kenntnis.",
+                  "timeStart": "77.760",
+                  "timeEnd": "83.280",
+                  "entities": []
                 }
               ],
               "text": "Ganz kurz aber zu den einzelnen Punkten (Abg. Michael Hammer: Das muss er machen!): Da wird einmal ein Verstoß gegen das Berufsverbot behauptet, weil Herbert Kickl einen Dienstwagen hätte. – Also jetzt frage ich einmal die anderen Klubobleute – einer ist gerade nicht da –, ob Sie vielleicht auch mit einem Dienstwagen fahren. Oder steigen Sie nur zufällig in einen großen BMW ein, und ein Freund fährt Sie gratis herum? Ich weiß es nicht, aber wahrscheinlich haben Sie auch einen Dienstwagen. Also wenn das der Verstoß gegen das Berufsverbot ist!? Ich weiß nur, dass alle Klubobleute angegeben haben, dass sie kein Einkommen haben. – Also gut, ja, das nehme ich zur Kenntnis."
@@ -1833,22 +2495,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das Ganze wird ja außerdem unter rechtswidriger Weitergabe von Steuerakten gemacht."
+                  "text": "Das Ganze wird ja außerdem unter rechtswidriger Weitergabe von Steuerakten gemacht.",
+                  "timeStart": "83.280",
+                  "timeEnd": "90.120",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist also schon einmal höchst problematisch, das ist auch ein Tabubruch."
+                  "text": "Das ist also schon einmal höchst problematisch, das ist auch ein Tabubruch.",
+                  "timeStart": "90.120",
+                  "timeEnd": "93.600",
+                  "entities": []
                 },
                 {
-                  "text": "Bis jetzt war eigentlich klar, dass man das in Österreich nicht macht."
+                  "text": "Bis jetzt war eigentlich klar, dass man das in Österreich nicht macht.",
+                  "timeStart": "93.600",
+                  "timeEnd": "96.680",
+                  "entities": []
                 },
                 {
-                  "text": "Wenn das jetzt Schule macht, können sich alle darauf vorbereiten, dass sie auch irgendwann einmal ihre Steuerakten in der Öffentlichkeit sehen werden."
+                  "text": "Wenn das jetzt Schule macht, können sich alle darauf vorbereiten, dass sie auch irgendwann einmal ihre Steuerakten in der Öffentlichkeit sehen werden.",
+                  "timeStart": "96.680",
+                  "timeEnd": "103.720",
+                  "entities": []
                 },
                 {
-                  "text": "Wer sich darüber freut? –"
+                  "text": "Wer sich darüber freut? –",
+                  "timeStart": "103.720",
+                  "timeEnd": "105.160",
+                  "entities": []
                 },
                 {
-                  "text": "Ich weiß es nicht."
+                  "text": "Ich weiß es nicht.",
+                  "timeStart": "105.160",
+                  "timeEnd": "106.040",
+                  "entities": []
                 }
               ],
               "text": "Das Ganze wird ja außerdem unter rechtswidriger Weitergabe von Steuerakten gemacht. Das ist also schon einmal höchst problematisch, das ist auch ein Tabubruch. Bis jetzt war eigentlich klar, dass man das in Österreich nicht macht. Wenn das jetzt Schule macht, können sich alle darauf vorbereiten, dass sie auch irgendwann einmal ihre Steuerakten in der Öffentlichkeit sehen werden. Wer sich darüber freut? – Ich weiß es nicht."
@@ -1859,16 +2539,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Das Zweite: fehlende Meldung einer leitenden Stellung in einer GmbH. – Herbert Kickl hat klargemacht, dass er keinen Geschäftsanteil an dieser Ideenschmiede hatte, und seit dem Jahr 2020 ist diese Ideenschmiede keine GmbH mehr, also wäre es nicht einmal denkbar, dass er einen Anteil hat."
+                  "text": "Das Zweite: fehlende Meldung einer leitenden Stellung in einer GmbH. – Herbert Kickl hat klargemacht, dass er keinen Geschäftsanteil an dieser Ideenschmiede hatte, und seit dem Jahr 2020 ist diese Ideenschmiede keine GmbH mehr, also wäre es nicht einmal denkbar, dass er einen Anteil hat.",
+                  "timeStart": "106.040",
+                  "timeEnd": "125.160",
+                  "entities": []
                 },
                 {
-                  "text": "Selbst wenn man einen Anteil an einer Gesellschaft hat, ist man deswegen noch kein leitendes Organ."
+                  "text": "Selbst wenn man einen Anteil an einer Gesellschaft hat, ist man deswegen noch kein leitendes Organ.",
+                  "timeStart": "125.160",
+                  "timeEnd": "129.440",
+                  "entities": []
                 },
                 {
-                  "text": "Da einfach nur zu behaupten, er wäre ein faktischer Geschäftsführer, also das ist so dünn, da muss man sich fast genieren, wenn man so etwas schreibt – aber bitte. ("
+                  "text": "Da einfach nur zu behaupten, er wäre ein faktischer Geschäftsführer, also das ist so dünn, da muss man sich fast genieren, wenn man so etwas schreibt – aber bitte. (",
+                  "timeStart": "129.440",
+                  "timeEnd": "137.400",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei der FPÖ.)"
+                  "text": "Beifall bei der FPÖ.)",
+                  "timeStart": "137.400",
+                  "timeEnd": "142.200",
+                  "entities": []
                 }
               ],
               "text": "Das Zweite: fehlende Meldung einer leitenden Stellung in einer GmbH. – Herbert Kickl hat klargemacht, dass er keinen Geschäftsanteil an dieser Ideenschmiede hatte, und seit dem Jahr 2020 ist diese Ideenschmiede keine GmbH mehr, also wäre es nicht einmal denkbar, dass er einen Anteil hat. Selbst wenn man einen Anteil an einer Gesellschaft hat, ist man deswegen noch kein leitendes Organ. Da einfach nur zu behaupten, er wäre ein faktischer Geschäftsführer, also das ist so dünn, da muss man sich fast genieren, wenn man so etwas schreibt – aber bitte. (Beifall bei der FPÖ.)"
@@ -1879,13 +2571,22 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Vielleicht am Rande bemerkt: Beim Untersuchungsausschuss haben die Verfahrensrichter dann Folgendes festgehalten: „Eine Beteiligung Herbert Kickls an der Werbeagentur konnte für die Zeit seiner Ministerschaft nicht festgestellt werden, ebenso wenig an der genannten Liegenschaft."
+                  "text": "Vielleicht am Rande bemerkt: Beim Untersuchungsausschuss haben die Verfahrensrichter dann Folgendes festgehalten: „Eine Beteiligung Herbert Kickls an der Werbeagentur konnte für die Zeit seiner Ministerschaft nicht festgestellt werden, ebenso wenig an der genannten Liegenschaft.",
+                  "timeStart": "142.200",
+                  "timeEnd": "156.400",
+                  "entities": []
                 },
                 {
-                  "text": "Die von Kickl angegebene Auflösung des Treuhandvertrags wenige Wochen nach dessen Abschluss konnte nicht widerlegt werden.“ –"
+                  "text": "Die von Kickl angegebene Auflösung des Treuhandvertrags wenige Wochen nach dessen Abschluss konnte nicht widerlegt werden.“ –",
+                  "timeStart": "156.400",
+                  "timeEnd": "162.280",
+                  "entities": []
                 },
                 {
-                  "text": "So, gut, vielleicht nehmen Sie das auch zur Kenntnis."
+                  "text": "So, gut, vielleicht nehmen Sie das auch zur Kenntnis.",
+                  "timeStart": "162.280",
+                  "timeEnd": "166.600",
+                  "entities": []
                 }
               ],
               "text": "Vielleicht am Rande bemerkt: Beim Untersuchungsausschuss haben die Verfahrensrichter dann Folgendes festgehalten: „Eine Beteiligung Herbert Kickls an der Werbeagentur konnte für die Zeit seiner Ministerschaft nicht festgestellt werden, ebenso wenig an der genannten Liegenschaft. Die von Kickl angegebene Auflösung des Treuhandvertrags wenige Wochen nach dessen Abschluss konnte nicht widerlegt werden.“ – So, gut, vielleicht nehmen Sie das auch zur Kenntnis."
@@ -1896,22 +2597,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Ein weiterer Punkt: fehlende Meldung einer selbstständigen Tätigkeit – der Herr Kollege Scherak hat es schon gesagt."
+                  "text": "Ein weiterer Punkt: fehlende Meldung einer selbstständigen Tätigkeit – der Herr Kollege Scherak hat es schon gesagt.",
+                  "timeStart": "166.600",
+                  "timeEnd": "173.000",
+                  "entities": []
                 },
                 {
-                  "text": "Also abgesehen davon, dass Kickl auch dazu unter Wahrheitspflicht klar gesagt hat, dass er nicht Hälfteeigentümer dieser Liegenschaft gewesen ist – das ist einmal das eine –, ist das andere: Selbst wenn es so wäre, wäre das keine selbstständige Tätigkeit."
+                  "text": "Also abgesehen davon, dass Kickl auch dazu unter Wahrheitspflicht klar gesagt hat, dass er nicht Hälfteeigentümer dieser Liegenschaft gewesen ist – das ist einmal das eine –, ist das andere: Selbst wenn es so wäre, wäre das keine selbstständige Tätigkeit.",
+                  "timeStart": "173.000",
+                  "timeEnd": "187.360",
+                  "entities": []
                 },
                 {
-                  "text": "Ich weiß nicht, wie viele selbstständig Tätige ihre Meldungen nicht gemacht haben, wenn sie etwas vermieten."
+                  "text": "Ich weiß nicht, wie viele selbstständig Tätige ihre Meldungen nicht gemacht haben, wenn sie etwas vermieten.",
+                  "timeStart": "187.360",
+                  "timeEnd": "191.600",
+                  "entities": []
                 },
                 {
-                  "text": "Also müssen sich jetzt alle, die vielleicht etwas vermieten, einmal kurz überlegen, ob sie demnach bei der Transparenzmeldung nicht vielleicht etwas falsch gemacht haben. –"
+                  "text": "Also müssen sich jetzt alle, die vielleicht etwas vermieten, einmal kurz überlegen, ob sie demnach bei der Transparenzmeldung nicht vielleicht etwas falsch gemacht haben. –",
+                  "timeStart": "191.600",
+                  "timeEnd": "199.640",
+                  "entities": []
                 },
                 {
-                  "text": "Nein, das ist einfach ein Unsinn, das ist klar."
+                  "text": "Nein, das ist einfach ein Unsinn, das ist klar.",
+                  "timeStart": "199.640",
+                  "timeEnd": "202.000",
+                  "entities": []
                 },
                 {
-                  "text": "Und er hat kein Einkommen aus dieser Liegenschaft gehabt; das hat er auch ausgesagt, das ist auch geprüft."
+                  "text": "Und er hat kein Einkommen aus dieser Liegenschaft gehabt; das hat er auch ausgesagt, das ist auch geprüft.",
+                  "timeStart": "202.000",
+                  "timeEnd": "208.160",
+                  "entities": []
                 }
               ],
               "text": "Ein weiterer Punkt: fehlende Meldung einer selbstständigen Tätigkeit – der Herr Kollege Scherak hat es schon gesagt. Also abgesehen davon, dass Kickl auch dazu unter Wahrheitspflicht klar gesagt hat, dass er nicht Hälfteeigentümer dieser Liegenschaft gewesen ist – das ist einmal das eine –, ist das andere: Selbst wenn es so wäre, wäre das keine selbstständige Tätigkeit. Ich weiß nicht, wie viele selbstständig Tätige ihre Meldungen nicht gemacht haben, wenn sie etwas vermieten. Also müssen sich jetzt alle, die vielleicht etwas vermieten, einmal kurz überlegen, ob sie demnach bei der Transparenzmeldung nicht vielleicht etwas falsch gemacht haben. – Nein, das ist einfach ein Unsinn, das ist klar. Und er hat kein Einkommen aus dieser Liegenschaft gehabt; das hat er auch ausgesagt, das ist auch geprüft."
@@ -1922,19 +2641,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wir können ja weitergehen: Falschangaben bei ehrenamtlichen Tätigkeiten. –"
+                  "text": "Wir können ja weitergehen: Falschangaben bei ehrenamtlichen Tätigkeiten. –",
+                  "timeStart": "208.160",
+                  "timeEnd": "214.580",
+                  "entities": []
                 },
                 {
-                  "text": "Ja, also da steht ja eindeutig im Gesetz, was zu melden ist, und dort steht hinsichtlich der Funktionsgebühren sowie der „Ausübung von Funktionen in einer politischen Partei, in einer gesetzlichen Interessenvertretung oder freiwilligen Berufsvereinigung, in die die Person gewählt wurde“, dass diese „nicht als Ausübung eines Berufes“ gelten."
+                  "text": "Ja, also da steht ja eindeutig im Gesetz, was zu melden ist, und dort steht hinsichtlich der Funktionsgebühren sowie der „Ausübung von Funktionen in einer politischen Partei, in einer gesetzlichen Interessenvertretung oder freiwilligen Berufsvereinigung, in die die Person gewählt wurde“, dass diese „nicht als Ausübung eines Berufes“ gelten.",
+                  "timeStart": "214.580",
+                  "timeEnd": "232.840",
+                  "entities": []
                 },
                 {
-                  "text": "Das steht im Unvereinbarkeitsgesetz, nur zur Information! ("
+                  "text": "Das steht im Unvereinbarkeitsgesetz, nur zur Information! (",
+                  "timeStart": "232.840",
+                  "timeEnd": "236.120",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "236.120",
+                  "timeEnd": "236.840",
+                  "entities": []
                 },
                 {
-                  "text": "Krainer: Aber die Meldung als Einkommen muss erfolgen!)"
+                  "text": "Krainer: Aber die Meldung als Einkommen muss erfolgen!)",
+                  "timeStart": "236.840",
+                  "timeEnd": "240.000",
+                  "entities": []
                 }
               ],
               "text": "Wir können ja weitergehen: Falschangaben bei ehrenamtlichen Tätigkeiten. – Ja, also da steht ja eindeutig im Gesetz, was zu melden ist, und dort steht hinsichtlich der Funktionsgebühren sowie der „Ausübung von Funktionen in einer politischen Partei, in einer gesetzlichen Interessenvertretung oder freiwilligen Berufsvereinigung, in die die Person gewählt wurde“, dass diese „nicht als Ausübung eines Berufes“ gelten. Das steht im Unvereinbarkeitsgesetz, nur zur Information! (Abg. Krainer: Aber die Meldung als Einkommen muss erfolgen!)"
@@ -1945,25 +2679,46 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Falsche Meldung der Einkommenskategorien ist der nächste Vorwurf."
+                  "text": "Falsche Meldung der Einkommenskategorien ist der nächste Vorwurf.",
+                  "timeStart": "240.000",
+                  "timeEnd": "243.320",
+                  "entities": []
                 },
                 {
-                  "text": "Da geht es darum, das Kickl früher, bis 2017, von der FPÖ Wien Geld bekommen hat."
+                  "text": "Da geht es darum, das Kickl früher, bis 2017, von der FPÖ Wien Geld bekommen hat.",
+                  "timeStart": "243.320",
+                  "timeEnd": "248.480",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist seitdem nicht mehr der Fall."
+                  "text": "Das ist seitdem nicht mehr der Fall.",
+                  "timeStart": "248.480",
+                  "timeEnd": "250.920",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist ja wohl ganz klar auch aus den Unterlagen der FPÖ Wien ersichtlich."
+                  "text": "Das ist ja wohl ganz klar auch aus den Unterlagen der FPÖ Wien ersichtlich.",
+                  "timeStart": "250.920",
+                  "timeEnd": "254.560",
+                  "entities": []
                 },
                 {
-                  "text": "Das würde ja dort aufscheinen, das ist ja völlig klar. ("
+                  "text": "Das würde ja dort aufscheinen, das ist ja völlig klar. (",
+                  "timeStart": "254.560",
+                  "timeEnd": "257.600",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "257.600",
+                  "timeEnd": "257.600",
+                  "entities": []
                 },
                 {
-                  "text": "Krainer: Da ist die Buchhaltung geschreddert worden!)"
+                  "text": "Krainer: Da ist die Buchhaltung geschreddert worden!)",
+                  "timeStart": "257.600",
+                  "timeEnd": "258.800",
+                  "entities": []
                 }
               ],
               "text": "Falsche Meldung der Einkommenskategorien ist der nächste Vorwurf. Da geht es darum, das Kickl früher, bis 2017, von der FPÖ Wien Geld bekommen hat. Das ist seitdem nicht mehr der Fall. Das ist ja wohl ganz klar auch aus den Unterlagen der FPÖ Wien ersichtlich. Das würde ja dort aufscheinen, das ist ja völlig klar. (Abg. Krainer: Da ist die Buchhaltung geschreddert worden!)"
@@ -1974,31 +2729,58 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Wenn er dort kein Einkommen gehabt hat, um was für ein Einkommen geht es denn? ("
+                  "text": "Wenn er dort kein Einkommen gehabt hat, um was für ein Einkommen geht es denn? (",
+                  "timeStart": "258.800",
+                  "timeEnd": "262.080",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "262.080",
+                  "timeEnd": "262.400",
+                  "entities": []
                 },
                 {
-                  "text": "Krainer: Um das Einkommen als Sachbezug!) –"
+                  "text": "Krainer: Um das Einkommen als Sachbezug!) –",
+                  "timeStart": "262.400",
+                  "timeEnd": "264.600",
+                  "entities": []
                 },
                 {
-                  "text": "Der Sachbezug, also es geht um den Dienstwagen? ("
+                  "text": "Der Sachbezug, also es geht um den Dienstwagen? (",
+                  "timeStart": "264.600",
+                  "timeEnd": "267.280",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "267.280",
+                  "timeEnd": "267.680",
+                  "entities": []
                 },
                 {
-                  "text": "Krainer: Das steht im Gesetz!) –"
+                  "text": "Krainer: Das steht im Gesetz!) –",
+                  "timeStart": "267.680",
+                  "timeEnd": "269.560",
+                  "entities": []
                 },
                 {
-                  "text": "Also den Dienstwagen, gut; der Dienstwagen, den nur Herbert Kickl hat und sonst keiner der Klubobleute oder sonst jemand hier."
+                  "text": "Also den Dienstwagen, gut; der Dienstwagen, den nur Herbert Kickl hat und sonst keiner der Klubobleute oder sonst jemand hier.",
+                  "timeStart": "269.560",
+                  "timeEnd": "275.720",
+                  "entities": []
                 },
                 {
-                  "text": "Gut, also wir werden das aufklären."
+                  "text": "Gut, also wir werden das aufklären.",
+                  "timeStart": "275.720",
+                  "timeEnd": "277.800",
+                  "entities": []
                 },
                 {
-                  "text": "Es ist jedenfalls interessant, dass Sie hier derartige Dinge behaupten."
+                  "text": "Es ist jedenfalls interessant, dass Sie hier derartige Dinge behaupten.",
+                  "timeStart": "277.800",
+                  "timeEnd": "282.520",
+                  "entities": []
                 }
               ],
               "text": "Wenn er dort kein Einkommen gehabt hat, um was für ein Einkommen geht es denn? (Abg. Krainer: Um das Einkommen als Sachbezug!) – Der Sachbezug, also es geht um den Dienstwagen? (Abg. Krainer: Das steht im Gesetz!) – Also den Dienstwagen, gut; der Dienstwagen, den nur Herbert Kickl hat und sonst keiner der Klubobleute oder sonst jemand hier. Gut, also wir werden das aufklären. Es ist jedenfalls interessant, dass Sie hier derartige Dinge behaupten."
@@ -2009,22 +2791,40 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Nehmen Sie zur Kenntnis, dass die Ideenschmiede zehn Jahre lang geprüft worden ist!"
+                  "text": "Nehmen Sie zur Kenntnis, dass die Ideenschmiede zehn Jahre lang geprüft worden ist!",
+                  "timeStart": "282.520",
+                  "timeEnd": "288.240",
+                  "entities": []
                 },
                 {
-                  "text": "Es wurde zehn Jahre lang geprüft."
+                  "text": "Es wurde zehn Jahre lang geprüft.",
+                  "timeStart": "288.240",
+                  "timeEnd": "290.320",
+                  "entities": []
                 },
                 {
-                  "text": "Die WKStA war dahinter, das Bundeskriminalamt."
+                  "text": "Die WKStA war dahinter, das Bundeskriminalamt.",
+                  "timeStart": "290.320",
+                  "timeEnd": "293.840",
+                  "entities": []
                 },
                 {
-                  "text": "Die Verfahren wurden gegen Kickl jedenfalls eingestellt, weil es keinen Geldfluss gegeben hat."
+                  "text": "Die Verfahren wurden gegen Kickl jedenfalls eingestellt, weil es keinen Geldfluss gegeben hat.",
+                  "timeStart": "293.840",
+                  "timeEnd": "299.400",
+                  "entities": []
                 },
                 {
-                  "text": "Wollen Sie von der SPÖ jetzt mit Ihrem Brief plötzlich infrage stellen, dass diese Institutionen richtig arbeiten?"
+                  "text": "Wollen Sie von der SPÖ jetzt mit Ihrem Brief plötzlich infrage stellen, dass diese Institutionen richtig arbeiten?",
+                  "timeStart": "299.400",
+                  "timeEnd": "306.360",
+                  "entities": []
                 },
                 {
-                  "text": "Also das ist schon wirklich haarsträubend."
+                  "text": "Also das ist schon wirklich haarsträubend.",
+                  "timeStart": "306.360",
+                  "timeEnd": "308.000",
+                  "entities": []
                 }
               ],
               "text": "Nehmen Sie zur Kenntnis, dass die Ideenschmiede zehn Jahre lang geprüft worden ist! Es wurde zehn Jahre lang geprüft. Die WKStA war dahinter, das Bundeskriminalamt. Die Verfahren wurden gegen Kickl jedenfalls eingestellt, weil es keinen Geldfluss gegeben hat. Wollen Sie von der SPÖ jetzt mit Ihrem Brief plötzlich infrage stellen, dass diese Institutionen richtig arbeiten? Also das ist schon wirklich haarsträubend."
@@ -2035,19 +2835,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Jetzt noch einmal ganz klar: Herbert Kickl hat niemals Zahlungen wegen einer Beteiligung an der Ideenschmiede bekommen."
+                  "text": "Jetzt noch einmal ganz klar: Herbert Kickl hat niemals Zahlungen wegen einer Beteiligung an der Ideenschmiede bekommen.",
+                  "timeStart": "308.000",
+                  "timeEnd": "314.280",
+                  "entities": []
                 },
                 {
-                  "text": "Wie gesagt – nehmen Sie das zur Kenntnis! –:"
+                  "text": "Wie gesagt – nehmen Sie das zur Kenntnis! –:",
+                  "timeStart": "314.280",
+                  "timeEnd": "316.720",
+                  "entities": []
                 },
                 {
-                  "text": "Herbert Kickl hat niemals Zahlungen aus der Vermietung der Liegenschaft in Klagenfurt bekommen."
+                  "text": "Herbert Kickl hat niemals Zahlungen aus der Vermietung der Liegenschaft in Klagenfurt bekommen.",
+                  "timeStart": "316.720",
+                  "timeEnd": "320.840",
+                  "entities": []
                 },
                 {
-                  "text": "Drittens: Herbert Kickl hat seit 2017 kein Einkommen von der FPÖ Wien bekommen, und er hat daher keinen Verstoß gegen die Meldepflicht nach dem Unvereinbarkeitsgesetz begangen."
+                  "text": "Drittens: Herbert Kickl hat seit 2017 kein Einkommen von der FPÖ Wien bekommen, und er hat daher keinen Verstoß gegen die Meldepflicht nach dem Unvereinbarkeitsgesetz begangen.",
+                  "timeStart": "320.840",
+                  "timeEnd": "330.760",
+                  "entities": []
                 },
                 {
-                  "text": "Aber wie gesagt, wir werden hier - - (Ruf bei der SPÖ: Redezeit!)"
+                  "text": "Aber wie gesagt, wir werden hier - - (Ruf bei der SPÖ: Redezeit!)",
+                  "timeStart": "330.760",
+                  "timeEnd": "334.000",
+                  "entities": []
                 }
               ],
               "text": "Jetzt noch einmal ganz klar: Herbert Kickl hat niemals Zahlungen wegen einer Beteiligung an der Ideenschmiede bekommen. Wie gesagt – nehmen Sie das zur Kenntnis! –: Herbert Kickl hat niemals Zahlungen aus der Vermietung der Liegenschaft in Klagenfurt bekommen. Drittens: Herbert Kickl hat seit 2017 kein Einkommen von der FPÖ Wien bekommen, und er hat daher keinen Verstoß gegen die Meldepflicht nach dem Unvereinbarkeitsgesetz begangen. Aber wie gesagt, wir werden hier - - (Ruf bei der SPÖ: Redezeit!)"
@@ -2058,7 +2873,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Schlusssatz!"
+                  "text": "Schlusssatz!",
+                  "timeStart": "334.000",
+                  "timeEnd": "334.440",
+                  "entities": []
                 }
               ],
               "text": "Schlusssatz!"
@@ -2069,19 +2887,34 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Danke. –"
+                  "text": "Danke. –",
+                  "timeStart": "334.440",
+                  "timeEnd": "334.840",
+                  "entities": []
                 },
                 {
-                  "text": "Ich weiß, die Redezeit ist vorbei, aber jetzt erlauben Sie mir, das noch ganz kurz fertig auszuführen."
+                  "text": "Ich weiß, die Redezeit ist vorbei, aber jetzt erlauben Sie mir, das noch ganz kurz fertig auszuführen.",
+                  "timeStart": "334.840",
+                  "timeEnd": "340.000",
+                  "entities": []
                 },
                 {
-                  "text": "Immerhin haben jetzt vier in die andere Richtung geblasen. ("
+                  "text": "Immerhin haben jetzt vier in die andere Richtung geblasen. (",
+                  "timeStart": "340.000",
+                  "timeEnd": "343.400",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "343.400",
+                  "timeEnd": "343.600",
+                  "entities": []
                 },
                 {
-                  "text": "Strasser: Viermal ein paar Minuten!)"
+                  "text": "Strasser: Viermal ein paar Minuten!)",
+                  "timeStart": "343.600",
+                  "timeEnd": "344.420",
+                  "entities": []
                 }
               ],
               "text": "Danke. – Ich weiß, die Redezeit ist vorbei, aber jetzt erlauben Sie mir, das noch ganz kurz fertig auszuführen. Immerhin haben jetzt vier in die andere Richtung geblasen. (Abg. Strasser: Viermal ein paar Minuten!)"
@@ -2092,16 +2925,28 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Nehmen Sie zur Kenntnis, dass sich all diese Vorwürfe in Luft auflösen werden!"
+                  "text": "Nehmen Sie zur Kenntnis, dass sich all diese Vorwürfe in Luft auflösen werden!",
+                  "timeStart": "344.420",
+                  "timeEnd": "348.400",
+                  "entities": []
                 },
                 {
-                  "text": "Das wird in Wirklichkeit der FPÖ und Herbert Kickl wieder ganz eindeutig helfen, weil die Menschen wieder merken werden, dass von allen Parteien gemeinsam mit haltlosen Behauptungen Vorwürfe gegen ihn erhoben werden, die sich in Luft auflösen."
+                  "text": "Das wird in Wirklichkeit der FPÖ und Herbert Kickl wieder ganz eindeutig helfen, weil die Menschen wieder merken werden, dass von allen Parteien gemeinsam mit haltlosen Behauptungen Vorwürfe gegen ihn erhoben werden, die sich in Luft auflösen.",
+                  "timeStart": "348.400",
+                  "timeEnd": "356.880",
+                  "entities": []
                 },
                 {
-                  "text": "Man kann also sozusagen nur Danke sagen. ("
+                  "text": "Man kann also sozusagen nur Danke sagen. (",
+                  "timeStart": "356.880",
+                  "timeEnd": "358.880",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei der FPÖ.)"
+                  "text": "Beifall bei der FPÖ.)",
+                  "timeStart": "358.880",
+                  "timeEnd": "359.480",
+                  "entities": []
                 }
               ],
               "text": "Nehmen Sie zur Kenntnis, dass sich all diese Vorwürfe in Luft auflösen werden! Das wird in Wirklichkeit der FPÖ und Herbert Kickl wieder ganz eindeutig helfen, weil die Menschen wieder merken werden, dass von allen Parteien gemeinsam mit haltlosen Behauptungen Vorwürfe gegen ihn erhoben werden, die sich in Luft auflösen. Man kann also sozusagen nur Danke sagen. (Beifall bei der FPÖ.)"
@@ -2112,25 +2957,46 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "Denken Sie an diese Worte, wenn Sie dann im September auf die Wahlergebnisse schauen."
+                  "text": "Denken Sie an diese Worte, wenn Sie dann im September auf die Wahlergebnisse schauen.",
+                  "timeStart": "359.480",
+                  "timeEnd": "361.880",
+                  "entities": []
                 },
                 {
-                  "text": "Dann werden Sie wissen, was Sie heute angerichtet haben. ("
+                  "text": "Dann werden Sie wissen, was Sie heute angerichtet haben. (",
+                  "timeStart": "361.880",
+                  "timeEnd": "364.120",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei der FPÖ. –"
+                  "text": "Beifall bei der FPÖ. –",
+                  "timeStart": "364.120",
+                  "timeEnd": "365.440",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "365.440",
+                  "timeEnd": "365.440",
+                  "entities": []
                 },
                 {
-                  "text": "Matznetter: Danke für das Geständnis, dass zwei Punkte stimmen! –"
+                  "text": "Matznetter: Danke für das Geständnis, dass zwei Punkte stimmen! –",
+                  "timeStart": "365.440",
+                  "timeEnd": "368.360",
+                  "entities": []
                 },
                 {
-                  "text": "Abg."
+                  "text": "Abg.",
+                  "timeStart": "368.360",
+                  "timeEnd": "369.040",
+                  "entities": []
                 },
                 {
-                  "text": "Krainer: Zwei Punkte haben Sie schon gestanden!)"
+                  "text": "Krainer: Zwei Punkte haben Sie schon gestanden!)",
+                  "timeStart": "369.040",
+                  "timeEnd": "372.120",
+                  "entities": []
                 }
               ],
               "text": "Denken Sie an diese Worte, wenn Sie dann im September auf die Wahlergebnisse schauen. Dann werden Sie wissen, was Sie heute angerichtet haben. (Beifall bei der FPÖ. – Abg. Matznetter: Danke für das Geständnis, dass zwei Punkte stimmen! – Abg. Krainer: Zwei Punkte haben Sie schon gestanden!)"
@@ -2141,7 +3007,10 @@
               "speakerstatus": "Abgeordneter",
               "sentences": [
                 {
-                  "text": "17.45"
+                  "text": "17.45",
+                  "timeStart": "372.120",
+                  "timeEnd": "379.960",
+                  "entities": []
                 }
               ],
               "text": "17.45"
@@ -2153,7 +3022,9 @@
         "mediaIndex": 8,
         "stdId": 330590,
         "debatteId": 95,
-        "proceedingIndex": 330590
+        "proceedingIndex": 330590,
+        "alignDuration": 1.148547887802124,
+        "nerDuration": 0.44443321228027344
       },
       "originalLanguage": "de"
     },
@@ -2181,7 +3052,8 @@
         "originMediaID": "330582",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/2a2501d5-f54e-48d6-b488-94acbb6dbf9f/2a2501d5-f54e-48d6-b488-94acbb6dbf9f.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/2a2501d5-f54e-48d6-b488-94acbb6dbf9f/2a2501d5-f54e-48d6-b488-94acbb6dbf9f.mp3",
-        "duration": 46
+        "duration": 46,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:46:04",
       "dateEnd": "2024-07-05T17:46:50",
@@ -2213,10 +3085,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zu Wort ist niemand mehr gemeldet."
+                  "text": "Zu Wort ist niemand mehr gemeldet.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.960",
+                  "entities": []
                 },
                 {
-                  "text": "Die Debatte ist geschlossen."
+                  "text": "Die Debatte ist geschlossen.",
+                  "timeStart": "3.960",
+                  "timeEnd": "6.120",
+                  "entities": []
                 }
               ],
               "text": "Zu Wort ist niemand mehr gemeldet. Die Debatte ist geschlossen."
@@ -2227,7 +3105,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen nun zur Abstimmung über den Antrag des Herrn Abgeordneten Krainer, den Unvereinbarkeitsausschuss zu beauftragen, seine Arbeiten hinsichtlich der Einhaltung der Bestimmungen des Unvereinbarkeits- und Transparenzgesetzes durch Herrn Abgeordneten Herbert Kickl sowie der gemäß § 6 Unvereinbarkeits- und Transparenzgesetz neu eingelangten und einlangenden Meldungen auch während der tagungsfreien Zeit fortzusetzen."
+                  "text": "Wir kommen nun zur Abstimmung über den Antrag des Herrn Abgeordneten Krainer, den Unvereinbarkeitsausschuss zu beauftragen, seine Arbeiten hinsichtlich der Einhaltung der Bestimmungen des Unvereinbarkeits- und Transparenzgesetzes durch Herrn Abgeordneten Herbert Kickl sowie der gemäß § 6 Unvereinbarkeits- und Transparenzgesetz neu eingelangten und einlangenden Meldungen auch während der tagungsfreien Zeit fortzusetzen.",
+                  "timeStart": "6.120",
+                  "timeEnd": "33.080",
+                  "entities": []
                 }
               ],
               "text": "Wir kommen nun zur Abstimmung über den Antrag des Herrn Abgeordneten Krainer, den Unvereinbarkeitsausschuss zu beauftragen, seine Arbeiten hinsichtlich der Einhaltung der Bestimmungen des Unvereinbarkeits- und Transparenzgesetzes durch Herrn Abgeordneten Herbert Kickl sowie der gemäß § 6 Unvereinbarkeits- und Transparenzgesetz neu eingelangten und einlangenden Meldungen auch während der tagungsfreien Zeit fortzusetzen."
@@ -2238,10 +3119,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –"
+                  "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –",
+                  "timeStart": "33.080",
+                  "timeEnd": "40.160",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist mit Mehrheit angenommen."
+                  "text": "Das ist mit Mehrheit angenommen.",
+                  "timeStart": "40.160",
+                  "timeEnd": "43.960",
+                  "entities": []
                 }
               ],
               "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. – Das ist mit Mehrheit angenommen."
@@ -2253,7 +3140,9 @@
         "mediaIndex": 9,
         "stdId": 330582,
         "debatteId": 95,
-        "proceedingIndex": 330582
+        "proceedingIndex": 330582,
+        "alignDuration": 0.3596930503845215,
+        "nerDuration": 0.0275728702545166
       },
       "originalLanguage": "de"
     },
@@ -2281,7 +3170,8 @@
         "originMediaID": "330484",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/5db9fea7-31fe-4d52-87a6-5a21e5556b34/5db9fea7-31fe-4d52-87a6-5a21e5556b34.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/5db9fea7-31fe-4d52-87a6-5a21e5556b34/5db9fea7-31fe-4d52-87a6-5a21e5556b34.mp3",
-        "duration": 54
+        "duration": 54,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:46:50",
       "dateEnd": "2024-07-05T17:47:44",
@@ -2313,7 +3203,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Verlesung eines Teiles des Amtlichen Protokolls"
+                  "text": "Verlesung eines Teiles des Amtlichen Protokolls",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.920",
+                  "entities": []
                 }
               ],
               "text": "Verlesung eines Teiles des Amtlichen Protokolls"
@@ -2324,10 +3217,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es liegt mir das schriftliche Verlangen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2023/2024 der XXVII."
+                  "text": "Es liegt mir das schriftliche Verlangen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2023/2024 der XXVII.",
+                  "timeStart": "2.920",
+                  "timeEnd": "13.120",
+                  "entities": []
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt."
+                  "text": "Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt.",
+                  "timeStart": "13.120",
+                  "timeEnd": "19.720",
+                  "entities": []
                 }
               ],
               "text": "Es liegt mir das schriftliche Verlangen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2023/2024 der XXVII. Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt."
@@ -2338,7 +3237,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich verlese:"
+                  "text": "Ich verlese:",
+                  "timeStart": "19.720",
+                  "timeEnd": "20.160",
+                  "entities": []
                 }
               ],
               "text": "Ich verlese:"
@@ -2349,13 +3251,22 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "„Auf Antrag der Abgeordneten Peter Haubner , Mag."
+                  "text": "„Auf Antrag der Abgeordneten Peter Haubner , Mag.",
+                  "timeStart": "20.160",
+                  "timeEnd": "21.720",
+                  "entities": []
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Mag."
+                  "text": "Dr. Jakob Schwarz, BA , Mag.",
+                  "timeStart": "21.720",
+                  "timeEnd": "22.480",
+                  "entities": []
                 },
                 {
-                  "text": "Karin Greiner , Ing. Norbert Hofer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen (Beilage C) fasst der Nationalrat einstimmig nachstehenden Beschluss:"
+                  "text": "Karin Greiner , Ing. Norbert Hofer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen (Beilage C) fasst der Nationalrat einstimmig nachstehenden Beschluss:",
+                  "timeStart": "22.480",
+                  "timeEnd": "28.560",
+                  "entities": []
                 }
               ],
               "text": "„Auf Antrag der Abgeordneten Peter Haubner , Mag. Dr. Jakob Schwarz, BA , Mag. Karin Greiner , Ing. Norbert Hofer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen (Beilage C) fasst der Nationalrat einstimmig nachstehenden Beschluss:"
@@ -2366,10 +3277,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2023/2024 der XXVII."
+                  "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2023/2024 der XXVII.",
+                  "timeStart": "28.560",
+                  "timeEnd": "34.040",
+                  "entities": []
                 },
                 {
-                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2024 für beendet zu erklären.““"
+                  "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2024 für beendet zu erklären.““",
+                  "timeStart": "34.040",
+                  "timeEnd": "41.280",
+                  "entities": []
                 }
               ],
               "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2023/2024 der XXVII. Gesetzgebungsperiode des Nationalrates mit Ablauf des 9. Juli 2024 für beendet zu erklären.““"
@@ -2380,10 +3297,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Erheben sich dagegen Einwendungen? –"
+                  "text": "Erheben sich dagegen Einwendungen? –",
+                  "timeStart": "41.280",
+                  "timeEnd": "43.660",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist nicht der Fall."
+                  "text": "Das ist nicht der Fall.",
+                  "timeStart": "43.660",
+                  "timeEnd": "44.840",
+                  "entities": []
                 }
               ],
               "text": "Erheben sich dagegen Einwendungen? – Das ist nicht der Fall."
@@ -2394,7 +3317,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Dann gilt dieser verlesene Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss der Sitzung als genehmigt."
+                  "text": "Dann gilt dieser verlesene Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss der Sitzung als genehmigt.",
+                  "timeStart": "44.840",
+                  "timeEnd": "56.000",
+                  "entities": []
                 }
               ],
               "text": "Dann gilt dieser verlesene Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss der Sitzung als genehmigt."
@@ -2406,7 +3332,9 @@
         "mediaIndex": 10,
         "stdId": 330484,
         "debatteId": 320,
-        "proceedingIndex": 330484
+        "proceedingIndex": 330484,
+        "alignDuration": 0.40821409225463867,
+        "nerDuration": 0.0600278377532959
       },
       "originalLanguage": "de"
     },
@@ -2434,7 +3362,8 @@
         "originMediaID": "330486",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/f476aec3-6b82-4453-84c1-83d519480edd/f476aec3-6b82-4453-84c1-83d519480edd.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/f476aec3-6b82-4453-84c1-83d519480edd/f476aec3-6b82-4453-84c1-83d519480edd.mp3",
-        "duration": 282
+        "duration": 282,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:47:44",
       "dateEnd": "2024-07-05T17:52:26",
@@ -2466,7 +3395,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Schlussansprache des Präsidenten"
+                  "text": "Schlussansprache des Präsidenten",
+                  "timeStart": "1.000",
+                  "timeEnd": "2.780",
+                  "entities": []
                 }
               ],
               "text": "Schlussansprache des Präsidenten"
@@ -2477,10 +3409,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich am Schluss der Tagung noch kurz an Sie wenden, und zwar erstens mit der Information, dass die Mandatarin Gudrun Kugler zur Vizepräsidentin der Parlamentarischen Versammlung der OSZE gewählt wurde, wozu wir herzlich gratulieren. ("
+                  "text": "Ich darf mich am Schluss der Tagung noch kurz an Sie wenden, und zwar erstens mit der Information, dass die Mandatarin Gudrun Kugler zur Vizepräsidentin der Parlamentarischen Versammlung der OSZE gewählt wurde, wozu wir herzlich gratulieren. (",
+                  "timeStart": "2.780",
+                  "timeEnd": "18.520",
+                  "entities": []
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "18.520",
+                  "timeEnd": "19.480",
+                  "entities": []
                 }
               ],
               "text": "Ich darf mich am Schluss der Tagung noch kurz an Sie wenden, und zwar erstens mit der Information, dass die Mandatarin Gudrun Kugler zur Vizepräsidentin der Parlamentarischen Versammlung der OSZE gewählt wurde, wozu wir herzlich gratulieren. (Allgemeiner Beifall.)"
@@ -2491,10 +3429,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Gleichzeitig darf ich Sie darauf hinweisen, dass in der nächsten Woche am 10. und am 11. Juli Sensibilisierungstage stattfinden, und zwar mit dem ganz besonderen Hinweis: Barrierefrei wählen. –"
+                  "text": "Gleichzeitig darf ich Sie darauf hinweisen, dass in der nächsten Woche am 10. und am 11. Juli Sensibilisierungstage stattfinden, und zwar mit dem ganz besonderen Hinweis: Barrierefrei wählen. –",
+                  "timeStart": "19.480",
+                  "timeEnd": "40.860",
+                  "entities": []
                 },
                 {
-                  "text": "Die Barrierefreiheit des Hauses in allen Belangen zu gewährleisten ist uns immer ein ganz besonderes Anliegen gewesen, und das nicht nur, was die Mobilitäteinschränkung betrifft."
+                  "text": "Die Barrierefreiheit des Hauses in allen Belangen zu gewährleisten ist uns immer ein ganz besonderes Anliegen gewesen, und das nicht nur, was die Mobilitäteinschränkung betrifft.",
+                  "timeStart": "40.860",
+                  "timeEnd": "53.980",
+                  "entities": []
                 }
               ],
               "text": "Gleichzeitig darf ich Sie darauf hinweisen, dass in der nächsten Woche am 10. und am 11. Juli Sensibilisierungstage stattfinden, und zwar mit dem ganz besonderen Hinweis: Barrierefrei wählen. – Die Barrierefreiheit des Hauses in allen Belangen zu gewährleisten ist uns immer ein ganz besonderes Anliegen gewesen, und das nicht nur, was die Mobilitäteinschränkung betrifft."
@@ -2505,16 +3449,28 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Es war ein intensives Arbeitsjahr, ich darf mich daher ganz, ganz herzlich bei Ihnen, den 182 Abgeordneten dieses Hauses, den Klubs und den Klubmitarbeitern bedanken."
+                  "text": "Es war ein intensives Arbeitsjahr, ich darf mich daher ganz, ganz herzlich bei Ihnen, den 182 Abgeordneten dieses Hauses, den Klubs und den Klubmitarbeitern bedanken.",
+                  "timeStart": "53.980",
+                  "timeEnd": "67.800",
+                  "entities": []
                 },
                 {
-                  "text": "Ich darf mich bei meiner Präsidentenkollegin und meinem Präsidentenkollegen, bei Präsidentin Bures und Präsident Hofer, und den Mitgliedern der Präsidiale bedanken."
+                  "text": "Ich darf mich bei meiner Präsidentenkollegin und meinem Präsidentenkollegen, bei Präsidentin Bures und Präsident Hofer, und den Mitgliedern der Präsidiale bedanken.",
+                  "timeStart": "67.800",
+                  "timeEnd": "77.720",
+                  "entities": []
                 },
                 {
-                  "text": "Es waren viele Beschlüsse zu fassen, es gab viele Diskussionen – vielen herzlichen Dank für Ihre Arbeit. ("
+                  "text": "Es waren viele Beschlüsse zu fassen, es gab viele Diskussionen – vielen herzlichen Dank für Ihre Arbeit. (",
+                  "timeStart": "77.720",
+                  "timeEnd": "84.520",
+                  "entities": []
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "84.520",
+                  "timeEnd": "92.720",
+                  "entities": []
                 }
               ],
               "text": "Es war ein intensives Arbeitsjahr, ich darf mich daher ganz, ganz herzlich bei Ihnen, den 182 Abgeordneten dieses Hauses, den Klubs und den Klubmitarbeitern bedanken. Ich darf mich bei meiner Präsidentenkollegin und meinem Präsidentenkollegen, bei Präsidentin Bures und Präsident Hofer, und den Mitgliedern der Präsidiale bedanken. Es waren viele Beschlüsse zu fassen, es gab viele Diskussionen – vielen herzlichen Dank für Ihre Arbeit. (Allgemeiner Beifall.)"
@@ -2525,7 +3481,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich darf mich auch beim Rechnungshof bedanken und – Sie haben gerade gestern wieder gesehen, wie intensiv die Berichte dargestellt und diskutiert wurden – bei der Volksanwaltschaft."
+                  "text": "Ich darf mich auch beim Rechnungshof bedanken und – Sie haben gerade gestern wieder gesehen, wie intensiv die Berichte dargestellt und diskutiert wurden – bei der Volksanwaltschaft.",
+                  "timeStart": "92.720",
+                  "timeEnd": "103.140",
+                  "entities": []
                 }
               ],
               "text": "Ich darf mich auch beim Rechnungshof bedanken und – Sie haben gerade gestern wieder gesehen, wie intensiv die Berichte dargestellt und diskutiert wurden – bei der Volksanwaltschaft."
@@ -2536,13 +3495,22 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Und last, but not least bedanke ich mich vor allem bei unseren Mitarbeitern, beim Direktorium, Dr. Dossi, Dr. Janistyn und Mag."
+                  "text": "Und last, but not least bedanke ich mich vor allem bei unseren Mitarbeitern, beim Direktorium, Dr. Dossi, Dr. Janistyn und Mag.",
+                  "timeStart": "103.140",
+                  "timeEnd": "110.880",
+                  "entities": []
                 },
                 {
-                  "text": "Wintoniak, allen Dienstleiterinnen und Dienstleitern, allen Abteilungsleiterinnen und Abteilungsleitern, den Mitarbeiter:innen bis hin zu der Sicherheitsmitarbeitern und letzten Endes auch bei der Landespolizeidirektion Wien, die uns bestmöglich Schutz gewährt, den eigenen Sicherheitskräften und all jenen Kräften, die für Ordnung und Sauberkeit hier in diesem Parlament sorgen. ("
+                  "text": "Wintoniak, allen Dienstleiterinnen und Dienstleitern, allen Abteilungsleiterinnen und Abteilungsleitern, den Mitarbeiter:innen bis hin zu der Sicherheitsmitarbeitern und letzten Endes auch bei der Landespolizeidirektion Wien, die uns bestmöglich Schutz gewährt, den eigenen Sicherheitskräften und all jenen Kräften, die für Ordnung und Sauberkeit hier in diesem Parlament sorgen. (",
+                  "timeStart": "110.880",
+                  "timeEnd": "136.240",
+                  "entities": []
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "136.240",
+                  "timeEnd": "136.440",
+                  "entities": []
                 }
               ],
               "text": "Und last, but not least bedanke ich mich vor allem bei unseren Mitarbeitern, beim Direktorium, Dr. Dossi, Dr. Janistyn und Mag. Wintoniak, allen Dienstleiterinnen und Dienstleitern, allen Abteilungsleiterinnen und Abteilungsleitern, den Mitarbeiter:innen bis hin zu der Sicherheitsmitarbeitern und letzten Endes auch bei der Landespolizeidirektion Wien, die uns bestmöglich Schutz gewährt, den eigenen Sicherheitskräften und all jenen Kräften, die für Ordnung und Sauberkeit hier in diesem Parlament sorgen. (Allgemeiner Beifall.)"
@@ -2553,13 +3521,22 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "In ganz besonderer Hinsicht danke ich unserem Nationalratsdienst, der wirklich, auch wenn viele zusätzliche Anträge gekommen sind und dementsprechende Expertisen auszuarbeiten waren, mustergültig gearbeitet hat – Frau Dr. Bachmann, Herr Mag."
+                  "text": "In ganz besonderer Hinsicht danke ich unserem Nationalratsdienst, der wirklich, auch wenn viele zusätzliche Anträge gekommen sind und dementsprechende Expertisen auszuarbeiten waren, mustergültig gearbeitet hat – Frau Dr. Bachmann, Herr Mag.",
+                  "timeStart": "136.440",
+                  "timeEnd": "157.120",
+                  "entities": []
                 },
                 {
-                  "text": "Michalitsch und all ihren Kollegen –: ein herzliches Dankeschön. ("
+                  "text": "Michalitsch und all ihren Kollegen –: ein herzliches Dankeschön. (",
+                  "timeStart": "157.120",
+                  "timeEnd": "160.240",
+                  "entities": []
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "160.240",
+                  "timeEnd": "163.240",
+                  "entities": []
                 }
               ],
               "text": "In ganz besonderer Hinsicht danke ich unserem Nationalratsdienst, der wirklich, auch wenn viele zusätzliche Anträge gekommen sind und dementsprechende Expertisen auszuarbeiten waren, mustergültig gearbeitet hat – Frau Dr. Bachmann, Herr Mag. Michalitsch und all ihren Kollegen –: ein herzliches Dankeschön. (Allgemeiner Beifall.)"
@@ -2570,10 +3547,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ein herzliches Dankeschön unseren Gebärdensprachdolmetscher:innen, die das nicht nur heute in der Plenarsitzung, sondern bei vielen Veranstaltungen tun: vielen herzlichen Dank. ("
+                  "text": "Ein herzliches Dankeschön unseren Gebärdensprachdolmetscher:innen, die das nicht nur heute in der Plenarsitzung, sondern bei vielen Veranstaltungen tun: vielen herzlichen Dank. (",
+                  "timeStart": "163.240",
+                  "timeEnd": "173.320",
+                  "entities": []
                 },
                 {
-                  "text": "Beifall bei ÖVP, FPÖ und NEOS sowie Beifall in Gebärdensprache bei SPÖ und Grünen.)"
+                  "text": "Beifall bei ÖVP, FPÖ und NEOS sowie Beifall in Gebärdensprache bei SPÖ und Grünen.)",
+                  "timeStart": "173.320",
+                  "timeEnd": "183.800",
+                  "entities": []
                 }
               ],
               "text": "Ein herzliches Dankeschön unseren Gebärdensprachdolmetscher:innen, die das nicht nur heute in der Plenarsitzung, sondern bei vielen Veranstaltungen tun: vielen herzlichen Dank. (Beifall bei ÖVP, FPÖ und NEOS sowie Beifall in Gebärdensprache bei SPÖ und Grünen.)"
@@ -2584,7 +3567,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Nicht zuletzt darf ich mich bei unseren Gästen bedanken, die uns die Treue vor den Bildschirmen und hier auf der Galerie halten; es waren im Vorjahr viele, und der Zustrom ist ungebrochen."
+                  "text": "Nicht zuletzt darf ich mich bei unseren Gästen bedanken, die uns die Treue vor den Bildschirmen und hier auf der Galerie halten; es waren im Vorjahr viele, und der Zustrom ist ungebrochen.",
+                  "timeStart": "183.800",
+                  "timeEnd": "195.960",
+                  "entities": []
                 }
               ],
               "text": "Nicht zuletzt darf ich mich bei unseren Gästen bedanken, die uns die Treue vor den Bildschirmen und hier auf der Galerie halten; es waren im Vorjahr viele, und der Zustrom ist ungebrochen."
@@ -2595,7 +3581,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich wünsche Ihnen alles Gute und vor allem auch Ihren Familien, die ich in den Dank miteinschließen möchte, denn sie müssen vieles aushalten, was so quasi in den Social Media oder in anderen Medien über Sie gepostet wird: Des einen Freud, des andern Leid."
+                  "text": "Ich wünsche Ihnen alles Gute und vor allem auch Ihren Familien, die ich in den Dank miteinschließen möchte, denn sie müssen vieles aushalten, was so quasi in den Social Media oder in anderen Medien über Sie gepostet wird: Des einen Freud, des andern Leid.",
+                  "timeStart": "195.960",
+                  "timeEnd": "211.600",
+                  "entities": []
                 }
               ],
               "text": "Ich wünsche Ihnen alles Gute und vor allem auch Ihren Familien, die ich in den Dank miteinschließen möchte, denn sie müssen vieles aushalten, was so quasi in den Social Media oder in anderen Medien über Sie gepostet wird: Des einen Freud, des andern Leid."
@@ -2606,16 +3595,28 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich glaube, wir haben in diesen drei Tagen, in denen doch auch deutlich kontroversielle Meinungen geäußert wurden, bewiesen, dass wir diese Sitzungen mit großer Bedachtsamkeit zu Ende gebracht haben."
+                  "text": "Ich glaube, wir haben in diesen drei Tagen, in denen doch auch deutlich kontroversielle Meinungen geäußert wurden, bewiesen, dass wir diese Sitzungen mit großer Bedachtsamkeit zu Ende gebracht haben.",
+                  "timeStart": "211.600",
+                  "timeEnd": "224.920",
+                  "entities": []
                 },
                 {
-                  "text": "Darauf dürfen Sie alle ein wenig stolz sein."
+                  "text": "Darauf dürfen Sie alle ein wenig stolz sein.",
+                  "timeStart": "224.920",
+                  "timeEnd": "229.600",
+                  "entities": []
                 },
                 {
-                  "text": "Ich sehe das auch im internationalen Vergleich – und wir werden immer wieder betreffend die Wortwahl kritisiert –: Demokratie und Plenarsitzungen brauchen natürlich eine gewisse Emotionalität."
+                  "text": "Ich sehe das auch im internationalen Vergleich – und wir werden immer wieder betreffend die Wortwahl kritisiert –: Demokratie und Plenarsitzungen brauchen natürlich eine gewisse Emotionalität.",
+                  "timeStart": "229.600",
+                  "timeEnd": "242.160",
+                  "entities": []
                 },
                 {
-                  "text": "Dort, wo sie zu weit geht, schreiten wir ein, aber insgesamt dürfen wir durchaus zufrieden sein."
+                  "text": "Dort, wo sie zu weit geht, schreiten wir ein, aber insgesamt dürfen wir durchaus zufrieden sein.",
+                  "timeStart": "242.160",
+                  "timeEnd": "248.280",
+                  "entities": []
                 }
               ],
               "text": "Ich glaube, wir haben in diesen drei Tagen, in denen doch auch deutlich kontroversielle Meinungen geäußert wurden, bewiesen, dass wir diese Sitzungen mit großer Bedachtsamkeit zu Ende gebracht haben. Darauf dürfen Sie alle ein wenig stolz sein. Ich sehe das auch im internationalen Vergleich – und wir werden immer wieder betreffend die Wortwahl kritisiert –: Demokratie und Plenarsitzungen brauchen natürlich eine gewisse Emotionalität. Dort, wo sie zu weit geht, schreiten wir ein, aber insgesamt dürfen wir durchaus zufrieden sein."
@@ -2626,10 +3627,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich habe zuletzt noch eines vergessen: unsere Stenografen, die immer wieder unsere Protokolle so mustergültig verfassen – vielen herzlichen Dank (anhaltender allgemeiner Beifall und Bravorufe) –, und die Journalistinnen und Journalisten, die uns begleiten, vor allem die Bildregie des ORFs, die auch ein wesentlicher Teil unserer Informationen sind. ("
+                  "text": "Ich habe zuletzt noch eines vergessen: unsere Stenografen, die immer wieder unsere Protokolle so mustergültig verfassen – vielen herzlichen Dank (anhaltender allgemeiner Beifall und Bravorufe) –, und die Journalistinnen und Journalisten, die uns begleiten, vor allem die Bildregie des ORFs, die auch ein wesentlicher Teil unserer Informationen sind. (",
+                  "timeStart": "248.280",
+                  "timeEnd": "283.200",
+                  "entities": []
                 },
                 {
-                  "text": "Allgemeiner Beifall.)"
+                  "text": "Allgemeiner Beifall.)",
+                  "timeStart": "283.200",
+                  "timeEnd": "283.960",
+                  "entities": []
                 }
               ],
               "text": "Ich habe zuletzt noch eines vergessen: unsere Stenografen, die immer wieder unsere Protokolle so mustergültig verfassen – vielen herzlichen Dank (anhaltender allgemeiner Beifall und Bravorufe) –, und die Journalistinnen und Journalisten, die uns begleiten, vor allem die Bildregie des ORFs, die auch ein wesentlicher Teil unserer Informationen sind. (Allgemeiner Beifall.)"
@@ -2641,7 +3648,9 @@
         "mediaIndex": 11,
         "stdId": 330486,
         "debatteId": 330,
-        "proceedingIndex": 330486
+        "proceedingIndex": 330486,
+        "alignDuration": 0.8508880138397217,
+        "nerDuration": 0.16691994667053223
       },
       "originalLanguage": "de"
     },
@@ -2669,7 +3678,8 @@
         "originMediaID": "330491",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/630ef22b-97bc-4acf-9975-59dd4809ea13/630ef22b-97bc-4acf-9975-59dd4809ea13.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/630ef22b-97bc-4acf-9975-59dd4809ea13/630ef22b-97bc-4acf-9975-59dd4809ea13.mp3",
-        "duration": 16
+        "duration": 16,
+        "aligned": true
       },
       "dateStart": "2024-07-05T17:52:26",
       "dateEnd": "2024-07-05T17:52:42",
@@ -2701,7 +3711,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 18. September 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
+                  "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 18. September 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
+                  "timeStart": "1.000",
+                  "timeEnd": "10.600",
+                  "entities": []
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 18. September 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen."
@@ -2712,7 +3725,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich wünsche ein gutes Nachhausekommen."
+                  "text": "Ich wünsche ein gutes Nachhausekommen.",
+                  "timeStart": "10.600",
+                  "timeEnd": "13.640",
+                  "entities": []
                 }
               ],
               "text": "Ich wünsche ein gutes Nachhausekommen."
@@ -2723,7 +3739,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "13.640",
+                  "timeEnd": "15.440",
+                  "entities": []
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -2735,7 +3754,9 @@
         "mediaIndex": 12,
         "stdId": 330491,
         "debatteId": 340,
-        "proceedingIndex": 330491
+        "proceedingIndex": 330491,
+        "alignDuration": 0.30773186683654785,
+        "nerDuration": 0.014898061752319336
       },
       "originalLanguage": "de"
     }

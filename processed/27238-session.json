@@ -8,7 +8,8 @@
     "lastUpdate": "2026-06-25T23:30:16",
     "processing": {
       "merge": "2026-06-16T04:24:10+00:00",
-      "align": "2026-06-25T23:30:16"
+      "align": "2026-06-25T23:30:16",
+      "ner": "2026-06-28T03:25:15"
     }
   },
   "data": [
@@ -71,7 +72,8 @@
                 {
                   "text": "Ich eröffne die 238. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "3.920"
+                  "timeEnd": "3.920",
+                  "entities": []
                 }
               ],
               "text": "Ich eröffne die 238. Sitzung des Nationalrates."
@@ -84,27 +86,32 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
                   "timeStart": "3.920",
-                  "timeEnd": "6.380"
+                  "timeEnd": "6.380",
+                  "entities": []
                 },
                 {
                   "text": "Martin Engelberg , Karlheinz Kopf , Dr. Reinhold Lopatka , Nico Marchetti , Carina Reiter , Ing. Reinhold Einwallner , Dietmar Keck , Kai Jan Krainer , Dr. Harald Troch , MMag.",
                   "timeStart": "6.380",
-                  "timeEnd": "14.760"
+                  "timeEnd": "14.760",
+                  "entities": []
                 },
                 {
                   "text": "DDr.",
                   "timeStart": "14.760",
-                  "timeEnd": "14.800"
+                  "timeEnd": "14.800",
+                  "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Christian Ries , Dr. Ewa Ernst-Dziedzic , Dr. Elisabeth Götze , Heike Grebien , Mag.",
                   "timeStart": "14.800",
-                  "timeEnd": "19.600"
+                  "timeEnd": "19.600",
+                  "entities": []
                 },
                 {
                   "text": "Nina Tomaselli , Henrike Brandstötter , Douglas Hoyos-Trauttmansdorff , Dr. Stephanie Krisper und Dr. Nikolaus Scherak, MA .",
                   "timeStart": "19.600",
-                  "timeEnd": "26.600"
+                  "timeEnd": "26.600",
+                  "entities": []
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Karlheinz Kopf , Dr. Reinhold Lopatka , Nico Marchetti , Carina Reiter , Ing. Reinhold Einwallner , Dietmar Keck , Kai Jan Krainer , Dr. Harald Troch , MMag. DDr. Hubert Fuchs , Christian Ries , Dr. Ewa Ernst-Dziedzic , Dr. Elisabeth Götze , Heike Grebien , Mag. Nina Tomaselli , Henrike Brandstötter , Douglas Hoyos-Trauttmansdorff , Dr. Stephanie Krisper und Dr. Nikolaus Scherak, MA ."
@@ -117,7 +124,8 @@
                 {
                   "text": "Einlauf und Zuweisungen",
                   "timeStart": "26.600",
-                  "timeEnd": "27.560"
+                  "timeEnd": "27.560",
+                  "entities": []
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -130,7 +138,8 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "27.560",
-                  "timeEnd": "33.680"
+                  "timeEnd": "33.680",
+                  "entities": []
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -143,7 +152,8 @@
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
                   "timeStart": "33.680",
-                  "timeEnd": "34.380"
+                  "timeEnd": "34.380",
+                  "entities": []
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -156,7 +166,8 @@
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
                   "timeStart": "34.380",
-                  "timeEnd": "35.560"
+                  "timeEnd": "35.560",
+                  "entities": []
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -169,7 +180,8 @@
                 {
                   "text": "Anfragebeantwortungen: 15499/AB und 15500/AB",
                   "timeStart": "35.560",
-                  "timeEnd": "40.600"
+                  "timeEnd": "40.600",
+                  "entities": []
                 }
               ],
               "text": "Anfragebeantwortungen: 15499/AB und 15500/AB"
@@ -182,7 +194,8 @@
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
                   "timeStart": "40.600",
-                  "timeEnd": "41.760"
+                  "timeEnd": "41.760",
+                  "entities": []
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -195,7 +208,8 @@
                 {
                   "text": "a) zur Vorberatung:",
                   "timeStart": "41.760",
-                  "timeEnd": "43.040"
+                  "timeEnd": "43.040",
+                  "entities": []
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -208,7 +222,8 @@
                 {
                   "text": "Verfassungsausschuss:",
                   "timeStart": "43.040",
-                  "timeEnd": "43.720"
+                  "timeEnd": "43.720",
+                  "entities": []
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -221,12 +236,14 @@
                 {
                   "text": "Antrag der Abgeordneten Mag.",
                   "timeStart": "43.720",
-                  "timeEnd": "44.760"
+                  "timeEnd": "44.760",
+                  "entities": []
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend Wahlrecht für EU-Bürger:innen ( 3668/A(E) )",
                   "timeStart": "44.760",
-                  "timeEnd": "50.080"
+                  "timeEnd": "50.080",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend Wahlrecht für EU-Bürger:innen ( 3668/A(E) )"
@@ -239,7 +256,8 @@
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
                   "timeStart": "50.080",
-                  "timeEnd": "54.760"
+                  "timeEnd": "54.760",
+                  "entities": []
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -252,7 +270,8 @@
                 {
                   "text": "Verkehrsausschuss:",
                   "timeStart": "54.760",
-                  "timeEnd": "55.240"
+                  "timeEnd": "55.240",
+                  "entities": []
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -265,7 +284,8 @@
                 {
                   "text": "Bericht der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie betreffend ÖBB-Rahmenplan 2024-2029 ( III-1049 d.B. )",
                   "timeStart": "55.240",
-                  "timeEnd": "64.360"
+                  "timeEnd": "64.360",
+                  "entities": []
                 }
               ],
               "text": "Bericht der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie betreffend ÖBB-Rahmenplan 2024-2029 ( III-1049 d.B. )"
@@ -278,7 +298,8 @@
                 {
                   "text": "Fristsetzungsanträge",
                   "timeStart": "64.360",
-                  "timeEnd": "66.680"
+                  "timeEnd": "66.680",
+                  "entities": []
                 }
               ],
               "text": "Fristsetzungsanträge"
@@ -291,7 +312,8 @@
                 {
                   "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 1771/A(E) eine Frist bis zum 26. Oktober 2023 zu setzen.",
                   "timeStart": "66.680",
-                  "timeEnd": "83.120"
+                  "timeEnd": "83.120",
+                  "entities": []
                 }
               ],
               "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 1771/A(E) eine Frist bis zum 26. Oktober 2023 zu setzen."
@@ -304,7 +326,8 @@
                 {
                   "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3309/A ebenfalls eine Frist bis zum 26. Oktober 2023 zu setzen.",
                   "timeStart": "83.120",
-                  "timeEnd": "97.960"
+                  "timeEnd": "97.960",
+                  "entities": []
                 }
               ],
               "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3309/A ebenfalls eine Frist bis zum 26. Oktober 2023 zu setzen."
@@ -317,7 +340,8 @@
         "stdId": 307597,
         "debatteId": 300,
         "proceedingIndex": 307597,
-        "alignDuration": 0.6005878448486328
+        "alignDuration": 0.6005878448486328,
+        "nerDuration": 0.1151418685913086
       },
       "originalLanguage": "de"
     }

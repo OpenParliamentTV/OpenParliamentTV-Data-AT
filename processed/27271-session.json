@@ -4,11 +4,12 @@
     "session": "27271",
     "dateStart": "2024-07-03T23:25:04",
     "dateEnd": "2024-07-03T23:26:24",
-    "lastProcessing": "merge",
-    "lastUpdate": "2026-06-16T04:24:16+00:00",
+    "lastProcessing": "align",
+    "lastUpdate": "2026-06-27T15:14:43",
     "processing": {
       "merge": "2026-06-16T04:24:16+00:00",
-      "nel": "2026-06-16T06:24:29"
+      "align": "2026-06-27T15:14:43",
+      "ner": "2026-06-28T03:35:57"
     }
   },
   "data": [
@@ -36,7 +37,8 @@
         "originMediaID": "328758",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/8cb534ff-6b0a-4ff6-b200-9d0e4368c5a8/8cb534ff-6b0a-4ff6-b200-9d0e4368c5a8.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/8cb534ff-6b0a-4ff6-b200-9d0e4368c5a8/8cb534ff-6b0a-4ff6-b200-9d0e4368c5a8.mp3",
-        "duration": 44
+        "duration": 44,
+        "aligned": true
       },
       "dateStart": "2024-07-03T23:25:04",
       "dateEnd": "2024-07-03T23:25:48",
@@ -68,7 +70,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich eröffne die 271. Sitzung des Nationalrates."
+                  "text": "Ich eröffne die 271. Sitzung des Nationalrates.",
+                  "timeStart": "1.000",
+                  "timeEnd": "3.000",
+                  "entities": []
                 }
               ],
               "text": "Ich eröffne die 271. Sitzung des Nationalrates."
@@ -79,10 +84,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Gudrun Kugler , Mag."
+                  "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Gudrun Kugler , Mag.",
+                  "timeStart": "3.000",
+                  "timeEnd": "3.320",
+                  "entities": []
                 },
                 {
-                  "text": "Muna Duzdar , Elisabeth Feichtinger, BEd BEd , Maximilian Lercher , Christian Lausch und Bedrana Ribo, MA ."
+                  "text": "Muna Duzdar , Elisabeth Feichtinger, BEd BEd , Maximilian Lercher , Christian Lausch und Bedrana Ribo, MA .",
+                  "timeStart": "3.320",
+                  "timeEnd": "3.320",
+                  "entities": []
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Gudrun Kugler , Mag. Muna Duzdar , Elisabeth Feichtinger, BEd BEd , Maximilian Lercher , Christian Lausch und Bedrana Ribo, MA ."
@@ -93,7 +104,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Einlauf und Zuweisungen"
+                  "text": "Einlauf und Zuweisungen",
+                  "timeStart": "3.320",
+                  "timeEnd": "3.320",
+                  "entities": []
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -104,7 +118,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
+                  "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
+                  "timeStart": "3.320",
+                  "timeEnd": "5.400",
+                  "entities": []
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -115,7 +132,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
+                  "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
+                  "timeStart": "5.400",
+                  "timeEnd": "5.400",
+                  "entities": []
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -126,7 +146,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Zuweisungen in dieser Sitzung:"
+                  "text": "Zuweisungen in dieser Sitzung:",
+                  "timeStart": "5.400",
+                  "timeEnd": "5.480",
+                  "entities": []
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -137,7 +160,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "a) zur Vorberatung:"
+                  "text": "a) zur Vorberatung:",
+                  "timeStart": "5.480",
+                  "timeEnd": "5.680",
+                  "entities": []
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -148,7 +174,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Budgetausschuss:"
+                  "text": "Budgetausschuss:",
+                  "timeStart": "5.680",
+                  "timeEnd": "5.720",
+                  "entities": []
                 }
               ],
               "text": "Budgetausschuss:"
@@ -159,10 +188,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Mag."
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "5.720",
+                  "timeEnd": "6.360",
+                  "entities": []
                 },
                 {
-                  "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Indexierung der pauschalen Freibeträge für außergewöhnliche Belastungen und aufgrund von Behinderungen ( 4137/A(E) )"
+                  "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Indexierung der pauschalen Freibeträge für außergewöhnliche Belastungen und aufgrund von Behinderungen ( 4137/A(E) )",
+                  "timeStart": "6.360",
+                  "timeEnd": "10.040",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend Indexierung der pauschalen Freibeträge für außergewöhnliche Belastungen und aufgrund von Behinderungen ( 4137/A(E) )"
@@ -173,7 +208,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "10.040",
+                  "timeEnd": "10.960",
+                  "entities": []
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -184,7 +222,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem der besondere Arbeitnehmerschutz in Verkehrsbetrieben erlassen wird (ANSV-G) und das Bundesgesetz über die Ordnung des öffentlichen Personennah-und Regionalverkehrs – ÖPNRV-G 1999 BGBI I 204/1999 geändert wird ( 4136/A )"
+                  "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem der besondere Arbeitnehmerschutz in Verkehrsbetrieben erlassen wird (ANSV-G) und das Bundesgesetz über die Ordnung des öffentlichen Personennah-und Regionalverkehrs – ÖPNRV-G 1999 BGBI I 204/1999 geändert wird ( 4136/A )",
+                  "timeStart": "10.960",
+                  "timeEnd": "25.520",
+                  "entities": []
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem der besondere Arbeitnehmerschutz in Verkehrsbetrieben erlassen wird (ANSV-G) und das Bundesgesetz über die Ordnung des öffentlichen Personennah-und Regionalverkehrs – ÖPNRV-G 1999 BGBI I 204/1999 geändert wird ( 4136/A )"
@@ -195,7 +236,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
+                  "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
+                  "timeStart": "25.520",
+                  "timeEnd": "27.640",
+                  "entities": []
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -206,7 +250,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Verkehrsausschuss:"
+                  "text": "Verkehrsausschuss:",
+                  "timeStart": "27.640",
+                  "timeEnd": "28.440",
+                  "entities": []
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -217,7 +264,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Tätigkeitsbericht der Schienen-Control GmbH 2023, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-1193 d.B. )"
+                  "text": "Tätigkeitsbericht der Schienen-Control GmbH 2023, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-1193 d.B. )",
+                  "timeStart": "28.440",
+                  "timeEnd": "34.280",
+                  "entities": []
                 }
               ],
               "text": "Tätigkeitsbericht der Schienen-Control GmbH 2023, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-1193 d.B. )"
@@ -228,7 +278,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Fristsetzungsantrag"
+                  "text": "Fristsetzungsantrag",
+                  "timeStart": "34.280",
+                  "timeEnd": "35.560",
+                  "entities": []
                 }
               ],
               "text": "Fristsetzungsantrag"
@@ -239,7 +292,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich teile mit, dass die Abgeordneten Stocker, Bürstmayr beantragt haben, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über die Regierungsvorlage 2657 der Beilagen : Grundversorgungsänderungsvereinbarung, eine Frist bis zum 4. Juli zu setzen."
+                  "text": "Ich teile mit, dass die Abgeordneten Stocker, Bürstmayr beantragt haben, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über die Regierungsvorlage 2657 der Beilagen : Grundversorgungsänderungsvereinbarung, eine Frist bis zum 4. Juli zu setzen.",
+                  "timeStart": "35.560",
+                  "timeEnd": "41.080",
+                  "entities": []
                 }
               ],
               "text": "Ich teile mit, dass die Abgeordneten Stocker, Bürstmayr beantragt haben, dem Ausschuss für innere Angelegenheiten zur Berichterstattung über die Regierungsvorlage 2657 der Beilagen : Grundversorgungsänderungsvereinbarung, eine Frist bis zum 4. Juli zu setzen."
@@ -250,7 +306,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, das heißt also sogleich, zur Abstimmung gebracht."
+                  "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, das heißt also sogleich, zur Abstimmung gebracht.",
+                  "timeStart": "41.080",
+                  "timeEnd": "46.000",
+                  "entities": []
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, das heißt also sogleich, zur Abstimmung gebracht."
@@ -262,7 +321,9 @@
         "mediaIndex": 1,
         "stdId": 328758,
         "debatteId": 300,
-        "proceedingIndex": 328758
+        "proceedingIndex": 328758,
+        "alignDuration": 0.4562549591064453,
+        "nerDuration": 0.10255312919616699
       },
       "originalLanguage": "de"
     },
@@ -290,7 +351,8 @@
         "originMediaID": "328781",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/d66b1b28-03af-4305-bb55-fb87e718e819/d66b1b28-03af-4305-bb55-fb87e718e819.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/d66b1b28-03af-4305-bb55-fb87e718e819/d66b1b28-03af-4305-bb55-fb87e718e819.mp3",
-        "duration": 14
+        "duration": 14,
+        "aligned": true
       },
       "dateStart": "2024-07-03T23:25:48",
       "dateEnd": "2024-07-03T23:26:02",
@@ -322,7 +384,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Abstimmung über einen Fristsetzungsantrag"
+                  "text": "Abstimmung über einen Fristsetzungsantrag",
+                  "timeStart": "1.000",
+                  "timeEnd": "5.040",
+                  "entities": []
                 }
               ],
               "text": "Abstimmung über einen Fristsetzungsantrag"
@@ -333,7 +398,10 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Wir kommen daher zur Abstimmung über den soeben erwähnten Fristsetzungsantrag."
+                  "text": "Wir kommen daher zur Abstimmung über den soeben erwähnten Fristsetzungsantrag.",
+                  "timeStart": "5.040",
+                  "timeEnd": "8.680",
+                  "entities": []
                 }
               ],
               "text": "Wir kommen daher zur Abstimmung über den soeben erwähnten Fristsetzungsantrag."
@@ -344,10 +412,16 @@
               "speakerstatus": "Präsident",
               "sentences": [
                 {
-                  "text": "Ich bitte die Damen und Herren, die diesem Fristsetzungsantrag die Zustimmung geben, um ein dementsprechendes Zeichen. –"
+                  "text": "Ich bitte die Damen und Herren, die diesem Fristsetzungsantrag die Zustimmung geben, um ein dementsprechendes Zeichen. –",
+                  "timeStart": "8.680",
+                  "timeEnd": "14.120",
+                  "entities": []
                 },
                 {
-                  "text": "Das ist die Mehrheit, angenommen."
+                  "text": "Das ist die Mehrheit, angenommen.",
+                  "timeStart": "14.120",
+                  "timeEnd": "16.000",
+                  "entities": []
                 }
               ],
               "text": "Ich bitte die Damen und Herren, die diesem Fristsetzungsantrag die Zustimmung geben, um ein dementsprechendes Zeichen. – Das ist die Mehrheit, angenommen."
@@ -359,7 +433,9 @@
         "mediaIndex": 2,
         "stdId": 328781,
         "debatteId": 310,
-        "proceedingIndex": 328781
+        "proceedingIndex": 328781,
+        "alignDuration": 0.2973320484161377,
+        "nerDuration": 0.018046855926513672
       },
       "originalLanguage": "de"
     },
@@ -387,7 +463,8 @@
         "originMediaID": "328798",
         "videoMP4URI": "https://parlament-live.mdn.ors.at/assets/4f65e211-ea3a-41c4-a74e-eb5bd248b443/4f65e211-ea3a-41c4-a74e-eb5bd248b443.mp4",
         "audioFileURI": "https://parlament-live.mdn.ors.at/assets/4f65e211-ea3a-41c4-a74e-eb5bd248b443/4f65e211-ea3a-41c4-a74e-eb5bd248b443.mp3",
-        "duration": 22
+        "duration": 22,
+        "aligned": true
       },
       "dateStart": "2024-07-03T23:26:02",
       "dateEnd": "2024-07-03T23:26:24",
@@ -418,10 +495,16 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 4. Juli, um 9 Uhr ein."
+                  "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 4. Juli, um 9 Uhr ein.",
+                  "timeStart": "1.000",
+                  "timeEnd": "5.520",
+                  "entities": []
                 },
                 {
-                  "text": "Die Tagesordnung ist bereits auf schriftlichem Wege ergangen."
+                  "text": "Die Tagesordnung ist bereits auf schriftlichem Wege ergangen.",
+                  "timeStart": "5.520",
+                  "timeEnd": "10.040",
+                  "entities": []
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 4. Juli, um 9 Uhr ein. Die Tagesordnung ist bereits auf schriftlichem Wege ergangen."
@@ -432,7 +515,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Kommen Sie gut nach Hause oder feiern Sie ausgiebig die nächsten Stunden bis zum Beginn der nächsten Sitzung um 9 Uhr."
+                  "text": "Kommen Sie gut nach Hause oder feiern Sie ausgiebig die nächsten Stunden bis zum Beginn der nächsten Sitzung um 9 Uhr.",
+                  "timeStart": "10.040",
+                  "timeEnd": "18.840",
+                  "entities": []
                 }
               ],
               "text": "Kommen Sie gut nach Hause oder feiern Sie ausgiebig die nächsten Stunden bis zum Beginn der nächsten Sitzung um 9 Uhr."
@@ -443,7 +529,10 @@
               "speakerstatus": null,
               "sentences": [
                 {
-                  "text": "Die Sitzung ist geschlossen."
+                  "text": "Die Sitzung ist geschlossen.",
+                  "timeStart": "18.840",
+                  "timeEnd": "21.360",
+                  "entities": []
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -455,7 +544,9 @@
         "mediaIndex": 3,
         "stdId": 328798,
         "debatteId": 320,
-        "proceedingIndex": 328798
+        "proceedingIndex": 328798,
+        "alignDuration": 0.30481529235839844,
+        "nerDuration": 0.020256996154785156
       },
       "originalLanguage": "de"
     }

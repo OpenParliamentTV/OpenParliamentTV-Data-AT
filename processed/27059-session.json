@@ -8,7 +8,8 @@
     "lastUpdate": "2026-06-17T17:57:29",
     "processing": {
       "merge": "2026-06-16T04:23:41+00:00",
-      "align": "2026-06-17T17:57:29"
+      "align": "2026-06-17T17:57:29",
+      "ner": "2026-06-28T02:31:36"
     }
   },
   "data": [
@@ -71,7 +72,8 @@
                 {
                   "text": "Ich eröffne die 59. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.280"
+                  "timeEnd": "1.280",
+                  "entities": []
                 }
               ],
               "text": "Ich eröffne die 59. Sitzung des Nationalrates."
@@ -84,22 +86,26 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
                   "timeStart": "1.280",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 },
                 {
                   "text": "Michael Hammer , Alexander Melchior , Klaus Köchl , Philip Kucher , Maximilian Lercher , Dr. Pamela Rendi-Wagner, MSc , Ing. Markus Vogl , Rainer Wimmer , Mag.",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 },
                 {
                   "text": "Gerald Hauser , Edith Mühlberghuber , Walter Rauch , Mag.",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 },
                 {
                   "text": "Georg Bürstmayr und Josef Schellhorn .",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Michael Hammer , Alexander Melchior , Klaus Köchl , Philip Kucher , Maximilian Lercher , Dr. Pamela Rendi-Wagner, MSc , Ing. Markus Vogl , Rainer Wimmer , Mag. Gerald Hauser , Edith Mühlberghuber , Walter Rauch , Mag. Georg Bürstmayr und Josef Schellhorn ."
@@ -112,7 +118,8 @@
                 {
                   "text": "Einlauf und Zuweisungen",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -125,7 +132,8 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -138,7 +146,8 @@
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -151,7 +160,8 @@
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
                   "timeStart": "1.440",
-                  "timeEnd": "1.440"
+                  "timeEnd": "1.440",
+                  "entities": []
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -164,7 +174,8 @@
                 {
                   "text": "Anfragebeantwortung: 3114/AB",
                   "timeStart": "1.440",
-                  "timeEnd": "1.760"
+                  "timeEnd": "1.760",
+                  "entities": []
                 }
               ],
               "text": "Anfragebeantwortung: 3114/AB"
@@ -177,7 +188,8 @@
                 {
                   "text": "B. Zuweisungen:",
                   "timeStart": "1.760",
-                  "timeEnd": "1.840"
+                  "timeEnd": "1.840",
+                  "entities": []
                 }
               ],
               "text": "B. Zuweisungen:"
@@ -190,7 +202,8 @@
                 {
                   "text": "1. Zuweisung seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs. 4, 100b Abs. 1 und 100c Abs. 1:",
                   "timeStart": "1.840",
-                  "timeEnd": "2.120"
+                  "timeEnd": "2.120",
+                  "entities": []
                 }
               ],
               "text": "1. Zuweisung seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs. 4, 100b Abs. 1 und 100c Abs. 1:"
@@ -203,7 +216,8 @@
                 {
                   "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
                   "timeStart": "2.120",
-                  "timeEnd": "2.520"
+                  "timeEnd": "2.520",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Petitionen und Bürgerinitiativen:"
@@ -216,17 +230,20 @@
                 {
                   "text": "Petition Nr. 44 betreffend \"Vollständiger und umfassender Lärmschutz entlang der Bahnstrecke im Großraum Klagenfurt, den Wörthersee Gemeinden und dem Großraum Villach!\",",
                   "timeStart": "2.520",
-                  "timeEnd": "2.680"
+                  "timeEnd": "2.680",
+                  "entities": []
                 },
                 {
                   "text": "überreicht vom Abgeordneten Mag.",
                   "timeStart": "2.680",
-                  "timeEnd": "2.680"
+                  "timeEnd": "2.680",
+                  "entities": []
                 },
                 {
                   "text": "Peter Weidinger",
                   "timeStart": "2.680",
-                  "timeEnd": "2.680"
+                  "timeEnd": "2.680",
+                  "entities": []
                 }
               ],
               "text": "Petition Nr. 44 betreffend \"Vollständiger und umfassender Lärmschutz entlang der Bahnstrecke im Großraum Klagenfurt, den Wörthersee Gemeinden und dem Großraum Villach!\", überreicht vom Abgeordneten Mag. Peter Weidinger"
@@ -239,7 +256,8 @@
                 {
                   "text": "2. Zuweisungen in dieser Sitzung:",
                   "timeStart": "2.680",
-                  "timeEnd": "2.760"
+                  "timeEnd": "2.760",
+                  "entities": []
                 }
               ],
               "text": "2. Zuweisungen in dieser Sitzung:"
@@ -252,7 +270,8 @@
                 {
                   "text": "a) zur Vorberatung:",
                   "timeStart": "2.760",
-                  "timeEnd": "2.760"
+                  "timeEnd": "2.760",
+                  "entities": []
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -265,7 +284,8 @@
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
                   "timeStart": "2.760",
-                  "timeEnd": "2.760"
+                  "timeEnd": "2.760",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -278,7 +298,8 @@
                 {
                   "text": "Antrag 973/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Dringlichkeit von Maßnahmen zur Verhinderung von Massenkündigungen und zum Erhalt von Arbeitsplätzen",
                   "timeStart": "2.760",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 973/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Dringlichkeit von Maßnahmen zur Verhinderung von Massenkündigungen und zum Erhalt von Arbeitsplätzen"
@@ -291,7 +312,8 @@
                 {
                   "text": "Antrag 974/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Zweiten Lockdown ausschließen – Planungssicherheit für die Wirtschaft herstellen",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 974/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Zweiten Lockdown ausschließen – Planungssicherheit für die Wirtschaft herstellen"
@@ -304,7 +326,8 @@
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -317,12 +340,14 @@
                 {
                   "text": "Antrag 971/A(E) der Abgeordneten Mag.",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 },
                 {
                   "text": "Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Veröffentlichungspflicht von Auftragsstudien",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 971/A(E) der Abgeordneten Mag. Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Veröffentlichungspflicht von Auftragsstudien"
@@ -335,7 +360,8 @@
                 {
                   "text": "Gesundheitsausschuss:",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -348,7 +374,8 @@
                 {
                   "text": "Antrag 972/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Beendigung der Sperrstundenvorverlegung und Kompensation der Einnahmenausfälle für Gastronomie und Tourismus",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 972/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Beendigung der Sperrstundenvorverlegung und Kompensation der Einnahmenausfälle für Gastronomie und Tourismus"
@@ -361,7 +388,8 @@
                 {
                   "text": "Antrag 975/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Zweiten Lockdown ausschließen – Planungssicherheit für die Wirtschaft herstellen",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 975/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Zweiten Lockdown ausschließen – Planungssicherheit für die Wirtschaft herstellen"
@@ -374,7 +402,8 @@
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -387,7 +416,8 @@
                 {
                   "text": "Antrag 981/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Wahlfreiheit für Unternehmer herstellen – obligatorische elektronische Zustellung beenden",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 981/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Wahlfreiheit für Unternehmer herstellen – obligatorische elektronische Zustellung beenden"
@@ -400,7 +430,8 @@
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -413,7 +444,8 @@
                 {
                   "text": "Antrag 976/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Bonus für freiwillige Strohhaltung als Tierwohlmaßnahme",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 976/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Bonus für freiwillige Strohhaltung als Tierwohlmaßnahme"
@@ -426,7 +458,8 @@
                 {
                   "text": "Antrag 978/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend nachhaltig bewirtschaftete heimische Wälder statt importiertem Billigholz",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 978/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend nachhaltig bewirtschaftete heimische Wälder statt importiertem Billigholz"
@@ -439,7 +472,8 @@
                 {
                   "text": "Antrag 980/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Antrag auf Einheitswertfortschreibung für Kleinstwaldbesitzer",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 980/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Antrag auf Einheitswertfortschreibung für Kleinstwaldbesitzer"
@@ -452,7 +486,8 @@
                 {
                   "text": "Antrag 982/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Vollmilchkalb-Prämie",
                   "timeStart": "2.840",
-                  "timeEnd": "2.840"
+                  "timeEnd": "2.840",
+                  "entities": []
                 }
               ],
               "text": "Antrag 982/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Vollmilchkalb-Prämie"
@@ -465,7 +500,8 @@
                 {
                   "text": "Unterrichtsausschuss:",
                   "timeStart": "2.840",
-                  "timeEnd": "3.000"
+                  "timeEnd": "3.000",
+                  "entities": []
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -478,17 +514,20 @@
                 {
                   "text": "Antrag 970/A(E) der Abgeordneten Mag.",
                   "timeStart": "3.000",
-                  "timeEnd": "3.400"
+                  "timeEnd": "3.400",
+                  "entities": []
                 },
                 {
                   "text": "Sibylle Hamann , Mag.",
                   "timeStart": "3.400",
-                  "timeEnd": "3.400"
+                  "timeEnd": "3.400",
+                  "entities": []
                 },
                 {
                   "text": "Dr. Rudolf Taschner , Kolleginnen und Kollegen betreffend Maßnahmen zur Eindämmung von negativen Auswirkungen von benachteiligten Gruppen im Bildungsbereich, die aufgrund des Corona-Situation entstanden sind",
                   "timeStart": "3.400",
-                  "timeEnd": "3.400"
+                  "timeEnd": "3.400",
+                  "entities": []
                 }
               ],
               "text": "Antrag 970/A(E) der Abgeordneten Mag. Sibylle Hamann , Mag. Dr. Rudolf Taschner , Kolleginnen und Kollegen betreffend Maßnahmen zur Eindämmung von negativen Auswirkungen von benachteiligten Gruppen im Bildungsbereich, die aufgrund des Corona-Situation entstanden sind"
@@ -501,7 +540,8 @@
                 {
                   "text": "Verfassungsausschuss:",
                   "timeStart": "3.400",
-                  "timeEnd": "3.400"
+                  "timeEnd": "3.400",
+                  "entities": []
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -514,17 +554,20 @@
                 {
                   "text": "Antrag 968/A der Abgeordneten Mag.",
                   "timeStart": "3.400",
-                  "timeEnd": "3.400"
+                  "timeEnd": "3.400",
+                  "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
                   "timeStart": "3.400",
-                  "timeEnd": "3.400"
+                  "timeEnd": "3.400",
+                  "entities": []
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Parteiengesetz 2012, das KommAustria-Gesetz, das Presseförderungsgesetz 2004, das Publizistikförderungsgesetz 1984 und das ORF-Gesetz geändert werden",
                   "timeStart": "3.400",
-                  "timeEnd": "3.440"
+                  "timeEnd": "3.440",
+                  "entities": []
                 }
               ],
               "text": "Antrag 968/A der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Parteiengesetz 2012, das KommAustria-Gesetz, das Presseförderungsgesetz 2004, das Publizistikförderungsgesetz 1984 und das ORF-Gesetz geändert werden"
@@ -537,17 +580,20 @@
                 {
                   "text": "Antrag 969/A der Abgeordneten Mag.",
                   "timeStart": "3.440",
-                  "timeEnd": "3.440"
+                  "timeEnd": "3.440",
+                  "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
                   "timeStart": "3.440",
-                  "timeEnd": "3.440"
+                  "timeEnd": "3.440",
+                  "entities": []
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundes-Verfassungsgesetz, das Verwaltungsrechtliche COVID-19-Begleitgesetz und das Verwaltungsgerichtshofgesetz 1985 geändert werden",
                   "timeStart": "3.440",
-                  "timeEnd": "3.880"
+                  "timeEnd": "3.880",
+                  "entities": []
                 }
               ],
               "text": "Antrag 969/A der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundes-Verfassungsgesetz, das Verwaltungsrechtliche COVID-19-Begleitgesetz und das Verwaltungsgerichtshofgesetz 1985 geändert werden"
@@ -560,7 +606,8 @@
                 {
                   "text": "Antrag 977/A der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 27. Juni 1979 über das Dienstrecht der Beamten (Beamten-Dienstrechtsgesetz 1979 – BDG 1979) geändert wird",
                   "timeStart": "3.880",
-                  "timeEnd": "4.240"
+                  "timeEnd": "4.240",
+                  "entities": []
                 }
               ],
               "text": "Antrag 977/A der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 27. Juni 1979 über das Dienstrecht der Beamten (Beamten-Dienstrechtsgesetz 1979 – BDG 1979) geändert wird"
@@ -573,7 +620,8 @@
                 {
                   "text": "Verkehrsausschuss:",
                   "timeStart": "4.240",
-                  "timeEnd": "4.240"
+                  "timeEnd": "4.240",
+                  "entities": []
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -586,7 +634,8 @@
                 {
                   "text": "Antrag 979/A der Abgeordneten Alois Stöger, diplômé , Christian Hafenecker, MA , Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Führerscheingesetz geändert wird",
                   "timeStart": "4.240",
-                  "timeEnd": "4.240"
+                  "timeEnd": "4.240",
+                  "entities": []
                 }
               ],
               "text": "Antrag 979/A der Abgeordneten Alois Stöger, diplômé , Christian Hafenecker, MA , Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Führerscheingesetz geändert wird"
@@ -599,7 +648,8 @@
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
                   "timeStart": "4.240",
-                  "timeEnd": "4.240"
+                  "timeEnd": "4.240",
+                  "entities": []
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -612,7 +662,8 @@
                 {
                   "text": "Antrag 966/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Genossenschaftsrevisionsgesetz 1997 geändert wird",
                   "timeStart": "4.240",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "Antrag 966/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Genossenschaftsrevisionsgesetz 1997 geändert wird"
@@ -625,7 +676,8 @@
                 {
                   "text": "Antrag 967/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Wirtschaftskammergesetz 1998, das Ziviltechnikergesetz 2019 und das Arbeiterkammergesetz 1992 geändert werden",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "Antrag 967/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Wirtschaftskammergesetz 1998, das Ziviltechnikergesetz 2019 und das Arbeiterkammergesetz 1992 geändert werden"
@@ -638,7 +690,8 @@
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -651,7 +704,8 @@
                 {
                   "text": "Verkehrsausschuss:",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "Verkehrsausschuss:"
@@ -664,7 +718,8 @@
                 {
                   "text": "Sicherheitsbericht 2019 gemäß §19 UUG 2005, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-192 d.B. )",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "Sicherheitsbericht 2019 gemäß §19 UUG 2005, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-192 d.B. )"
@@ -677,7 +732,8 @@
                 {
                   "text": "C. Verlangen gemäß § 26 Abs. 8 GOG hinsichtlich des Antrages",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "C. Verlangen gemäß § 26 Abs. 8 GOG hinsichtlich des Antrages"
@@ -690,7 +746,8 @@
                 {
                   "text": "574/A der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Finanzausgleichsgesetz 2017 geändert wird",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "574/A der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Finanzausgleichsgesetz 2017 geändert wird"
@@ -703,7 +760,8 @@
                 {
                   "text": "Weiters weise ich den Antrag 983/A der Abgeordneten Obernosterer, Jakob Schwarz dem Budgetausschuss zu.",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "Weiters weise ich den Antrag 983/A der Abgeordneten Obernosterer, Jakob Schwarz dem Budgetausschuss zu."
@@ -716,7 +774,8 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 17. November, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
                   "timeStart": "5.360",
-                  "timeEnd": "5.360"
+                  "timeEnd": "5.360",
+                  "entities": []
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 17. November, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -729,7 +788,8 @@
                 {
                   "text": "Ich wünsche Ihnen einen schönen Abend.",
                   "timeStart": "5.360",
-                  "timeEnd": "5.800"
+                  "timeEnd": "5.800",
+                  "entities": []
                 }
               ],
               "text": "Ich wünsche Ihnen einen schönen Abend."
@@ -742,7 +802,8 @@
                 {
                   "text": "Die Sitzung ist geschlossen.",
                   "timeStart": "5.800",
-                  "timeEnd": "5.960"
+                  "timeEnd": "5.960",
+                  "entities": []
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -755,7 +816,8 @@
         "stdId": 227282,
         "debatteId": 300,
         "proceedingIndex": 227282,
-        "alignDuration": 0.8439350128173828
+        "alignDuration": 0.8439350128173828,
+        "nerDuration": 0.3096749782562256
       },
       "originalLanguage": "de"
     }
