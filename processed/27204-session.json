@@ -5,11 +5,12 @@
     "dateStart": "2023-03-02T00:54:59",
     "dateEnd": "2023-03-02T00:55:40",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-24T11:17:17",
+    "lastUpdate": "2026-06-28T13:13:06",
     "processing": {
       "merge": "2026-06-16T04:24:05+00:00",
-      "align": "2026-06-24T11:17:17",
-      "ner": "2026-06-28T03:15:06"
+      "align": "2026-06-28T13:13:06",
+      "ner": "2026-06-28T16:02:00",
+      "nel": "2026-06-28T07:25:33"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 204. Sitzung, Donnerstag, 2. März, 0.54 Uhr.",
                   "timeStart": "1.000",
-                  "timeEnd": "6.560",
+                  "timeEnd": "1.960",
                   "entities": []
                 }
               ],
@@ -85,15 +86,46 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "6.560",
-                  "timeEnd": "8.360",
+                  "timeStart": "1.960",
+                  "timeEnd": "3.440",
                   "entities": []
                 },
                 {
                   "text": "Peter Weidinger , Katharina Kucharowits , Dr. Susanne Fürst , Michael Schnedlitz , Heike Grebien und Dipl.-Ing. Olga Voglauer .",
-                  "timeStart": "8.360",
-                  "timeEnd": "10.080",
-                  "entities": []
+                  "timeStart": "3.440",
+                  "timeEnd": "4.440",
+                  "entities": [
+                    {
+                      "label": "Peter Weidinger",
+                      "wid": "Q42941654",
+                      "wtype": "PER",
+                      "score": 0.9754
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Susanne Fürst",
+                      "wid": "Q42295912",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Peter Weidinger , Katharina Kucharowits , Dr. Susanne Fürst , Michael Schnedlitz , Heike Grebien und Dipl.-Ing. Olga Voglauer ."
@@ -105,8 +137,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "10.080",
-                  "timeEnd": "10.120",
+                  "timeStart": "4.440",
+                  "timeEnd": "4.680",
                   "entities": []
                 }
               ],
@@ -119,8 +151,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "10.120",
-                  "timeEnd": "13.480",
+                  "timeStart": "4.680",
+                  "timeEnd": "8.960",
                   "entities": []
                 }
               ],
@@ -133,8 +165,8 @@
               "sentences": [
                 {
                   "text": "Die Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "13.480",
-                  "timeEnd": "13.920",
+                  "timeStart": "8.960",
+                  "timeEnd": "9.760",
                   "entities": []
                 }
               ],
@@ -147,8 +179,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "13.920",
-                  "timeEnd": "13.920",
+                  "timeStart": "9.760",
+                  "timeEnd": "9.960",
                   "entities": []
                 }
               ],
@@ -161,8 +193,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "13.920",
-                  "timeEnd": "14.000",
+                  "timeStart": "9.960",
+                  "timeEnd": "10.120",
                   "entities": []
                 }
               ],
@@ -175,8 +207,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "14.000",
-                  "timeEnd": "14.800",
+                  "timeStart": "10.120",
+                  "timeEnd": "10.280",
                   "entities": []
                 }
               ],
@@ -189,9 +221,28 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2015/751 über Interbankenentgelte für kartengebundene Zahlungsvorgänge (Interbankenentgeltevollzugsgesetz – IEVG) erlassen und das E-Geldgesetz 2010, das Wettbewerbsgesetz und das Zahlungsdienstegesetz 2018 geändert werden ( 1957 d.B. )",
-                  "timeStart": "14.800",
-                  "timeEnd": "23.840",
-                  "entities": []
+                  "timeStart": "10.280",
+                  "timeEnd": "17.280",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.6441
+                    },
+                    {
+                      "label": "Wettbewerbsgesetz",
+                      "wid": "Q1296353",
+                      "wtype": "MISC",
+                      "score": 0.7538
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Wirksamwerden der Verordnung (EU) 2015/751 über Interbankenentgelte für kartengebundene Zahlungsvorgänge (Interbankenentgeltevollzugsgesetz – IEVG) erlassen und das E-Geldgesetz 2010, das Wettbewerbsgesetz und das Zahlungsdienstegesetz 2018 geändert werden ( 1957 d.B. )"
@@ -203,8 +254,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "23.840",
-                  "timeEnd": "24.040",
+                  "timeStart": "17.280",
+                  "timeEnd": "18.040",
                   "entities": []
                 }
               ],
@@ -217,9 +268,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Patentverträge-Einführungsgesetz, das Patentgesetz 1970, das Gebrauchsmustergesetz, das Markenschutzgesetz 1970, das Musterschutzgesetz 1990 und das Patentamtsgebührengesetz geändert werden ( 1955 d.B. )",
-                  "timeStart": "24.040",
-                  "timeEnd": "28.800",
-                  "entities": []
+                  "timeStart": "18.040",
+                  "timeEnd": "25.480",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Gebrauchsmustergesetz",
+                      "wid": "Q1424457",
+                      "wtype": "MISC",
+                      "score": 0.8161
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Patentverträge-Einführungsgesetz, das Patentgesetz 1970, das Gebrauchsmustergesetz, das Markenschutzgesetz 1970, das Musterschutzgesetz 1990 und das Patentamtsgebührengesetz geändert werden ( 1955 d.B. )"
@@ -231,8 +295,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "28.800",
-                  "timeEnd": "29.120",
+                  "timeStart": "25.480",
+                  "timeEnd": "25.880",
                   "entities": []
                 }
               ],
@@ -245,9 +309,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulpflichtgesetz 1985, das Pflichtschulerhaltungs-Grundsatzgesetz und das COVID-19-Hochschulgesetzes – C-HG geändert werden ( 1956 d.B. )",
-                  "timeStart": "29.120",
-                  "timeEnd": "34.600",
-                  "entities": []
+                  "timeStart": "25.880",
+                  "timeEnd": "33.960",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Schulorganisationsgesetz",
+                      "wid": "Q18412933",
+                      "wtype": "MISC",
+                      "score": 0.8842
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulpflichtgesetz 1985, das Pflichtschulerhaltungs-Grundsatzgesetz und das COVID-19-Hochschulgesetzes – C-HG geändert werden ( 1956 d.B. )"
@@ -259,7 +336,7 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "34.600",
+                  "timeStart": "33.960",
                   "timeEnd": "34.600",
                   "entities": []
                 }
@@ -302,7 +379,7 @@
                 {
                   "text": "Ich wünsche Ihnen allen eine schöne gute Nacht.",
                   "timeStart": "41.280",
-                  "timeEnd": "41.440",
+                  "timeEnd": "41.720",
                   "entities": []
                 }
               ],
@@ -315,7 +392,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "41.440",
+                  "timeStart": "41.720",
                   "timeEnd": "41.960",
                   "entities": []
                 }
@@ -330,8 +407,8 @@
         "stdId": 291651,
         "debatteId": 300,
         "proceedingIndex": 291651,
-        "alignDuration": 0.6169071197509766,
-        "nerDuration": 0.0980978012084961
+        "alignDuration": 0.6492016315460205,
+        "nerDuration": 0.21120905876159668
       },
       "originalLanguage": "de"
     }

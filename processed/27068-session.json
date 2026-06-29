@@ -5,11 +5,12 @@
     "dateStart": "2020-11-26T10:49:23",
     "dateEnd": "2020-11-26T10:49:58",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T02:37:05",
+    "lastUpdate": "2026-06-28T09:54:50",
     "processing": {
       "merge": "2026-06-16T04:23:42+00:00",
-      "align": "2026-06-18T02:37:05",
-      "ner": "2026-06-28T02:33:34"
+      "align": "2026-06-28T09:54:50",
+      "ner": "2026-06-28T15:01:43",
+      "nel": "2026-06-28T07:25:23"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich darf die 68. Sitzung des Nationalrates eröffnen.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.520",
+                  "timeEnd": "2.480",
                   "entities": []
                 }
               ],
@@ -85,45 +86,165 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "2.520",
+                  "timeStart": "2.480",
                   "timeEnd": "3.840",
                   "entities": []
                 },
                 {
                   "text": "Klaus Fürlinger , Mag.",
                   "timeStart": "3.840",
-                  "timeEnd": "4.120",
-                  "entities": []
+                  "timeEnd": "4.040",
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 },
                 {
                   "text": "Michael Hammer , Johann Höfinger , Irene Neumann-Hartberger , Klaus Köchl , Mag.",
-                  "timeStart": "4.120",
+                  "timeStart": "4.040",
                   "timeEnd": "4.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.4728
+                    },
+                    {
+                      "label": "Johann Höfinger",
+                      "wid": "Q1694654",
+                      "wtype": "PER",
+                      "score": 0.9853
+                    },
+                    {
+                      "label": "Irene Neumann-Hartberger",
+                      "wid": "Q81616188",
+                      "wtype": "PER",
+                      "score": 0.9866
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Petra Oberrauner , Dr. Reinhard Eugen Bösch , Rosa Ecker, MBA , Herbert Kickl , Mag.",
                   "timeStart": "4.680",
-                  "timeEnd": "5.000",
-                  "entities": []
+                  "timeEnd": "6.360",
+                  "entities": [
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9744
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Mag.",
-                  "timeStart": "5.000",
-                  "timeEnd": "5.000",
-                  "entities": []
+                  "timeStart": "6.360",
+                  "timeEnd": "6.800",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Faika El-Nagashi , Barbara Neßler , Bedrana Ribo, MA , Michael Bernhard und Mag.",
-                  "timeStart": "5.000",
-                  "timeEnd": "5.240",
-                  "entities": []
+                  "timeStart": "6.800",
+                  "timeEnd": "7.520",
+                  "entities": [
+                    {
+                      "label": "Faika El-Nagashi",
+                      "wid": "Q29585127",
+                      "wtype": "PER",
+                      "score": 0.9888
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Michael Bernhard",
+                      "wid": "Q15602114",
+                      "wtype": "PER",
+                      "score": 0.5088
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES .",
-                  "timeStart": "5.240",
-                  "timeEnd": "5.360",
-                  "entities": []
+                  "timeStart": "7.520",
+                  "timeEnd": "7.840",
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Mag. Michael Hammer , Johann Höfinger , Irene Neumann-Hartberger , Klaus Köchl , Mag. Dr. Petra Oberrauner , Dr. Reinhard Eugen Bösch , Rosa Ecker, MBA , Herbert Kickl , Mag. Philipp Schrangl , Mag. Faika El-Nagashi , Barbara Neßler , Bedrana Ribo, MA , Michael Bernhard und Mag. Beate Meinl-Reisinger, MES ."
@@ -135,8 +256,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "5.360",
-                  "timeEnd": "5.600",
+                  "timeStart": "7.840",
+                  "timeEnd": "7.960",
                   "entities": []
                 }
               ],
@@ -149,8 +270,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "5.600",
-                  "timeEnd": "7.080",
+                  "timeStart": "7.960",
+                  "timeEnd": "9.800",
                   "entities": []
                 }
               ],
@@ -163,8 +284,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "7.080",
-                  "timeEnd": "7.840",
+                  "timeStart": "9.800",
+                  "timeEnd": "10.320",
                   "entities": []
                 }
               ],
@@ -177,8 +298,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "7.840",
-                  "timeEnd": "8.360",
+                  "timeStart": "10.320",
+                  "timeEnd": "10.960",
                   "entities": []
                 }
               ],
@@ -191,8 +312,8 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortung: 3574/AB",
-                  "timeStart": "8.360",
-                  "timeEnd": "9.520",
+                  "timeStart": "10.960",
+                  "timeEnd": "10.960",
                   "entities": []
                 }
               ],
@@ -205,7 +326,7 @@
               "sentences": [
                 {
                   "text": "2. Ergänzung oder Änderung von Regierungsvorlagen oder Berichten:",
-                  "timeStart": "9.520",
+                  "timeStart": "10.960",
                   "timeEnd": "11.040",
                   "entities": []
                 }
@@ -220,7 +341,7 @@
                 {
                   "text": "Bericht des Rechnungshofes betreffend Bildungseinrichtungen der politischen Parteien – Reihe BUND 2019/30; Austauschseite ( Zu III-45 d.B. )",
                   "timeStart": "11.040",
-                  "timeEnd": "12.760",
+                  "timeEnd": "12.920",
                   "entities": []
                 }
               ],
@@ -233,8 +354,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "12.760",
-                  "timeEnd": "13.040",
+                  "timeStart": "12.920",
+                  "timeEnd": "13.520",
                   "entities": []
                 }
               ],
@@ -247,8 +368,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "13.040",
-                  "timeEnd": "13.600",
+                  "timeStart": "13.520",
+                  "timeEnd": "13.800",
                   "entities": []
                 }
               ],
@@ -261,7 +382,7 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "13.600",
+                  "timeStart": "13.800",
                   "timeEnd": "13.920",
                   "entities": []
                 }
@@ -283,7 +404,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Lüftung und Luftreinigung in Schulklassen",
                   "timeStart": "15.440",
                   "timeEnd": "16.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1121/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Lüftung und Luftreinigung in Schulklassen"
@@ -310,7 +438,7 @@
                 {
                   "text": "Antrag 1122/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Vorschlag für ein Gesamtkonzept für Wirtschaftshilfen",
                   "timeStart": "16.800",
-                  "timeEnd": "19.440",
+                  "timeEnd": "18.700",
                   "entities": []
                 }
               ],
@@ -323,9 +451,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1123/A der Abgeordneten Lukas Hammer , Johannes Schmuckenschlager , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird",
-                  "timeStart": "19.440",
+                  "timeStart": "18.700",
                   "timeEnd": "22.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Johannes Schmuckenschlager",
+                      "wid": "Q1698360",
+                      "wtype": "PER",
+                      "score": 0.9896
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1123/A der Abgeordneten Lukas Hammer , Johannes Schmuckenschlager , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Abfallwirtschaftsgesetz 2002 geändert wird"
@@ -338,7 +479,7 @@
                 {
                   "text": "Weiters weise ich die Anträge 1124/A und 1125/A dem Gesundheitsausschuss zu.",
                   "timeStart": "22.800",
-                  "timeEnd": "28.140",
+                  "timeEnd": "25.300",
                   "entities": []
                 }
               ],
@@ -351,8 +492,8 @@
               "sentences": [
                 {
                   "text": "Die Anträge 1126/A und 1127/A(E) weise ich dem Ausschuss für Wirtschaft, Industrie und Energie zu.",
-                  "timeStart": "28.140",
-                  "timeEnd": "30.240",
+                  "timeStart": "25.300",
+                  "timeEnd": "28.140",
                   "entities": []
                 }
               ],
@@ -365,8 +506,8 @@
               "sentences": [
                 {
                   "text": "Die Anträge 1128/A(E) und 1129/A(E) weise ich dem Tourismusausschuss zu.",
-                  "timeStart": "30.240",
-                  "timeEnd": "31.960",
+                  "timeStart": "28.140",
+                  "timeEnd": "30.040",
                   "entities": []
                 }
               ],
@@ -379,8 +520,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Donnerstag, den 10. Dezember 2020, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "31.960",
-                  "timeEnd": "34.880",
+                  "timeStart": "30.040",
+                  "timeEnd": "34.400",
                   "entities": []
                 }
               ],
@@ -393,7 +534,7 @@
               "sentences": [
                 {
                   "text": "Diese Sitzung ist geschlossen.",
-                  "timeStart": "34.880",
+                  "timeStart": "34.400",
                   "timeEnd": "35.960",
                   "entities": []
                 }
@@ -408,8 +549,8 @@
         "stdId": 230705,
         "debatteId": 300,
         "proceedingIndex": 230705,
-        "alignDuration": 0.4590771198272705,
-        "nerDuration": 0.1372358798980713
+        "alignDuration": 0.5093286037445068,
+        "nerDuration": 0.2157297134399414
       },
       "originalLanguage": "de"
     }

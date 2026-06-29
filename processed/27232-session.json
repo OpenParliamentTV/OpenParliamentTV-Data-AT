@@ -5,11 +5,12 @@
     "dateStart": "2023-09-20T23:40:39",
     "dateEnd": "2023-09-20T23:42:00",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T16:21:08",
+    "lastUpdate": "2026-06-28T13:47:01",
     "processing": {
       "merge": "2026-06-16T04:24:09+00:00",
-      "align": "2026-06-25T16:21:08",
-      "ner": "2026-06-28T03:23:25"
+      "align": "2026-06-28T13:47:01",
+      "ner": "2026-06-28T16:13:46",
+      "nel": "2026-06-28T07:25:35"
     }
   },
   "data": [
@@ -93,13 +94,57 @@
                   "text": "Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag.",
                   "timeStart": "3.080",
                   "timeEnd": "4.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Maria Smodics-Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Heike Grebien und Michel Reimon, MBA .",
                   "timeStart": "4.520",
                   "timeEnd": "4.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag. Philipp Schrangl , Heike Grebien und Michel Reimon, MBA ."
@@ -112,7 +157,7 @@
                 {
                   "text": "Einlauf und Zuweisungen",
                   "timeStart": "4.680",
-                  "timeEnd": "5.000",
+                  "timeEnd": "4.920",
                   "entities": []
                 }
               ],
@@ -125,8 +170,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "5.000",
-                  "timeEnd": "6.840",
+                  "timeStart": "4.920",
+                  "timeEnd": "5.920",
                   "entities": []
                 }
               ],
@@ -139,8 +184,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "6.840",
-                  "timeEnd": "7.280",
+                  "timeStart": "5.920",
+                  "timeEnd": "6.520",
                   "entities": []
                 }
               ],
@@ -153,8 +198,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "7.280",
-                  "timeEnd": "7.280",
+                  "timeStart": "6.520",
+                  "timeEnd": "7.040",
                   "entities": []
                 }
               ],
@@ -167,7 +212,7 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "7.280",
+                  "timeStart": "7.040",
                   "timeEnd": "7.480",
                   "entities": []
                 }
@@ -239,7 +284,56 @@
                   "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )",
                   "timeStart": "11.160",
                   "timeEnd": "19.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Tierarzneimittelgesetz",
+                      "wid": "Q110555156",
+                      "wtype": "MISC",
+                      "score": 0.8843
+                    },
+                    {
+                      "label": "TAMG",
+                      "wid": "Q110555156",
+                      "wtype": "MISC",
+                      "score": 0.1176
+                    },
+                    {
+                      "label": "Arzneimittelgesetz",
+                      "wid": "Q718685",
+                      "wtype": "MISC",
+                      "score": 0.7428
+                    },
+                    {
+                      "label": "ChemG",
+                      "wid": "Q1069273",
+                      "wtype": "MISC",
+                      "score": 0.4217
+                    },
+                    {
+                      "label": "Patentgesetz 1970",
+                      "wid": "Q2056725",
+                      "wtype": "MISC",
+                      "score": 0.9427
+                    },
+                    {
+                      "label": "Apothekengesetz",
+                      "wid": "Q620546",
+                      "wtype": "MISC",
+                      "score": 0.8372
+                    },
+                    {
+                      "label": "TSchG",
+                      "wid": "Q2432435",
+                      "wtype": "MISC",
+                      "score": 0.372
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )"
@@ -252,7 +346,7 @@
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
                   "timeStart": "19.760",
-                  "timeEnd": "20.840",
+                  "timeEnd": "20.440",
                   "entities": []
                 }
               ],
@@ -265,9 +359,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )",
-                  "timeStart": "20.840",
+                  "timeStart": "20.440",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Namensänderungsgesetz",
+                      "wid": "Q15812161",
+                      "wtype": "MISC",
+                      "score": 0.7923
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )"
@@ -308,7 +415,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Strafgesetzbuch, die Strafprozeßordnung 1975, das Kommunikationsplattformen-Gesetz und das Audiovisuelle Mediendienste-Gesetz geändert werden ( 2208 d.B. )",
                   "timeStart": "30.640",
-                  "timeEnd": "33.160",
+                  "timeEnd": "33.000",
                   "entities": []
                 }
               ],
@@ -321,7 +428,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem die Exekutionsordnung hinsichtlich der Vergütung für Leistungen der Gerichtvollzieher geändert wird (Gerichtsvollzieher-Vergütungs-Novelle 2023 – GVV-Nov 2023) ( 2209 d.B. )",
-                  "timeStart": "33.160",
+                  "timeStart": "33.000",
                   "timeEnd": "35.400",
                   "entities": []
                 }
@@ -350,7 +457,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Forstgesetz 1975 geändert wird ( 2205 d.B. )",
                   "timeStart": "36.200",
-                  "timeEnd": "37.400",
+                  "timeEnd": "37.360",
                   "entities": []
                 }
               ],
@@ -363,8 +470,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "37.400",
-                  "timeEnd": "37.680",
+                  "timeStart": "37.360",
+                  "timeEnd": "37.640",
                   "entities": []
                 }
               ],
@@ -377,7 +484,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird ( 2200 d.B. )",
-                  "timeStart": "37.680",
+                  "timeStart": "37.640",
                   "timeEnd": "37.840",
                   "entities": []
                 }
@@ -421,7 +528,32 @@
                   "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )",
                   "timeStart": "37.840",
                   "timeEnd": "37.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Bundes-Ehrenzeichen",
+                      "wid": "Q1005377",
+                      "wtype": "LOC",
+                      "score": 0.9801
+                    },
+                    {
+                      "label": "Österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0948
+                    },
+                    {
+                      "label": "Österreichische Ehrenkreuz für Wissenschaft und Kunst",
+                      "wid": "Q306590",
+                      "wtype": "ORG",
+                      "score": 0.9484
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )"
@@ -476,8 +608,15 @@
                 {
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "40.160",
-                  "timeEnd": "40.320",
-                  "entities": []
+                  "timeEnd": "40.560",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -489,7 +628,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Hochschülerinnen- und Hochschülerschaftsgesetz 2014 geändert wird ( 2201 d.B. )",
-                  "timeStart": "40.320",
+                  "timeStart": "40.560",
                   "timeEnd": "43.600",
                   "entities": []
                 }
@@ -546,8 +685,8 @@
         "stdId": 304911,
         "debatteId": 300,
         "proceedingIndex": 304911,
-        "alignDuration": 0.719886064529419,
-        "nerDuration": 0.18522071838378906
+        "alignDuration": 0.6446983814239502,
+        "nerDuration": 0.31206703186035156
       },
       "originalLanguage": "de"
     },
@@ -610,7 +749,7 @@
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "4.360",
+                  "timeEnd": "4.840",
                   "entities": []
                 }
               ],
@@ -623,7 +762,7 @@
               "sentences": [
                 {
                   "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Becher, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 3562/A(E) eine Frist bis zum 4. Oktober 2023 zu setzen.",
-                  "timeStart": "4.360",
+                  "timeStart": "4.840",
                   "timeEnd": "25.920",
                   "entities": []
                 }
@@ -658,8 +797,8 @@
         "stdId": 304915,
         "debatteId": 310,
         "proceedingIndex": 304915,
-        "alignDuration": 0.3495290279388428,
-        "nerDuration": 0.02094411849975586
+        "alignDuration": 0.37436676025390625,
+        "nerDuration": 0.025442838668823242
       },
       "originalLanguage": "de"
     }

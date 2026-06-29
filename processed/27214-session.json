@@ -5,11 +5,12 @@
     "dateStart": "2023-05-24T19:40:26",
     "dateEnd": "2023-05-24T19:41:01",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-24T22:44:03",
+    "lastUpdate": "2026-06-28T13:26:57",
     "processing": {
-      "merge": "2026-06-16T04:24:07+00:00",
-      "align": "2026-06-24T22:44:03",
-      "ner": "2026-06-28T03:18:28"
+      "merge": "2026-06-28T07:25:17+00:00",
+      "nel": "2026-06-28T09:26:46",
+      "align": "2026-06-28T13:26:57",
+      "ner": "2026-06-28T16:06:56"
     }
   },
   "data": [
@@ -27,7 +28,9 @@
       "speechIndex": 1,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/361abf99-f150-4bdd-95d2-23a55953add1/hls/index.m3u8?startseconds=11&stopseconds=46",
@@ -68,11 +71,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ich eröffne die 214. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.960",
+                  "timeEnd": "2.000",
                   "entities": []
                 }
               ],
@@ -82,18 +86,81 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Reinhold Lopatka , Dipl.-Ing. Georg Strasser , Petra Bayr, MA MLS , Cornelia Ecker , Julia Elisabeth Herr , Alois Kainz , Herbert Kickl , Mag.",
-                  "timeStart": "1.960",
+                  "timeStart": "2.000",
                   "timeEnd": "2.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Reinhold Lopatka",
+                      "wid": "Q1507084",
+                      "wtype": "PER",
+                      "score": 0.9909
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Dr. Elisabeth Götze und Dr. Nikolaus Scherak, MA .",
                   "timeStart": "2.080",
                   "timeEnd": "2.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Elisabeth Götze",
+                      "wid": "Q72074591",
+                      "wtype": "PER",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Reinhold Lopatka , Dipl.-Ing. Georg Strasser , Petra Bayr, MA MLS , Cornelia Ecker , Julia Elisabeth Herr , Alois Kainz , Herbert Kickl , Mag. Philipp Schrangl , Dr. Elisabeth Götze und Dr. Nikolaus Scherak, MA ."
@@ -102,6 +169,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
@@ -116,6 +184,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
@@ -130,6 +199,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
@@ -144,6 +214,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
@@ -158,6 +229,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 14126/AB bis 14138/AB",
@@ -172,6 +244,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Regierungsvorlagen:",
@@ -186,6 +259,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Weingesetz 2009 geändert wird ( 2047 d.B. )",
@@ -200,10 +274,98 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Bundesgesetz über Zweckzuschüsse an Länder und Gemeinden für die Durchführung der Corona-Schutzimpfung (COVID-19-Impffinanzierungsgesetz) und ein Bundesgesetz, mit dem Übergangsbestimmungen für das COVID-19-Maßnahmengesetz getroffen werden, erlassen und das Epidemiegesetz 1950, das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Apothekengesetz, das Arzneimittelgesetz, das Ärztegesetz 1998, das Psychotherapiegesetz, das Sanitätergesetz, das Gehaltsgesetz 1956, das Vertragsbedienstetengesetz 1948 und das Bundesgesetz, mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden, geändert werden (COVID-19-Überführungsgesetz) ( 2048 d.B. )",
+                  "text": "Bundesgesetz mit dem ein Bundesgesetz über Zweckzuschüsse an Länder und Gemeinden für die Durchführung der Corona-Schutzimpfung (COVID-19-Impffinanzierungsgesetz) und ein Bundesgesetz",
                   "timeStart": "2.080",
+                  "timeEnd": "2.080",
+                  "entities": []
+                },
+                {
+                  "text": "mit dem Übergangsbestimmungen für das COVID-19-Maßnahmengesetz getroffen werden",
+                  "timeStart": "2.080",
+                  "timeEnd": "2.080",
+                  "entities": []
+                },
+                {
+                  "text": "erlassen und das Epidemiegesetz 1950",
+                  "timeStart": "2.080",
+                  "timeEnd": "2.120",
+                  "entities": [
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3013
+                    }
+                  ]
+                },
+                {
+                  "text": "das Allgemeine Sozialversicherungsgesetz das Gewerbliche Sozialversicherungsgesetz",
+                  "timeStart": "2.120",
+                  "timeEnd": "3.080",
+                  "entities": [
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    }
+                  ]
+                },
+                {
+                  "text": "das Bauern-Sozialversicherungsgesetz das Beamten-Kranken- und Unfallversicherungsgesetz",
+                  "timeStart": "3.080",
+                  "timeEnd": "4.320",
+                  "entities": []
+                },
+                {
+                  "text": "das Apothekengesetz das Arzneimittelgesetz",
+                  "timeStart": "4.320",
+                  "timeEnd": "5.120",
+                  "entities": [
+                    {
+                      "label": "Apothekengesetz",
+                      "wid": "Q620546",
+                      "wtype": "MISC",
+                      "score": 0.861
+                    },
+                    {
+                      "label": "Arzneimittelgesetz",
+                      "wid": "Q718685",
+                      "wtype": "MISC",
+                      "score": 0.7592
+                    }
+                  ]
+                },
+                {
+                  "text": "das Ärztegesetz 1998 das Psychotherapiegesetz",
+                  "timeStart": "5.120",
+                  "timeEnd": "6.240",
+                  "entities": []
+                },
+                {
+                  "text": "das Sanitätergesetz das Gehaltsgesetz 1956",
+                  "timeStart": "6.240",
+                  "timeEnd": "6.240",
+                  "entities": []
+                },
+                {
+                  "text": "das Vertragsbedienstetengesetz 1948 und das Bundesgesetz",
+                  "timeStart": "6.240",
+                  "timeEnd": "7.080",
+                  "entities": []
+                },
+                {
+                  "text": "mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden",
+                  "timeStart": "7.080",
+                  "timeEnd": "7.640",
+                  "entities": []
+                },
+                {
+                  "text": "geändert werden (COVID-19-Überführungsgesetz) ( 2048 d.B. )",
+                  "timeStart": "7.640",
                   "timeEnd": "9.080",
                   "entities": []
                 }
@@ -214,12 +376,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesgesetz, mit dem nähere Regelungen zu einem Elektronischen Eltern-Kind-Pass getroffen werden (eEltern-Kind-Pass-Gesetz – EKPG) erlassen wird sowie das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Kinderbetreuungsgeldgesetz und das Familienlastenausgleichsgesetz 1967 geändert werden (Eltern-Kind-Pass-Gesetz) ( 2049 d.B. )",
                   "timeStart": "9.080",
-                  "timeEnd": "10.160",
-                  "entities": []
+                  "timeEnd": "9.520",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz, mit dem nähere Regelungen zu einem Elektronischen Eltern-Kind-Pass getroffen werden (eEltern-Kind-Pass-Gesetz – EKPG) erlassen wird sowie das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Kinderbetreuungsgeldgesetz und das Familienlastenausgleichsgesetz 1967 geändert werden (Eltern-Kind-Pass-Gesetz) ( 2049 d.B. )"
@@ -228,11 +410,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "10.160",
-                  "timeEnd": "10.880",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
                   "entities": []
                 }
               ],
@@ -242,11 +425,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "10.880",
-                  "timeEnd": "10.880",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
                   "entities": []
                 }
               ],
@@ -256,11 +440,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "10.880",
-                  "timeEnd": "11.600",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
                   "entities": []
                 }
               ],
@@ -270,11 +455,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem ein Barrierefreiheitsgesetz erlassen sowie das Sozialministeriumservicegesetz geändert wird ( 2046 d.B. )",
-                  "timeStart": "11.600",
-                  "timeEnd": "12.280",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
                   "entities": []
                 }
               ],
@@ -284,18 +470,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "12.280",
-                  "timeEnd": "12.560",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Zweiten Bildungsweg für Pflegekräfte auch finanziell absichern ( 3376/A(E) )",
-                  "timeStart": "12.560",
-                  "timeEnd": "12.800",
-                  "entities": []
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Zweiten Bildungsweg für Pflegekräfte auch finanziell absichern ( 3376/A(E) )"
@@ -304,18 +504,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "12.800",
-                  "timeEnd": "12.800",
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Leistungsorientierte Lehrlingsentschädigung für Absolventen der Pflegelehre ( 3378/A(E) )",
-                  "timeStart": "12.800",
-                  "timeEnd": "12.800",
-                  "entities": []
+                  "timeStart": "9.520",
+                  "timeEnd": "9.520",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Leistungsorientierte Lehrlingsentschädigung für Absolventen der Pflegelehre ( 3378/A(E) )"
@@ -324,12 +538,20 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird ( 3382/A )",
-                  "timeStart": "12.800",
-                  "timeEnd": "12.800",
-                  "entities": []
+                  "timeStart": "9.520",
+                  "timeEnd": "11.400",
+                  "entities": [
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird ( 3382/A )"
@@ -338,18 +560,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "12.800",
-                  "timeEnd": "12.800",
+                  "timeStart": "11.400",
+                  "timeEnd": "11.720",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Gleiches Recht für alle statt Sonderpflanz Post-Betriebsverfassungsgesetz ( 3396/A(E) )",
-                  "timeStart": "12.800",
+                  "timeStart": "11.720",
                   "timeEnd": "12.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Gleiches Recht für alle statt Sonderpflanz Post-Betriebsverfassungsgesetz ( 3396/A(E) )"
@@ -358,6 +594,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -369,7 +606,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Mehr Mitteleffizienz bei Bildungskarenz ( 3397/A(E) )",
                   "timeStart": "12.800",
                   "timeEnd": "12.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Mehr Mitteleffizienz bei Bildungskarenz ( 3397/A(E) )"
@@ -378,6 +628,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
@@ -392,6 +643,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Bundes-Raumordnungsrahmengesetz schaffen ( 3402/A(E) )",
@@ -406,6 +658,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
@@ -420,6 +673,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -431,7 +685,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Insolvenzrecht für Gebietskörperschaften ( 3404/A(E) )",
                   "timeStart": "12.800",
                   "timeEnd": "12.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Insolvenzrecht für Gebietskörperschaften ( 3404/A(E) )"
@@ -440,6 +707,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
@@ -454,12 +722,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Abbau von Hürden im Zuge von Kinderbetreuungsgeldanträgen ( 3375/A(E) )",
                   "timeStart": "12.800",
                   "timeEnd": "12.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Abbau von Hürden im Zuge von Kinderbetreuungsgeldanträgen ( 3375/A(E) )"
@@ -468,6 +750,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
@@ -482,6 +765,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -493,7 +777,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Damit sich Sparen wieder lohnt: KESt-Befreiung für die kleinen Sparer ( 3405/A(E) )",
                   "timeStart": "12.800",
                   "timeEnd": "13.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Damit sich Sparen wieder lohnt: KESt-Befreiung für die kleinen Sparer ( 3405/A(E) )"
@@ -502,11 +799,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
                   "timeStart": "13.520",
-                  "timeEnd": "14.360",
+                  "timeEnd": "14.400",
                   "entities": []
                 }
               ],
@@ -516,18 +814,51 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Süleyman Zorba , Mag.",
-                  "timeStart": "14.360",
+                  "timeStart": "14.400",
                   "timeEnd": "15.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Stärkung der digitalen Souveränität durch flexibleren und vermehrten Einsatz von Open-Source-Produkten ( 3407/A(E) )",
                   "timeStart": "15.120",
-                  "timeEnd": "16.800",
-                  "entities": []
+                  "timeEnd": "16.680",
+                  "entities": [
+                    {
+                      "label": "Petra Oberrauner",
+                      "wid": "Q72078872",
+                      "wtype": "PER",
+                      "score": 0.9872
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Süleyman Zorba , Mag. Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Stärkung der digitalen Souveränität durch flexibleren und vermehrten Einsatz von Open-Source-Produkten ( 3407/A(E) )"
@@ -536,11 +867,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "16.800",
-                  "timeEnd": "16.800",
+                  "timeStart": "16.680",
+                  "timeEnd": "16.680",
                   "entities": []
                 }
               ],
@@ -550,18 +882,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "16.800",
-                  "timeEnd": "16.800",
+                  "timeStart": "16.680",
+                  "timeEnd": "16.680",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Zweiten Bildungsweg für Pflegekräfte auch finanziell absichern ( 3377/A(E) )",
-                  "timeStart": "16.800",
+                  "timeStart": "16.680",
                   "timeEnd": "17.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Zweiten Bildungsweg für Pflegekräfte auch finanziell absichern ( 3377/A(E) )"
@@ -570,6 +916,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -580,8 +927,21 @@
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Leistungsorientierte Lehrlingsentschädigung für Absolventen der Pflegelehre ( 3379/A(E) )",
                   "timeStart": "17.800",
-                  "timeEnd": "17.960",
-                  "entities": []
+                  "timeEnd": "18.480",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Leistungsorientierte Lehrlingsentschädigung für Absolventen der Pflegelehre ( 3379/A(E) )"
@@ -590,18 +950,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "17.960",
-                  "timeEnd": "17.960",
+                  "timeStart": "18.480",
+                  "timeEnd": "19.280",
                   "entities": []
                 },
                 {
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend MTD-Gesetz-Novelle 2023 ( 3380/A(E) )",
-                  "timeStart": "17.960",
-                  "timeEnd": "18.480",
-                  "entities": []
+                  "timeStart": "19.280",
+                  "timeEnd": "20.680",
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend MTD-Gesetz-Novelle 2023 ( 3380/A(E) )"
@@ -610,11 +984,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "timeStart": "18.480",
-                  "timeEnd": "18.640",
+                  "timeStart": "20.680",
+                  "timeEnd": "21.520",
                   "entities": []
                 }
               ],
@@ -624,17 +999,25 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Corona-Aufarbeitung: Wo bleiben die Frauen? (",
-                  "timeStart": "18.640",
-                  "timeEnd": "19.040",
-                  "entities": []
+                  "timeStart": "21.520",
+                  "timeEnd": "22.240",
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 },
                 {
                   "text": "3391/A(E) )",
-                  "timeStart": "19.040",
-                  "timeEnd": "19.280",
+                  "timeStart": "22.240",
+                  "timeEnd": "22.240",
                   "entities": []
                 }
               ],
@@ -644,18 +1027,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "19.280",
-                  "timeEnd": "19.280",
+                  "timeStart": "22.240",
+                  "timeEnd": "22.240",
                   "entities": []
                 },
                 {
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Maßnahmenpaket gegen Zwangsheirat ( 3399/A(E) )",
-                  "timeStart": "19.280",
-                  "timeEnd": "20.120",
-                  "entities": []
+                  "timeStart": "22.240",
+                  "timeEnd": "22.240",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Maßnahmenpaket gegen Zwangsheirat ( 3399/A(E) )"
@@ -664,11 +1061,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "20.120",
-                  "timeEnd": "20.640",
+                  "timeStart": "22.240",
+                  "timeEnd": "22.240",
                   "entities": []
                 }
               ],
@@ -678,12 +1076,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützung des internationalen Zentrums für die Verfolgung von Verbrechen der Aggression gegen die Ukraine (ICPA) ( 3388/A(E) )",
-                  "timeStart": "20.640",
-                  "timeEnd": "22.240",
-                  "entities": []
+                  "timeStart": "22.240",
+                  "timeEnd": "25.080",
+                  "entities": [
+                    {
+                      "label": "Ukraine",
+                      "wid": "Q212",
+                      "wtype": "ORG",
+                      "score": 0.369
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützung des internationalen Zentrums für die Verfolgung von Verbrechen der Aggression gegen die Ukraine (ICPA) ( 3388/A(E) )"
@@ -692,11 +1104,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Kinderrechte-Monitoring ( 3394/A(E) )",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
+                  "timeStart": "25.080",
+                  "timeEnd": "25.080",
                   "entities": []
                 }
               ],
@@ -706,17 +1119,18 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Keine Ermittlungs- und Beschwerdestelle für Misshandlungsvorwürfe gegen Polizist:innen im Innenministerium! (",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
+                  "timeStart": "25.080",
+                  "timeEnd": "25.080",
                   "entities": []
                 },
                 {
                   "text": "3395/A(E) )",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
+                  "timeStart": "25.080",
+                  "timeEnd": "25.080",
                   "entities": []
                 }
               ],
@@ -726,11 +1140,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
+                  "timeStart": "25.080",
+                  "timeEnd": "25.080",
                   "entities": []
                 }
               ],
@@ -740,11 +1155,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Immunität der Rechtsanwältinnen und Rechtsanwälte ( 3383/A(E) )",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
+                  "timeStart": "25.080",
+                  "timeEnd": "26.560",
                   "entities": []
                 }
               ],
@@ -754,12 +1170,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützung des internationalen Zentrums für die Verfolgung von Verbrechen der Aggression gegen die Ukraine (ICPA) ( 3387/A(E) )",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
-                  "entities": []
+                  "timeStart": "26.560",
+                  "timeEnd": "27.800",
+                  "entities": [
+                    {
+                      "label": "Ukraine",
+                      "wid": "Q212",
+                      "wtype": "ORG",
+                      "score": 0.369
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Unterstützung des internationalen Zentrums für die Verfolgung von Verbrechen der Aggression gegen die Ukraine (ICPA) ( 3387/A(E) )"
@@ -768,11 +1198,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Begleitende Maßnahmen für die aus dem Maßnahmenvollzug zu Entlassenden ( 3401/A(E) )",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.240",
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800",
                   "entities": []
                 }
               ],
@@ -782,24 +1213,39 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "22.240",
-                  "timeEnd": "23.120",
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800",
                   "entities": []
                 },
                 {
                   "text": "Michaela Steinacker , Mag.",
-                  "timeStart": "23.120",
-                  "timeEnd": "23.760",
-                  "entities": []
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800",
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Genehmigungen im Zusammenhang mit Sanktionsmaßnahmen in Angelegenheiten des öffentlichen Auftragswesens geändert wird ( 3406/A )",
-                  "timeStart": "23.760",
-                  "timeEnd": "27.680",
-                  "entities": []
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Genehmigungen im Zusammenhang mit Sanktionsmaßnahmen in Angelegenheiten des öffentlichen Auftragswesens geändert wird ( 3406/A )"
@@ -808,10 +1254,11 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "27.680",
+                  "timeStart": "27.800",
                   "timeEnd": "27.800",
                   "entities": []
                 }
@@ -822,6 +1269,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -833,7 +1281,20 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Integration ab Tag 1 für Asylwerber:innen - Chancen bieten, Leistung fördern ( 3392/A(E) )",
                   "timeStart": "27.800",
                   "timeEnd": "27.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Integration ab Tag 1 für Asylwerber:innen - Chancen bieten, Leistung fördern ( 3392/A(E) )"
@@ -842,12 +1303,20 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Tourismusausschuss:",
                   "timeStart": "27.800",
                   "timeEnd": "27.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -856,6 +1325,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -867,12 +1337,19 @@
                   "text": "Julia Seidl , Kolleginnen und Kollegen betreffend Betriebsübergabe erleichtern: Endlich Maßnahmenpaket vorlegen! (",
                   "timeStart": "27.800",
                   "timeEnd": "27.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 },
                 {
                   "text": "3389/A(E) )",
                   "timeStart": "27.800",
-                  "timeEnd": "28.560",
+                  "timeEnd": "28.520",
                   "entities": []
                 }
               ],
@@ -882,10 +1359,11 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "28.560",
+                  "timeStart": "28.520",
                   "timeEnd": "28.760",
                   "entities": []
                 }
@@ -896,6 +1374,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -907,7 +1386,20 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bedarfsorientierte Deutschförderung und altersgerechte Sprachstandsfeststellung ( 3398/A(E) )",
                   "timeStart": "28.760",
                   "timeEnd": "30.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bedarfsorientierte Deutschförderung und altersgerechte Sprachstandsfeststellung ( 3398/A(E) )"
@@ -916,6 +1408,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Finanzierung Schulen autochthoner Volksgruppen ( 3400/A(E) )",
@@ -930,6 +1423,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
@@ -944,12 +1438,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Endlich echte Entpolitisierung des ORF ( 3390/A(E) )",
                   "timeStart": "30.440",
                   "timeEnd": "30.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "ORF",
+                      "wid": "Q262386",
+                      "wtype": "ORG",
+                      "score": 0.8136
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Endlich echte Entpolitisierung des ORF ( 3390/A(E) )"
@@ -958,12 +1472,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend ORF-Landesabgabe endlich abschaffen ( 3393/A(E) )",
                   "timeStart": "30.440",
                   "timeEnd": "31.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend ORF-Landesabgabe endlich abschaffen ( 3393/A(E) )"
@@ -972,6 +1500,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
@@ -986,18 +1515,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten MMMag.",
                   "timeStart": "32.560",
-                  "timeEnd": "33.600",
+                  "timeEnd": "33.440",
                   "entities": []
                 },
                 {
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Förderung von sogenannten \"Balkon-PV-Anlagen\" durch vollständige Umsatzsteuerbefreiung ( 3381/A(E) )",
-                  "timeStart": "33.600",
+                  "timeStart": "33.440",
                   "timeEnd": "35.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Förderung von sogenannten \"Balkon-PV-Anlagen\" durch vollständige Umsatzsteuerbefreiung ( 3381/A(E) )"
@@ -1006,12 +1549,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Startup-Paket endlich abliefern statt leere Versprechen und Scheinmaßnahmen ( 3384/A(E) )",
                   "timeStart": "35.000",
                   "timeEnd": "35.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Startup-Paket endlich abliefern statt leere Versprechen und Scheinmaßnahmen ( 3384/A(E) )"
@@ -1020,6 +1577,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Schaffung einer integrierten, länderübergreifenden Infrastrukturplanung ( 3385/A(E) )",
@@ -1034,6 +1592,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Endlich Erneuerbaren Beschleunigungsgesetz vorlegen ( 3386/A(E) )",
@@ -1048,6 +1607,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Flexibilisierung von Netzentgelten und Tarifstrukturen ( 3403/A(E) )",
@@ -1062,6 +1622,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
@@ -1076,6 +1637,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
@@ -1090,12 +1652,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für April 2023, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-950 d.B. )",
                   "timeStart": "35.360",
                   "timeEnd": "35.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesminister für Bildung, Wissenschaft und Forschung",
+                      "wid": "Q606227",
+                      "wtype": "ORG",
+                      "score": 0.8749
+                    }
+                  ]
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für April 2023, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-950 d.B. )"
@@ -1104,16 +1680,17 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates findet morgen um 9 Uhr statt.",
                   "timeStart": "35.360",
-                  "timeEnd": "35.680",
+                  "timeEnd": "35.360",
                   "entities": []
                 },
                 {
                   "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
-                  "timeStart": "35.680",
+                  "timeStart": "35.360",
                   "timeEnd": "35.720",
                   "entities": []
                 }
@@ -1124,6 +1701,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Jetzt wünsche ich Ihnen allen einen schönen Abend und schließe die Sitzung.",
@@ -1142,8 +1720,12 @@
         "stdId": 297165,
         "debatteId": 300,
         "proceedingIndex": 297165,
-        "alignDuration": 1.0753657817840576,
-        "nerDuration": 0.47203898429870605
+        "linkedMediaIndexes": [
+          1
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.9534585475921631,
+        "nerDuration": 0.967585563659668
       },
       "originalLanguage": "de"
     }

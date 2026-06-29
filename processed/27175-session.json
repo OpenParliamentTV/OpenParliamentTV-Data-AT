@@ -5,11 +5,12 @@
     "dateStart": "2022-10-03T19:28:28",
     "dateEnd": "2022-10-03T19:30:05",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-23T06:30:42",
+    "lastUpdate": "2026-06-28T12:35:22",
     "processing": {
       "merge": "2026-06-16T04:24:00+00:00",
-      "align": "2026-06-23T06:30:42",
-      "ner": "2026-06-28T03:06:50"
+      "align": "2026-06-28T12:35:22",
+      "ner": "2026-06-28T15:49:51",
+      "nel": "2026-06-28T07:25:31"
     }
   },
   "data": [
@@ -92,50 +93,226 @@
                 {
                   "text": "Klaus Fürlinger , Mag.",
                   "timeStart": "5.280",
-                  "timeEnd": "6.160",
-                  "entities": []
+                  "timeEnd": "5.760",
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 },
                 {
                   "text": "Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , Irene Neumann-Hartberger , MMag.",
-                  "timeStart": "6.160",
-                  "timeEnd": "8.040",
-                  "entities": []
+                  "timeStart": "5.760",
+                  "timeEnd": "6.640",
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.4728
+                    },
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Irene Neumann-Hartberger",
+                      "wid": "Q81616188",
+                      "wtype": "PER",
+                      "score": 0.9866
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag.",
-                  "timeStart": "8.040",
-                  "timeEnd": "8.960",
-                  "entities": []
+                  "timeStart": "6.640",
+                  "timeEnd": "8.040",
+                  "entities": [
+                    {
+                      "label": "BEd",
+                      "wid": "Q1837914",
+                      "wtype": "PER",
+                      "score": 0.3222
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Josef Muchitsch , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag.",
-                  "timeStart": "8.960",
-                  "timeEnd": "9.680",
-                  "entities": []
+                  "timeStart": "8.040",
+                  "timeEnd": "9.440",
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9916
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Christoph Matznetter",
+                      "wid": "Q88260",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    },
+                    {
+                      "label": "Michael Seemayer",
+                      "wid": "Q72078612",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.863
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Selma Yildirim , Dr. Reinhard Eugen Bösch , Mag.",
-                  "timeStart": "9.680",
+                  "timeStart": "9.440",
                   "timeEnd": "10.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    }
+                  ]
                 },
                 {
                   "text": "Christian Ragger , Christian Ries , Michael Schnedlitz , Mag.",
                   "timeStart": "10.360",
                   "timeEnd": "10.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Douglas Hoyos-Trauttmansdorff und Mag.",
                   "timeStart": "10.880",
-                  "timeEnd": "14.040",
-                  "entities": []
+                  "timeEnd": "14.080",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Clemens Stammler",
+                      "wid": "Q81616228",
+                      "wtype": "PER",
+                      "score": 0.9755
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Julia Seidl .",
-                  "timeStart": "14.040",
-                  "timeEnd": "14.120",
-                  "entities": []
+                  "timeStart": "14.080",
+                  "timeEnd": "14.080",
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Mag. Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , Irene Neumann-Hartberger , MMag. Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag. Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Josef Muchitsch , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag. Selma Yildirim , Dr. Reinhard Eugen Bösch , Mag. Christian Ragger , Christian Ries , Michael Schnedlitz , Mag. Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Douglas Hoyos-Trauttmansdorff und Mag. Julia Seidl ."
@@ -147,7 +324,7 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "14.120",
+                  "timeStart": "14.080",
                   "timeEnd": "14.560",
                   "entities": []
                 }
@@ -162,7 +339,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilten Mitteilung.",
                   "timeStart": "14.560",
-                  "timeEnd": "18.120",
+                  "timeEnd": "18.360",
                   "entities": []
                 }
               ],
@@ -175,7 +352,7 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "18.120",
+                  "timeStart": "18.360",
                   "timeEnd": "19.360",
                   "entities": []
                 }
@@ -232,8 +409,27 @@
                 {
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Solidarität mit den Frauenprotesten im Iran ( 2836/A(E) )",
                   "timeStart": "21.320",
-                  "timeEnd": "25.640",
-                  "entities": []
+                  "timeEnd": "24.680",
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Iran",
+                      "wid": "Q794",
+                      "wtype": "LOC",
+                      "score": 0.3884
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Solidarität mit den Frauenprotesten im Iran ( 2836/A(E) )"
@@ -245,9 +441,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Reinhold Lopatka , Dr. Ewa Ernst-Dziedzic , Kolleginnen und Kollegen betreffend Einsatz für Ende der Gewalt und notwendiges Friedensabkommen zwischen Armenien und Aserbaidschan ( 2837/A(E) )",
-                  "timeStart": "25.640",
+                  "timeStart": "24.680",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Armenien",
+                      "wid": "Q399",
+                      "wtype": "LOC",
+                      "score": 0.1719
+                    },
+                    {
+                      "label": "Aserbaidschan",
+                      "wid": "Q227",
+                      "wtype": "LOC",
+                      "score": 0.3632
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Reinhold Lopatka , Dr. Ewa Ernst-Dziedzic , Kolleginnen und Kollegen betreffend Einsatz für Ende der Gewalt und notwendiges Friedensabkommen zwischen Armenien und Aserbaidschan ( 2837/A(E) )"
@@ -274,8 +489,21 @@
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Digitalisierungsoffensive für Alle\" ( 2832/A(E) )",
                   "timeStart": "28.520",
-                  "timeEnd": "29.600",
-                  "entities": []
+                  "timeEnd": "28.520",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Digitalisierungsoffensive für Alle\" ( 2832/A(E) )"
@@ -287,8 +515,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "29.600",
-                  "timeEnd": "29.960",
+                  "timeStart": "28.520",
+                  "timeEnd": "28.520",
                   "entities": []
                 }
               ],
@@ -301,9 +529,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Umfassende Bildungsteilhabe in Schule und Freizeit für alle Kinder ( 2833/A(E) )",
-                  "timeStart": "29.960",
-                  "timeEnd": "31.600",
-                  "entities": []
+                  "timeStart": "28.520",
+                  "timeEnd": "31.000",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Umfassende Bildungsteilhabe in Schule und Freizeit für alle Kinder ( 2833/A(E) )"
@@ -315,7 +556,7 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "31.600",
+                  "timeStart": "31.000",
                   "timeEnd": "31.600",
                   "entities": []
                 }
@@ -331,7 +572,26 @@
                   "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulunterrichtsgesetz für Berufstätige, Kollegs und Vorbereitungslehrgänge, das Pflichtschulerhaltungs-Grundsatzgesetz und das Gesundheits- und Krankenpflegegesetz geändert werden ( 1696 d.B. )",
                   "timeStart": "31.600",
                   "timeEnd": "36.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Schulorganisationsgesetz",
+                      "wid": "Q18412933",
+                      "wtype": "MISC",
+                      "score": 0.8636
+                    },
+                    {
+                      "label": "Gesundheits- und Krankenpflegegesetz",
+                      "wid": "Q80829480",
+                      "wtype": "ORG",
+                      "score": 0.9709
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulunterrichtsgesetz für Berufstätige, Kollegs und Vorbereitungslehrgänge, das Pflichtschulerhaltungs-Grundsatzgesetz und das Gesundheits- und Krankenpflegegesetz geändert werden ( 1696 d.B. )"
@@ -345,7 +605,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Digitale Grund- und Medienkompetenz für alle\" ( 2834/A(E) )",
                   "timeStart": "36.200",
                   "timeEnd": "41.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Digitale Grund- und Medienkompetenz für alle\" ( 2834/A(E) )"
@@ -359,7 +632,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Bildungsausgaben für Berufsschulen erhöhen\" ( 2835/A(E) )",
                   "timeStart": "41.280",
                   "timeEnd": "43.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Bildungsausgaben für Berufsschulen erhöhen\" ( 2835/A(E) )"
@@ -373,7 +659,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "43.800",
                   "timeEnd": "44.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -386,8 +679,21 @@
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wiedereinführung der Studierendenwohnheimförderung\" ( 2831/A(E) )",
                   "timeStart": "44.080",
-                  "timeEnd": "46.440",
-                  "entities": []
+                  "timeEnd": "46.040",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wiedereinführung der Studierendenwohnheimförderung\" ( 2831/A(E) )"
@@ -399,8 +705,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich den Antrag 2838/A dem Ausschuss für Wirtschaft, Industrie und Energie und die Anträge 2839/A und 2840/A dem Budgetausschuss zu.",
-                  "timeStart": "46.440",
-                  "timeEnd": "50.720",
+                  "timeStart": "46.040",
+                  "timeEnd": "51.800",
                   "entities": []
                 }
               ],
@@ -413,8 +719,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsantrag",
-                  "timeStart": "50.720",
-                  "timeEnd": "51.760",
+                  "timeStart": "51.800",
+                  "timeEnd": "52.320",
                   "entities": []
                 }
               ],
@@ -427,27 +733,34 @@
               "sentences": [
                 {
                   "text": "Ich darf mitteilen, dass ein Fristsetzungsantrag eingelangt ist.",
-                  "timeStart": "51.760",
-                  "timeEnd": "52.760",
+                  "timeStart": "52.320",
+                  "timeEnd": "53.720",
                   "entities": []
                 },
                 {
                   "text": "Die Abgeordneten Mag.",
-                  "timeStart": "52.760",
-                  "timeEnd": "52.920",
+                  "timeStart": "53.720",
+                  "timeEnd": "54.080",
                   "entities": []
                 },
                 {
                   "text": "Dr. Rudolf Taschner und Mag.",
-                  "timeStart": "52.920",
-                  "timeEnd": "54.280",
+                  "timeStart": "54.080",
+                  "timeEnd": "54.240",
                   "entities": []
                 },
                 {
                   "text": "Sibylle Hamann haben beantragt, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen eine Frist bis zum 11. Oktober zu setzen.",
-                  "timeStart": "54.280",
-                  "timeEnd": "58.040",
-                  "entities": []
+                  "timeStart": "54.240",
+                  "timeEnd": "58.080",
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Ich darf mitteilen, dass ein Fristsetzungsantrag eingelangt ist. Die Abgeordneten Mag. Dr. Rudolf Taschner und Mag. Sibylle Hamann haben beantragt, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen eine Frist bis zum 11. Oktober zu setzen."
@@ -459,7 +772,7 @@
               "sentences": [
                 {
                   "text": "Der gegenständliche Fristsetzungsantrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
-                  "timeStart": "58.040",
+                  "timeStart": "58.080",
                   "timeEnd": "59.960",
                   "entities": []
                 }
@@ -474,8 +787,8 @@
         "stdId": 277705,
         "debatteId": 300,
         "proceedingIndex": 277705,
-        "alignDuration": 0.8809268474578857,
-        "nerDuration": 0.18008112907409668
+        "alignDuration": 0.6137592792510986,
+        "nerDuration": 0.38086509704589844
       },
       "originalLanguage": "de"
     },
@@ -607,7 +920,14 @@
                   "text": "Weiters gebe ich bekannt, dass eine halbe Stunde nach Schluss dieser Sitzung der Wissenschaftsausschuss im Lokal 7 zusammentritt.",
                   "timeStart": "27.180",
                   "timeEnd": "35.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Weiters gebe ich bekannt, dass eine halbe Stunde nach Schluss dieser Sitzung der Wissenschaftsausschuss im Lokal 7 zusammentritt."
@@ -634,8 +954,8 @@
         "stdId": 277706,
         "debatteId": 310,
         "proceedingIndex": 277706,
-        "alignDuration": 0.4035460948944092,
-        "nerDuration": 0.03908801078796387
+        "alignDuration": 0.39159297943115234,
+        "nerDuration": 0.04560708999633789
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2022-06-15T23:24:32",
     "dateEnd": "2022-06-15T23:24:56",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-22T17:48:29",
+    "lastUpdate": "2026-06-28T12:19:41",
     "processing": {
       "merge": "2026-06-16T04:23:58+00:00",
-      "align": "2026-06-22T17:48:29",
-      "ner": "2026-06-28T03:02:46"
+      "align": "2026-06-28T12:19:41",
+      "ner": "2026-06-28T15:44:05",
+      "nel": "2026-06-28T07:25:31"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 164. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.560",
+                  "timeEnd": "3.040",
                   "entities": []
                 }
               ],
@@ -85,33 +86,85 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag.",
-                  "timeStart": "1.560",
-                  "timeEnd": "3.000",
-                  "entities": []
+                  "timeStart": "3.040",
+                  "timeEnd": "5.640",
+                  "entities": [
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "3.000",
-                  "timeEnd": "3.000",
+                  "timeStart": "5.640",
+                  "timeEnd": "5.760",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Ing. Norbert Hofer , MMMag.",
-                  "timeStart": "3.000",
-                  "timeEnd": "3.800",
-                  "entities": []
+                  "timeStart": "5.760",
+                  "timeEnd": "6.120",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Axel Kassegger , Wolfgang Zanger , Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag.",
-                  "timeStart": "3.800",
-                  "timeEnd": "5.280",
-                  "entities": []
+                  "timeStart": "6.120",
+                  "timeEnd": "7.640",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Yannick Shetty .",
-                  "timeStart": "5.280",
-                  "timeEnd": "5.560",
-                  "entities": []
+                  "timeStart": "7.640",
+                  "timeEnd": "7.680",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Nico Marchetti , Petra Bayr, MA MLS , Cornelia Ecker , MMag. DDr. Hubert Fuchs , Ing. Norbert Hofer , MMMag. Dr. Axel Kassegger , Wolfgang Zanger , Dr. Ewa Ernst-Dziedzic , David Stögmüller und Mag. Yannick Shetty ."
@@ -123,8 +176,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "5.560",
-                  "timeEnd": "5.640",
+                  "timeStart": "7.680",
+                  "timeEnd": "7.720",
                   "entities": []
                 }
               ],
@@ -137,8 +190,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "5.640",
-                  "timeEnd": "8.560",
+                  "timeStart": "7.720",
+                  "timeEnd": "9.160",
                   "entities": []
                 }
               ],
@@ -151,8 +204,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "8.560",
-                  "timeEnd": "8.760",
+                  "timeStart": "9.160",
+                  "timeEnd": "9.320",
                   "entities": []
                 }
               ],
@@ -165,8 +218,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "8.760",
-                  "timeEnd": "9.320",
+                  "timeStart": "9.320",
+                  "timeEnd": "10.080",
                   "entities": []
                 }
               ],
@@ -179,8 +232,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "9.320",
-                  "timeEnd": "10.080",
+                  "timeStart": "10.080",
+                  "timeEnd": "10.360",
                   "entities": []
                 }
               ],
@@ -193,7 +246,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "10.080",
+                  "timeStart": "10.360",
                   "timeEnd": "10.600",
                   "entities": []
                 }
@@ -209,7 +262,20 @@
                   "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )",
                   "timeStart": "10.600",
                   "timeEnd": "10.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Fremdenpolizeigesetz 2005",
+                      "wid": "Q21051498",
+                      "wtype": "MISC",
+                      "score": 0.9937
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Arbeitsmarktförderungsgesetz, das Niederlassungs- und Aufenthaltsgesetz und das Fremdenpolizeigesetz 2005 geändert werden ( 1528 d.B. )"
@@ -321,7 +387,32 @@
                   "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )",
                   "timeStart": "10.920",
                   "timeEnd": "10.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Unterbringungsgesetz",
+                      "wid": "Q19971513",
+                      "wtype": "MISC",
+                      "score": 0.3856
+                    },
+                    {
+                      "label": "Sicherheitspolizeigesetz",
+                      "wid": "Q2281293",
+                      "wtype": "MISC",
+                      "score": 0.8721
+                    },
+                    {
+                      "label": "Außerstreitgesetz",
+                      "wid": "Q790019",
+                      "wtype": "MISC",
+                      "score": 0.8412
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Unterbringungsgesetz, das Sicherheitspolizeigesetz, das IPR-Gesetz, das Außerstreitgesetz und die Notariatsordnung geändert werden (Unterbringungsgesetz- und IPR-Gesetz-Novelle 2022 – UbG-IPRG-Nov 2022) ( 1527 d.B. )"
@@ -363,7 +454,20 @@
                   "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )",
                   "timeStart": "14.280",
                   "timeEnd": "16.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Führerscheingesetz",
+                      "wid": "Q15591543",
+                      "wtype": "MISC",
+                      "score": 0.4334
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (22. FSG-Novelle) ( 1533 d.B. )"
@@ -390,7 +494,7 @@
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
                   "timeStart": "17.520",
-                  "timeEnd": "18.040",
+                  "timeEnd": "18.120",
                   "entities": []
                 }
               ],
@@ -403,8 +507,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Fern- und Auswärtsgeschäfte-Gesetz, das Konsumentenschutzgesetz und das Verbraucherbehördenkooperationsgesetz geändert werden (Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG) ( 1529 d.B. )",
-                  "timeStart": "18.040",
-                  "timeEnd": "20.560",
+                  "timeStart": "18.120",
+                  "timeEnd": "21.080",
                   "entities": []
                 }
               ],
@@ -417,7 +521,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesgesetz gegen den unlauteren Wettbewerb 1984 und das Bundesgesetz über die Auszeichnung von Preisen geändert werden (Zweites Modernisierungsrichtlinie-Umsetzungsgesetz – MoRUG II) ( 1530 d.B. )",
-                  "timeStart": "20.560",
+                  "timeStart": "21.080",
                   "timeEnd": "24.000",
                   "entities": []
                 }
@@ -433,7 +537,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "24.000",
                   "timeEnd": "24.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -446,7 +557,7 @@
                 {
                   "text": "Bundesgesetz über die Gründung des Institute of Digital Sciences Austria ( 1524 d.B. )",
                   "timeStart": "24.040",
-                  "timeEnd": "24.040",
+                  "timeEnd": "24.120",
                   "entities": []
                 }
               ],
@@ -459,8 +570,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 6. Juli 2022, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "24.040",
-                  "timeEnd": "25.920",
+                  "timeStart": "24.120",
+                  "timeEnd": "25.880",
                   "entities": []
                 }
               ],
@@ -473,7 +584,7 @@
               "sentences": [
                 {
                   "text": "Diese Sitzung ist geschlossen.",
-                  "timeStart": "25.920",
+                  "timeStart": "25.880",
                   "timeEnd": "26.000",
                   "entities": []
                 }
@@ -488,8 +599,8 @@
         "stdId": 270812,
         "debatteId": 300,
         "proceedingIndex": 270812,
-        "alignDuration": 0.6383779048919678,
-        "nerDuration": 0.1582489013671875
+        "alignDuration": 0.5632805824279785,
+        "nerDuration": 0.2444014549255371
       },
       "originalLanguage": "de"
     }

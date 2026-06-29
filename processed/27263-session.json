@@ -5,11 +5,12 @@
     "dateStart": "2024-05-15T20:53:33",
     "dateEnd": "2024-05-15T20:54:05",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-27T03:14:16",
+    "lastUpdate": "2026-06-28T14:29:30",
     "processing": {
       "merge": "2026-06-16T04:24:15+00:00",
-      "align": "2026-06-27T03:14:16",
-      "ner": "2026-06-28T03:33:04"
+      "align": "2026-06-28T14:29:30",
+      "ner": "2026-06-28T16:28:50",
+      "nel": "2026-06-28T07:25:38"
     }
   },
   "data": [
@@ -86,14 +87,70 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Rainer Wimmer , Hermann Brückl, MA , Mag.",
                   "timeStart": "1.040",
-                  "timeEnd": "1.280",
-                  "entities": []
+                  "timeEnd": "1.240",
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9773
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Gerhard Kaniak , Lukas Hammer , Michel Reimon, MBA und David Stögmüller .",
-                  "timeStart": "1.280",
+                  "timeStart": "1.240",
                   "timeEnd": "1.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.984
+                    },
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Rainer Wimmer , Hermann Brückl, MA , Mag. Gerhard Kaniak , Lukas Hammer , Michel Reimon, MBA und David Stögmüller ."
@@ -162,7 +219,7 @@
                 {
                   "text": "1. Anfragebeantwortungen: 17543/AB bis 17548/AB",
                   "timeStart": "2.240",
-                  "timeEnd": "2.440",
+                  "timeEnd": "2.840",
                   "entities": []
                 }
               ],
@@ -175,8 +232,8 @@
               "sentences": [
                 {
                   "text": "2. Regierungsvorlagen:",
-                  "timeStart": "2.440",
-                  "timeEnd": "2.760",
+                  "timeStart": "2.840",
+                  "timeEnd": "2.920",
                   "entities": []
                 }
               ],
@@ -189,7 +246,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird ( 2550 d.B. )",
-                  "timeStart": "2.760",
+                  "timeStart": "2.920",
                   "timeEnd": "3.000",
                   "entities": []
                 }
@@ -218,7 +275,7 @@
                 {
                   "text": "Bundesgesetz zur Einrichtung einer nationalen Behörde für die Cybersicherheitszertifizierung (Cybersicherheitszertifizierungs-Gesetz – CSZG) ( 2552 d.B. )",
                   "timeStart": "3.000",
-                  "timeEnd": "3.000",
+                  "timeEnd": "5.180",
                   "entities": []
                 }
               ],
@@ -231,9 +288,28 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Kinderbetreuungsgeldgesetz, das Familienlastenausgleichsgesetz 1967, das Mutterschutzgesetz, das Väter-Karenzgesetz, das Landarbeitsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden (Sonderwochengeld-Gesetz) ( 2553 d.B. )",
-                  "timeStart": "3.000",
-                  "timeEnd": "5.180",
-                  "entities": []
+                  "timeStart": "5.180",
+                  "timeEnd": "8.640",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6598
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Kinderbetreuungsgeldgesetz, das Familienlastenausgleichsgesetz 1967, das Mutterschutzgesetz, das Väter-Karenzgesetz, das Landarbeitsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden (Sonderwochengeld-Gesetz) ( 2553 d.B. )"
@@ -245,9 +321,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Wehrgesetz 2001, das Heeresdisziplinargesetz 2014, das Heeresgebührengesetz 2001, das Auslandseinsatzgesetz 2001, das Militärbefugnisgesetz und das Militärauszeichnungsgesetz 2002 geändert werden (Wehrrechtsänderungsgesetz 2024 – WRÄG 2024) ( 2554 d.B. )",
-                  "timeStart": "5.180",
+                  "timeStart": "8.640",
                   "timeEnd": "8.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Militärbefugnisgesetz",
+                      "wid": "Q78464440",
+                      "wtype": "MISC",
+                      "score": 0.87
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Wehrgesetz 2001, das Heeresdisziplinargesetz 2014, das Heeresgebührengesetz 2001, das Auslandseinsatzgesetz 2001, das Militärbefugnisgesetz und das Militärauszeichnungsgesetz 2002 geändert werden (Wehrrechtsänderungsgesetz 2024 – WRÄG 2024) ( 2554 d.B. )"
@@ -288,7 +377,7 @@
                 {
                   "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs. 4, 100b Abs. 1 und 100c Abs. 1:",
                   "timeStart": "8.640",
-                  "timeEnd": "9.760",
+                  "timeEnd": "9.800",
                   "entities": []
                 }
               ],
@@ -301,7 +390,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
-                  "timeStart": "9.760",
+                  "timeStart": "9.800",
                   "timeEnd": "9.840",
                   "entities": []
                 }
@@ -317,7 +406,14 @@
                   "text": "Bürgerinitiative betreffend \"Wir fordern einen wirksamen Schutz gegen den A22-Lärm zwischen Stockerau Ost und Stockerau Nord\" ( 68/BI )",
                   "timeStart": "9.840",
                   "timeEnd": "9.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Stockerau",
+                      "wid": "Q494283",
+                      "wtype": "LOC",
+                      "score": 0.382
+                    }
+                  ]
                 }
               ],
               "text": "Bürgerinitiative betreffend \"Wir fordern einen wirksamen Schutz gegen den A22-Lärm zwischen Stockerau Ost und Stockerau Nord\" ( 68/BI )"
@@ -386,8 +482,21 @@
                 {
                   "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Jobgarantie zur Beschäftigungsförderung von Langzeitbeschäftigungslosen ( 4027/A(E) )",
                   "timeStart": "12.160",
-                  "timeEnd": "12.800",
-                  "entities": []
+                  "timeEnd": "12.840",
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Jobgarantie zur Beschäftigungsförderung von Langzeitbeschäftigungslosen ( 4027/A(E) )"
@@ -399,7 +508,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "12.800",
+                  "timeStart": "12.840",
                   "timeEnd": "13.280",
                   "entities": []
                 },
@@ -407,7 +516,20 @@
                   "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Schaffung eines Inklusionsfonds zur Verbesserung der Lebenssituation von Menschen mit Behinderungen ( 4028/A(E) )",
                   "timeStart": "13.280",
                   "timeEnd": "14.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend Schaffung eines Inklusionsfonds zur Verbesserung der Lebenssituation von Menschen mit Behinderungen ( 4028/A(E) )"
@@ -427,7 +549,20 @@
                   "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Überarbeitung der Kriterien für die Zusatzeintragung der \"Unzumutbarkeit der Benützung öffentlicher Verkehrsmittel wegen dauerhafter Mobilitätseinschränkung aufgrund einer Behinderung\" ( 4029/A(E) )",
                   "timeStart": "14.120",
                   "timeEnd": "15.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend Überarbeitung der Kriterien für die Zusatzeintragung der \"Unzumutbarkeit der Benützung öffentlicher Verkehrsmittel wegen dauerhafter Mobilitätseinschränkung aufgrund einer Behinderung\" ( 4029/A(E) )"
@@ -441,7 +576,14 @@
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend \"Kindergrundsicherung – Jedes Kind hat das Recht auf ein Aufwachsen ohne finanzielle Sorgen!\" (",
                   "timeStart": "15.520",
                   "timeEnd": "16.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 },
                 {
                   "text": "4033/A(E) )",
@@ -461,7 +603,14 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! (",
                   "timeStart": "16.000",
                   "timeEnd": "16.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 },
                 {
                   "text": "4041/A(E) )",
@@ -481,7 +630,20 @@
                   "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend AMS-Debakel für mehrfach geringfügig Beschäftigte ( 4046/A(E) )",
                   "timeStart": "16.000",
                   "timeEnd": "16.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend AMS-Debakel für mehrfach geringfügig Beschäftigte ( 4046/A(E) )"
@@ -509,7 +671,20 @@
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Recht auf einen ganztägigen Kinderbildungs- und betreuungsplatz\" ( 4035/A(E) )",
                   "timeStart": "16.000",
                   "timeEnd": "16.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Recht auf einen ganztägigen Kinderbildungs- und betreuungsplatz\" ( 4035/A(E) )"
@@ -543,7 +718,20 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4039/A(E) )",
                   "timeStart": "16.000",
                   "timeEnd": "16.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4039/A(E) )"
@@ -577,7 +765,26 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Forschungsstandort im Fokus: Reformen gegen den Abwärtstrend in Österreich ( 4025/A(E) )",
                   "timeStart": "16.000",
                   "timeEnd": "16.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Forschungsstandort im Fokus: Reformen gegen den Abwärtstrend in Österreich ( 4025/A(E) )"
@@ -604,8 +811,21 @@
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4032/A(E) )",
                   "timeStart": "16.000",
-                  "timeEnd": "16.960",
-                  "entities": []
+                  "timeEnd": "16.000",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4032/A(E) )"
@@ -617,15 +837,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "16.960",
-                  "timeEnd": "17.000",
+                  "timeStart": "16.000",
+                  "timeEnd": "16.000",
                   "entities": []
                 },
                 {
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Mehr Transparenz bei Gehaltsangaben in Stelleninseraten ( 4037/A(E) )",
-                  "timeStart": "17.000",
-                  "timeEnd": "17.080",
-                  "entities": []
+                  "timeStart": "16.000",
+                  "timeEnd": "16.280",
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Mehr Transparenz bei Gehaltsangaben in Stelleninseraten ( 4037/A(E) )"
@@ -637,21 +870,47 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Kffr. (",
-                  "timeStart": "17.080",
-                  "timeEnd": "17.080",
+                  "timeStart": "16.280",
+                  "timeEnd": "17.000",
                   "entities": []
                 },
                 {
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
-                  "timeStart": "17.080",
+                  "timeStart": "17.000",
                   "timeEnd": "17.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 4038/A )",
                   "timeStart": "17.080",
                   "timeEnd": "17.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 4038/A )"
@@ -678,7 +937,7 @@
                 {
                   "text": "Antrag der Abgeordneten Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Österreich fehlen 4.000 Polizist*innen ( 4019/A(E) )",
                   "timeStart": "17.080",
-                  "timeEnd": "17.400",
+                  "timeEnd": "17.080",
                   "entities": []
                 }
               ],
@@ -691,7 +950,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Wohnsitzauflage für Asyl- und subsidiär Schutzberechtigte ( 4020/A(E) )",
-                  "timeStart": "17.400",
+                  "timeStart": "17.080",
                   "timeEnd": "18.000",
                   "entities": []
                 }
@@ -707,7 +966,20 @@
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Ausreichend Ressourcen für die Umsetzung des EU Asyl- und Migrationspakts ( 4021/A(E) )",
                   "timeStart": "18.000",
                   "timeEnd": "19.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.6399
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Ausreichend Ressourcen für die Umsetzung des EU Asyl- und Migrationspakts ( 4021/A(E) )"
@@ -721,7 +993,20 @@
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Integrationsjahr und Integrationsjahr-Jugend reaktivieren, mit ausreichend finanziellen Mitteln budgetieren und österreichweit beginnend mit 1. Juli 2024 umsetzen ( 4026/A(E) )",
                   "timeStart": "19.360",
                   "timeEnd": "20.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Integrationsjahr und Integrationsjahr-Jugend reaktivieren, mit ausreichend finanziellen Mitteln budgetieren und österreichweit beginnend mit 1. Juli 2024 umsetzen ( 4026/A(E) )"
@@ -754,8 +1039,27 @@
                 {
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Missbrauch des Besitzschutzes ( 4018/A(E) )",
                   "timeStart": "20.200",
-                  "timeEnd": "20.680",
-                  "entities": []
+                  "timeEnd": "21.080",
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Besitzschutzes",
+                      "wid": "Q829887",
+                      "wtype": "MISC",
+                      "score": 0.7822
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Missbrauch des Besitzschutzes ( 4018/A(E) )"
@@ -767,21 +1071,41 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "20.680",
-                  "timeEnd": "21.080",
+                  "timeStart": "21.080",
+                  "timeEnd": "21.200",
                   "entities": []
                 },
                 {
                   "text": "Michaela Steinacker , Mag.",
-                  "timeStart": "21.080",
-                  "timeEnd": "21.080",
-                  "entities": []
+                  "timeStart": "21.200",
+                  "timeEnd": "21.680",
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Datenschutzgesetz geändert wird ( 4031/A )",
-                  "timeStart": "21.080",
-                  "timeEnd": "21.440",
-                  "entities": []
+                  "timeStart": "21.680",
+                  "timeEnd": "22.120",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    },
+                    {
+                      "label": "Datenschutzgesetz",
+                      "wid": "Q1172518",
+                      "wtype": "MISC",
+                      "score": 0.45
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Datenschutzgesetz geändert wird ( 4031/A )"
@@ -793,8 +1117,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "21.440",
-                  "timeEnd": "21.440",
+                  "timeStart": "22.120",
+                  "timeEnd": "22.600",
                   "entities": []
                 }
               ],
@@ -807,15 +1131,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "21.440",
-                  "timeEnd": "21.440",
+                  "timeStart": "22.600",
+                  "timeEnd": "23.080",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4030/A(E) )",
-                  "timeStart": "21.440",
-                  "timeEnd": "23.080",
-                  "entities": []
+                  "timeStart": "23.080",
+                  "timeEnd": "23.360",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Maßnahmen zum Schutz älterer Bankkund:innen vor Mißbrauch im elektronischen Zahlungsverkehr ( 4030/A(E) )"
@@ -827,9 +1164,16 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! (",
-                  "timeStart": "23.080",
+                  "timeStart": "23.360",
                   "timeEnd": "23.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 },
                 {
                   "text": "4042/A(E) )",
@@ -863,7 +1207,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Angemessene Vergütung für Kreative im Kontext der KI-Nutzung ( 4045/A(E) )",
                   "timeStart": "24.080",
                   "timeEnd": "25.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Angemessene Vergütung für Kreative im Kontext der KI-Nutzung ( 4045/A(E) )"
@@ -904,8 +1261,39 @@
                 {
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 4034/A(E) )",
                   "timeStart": "27.080",
-                  "timeEnd": "27.360",
-                  "entities": []
+                  "timeEnd": "27.280",
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Römer",
+                      "wid": "Q1747689",
+                      "wtype": "LOC",
+                      "score": 0.5124
+                    },
+                    {
+                      "label": "Statuts",
+                      "wid": "Q17041678",
+                      "wtype": "MISC",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "Apartheid",
+                      "wid": "Q11409",
+                      "wtype": "LOC",
+                      "score": 0.872
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Initiative zur Erweiterung des Römer Statuts, um genderbasierte Apartheid zu verbieten ( 4034/A(E) )"
@@ -917,8 +1305,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "27.360",
-                  "timeEnd": "27.600",
+                  "timeStart": "27.280",
+                  "timeEnd": "27.320",
                   "entities": []
                 }
               ],
@@ -931,15 +1319,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "27.600",
-                  "timeEnd": "27.800",
+                  "timeStart": "27.320",
+                  "timeEnd": "27.600",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Volle Aufmerksamkeit den Kindern, Schulbürokratie endlich abbauen! (",
-                  "timeStart": "27.800",
+                  "timeStart": "27.600",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 },
                 {
                   "text": "4040/A(E) )",
@@ -959,7 +1354,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Künstliche Intelligenz (KI) an Schulen\" ( 4047/A(E) )",
                   "timeStart": "28.000",
                   "timeEnd": "28.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Künstliche Intelligenz (KI) an Schulen\" ( 4047/A(E) )"
@@ -1000,8 +1408,27 @@
                 {
                   "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend Rampen an Bahn-Verkehrsstationen ( 4036/A(E) )",
                   "timeStart": "28.400",
-                  "timeEnd": "28.600",
-                  "entities": []
+                  "timeEnd": "29.120",
+                  "entities": [
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Andreas Ottenschläger",
+                      "wid": "Q15116861",
+                      "wtype": "PER",
+                      "score": 0.9776
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend Rampen an Bahn-Verkehrsstationen ( 4036/A(E) )"
@@ -1013,8 +1440,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "28.600",
-                  "timeEnd": "28.600",
+                  "timeStart": "29.120",
+                  "timeEnd": "29.600",
                   "entities": []
                 }
               ],
@@ -1027,15 +1454,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "28.600",
-                  "timeEnd": "28.600",
+                  "timeStart": "29.600",
+                  "timeEnd": "29.600",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über die Kammern der gewerblichen Wirtschaft geändert wird ( 4023/A )",
-                  "timeStart": "28.600",
-                  "timeEnd": "29.600",
-                  "entities": []
+                  "timeStart": "29.600",
+                  "timeEnd": "29.800",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über die Kammern der gewerblichen Wirtschaft geändert wird ( 4023/A )"
@@ -1047,7 +1481,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "29.600",
+                  "timeStart": "29.800",
                   "timeEnd": "30.000",
                   "entities": []
                 },
@@ -1055,7 +1489,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das Verbot der geologischen Speicherung von Kohlenstoffdioxid geändert wird ( 4024/A )",
                   "timeStart": "30.000",
                   "timeEnd": "30.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das Verbot der geologischen Speicherung von Kohlenstoffdioxid geändert wird ( 4024/A )"
@@ -1075,7 +1516,14 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Keine Diskriminierung älterer Menschen – Analoge Antragstellung für Handwerkerbonus sicherstellen! (",
                   "timeStart": "30.200",
                   "timeEnd": "30.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "4043/A(E) )",
@@ -1101,7 +1549,20 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes ( 4044/A(E) )",
                   "timeStart": "30.680",
                   "timeEnd": "31.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes ( 4044/A(E) )"
@@ -1156,8 +1617,8 @@
         "stdId": 323739,
         "debatteId": 300,
         "proceedingIndex": 323739,
-        "alignDuration": 0.9268839359283447,
-        "nerDuration": 0.4724268913269043
+        "alignDuration": 0.96830153465271,
+        "nerDuration": 0.9467146396636963
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2022-10-13T21:11:58",
     "dateEnd": "2022-10-13T21:12:25",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-23T11:49:22",
+    "lastUpdate": "2026-06-28T12:42:10",
     "processing": {
       "merge": "2026-06-16T04:24:01+00:00",
-      "align": "2026-06-23T11:49:22",
-      "ner": "2026-06-28T03:08:38"
+      "align": "2026-06-28T12:42:10",
+      "ner": "2026-06-28T15:52:25",
+      "nel": "2026-06-28T07:25:32"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich darf die 180. Sitzung des Nationalrates für eröffnet erklären.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.840",
+                  "timeEnd": "1.960",
                   "entities": []
                 }
               ],
@@ -85,19 +86,44 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.",
-                  "timeStart": "2.840",
-                  "timeEnd": "3.800",
+                  "timeStart": "1.960",
+                  "timeEnd": "2.080",
                   "entities": []
                 },
                 {
                   "text": "Carmen Jeitler-Cincelli, BA , Dr. Reinhold Lopatka , Mag.",
-                  "timeStart": "3.800",
-                  "timeEnd": "3.840",
-                  "entities": []
+                  "timeStart": "2.080",
+                  "timeEnd": "2.840",
+                  "entities": [
+                    {
+                      "label": "Carmen Jeitler-Cincelli",
+                      "wid": "Q42310694",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.3911
+                    },
+                    {
+                      "label": "Reinhold Lopatka",
+                      "wid": "Q1507084",
+                      "wtype": "PER",
+                      "score": 0.9909
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Maria Theresia Niss, MBA , Dipl.-Kffr. (",
-                  "timeStart": "3.840",
+                  "timeStart": "2.840",
                   "timeEnd": "3.840",
                   "entities": []
                 },
@@ -105,19 +131,82 @@
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
                   "timeStart": "3.840",
                   "timeEnd": "3.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Maria Smodics-Neumann , Petra Bayr, MA MLS , Julia Elisabeth Herr , Mario Lindner , Josef Muchitsch , Dipl.-Ing. Gerhard Deimek , Mag.",
                   "timeStart": "3.840",
                   "timeEnd": "4.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Maria Smodics-Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Martin Graf , Herbert Kickl , Michael Schnedlitz , Petra Steger und Dr. Nikolaus Scherak, MA .",
                   "timeStart": "4.360",
                   "timeEnd": "4.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q1294996",
+                      "wtype": "PER",
+                      "score": 0.3897
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9803
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag. Carmen Jeitler-Cincelli, BA , Dr. Reinhold Lopatka , Mag. Dr. Maria Theresia Niss, MBA , Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Maria Smodics-Neumann , Petra Bayr, MA MLS , Julia Elisabeth Herr , Mario Lindner , Josef Muchitsch , Dipl.-Ing. Gerhard Deimek , Mag. Dr. Martin Graf , Herbert Kickl , Michael Schnedlitz , Petra Steger und Dr. Nikolaus Scherak, MA ."
@@ -221,7 +310,26 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Beendigung der unwürdigen und unangebrachten ÖVP-Charmeoffensive gegenüber der Türkei ( 2889/A(E) )",
                   "timeStart": "5.520",
                   "timeEnd": "5.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Türkei",
+                      "wid": "Q43",
+                      "wtype": "LOC",
+                      "score": 0.3734
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Beendigung der unwürdigen und unangebrachten ÖVP-Charmeoffensive gegenüber der Türkei ( 2889/A(E) )"
@@ -234,7 +342,7 @@
                 {
                   "text": "Budgetausschuss:",
                   "timeStart": "5.520",
-                  "timeEnd": "5.520",
+                  "timeEnd": "6.000",
                   "entities": []
                 }
               ],
@@ -247,7 +355,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2023 bis 2026 erlassen wird (Bundesfinanzrahmengesetz 2023 bis 2026 – BFRG 2023-2026) ( 1670 und Zu 1670 d.B. )",
-                  "timeStart": "5.520",
+                  "timeStart": "6.000",
                   "timeEnd": "6.240",
                   "entities": []
                 }
@@ -291,7 +399,14 @@
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "7.720",
                   "timeEnd": "8.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Umsatzsteuergesetz 1994, das Versicherungssteuergesetz 1953 und das Nationale Emissionszertifikatehandelsgesetz 2022 geändert werden ( 2892/A )",
@@ -325,7 +440,26 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Mehr Stipendien und Forschungsplätze für Wissenschafter*innen aus Ländern des globalen Südens\" ( 2883/A(E) )",
                   "timeStart": "11.240",
                   "timeEnd": "11.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Südens",
+                      "wid": "Q49042",
+                      "wtype": "LOC",
+                      "score": 0.0946
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Mehr Stipendien und Forschungsplätze für Wissenschafter*innen aus Ländern des globalen Südens\" ( 2883/A(E) )"
@@ -339,7 +473,26 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Recht auf schnelles, stabiles Internet für ALLE\" ( 2885/A(E) )",
                   "timeStart": "11.240",
                   "timeEnd": "11.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Internet",
+                      "wid": "Q75",
+                      "wtype": "MISC",
+                      "score": 0.2189
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Recht auf schnelles, stabiles Internet für ALLE\" ( 2885/A(E) )"
@@ -367,7 +520,20 @@
                   "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Schutz der Tiere (Tierschutzgesetz – TSchG) geändert wird ( 2875/A )",
                   "timeStart": "11.240",
                   "timeEnd": "11.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Schutz der Tiere (Tierschutzgesetz – TSchG) geändert wird ( 2875/A )"
@@ -381,7 +547,20 @@
                   "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Schutz der Tiere (Tierschutzgesetz – TSchG) geändert wird ( 2876/A )",
                   "timeStart": "11.240",
                   "timeEnd": "11.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Schutz der Tiere (Tierschutzgesetz – TSchG) geändert wird ( 2876/A )"
@@ -395,7 +574,26 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Stopp für toxische Covid-19 Antigen-Tests in Österreich ( 2890/A(E) )",
                   "timeStart": "11.240",
                   "timeEnd": "11.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Stopp für toxische Covid-19 Antigen-Tests in Österreich ( 2890/A(E) )"
@@ -415,7 +613,20 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Regelung der Kostentragung für den Nachtrag von Impfungen in den elektronischen Impfpass ( 2891/A(E) )",
                   "timeStart": "11.240",
                   "timeEnd": "11.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Regelung der Kostentragung für den Nachtrag von Impfungen in den elektronischen Impfpass ( 2891/A(E) )"
@@ -470,7 +681,7 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Verteilung von Asylsuchenden auf die Bundesländer ( 2880/A(E) )",
                   "timeStart": "11.240",
-                  "timeEnd": "13.680",
+                  "timeEnd": "12.320",
                   "entities": []
                 }
               ],
@@ -483,8 +694,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "13.680",
-                  "timeEnd": "13.960",
+                  "timeStart": "12.320",
+                  "timeEnd": "12.880",
                   "entities": []
                 }
               ],
@@ -497,21 +708,41 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "13.960",
-                  "timeEnd": "14.000",
+                  "timeStart": "12.880",
+                  "timeEnd": "13.000",
                   "entities": []
                 },
                 {
                   "text": "Michaela Steinacker , Mag.",
-                  "timeStart": "14.000",
-                  "timeEnd": "14.000",
-                  "entities": []
+                  "timeStart": "13.000",
+                  "timeEnd": "13.000",
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch, das Firmenbuchgesetz, das GmbH-Gesetz, das Aktiengesetz, das Spaltungsgesetz, das Genossenschaftsgesetz und das Gerichtsgebührengesetz geändert werden (Gesellschaftsrechtliches Digitalisierungsgesetz 2022 – GesDigG 2022) ( 2893/A )",
-                  "timeStart": "14.000",
-                  "timeEnd": "18.320",
-                  "entities": []
+                  "timeStart": "13.000",
+                  "timeEnd": "18.280",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    },
+                    {
+                      "label": "Aktiengesetz",
+                      "wid": "Q422121",
+                      "wtype": "MISC",
+                      "score": 0.1664
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch, das Firmenbuchgesetz, das GmbH-Gesetz, das Aktiengesetz, das Spaltungsgesetz, das Genossenschaftsgesetz und das Gerichtsgebührengesetz geändert werden (Gesellschaftsrechtliches Digitalisierungsgesetz 2022 – GesDigG 2022) ( 2893/A )"
@@ -523,7 +754,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "18.320",
+                  "timeStart": "18.280",
                   "timeEnd": "18.320",
                   "entities": []
                 },
@@ -531,7 +762,20 @@
                   "text": "Harald Stefan , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB), BGBl.",
                   "timeStart": "18.320",
                   "timeEnd": "18.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    },
+                    {
+                      "label": "StGB",
+                      "wid": "Q876563",
+                      "wtype": "MISC",
+                      "score": 0.3281
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 60/1974, geändert wird ( 2894/A )",
@@ -565,7 +809,20 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Rauchverbot-Ende in den Innenräumen der Gastronomie auf freiwilliger Basis im Zusammenhang mit dem sogenannten Heizschwammerlverbot beim Vollzug des Unternehmens Energiekostenzuschussgesetz – UEZG) ( 2886/A(E) )",
                   "timeStart": "18.640",
                   "timeEnd": "19.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Rauchverbot-Ende in den Innenräumen der Gastronomie auf freiwilliger Basis im Zusammenhang mit dem sogenannten Heizschwammerlverbot beim Vollzug des Unternehmens Energiekostenzuschussgesetz – UEZG) ( 2886/A(E) )"
@@ -579,7 +836,26 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Stopp für toxische Covid-19 Antigen-Tests in Österreich ( 2887/A(E) )",
                   "timeStart": "19.440",
                   "timeEnd": "19.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Stopp für toxische Covid-19 Antigen-Tests in Österreich ( 2887/A(E) )"
@@ -635,7 +911,20 @@
                   "text": "Antrag der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Erweiterung der Datengrundlage des Grünen Berichts zur Verbesserung der Gesamtanalyse ( 2881/A(E) )",
                   "timeStart": "19.440",
                   "timeEnd": "19.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Erweiterung der Datengrundlage des Grünen Berichts zur Verbesserung der Gesamtanalyse ( 2881/A(E) )"
@@ -669,7 +958,20 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Aufrechterhaltung der Sportsanktionen ( 2874/A(E) )",
                   "timeStart": "19.440",
                   "timeEnd": "19.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Aufrechterhaltung der Sportsanktionen ( 2874/A(E) )"
@@ -683,7 +985,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "19.440",
                   "timeEnd": "19.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -703,7 +1012,20 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Maßnahmenpaket im Interesse der Vermieterinnen und Vermieter von Privatzimmern und Ferienwohnungen ( 2888/A(E) )",
                   "timeStart": "19.440",
                   "timeEnd": "19.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Maßnahmenpaket im Interesse der Vermieterinnen und Vermieter von Privatzimmern und Ferienwohnungen ( 2888/A(E) )"
@@ -716,7 +1038,7 @@
                 {
                   "text": "Verkehrsausschuss:",
                   "timeStart": "19.440",
-                  "timeEnd": "19.800",
+                  "timeEnd": "19.440",
                   "entities": []
                 }
               ],
@@ -729,8 +1051,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Verlängerung Gratis-Tickets für ukrainische Flüchtlinge ( 2877/A(E) )",
-                  "timeStart": "19.800",
-                  "timeEnd": "22.000",
+                  "timeStart": "19.440",
+                  "timeEnd": "20.800",
                   "entities": []
                 }
               ],
@@ -743,9 +1065,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend das Bundesgesetz, vom 06. Juli 1960, mit dem Vorschriften über die Straßenpolizei erlassen werden (Straßenverkehrsordnung 1960 – StVO 1960) geändert wird ( 2884/A )",
-                  "timeStart": "22.000",
-                  "timeEnd": "24.440",
-                  "entities": []
+                  "timeStart": "20.800",
+                  "timeEnd": "23.080",
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Straßenpolizei",
+                      "wid": "Q817092",
+                      "wtype": "LOC",
+                      "score": 0.1302
+                    },
+                    {
+                      "label": "StVO",
+                      "wid": "Q11774726",
+                      "wtype": "MISC",
+                      "score": 0.2005
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend das Bundesgesetz, vom 06. Juli 1960, mit dem Vorschriften über die Straßenpolizei erlassen werden (Straßenverkehrsordnung 1960 – StVO 1960) geändert wird ( 2884/A )"
@@ -757,9 +1104,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "24.440",
-                  "timeEnd": "24.600",
-                  "entities": []
+                  "timeStart": "23.080",
+                  "timeEnd": "23.080",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -771,9 +1125,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Mehr Stipendien und Forschungsplätze für Wissenschafter*innen aus Ländern des globalen Südens\" ( 2882/A(E) )",
-                  "timeStart": "24.600",
+                  "timeStart": "23.080",
                   "timeEnd": "24.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Südens",
+                      "wid": "Q49042",
+                      "wtype": "LOC",
+                      "score": 0.0946
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Mehr Stipendien und Forschungsplätze für Wissenschafter*innen aus Ländern des globalen Südens\" ( 2882/A(E) )"
@@ -786,7 +1159,7 @@
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
                   "timeStart": "24.640",
-                  "timeEnd": "25.080",
+                  "timeEnd": "25.040",
                   "entities": []
                 }
               ],
@@ -799,7 +1172,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "25.080",
+                  "timeStart": "25.040",
                   "timeEnd": "25.520",
                   "entities": []
                 }
@@ -815,7 +1188,14 @@
                   "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz über das informelle Treffen der EU-Verbraucherschutzminister:innen am 23. September 2022 in Prag ( III-772 d.B. )",
                   "timeStart": "25.520",
                   "timeEnd": "25.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Prag",
+                      "wid": "Q1085",
+                      "wtype": "LOC",
+                      "score": 0.377
+                    }
+                  ]
                 }
               ],
               "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz über das informelle Treffen der EU-Verbraucherschutzminister:innen am 23. September 2022 in Prag ( III-772 d.B. )"
@@ -871,7 +1251,14 @@
                   "text": "Sicherheitsbericht 2021 gemäß § 19 UUG 2005, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-773 d.B. )",
                   "timeStart": "25.520",
                   "timeEnd": "25.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "UUG",
+                      "wid": "Q2496498",
+                      "wtype": "ORG",
+                      "score": 0.4301
+                    }
+                  ]
                 }
               ],
               "text": "Sicherheitsbericht 2021 gemäß § 19 UUG 2005, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-773 d.B. )"
@@ -918,8 +1305,8 @@
         "stdId": 280153,
         "debatteId": 300,
         "proceedingIndex": 280153,
-        "alignDuration": 1.0428452491760254,
-        "nerDuration": 0.37497496604919434
+        "alignDuration": 0.8571627140045166,
+        "nerDuration": 0.7193906307220459
       },
       "originalLanguage": "de"
     }

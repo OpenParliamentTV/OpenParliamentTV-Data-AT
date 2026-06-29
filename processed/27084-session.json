@@ -5,11 +5,12 @@
     "dateStart": "2021-02-16T16:52:47",
     "dateEnd": "2021-02-16T16:54:33",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T18:21:14",
+    "lastUpdate": "2026-06-28T10:11:52",
     "processing": {
       "merge": "2026-06-16T04:23:45+00:00",
-      "align": "2026-06-18T18:21:14",
-      "ner": "2026-06-28T02:38:31"
+      "align": "2026-06-28T10:11:52",
+      "ner": "2026-06-28T15:08:57",
+      "nel": "2026-06-28T07:25:25"
     }
   },
   "data": [
@@ -86,26 +87,72 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Peter Haubner , Dietmar Keck , Mag.",
                   "timeStart": "3.560",
-                  "timeEnd": "5.040",
-                  "entities": []
+                  "timeEnd": "5.000",
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    }
+                  ]
                 },
                 {
                   "text": "Gerhard Kaniak , Mag.",
-                  "timeStart": "5.040",
+                  "timeStart": "5.000",
                   "timeEnd": "5.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Peter Wurm , Clemens Stammler und Mag.",
                   "timeStart": "5.320",
                   "timeEnd": "6.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Clemens Stammler",
+                      "wid": "Q81616228",
+                      "wtype": "PER",
+                      "score": 0.9755
+                    }
+                  ]
                 },
                 {
                   "text": "Felix Eypeltauer .",
                   "timeStart": "6.280",
                   "timeEnd": "6.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Peter Haubner , Dietmar Keck , Mag. Gerhard Kaniak , Mag. Philipp Schrangl , Peter Wurm , Clemens Stammler und Mag. Felix Eypeltauer ."
@@ -132,7 +179,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "7.480",
-                  "timeEnd": "8.680",
+                  "timeEnd": "12.960",
                   "entities": []
                 }
               ],
@@ -145,8 +192,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "11.040",
-                  "timeEnd": "11.520",
+                  "timeStart": "12.960",
+                  "timeEnd": "14.120",
                   "entities": []
                 }
               ],
@@ -159,8 +206,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "11.520",
-                  "timeEnd": "12.600",
+                  "timeStart": "14.120",
+                  "timeEnd": "14.920",
                   "entities": []
                 }
               ],
@@ -173,8 +220,8 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 4652/AB bis 4657/AB",
-                  "timeStart": "12.600",
-                  "timeEnd": "14.120",
+                  "timeStart": "14.920",
+                  "timeEnd": "17.760",
                   "entities": []
                 }
               ],
@@ -187,8 +234,8 @@
               "sentences": [
                 {
                   "text": "2. Weitere Vorlage:",
-                  "timeStart": "14.120",
-                  "timeEnd": "14.600",
+                  "timeStart": "17.760",
+                  "timeEnd": "18.400",
                   "entities": []
                 }
               ],
@@ -201,8 +248,8 @@
               "sentences": [
                 {
                   "text": "Zurückziehung:",
-                  "timeStart": "14.600",
-                  "timeEnd": "14.920",
+                  "timeStart": "18.400",
+                  "timeEnd": "18.400",
                   "entities": []
                 }
               ],
@@ -215,8 +262,8 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport (Vorlage Zu 56 BA)",
-                  "timeStart": "14.920",
-                  "timeEnd": "21.640",
+                  "timeStart": "18.400",
+                  "timeEnd": "25.280",
                   "entities": []
                 }
               ],
@@ -229,8 +276,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "21.640",
-                  "timeEnd": "22.160",
+                  "timeStart": "25.280",
+                  "timeEnd": "25.920",
                   "entities": []
                 }
               ],
@@ -243,8 +290,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "22.160",
-                  "timeEnd": "22.320",
+                  "timeStart": "25.920",
+                  "timeEnd": "26.480",
                   "entities": []
                 }
               ],
@@ -257,8 +304,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "22.320",
-                  "timeEnd": "23.040",
+                  "timeStart": "26.480",
+                  "timeEnd": "27.080",
                   "entities": []
                 }
               ],
@@ -271,8 +318,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Patentanwaltsgesetz geändert wird ( 643 d.B. )",
-                  "timeStart": "23.040",
-                  "timeEnd": "26.400",
+                  "timeStart": "27.080",
+                  "timeEnd": "29.280",
                   "entities": []
                 }
               ],
@@ -285,8 +332,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "26.400",
-                  "timeEnd": "26.680",
+                  "timeStart": "29.280",
+                  "timeEnd": "29.480",
                   "entities": []
                 }
               ],
@@ -299,8 +346,8 @@
               "sentences": [
                 {
                   "text": "Berufsanerkennungsgesetz Gesundheit 2020 ( 644 d.B. )",
-                  "timeStart": "26.680",
-                  "timeEnd": "29.280",
+                  "timeStart": "29.480",
+                  "timeEnd": "31.360",
                   "entities": []
                 }
               ],
@@ -313,8 +360,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "29.280",
-                  "timeEnd": "29.480",
+                  "timeStart": "31.360",
+                  "timeEnd": "32.040",
                   "entities": []
                 }
               ],
@@ -327,15 +374,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1274/A(E) der Abgeordneten Ing. Mag.",
-                  "timeStart": "29.480",
-                  "timeEnd": "32.080",
+                  "timeStart": "32.040",
+                  "timeEnd": "33.000",
                   "entities": []
                 },
                 {
                   "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend Verhinderung der Bestandsgefährdung von Bundesmuseen und Bundestheatern",
-                  "timeStart": "32.080",
+                  "timeStart": "33.000",
                   "timeEnd": "34.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Bundesmuseen",
+                      "wid": "Q1006417",
+                      "wtype": "PER",
+                      "score": 0.8119
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1274/A(E) der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend Verhinderung der Bestandsgefährdung von Bundesmuseen und Bundestheatern"
@@ -348,7 +408,7 @@
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
                   "timeStart": "34.120",
-                  "timeEnd": "34.480",
+                  "timeEnd": "34.600",
                   "entities": []
                 }
               ],
@@ -361,8 +421,8 @@
               "sentences": [
                 {
                   "text": "Verhältnismäßigkeitsprüfungs-Gesetz – VPG ( 645 d.B. )",
-                  "timeStart": "34.480",
-                  "timeEnd": "34.640",
+                  "timeStart": "34.600",
+                  "timeEnd": "37.000",
                   "entities": []
                 }
               ],
@@ -375,8 +435,8 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "34.640",
-                  "timeEnd": "37.000",
+                  "timeStart": "37.000",
+                  "timeEnd": "38.880",
                   "entities": []
                 }
               ],
@@ -389,8 +449,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "37.000",
-                  "timeEnd": "37.720",
+                  "timeStart": "38.880",
+                  "timeEnd": "39.200",
                   "entities": []
                 }
               ],
@@ -403,7 +463,7 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 1 Abs. 4 Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für Jänner 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-248 d.B. )",
-                  "timeStart": "37.720",
+                  "timeStart": "39.200",
                   "timeEnd": "45.800",
                   "entities": []
                 }
@@ -447,7 +507,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "51.560",
                   "timeEnd": "52.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -474,7 +541,7 @@
                 {
                   "text": "Weiters weise ich",
                   "timeStart": "54.320",
-                  "timeEnd": "54.760",
+                  "timeEnd": "54.360",
                   "entities": []
                 }
               ],
@@ -487,7 +554,7 @@
               "sentences": [
                 {
                   "text": "den Antrag 1275/A dem Verkehrsausschuss und",
-                  "timeStart": "54.760",
+                  "timeStart": "54.360",
                   "timeEnd": "56.520",
                   "entities": []
                 }
@@ -502,7 +569,7 @@
                 {
                   "text": "den Antrag 1276/A(E) dem Ausschuss für Forschung, Innovation und Digitalisierung zu.",
                   "timeStart": "56.520",
-                  "timeEnd": "58.280",
+                  "timeEnd": "58.320",
                   "entities": []
                 }
               ],
@@ -515,8 +582,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsantrag",
-                  "timeStart": "58.280",
-                  "timeEnd": "59.000",
+                  "timeStart": "58.320",
+                  "timeEnd": "58.760",
                   "entities": []
                 }
               ],
@@ -529,7 +596,7 @@
               "sentences": [
                 {
                   "text": "Vor Eingang in die Tagesordnung teile ich noch mit, dass die Abgeordneten Leichtfried, Fuchs und Doppelbauer beantragt haben, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen.",
-                  "timeStart": "59.000",
+                  "timeStart": "58.760",
                   "timeEnd": "66.680",
                   "entities": []
                 }
@@ -558,8 +625,8 @@
         "stdId": 236994,
         "debatteId": 300,
         "proceedingIndex": 236994,
-        "alignDuration": 0.532707929611206,
-        "nerDuration": 0.1806318759918213
+        "alignDuration": 0.6395998001098633,
+        "nerDuration": 0.34336042404174805
       },
       "originalLanguage": "de"
     },
@@ -622,7 +689,7 @@
                 {
                   "text": "Abstimmung über Fristsetzungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "3.440",
+                  "timeEnd": "2.080",
                   "entities": []
                 }
               ],
@@ -635,8 +702,8 @@
               "sentences": [
                 {
                   "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Leichtfried, Fuchs und Doppelbauer, dem Geschäftsordnungsausschuss zur Berichterstattung über den Antrag 421/A eine Frist bis zum 23. Februar 2021 zu setzen.",
-                  "timeStart": "3.440",
-                  "timeEnd": "16.080",
+                  "timeStart": "2.080",
+                  "timeEnd": "16.240",
                   "entities": []
                 }
               ],
@@ -649,7 +716,7 @@
               "sentences": [
                 {
                   "text": "Ich bitte jene Damen und Herren, die dieser Fristsetzung zustimmen, um ein entsprechendes Zeichen. –",
-                  "timeStart": "16.080",
+                  "timeStart": "16.240",
                   "timeEnd": "23.880",
                   "entities": []
                 },
@@ -670,8 +737,8 @@
         "stdId": 237018,
         "debatteId": 310,
         "proceedingIndex": 237018,
-        "alignDuration": 0.31002116203308105,
-        "nerDuration": 0.02155923843383789
+        "alignDuration": 0.37894201278686523,
+        "nerDuration": 0.028876543045043945
       },
       "originalLanguage": "de"
     },
@@ -762,8 +829,8 @@
         "stdId": 237019,
         "debatteId": 320,
         "proceedingIndex": 237019,
-        "alignDuration": 0.28881216049194336,
-        "nerDuration": 0.010995864868164062
+        "alignDuration": 0.3524177074432373,
+        "nerDuration": 0.01287984848022461
       },
       "originalLanguage": "de"
     }

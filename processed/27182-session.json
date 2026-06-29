@@ -5,11 +5,12 @@
     "dateStart": "2022-11-02T15:32:43",
     "dateEnd": "2022-11-02T15:35:28",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-23T12:44:37",
+    "lastUpdate": "2026-06-28T12:43:03",
     "processing": {
       "merge": "2026-06-16T04:24:02+00:00",
-      "align": "2026-06-23T12:44:37",
-      "ner": "2026-06-28T03:08:54"
+      "align": "2026-06-28T12:43:03",
+      "ner": "2026-06-28T15:52:49",
+      "nel": "2026-06-28T07:25:32"
     }
   },
   "data": [
@@ -107,43 +108,121 @@
                   "text": "Ernst Gödl , Rebecca Kirchbaumer , Dr. Gudrun Kugler , Mag.",
                   "timeStart": "4.000",
                   "timeEnd": "4.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Rebecca Kirchbaumer",
+                      "wid": "Q43143110",
+                      "wtype": "PER",
+                      "score": 0.9361
+                    },
+                    {
+                      "label": "Gudrun Kugler",
+                      "wid": "Q87353",
+                      "wtype": "PER",
+                      "score": 0.9801
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Maria Theresia Niss, MBA , Maximilian Lercher , Mag.",
                   "timeStart": "4.880",
-                  "timeEnd": "6.080",
+                  "timeEnd": "5.760",
                   "entities": []
                 },
                 {
                   "text": "Verena Nussbaum , Petra Tanzler , Dipl.-Ing. Gerhard Deimek , Mag.",
-                  "timeStart": "6.080",
-                  "timeEnd": "7.880",
-                  "entities": []
+                  "timeStart": "5.760",
+                  "timeEnd": "7.400",
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    },
+                    {
+                      "label": "Petra Tanzler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.3157
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Martin Graf , MMMag.",
-                  "timeStart": "7.880",
+                  "timeStart": "7.400",
                   "timeEnd": "8.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Axel Kassegger , Ing. Mag.",
                   "timeStart": "8.320",
-                  "timeEnd": "9.680",
-                  "entities": []
+                  "timeEnd": "9.440",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Christian Ries , Mag.",
-                  "timeStart": "9.680",
+                  "timeStart": "9.440",
                   "timeEnd": "11.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Faika El-Nagashi und Barbara Neßler .",
                   "timeStart": "11.520",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Faika El-Nagashi",
+                      "wid": "Q29585127",
+                      "wtype": "PER",
+                      "score": 0.9888
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag. Ernst Gödl , Rebecca Kirchbaumer , Dr. Gudrun Kugler , Mag. Dr. Maria Theresia Niss, MBA , Maximilian Lercher , Mag. Verena Nussbaum , Petra Tanzler , Dipl.-Ing. Gerhard Deimek , Mag. Dr. Martin Graf , MMMag. Dr. Axel Kassegger , Ing. Mag. Volker Reifenberger , Christian Ries , Mag. Faika El-Nagashi und Barbara Neßler ."
@@ -170,7 +249,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "13.000",
-                  "timeEnd": "16.760",
+                  "timeEnd": "17.720",
                   "entities": []
                 }
               ],
@@ -183,7 +262,7 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "16.760",
+                  "timeStart": "17.720",
                   "timeEnd": "17.880",
                   "entities": []
                 }
@@ -240,8 +319,15 @@
                 {
                   "text": "Erneuerbare-Wärme–Gesetz – EWG ( 1773 d.B. )",
                   "timeStart": "23.320",
-                  "timeEnd": "25.680",
-                  "entities": []
+                  "timeEnd": "24.520",
+                  "entities": [
+                    {
+                      "label": "EWG",
+                      "wid": "Q52847",
+                      "wtype": "ORG",
+                      "score": 0.3265
+                    }
+                  ]
                 }
               ],
               "text": "Erneuerbare-Wärme–Gesetz – EWG ( 1773 d.B. )"
@@ -253,7 +339,7 @@
               "sentences": [
                 {
                   "text": "Strompreiskosten-Ausgleichsgesetz 2022, SAG 2022 ( 1774 d.B. )",
-                  "timeStart": "25.680",
+                  "timeStart": "24.520",
                   "timeEnd": "28.800",
                   "entities": []
                 }
@@ -268,7 +354,7 @@
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
                   "timeStart": "28.800",
-                  "timeEnd": "29.200",
+                  "timeEnd": "29.320",
                   "entities": []
                 }
               ],
@@ -281,8 +367,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "29.200",
-                  "timeEnd": "29.280",
+                  "timeStart": "29.320",
+                  "timeEnd": "29.840",
                   "entities": []
                 }
               ],
@@ -295,8 +381,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "29.280",
-                  "timeEnd": "30.120",
+                  "timeStart": "29.840",
+                  "timeEnd": "30.400",
                   "entities": []
                 }
               ],
@@ -309,9 +395,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Zivildienstgesetz 1986 geändert wird ( 1771 d.B. )",
-                  "timeStart": "30.120",
+                  "timeStart": "30.400",
                   "timeEnd": "31.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Zivildienstgesetz",
+                      "wid": "Q206804",
+                      "wtype": "MISC",
+                      "score": 0.4212
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Zivildienstgesetz 1986 geändert wird ( 1771 d.B. )"
@@ -324,14 +423,21 @@
                 {
                   "text": "Antrag der Abgeordneten Mag.",
                   "timeStart": "31.680",
-                  "timeEnd": "32.240",
+                  "timeEnd": "32.200",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! (",
-                  "timeStart": "32.240",
+                  "timeStart": "32.200",
                   "timeEnd": "33.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 },
                 {
                   "text": "2901/A(E) )",
@@ -351,7 +457,26 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2903/A(E) )",
                   "timeStart": "33.920",
                   "timeEnd": "34.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2903/A(E) )"
@@ -364,8 +489,21 @@
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2906/A(E) )",
                   "timeStart": "34.920",
-                  "timeEnd": "37.000",
-                  "entities": []
+                  "timeEnd": "36.840",
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2906/A(E) )"
@@ -377,7 +515,7 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "37.000",
+                  "timeStart": "36.840",
                   "timeEnd": "37.000",
                   "entities": []
                 }
@@ -392,7 +530,7 @@
                 {
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 1770 d.B. )",
                   "timeStart": "37.000",
-                  "timeEnd": "38.240",
+                  "timeEnd": "37.000",
                   "entities": []
                 }
               ],
@@ -405,8 +543,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "38.240",
-                  "timeEnd": "38.680",
+                  "timeStart": "37.000",
+                  "timeEnd": "37.000",
                   "entities": []
                 }
               ],
@@ -419,9 +557,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Beaufsichtigung von Wertpapierfirmen (Wertpapierfirmengesetz – WPFG) erlassen wird und das Alternative Investmentfonds Manager-Gesetz, das Bankwesengesetz, das Einlagensicherungs- und Anlegerentschädigungsgesetz, das Finanzkonglomerategesetz, das Finanzmarktaufsichtsbehördengesetz, das Investmentfondsgesetz 2011, das Sanierungs- und Abwicklungsgesetz und das Wertpapieraufsichtsgesetz 2018 geändert werden ( 1757 d.B. )",
-                  "timeStart": "38.680",
-                  "timeEnd": "47.520",
-                  "entities": []
+                  "timeStart": "37.000",
+                  "timeEnd": "43.040",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Investmentfondsgesetz",
+                      "wid": "Q1572536",
+                      "wtype": "MISC",
+                      "score": 0.8
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Beaufsichtigung von Wertpapierfirmen (Wertpapierfirmengesetz – WPFG) erlassen wird und das Alternative Investmentfonds Manager-Gesetz, das Bankwesengesetz, das Einlagensicherungs- und Anlegerentschädigungsgesetz, das Finanzkonglomerategesetz, das Finanzmarktaufsichtsbehördengesetz, das Investmentfondsgesetz 2011, das Sanierungs- und Abwicklungsgesetz und das Wertpapieraufsichtsgesetz 2018 geändert werden ( 1757 d.B. )"
@@ -433,8 +584,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "47.520",
-                  "timeEnd": "48.000",
+                  "timeStart": "43.040",
+                  "timeEnd": "43.040",
                   "entities": []
                 }
               ],
@@ -447,9 +598,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2899/A(E) )",
-                  "timeStart": "48.000",
-                  "timeEnd": "55.680",
-                  "entities": []
+                  "timeStart": "43.040",
+                  "timeEnd": "45.560",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "europäischen",
+                      "wid": "Q46",
+                      "wtype": "MISC",
+                      "score": 0.1518
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2899/A(E) )"
@@ -461,9 +631,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2907/A(E) )",
-                  "timeStart": "55.680",
-                  "timeEnd": "56.160",
-                  "entities": []
+                  "timeStart": "45.560",
+                  "timeEnd": "45.720",
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Förderung der Übergangspflege ( 2907/A(E) )"
@@ -475,8 +658,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "56.160",
-                  "timeEnd": "56.200",
+                  "timeStart": "45.720",
+                  "timeEnd": "46.080",
                   "entities": []
                 }
               ],
@@ -489,8 +672,8 @@
               "sentences": [
                 {
                   "text": "Fachstelle-Normungsbeteiligung-Gesetz – FNBG ( 1752 d.B. )",
-                  "timeStart": "56.200",
-                  "timeEnd": "56.360",
+                  "timeStart": "46.080",
+                  "timeEnd": "48.080",
                   "entities": []
                 }
               ],
@@ -503,9 +686,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2900/A(E) )",
-                  "timeStart": "56.360",
-                  "timeEnd": "61.520",
-                  "entities": []
+                  "timeStart": "48.080",
+                  "timeEnd": "53.080",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "europäischen",
+                      "wid": "Q46",
+                      "wtype": "MISC",
+                      "score": 0.1518
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Durchführung einer Haltbarkeitsanalyse und Einsatz für eine Anpassung der europäischen Regelungen betreffend die Verkaufsfrist von Eiern\" bis zum 31. März 2023 ( 2900/A(E) )"
@@ -517,20 +719,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "61.520",
-                  "timeEnd": "61.520",
+                  "timeStart": "53.080",
+                  "timeEnd": "53.080",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Energiepreisbremse für Menschen mit Behinderungen und besonderen Bedürfnissen jetzt! (",
-                  "timeStart": "61.520",
-                  "timeEnd": "62.040",
-                  "entities": []
+                  "timeStart": "53.080",
+                  "timeEnd": "53.080",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 },
                 {
                   "text": "2902/A(E) )",
-                  "timeStart": "62.040",
-                  "timeEnd": "62.040",
+                  "timeStart": "53.080",
+                  "timeEnd": "53.080",
                   "entities": []
                 }
               ],
@@ -543,9 +752,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2904/A(E) )",
-                  "timeStart": "62.040",
-                  "timeEnd": "64.880",
-                  "entities": []
+                  "timeStart": "53.080",
+                  "timeEnd": "53.080",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf Grundversorgung bei Energielieferanten in Österreich ( 2904/A(E) )"
@@ -557,9 +785,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Kennzeichnung von Honig ( 2908/A(E) )",
-                  "timeStart": "64.880",
-                  "timeEnd": "66.080",
-                  "entities": []
+                  "timeStart": "53.080",
+                  "timeEnd": "53.080",
+                  "entities": [
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Kennzeichnung von Honig ( 2908/A(E) )"
@@ -571,9 +812,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "66.080",
-                  "timeEnd": "66.720",
-                  "entities": []
+                  "timeStart": "53.080",
+                  "timeEnd": "53.240",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -585,8 +833,8 @@
               "sentences": [
                 {
                   "text": "Wehrrechtsänderungsgesetz 2023 – WRÄG 2023 ( 1772 d.B. )",
-                  "timeStart": "66.720",
-                  "timeEnd": "67.920",
+                  "timeStart": "53.240",
+                  "timeEnd": "56.400",
                   "entities": []
                 }
               ],
@@ -599,8 +847,8 @@
               "sentences": [
                 {
                   "text": "Sportausschuss:",
-                  "timeStart": "67.920",
-                  "timeEnd": "67.920",
+                  "timeStart": "56.400",
+                  "timeEnd": "56.960",
                   "entities": []
                 }
               ],
@@ -613,9 +861,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend sofortiger Stopp der Sanktionen gegen russische Sportler ( 2898/A(E) )",
-                  "timeStart": "67.920",
-                  "timeEnd": "67.920",
-                  "entities": []
+                  "timeStart": "56.960",
+                  "timeEnd": "61.560",
+                  "entities": [
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "russische",
+                      "wid": "Q159",
+                      "wtype": "MISC",
+                      "score": 0.1043
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend sofortiger Stopp der Sanktionen gegen russische Sportler ( 2898/A(E) )"
@@ -627,8 +894,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "67.920",
-                  "timeEnd": "67.920",
+                  "timeStart": "61.560",
+                  "timeEnd": "61.680",
                   "entities": []
                 }
               ],
@@ -641,14 +908,14 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
-                  "timeStart": "67.920",
-                  "timeEnd": "67.920",
+                  "timeStart": "61.680",
+                  "timeEnd": "62.040",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2896/A )",
-                  "timeStart": "67.920",
-                  "timeEnd": "70.720",
+                  "timeStart": "62.040",
+                  "timeEnd": "64.520",
                   "entities": []
                 }
               ],
@@ -661,14 +928,14 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
-                  "timeStart": "70.720",
-                  "timeEnd": "71.400",
+                  "timeStart": "64.520",
+                  "timeEnd": "67.920",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 2897/A )",
-                  "timeStart": "71.400",
-                  "timeEnd": "71.800",
+                  "timeStart": "67.920",
+                  "timeEnd": "69.480",
                   "entities": []
                 }
               ],
@@ -681,8 +948,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsanträge",
-                  "timeStart": "71.800",
-                  "timeEnd": "71.800",
+                  "timeStart": "69.480",
+                  "timeEnd": "70.000",
                   "entities": []
                 }
               ],
@@ -695,8 +962,8 @@
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass die folgenden Fristsetzungsanträge vorliegen:",
-                  "timeStart": "71.800",
-                  "timeEnd": "71.800",
+                  "timeStart": "70.000",
+                  "timeEnd": "70.720",
                   "entities": []
                 }
               ],
@@ -709,7 +976,7 @@
               "sentences": [
                 {
                   "text": "Anträge des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über die Anträge 66/A(E) und 361/A(E) sowie dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A jeweils eine Frist bis 12. Dezember 2022 zu setzen.",
-                  "timeStart": "71.800",
+                  "timeStart": "70.720",
                   "timeEnd": "75.800",
                   "entities": []
                 }
@@ -724,7 +991,7 @@
                 {
                   "text": "Außerdem liegt der Fristsetzungsantrag des Abgeordneten Stefan vor, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen.",
                   "timeStart": "75.800",
-                  "timeEnd": "79.920",
+                  "timeEnd": "79.360",
                   "entities": []
                 }
               ],
@@ -737,7 +1004,7 @@
               "sentences": [
                 {
                   "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden.",
-                  "timeStart": "79.920",
+                  "timeStart": "79.360",
                   "timeEnd": "82.000",
                   "entities": []
                 }
@@ -752,8 +1019,8 @@
         "stdId": 281056,
         "debatteId": 300,
         "proceedingIndex": 281056,
-        "alignDuration": 0.93377685546875,
-        "nerDuration": 0.28372812271118164
+        "alignDuration": 0.7907662391662598,
+        "nerDuration": 0.5101861953735352
       },
       "originalLanguage": "de"
     },
@@ -864,7 +1131,7 @@
                 {
                   "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Justizausschuss zur Berichterstattung über den Antrag 361/A(E) eine Frist bis 12. Dezember 2022 zu setzen.",
                   "timeStart": "18.480",
-                  "timeEnd": "31.040",
+                  "timeEnd": "31.120",
                   "entities": []
                 }
               ],
@@ -877,7 +1144,7 @@
               "sentences": [
                 {
                   "text": "Wer ist für diesen Fristsetzungsantrag? –",
-                  "timeStart": "31.040",
+                  "timeStart": "31.120",
                   "timeEnd": "33.600",
                   "entities": []
                 },
@@ -898,7 +1165,7 @@
                 {
                   "text": "Abstimmung über den Antrag des Abgeordneten Scherak, dem Verfassungsausschuss zur Berichterstattung über den Antrag 453/A eine Frist bis 12. Dezember 2022 zu setzen.",
                   "timeStart": "36.400",
-                  "timeEnd": "48.400",
+                  "timeEnd": "48.000",
                   "entities": []
                 }
               ],
@@ -911,14 +1178,14 @@
               "sentences": [
                 {
                   "text": "Wer ist für diesen Fristsetzungsantrag? –",
-                  "timeStart": "48.400",
+                  "timeStart": "48.000",
                   "timeEnd": "50.220",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Minderheit, abgelehnt.",
                   "timeStart": "50.220",
-                  "timeEnd": "52.400",
+                  "timeEnd": "52.440",
                   "entities": []
                 }
               ],
@@ -931,7 +1198,7 @@
               "sentences": [
                 {
                   "text": "Schließlich kommen wir zur Abstimmung über den Antrag des Abgeordneten Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 2329/A eine Frist bis 15. November 2022 zu setzen.",
-                  "timeStart": "52.400",
+                  "timeStart": "52.440",
                   "timeEnd": "67.280",
                   "entities": []
                 }
@@ -1008,8 +1275,8 @@
         "stdId": 281236,
         "debatteId": 310,
         "proceedingIndex": 281236,
-        "alignDuration": 0.46146583557128906,
-        "nerDuration": 0.0800778865814209
+        "alignDuration": 0.50937819480896,
+        "nerDuration": 0.09247088432312012
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2023-07-07T17:05:39",
     "dateEnd": "2023-07-07T17:16:49",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T12:33:56",
+    "lastUpdate": "2026-06-28T13:41:58",
     "processing": {
-      "merge": "2026-06-16T04:24:09+00:00",
-      "align": "2026-06-25T12:33:56",
-      "ner": "2026-06-28T03:22:06"
+      "merge": "2026-06-28T07:25:18+00:00",
+      "nel": "2026-06-28T09:26:47",
+      "align": "2026-06-28T13:41:58",
+      "ner": "2026-06-28T16:11:53"
     }
   },
   "data": [
@@ -27,7 +28,9 @@
       "speechIndex": 1,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/9be225f0-b9b4-4d76-a46f-c79fd4460c18/hls/index.m3u8?startseconds=9&stopseconds=70",
@@ -68,6 +71,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich eröffne die 227. Sitzung des Nationalrates.",
@@ -82,30 +86,57 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag. (",
                   "timeStart": "3.320",
-                  "timeEnd": "3.800",
+                  "timeEnd": "4.160",
                   "entities": []
                 },
                 {
                   "text": "FH) Kurt Egger , Mag.",
-                  "timeStart": "3.800",
+                  "timeStart": "4.160",
                   "timeEnd": "4.160",
                   "entities": []
                 },
                 {
                   "text": "Karin Greiner , Michael Schnedlitz , Dr. Ewa Ernst-Dziedzic , Heike Grebien und Mag.",
                   "timeStart": "4.160",
-                  "timeEnd": "4.280",
-                  "entities": []
+                  "timeEnd": "5.400",
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 },
                 {
                   "text": "Yannick Shetty .",
-                  "timeStart": "4.280",
-                  "timeEnd": "4.280",
-                  "entities": []
+                  "timeStart": "5.400",
+                  "timeEnd": "5.400",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. (FH) Kurt Egger , Mag. Karin Greiner , Michael Schnedlitz , Dr. Ewa Ernst-Dziedzic , Heike Grebien und Mag. Yannick Shetty ."
@@ -114,11 +145,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "4.280",
-                  "timeEnd": "4.280",
+                  "timeStart": "5.400",
+                  "timeEnd": "5.800",
                   "entities": []
                 }
               ],
@@ -128,11 +160,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "4.280",
-                  "timeEnd": "5.800",
+                  "timeStart": "5.800",
+                  "timeEnd": "7.720",
                   "entities": []
                 }
               ],
@@ -142,11 +175,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "5.800",
-                  "timeEnd": "5.840",
+                  "timeStart": "7.720",
+                  "timeEnd": "7.800",
                   "entities": []
                 }
               ],
@@ -156,11 +190,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände :",
-                  "timeStart": "5.840",
-                  "timeEnd": "5.840",
+                  "timeStart": "7.800",
+                  "timeEnd": "8.400",
                   "entities": []
                 }
               ],
@@ -170,11 +205,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 14502/AB bis 14504/AB",
-                  "timeStart": "5.840",
-                  "timeEnd": "6.280",
+                  "timeStart": "8.400",
+                  "timeEnd": "9.280",
                   "entities": []
                 }
               ],
@@ -184,11 +220,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "6.280",
-                  "timeEnd": "6.480",
+                  "timeStart": "9.280",
+                  "timeEnd": "9.720",
                   "entities": []
                 }
               ],
@@ -198,11 +235,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "6.480",
-                  "timeEnd": "6.480",
+                  "timeStart": "9.720",
+                  "timeEnd": "10.360",
                   "entities": []
                 }
               ],
@@ -212,11 +250,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "6.480",
-                  "timeEnd": "6.920",
+                  "timeStart": "10.360",
+                  "timeEnd": "11.360",
                   "entities": []
                 }
               ],
@@ -226,18 +265,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "6.920",
-                  "timeEnd": "6.920",
+                  "timeStart": "11.360",
+                  "timeEnd": "11.400",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3527/A(E) )",
-                  "timeStart": "6.920",
-                  "timeEnd": "7.760",
-                  "entities": []
+                  "timeStart": "11.400",
+                  "timeEnd": "13.680",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3527/A(E) )"
@@ -246,18 +299,51 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten August Wöginger , Mag.",
-                  "timeStart": "7.760",
-                  "timeEnd": "8.400",
-                  "entities": []
+                  "timeStart": "13.680",
+                  "timeEnd": "13.800",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 3533/A )",
-                  "timeStart": "8.400",
-                  "timeEnd": "12.640",
-                  "entities": []
+                  "timeStart": "13.800",
+                  "timeEnd": "17.040",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Allgemeine Pensionsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden ( 3533/A )"
@@ -266,11 +352,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "12.640",
-                  "timeEnd": "13.400",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040",
                   "entities": []
                 }
               ],
@@ -280,12 +367,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Menschenrechtssituation in Peru ( 3532/A(E) )",
-                  "timeStart": "13.400",
-                  "timeEnd": "14.840",
-                  "entities": []
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040",
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Peru",
+                      "wid": "Q419",
+                      "wtype": "LOC",
+                      "score": 0.39
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Menschenrechtssituation in Peru ( 3532/A(E) )"
@@ -294,11 +401,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Budgetausschuss :",
-                  "timeStart": "14.840",
-                  "timeEnd": "14.840",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.040",
                   "entities": []
                 }
               ],
@@ -308,10 +416,11 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2023 bis 2026 und das Bundesfinanzgesetz 2023 geändert werden ( 2170 d.B. )",
-                  "timeStart": "14.840",
+                  "timeStart": "17.040",
                   "timeEnd": "17.040",
                   "entities": []
                 }
@@ -322,6 +431,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss :",
@@ -336,6 +446,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -347,7 +458,20 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3528/A(E) )",
                   "timeStart": "17.040",
                   "timeEnd": "17.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Verbesserte Arbeitsrahmenbedingungen in der Pflege ( 3528/A(E) )"
@@ -356,6 +480,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss :",
@@ -370,6 +495,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Kffr. (",
@@ -381,13 +507,33 @@
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
                   "timeStart": "17.040",
                   "timeEnd": "17.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend Informationskampagne betreffend Gewalt an Frauen ( 3534/A(E) )",
                   "timeStart": "17.040",
                   "timeEnd": "17.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend Informationskampagne betreffend Gewalt an Frauen ( 3534/A(E) )"
@@ -396,6 +542,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Hauptausschuss :",
@@ -410,24 +557,46 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen gemäß Art.",
                   "timeStart": "17.040",
                   "timeEnd": "17.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 },
                 {
                   "text": "49b B-VG iVm § 26 GOG-NR auf Durchführung einer Volksbefragung gem. Art.",
                   "timeStart": "17.080",
-                  "timeEnd": "18.960",
-                  "entities": []
+                  "timeEnd": "18.920",
+                  "entities": [
+                    {
+                      "label": "GOG-NR",
+                      "wid": "Q1518211",
+                      "wtype": "ORG",
+                      "score": 0.9695
+                    }
+                  ]
                 },
                 {
                   "text": "49b B-VG über den Schutz des Bargeldes als Zahlungsmittel und Vermögensform ohne Obergrenzen und des uneingeschränkten Bargeldzahlungsverkehrs ( 3529/A )",
-                  "timeStart": "18.960",
+                  "timeStart": "18.920",
                   "timeEnd": "21.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.6178
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen gemäß Art. 49b B-VG iVm § 26 GOG-NR auf Durchführung einer Volksbefragung gem. Art. 49b B-VG über den Schutz des Bargeldes als Zahlungsmittel und Vermögensform ohne Obergrenzen und des uneingeschränkten Bargeldzahlungsverkehrs ( 3529/A )"
@@ -436,6 +605,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Justizausschuss :",
@@ -450,6 +620,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag. (",
@@ -460,14 +631,21 @@
                 {
                   "text": "FH) Kurt Egger , Mag.",
                   "timeStart": "22.240",
-                  "timeEnd": "22.520",
+                  "timeEnd": "22.480",
                   "entities": []
                 },
                 {
                   "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwertungsgesellschaftengesetz 2016 geändert wird ( 3523/A )",
-                  "timeStart": "22.520",
+                  "timeStart": "22.480",
                   "timeEnd": "24.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. (FH) Kurt Egger , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwertungsgesellschaftengesetz 2016 geändert wird ( 3523/A )"
@@ -476,6 +654,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
@@ -490,6 +669,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -501,7 +681,20 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Überprüfung unzulässiger Kostenabzugsklauseln bei Lebensversicherungen ( 3524/A(E) )",
                   "timeStart": "25.280",
                   "timeEnd": "27.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Überprüfung unzulässiger Kostenabzugsklauseln bei Lebensversicherungen ( 3524/A(E) )"
@@ -510,18 +703,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
                   "timeStart": "27.920",
-                  "timeEnd": "28.760",
+                  "timeEnd": "28.560",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend mehr Transparenz bei Lebensversicherungen ( 3525/A(E) )",
-                  "timeStart": "28.760",
+                  "timeStart": "28.560",
                   "timeEnd": "31.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend mehr Transparenz bei Lebensversicherungen ( 3525/A(E) )"
@@ -530,6 +737,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss :",
@@ -544,11 +752,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend mehr höhere Schulen in stark wachsenden urbanen Räumen ( 3526/A(E) )",
                   "timeStart": "32.480",
-                  "timeEnd": "34.200",
+                  "timeEnd": "34.960",
                   "entities": []
                 }
               ],
@@ -558,11 +767,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "34.200",
-                  "timeEnd": "34.440",
+                  "timeStart": "34.960",
+                  "timeEnd": "34.960",
                   "entities": []
                 }
               ],
@@ -572,17 +782,25 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Nein zum Militärbündnis \"Sky Shield\" – Ja zur Neutralität! (",
-                  "timeStart": "34.440",
-                  "timeEnd": "35.680",
-                  "entities": []
+                  "timeStart": "34.960",
+                  "timeEnd": "35.960",
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 },
                 {
                   "text": "3530/A(E) )",
-                  "timeStart": "35.680",
-                  "timeEnd": "35.960",
+                  "timeStart": "35.960",
+                  "timeEnd": "36.960",
                   "entities": []
                 }
               ],
@@ -592,24 +810,57 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "35.960",
-                  "timeEnd": "36.520",
+                  "timeStart": "36.960",
+                  "timeEnd": "36.960",
                   "entities": []
                 },
                 {
                   "text": "Martin Engelberg , Mag.",
-                  "timeStart": "36.520",
-                  "timeEnd": "37.000",
-                  "entities": []
+                  "timeStart": "36.960",
+                  "timeEnd": "36.960",
+                  "entities": [
+                    {
+                      "label": "Martin Engelberg",
+                      "wid": "Q42307913",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus und das Bundesgesetz über die Einrichtung des Fonds zur Instandsetzung der jüdischen Friedhöfe in Österreich geändert werden ( 3537/A )",
-                  "timeStart": "37.000",
+                  "timeStart": "36.960",
                   "timeEnd": "37.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    },
+                    {
+                      "label": "jüdischen",
+                      "wid": "Q9268",
+                      "wtype": "MISC",
+                      "score": 0.1023
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5199
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martin Engelberg , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Nationalfonds der Republik Österreich für Opfer des Nationalsozialismus und das Bundesgesetz über die Einrichtung des Fonds zur Instandsetzung der jüdischen Friedhöfe in Österreich geändert werden ( 3537/A )"
@@ -618,11 +869,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Verkehrsausschuss :",
                   "timeStart": "37.440",
-                  "timeEnd": "37.560",
+                  "timeEnd": "37.600",
                   "entities": []
                 }
               ],
@@ -632,12 +884,26 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Andreas Ottenschläger , Hermann Weratschnig, MBA MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das ASFINAG-Gesetz geändert wird ( 3535/A )",
-                  "timeStart": "37.560",
+                  "timeStart": "37.600",
                   "timeEnd": "41.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andreas Ottenschläger",
+                      "wid": "Q15116861",
+                      "wtype": "PER",
+                      "score": 0.9776
+                    },
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Ottenschläger , Hermann Weratschnig, MBA MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das ASFINAG-Gesetz geändert wird ( 3535/A )"
@@ -646,12 +912,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesstraßengesetz 1971 geändert wird ( 3536/A )",
                   "timeStart": "41.560",
                   "timeEnd": "44.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Andreas Ottenschläger",
+                      "wid": "Q15116861",
+                      "wtype": "PER",
+                      "score": 0.9776
+                    },
+                    {
+                      "label": "Bundesstraßengesetz",
+                      "wid": "Q729285",
+                      "wtype": "MISC",
+                      "score": 0.1172
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesstraßengesetz 1971 geändert wird ( 3536/A )"
@@ -660,6 +946,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
@@ -674,12 +961,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011 (GWG 2011), das Erdölbevorratungsgesetz 2012 und das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (ElWOG 2010) geändert werden ( 3531/A )",
                   "timeStart": "45.160",
                   "timeEnd": "51.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4505
+                    },
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Gaswirtschaftsgesetz",
+                      "wid": "Q1341378",
+                      "wtype": "MISC",
+                      "score": 0.4815
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011 (GWG 2011), das Erdölbevorratungsgesetz 2012 und das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (ElWOG 2010) geändert werden ( 3531/A )"
@@ -688,6 +995,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
@@ -702,11 +1010,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Budgetausschuss :",
                   "timeStart": "51.920",
-                  "timeEnd": "51.960",
+                  "timeEnd": "51.920",
                   "entities": []
                 }
               ],
@@ -716,12 +1025,26 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Erster Bericht zur Wettbewerbsfähigkeit Österreichs gemäß § 5 Z 5 Fiskalrat- und Produktivitätsratgesetz 2021, vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-979 d.B. )",
-                  "timeStart": "51.960",
+                  "timeStart": "51.920",
                   "timeEnd": "56.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Österreichs",
+                      "wid": "Q131964",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    },
+                    {
+                      "label": "Bundesminister für Arbeit und Wirtschaft",
+                      "wid": "Q22694650",
+                      "wtype": "ORG",
+                      "score": 0.9284
+                    }
+                  ]
                 }
               ],
               "text": "Erster Bericht zur Wettbewerbsfähigkeit Österreichs gemäß § 5 Z 5 Fiskalrat- und Produktivitätsratgesetz 2021, vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-979 d.B. )"
@@ -730,6 +1053,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss :",
@@ -744,12 +1068,26 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz betreffend Präventionsauftrag im Allgemeinen Sozialversicherungsgesetz aufgrund der Entschließung des Nationalrates vom 1. März 2023, 305/E XXVII.",
                   "timeStart": "56.360",
                   "timeEnd": "59.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Allgemeinen Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9805
+                    },
+                    {
+                      "label": "Nationalrates",
+                      "wid": "Q871363",
+                      "wtype": "ORG",
+                      "score": 0.547
+                    }
+                  ]
                 },
                 {
                   "text": "GP ( III-980 d.B. )",
@@ -764,6 +1102,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Kulturausschuss :",
@@ -778,6 +1117,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2023, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-981 d.B. )",
@@ -792,6 +1132,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Weiters weise ich den Antrag 3538/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3539/A(E) dem Ausschuss für Land- und Forstwirtschaft zu.",
@@ -806,6 +1147,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Fristsetzungsantrag",
@@ -820,11 +1162,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich teile mit, dass folgender Fristsetzungsantrag vorliegt:",
                   "timeStart": "63.080",
-                  "timeEnd": "63.860",
+                  "timeEnd": "63.400",
                   "entities": []
                 }
               ],
@@ -834,16 +1177,24 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer und Mag.",
-                  "timeStart": "63.860",
-                  "timeEnd": "65.080",
-                  "entities": []
+                  "timeStart": "63.400",
+                  "timeEnd": "63.760",
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen.",
-                  "timeStart": "65.080",
+                  "timeStart": "63.760",
                   "timeEnd": "66.640",
                   "entities": []
                 }
@@ -854,6 +1205,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Dieser Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung zur Abstimmung gebracht.",
@@ -872,8 +1224,12 @@
         "stdId": 302325,
         "debatteId": 300,
         "proceedingIndex": 302325,
-        "alignDuration": 0.9885349273681641,
-        "nerDuration": 0.33880186080932617
+        "linkedMediaIndexes": [
+          1
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.8521511554718018,
+        "nerDuration": 0.7398068904876709
       },
       "originalLanguage": "de"
     },
@@ -891,7 +1247,9 @@
       "speechIndex": 2,
       "agendaItem": {
         "officialTitle": "Beschluss auf Beendigung der ordentlichen Tagung 2022/23",
-        "title": "Beschluss auf Beendigung der ordentlichen Tagung 2022/23"
+        "title": "Beschluss auf Beendigung der ordentlichen Tagung 2022/23",
+        "type": "procedural",
+        "nativeType": "AT-session_convocation"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/9be225f0-b9b4-4d76-a46f-c79fd4460c18/hls/index.m3u8?startseconds=70&stopseconds=316",
@@ -932,6 +1290,7 @@
               "type": "speech",
               "speaker": null,
               "speakerstatus": null,
+              "speakerID": null,
               "sentences": [
                 {
                   "text": "Beschluss auf Beendigung der ordentlichen Tagung 2022/2023",
@@ -946,6 +1305,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Es liegt folgender Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag.",
@@ -956,20 +1316,34 @@
                 {
                   "text": "Dr. Jakob Schwarz, BA , Mag.",
                   "timeStart": "4.040",
-                  "timeEnd": "5.320",
+                  "timeEnd": "5.400",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker und Mag.",
-                  "timeStart": "5.320",
+                  "timeStart": "5.400",
                   "timeEnd": "5.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Harald Stefan vor:",
                   "timeStart": "5.720",
-                  "timeEnd": "6.960",
-                  "entities": []
+                  "timeEnd": "7.000",
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    }
+                  ]
                 }
               ],
               "text": "Es liegt folgender Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag. Dr. Jakob Schwarz, BA , Mag. Gerald Loacker und Mag. Harald Stefan vor:"
@@ -978,16 +1352,17 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "„Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII.",
-                  "timeStart": "6.960",
-                  "timeEnd": "14.920",
+                  "timeStart": "7.000",
+                  "timeEnd": "14.880",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.“",
-                  "timeStart": "14.920",
+                  "timeStart": "14.880",
                   "timeEnd": "22.480",
                   "entities": []
                 }
@@ -998,6 +1373,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich bitte die Damen und Herren, die dem Antrag ihre Zustimmung geben, um ein dementsprechendes Zeichen. –",
@@ -1018,6 +1394,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Anträge auf Permanenterklärung von Ausschüssen",
@@ -1032,6 +1409,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Weiters liegen mir folgende Anträge betreffend Beauftragung von Ausschüssen, ihre Arbeit während der tagungsfreien Zeit fortzusetzen, vor:",
@@ -1046,6 +1424,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag.",
@@ -1063,7 +1442,14 @@
                   "text": "Gerald Loacker betreffend den Ausschuss für Arbeit und Soziales;",
                   "timeStart": "47.440",
                   "timeEnd": "50.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Georg Strasser , Mag. Dr. Jakob Schwarz, BA und Mag. Gerald Loacker betreffend den Ausschuss für Arbeit und Soziales;"
@@ -1072,6 +1458,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch ebenfalls betreffend den Ausschuss für Arbeit und Soziales;",
@@ -1086,12 +1473,56 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Anträge des Abgeordneten Philip Kucher betreffend den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) , den Ausschuss für Bauten und Wohnen hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) , den Finanzausschuss hinsichtlich des Antrages 3522/A(E) und den Ausschuss für Wirtschaft, Industrie und Energie hinsichtlich des Antrages 3437/A(E)",
                   "timeStart": "56.640",
-                  "timeEnd": "91.560",
-                  "entities": []
+                  "timeEnd": "91.600",
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Anträge des Abgeordneten Philip Kucher betreffend den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) , den Ausschuss für Bauten und Wohnen hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) , den Finanzausschuss hinsichtlich des Antrages 3522/A(E) und den Ausschuss für Wirtschaft, Industrie und Energie hinsichtlich des Antrages 3437/A(E)"
@@ -1100,18 +1531,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "sowie der Antrag des Abgeordneten Mag.",
-                  "timeStart": "91.560",
-                  "timeEnd": "93.520",
+                  "timeStart": "91.600",
+                  "timeEnd": "93.320",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA betreffend den Ausschuss für innere Angelegenheiten.",
-                  "timeStart": "93.520",
+                  "timeStart": "93.320",
                   "timeEnd": "98.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
                 }
               ],
               "text": "sowie der Antrag des Abgeordneten Mag. Hannes Amesbauer, BA betreffend den Ausschuss für innere Angelegenheiten."
@@ -1120,6 +1565,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich lasse zunächst über die gleichlautenden Anträge der Abgeordneten Dipl.-Ing. Georg Strasser , Mag.",
@@ -1130,14 +1576,21 @@
                 {
                   "text": "Dr. Jakob Schwarz, BA , Mag.",
                   "timeStart": "103.080",
-                  "timeEnd": "105.760",
+                  "timeEnd": "105.720",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker und Dr. Dagmar Belakowitsch abstimmen, den Ausschuss für Arbeit und Soziales zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen.",
-                  "timeStart": "105.760",
+                  "timeStart": "105.720",
                   "timeEnd": "116.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Ich lasse zunächst über die gleichlautenden Anträge der Abgeordneten Dipl.-Ing. Georg Strasser , Mag. Dr. Jakob Schwarz, BA , Mag. Gerald Loacker und Dr. Dagmar Belakowitsch abstimmen, den Ausschuss für Arbeit und Soziales zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen."
@@ -1146,6 +1599,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wer diesen zustimmt, ist um ein Zeichen gebeten. –",
@@ -1166,12 +1620,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Damit entfällt die Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen.",
                   "timeStart": "121.960",
-                  "timeEnd": "140.040",
-                  "entities": []
+                  "timeEnd": "139.560",
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Damit entfällt die Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Arbeit und Soziales hinsichtlich der Anträge 2846/A(E) und 3442/A(E) zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen."
@@ -1180,12 +1654,32 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wir kommen nun zur Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Bauten und Wohnen zu beauftragen, seine Arbeit hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) während der tagungsfreien Zeit fortzusetzen.",
-                  "timeStart": "140.040",
+                  "timeStart": "139.560",
                   "timeEnd": "160.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Wir kommen nun zur Abstimmung über den Antrag des Abgeordneten Philip Kucher , den Ausschuss für Bauten und Wohnen zu beauftragen, seine Arbeit hinsichtlich der Anträge 3090/A , 3094/A(E) und 3431/A(E) während der tagungsfreien Zeit fortzusetzen."
@@ -1194,6 +1688,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen der Zustimmung. –",
@@ -1214,12 +1709,26 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wir kommen zur Abstimmung über Antrag des Abgeordneten Philip Kucher , den Finanzausschuss zu beauftragen, seine Arbeit hinsichtlich des Antrages 3522/A(E) während der tagungsfreien Zeit fortzusetzen.",
                   "timeStart": "167.880",
                   "timeEnd": "181.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Wir kommen zur Abstimmung über Antrag des Abgeordneten Philip Kucher , den Finanzausschuss zu beauftragen, seine Arbeit hinsichtlich des Antrages 3522/A(E) während der tagungsfreien Zeit fortzusetzen."
@@ -1228,6 +1737,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –",
@@ -1248,12 +1758,26 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Weiters ein Antrag des Abgeordneten Philip Kucher , den Ausschuss für Wirtschaft, Industrie und Energie zu beauftragen, seine Arbeit hinsichtlich des Antrages 3437/A(E) während der tagungsfreien Zeit fortzusetzen.",
                   "timeStart": "187.040",
-                  "timeEnd": "201.360",
-                  "entities": []
+                  "timeEnd": "201.400",
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Weiters ein Antrag des Abgeordneten Philip Kucher , den Ausschuss für Wirtschaft, Industrie und Energie zu beauftragen, seine Arbeit hinsichtlich des Antrages 3437/A(E) während der tagungsfreien Zeit fortzusetzen."
@@ -1262,17 +1786,18 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –",
-                  "timeStart": "201.360",
-                  "timeEnd": "204.960",
+                  "timeStart": "201.400",
+                  "timeEnd": "205.000",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Minderheit, abgelehnt.",
-                  "timeStart": "204.960",
-                  "timeEnd": "208.320",
+                  "timeStart": "205.000",
+                  "timeEnd": "208.200",
                   "entities": []
                 }
               ],
@@ -1282,10 +1807,11 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag.",
-                  "timeStart": "208.320",
+                  "timeStart": "208.200",
                   "timeEnd": "212.680",
                   "entities": []
                 },
@@ -1293,13 +1819,33 @@
                   "text": "Hannes Amesbauer, BA , den Ausschuss für innere Angelegenheiten zu beauftragen, seine Arbeit während der tagungsfreien Zeit fortzusetzen. (",
                   "timeStart": "212.680",
                   "timeEnd": "221.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
                 },
                 {
                   "text": "Rufe bei der ÖVP: Ja, wo ist er denn?",
                   "timeStart": "221.120",
                   "timeEnd": "224.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "ÖVP",
+                      "wid": "Q186867",
+                      "wtype": "ORG",
+                      "score": 0.3832
+                    }
+                  ]
                 },
                 {
                   "text": "Ja, wo ist er denn, der Amesbauer? –",
@@ -1326,6 +1872,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich ersuche die Damen und Herren, die dem ihre Zustimmung geben, um ein dementsprechendes Zeichen. –",
@@ -1350,8 +1897,12 @@
         "stdId": 302412,
         "debatteId": 310,
         "proceedingIndex": 302412,
-        "alignDuration": 0.8900423049926758,
-        "nerDuration": 0.21517634391784668
+        "linkedMediaIndexes": [
+          2
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.8914909362792969,
+        "nerDuration": 0.34702157974243164
       },
       "originalLanguage": "de"
     },
@@ -1369,7 +1920,9 @@
       "speechIndex": 3,
       "agendaItem": {
         "officialTitle": "Abstimmung über einen Fristsetzungsantrag",
-        "title": "Abstimmung über einen Fristsetzungsantrag"
+        "title": "Abstimmung über einen Fristsetzungsantrag",
+        "type": "voting",
+        "nativeType": "AT-voting"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/9be225f0-b9b4-4d76-a46f-c79fd4460c18/hls/index.m3u8?startseconds=311&stopseconds=346",
@@ -1410,6 +1963,7 @@
               "type": "speech",
               "speaker": null,
               "speakerstatus": null,
+              "speakerID": null,
               "sentences": [
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
@@ -1424,28 +1978,36 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wir kommen nun zur Abstimmung über den vorliegenden Fristsetzungsantrag der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "3.700",
-                  "timeEnd": "11.600",
-                  "entities": []
+                  "timeEnd": "10.120",
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , dem Budgetausschuss zur Berichterstattung über den Antrag 3521/A eine Frist bis zum 10. Juli 2023 zu setzen. (",
-                  "timeStart": "11.600",
+                  "timeStart": "10.120",
                   "timeEnd": "25.000",
                   "entities": []
                 },
                 {
                   "text": "Unruhe im Saal.) –",
                   "timeStart": "25.000",
-                  "timeEnd": "26.200",
+                  "timeEnd": "26.240",
                   "entities": []
                 },
                 {
                   "text": "Dürfte ich bitten?",
-                  "timeStart": "26.200",
+                  "timeStart": "26.240",
                   "timeEnd": "27.720",
                   "entities": []
                 },
@@ -1462,16 +2024,17 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Wer dafür ist, den bitte ich um ein Zeichen der Zustimmung. –",
                   "timeStart": "29.520",
-                  "timeEnd": "32.680",
+                  "timeEnd": "32.640",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Mehrheit, angenommen.",
-                  "timeStart": "32.680",
+                  "timeStart": "32.640",
                   "timeEnd": "36.000",
                   "entities": []
                 }
@@ -1486,8 +2049,12 @@
         "stdId": 302416,
         "debatteId": 320,
         "proceedingIndex": 302416,
-        "alignDuration": 0.3269209861755371,
-        "nerDuration": 0.036550045013427734
+        "linkedMediaIndexes": [
+          3
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.4004848003387451,
+        "nerDuration": 0.05731606483459473
       },
       "originalLanguage": "de"
     },
@@ -1505,7 +2072,9 @@
       "speechIndex": 4,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/9be225f0-b9b4-4d76-a46f-c79fd4460c18/hls/index.m3u8?startseconds=346&stopseconds=409",
@@ -1546,11 +2115,12 @@
               "type": "speech",
               "speaker": null,
               "speakerstatus": null,
+              "speakerID": null,
               "sentences": [
                 {
                   "text": "Verlesung eines Teiles des Amtlichen Protokolls",
                   "timeStart": "1.000",
-                  "timeEnd": "1.720",
+                  "timeEnd": "1.480",
                   "entities": []
                 }
               ],
@@ -1560,17 +2130,18 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Es liegt mir das schriftliche Verlagen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2022/2023 der XXVII.",
-                  "timeStart": "1.720",
-                  "timeEnd": "14.840",
+                  "timeStart": "1.480",
+                  "timeEnd": "14.800",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt.",
-                  "timeStart": "14.840",
-                  "timeEnd": "21.920",
+                  "timeStart": "14.800",
+                  "timeEnd": "21.960",
                   "entities": []
                 }
               ],
@@ -1580,11 +2151,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich verlese:",
-                  "timeStart": "21.920",
-                  "timeEnd": "22.400",
+                  "timeStart": "21.960",
+                  "timeEnd": "22.360",
                   "entities": []
                 }
               ],
@@ -1594,29 +2166,30 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "„Auf Antrag der Abgeordneten Dipl.-Ing. Strasser, Mag.",
-                  "timeStart": "22.400",
-                  "timeEnd": "25.040",
+                  "timeStart": "22.360",
+                  "timeEnd": "24.400",
                   "entities": []
                 },
                 {
                   "text": "Dr. Schwarz, BA, Mag.",
-                  "timeStart": "25.040",
-                  "timeEnd": "26.560",
+                  "timeStart": "24.400",
+                  "timeEnd": "26.280",
                   "entities": []
                 },
                 {
                   "text": "Loacker und Mag.",
-                  "timeStart": "26.560",
-                  "timeEnd": "27.120",
+                  "timeStart": "26.280",
+                  "timeEnd": "27.080",
                   "entities": []
                 },
                 {
                   "text": "Stefan (Beilage I) fasst der Nationalrat nachstehenden Beschluss:",
-                  "timeStart": "27.120",
-                  "timeEnd": "30.680",
+                  "timeStart": "27.080",
+                  "timeEnd": "30.640",
                   "entities": []
                 }
               ],
@@ -1626,17 +2199,18 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "‚Der Herr Bundespräsident wird ersucht, die ordentliche Tagung 2022/2023 der XXVII.",
-                  "timeStart": "30.680",
+                  "timeStart": "30.640",
                   "timeEnd": "37.560",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 10. Juli 2023 für beendet zu erklären.‘“",
                   "timeStart": "37.560",
-                  "timeEnd": "45.560",
+                  "timeEnd": "45.600",
                   "entities": []
                 }
               ],
@@ -1646,17 +2220,18 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt dieses Teiles des Amtlichen Protokolls? –",
-                  "timeStart": "45.560",
+                  "timeStart": "45.600",
                   "timeEnd": "52.720",
                   "entities": []
                 },
                 {
                   "text": "Das ist nicht der Fall.",
                   "timeStart": "52.720",
-                  "timeEnd": "53.720",
+                  "timeEnd": "53.640",
                   "entities": []
                 }
               ],
@@ -1666,10 +2241,11 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.",
-                  "timeStart": "53.720",
+                  "timeStart": "53.640",
                   "timeEnd": "64.000",
                   "entities": []
                 }
@@ -1684,8 +2260,12 @@
         "stdId": 302417,
         "debatteId": 330,
         "proceedingIndex": 302417,
-        "alignDuration": 0.4021720886230469,
-        "nerDuration": 0.06243777275085449
+        "linkedMediaIndexes": [
+          4
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.4522726535797119,
+        "nerDuration": 0.09262442588806152
       },
       "originalLanguage": "de"
     },
@@ -1703,7 +2283,9 @@
       "speechIndex": 5,
       "agendaItem": {
         "officialTitle": "Schlussansprache des Präsidenten",
-        "title": "Schlussansprache des Präsidenten"
+        "title": "Schlussansprache des Präsidenten",
+        "type": "closing",
+        "nativeType": "AT-closing_address"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/9be225f0-b9b4-4d76-a46f-c79fd4460c18/hls/index.m3u8?startseconds=409&stopseconds=645",
@@ -1744,6 +2326,7 @@
               "type": "speech",
               "speaker": null,
               "speakerstatus": null,
+              "speakerID": null,
               "sentences": [
                 {
                   "text": "Schlussansprache des Präsidenten",
@@ -1758,11 +2341,24 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
-                  "text": "Ich darf zum Abschluss dieses Tagungsjahres, das sicherlich ein ganz besonderes für den Nationalrat und auch für den Bundesrat war – ein Tagungsjahr, wie es in der Zeit der Zweiten Republik, seit dem Entstehen des Nationalrates, selten vorkam –, noch einmal in Erinnerung rufen, was dieses Jahr alles mit sich gebracht hat.",
+                  "text": "Ich darf zum Abschluss dieses Tagungsjahres, das sicherlich ein ganz besonderes für den Nationalrat und auch für den Bundesrat war",
                   "timeStart": "2.640",
-                  "timeEnd": "23.600",
+                  "timeEnd": "10.140",
+                  "entities": []
+                },
+                {
+                  "text": "ein Tagungsjahr, wie es in der Zeit der Zweiten Republik, seit dem Entstehen des Nationalrates, selten vorkam",
+                  "timeStart": "10.140",
+                  "timeEnd": "19.360",
+                  "entities": []
+                },
+                {
+                  "text": "noch einmal in Erinnerung rufen, was dieses Jahr alles mit sich gebracht hat.",
+                  "timeStart": "19.360",
+                  "timeEnd": "23.560",
                   "entities": []
                 }
               ],
@@ -1772,12 +2368,20 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich glaube, wir haben die Hofburg schon weit hinter uns gelassen.",
-                  "timeStart": "23.600",
+                  "timeStart": "23.560",
                   "timeEnd": "28.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hofburg",
+                      "wid": "Q46242",
+                      "wtype": "LOC",
+                      "score": 0.3707
+                    }
+                  ]
                 },
                 {
                   "text": "Wir haben die Ausweichquartiere hinter uns gelassen und wir sind inzwischen auch mit dem Herzen ganz in dieses Haus übersiedelt.",
@@ -1798,6 +2402,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich darf mich vor allem bei den Klubs, bei den Mitarbeitern der Klubs und bei den parlamentarischen Mitarbeitern bedanken.",
@@ -1808,13 +2413,13 @@
                 {
                   "text": "Es ist gerade durch die Übersiedlung vieles notwendig geworden, um sich auf dieses Haus einzustellen. (",
                   "timeStart": "47.000",
-                  "timeEnd": "55.320",
+                  "timeEnd": "55.280",
                   "entities": []
                 },
                 {
                   "text": "Allgemeiner Beifall.)",
-                  "timeStart": "55.320",
-                  "timeEnd": "60.360",
+                  "timeStart": "55.280",
+                  "timeEnd": "60.200",
                   "entities": []
                 }
               ],
@@ -1824,23 +2429,24 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Mein besonderer Dank gilt den Mitgliedern der Präsidiale, meinen Präsidentenkolleg:innen Präsidentin Bures, Präsident Hofer und den Klubobleuten aller Fraktionen, die gerade in dieser Zeit sehr vieles auf den Weg gebracht haben – zum Schluss jetzt auch noch die Hausordnung.",
-                  "timeStart": "60.360",
+                  "timeStart": "60.200",
                   "timeEnd": "77.480",
                   "entities": []
                 },
                 {
                   "text": "Vielen herzlichen Dank für Ihre/eure Unterstützung! (",
                   "timeStart": "77.480",
-                  "timeEnd": "82.320",
+                  "timeEnd": "81.620",
                   "entities": []
                 },
                 {
                   "text": "Allgemeiner Beifall.)",
-                  "timeStart": "82.320",
-                  "timeEnd": "89.000",
+                  "timeStart": "81.620",
+                  "timeEnd": "82.520",
                   "entities": []
                 }
               ],
@@ -1850,11 +2456,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich darf mich beim Rechnungshof, bei der Volksanwaltschaft und auch bei der Regierung und ihren Mitarbeitern für die Kooperation bedanken.",
-                  "timeStart": "89.000",
-                  "timeEnd": "98.880",
+                  "timeStart": "82.520",
+                  "timeEnd": "98.560",
                   "entities": []
                 }
               ],
@@ -1864,22 +2471,23 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Insbesondere – die Arbeit ist für sie in dieser Tagungsperiode noch nicht zu Ende – darf ich mich aber bei unseren Mitarbeitern im Haus bedanken.",
-                  "timeStart": "98.880",
-                  "timeEnd": "110.280",
+                  "timeStart": "98.560",
+                  "timeEnd": "110.600",
                   "entities": []
                 },
                 {
                   "text": "Es beginnt bei Direktor Dr. Dossi und geht bis zur Reinigungskraft.",
-                  "timeStart": "110.280",
-                  "timeEnd": "116.240",
+                  "timeStart": "110.600",
+                  "timeEnd": "116.160",
                   "entities": []
                 },
                 {
                   "text": "Es ist ein ungeheuer breites Feld, das unsere Mitarbeiter abdecken, auch jene, die hier extern Arbeit verrichten.",
-                  "timeStart": "116.240",
+                  "timeStart": "116.160",
                   "timeEnd": "124.000",
                   "entities": []
                 },
@@ -1896,6 +2504,7 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Dieses Haus hat sich ja durch die Rückkehr vollkommen geändert.",
@@ -1906,24 +2515,24 @@
                 {
                   "text": "Es ist stets von 9 Uhr bis 18 Uhr geöffnet, am Donnerstag bis 21 Uhr.",
                   "timeStart": "146.000",
-                  "timeEnd": "150.480",
+                  "timeEnd": "150.360",
                   "entities": []
                 },
                 {
                   "text": "Wir sind im wahrsten Sinn des Wortes ein Haus des Dialogs und der Begegnung geworden.",
-                  "timeStart": "150.480",
-                  "timeEnd": "155.680",
+                  "timeStart": "150.360",
+                  "timeEnd": "155.640",
                   "entities": []
                 },
                 {
                   "text": "Vielen herzlichen Dank für Ihre/eure Arbeit und – um da noch etwas draufzusetzen – ein ganz besonderes Dankeschön dem Nationalratsdienst für seine Arbeit. (",
-                  "timeStart": "155.680",
-                  "timeEnd": "166.120",
+                  "timeStart": "155.640",
+                  "timeEnd": "165.360",
                   "entities": []
                 },
                 {
                   "text": "Allgemeiner Beifall.)",
-                  "timeStart": "166.120",
+                  "timeStart": "165.360",
                   "timeEnd": "176.520",
                   "entities": []
                 }
@@ -1934,16 +2543,17 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich darf mich auch bei unseren Zusehern zu Hause beziehungsweise auf der Galerie – jetzt sind nur mehr wenige hier – stellvertretend für alle bedanken.",
                   "timeStart": "176.520",
-                  "timeEnd": "186.080",
+                  "timeEnd": "186.120",
                   "entities": []
                 },
                 {
                   "text": "Es sind in diesem halben Jahr über 3 000 Leute pro Tag zugegen gewesen, es sind insgesamt 250 000 Besucher:innen auf der Galerie oder in unserem Besucherzentrum gewesen.",
-                  "timeStart": "186.080",
+                  "timeStart": "186.120",
                   "timeEnd": "201.000",
                   "entities": []
                 },
@@ -1966,16 +2576,17 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Ich denke, wir sollten allesamt dementsprechend einen Beitrag leisten – auch zum Ausklang –, um eine Stimmung zu gewähren, die es ermöglicht, dass wir in den Sommermonaten auftanken, damit wir mit neuer Kraft und neuem Mut im September wiederkommen.",
                   "timeStart": "204.160",
-                  "timeEnd": "222.640",
+                  "timeEnd": "222.680",
                   "entities": []
                 },
                 {
                   "text": "Das wünsche ich Ihnen und auch Ihren Familienmitgliedern, die gerade heuer vielleicht das eine oder andere mitzutragen hatten.",
-                  "timeStart": "222.640",
+                  "timeStart": "222.680",
                   "timeEnd": "229.680",
                   "entities": []
                 },
@@ -1996,8 +2607,12 @@
         "stdId": 302418,
         "debatteId": 340,
         "proceedingIndex": 302418,
-        "alignDuration": 0.7308328151702881,
-        "nerDuration": 0.16295504570007324
+        "linkedMediaIndexes": [
+          5
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.8265135288238525,
+        "nerDuration": 0.20196104049682617
       },
       "originalLanguage": "de"
     },
@@ -2015,7 +2630,9 @@
       "speechIndex": 6,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/9be225f0-b9b4-4d76-a46f-c79fd4460c18/hls/index.m3u8?startseconds=645&stopseconds=679",
@@ -2056,11 +2673,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 20. September 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
                   "timeStart": "1.000",
-                  "timeEnd": "10.280",
+                  "timeEnd": "13.360",
                   "entities": []
                 }
               ],
@@ -2070,11 +2688,12 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Weiters darf ich bekannt geben, dass nach Ende dieser Sitzung der Hauptausschuss im Lokal 5 zusammentreten wird.",
-                  "timeStart": "10.280",
-                  "timeEnd": "17.800",
+                  "timeStart": "13.360",
+                  "timeEnd": "28.980",
                   "entities": []
                 }
               ],
@@ -2084,16 +2703,17 @@
               "type": "speech",
               "speaker": "Wolfgang Sobotka",
               "speakerstatus": "Präsident",
+              "speakerID": "88386",
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen. (",
-                  "timeStart": "17.800",
-                  "timeEnd": "19.880",
+                  "timeStart": "28.980",
+                  "timeEnd": "30.780",
                   "entities": []
                 },
                 {
                   "text": "Allgemeiner Beifall.)",
-                  "timeStart": "19.880",
+                  "timeStart": "33.800",
                   "timeEnd": "33.960",
                   "entities": []
                 }
@@ -2108,8 +2728,12 @@
         "stdId": 302419,
         "debatteId": 350,
         "proceedingIndex": 302419,
-        "alignDuration": 0.3108961582183838,
-        "nerDuration": 0.020426034927368164
+        "linkedMediaIndexes": [
+          6
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.36058497428894043,
+        "nerDuration": 0.021587133407592773
       },
       "originalLanguage": "de"
     }

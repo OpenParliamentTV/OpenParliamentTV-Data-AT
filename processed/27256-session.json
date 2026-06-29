@@ -5,11 +5,12 @@
     "dateStart": "2024-03-20T21:32:46",
     "dateEnd": "2024-03-20T21:33:27",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-26T21:24:11",
+    "lastUpdate": "2026-06-28T14:20:03",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "align": "2026-06-26T21:24:11",
-      "ner": "2026-06-28T03:31:15"
+      "align": "2026-06-28T14:20:03",
+      "ner": "2026-06-28T16:25:19",
+      "nel": "2026-06-28T07:25:37"
     }
   },
   "data": [
@@ -86,14 +87,21 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
                   "timeStart": "1.820",
-                  "timeEnd": "2.160",
+                  "timeEnd": "2.040",
                   "entities": []
                 },
                 {
                   "text": "Johanna Jachs , Mag.",
-                  "timeStart": "2.160",
+                  "timeStart": "2.040",
                   "timeEnd": "2.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.9911
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Maria Theresia Niss, MBA , MMag.",
@@ -105,13 +113,45 @@
                   "text": "Dr. Agnes Totter, BEd , Wolfgang Zanger , Mag.",
                   "timeStart": "2.960",
                   "timeEnd": "3.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "BEd",
+                      "wid": "Q1837914",
+                      "wtype": "PER",
+                      "score": 0.3222
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    }
+                  ]
                 },
                 {
                   "text": "Ulrike Fischer , Heike Grebien , Dr. Helmut Brandstätter und Dr. Johannes Margreiter .",
                   "timeStart": "3.240",
                   "timeEnd": "4.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ulrike Fischer",
+                      "wid": "Q72072449",
+                      "wtype": "PER",
+                      "score": 0.8662
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Johanna Jachs , Mag. Dr. Maria Theresia Niss, MBA , MMag. Dr. Agnes Totter, BEd , Wolfgang Zanger , Mag. Ulrike Fischer , Heike Grebien , Dr. Helmut Brandstätter und Dr. Johannes Margreiter ."
@@ -166,7 +206,7 @@
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
                   "timeStart": "5.520",
-                  "timeEnd": "6.320",
+                  "timeEnd": "5.880",
                   "entities": []
                 }
               ],
@@ -179,8 +219,8 @@
               "sentences": [
                 {
                   "text": "Regierungsvorlagen:",
-                  "timeStart": "6.320",
-                  "timeEnd": "7.000",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.000",
                   "entities": []
                 }
               ],
@@ -193,8 +233,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Funkanlagen-Marktüberwachungs-Gesetz und das Postmarktgesetz geändert werden ( 2502 d.B. )",
-                  "timeStart": "7.000",
-                  "timeEnd": "8.780",
+                  "timeStart": "6.000",
+                  "timeEnd": "7.000",
                   "entities": []
                 }
               ],
@@ -207,8 +247,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Psychotherapiegesetz 2024 (PThG 2024) erlassen sowie das Musiktherapiegesetz und das Psychologengesetz 2013 geändert werden ( 2503 d.B. )",
-                  "timeStart": "8.780",
-                  "timeEnd": "10.600",
+                  "timeStart": "7.000",
+                  "timeEnd": "10.040",
                   "entities": []
                 }
               ],
@@ -221,8 +261,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Universitätsgesetz 2002, das Hochschulgesetz 2005, das Hochschul-Qualitätssicherungsgesetz, das Fachhochschulgesetz, das Privathochschulgesetz und das Waldfondsgesetz geändert werden ( 2504 d.B. )",
-                  "timeStart": "10.600",
-                  "timeEnd": "12.320",
+                  "timeStart": "10.040",
+                  "timeEnd": "12.280",
                   "entities": []
                 }
               ],
@@ -235,8 +275,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen:",
-                  "timeStart": "12.320",
-                  "timeEnd": "13.060",
+                  "timeStart": "12.280",
+                  "timeEnd": "12.320",
                   "entities": []
                 }
               ],
@@ -249,7 +289,7 @@
               "sentences": [
                 {
                   "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:",
-                  "timeStart": "13.060",
+                  "timeStart": "12.320",
                   "timeEnd": "13.720",
                   "entities": []
                 }
@@ -278,12 +318,12 @@
                 {
                   "text": "Petition betreffend \"Pflege daheim darf nicht finanzielle Strafe sein!\",",
                   "timeStart": "13.720",
-                  "timeEnd": "13.800",
+                  "timeEnd": "13.880",
                   "entities": []
                 },
                 {
                   "text": "überreicht vom Abgeordneten Mag.",
-                  "timeStart": "13.800",
+                  "timeStart": "13.880",
                   "timeEnd": "14.000",
                   "entities": []
                 },
@@ -291,7 +331,20 @@
                   "text": "Christian Ragger ( 141/PET )",
                   "timeStart": "14.000",
                   "timeEnd": "14.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "PET",
+                      "wid": "Q145863",
+                      "wtype": "MISC",
+                      "score": 0.1611
+                    }
+                  ]
                 }
               ],
               "text": "Petition betreffend \"Pflege daheim darf nicht finanzielle Strafe sein!\", überreicht vom Abgeordneten Mag. Christian Ragger ( 141/PET )"
@@ -304,7 +357,7 @@
                 {
                   "text": "2. Zuweisungen in dieser Sitzung:",
                   "timeStart": "14.200",
-                  "timeEnd": "14.600",
+                  "timeEnd": "14.640",
                   "entities": []
                 }
               ],
@@ -317,8 +370,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "14.600",
-                  "timeEnd": "14.640",
+                  "timeStart": "14.640",
+                  "timeEnd": "14.880",
                   "entities": []
                 }
               ],
@@ -331,8 +384,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "14.640",
-                  "timeEnd": "15.000",
+                  "timeStart": "14.880",
+                  "timeEnd": "15.160",
                   "entities": []
                 }
               ],
@@ -345,9 +398,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Neutralität sichern, aktive Friedenspolitik betreiben ( 3954/A(E) )",
-                  "timeStart": "15.000",
+                  "timeStart": "15.160",
                   "timeEnd": "16.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Neutralität sichern, aktive Friedenspolitik betreiben ( 3954/A(E) )"
@@ -360,13 +426,26 @@
                 {
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend die geflüchteten Frauen und Kinder aus der Region Bergkarabach dürfen nicht vergessen werden! (",
                   "timeStart": "16.120",
-                  "timeEnd": "17.480",
-                  "entities": []
+                  "timeEnd": "17.640",
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Bergkarabach",
+                      "wid": "Q44302",
+                      "wtype": "LOC",
+                      "score": 0.2118
+                    }
+                  ]
                 },
                 {
                   "text": "3955/A(E) )",
-                  "timeStart": "17.480",
-                  "timeEnd": "17.640",
+                  "timeStart": "17.640",
+                  "timeEnd": "17.720",
                   "entities": []
                 }
               ],
@@ -379,9 +458,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3957/A(E) )",
-                  "timeStart": "17.640",
+                  "timeStart": "17.720",
                   "timeEnd": "17.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Russischen Föderation",
+                      "wid": "Q159",
+                      "wtype": "LOC",
+                      "score": 0.9535
+                    },
+                    {
+                      "label": "Republik Österreich",
+                      "wid": "Q187830",
+                      "wtype": "LOC",
+                      "score": 0.3428
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3957/A(E) )"
@@ -395,7 +499,20 @@
                   "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend \"Strengere Exportkontrollen für Kriegswaffen und effektive Reglementierung der Rüstungs-Lobbies\" ( 3973/A(E) )",
                   "timeStart": "17.720",
                   "timeEnd": "17.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Robert Laimer",
+                      "wid": "Q42857692",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend \"Strengere Exportkontrollen für Kriegswaffen und effektive Reglementierung der Rüstungs-Lobbies\" ( 3973/A(E) )"
@@ -429,7 +546,20 @@
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend ein umfassendes Maßnahmenpaket für leistbares Wohnen ( 3961/A(E) )",
                   "timeStart": "18.000",
                   "timeEnd": "18.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.982
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend ein umfassendes Maßnahmenpaket für leistbares Wohnen ( 3961/A(E) )"
@@ -457,7 +587,20 @@
                   "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekengesetz geändert wird ( 3960/A )",
                   "timeStart": "18.160",
                   "timeEnd": "19.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "Apothekengesetz",
+                      "wid": "Q620546",
+                      "wtype": "MISC",
+                      "score": 0.8372
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekengesetz geändert wird ( 3960/A )"
@@ -485,7 +628,20 @@
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Tracking von verurteilten Gewalttätern ( 3966/A(E) )",
                   "timeStart": "19.360",
                   "timeEnd": "20.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Tracking von verurteilten Gewalttätern ( 3966/A(E) )"
@@ -513,7 +669,20 @@
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Tracking von verurteilten Gewalttätern ( 3965/A(E) )",
                   "timeStart": "20.880",
                   "timeEnd": "20.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Tracking von verurteilten Gewalttätern ( 3965/A(E) )"
@@ -527,7 +696,26 @@
                   "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Bundesgesetz vom 20. Oktober 1988 über die Rechtspflege bei Straftaten Jugendlicher und junger Erwachsener (Jugendgerichtsgesetz 1988 – JGG), BGBI.",
                   "timeStart": "20.920",
                   "timeEnd": "20.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    },
+                    {
+                      "label": "Jugendgerichtsgesetz",
+                      "wid": "Q1711300",
+                      "wtype": "MISC",
+                      "score": 0.3721
+                    },
+                    {
+                      "label": "JGG",
+                      "wid": "Q1711300",
+                      "wtype": "MISC",
+                      "score": 0.3379
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 599/1988, geändert wird ( 3967/A )",
@@ -552,13 +740,20 @@
                 {
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend \"Schwarz-blaue Fehler reparieren, Bevölkerung wirksam vor Gewalt schützen und Täterkarrieren stoppen!\" (",
                   "timeStart": "20.920",
-                  "timeEnd": "21.160",
-                  "entities": []
+                  "timeEnd": "21.120",
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    }
+                  ]
                 },
                 {
                   "text": "3972/A(E) )",
-                  "timeStart": "21.160",
-                  "timeEnd": "21.840",
+                  "timeStart": "21.120",
+                  "timeEnd": "21.600",
                   "entities": []
                 }
               ],
@@ -571,7 +766,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "21.840",
+                  "timeStart": "21.600",
                   "timeEnd": "22.160",
                   "entities": []
                 }
@@ -586,8 +781,27 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Gudrun Kugler , Dr. Ewa Ernst-Dziedzic , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Rückkehr entführter ukrainischer Kinder ( 3974/A(E) )",
                   "timeStart": "22.160",
-                  "timeEnd": "23.920",
-                  "entities": []
+                  "timeEnd": "24.360",
+                  "entities": [
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "ukrainischer",
+                      "wid": "Q212",
+                      "wtype": "MISC",
+                      "score": 0.326
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Gudrun Kugler , Dr. Ewa Ernst-Dziedzic , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Rückkehr entführter ukrainischer Kinder ( 3974/A(E) )"
@@ -599,9 +813,16 @@
               "sentences": [
                 {
                   "text": "Tourismusausschuss:",
-                  "timeStart": "23.920",
-                  "timeEnd": "23.920",
-                  "entities": []
+                  "timeStart": "24.360",
+                  "timeEnd": "24.440",
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -613,9 +834,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Installierung eines Sozial-, Aus- und Weiterbildungsfonds für Tourismusbeschäftige ( 3962/A(E) )",
-                  "timeStart": "23.920",
-                  "timeEnd": "25.200",
-                  "entities": []
+                  "timeStart": "24.440",
+                  "timeEnd": "26.000",
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.9752
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Installierung eines Sozial-, Aus- und Weiterbildungsfonds für Tourismusbeschäftige ( 3962/A(E) )"
@@ -627,9 +861,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend \"Dienstwohnungen im Tourismus\" ( 3963/A(E) )",
-                  "timeStart": "25.200",
-                  "timeEnd": "25.800",
-                  "entities": []
+                  "timeStart": "26.000",
+                  "timeEnd": "27.120",
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.9752
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend \"Dienstwohnungen im Tourismus\" ( 3963/A(E) )"
@@ -641,9 +888,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Übergriffe am Arbeitsplatz im Tourismus ( 3964/A(E) )",
-                  "timeStart": "25.800",
-                  "timeEnd": "27.120",
-                  "entities": []
+                  "timeStart": "27.120",
+                  "timeEnd": "27.800",
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.9752
+                    },
+                    {
+                      "label": "Arbeitsplatz",
+                      "wid": "Q628858",
+                      "wtype": "LOC",
+                      "score": 0.1807
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Übergriffe am Arbeitsplatz im Tourismus ( 3964/A(E) )"
@@ -655,20 +921,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "27.120",
-                  "timeEnd": "27.240",
-                  "entities": []
-                },
-                {
-                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Förderchaos im Sinne der Tourismusbetriebe umgehend beenden! (",
-                  "timeStart": "27.240",
+                  "timeStart": "27.800",
                   "timeEnd": "28.660",
                   "entities": []
                 },
                 {
-                  "text": "3968/A(E) )",
+                  "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Förderchaos im Sinne der Tourismusbetriebe umgehend beenden! (",
                   "timeStart": "28.660",
-                  "timeEnd": "29.280",
+                  "timeEnd": "29.480",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
+                },
+                {
+                  "text": "3968/A(E) )",
+                  "timeStart": "29.480",
+                  "timeEnd": "29.720",
                   "entities": []
                 }
               ],
@@ -681,8 +954,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "29.280",
-                  "timeEnd": "29.480",
+                  "timeStart": "29.720",
+                  "timeEnd": "30.000",
                   "entities": []
                 }
               ],
@@ -695,15 +968,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "29.480",
-                  "timeEnd": "29.480",
+                  "timeStart": "30.000",
+                  "timeEnd": "30.440",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Informatik in der AHS-Oberstufe ausbauen und aufwerten ( 3956/A(E) )",
-                  "timeStart": "29.480",
-                  "timeEnd": "30.640",
-                  "entities": []
+                  "timeStart": "30.440",
+                  "timeEnd": "31.000",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9511
+                    },
+                    {
+                      "label": "AHS-Oberstufe",
+                      "wid": "Q701306",
+                      "wtype": "MISC",
+                      "score": 0.8787
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Informatik in der AHS-Oberstufe ausbauen und aufwerten ( 3956/A(E) )"
@@ -715,9 +1007,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Datenerhebung zu Kindern mit Behinderung in elementarpädagogischen Einrichtungen\" ( 3970/A(E) )",
-                  "timeStart": "30.640",
-                  "timeEnd": "31.000",
-                  "entities": []
+                  "timeStart": "31.000",
+                  "timeEnd": "31.760",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Datenerhebung zu Kindern mit Behinderung in elementarpädagogischen Einrichtungen\" ( 3970/A(E) )"
@@ -729,14 +1034,14 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend \"Anti- Teuerungsmaßnahmen im Bildungsbereich!\" (",
-                  "timeStart": "31.000",
-                  "timeEnd": "31.360",
+                  "timeStart": "31.760",
+                  "timeEnd": "32.720",
                   "entities": []
                 },
                 {
                   "text": "3971/A(E) )",
-                  "timeStart": "31.360",
-                  "timeEnd": "32.400",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.800",
                   "entities": []
                 }
               ],
@@ -749,7 +1054,7 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "32.400",
+                  "timeStart": "32.800",
                   "timeEnd": "32.880",
                   "entities": []
                 }
@@ -765,7 +1070,32 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Echte Entpolitisierung statt Minimalkompromiss – Rasche nationale Umsetzung der für den ORF relevanten Punkte im EMFA ( 3958/A(E) )",
                   "timeStart": "32.880",
                   "timeEnd": "34.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "ORF",
+                      "wid": "Q262386",
+                      "wtype": "ORG",
+                      "score": 0.8136
+                    },
+                    {
+                      "label": "EMFA",
+                      "wid": "Q1376782",
+                      "wtype": "MISC",
+                      "score": 0.1278
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Echte Entpolitisierung statt Minimalkompromiss – Rasche nationale Umsetzung der für den ORF relevanten Punkte im EMFA ( 3958/A(E) )"
@@ -778,8 +1108,21 @@
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbot von Regierungsinseraten in Parteimedien ( 3959/A(E) )",
                   "timeStart": "34.360",
-                  "timeEnd": "34.760",
-                  "entities": []
+                  "timeEnd": "35.000",
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbot von Regierungsinseraten in Parteimedien ( 3959/A(E) )"
@@ -791,7 +1134,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 21. März 2024, 9 Uhr, ein.",
-                  "timeStart": "34.760",
+                  "timeStart": "35.000",
                   "timeEnd": "35.280",
                   "entities": []
                 }
@@ -848,8 +1191,8 @@
         "stdId": 318956,
         "debatteId": 300,
         "proceedingIndex": 318956,
-        "alignDuration": 0.7544851303100586,
-        "nerDuration": 0.33039307594299316
+        "alignDuration": 0.8151187896728516,
+        "nerDuration": 0.6911571025848389
       },
       "originalLanguage": "de"
     }

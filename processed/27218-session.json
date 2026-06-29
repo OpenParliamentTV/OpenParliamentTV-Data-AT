@@ -5,11 +5,12 @@
     "dateStart": "2023-06-01T16:55:07",
     "dateEnd": "2023-06-01T16:56:52",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T01:43:13",
+    "lastUpdate": "2026-06-28T13:29:52",
     "processing": {
       "merge": "2026-06-16T04:24:07+00:00",
-      "align": "2026-06-25T01:43:13",
-      "ner": "2026-06-28T03:19:17"
+      "align": "2026-06-28T13:29:52",
+      "ner": "2026-06-28T16:08:01",
+      "nel": "2026-06-28T07:25:34"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "16.55.01*****",
                   "timeStart": "1.000",
-                  "timeEnd": "1.560",
+                  "timeEnd": "1.800",
                   "entities": []
                 }
               ],
@@ -85,8 +86,8 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist eröffnet.",
-                  "timeStart": "1.560",
-                  "timeEnd": "1.840",
+                  "timeStart": "1.800",
+                  "timeEnd": "2.200",
                   "entities": []
                 }
               ],
@@ -99,51 +100,191 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Lukas Brandweiner , Hans Stefan Hintner , Martina Kaufmann, MMSc BA , Mag.",
-                  "timeStart": "1.840",
-                  "timeEnd": "3.000",
-                  "entities": []
+                  "timeStart": "2.200",
+                  "timeEnd": "3.120",
+                  "entities": [
+                    {
+                      "label": "Lukas Brandweiner",
+                      "wid": "Q64576545",
+                      "wtype": "PER",
+                      "score": 0.9863
+                    },
+                    {
+                      "label": "Hans Stefan Hintner",
+                      "wid": "Q1582619",
+                      "wtype": "PER",
+                      "score": 0.9861
+                    },
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    }
+                  ]
                 },
                 {
                   "text": "Elisabeth Scheucher-Pichler , Mag.",
-                  "timeStart": "3.000",
+                  "timeStart": "3.120",
                   "timeEnd": "3.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9924
+                    }
+                  ]
                 },
                 {
                   "text": "Maria Smodics-Neumann , Maximilian Köllner, MA , Mag.",
                   "timeStart": "3.560",
-                  "timeEnd": "4.560",
-                  "entities": []
+                  "timeEnd": "4.760",
+                  "entities": [
+                    {
+                      "label": "Maria Smodics-Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.9803
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Verena Nussbaum , Rudolf Silvan , Mag.",
-                  "timeStart": "4.560",
-                  "timeEnd": "4.720",
-                  "entities": []
+                  "timeStart": "4.760",
+                  "timeEnd": "5.320",
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.978
+                    },
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    }
+                  ]
                 },
                 {
                   "text": "Selma Yildirim , Dr. Dagmar Belakowitsch , Mag.",
-                  "timeStart": "4.720",
+                  "timeStart": "5.320",
                   "timeEnd": "5.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Dagmar Belakowitsch",
+                      "wid": "Q90426",
+                      "wtype": "PER",
+                      "score": 0.9855
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Martin Graf , Christian Hafenecker, MA , Wolfgang Zanger , Hermann Weratschnig, MBA MSc , Süleyman Zorba , Dr. Helmut Brandstätter , Mag.",
                   "timeStart": "5.640",
-                  "timeEnd": "8.040",
-                  "entities": []
+                  "timeEnd": "8.240",
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.9059
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    }
+                  ]
                 },
                 {
                   "text": "Martina Künsberg Sarre und Mag.",
-                  "timeStart": "8.040",
-                  "timeEnd": "8.320",
-                  "entities": []
+                  "timeStart": "8.240",
+                  "timeEnd": "9.120",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "LOC",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Julia Seidl .",
-                  "timeStart": "8.320",
-                  "timeEnd": "8.480",
-                  "entities": []
+                  "timeStart": "9.120",
+                  "timeEnd": "9.400",
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Lukas Brandweiner , Hans Stefan Hintner , Martina Kaufmann, MMSc BA , Mag. Elisabeth Scheucher-Pichler , Mag. Maria Smodics-Neumann , Maximilian Köllner, MA , Mag. Verena Nussbaum , Rudolf Silvan , Mag. Selma Yildirim , Dr. Dagmar Belakowitsch , Mag. Dr. Martin Graf , Christian Hafenecker, MA , Wolfgang Zanger , Hermann Weratschnig, MBA MSc , Süleyman Zorba , Dr. Helmut Brandstätter , Mag. Martina Künsberg Sarre und Mag. Julia Seidl ."
@@ -155,8 +296,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "8.480",
-                  "timeEnd": "9.200",
+                  "timeStart": "9.400",
+                  "timeEnd": "9.440",
                   "entities": []
                 }
               ],
@@ -169,8 +310,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "9.200",
-                  "timeEnd": "12.160",
+                  "timeStart": "9.440",
+                  "timeEnd": "12.360",
                   "entities": []
                 }
               ],
@@ -183,8 +324,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "12.160",
-                  "timeEnd": "12.720",
+                  "timeStart": "12.360",
+                  "timeEnd": "13.080",
                   "entities": []
                 }
               ],
@@ -197,8 +338,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "12.720",
-                  "timeEnd": "12.880",
+                  "timeStart": "13.080",
+                  "timeEnd": "13.480",
                   "entities": []
                 }
               ],
@@ -211,8 +352,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "12.880",
-                  "timeEnd": "13.120",
+                  "timeStart": "13.480",
+                  "timeEnd": "14.120",
                   "entities": []
                 }
               ],
@@ -225,32 +366,12 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
-                  "timeStart": "13.120",
-                  "timeEnd": "13.600",
-                  "entities": []
-                }
-              ],
-              "text": "Ausschuss für Bauten und Wohnen:"
-            },
-            {
-              "type": "speech",
-              "speaker": "Norbert Hofer",
-              "speakerstatus": "Präsident",
-              "sentences": [
-                {
-                  "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "13.600",
-                  "timeEnd": "14.120",
-                  "entities": []
-                },
-                {
-                  "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Mietenstopp jetzt ( 3431/A(E) )",
                   "timeStart": "14.120",
                   "timeEnd": "14.640",
                   "entities": []
                 }
               ],
-              "text": "Antrag der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Mietenstopp jetzt ( 3431/A(E) )"
+              "text": "Ausschuss für Bauten und Wohnen:"
             },
             {
               "type": "speech",
@@ -264,10 +385,68 @@
                   "entities": []
                 },
                 {
-                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietenstopp statt ÖVP-Klientelpolitik für Vermieter ( 3432/A(E) )",
+                  "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Mietenstopp jetzt ( 3431/A(E) )",
                   "timeStart": "15.160",
-                  "timeEnd": "18.600",
+                  "timeEnd": "18.040",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.9781
+                    },
+                    {
+                      "label": "Mietenstopp",
+                      "wid": "Q17078081",
+                      "wtype": "LOC",
+                      "score": 0.5769
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
+                }
+              ],
+              "text": "Antrag der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Mietenstopp jetzt ( 3431/A(E) )"
+            },
+            {
+              "type": "speech",
+              "speaker": "Norbert Hofer",
+              "speakerstatus": "Präsident",
+              "sentences": [
+                {
+                  "text": "Antrag der Abgeordneten Mag.",
+                  "timeStart": "18.040",
+                  "timeEnd": "18.360",
                   "entities": []
+                },
+                {
+                  "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietenstopp statt ÖVP-Klientelpolitik für Vermieter ( 3432/A(E) )",
+                  "timeStart": "18.360",
+                  "timeEnd": "18.600",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Mietenstopp",
+                      "wid": "Q17078081",
+                      "wtype": "LOC",
+                      "score": 0.5769
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietenstopp statt ÖVP-Klientelpolitik für Vermieter ( 3432/A(E) )"
@@ -280,7 +459,7 @@
                 {
                   "text": "Ausschuss für Familie und Jugend:",
                   "timeStart": "18.600",
-                  "timeEnd": "19.200",
+                  "timeEnd": "19.280",
                   "entities": []
                 }
               ],
@@ -293,15 +472,35 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Norbert Sieber , Mag.",
-                  "timeStart": "19.200",
-                  "timeEnd": "20.360",
-                  "entities": []
+                  "timeStart": "19.280",
+                  "timeEnd": "20.400",
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Norbert Sieber",
+                      "wid": "Q1997216",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über einen Ausgleich inflationsbedingt hoher Lebenshaltungs- und Wohnkosten (Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz-LWA-G) geändert wird ( 3430/A )",
-                  "timeStart": "20.360",
+                  "timeStart": "20.400",
                   "timeEnd": "23.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Norbert Sieber , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über einen Ausgleich inflationsbedingt hoher Lebenshaltungs- und Wohnkosten (Lebenshaltungs- und Wohnkosten-Ausgleichs-Gesetz-LWA-G) geändert wird ( 3430/A )"
@@ -329,7 +528,26 @@
                   "text": "Bundesgesetz, mit dem das Apothekengesetz und das Arzneimittelgesetz geändert werden ( 2053 d.B. )",
                   "timeStart": "23.160",
                   "timeEnd": "23.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Apothekengesetz",
+                      "wid": "Q620546",
+                      "wtype": "MISC",
+                      "score": 0.861
+                    },
+                    {
+                      "label": "Arzneimittelgesetz",
+                      "wid": "Q718685",
+                      "wtype": "MISC",
+                      "score": 0.7592
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Apothekengesetz und das Arzneimittelgesetz geändert werden ( 2053 d.B. )"
@@ -356,13 +574,13 @@
                 {
                   "text": "Antrag der Abgeordneten Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Personalengpass bei der Polizei – verbessern wir endlich die Arbeitsbedingungen! (",
                   "timeStart": "24.040",
-                  "timeEnd": "24.960",
+                  "timeEnd": "26.920",
                   "entities": []
                 },
                 {
                   "text": "3435/A(E) )",
-                  "timeStart": "24.960",
-                  "timeEnd": "26.880",
+                  "timeStart": "26.920",
+                  "timeEnd": "28.280",
                   "entities": []
                 }
               ],
@@ -375,8 +593,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "26.880",
-                  "timeEnd": "26.880",
+                  "timeStart": "28.280",
+                  "timeEnd": "28.760",
                   "entities": []
                 }
               ],
@@ -389,19 +607,38 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend die Implementierung einer sicherheitsbehördlichen Befugnis im § 39b Unterbringungsgesetz (UbG), um Opfern von Gewalt in der Privatsphäre i.S.d. §",
-                  "timeStart": "26.880",
+                  "timeStart": "28.760",
                   "timeEnd": "31.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9362
+                    },
+                    {
+                      "label": "Unterbringungsgesetz",
+                      "wid": "Q19971513",
+                      "wtype": "MISC",
+                      "score": 0.1561
+                    },
+                    {
+                      "label": "UbG",
+                      "wid": "Q17071713",
+                      "wtype": "MISC",
+                      "score": 0.129
+                    }
+                  ]
                 },
                 {
                   "text": "38a SPG bzw. Antragsteller von einstweiligen Verfügungen n.d. §§",
                   "timeStart": "31.600",
-                  "timeEnd": "32.560",
+                  "timeEnd": "32.600",
                   "entities": []
                 },
                 {
                   "text": "382b, 382c und 382d Exekutionsordnung im Sinne eines umfassenden Opferschutzes Informationen über den Verbleib des Gefährders zukommen zu lassen, wenn dieser als Patient nach § 8 oder § 9UbG in einer geschlossenen Anstalt aufgenommen wurde. (",
-                  "timeStart": "32.560",
+                  "timeStart": "32.600",
                   "timeEnd": "38.960",
                   "entities": []
                 },
@@ -450,7 +687,7 @@
                 {
                   "text": "Fristsetzungsanträge",
                   "timeStart": "42.600",
-                  "timeEnd": "42.600",
+                  "timeEnd": "42.800",
                   "entities": []
                 }
               ],
@@ -463,8 +700,8 @@
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass die folgenden Fristsetzungsanträge vorliegen:",
-                  "timeStart": "42.600",
-                  "timeEnd": "43.200",
+                  "timeStart": "42.800",
+                  "timeEnd": "42.920",
                   "entities": []
                 }
               ],
@@ -477,7 +714,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Sieber, Koza, Kolleginnen und Kollegen, dem Ausschuss für Familie und Jugend zur Berichterstattung über den Antrag 3430/A eine Frist bis 13. Juni 2023 zu setzen, sowie",
-                  "timeStart": "43.200",
+                  "timeStart": "42.920",
                   "timeEnd": "46.320",
                   "entities": []
                 }
@@ -493,7 +730,14 @@
                   "text": "Antrag der Abgeordneten Kickl, Kolleginnen und Kollegen, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3066/A eine Frist bis 2. Juni 2023 zu setzen.",
                   "timeStart": "46.320",
                   "timeEnd": "48.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.3233
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Kickl, Kolleginnen und Kollegen, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3066/A eine Frist bis 2. Juni 2023 zu setzen."
@@ -520,8 +764,8 @@
         "stdId": 298135,
         "debatteId": 300,
         "proceedingIndex": 298135,
-        "alignDuration": 0.7371890544891357,
-        "nerDuration": 0.19862604141235352
+        "alignDuration": 0.6713547706604004,
+        "nerDuration": 0.41889500617980957
       },
       "originalLanguage": "de"
     },
@@ -632,8 +876,15 @@
                 {
                   "text": "Wir kommen nun zur Abstimmung über den Antrag der Abgeordneten Kickl, Kolleginnen und Kollegen, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3066/A eine Frist bis 2. Juni 2023 zu setzen.",
                   "timeStart": "20.240",
-                  "timeEnd": "33.000",
-                  "entities": []
+                  "timeEnd": "33.280",
+                  "entities": [
+                    {
+                      "label": "Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.3233
+                    }
+                  ]
                 }
               ],
               "text": "Wir kommen nun zur Abstimmung über den Antrag der Abgeordneten Kickl, Kolleginnen und Kollegen, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3066/A eine Frist bis 2. Juni 2023 zu setzen."
@@ -645,14 +896,14 @@
               "sentences": [
                 {
                   "text": "Ich bitte jene Damen und Herren, die für den Fristsetzungsantrag sind, um ein Zeichen der Zustimmung. –",
-                  "timeStart": "33.000",
+                  "timeStart": "33.280",
                   "timeEnd": "38.720",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Minderheit, der Antrag ist abgelehnt.",
                   "timeStart": "38.720",
-                  "timeEnd": "41.800",
+                  "timeEnd": "42.040",
                   "entities": []
                 }
               ],
@@ -665,7 +916,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 14. Juni 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "41.800",
+                  "timeStart": "42.040",
                   "timeEnd": "51.560",
                   "entities": []
                 }
@@ -694,8 +945,8 @@
         "stdId": 298138,
         "debatteId": 310,
         "proceedingIndex": 298138,
-        "alignDuration": 0.40360021591186523,
-        "nerDuration": 0.05012989044189453
+        "alignDuration": 0.5187957286834717,
+        "nerDuration": 0.0766289234161377
       },
       "originalLanguage": "de"
     }

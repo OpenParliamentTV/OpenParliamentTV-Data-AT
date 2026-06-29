@@ -5,11 +5,12 @@
     "dateStart": "2020-11-20T21:01:32",
     "dateEnd": "2020-11-20T21:02:17",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T02:11:03",
+    "lastUpdate": "2026-06-28T09:54:17",
     "processing": {
       "merge": "2026-06-16T04:23:42+00:00",
-      "align": "2026-06-18T02:11:03",
-      "ner": "2026-06-28T02:33:25"
+      "align": "2026-06-28T09:54:17",
+      "ner": "2026-06-28T15:01:30",
+      "nel": "2026-06-28T07:25:23"
     }
   },
   "data": [
@@ -84,14 +85,52 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Franz Leonhard Eßl , Mag.",
                   "timeStart": "4.620",
-                  "timeEnd": "7.600",
-                  "entities": []
+                  "timeEnd": "9.160",
+                  "entities": [
+                    {
+                      "label": "Franz Leonhard Eßl",
+                      "wid": "Q1435943",
+                      "wtype": "PER",
+                      "score": 0.965
+                    }
+                  ]
                 },
                 {
                   "text": "Michael Hammer , Klaus Köchl , Bedrana Ribo, MA und Süleyman Zorba .",
-                  "timeStart": "7.600",
-                  "timeEnd": "10.620",
-                  "entities": []
+                  "timeStart": "9.160",
+                  "timeEnd": "12.800",
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.4728
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Franz Leonhard Eßl , Mag. Michael Hammer , Klaus Köchl , Bedrana Ribo, MA und Süleyman Zorba ."
@@ -103,8 +142,8 @@
               "sentences": [
                 {
                   "text": "Zuweisung",
-                  "timeStart": "10.620",
-                  "timeEnd": "11.160",
+                  "timeStart": "12.800",
+                  "timeEnd": "13.440",
                   "entities": []
                 }
               ],
@@ -117,8 +156,8 @@
               "sentences": [
                 {
                   "text": "Ich weise die Regierungsvorlage (484 der Beilagen) betreffend Bundesfinanzrahmengesetz 2021 bis 2024 dem Budgetausschuss zu.",
-                  "timeStart": "11.160",
-                  "timeEnd": "19.000",
+                  "timeStart": "13.440",
+                  "timeEnd": "21.960",
                   "entities": []
                 }
               ],
@@ -131,8 +170,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Donnerstag, 26.11.2020, 8.30 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen.",
-                  "timeStart": "19.000",
-                  "timeEnd": "28.400",
+                  "timeStart": "21.960",
+                  "timeEnd": "30.460",
                   "entities": []
                 }
               ],
@@ -145,9 +184,16 @@
               "sentences": [
                 {
                   "text": "Ich danke nach einer sehr intensiven und ausgedehnten Sitzungswoche allen MitarbeiterInnen der Parlamentsdirektion, vor allem jenen hier am Nationalratspräsidium, die wirklich hervorragende Arbeit geleistet haben, und auch jenen des Sicherheitsdienstes, sehr herzlich, diese haben sich das wahrlich verdient, und wünsche Ihnen ein gutes Nachhausekommen. (",
-                  "timeStart": "28.400",
+                  "timeStart": "30.460",
                   "timeEnd": "42.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Parlamentsdirektion",
+                      "wid": "Q4817650",
+                      "wtype": "ORG",
+                      "score": 0.7934
+                    }
+                  ]
                 },
                 {
                   "text": "Allgemeiner Beifall.)",
@@ -180,8 +226,8 @@
         "stdId": 230279,
         "debatteId": 300,
         "proceedingIndex": 230279,
-        "alignDuration": 0.48707008361816406,
-        "nerDuration": 0.04987812042236328
+        "alignDuration": 0.4341704845428467,
+        "nerDuration": 0.0715932846069336
       },
       "originalLanguage": "de"
     }

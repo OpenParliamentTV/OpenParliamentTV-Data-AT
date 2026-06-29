@@ -5,11 +5,12 @@
     "dateStart": "2023-11-24T16:38:09",
     "dateEnd": "2023-11-24T16:40:30",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-26T05:04:53",
+    "lastUpdate": "2026-06-28T14:00:27",
     "processing": {
       "merge": "2026-06-16T04:24:11+00:00",
-      "align": "2026-06-26T05:04:53",
-      "ner": "2026-06-28T03:26:34"
+      "align": "2026-06-28T14:00:27",
+      "ner": "2026-06-28T16:18:28",
+      "nel": "2026-06-28T07:25:36"
     }
   },
   "data": [
@@ -35,7 +36,8 @@
         "creator": "Parlamentsdirektion / Parlament Österreich",
         "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
         "originMediaID": "310943",
-        "duration": 82
+        "duration": 82,
+        "aligned": true
       },
       "dateStart": "2023-11-24T16:38:09",
       "dateEnd": "2023-11-24T16:39:31",
@@ -68,7 +70,9 @@
               "sentences": [
                 {
                   "text": "Ich darf die 242. Sitzung des Nationalrates eröffnen.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.000",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Ich darf die 242. Sitzung des Nationalrates eröffnen."
@@ -80,15 +84,54 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Lukas Brandweiner , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Lukas Brandweiner",
+                      "wid": "Q64576545",
+                      "wtype": "PER",
+                      "score": 0.9891
+                    }
+                  ],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 },
                 {
                   "text": "Johanna Jachs , Ing. Reinhold Einwallner , Julia Elisabeth Herr , Josef Muchitsch , Heike Grebien , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 },
                 {
                   "text": "Markus Koza und Dr. Johannes Margreiter .",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Lukas Brandweiner , Mag. Johanna Jachs , Ing. Reinhold Einwallner , Julia Elisabeth Herr , Josef Muchitsch , Heike Grebien , Mag. Markus Koza und Dr. Johannes Margreiter ."
@@ -100,7 +143,9 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -112,7 +157,9 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -124,7 +171,9 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -136,7 +185,9 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -148,7 +199,9 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortung: 15857/AB",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Anfragebeantwortung: 15857/AB"
@@ -160,7 +213,9 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "B. Zuweisungen in dieser Sitzung:"
@@ -172,7 +227,9 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "zur Vorberatung:"
@@ -184,7 +241,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.360",
+                  "timeEnd": "1.360"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -196,7 +255,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten August Wöginger , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Allgemeine Pensionsgesetz geändert werden ( 3743/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ],
+                  "timeStart": "1.360",
+                  "timeEnd": "5.000"
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Allgemeine Pensionsgesetz geändert werden ( 3743/A )"
@@ -208,7 +294,9 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "5.000",
+                  "timeEnd": "5.440"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -220,7 +308,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend es braucht eine umfassende, nachhaltige und geschlechtergerechte Friedensarbeit ( 3756/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "5.440",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend es braucht eine umfassende, nachhaltige und geschlechtergerechte Friedensarbeit ( 3756/A(E) )"
@@ -232,7 +335,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Steuergerechtigkeit auch auf internationaler Ebene forcieren ( 3758/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "8.280",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Steuergerechtigkeit auch auf internationaler Ebene forcieren ( 3758/A(E) )"
@@ -244,7 +362,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "8.280",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -256,7 +376,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend rasche und gezielte Maßnahmen für unsere Jugend – Umsetzung Jugendstrategie jetzt ( 3745/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "8.280",
+                  "timeEnd": "8.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend rasche und gezielte Maßnahmen für unsere Jugend – Umsetzung Jugendstrategie jetzt ( 3745/A(E) )"
@@ -268,7 +403,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Kinderbetreuungsgeldgesetz geändert wird ( 3753/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Norbert Sieber",
+                      "wid": "Q1997216",
+                      "wtype": "PER",
+                      "score": 0.9756
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ],
+                  "timeStart": "8.280",
+                  "timeEnd": "9.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Kinderbetreuungsgeldgesetz geändert wird ( 3753/A )"
@@ -280,7 +436,9 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "9.280",
+                  "timeEnd": "10.080"
                 }
               ],
               "text": "Finanzausschuss:"
@@ -292,7 +450,9 @@
               "sentences": [
                 {
                   "text": "Gemeinnützigkeitsreformgesetz 2023 – GemRefG 2023 ( 2319 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "10.080",
+                  "timeEnd": "11.800"
                 }
               ],
               "text": "Gemeinnützigkeitsreformgesetz 2023 – GemRefG 2023 ( 2319 d.B. )"
@@ -304,7 +464,9 @@
               "sentences": [
                 {
                   "text": "Start-Up-Förderungsgesetz ( 2321 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.800",
+                  "timeEnd": "13.320"
                 }
               ],
               "text": "Start-Up-Förderungsgesetz ( 2321 d.B. )"
@@ -316,7 +478,9 @@
               "sentences": [
                 {
                   "text": "Mindestbesteuerungsreformgesetz – MinBestRefG ( 2322 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "13.320",
+                  "timeEnd": "14.480"
                 }
               ],
               "text": "Mindestbesteuerungsreformgesetz – MinBestRefG ( 2322 d.B. )"
@@ -328,7 +492,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Steuergerechtigkeit auch auf internationaler Ebene forcieren ( 3759/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "14.480",
+                  "timeEnd": "15.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Steuergerechtigkeit auch auf internationaler Ebene forcieren ( 3759/A(E) )"
@@ -340,7 +519,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "15.440",
+                  "timeEnd": "16.440"
                 }
               ],
               "text": "Ausschuss für Forschung, Innovation und Digitalisierung:"
@@ -352,7 +533,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Süleyman Zorba , Kolleginnen und Kollegen betreffend die Sicherstellung des reibungslosen Breitbandausbaus ( 3738/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "16.440",
+                  "timeEnd": "18.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Süleyman Zorba , Kolleginnen und Kollegen betreffend die Sicherstellung des reibungslosen Breitbandausbaus ( 3738/A(E) )"
@@ -364,7 +566,9 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "18.960",
+                  "timeEnd": "19.400"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -376,15 +580,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "19.400",
+                  "timeEnd": "19.400"
                 },
                 {
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Echte Gesundheitsreform statt Verschlimmbesserung der Strukturen und der Versorgung im österreichischen Gesundheitswesen jetzt! (",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    },
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    }
+                  ],
+                  "timeStart": "19.400",
+                  "timeEnd": "20.880"
                 },
                 {
                   "text": "3746/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "20.880",
+                  "timeEnd": "21.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Echte Gesundheitsreform statt Verschlimmbesserung der Strukturen und der Versorgung im österreichischen Gesundheitswesen jetzt! ( 3746/A(E) )"
@@ -396,11 +619,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "21.720",
+                  "timeEnd": "21.920"
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend verbindliche Vorgaben für an Kinder gerichtetes Lebensmittelmarketing ( 3751/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "21.920",
+                  "timeEnd": "23.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend verbindliche Vorgaben für an Kinder gerichtetes Lebensmittelmarketing ( 3751/A(E) )"
@@ -412,7 +652,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Werner Saxinger, MSc , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998, das Zahnärztekammergesetz und das Tierärztekammergesetz geändert werden ( 3760/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "MSc",
+                      "wid": "Q183816",
+                      "wtype": "PER",
+                      "score": 0.6957
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    }
+                  ],
+                  "timeStart": "23.040",
+                  "timeEnd": "27.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Werner Saxinger, MSc , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998, das Zahnärztekammergesetz und das Tierärztekammergesetz geändert werden ( 3760/A )"
@@ -424,7 +679,16 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über finanzielle Maßnahmen zur Sicherstellung der Verfügbarkeit von Arzneimitteln erlassen und das Gesundheits- und Ernährungssicherheitsgesetz geändert wird ( 3761/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ],
+                  "timeStart": "27.280",
+                  "timeEnd": "32.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über finanzielle Maßnahmen zur Sicherstellung der Verfügbarkeit von Arzneimitteln erlassen und das Gesundheits- und Ernährungssicherheitsgesetz geändert wird ( 3761/A )"
@@ -436,7 +700,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz geändert wird ( 3762/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    },
+                    {
+                      "label": "Arzneimittelgesetz",
+                      "wid": "Q718685",
+                      "wtype": "MISC",
+                      "score": 0.3817
+                    }
+                  ],
+                  "timeStart": "32.760",
+                  "timeEnd": "35.400"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz geändert wird ( 3762/A )"
@@ -448,7 +727,9 @@
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "35.400",
+                  "timeEnd": "35.600"
                 }
               ],
               "text": "Gleichbehandlungsausschuss:"
@@ -460,11 +741,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "35.600",
+                  "timeEnd": "35.640"
                 },
                 {
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend statistische Erfassung von misogyner Gewalt und Frauenhass durch Sicherheitsbehörden ( 3748/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "misogyner",
+                      "wid": "Q308857",
+                      "wtype": "PER",
+                      "score": 0.8792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "35.640",
+                  "timeEnd": "38.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend statistische Erfassung von misogyner Gewalt und Frauenhass durch Sicherheitsbehörden ( 3748/A(E) )"
@@ -476,7 +780,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Parlamentarische Kontrolle für \"LEA – Let's Empower Austria\" ( 3749/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "LEA",
+                      "wid": "Q31837665",
+                      "wtype": "ORG",
+                      "score": 0.125
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "38.160",
+                  "timeEnd": "42.320"
                 }
               ],
               "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Parlamentarische Kontrolle für \"LEA – Let's Empower Austria\" ( 3749/A(E) )"
@@ -488,7 +813,9 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "42.320",
+                  "timeEnd": "42.360"
                 }
               ],
               "text": "Justizausschuss:"
@@ -500,7 +827,9 @@
               "sentences": [
                 {
                   "text": "Gesellschaftsrechts-Änderungsgesetz 2023 – GesRÄG 2023 ( 2320 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "42.360",
+                  "timeEnd": "44.880"
                 }
               ],
               "text": "Gesellschaftsrechts-Änderungsgesetz 2023 – GesRÄG 2023 ( 2320 d.B. )"
@@ -512,15 +841,47 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "44.880",
+                  "timeEnd": "44.880"
                 },
                 {
                   "text": "Michaela Steinacker , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ],
+                  "timeStart": "44.880",
+                  "timeEnd": "44.880"
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Abstammungsrechts-Anpassungsgesetz 2023 – AbAG 2023) ( 3754/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9837
+                    },
+                    {
+                      "label": "Allgemeine bürgerliche Gesetzbuch",
+                      "wid": "Q698262",
+                      "wtype": "MISC",
+                      "score": 0.97
+                    },
+                    {
+                      "label": "AbAG",
+                      "wid": "Q168131",
+                      "wtype": "MISC",
+                      "score": 0.4469
+                    }
+                  ],
+                  "timeStart": "44.880",
+                  "timeEnd": "49.200"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Abstammungsrechts-Anpassungsgesetz 2023 – AbAG 2023) ( 3754/A )"
@@ -532,15 +893,41 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "49.200",
+                  "timeEnd": "49.360"
                 },
                 {
                   "text": "Michaela Steinacker , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ],
+                  "timeStart": "49.360",
+                  "timeEnd": "49.480"
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend Einrichtung eines zentralen Registers über Samen- und Eizellspenden ( 3755/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "49.480",
+                  "timeEnd": "51.120"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend Einrichtung eines zentralen Registers über Samen- und Eizellspenden ( 3755/A(E) )"
@@ -552,7 +939,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "51.120",
+                  "timeEnd": "51.840"
                 }
               ],
               "text": "Ausschuss für Konsumentenschutz:"
@@ -564,15 +953,47 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "51.840",
+                  "timeEnd": "52.120"
                 },
                 {
                   "text": "Ulrike Fischer , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ulrike Fischer",
+                      "wid": "Q72072449",
+                      "wtype": "PER",
+                      "score": 0.8725
+                    }
+                  ],
+                  "timeStart": "52.120",
+                  "timeEnd": "52.120"
                 },
                 {
                   "text": "Peter Weidinger , Kolleginnen und Kollegen betreffend \"Prüfung eines Maßnahmenpakets gegen problematische Praktiken bei Online-Games\" ( 3744/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Weidinger",
+                      "wid": "Q42941654",
+                      "wtype": "PER",
+                      "score": 0.9754
+                    },
+                    {
+                      "label": "Online-Games",
+                      "wid": "Q116634",
+                      "wtype": "ORG",
+                      "score": 0.5591
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "52.120",
+                  "timeEnd": "54.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ulrike Fischer , Mag. Peter Weidinger , Kolleginnen und Kollegen betreffend \"Prüfung eines Maßnahmenpakets gegen problematische Praktiken bei Online-Games\" ( 3744/A(E) )"
@@ -584,11 +1005,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "54.520",
+                  "timeEnd": "54.520"
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend verbindliche Vorgaben für an Kinder gerichtetes Lebensmittelmarketing ( 3750/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "54.520",
+                  "timeEnd": "56.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend verbindliche Vorgaben für an Kinder gerichtetes Lebensmittelmarketing ( 3750/A(E) )"
@@ -600,7 +1038,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ],
+                  "timeStart": "56.440",
+                  "timeEnd": "56.920"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -612,7 +1059,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend es braucht eine umfassende, nachhaltige und geschlechtergerechte Friedensarbeit ( 3757/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "56.920",
+                  "timeEnd": "57.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend es braucht eine umfassende, nachhaltige und geschlechtergerechte Friedensarbeit ( 3757/A(E) )"
@@ -624,7 +1086,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "57.840",
+                  "timeEnd": "58.840"
                 }
               ],
               "text": "Ausschuss für Land- und Forstwirtschaft:"
@@ -636,7 +1100,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend es braucht mehr Transparenz und konkretere Vorgaben für waldbezogene Förderungen ( 3739/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9818
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "58.840",
+                  "timeEnd": "60.280"
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend es braucht mehr Transparenz und konkretere Vorgaben für waldbezogene Förderungen ( 3739/A(E) )"
@@ -648,7 +1127,9 @@
               "sentences": [
                 {
                   "text": "Rechnungshofausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "60.280",
+                  "timeEnd": "60.360"
                 }
               ],
               "text": "Rechnungshofausschuss:"
@@ -660,7 +1141,34 @@
               "sentences": [
                 {
                   "text": "Bericht des Rechnungshofes betreffend Investitionen der Länder Tirol und Vorarlberg – Reihe BUND 2023/33 ( III-1057 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Rechnungshofes",
+                      "wid": "Q2135305",
+                      "wtype": "MISC",
+                      "score": 0.1066
+                    },
+                    {
+                      "label": "Tirol",
+                      "wid": "Q153809",
+                      "wtype": "LOC",
+                      "score": 0.1573
+                    },
+                    {
+                      "label": "Vorarlberg",
+                      "wid": "Q38981",
+                      "wtype": "LOC",
+                      "score": 0.3863
+                    },
+                    {
+                      "label": "BUND",
+                      "wid": "Q897009",
+                      "wtype": "ORG",
+                      "score": 0.0894
+                    }
+                  ],
+                  "timeStart": "60.360",
+                  "timeEnd": "61.640"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Investitionen der Länder Tirol und Vorarlberg – Reihe BUND 2023/33 ( III-1057 d.B. )"
@@ -672,7 +1180,9 @@
               "sentences": [
                 {
                   "text": "Sportausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "61.640",
+                  "timeEnd": "61.680"
                 }
               ],
               "text": "Sportausschuss:"
@@ -684,7 +1194,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Ausdehnung der Täglichen Bewegungseinheit auf ganz Österreich ( 3747/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "61.680",
+                  "timeEnd": "64.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Ausdehnung der Täglichen Bewegungseinheit auf ganz Österreich ( 3747/A(E) )"
@@ -696,7 +1227,9 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "64.080",
+                  "timeEnd": "64.800"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -708,11 +1241,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "64.800",
+                  "timeEnd": "65.400"
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend verbindliche Vorgaben für an Kinder gerichtetes Lebensmittelmarketing ( 3752/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "65.400",
+                  "timeEnd": "66.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend verbindliche Vorgaben für an Kinder gerichtetes Lebensmittelmarketing ( 3752/A(E) )"
@@ -724,7 +1274,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "66.960",
+                  "timeEnd": "67.760"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -736,7 +1288,9 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Maßnahmenbericht zur Inflationsdämpfung bei Wohnen, Energie und Lebensmittel ( 3740/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "67.760",
+                  "timeEnd": "67.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Maßnahmenbericht zur Inflationsdämpfung bei Wohnen, Energie und Lebensmittel ( 3740/A(E) )"
@@ -748,7 +1302,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Lukas Hammer , Tanja Graf , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Erneuerbaren-Ausbau-Gesetz und das Ökostromgesetz 2012 geändert werden ( 3741/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9802
+                    },
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4964
+                    }
+                  ],
+                  "timeStart": "67.760",
+                  "timeEnd": "69.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Lukas Hammer , Tanja Graf , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Erneuerbaren-Ausbau-Gesetz und das Ökostromgesetz 2012 geändert werden ( 3741/A )"
@@ -760,7 +1329,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2024 und 2025 zur Beibehaltung der Förderung für den Umstieg auf klimafreundliche Heizungen (Heizungsumstiegs-Zweckzuschussgesetz – HeUZG) ( 3742/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4964
+                    },
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9802
+                    }
+                  ],
+                  "timeStart": "69.640",
+                  "timeEnd": "72.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Tanja Graf , Lukas Hammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz über einen Zweckzuschuss an die Länder für die Jahre 2024 und 2025 zur Beibehaltung der Förderung für den Umstieg auf klimafreundliche Heizungen (Heizungsumstiegs-Zweckzuschussgesetz – HeUZG) ( 3742/A )"
@@ -772,7 +1356,9 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "72.960",
+                  "timeEnd": "72.960"
                 }
               ],
               "text": "Weiters weise ich"
@@ -784,7 +1370,9 @@
               "sentences": [
                 {
                   "text": "die Anträge 3763/A(E) bis 3767/A(E) dem Verfassungsausschuss,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "72.960",
+                  "timeEnd": "74.040"
                 }
               ],
               "text": "die Anträge 3763/A(E) bis 3767/A(E) dem Verfassungsausschuss,"
@@ -796,7 +1384,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3768/A dem Gesundheitsausschuss,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "74.040",
+                  "timeEnd": "74.840"
                 }
               ],
               "text": "den Antrag 3768/A dem Gesundheitsausschuss,"
@@ -808,7 +1398,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3769/A(E) dem Sportausschuss,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "74.840",
+                  "timeEnd": "75.560"
                 }
               ],
               "text": "den Antrag 3769/A(E) dem Sportausschuss,"
@@ -820,7 +1412,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3770/A(E) dem Ausschuss für Menschenrechte,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "75.560",
+                  "timeEnd": "76.240"
                 }
               ],
               "text": "den Antrag 3770/A(E) dem Ausschuss für Menschenrechte,"
@@ -832,7 +1426,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3771/A dem Umweltausschuss,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "76.240",
+                  "timeEnd": "76.560"
                 }
               ],
               "text": "den Antrag 3771/A dem Umweltausschuss,"
@@ -844,7 +1440,9 @@
               "sentences": [
                 {
                   "text": "die Anträge 3772/A(E) und 3773/A(E) dem Ausschuss für Land- und Forstwirtschaft,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "76.560",
+                  "timeEnd": "77.120"
                 }
               ],
               "text": "die Anträge 3772/A(E) und 3773/A(E) dem Ausschuss für Land- und Forstwirtschaft,"
@@ -856,7 +1454,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3774/A dem Ausschuss für Arbeit und Soziales,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "77.120",
+                  "timeEnd": "78.160"
                 }
               ],
               "text": "den Antrag 3774/A dem Ausschuss für Arbeit und Soziales,"
@@ -868,7 +1468,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3775/A(E) dem Ausschuss für Konsumentenschutz,",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "78.160",
+                  "timeEnd": "78.760"
                 }
               ],
               "text": "den Antrag 3775/A(E) dem Ausschuss für Konsumentenschutz,"
@@ -880,7 +1482,9 @@
               "sentences": [
                 {
                   "text": "die Anträge 3776/A und 3778/A dem Ausschuss für Wirtschaft, Industrie und Energie sowie",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "78.760",
+                  "timeEnd": "80.000"
                 }
               ],
               "text": "die Anträge 3776/A und 3778/A dem Ausschuss für Wirtschaft, Industrie und Energie sowie"
@@ -892,7 +1496,9 @@
               "sentences": [
                 {
                   "text": "den Antrag 3777/A dem Finanzausschuss zu.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "80.000",
+                  "timeEnd": "80.680"
                 }
               ],
               "text": "den Antrag 3777/A dem Finanzausschuss zu."
@@ -904,7 +1510,9 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsantrag",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "80.680",
+                  "timeEnd": "80.840"
                 }
               ],
               "text": "Fristsetzungsantrag"
@@ -916,7 +1524,9 @@
               "sentences": [
                 {
                   "text": "Weiters darf ich mitteilen, dass ein Antrag der Abgeordneten Dr. Susanne Fürst vorliegt, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2905/A eine Frist bis zum 25. November 2023 zu setzen.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "80.840",
+                  "timeEnd": "82.840"
                 }
               ],
               "text": "Weiters darf ich mitteilen, dass ein Antrag der Abgeordneten Dr. Susanne Fürst vorliegt, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2905/A eine Frist bis zum 25. November 2023 zu setzen."
@@ -928,7 +1538,9 @@
               "sentences": [
                 {
                   "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "82.840",
+                  "timeEnd": "84.000"
                 }
               ],
               "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden."
@@ -942,7 +1554,8 @@
         "debatteId": 300,
         "proceedingIndex": 310943,
         "alignError": "exit 1",
-        "nerDuration": 0.4265921115875244
+        "nerDuration": 0.9050683975219727,
+        "alignDuration": 1.0173747539520264
       },
       "originalLanguage": "de"
     },
@@ -1003,7 +1616,7 @@
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "5.240",
+                  "timeEnd": "7.360",
                   "entities": []
                 }
               ],
@@ -1016,8 +1629,8 @@
               "sentences": [
                 {
                   "text": "Wir kommen daher zur Abstimmung über den Antrag der Abgeordneten Fürst, dem Verfassungsausschuss zur Berichterstattung über den Antrag 2905/A eine Frist bis zum 25. November 2023 zu setzen.",
-                  "timeStart": "5.240",
-                  "timeEnd": "53.160",
+                  "timeStart": "7.360",
+                  "timeEnd": "51.080",
                   "entities": []
                 }
               ],
@@ -1030,13 +1643,13 @@
               "sentences": [
                 {
                   "text": "Wer dafür ist, den bitte ich um ein dementsprechendes Zeichen. –",
-                  "timeStart": "53.160",
-                  "timeEnd": "56.240",
+                  "timeStart": "51.080",
+                  "timeEnd": "56.320",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Minderheit, abgelehnt.",
-                  "timeStart": "56.240",
+                  "timeStart": "56.320",
                   "timeEnd": "59.960",
                   "entities": []
                 }
@@ -1051,8 +1664,8 @@
         "stdId": 310950,
         "debatteId": 310,
         "proceedingIndex": 310950,
-        "alignDuration": 0.33451104164123535,
-        "nerDuration": 0.019906997680664062
+        "alignDuration": 0.4090132713317871,
+        "nerDuration": 0.022045612335205078
       },
       "originalLanguage": "de"
     }

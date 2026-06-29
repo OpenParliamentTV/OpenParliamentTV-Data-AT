@@ -5,11 +5,12 @@
     "dateStart": "2023-07-06T23:26:59",
     "dateEnd": "2023-07-06T23:27:39",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T10:26:08",
+    "lastUpdate": "2026-06-28T13:39:40",
     "processing": {
       "merge": "2026-06-16T04:24:08+00:00",
-      "align": "2026-06-25T10:26:08",
-      "ner": "2026-06-28T03:21:37"
+      "align": "2026-06-28T13:39:40",
+      "ner": "2026-06-28T16:11:15",
+      "nel": "2026-06-28T07:25:35"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 225. Sitzung.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.840",
+                  "timeEnd": "2.640",
                   "entities": []
                 }
               ],
@@ -85,15 +86,47 @@
               "sentences": [
                 {
                   "text": "Für die heutige Sitzung als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Ing. Mag. (",
-                  "timeStart": "1.840",
-                  "timeEnd": "2.640",
-                  "entities": []
+                  "timeStart": "2.640",
+                  "timeEnd": "4.360",
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9918
+                    }
+                  ]
                 },
                 {
                   "text": "FH) Alexandra Tanda , Michael Schnedlitz und Heike Grebien .",
-                  "timeStart": "2.640",
-                  "timeEnd": "3.880",
-                  "entities": []
+                  "timeStart": "4.360",
+                  "timeEnd": "5.600",
+                  "entities": [
+                    {
+                      "label": "FH",
+                      "wid": "Q17028020",
+                      "wtype": "ORG",
+                      "score": 0.0889
+                    },
+                    {
+                      "label": "Alexandra Tanda",
+                      "wid": "Q81616242",
+                      "wtype": "PER",
+                      "score": 0.9842
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 }
               ],
               "text": "Für die heutige Sitzung als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Ing. Mag. (FH) Alexandra Tanda , Michael Schnedlitz und Heike Grebien ."
@@ -105,8 +138,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "3.880",
-                  "timeEnd": "4.400",
+                  "timeStart": "5.600",
+                  "timeEnd": "6.320",
                   "entities": []
                 }
               ],
@@ -119,8 +152,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen.",
-                  "timeStart": "4.400",
-                  "timeEnd": "6.680",
+                  "timeStart": "6.320",
+                  "timeEnd": "7.800",
                   "entities": []
                 }
               ],
@@ -133,8 +166,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "6.680",
-                  "timeEnd": "7.120",
+                  "timeStart": "7.800",
+                  "timeEnd": "7.800",
                   "entities": []
                 }
               ],
@@ -147,8 +180,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "7.120",
-                  "timeEnd": "7.320",
+                  "timeStart": "7.800",
+                  "timeEnd": "7.920",
                   "entities": []
                 }
               ],
@@ -161,8 +194,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "7.320",
-                  "timeEnd": "7.800",
+                  "timeStart": "7.920",
+                  "timeEnd": "7.920",
                   "entities": []
                 }
               ],
@@ -175,7 +208,7 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "7.800",
+                  "timeStart": "7.920",
                   "timeEnd": "8.680",
                   "entities": []
                 }
@@ -191,7 +224,20 @@
                   "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Aussetzung des EU-Beitrages Österreichs ( 3511/A(E) )",
                   "timeStart": "8.680",
                   "timeEnd": "11.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Aussetzung des EU-Beitrages Österreichs ( 3511/A(E) )"
@@ -204,7 +250,7 @@
                 {
                   "text": "Budgetausschuss:",
                   "timeStart": "11.920",
-                  "timeEnd": "12.080",
+                  "timeEnd": "12.200",
                   "entities": []
                 }
               ],
@@ -217,9 +263,16 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
-                  "timeStart": "12.080",
+                  "timeStart": "12.200",
                   "timeEnd": "13.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Zahlungsbilanzstabilisierungsgesetz geändert wird ( 3520/A )",
@@ -238,13 +291,20 @@
                 {
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "15.800",
-                  "timeEnd": "17.360",
-                  "entities": []
+                  "timeEnd": "16.000",
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Förderungsprüfungsgesetz geändert wird ( 3521/A )",
-                  "timeStart": "17.360",
-                  "timeEnd": "21.080",
+                  "timeStart": "16.000",
+                  "timeEnd": "19.880",
                   "entities": []
                 }
               ],
@@ -257,8 +317,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "21.080",
-                  "timeEnd": "21.240",
+                  "timeStart": "19.880",
+                  "timeEnd": "20.440",
                   "entities": []
                 }
               ],
@@ -271,15 +331,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "21.240",
-                  "timeEnd": "21.480",
+                  "timeStart": "20.440",
+                  "timeEnd": "21.520",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Verdoppelung des amtlichen Kilometergeldes ( 3512/A(E) )",
-                  "timeStart": "21.480",
+                  "timeStart": "21.520",
                   "timeEnd": "23.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Verdoppelung des amtlichen Kilometergeldes ( 3512/A(E) )"
@@ -299,7 +372,20 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Erhöhungs-Stopp bei Gemeindegebühren – Mehr Geld für die Gemeinden durch den Finanzausgleich NEU ( 3513/A(E) )",
                   "timeStart": "23.160",
                   "timeEnd": "24.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Erhöhungs-Stopp bei Gemeindegebühren – Mehr Geld für die Gemeinden durch den Finanzausgleich NEU ( 3513/A(E) )"
@@ -319,7 +405,20 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Beibehaltung des erhöhten Pendlerpauschales ( 3514/A(E) )",
                   "timeStart": "24.320",
                   "timeEnd": "26.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Beibehaltung des erhöhten Pendlerpauschales ( 3514/A(E) )"
@@ -332,7 +431,7 @@
                 {
                   "text": "Gesundheitsausschuss:",
                   "timeStart": "26.120",
-                  "timeEnd": "26.600",
+                  "timeEnd": "26.560",
                   "entities": []
                 }
               ],
@@ -345,15 +444,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "26.600",
-                  "timeEnd": "26.640",
+                  "timeStart": "26.560",
+                  "timeEnd": "26.600",
                   "entities": []
                 },
                 {
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbesserung der rechtlichen Ansprüche und Hebammenbetreuung bei Schwangerschaftsverlust ( 3515/A(E) )",
-                  "timeStart": "26.640",
+                  "timeStart": "26.600",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Verbesserung der rechtlichen Ansprüche und Hebammenbetreuung bei Schwangerschaftsverlust ( 3515/A(E) )"
@@ -366,14 +478,27 @@
                 {
                   "text": "Antrag der Abgeordneten Mag.",
                   "timeStart": "29.800",
-                  "timeEnd": "31.000",
+                  "timeEnd": "30.960",
                   "entities": []
                 },
                 {
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Zusätzliche Kassenvertragsstellen für Einzel- und Gruppenpraxen im Zuge der aktuellen Reform der Primärversorgungszentren ( 3518/A(E) )",
-                  "timeStart": "31.000",
+                  "timeStart": "30.960",
                   "timeEnd": "31.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Zusätzliche Kassenvertragsstellen für Einzel- und Gruppenpraxen im Zuge der aktuellen Reform der Primärversorgungszentren ( 3518/A(E) )"
@@ -401,7 +526,26 @@
                   "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schutz der heimischen Getreidebauern vor Billig-Importen aus der Ukraine ( 3516/A(E) )",
                   "timeStart": "31.560",
                   "timeEnd": "31.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    },
+                    {
+                      "label": "Ukraine",
+                      "wid": "Q212",
+                      "wtype": "LOC",
+                      "score": 0.369
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schutz der heimischen Getreidebauern vor Billig-Importen aus der Ukraine ( 3516/A(E) )"
@@ -415,7 +559,20 @@
                   "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Rechnungshof: Lebensmittelversorgung ist nicht gesichert ( 3517/A(E) )",
                   "timeStart": "31.560",
                   "timeEnd": "31.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Rechnungshof: Lebensmittelversorgung ist nicht gesichert ( 3517/A(E) )"
@@ -443,7 +600,26 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Topf im Bildungsbudget für OpenSource einrichten\" ( 3510/A(E) )",
                   "timeStart": "31.560",
                   "timeEnd": "31.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "OpenSource",
+                      "wid": "Q39162",
+                      "wtype": "MISC",
+                      "score": 0.2062
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Topf im Bildungsbudget für OpenSource einrichten\" ( 3510/A(E) )"
@@ -471,17 +647,24 @@
                   "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über mineralische Rohstoffe, BGBl.",
                   "timeStart": "31.560",
                   "timeEnd": "31.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    }
+                  ]
                 },
                 {
                   "text": "I Nr. 38/1999, geändert wird. (",
                   "timeStart": "31.560",
-                  "timeEnd": "32.240",
+                  "timeEnd": "31.640",
                   "entities": []
                 },
                 {
                   "text": "3519/A )",
-                  "timeStart": "32.240",
+                  "timeStart": "31.640",
                   "timeEnd": "32.880",
                   "entities": []
                 }
@@ -496,7 +679,7 @@
                 {
                   "text": "Weiters weise ich den Antrag 3522/A(E) dem Finanzausschuss zu.",
                   "timeStart": "32.880",
-                  "timeEnd": "35.880",
+                  "timeEnd": "36.040",
                   "entities": []
                 }
               ],
@@ -509,7 +692,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates darf ich für morgen, Freitag, den 7. Juli 2023, um 9 Uhr einberufen.",
-                  "timeStart": "35.880",
+                  "timeStart": "36.040",
                   "timeEnd": "41.200",
                   "entities": []
                 }
@@ -552,8 +735,8 @@
         "stdId": 301736,
         "debatteId": 300,
         "proceedingIndex": 301736,
-        "alignDuration": 0.5190401077270508,
-        "nerDuration": 0.1974780559539795
+        "alignDuration": 0.6131343841552734,
+        "nerDuration": 0.377453088760376
       },
       "originalLanguage": "de"
     }

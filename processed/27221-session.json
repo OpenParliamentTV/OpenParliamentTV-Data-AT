@@ -5,11 +5,12 @@
     "dateStart": "2023-06-14T20:56:27",
     "dateEnd": "2023-06-14T20:59:35",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T04:51:14",
+    "lastUpdate": "2026-06-28T13:33:00",
     "processing": {
       "merge": "2026-06-16T04:24:08+00:00",
-      "align": "2026-06-25T04:51:14",
-      "ner": "2026-06-28T03:20:02"
+      "align": "2026-06-28T13:33:00",
+      "ner": "2026-06-28T16:09:05",
+      "nel": "2026-06-28T07:25:34"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 221. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.160",
+                  "timeEnd": "3.000",
                   "entities": []
                 }
               ],
@@ -85,27 +86,66 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Maximilian Lercher , Josef Muchitsch , Rainer Wimmer , MMag.",
-                  "timeStart": "1.160",
-                  "timeEnd": "2.000",
-                  "entities": []
+                  "timeStart": "3.000",
+                  "timeEnd": "4.480",
+                  "entities": [
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Maximilian Lercher",
+                      "wid": "Q1733882",
+                      "wtype": "PER",
+                      "score": 0.4085
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "2.000",
-                  "timeEnd": "2.000",
+                  "timeStart": "4.480",
+                  "timeEnd": "4.480",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Mag.",
-                  "timeStart": "2.000",
-                  "timeEnd": "2.240",
-                  "entities": []
+                  "timeStart": "4.480",
+                  "timeEnd": "4.880",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
                 },
                 {
                   "text": "Christian Ragger und Dr.in Stephanie Krisper .",
-                  "timeStart": "2.240",
-                  "timeEnd": "3.600",
-                  "entities": []
+                  "timeStart": "4.880",
+                  "timeEnd": "5.040",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Maximilian Lercher , Josef Muchitsch , Rainer Wimmer , MMag. DDr. Hubert Fuchs , Mag. Christian Ragger und Dr.in Stephanie Krisper ."
@@ -117,8 +157,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "3.600",
-                  "timeEnd": "3.600",
+                  "timeStart": "5.040",
+                  "timeEnd": "5.040",
                   "entities": []
                 }
               ],
@@ -131,7 +171,7 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "3.600",
+                  "timeStart": "5.040",
                   "timeEnd": "5.080",
                   "entities": []
                 }
@@ -146,7 +186,7 @@
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
                   "timeStart": "5.080",
-                  "timeEnd": "5.720",
+                  "timeEnd": "5.760",
                   "entities": []
                 }
               ],
@@ -159,8 +199,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "5.720",
-                  "timeEnd": "6.040",
+                  "timeStart": "5.760",
+                  "timeEnd": "6.080",
                   "entities": []
                 }
               ],
@@ -173,8 +213,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "6.040",
-                  "timeEnd": "6.280",
+                  "timeStart": "6.080",
+                  "timeEnd": "6.320",
                   "entities": []
                 }
               ],
@@ -187,7 +227,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "6.280",
+                  "timeStart": "6.320",
                   "timeEnd": "7.120",
                   "entities": []
                 }
@@ -202,7 +242,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Freiwilligengesetz geändert wird ( 2085 d.B. )",
                   "timeStart": "7.120",
-                  "timeEnd": "8.680",
+                  "timeEnd": "8.640",
                   "entities": []
                 }
               ],
@@ -215,8 +255,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "8.680",
-                  "timeEnd": "8.960",
+                  "timeStart": "8.640",
+                  "timeEnd": "8.640",
                   "entities": []
                 }
               ],
@@ -229,7 +269,7 @@
               "sentences": [
                 {
                   "text": "Abgabenänderungsgesetz 2023 – AbgÄG 2023 ( 2086 d.B. )",
-                  "timeStart": "8.960",
+                  "timeStart": "8.640",
                   "timeEnd": "11.760",
                   "entities": []
                 }
@@ -244,7 +284,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Umsatzsteuergesetz 1994, die Bundesabgabenordnung, das Finanzstrafgesetz und das Bankwesengesetz hinsichtlich der Meldung von Zahlungsdaten durch Zahlungsdienstleister geändert werden (CESOP-Umsetzungsgesetz 2023) ( 2090 d.B. )",
                   "timeStart": "11.760",
-                  "timeEnd": "13.440",
+                  "timeEnd": "14.520",
                   "entities": []
                 }
               ],
@@ -257,8 +297,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Wirtschaftliche Eigentümer Registergesetz geändert wird ( 2091 d.B. )",
-                  "timeStart": "13.440",
-                  "timeEnd": "14.520",
+                  "timeStart": "14.520",
+                  "timeEnd": "15.880",
                   "entities": []
                 }
               ],
@@ -271,8 +311,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Katastrophenfondsgesetz 1996 geändert wird ( 2095 d.B. )",
-                  "timeStart": "14.520",
-                  "timeEnd": "15.880",
+                  "timeStart": "15.880",
+                  "timeEnd": "19.280",
                   "entities": []
                 }
               ],
@@ -285,9 +325,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem ein Bundesgesetz über Wagniskapitalfonds erlassen (Wagniskapitalfondsgesetz – WKFG) und das Finanzmarktaufsichtsbehördengesetz, das Alternative Investmentfonds Manager-Gesetz, das Investmentfondsgesetz 2011 und das Einkommensteuergesetz 1988 geändert werden ( 2096 d.B. )",
-                  "timeStart": "15.880",
-                  "timeEnd": "20.640",
-                  "entities": []
+                  "timeStart": "19.280",
+                  "timeEnd": "24.480",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Investmentfondsgesetz",
+                      "wid": "Q1572536",
+                      "wtype": "MISC",
+                      "score": 0.8
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über Wagniskapitalfonds erlassen (Wagniskapitalfondsgesetz – WKFG) und das Finanzmarktaufsichtsbehördengesetz, das Alternative Investmentfonds Manager-Gesetz, das Investmentfondsgesetz 2011 und das Einkommensteuergesetz 1988 geändert werden ( 2096 d.B. )"
@@ -299,8 +352,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "20.640",
-                  "timeEnd": "21.160",
+                  "timeStart": "24.480",
+                  "timeEnd": "24.520",
                   "entities": []
                 }
               ],
@@ -313,9 +366,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Primärversorgungsgesetz und das Allgemeine Sozialversicherungsgesetz geändert werden ( 2087 d.B. )",
-                  "timeStart": "21.160",
-                  "timeEnd": "21.960",
-                  "entities": []
+                  "timeStart": "24.520",
+                  "timeEnd": "24.520",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Primärversorgungsgesetz und das Allgemeine Sozialversicherungsgesetz geändert werden ( 2087 d.B. )"
@@ -327,8 +393,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "21.960",
-                  "timeEnd": "22.600",
+                  "timeStart": "24.520",
+                  "timeEnd": "24.520",
                   "entities": []
                 }
               ],
@@ -341,9 +407,28 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesgesetz über die Sicherstellung der staatlichen Resilienz und Koordination in Krisen (Bundes-Krisensicherheitsgesetz – B-KSG) erlassen wird sowie das Bundes-Verfassungsgesetz, das Wehrgesetz 2001 und das Meldegesetz 1991 geändert werden ( 2084 d.B. )",
-                  "timeStart": "22.600",
+                  "timeStart": "24.520",
                   "timeEnd": "25.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Krisen",
+                      "wid": "Q290178",
+                      "wtype": "LOC",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "Bundes-Verfassungsgesetz",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.9934
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über die Sicherstellung der staatlichen Resilienz und Koordination in Krisen (Bundes-Krisensicherheitsgesetz – B-KSG) erlassen wird sowie das Bundes-Verfassungsgesetz, das Wehrgesetz 2001 und das Meldegesetz 1991 geändert werden ( 2084 d.B. )"
@@ -357,7 +442,20 @@
                   "text": "Bundesgesetz, mit dem das Gesetz über das Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung geändert wird ( 2089 d.B. )",
                   "timeStart": "25.560",
                   "timeEnd": "26.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung",
+                      "wid": "Q1005518",
+                      "wtype": "ORG",
+                      "score": 0.9848
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesetz über das Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung geändert wird ( 2089 d.B. )"
@@ -370,7 +468,7 @@
                 {
                   "text": "Justizausschuss:",
                   "timeStart": "26.680",
-                  "timeEnd": "26.840",
+                  "timeEnd": "26.760",
                   "entities": []
                 }
               ],
@@ -383,7 +481,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Strafgesetzbuch und das Bundesgesetz gegen den unlauteren Wettbewerb 1984 – UWG geändert werden ( 2088 d.B. )",
-                  "timeStart": "26.840",
+                  "timeStart": "26.760",
                   "timeEnd": "29.280",
                   "entities": []
                 }
@@ -398,8 +496,15 @@
                 {
                   "text": "Zivilverfahrens-Novelle 2023 – ZVN 2023 ( 2093 d.B. )",
                   "timeStart": "29.280",
-                  "timeEnd": "33.880",
-                  "entities": []
+                  "timeEnd": "33.800",
+                  "entities": [
+                    {
+                      "label": "ZVN",
+                      "wid": "Q231853",
+                      "wtype": "ORG",
+                      "score": 0.671
+                    }
+                  ]
                 }
               ],
               "text": "Zivilverfahrens-Novelle 2023 – ZVN 2023 ( 2093 d.B. )"
@@ -411,7 +516,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem ein Bundesgesetz über die Durchführung virtueller Gesellschafterversammlungen (Virtuelle Gesellschafterversammlungen-Gesetz – VirtGesG) erlassen wird ( 2094 d.B. )",
-                  "timeStart": "33.880",
+                  "timeStart": "33.800",
                   "timeEnd": "34.000",
                   "entities": []
                 }
@@ -426,7 +531,7 @@
                 {
                   "text": "Korruptionsstrafrechtsänderungsgesetz 2023 – KorrStrÄG 2023 ( 2098 d.B. )",
                   "timeStart": "34.000",
-                  "timeEnd": "35.400",
+                  "timeEnd": "35.360",
                   "entities": []
                 }
               ],
@@ -439,8 +544,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "35.400",
-                  "timeEnd": "35.560",
+                  "timeStart": "35.360",
+                  "timeEnd": "35.440",
                   "entities": []
                 }
               ],
@@ -453,7 +558,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Allgemeine Verwaltungsverfahrensgesetz 1991, das Verwaltungsstrafgesetz 1991, das Verwaltungsgerichtsverfahrensgesetz, das Verwaltungsgerichtshofgesetz 1985 und das Verfassungsgerichtshofgesetz 1953 geändert werden ( 2081 d.B. )",
-                  "timeStart": "35.560",
+                  "timeStart": "35.440",
                   "timeEnd": "40.320",
                   "entities": []
                 }
@@ -511,7 +616,20 @@
                   "text": "Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 (34. StVO-Novelle), das Führerscheingesetz und das Kraftfahrgesetz 1967 geändert werden ( 2092 d.B. )",
                   "timeStart": "48.400",
                   "timeEnd": "51.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Führerscheingesetz",
+                      "wid": "Q15591543",
+                      "wtype": "MISC",
+                      "score": 0.4334
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 (34. StVO-Novelle), das Führerscheingesetz und das Kraftfahrgesetz 1967 geändert werden ( 2092 d.B. )"
@@ -524,8 +642,21 @@
                 {
                   "text": "Bundesgesetz über die Übertragung des Teilbetriebes Infrastruktur der Graz-Köflacher Bahn und Busbetrieb GmbH an die ÖBB-Infrastruktur AG (GKB-Infrastruktur-Übertragungsgesetz) ( 2097 d.B. )",
                   "timeStart": "51.120",
-                  "timeEnd": "56.200",
-                  "entities": []
+                  "timeEnd": "56.240",
+                  "entities": [
+                    {
+                      "label": "Graz-Köflacher Bahn",
+                      "wid": "Q1544069",
+                      "wtype": "LOC",
+                      "score": 0.6137
+                    },
+                    {
+                      "label": "ÖBB-Infrastruktur AG",
+                      "wid": "Q56425426",
+                      "wtype": "ORG",
+                      "score": 0.5846
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz über die Übertragung des Teilbetriebes Infrastruktur der Graz-Köflacher Bahn und Busbetrieb GmbH an die ÖBB-Infrastruktur AG (GKB-Infrastruktur-Übertragungsgesetz) ( 2097 d.B. )"
@@ -537,8 +668,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsanträge",
-                  "timeStart": "56.200",
-                  "timeEnd": "56.200",
+                  "timeStart": "56.240",
+                  "timeEnd": "56.560",
                   "entities": []
                 }
               ],
@@ -551,8 +682,8 @@
               "sentences": [
                 {
                   "text": "Ich darf mitteilen, dass zwei Fristsetzungsanträge der Abgeordneten Smolle und Schallmeiner vorliegen, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen sowie über den Antrag 3463/A jeweils eine Frist bis zum 5. Juli zu setzen.",
-                  "timeStart": "56.200",
-                  "timeEnd": "60.200",
+                  "timeStart": "56.560",
+                  "timeEnd": "61.440",
                   "entities": []
                 }
               ],
@@ -565,8 +696,8 @@
               "sentences": [
                 {
                   "text": "Es liegen weitere Fristsetzungsanträge vor, dem Verfassungsausschuss eine Frist bis zum 5. Juli 2023 zu setzen:",
-                  "timeStart": "60.200",
-                  "timeEnd": "62.200",
+                  "timeStart": "61.440",
+                  "timeEnd": "64.280",
                   "entities": []
                 }
               ],
@@ -579,8 +710,8 @@
               "sentences": [
                 {
                   "text": "Es gibt drei Anträge der Abgeordneten Egger und Blimlinger zur Berichterstattung über den Antrag 3438/A sowie über die Regierungsvorlagen 2082 der Beilagen und 2083 der Beilagen sowie den",
-                  "timeStart": "62.200",
-                  "timeEnd": "67.280",
+                  "timeStart": "64.280",
+                  "timeEnd": "68.960",
                   "entities": []
                 }
               ],
@@ -593,8 +724,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen .",
-                  "timeStart": "67.280",
-                  "timeEnd": "70.560",
+                  "timeStart": "68.960",
+                  "timeEnd": "70.800",
                   "entities": []
                 }
               ],
@@ -607,7 +738,7 @@
               "sentences": [
                 {
                   "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht.",
-                  "timeStart": "70.560",
+                  "timeStart": "70.800",
                   "timeEnd": "73.960",
                   "entities": []
                 }
@@ -622,8 +753,8 @@
         "stdId": 299343,
         "debatteId": 300,
         "proceedingIndex": 299343,
-        "alignDuration": 0.866365909576416,
-        "nerDuration": 0.22071599960327148
+        "alignDuration": 0.8283116817474365,
+        "nerDuration": 0.35234999656677246
       },
       "originalLanguage": "de"
     },
@@ -700,7 +831,7 @@
                 {
                   "text": "Wir kommen zur Abstimmung über den Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über die Regierungsvorlage 2087 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
                   "timeStart": "2.720",
-                  "timeEnd": "10.760",
+                  "timeEnd": "11.840",
                   "entities": []
                 }
               ],
@@ -713,7 +844,7 @@
               "sentences": [
                 {
                   "text": "Wer dem zustimmt, wird um ein Zeichen den Zustimmung gebeten. –",
-                  "timeStart": "10.760",
+                  "timeStart": "11.840",
                   "timeEnd": "13.400",
                   "entities": []
                 },
@@ -734,7 +865,7 @@
                 {
                   "text": "Antrag der Abgeordneten Smolle und Schallmeiner, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3463/A eine Frist bis zum 5. Juli 2023 zu setzen.",
                   "timeStart": "15.280",
-                  "timeEnd": "27.760",
+                  "timeEnd": "27.560",
                   "entities": []
                 }
               ],
@@ -747,14 +878,14 @@
               "sentences": [
                 {
                   "text": "Wer ist dafür? –",
-                  "timeStart": "27.760",
-                  "timeEnd": "29.200",
+                  "timeStart": "27.560",
+                  "timeEnd": "29.080",
                   "entities": []
                 },
                 {
                   "text": "Ebenfalls die Mehrheit, angenommen.",
-                  "timeStart": "29.200",
-                  "timeEnd": "32.080",
+                  "timeStart": "29.080",
+                  "timeEnd": "31.540",
                   "entities": []
                 }
               ],
@@ -767,8 +898,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3438/A eine Frist bis zum 5. Juli zu setzen.",
-                  "timeStart": "32.080",
-                  "timeEnd": "42.560",
+                  "timeStart": "31.540",
+                  "timeEnd": "42.520",
                   "entities": []
                 }
               ],
@@ -781,13 +912,13 @@
               "sentences": [
                 {
                   "text": "Wer dem zustimmt: Bitte um ein Zeichen der Zustimmung! –",
-                  "timeStart": "42.560",
-                  "timeEnd": "44.760",
+                  "timeStart": "42.520",
+                  "timeEnd": "44.800",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Mehrheit, daher angenommen .",
-                  "timeStart": "44.760",
+                  "timeStart": "44.800",
                   "timeEnd": "47.060",
                   "entities": []
                 }
@@ -802,7 +933,7 @@
                 {
                   "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2082 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
                   "timeStart": "47.060",
-                  "timeEnd": "59.800",
+                  "timeEnd": "59.760",
                   "entities": []
                 }
               ],
@@ -815,7 +946,7 @@
               "sentences": [
                 {
                   "text": "Wer ist dafür? –",
-                  "timeStart": "59.800",
+                  "timeStart": "59.760",
                   "timeEnd": "60.600",
                   "entities": []
                 },
@@ -836,7 +967,7 @@
                 {
                   "text": "Antrag der Abgeordneten Egger und Blimlinger, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2083 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
                   "timeStart": "64.160",
-                  "timeEnd": "76.360",
+                  "timeEnd": "76.320",
                   "entities": []
                 }
               ],
@@ -849,7 +980,7 @@
               "sentences": [
                 {
                   "text": "Gleiches Abstimmungsverhalten: mehrheitlich angenommen.",
-                  "timeStart": "76.360",
+                  "timeStart": "76.320",
                   "timeEnd": "79.040",
                   "entities": []
                 }
@@ -864,7 +995,7 @@
                 {
                   "text": "Antrag der Abgeordneten Gerstl und Sirkka Prammer, dem Verfassungsausschuss zur Berichterstattung über die Regierungsvorlage 2081 der Beilagen eine Frist bis zum 5. Juli 2023 zu setzen.",
                   "timeStart": "79.040",
-                  "timeEnd": "92.680",
+                  "timeEnd": "91.400",
                   "entities": []
                 }
               ],
@@ -877,14 +1008,14 @@
               "sentences": [
                 {
                   "text": "Wer erteilt da die Zustimmung? –",
-                  "timeStart": "92.680",
+                  "timeStart": "91.400",
                   "timeEnd": "94.120",
                   "entities": []
                 },
                 {
                   "text": "Gleiches Stimmverhalten, mehrheitlich angenommen.",
                   "timeStart": "94.120",
-                  "timeEnd": "96.680",
+                  "timeEnd": "96.720",
                   "entities": []
                 }
               ],
@@ -897,7 +1028,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 5. Juli 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "96.680",
+                  "timeStart": "96.720",
                   "timeEnd": "105.520",
                   "entities": []
                 }
@@ -940,8 +1071,8 @@
         "stdId": 299371,
         "debatteId": 310,
         "proceedingIndex": 299371,
-        "alignDuration": 0.5257818698883057,
-        "nerDuration": 0.10506772994995117
+        "alignDuration": 0.622765302658081,
+        "nerDuration": 0.12863779067993164
       },
       "originalLanguage": "de"
     }

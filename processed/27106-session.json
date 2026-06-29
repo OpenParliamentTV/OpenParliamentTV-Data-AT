@@ -5,11 +5,12 @@
     "dateStart": "2021-05-19T19:48:14",
     "dateEnd": "2021-05-19T19:48:55",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T00:44:58",
+    "lastUpdate": "2026-06-28T10:34:59",
     "processing": {
       "merge": "2026-06-16T04:23:48+00:00",
-      "align": "2026-06-20T00:44:58",
-      "ner": "2026-06-28T02:44:16"
+      "align": "2026-06-28T10:34:59",
+      "ner": "2026-06-28T15:17:13",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -85,13 +86,39 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Claudia Plakolm , Dr. Christian Stocker , Mag.",
                   "timeStart": "1.640",
                   "timeEnd": "1.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Claudia Plakolm",
+                      "wid": "Q42294925",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Julia Elisabeth Herr , Ing. Norbert Hofer und Michel Reimon, MBA .",
                   "timeStart": "1.920",
                   "timeEnd": "1.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Norbert Hofer",
+                      "wid": "Q1996861",
+                      "wtype": "PER",
+                      "score": 0.9888
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Claudia Plakolm , Dr. Christian Stocker , Mag. Karin Greiner , Julia Elisabeth Herr , Ing. Norbert Hofer und Michel Reimon, MBA ."
@@ -118,7 +145,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "2.520",
-                  "timeEnd": "2.760",
+                  "timeEnd": "3.080",
                   "entities": []
                 }
               ],
@@ -131,8 +158,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "2.760",
-                  "timeEnd": "3.040",
+                  "timeStart": "3.080",
+                  "timeEnd": "3.720",
                   "entities": []
                 }
               ],
@@ -145,8 +172,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "3.040",
-                  "timeEnd": "3.040",
+                  "timeStart": "3.720",
+                  "timeEnd": "3.720",
                   "entities": []
                 }
               ],
@@ -159,8 +186,8 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 5835/AB bis 5850/AB",
-                  "timeStart": "3.040",
-                  "timeEnd": "4.600",
+                  "timeStart": "3.720",
+                  "timeEnd": "4.840",
                   "entities": []
                 }
               ],
@@ -173,7 +200,7 @@
               "sentences": [
                 {
                   "text": "2. Regierungsvorlagen:",
-                  "timeStart": "4.600",
+                  "timeStart": "4.840",
                   "timeEnd": "5.040",
                   "entities": []
                 }
@@ -217,7 +244,26 @@
                   "text": "Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulunterrichtsgesetz für Berufstätige, Kollegs und Vorbereitungslehrgänge, das Land- und forstwirtschaftliche Bundesschulgesetz, das Schulpflichtgesetz 1985, das Schulzeitgesetz 1985, das Minderheiten-Schulgesetz für Kärnten und das Bundesgesetz BGBl.",
                   "timeStart": "5.680",
                   "timeEnd": "8.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Schulorganisationsgesetz",
+                      "wid": "Q18412933",
+                      "wtype": "MISC",
+                      "score": 0.8842
+                    },
+                    {
+                      "label": "Kärnten",
+                      "wid": "Q37985",
+                      "wtype": "LOC",
+                      "score": 0.6833
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 420/1990 geändert werden ( 862 d.B. )",
@@ -279,7 +325,14 @@
                   "text": "Petition Nr. 58 betreffend \"mehr Lärmschutz für Wels-Nord\", überreicht von der Abgeordneten Petra Wimmer",
                   "timeStart": "10.080",
                   "timeEnd": "10.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 58 betreffend \"mehr Lärmschutz für Wels-Nord\", überreicht von der Abgeordneten Petra Wimmer"
@@ -334,7 +387,7 @@
                 {
                   "text": "Antrag 1595/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend individueller Anspruch auf Karenz für jeden Elternteil",
                   "timeStart": "11.400",
-                  "timeEnd": "11.480",
+                  "timeEnd": "11.400",
                   "entities": []
                 }
               ],
@@ -347,15 +400,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1601/A(E) der Abgeordneten Mag.",
-                  "timeStart": "11.480",
-                  "timeEnd": "11.880",
+                  "timeStart": "11.400",
+                  "timeEnd": "11.400",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Job Offensive Neustart: Eingliederungsbeihilfe",
-                  "timeStart": "11.880",
-                  "timeEnd": "11.880",
-                  "entities": []
+                  "timeStart": "11.400",
+                  "timeEnd": "11.640",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1601/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Job Offensive Neustart: Eingliederungsbeihilfe"
@@ -367,7 +427,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1602/A(E) der Abgeordneten Mag.",
-                  "timeStart": "11.880",
+                  "timeStart": "11.640",
                   "timeEnd": "11.880",
                   "entities": []
                 },
@@ -375,7 +435,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Joboffensive Neustart: Weiterbildung neu denken",
                   "timeStart": "11.880",
                   "timeEnd": "11.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1602/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Joboffensive Neustart: Weiterbildung neu denken"
@@ -395,7 +462,14 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Schaffung entsprechender One-Stop-Shops für Menschen mit Behinderungen",
                   "timeStart": "11.880",
                   "timeEnd": "12.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1629/A(E) der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Schaffung entsprechender One-Stop-Shops für Menschen mit Behinderungen"
@@ -423,7 +497,26 @@
                   "text": "Antrag 1596/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neukonzeption EZA-Mittel Äthiopien",
                   "timeStart": "12.160",
                   "timeEnd": "12.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Äthiopien",
+                      "wid": "Q115",
+                      "wtype": "LOC",
+                      "score": 0.773
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1596/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neukonzeption EZA-Mittel Äthiopien"
@@ -450,14 +543,21 @@
                 {
                   "text": "Antrag 1588/A(E) der Abgeordneten Mag.",
                   "timeStart": "12.320",
-                  "timeEnd": "12.320",
+                  "timeEnd": "12.600",
                   "entities": []
                 },
                 {
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Aufbrechen der Oligopolstellung globaler Ablesekonzerne bei der Bereitstellung von Wärme, Kälte und Warmwasser",
-                  "timeStart": "12.320",
-                  "timeEnd": "12.320",
-                  "entities": []
+                  "timeStart": "12.600",
+                  "timeEnd": "12.600",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.982
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1588/A(E) der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Aufbrechen der Oligopolstellung globaler Ablesekonzerne bei der Bereitstellung von Wärme, Kälte und Warmwasser"
@@ -469,15 +569,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1589/A(E) der Abgeordneten Mag.",
-                  "timeStart": "12.320",
-                  "timeEnd": "12.320",
+                  "timeStart": "12.600",
+                  "timeEnd": "13.200",
                   "entities": []
                 },
                 {
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Kosten- und Abfallvermeidung bei der Wassermengenerfassung",
-                  "timeStart": "12.320",
-                  "timeEnd": "12.640",
-                  "entities": []
+                  "timeStart": "13.200",
+                  "timeEnd": "13.480",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.982
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1589/A(E) der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Kosten- und Abfallvermeidung bei der Wassermengenerfassung"
@@ -489,8 +596,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "12.640",
-                  "timeEnd": "12.840",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.840",
                   "entities": []
                 }
               ],
@@ -503,8 +610,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1606/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Verlustkompensation: einfach, einheitlich und transparent",
-                  "timeStart": "12.840",
-                  "timeEnd": "13.840",
+                  "timeStart": "13.840",
+                  "timeEnd": "15.640",
                   "entities": []
                 }
               ],
@@ -517,8 +624,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1616/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Reformpaket Eigenkapital: mehr Spielraum und Resilienz für österreichische Unternehmen",
-                  "timeStart": "13.840",
-                  "timeEnd": "15.920",
+                  "timeStart": "15.640",
+                  "timeEnd": "17.880",
                   "entities": []
                 }
               ],
@@ -531,8 +638,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "15.920",
-                  "timeEnd": "16.240",
+                  "timeStart": "17.880",
+                  "timeEnd": "18.040",
                   "entities": []
                 }
               ],
@@ -545,8 +652,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1608/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Overhead-Finanzierung von Forschungsprojekten",
-                  "timeStart": "16.240",
-                  "timeEnd": "17.280",
+                  "timeStart": "18.040",
+                  "timeEnd": "18.080",
                   "entities": []
                 }
               ],
@@ -559,9 +666,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1615/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Mittelverwendung Digitalisierungsfonds",
-                  "timeStart": "17.280",
-                  "timeEnd": "18.280",
-                  "entities": []
+                  "timeStart": "18.080",
+                  "timeEnd": "19.200",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1615/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Mittelverwendung Digitalisierungsfonds"
@@ -573,8 +693,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "18.280",
-                  "timeEnd": "18.520",
+                  "timeStart": "19.200",
+                  "timeEnd": "19.240",
                   "entities": []
                 }
               ],
@@ -587,9 +707,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1590/A(E) der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Übernahme des nationalen Impfplans in das Leistungsportfolio der gesetzlichen Krankenversicherung",
-                  "timeStart": "18.520",
-                  "timeEnd": "19.400",
-                  "entities": []
+                  "timeStart": "19.240",
+                  "timeEnd": "20.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1590/A(E) der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Übernahme des nationalen Impfplans in das Leistungsportfolio der gesetzlichen Krankenversicherung"
@@ -601,9 +734,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1591/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Schaffung von Rehabilitations-Kapazitäten für die Behandlung von Long-Covid-Patienten",
-                  "timeStart": "19.400",
+                  "timeStart": "20.400",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1591/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Schaffung von Rehabilitations-Kapazitäten für die Behandlung von Long-Covid-Patienten"
@@ -617,7 +763,20 @@
                   "text": "Antrag 1592/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Impfaktion für Jugendliche vorbereiten",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1592/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Impfaktion für Jugendliche vorbereiten"
@@ -631,7 +790,20 @@
                   "text": "Antrag 1593/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Bekämpfung des Personalmangels im Gesundheitswesen",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1593/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Bekämpfung des Personalmangels im Gesundheitswesen"
@@ -659,7 +831,20 @@
                   "text": "Antrag 1594/A(E) der Abgeordneten Dr. Ewa Ernst-Dziedzic , Nico Marchetti , Kolleginnen und Kollegen betreffend Schutz von intergeschlechtlichen Kindern und Jugendlichen vor medizinisch nicht notwendigen Behandlungen an den Geschlechtsmerkmalen",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1594/A(E) der Abgeordneten Dr. Ewa Ernst-Dziedzic , Nico Marchetti , Kolleginnen und Kollegen betreffend Schutz von intergeschlechtlichen Kindern und Jugendlichen vor medizinisch nicht notwendigen Behandlungen an den Geschlechtsmerkmalen"
@@ -679,7 +864,14 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Hotlines und Beratungsstellen für LGBTIQ-Jugendliche",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1597/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Hotlines und Beratungsstellen für LGBTIQ-Jugendliche"
@@ -699,7 +891,20 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Einrichtung queerer Jugendzentren in Österreich",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1598/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Einrichtung queerer Jugendzentren in Österreich"
@@ -719,7 +924,14 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Sensibilisierungsmaßnahmen und interministerielle Kampagne gegen Homophobie",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1599/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Sensibilisierungsmaßnahmen und interministerielle Kampagne gegen Homophobie"
@@ -739,7 +951,14 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Konversionstherapien stoppen – einstimmigen Entschließungsantrag aus 2019 endlich umsetzen",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1600/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Konversionstherapien stoppen – einstimmigen Entschließungsantrag aus 2019 endlich umsetzen"
@@ -753,7 +972,20 @@
                   "text": "Antrag 1610/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Informationskampagne und Sensibilisierungsmaßnahmen gegen Gewalt an Frauen",
                   "timeStart": "20.480",
                   "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1610/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Informationskampagne und Sensibilisierungsmaßnahmen gegen Gewalt an Frauen"
@@ -767,7 +999,20 @@
                   "text": "Antrag 1611/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einrichtung von Gewaltambulanzen in allen Bundesländern",
                   "timeStart": "20.480",
                   "timeEnd": "20.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1611/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einrichtung von Gewaltambulanzen in allen Bundesländern"
@@ -781,7 +1026,26 @@
                   "text": "Antrag 1613/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Aufbrechen von Geschlechterstereotypen zur Gewaltprävention bei Männern",
                   "timeStart": "20.520",
                   "timeEnd": "23.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Männern",
+                      "wid": "Q8441",
+                      "wtype": "ORG",
+                      "score": 0.1528
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1613/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Aufbrechen von Geschlechterstereotypen zur Gewaltprävention bei Männern"
@@ -801,13 +1065,33 @@
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
                   "timeStart": "24.080",
                   "timeEnd": "24.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend der Erhebung über Geldmittel, die der Bund für Maßnahmen in Bezug auf den Abbau von Gewalt gegen Frauen und Kinder, sowie für die Präventionsarbeit, inklusive Täterarbeit in den einzelnen Ministerien aufwendet",
                   "timeStart": "24.960",
-                  "timeEnd": "26.360",
-                  "entities": []
+                  "timeEnd": "25.680",
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Täterarbeit",
+                      "wid": "Q2463663",
+                      "wtype": "MISC",
+                      "score": 0.8065
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1619/A(E) der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend der Erhebung über Geldmittel, die der Bund für Maßnahmen in Bezug auf den Abbau von Gewalt gegen Frauen und Kinder, sowie für die Präventionsarbeit, inklusive Täterarbeit in den einzelnen Ministerien aufwendet"
@@ -819,8 +1103,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "26.360",
-                  "timeEnd": "26.520",
+                  "timeStart": "25.680",
+                  "timeEnd": "25.800",
                   "entities": []
                 }
               ],
@@ -833,8 +1117,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1609/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Gewalt gegen Frauen",
-                  "timeStart": "26.520",
-                  "timeEnd": "27.180",
+                  "timeStart": "25.800",
+                  "timeEnd": "26.320",
                   "entities": []
                 }
               ],
@@ -847,7 +1131,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1618/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Neustart: rasches Gründen ohne Stolpersteine",
-                  "timeStart": "27.180",
+                  "timeStart": "26.320",
                   "timeEnd": "29.080",
                   "entities": []
                 }
@@ -862,7 +1146,7 @@
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
                   "timeStart": "29.080",
-                  "timeEnd": "29.600",
+                  "timeEnd": "29.320",
                   "entities": []
                 }
               ],
@@ -875,9 +1159,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1626/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Reparieren statt Wegwerfen: Österreichweite Förderung von Reparaturen-Umsetzung bis zum 31.12.2021",
-                  "timeStart": "29.600",
+                  "timeStart": "29.320",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1626/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Reparieren statt Wegwerfen: Österreichweite Förderung von Reparaturen-Umsetzung bis zum 31.12.2021"
@@ -891,7 +1188,20 @@
                   "text": "Antrag 1627/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Bundesreparaturbonus",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1627/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Bundesreparaturbonus"
@@ -919,7 +1229,20 @@
                   "text": "Antrag 1622/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Maßnahmenpaket gegen Altersarmut von Künstler*innen und Kulturarbeiter*innen",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1622/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Maßnahmenpaket gegen Altersarmut von Künstler*innen und Kulturarbeiter*innen"
@@ -933,7 +1256,20 @@
                   "text": "Antrag 1623/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Fair Pay in der Kulturbranche",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1623/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Fair Pay in der Kulturbranche"
@@ -967,7 +1303,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Geschlechtersensible Evaluierung von Lern- und Lehrmaterialien",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1603/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Geschlechtersensible Evaluierung von Lern- und Lehrmaterialien"
@@ -987,7 +1330,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Geschlechtersensible Bildung als präventive Maßnahme gegen Gewalt an Frauen",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1612/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Geschlechtersensible Bildung als präventive Maßnahme gegen Gewalt an Frauen"
@@ -1007,7 +1357,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Coronafolgen-Hilfsfonds für Kindergärten",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1614/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Coronafolgen-Hilfsfonds für Kindergärten"
@@ -1021,7 +1378,20 @@
                   "text": "Antrag 1630/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Schlüsselrolle von Schulen beim Thema Gewaltschutz",
                   "timeStart": "29.800",
                   "timeEnd": "29.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1630/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Schlüsselrolle von Schulen beim Thema Gewaltschutz"
@@ -1034,8 +1404,21 @@
                 {
                   "text": "Antrag 1631/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Kostenersatz des Merhaufwandes durch Homeschooling",
                   "timeStart": "29.800",
-                  "timeEnd": "31.440",
-                  "entities": []
+                  "timeEnd": "30.200",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1631/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Kostenersatz des Merhaufwandes durch Homeschooling"
@@ -1047,9 +1430,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1632/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Schulpaket für den Herbst: was Kinder im nächsten Schuljahr brauchen",
-                  "timeStart": "31.440",
+                  "timeStart": "30.200",
                   "timeEnd": "31.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1632/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Schulpaket für den Herbst: was Kinder im nächsten Schuljahr brauchen"
@@ -1062,8 +1458,21 @@
                 {
                   "text": "Antrag 1633/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend flächendeckende und niederschwellige Kurse für digitale Kompetenz",
                   "timeStart": "31.760",
-                  "timeEnd": "32.320",
-                  "entities": []
+                  "timeEnd": "32.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1633/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend flächendeckende und niederschwellige Kurse für digitale Kompetenz"
@@ -1075,7 +1484,7 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "32.320",
+                  "timeStart": "32.560",
                   "timeEnd": "32.640",
                   "entities": []
                 }
@@ -1097,7 +1506,20 @@
                   "text": "Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend Zukunftskonvent Österreich",
                   "timeStart": "32.640",
                   "timeEnd": "32.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1604/A(E) der Abgeordneten Mag. Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend Zukunftskonvent Österreich"
@@ -1117,7 +1539,14 @@
                   "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend Förderung der digitalen Medientransformation",
                   "timeStart": "33.240",
                   "timeEnd": "33.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1621/A(E) der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend Förderung der digitalen Medientransformation"
@@ -1131,7 +1560,20 @@
                   "text": "Antrag 1624/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Versagen des Vertrauens gegenüber dem Bundeskanzler",
                   "timeStart": "33.720",
                   "timeEnd": "34.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1624/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Versagen des Vertrauens gegenüber dem Bundeskanzler"
@@ -1172,7 +1614,7 @@
                 {
                   "text": "Antrag 1617/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Neustart: rasches Gründen ohne Stolpersteine",
                   "timeStart": "35.240",
-                  "timeEnd": "35.440",
+                  "timeEnd": "35.880",
                   "entities": []
                 }
               ],
@@ -1185,8 +1627,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1620/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Rettung der österreichischen Veranstaltungswirtschaft",
-                  "timeStart": "35.440",
-                  "timeEnd": "36.860",
+                  "timeStart": "35.880",
+                  "timeEnd": "37.320",
                   "entities": []
                 }
               ],
@@ -1199,14 +1641,33 @@
               "sentences": [
                 {
                   "text": "Antrag 1628/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Österreich zuerst!",
-                  "timeStart": "36.860",
-                  "timeEnd": "37.320",
-                  "entities": []
+                  "timeStart": "37.320",
+                  "timeEnd": "38.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 },
                 {
                   "text": "Vorrang für unsere Betriebe bei Versorgung mit Werk-, Bau- und Rohstoffen Qualifizierungsoffensive für unsere Jugend Entlastungsoffensive für unsere Betriebe",
-                  "timeStart": "37.320",
-                  "timeEnd": "38.520",
+                  "timeStart": "38.680",
+                  "timeEnd": "38.920",
                   "entities": []
                 }
               ],
@@ -1219,9 +1680,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "38.520",
-                  "timeEnd": "38.680",
-                  "entities": []
+                  "timeStart": "38.920",
+                  "timeEnd": "39.000",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -1233,15 +1701,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1605/A(E) der Abgeordneten Mag.",
-                  "timeStart": "38.680",
-                  "timeEnd": "38.800",
+                  "timeStart": "39.000",
+                  "timeEnd": "39.000",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Strukturierte Doktoratsprogramme und Transferable Skills in Doktorand_innenausbildung",
-                  "timeStart": "38.800",
-                  "timeEnd": "38.800",
-                  "entities": []
+                  "timeStart": "39.000",
+                  "timeEnd": "39.000",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1605/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Strukturierte Doktoratsprogramme und Transferable Skills in Doktorand_innenausbildung"
@@ -1253,8 +1728,8 @@
               "sentences": [
                 {
                   "text": "Ich weise darüber hinaus den Antrag 1634/A(E) dem Unterrichtsausschuss zu.",
-                  "timeStart": "38.800",
-                  "timeEnd": "38.920",
+                  "timeStart": "39.000",
+                  "timeEnd": "39.240",
                   "entities": []
                 }
               ],
@@ -1267,13 +1742,13 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen, den 20. Mai, um 10 Uhr ein.",
-                  "timeStart": "38.920",
-                  "timeEnd": "39.000",
+                  "timeStart": "39.240",
+                  "timeEnd": "39.360",
                   "entities": []
                 },
                 {
                   "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
-                  "timeStart": "39.000",
+                  "timeStart": "39.360",
                   "timeEnd": "39.640",
                   "entities": []
                 }
@@ -1288,7 +1763,7 @@
                 {
                   "text": "Ich wünsche Ihnen einen schönen Abend.",
                   "timeStart": "39.640",
-                  "timeEnd": "40.240",
+                  "timeEnd": "40.120",
                   "entities": []
                 }
               ],
@@ -1301,7 +1776,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "40.240",
+                  "timeStart": "40.120",
                   "timeEnd": "42.000",
                   "entities": []
                 }
@@ -1316,8 +1791,8 @@
         "stdId": 245486,
         "debatteId": 300,
         "proceedingIndex": 245486,
-        "alignDuration": 0.9904992580413818,
-        "nerDuration": 0.5160520076751709
+        "alignDuration": 1.0501630306243896,
+        "nerDuration": 1.046832799911499
       },
       "originalLanguage": "de"
     }

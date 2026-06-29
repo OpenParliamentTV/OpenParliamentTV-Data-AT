@@ -5,11 +5,12 @@
     "dateStart": "2020-11-05T12:58:22",
     "dateEnd": "2020-11-05T12:59:22",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-17T18:30:06",
+    "lastUpdate": "2026-06-28T09:47:12",
     "processing": {
       "merge": "2026-06-16T04:23:41+00:00",
-      "align": "2026-06-17T18:30:06",
-      "ner": "2026-06-28T02:31:47"
+      "align": "2026-06-28T09:47:12",
+      "ner": "2026-06-28T14:58:59",
+      "nel": "2026-06-28T07:25:23"
     }
   },
   "data": [
@@ -70,7 +71,7 @@
                 {
                   "text": "Ich eröffne die 61. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "4.040",
+                  "timeEnd": "2.760",
                   "entities": []
                 }
               ],
@@ -83,39 +84,104 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "4.040",
-                  "timeEnd": "4.280",
+                  "timeStart": "2.760",
+                  "timeEnd": "4.040",
                   "entities": []
                 },
                 {
                   "text": "Michael Hammer , Andreas Kühberger , Dr. Reinhold Lopatka , Alexander Melchior , Josef Muchitsch , Dr. Susanne Fürst , Mag.",
-                  "timeStart": "4.280",
+                  "timeStart": "4.040",
                   "timeEnd": "7.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.4728
+                    },
+                    {
+                      "label": "Andreas Kühberger",
+                      "wid": "Q42856558",
+                      "wtype": "PER",
+                      "score": 0.9853
+                    },
+                    {
+                      "label": "Alexander Melchior",
+                      "wid": "Q30015127",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Ing. Norbert Hofer , Mag.",
                   "timeStart": "7.680",
-                  "timeEnd": "8.800",
-                  "entities": []
+                  "timeEnd": "8.240",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Christian Ragger , Mag.",
-                  "timeStart": "8.800",
-                  "timeEnd": "9.200",
-                  "entities": []
+                  "timeStart": "8.240",
+                  "timeEnd": "8.680",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Mag.",
-                  "timeStart": "9.200",
-                  "timeEnd": "9.940",
-                  "entities": []
+                  "timeStart": "8.680",
+                  "timeEnd": "8.800",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Faika El-Nagashi , David Stögmüller und Dipl.-Ing. Olga Voglauer .",
-                  "timeStart": "9.940",
-                  "timeEnd": "12.040",
-                  "entities": []
+                  "timeStart": "8.800",
+                  "timeEnd": "9.280",
+                  "entities": [
+                    {
+                      "label": "Faika El-Nagashi",
+                      "wid": "Q29585127",
+                      "wtype": "PER",
+                      "score": 0.9888
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Michael Hammer , Andreas Kühberger , Dr. Reinhold Lopatka , Alexander Melchior , Josef Muchitsch , Dr. Susanne Fürst , Mag. Gerald Hauser , Ing. Norbert Hofer , Mag. Christian Ragger , Mag. Philipp Schrangl , Mag. Faika El-Nagashi , David Stögmüller und Dipl.-Ing. Olga Voglauer ."
@@ -127,8 +193,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "12.040",
-                  "timeEnd": "12.440",
+                  "timeStart": "9.280",
+                  "timeEnd": "9.940",
                   "entities": []
                 }
               ],
@@ -141,8 +207,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "12.440",
-                  "timeEnd": "17.240",
+                  "timeStart": "9.940",
+                  "timeEnd": "13.280",
                   "entities": []
                 }
               ],
@@ -155,8 +221,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "17.240",
-                  "timeEnd": "18.920",
+                  "timeStart": "13.280",
+                  "timeEnd": "14.860",
                   "entities": []
                 }
               ],
@@ -169,8 +235,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "18.920",
-                  "timeEnd": "20.320",
+                  "timeStart": "14.860",
+                  "timeEnd": "15.680",
                   "entities": []
                 }
               ],
@@ -183,8 +249,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortung: 3296/AB",
-                  "timeStart": "20.320",
-                  "timeEnd": "23.840",
+                  "timeStart": "15.680",
+                  "timeEnd": "18.040",
                   "entities": []
                 }
               ],
@@ -197,8 +263,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "23.840",
-                  "timeEnd": "24.920",
+                  "timeStart": "18.040",
+                  "timeEnd": "18.800",
                   "entities": []
                 }
               ],
@@ -211,8 +277,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "24.920",
-                  "timeEnd": "25.360",
+                  "timeStart": "18.800",
+                  "timeEnd": "19.120",
                   "entities": []
                 }
               ],
@@ -225,8 +291,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "25.360",
-                  "timeEnd": "25.680",
+                  "timeStart": "19.120",
+                  "timeEnd": "20.080",
                   "entities": []
                 }
               ],
@@ -239,21 +305,83 @@
               "sentences": [
                 {
                   "text": "Antrag 984/A der Abgeordneten Mag.",
-                  "timeStart": "25.680",
-                  "timeEnd": "28.320",
+                  "timeStart": "20.080",
+                  "timeEnd": "22.480",
                   "entities": []
                 },
                 {
                   "text": "Wolfgang Sobotka , Doris Bures , Christian Hafenecker, MA , Sigrid Maurer, BA , Mag.",
-                  "timeStart": "28.320",
-                  "timeEnd": "32.280",
-                  "entities": []
+                  "timeStart": "22.480",
+                  "timeEnd": "26.160",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Sobotka",
+                      "wid": "Q2591433",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Sigrid Maurer",
+                      "wid": "Q1618939",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sanierung des Parlamentsgebäudes (Parlamentsgebäudesanierungsgesetz, PGSG) geändert wird",
-                  "timeStart": "32.280",
-                  "timeEnd": "36.960",
-                  "entities": []
+                  "timeStart": "26.160",
+                  "timeEnd": "31.960",
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    },
+                    {
+                      "label": "Parlamentsgebäudes",
+                      "wid": "Q702121",
+                      "wtype": "ORG",
+                      "score": 0.3469
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 984/A der Abgeordneten Mag. Wolfgang Sobotka , Doris Bures , Christian Hafenecker, MA , Sigrid Maurer, BA , Mag. Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sanierung des Parlamentsgebäudes (Parlamentsgebäudesanierungsgesetz, PGSG) geändert wird"
@@ -265,8 +393,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "36.960",
-                  "timeEnd": "37.880",
+                  "timeStart": "31.960",
+                  "timeEnd": "32.240",
                   "entities": []
                 }
               ],
@@ -279,9 +407,22 @@
               "sentences": [
                 {
                   "text": "Antrag 985/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Reform der Medienförderung",
-                  "timeStart": "37.880",
-                  "timeEnd": "40.640",
-                  "entities": []
+                  "timeStart": "32.240",
+                  "timeEnd": "34.960",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 985/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Reform der Medienförderung"
@@ -293,8 +434,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich",
-                  "timeStart": "40.640",
-                  "timeEnd": "41.480",
+                  "timeStart": "34.960",
+                  "timeEnd": "36.400",
                   "entities": []
                 }
               ],
@@ -307,8 +448,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 986/A und 992/A(E) dem Ausschuss für Arbeit und Soziales,",
-                  "timeStart": "41.480",
-                  "timeEnd": "45.320",
+                  "timeStart": "36.400",
+                  "timeEnd": "40.240",
                   "entities": []
                 }
               ],
@@ -321,8 +462,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 987/A(E) bis 989/A(E) dem Umweltausschuss,",
-                  "timeStart": "45.320",
-                  "timeEnd": "48.600",
+                  "timeStart": "40.240",
+                  "timeEnd": "43.240",
                   "entities": []
                 }
               ],
@@ -335,9 +476,22 @@
               "sentences": [
                 {
                   "text": "den Antrag 990/A(E) dem Tourismusausschuss und",
-                  "timeStart": "48.600",
-                  "timeEnd": "50.920",
-                  "entities": []
+                  "timeStart": "43.240",
+                  "timeEnd": "44.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "LOC",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "den Antrag 990/A(E) dem Tourismusausschuss und"
@@ -349,9 +503,22 @@
               "sentences": [
                 {
                   "text": "den Antrag 991/A(E) dem Landesverteidigungsausschuss zu.",
-                  "timeStart": "50.920",
-                  "timeEnd": "53.240",
-                  "entities": []
+                  "timeStart": "44.560",
+                  "timeEnd": "47.700",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "den Antrag 991/A(E) dem Landesverteidigungsausschuss zu."
@@ -363,7 +530,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Dienstag, den 17. November, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "53.240",
+                  "timeStart": "47.700",
                   "timeEnd": "57.060",
                   "entities": []
                 }
@@ -392,8 +559,8 @@
         "stdId": 227900,
         "debatteId": 300,
         "proceedingIndex": 227900,
-        "alignDuration": 0.45830512046813965,
-        "nerDuration": 0.12652206420898438
+        "alignDuration": 0.5451056957244873,
+        "nerDuration": 0.31316399574279785
       },
       "originalLanguage": "de"
     }

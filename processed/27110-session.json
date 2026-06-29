@@ -5,11 +5,12 @@
     "dateStart": "2021-05-26T16:58:11",
     "dateEnd": "2021-05-26T16:59:04",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T05:37:56",
+    "lastUpdate": "2026-06-28T10:38:27",
     "processing": {
       "merge": "2026-06-16T04:23:49+00:00",
-      "align": "2026-06-20T05:37:56",
-      "ner": "2026-06-28T02:45:06"
+      "align": "2026-06-28T10:38:27",
+      "ner": "2026-06-28T15:18:23",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -86,38 +87,164 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Kira Grünberg , Hans Stefan Hintner , Karlheinz Kopf , Dr. Christian Stocker , Gabriele Heinisch-Hosek , Klaus Köchl , Mag.",
                   "timeStart": "2.840",
-                  "timeEnd": "3.120",
-                  "entities": []
+                  "timeEnd": "3.160",
+                  "entities": [
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Hans Stefan Hintner",
+                      "wid": "Q1582619",
+                      "wtype": "PER",
+                      "score": 0.9861
+                    },
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9916
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Andrea Kuntzl , Alois Stöger, diplômé , Petra Wimmer , Rainer Wimmer , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , Ing. Norbert Hofer , Mag.",
-                  "timeStart": "3.120",
-                  "timeEnd": "5.120",
-                  "entities": []
+                  "timeStart": "3.160",
+                  "timeEnd": "5.400",
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.863
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q968442",
+                      "wtype": "PER",
+                      "score": 0.6855
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Christian Ragger , Ing. Mag.",
-                  "timeStart": "5.120",
+                  "timeStart": "5.400",
                   "timeEnd": "5.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Mag.",
                   "timeStart": "5.960",
                   "timeEnd": "6.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Peter Wurm , Dr. Ewa Ernst-Dziedzic , Mag.",
                   "timeStart": "6.320",
                   "timeEnd": "6.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    }
+                  ]
                 },
                 {
                   "text": "Martina Künsberg Sarre , Dr. Johannes Margreiter , Josef Schellhorn und Dr. Nikolaus Scherak, MA .",
                   "timeStart": "6.880",
                   "timeEnd": "7.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9511
+                    },
+                    {
+                      "label": "Johannes Margreiter",
+                      "wid": "Q69352200",
+                      "wtype": "PER",
+                      "score": 0.9875
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Kira Grünberg , Hans Stefan Hintner , Karlheinz Kopf , Dr. Christian Stocker , Gabriele Heinisch-Hosek , Klaus Köchl , Mag. Andrea Kuntzl , Alois Stöger, diplômé , Petra Wimmer , Rainer Wimmer , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , Ing. Norbert Hofer , Mag. Christian Ragger , Ing. Mag. Volker Reifenberger , Mag. Philipp Schrangl , Peter Wurm , Dr. Ewa Ernst-Dziedzic , Mag. Martina Künsberg Sarre , Dr. Johannes Margreiter , Josef Schellhorn und Dr. Nikolaus Scherak, MA ."
@@ -158,7 +285,7 @@
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
                   "timeStart": "9.520",
-                  "timeEnd": "9.920",
+                  "timeEnd": "10.200",
                   "entities": []
                 }
               ],
@@ -171,8 +298,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "9.920",
-                  "timeEnd": "10.160",
+                  "timeStart": "10.200",
+                  "timeEnd": "10.320",
                   "entities": []
                 }
               ],
@@ -185,8 +312,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 6057/AB bis 6063/AB",
-                  "timeStart": "10.160",
-                  "timeEnd": "11.280",
+                  "timeStart": "10.320",
+                  "timeEnd": "10.720",
                   "entities": []
                 }
               ],
@@ -199,8 +326,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "11.280",
-                  "timeEnd": "11.440",
+                  "timeStart": "10.720",
+                  "timeEnd": "11.480",
                   "entities": []
                 }
               ],
@@ -213,7 +340,7 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "11.440",
+                  "timeStart": "11.480",
                   "timeEnd": "11.760",
                   "entities": []
                 }
@@ -243,7 +370,20 @@
                   "text": "Antrag 1691/A(E) der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend finanzielle Absicherung bundesweiter Männerarbeit und Männerberatung",
                   "timeStart": "12.640",
                   "timeEnd": "14.460",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1691/A(E) der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend finanzielle Absicherung bundesweiter Männerarbeit und Männerberatung"
@@ -257,13 +397,33 @@
                   "text": "Antrag 1698/A der Abgeordneten Tanja Graf , Mag.",
                   "timeStart": "14.460",
                   "timeEnd": "15.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q2392681",
+                      "wtype": "PER",
+                      "score": 0.3899
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch, das Landarbeitsgesetz 2021 und das Arbeitslosenversicherungsgesetz 1977 geändert werden",
                   "timeStart": "15.320",
-                  "timeEnd": "18.720",
-                  "entities": []
+                  "timeEnd": "16.960",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    },
+                    {
+                      "label": "Allgemeine bürgerliche Gesetzbuch",
+                      "wid": "Q698262",
+                      "wtype": "MISC",
+                      "score": 0.9843
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1698/A der Abgeordneten Tanja Graf , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch, das Landarbeitsgesetz 2021 und das Arbeitslosenversicherungsgesetz 1977 geändert werden"
@@ -275,8 +435,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "18.720",
-                  "timeEnd": "19.400",
+                  "timeStart": "16.960",
+                  "timeEnd": "17.560",
                   "entities": []
                 }
               ],
@@ -289,8 +449,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1697/A(E) der Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Kolleginnen und Kollegen betreffend Freilassung des weißrussischen Bloggers Protassewitsch",
-                  "timeStart": "19.400",
-                  "timeEnd": "24.360",
+                  "timeStart": "17.560",
+                  "timeEnd": "20.880",
                   "entities": []
                 }
               ],
@@ -303,8 +463,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "24.360",
-                  "timeEnd": "24.560",
+                  "timeStart": "20.880",
+                  "timeEnd": "21.240",
                   "entities": []
                 }
               ],
@@ -317,9 +477,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1692/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend flächendeckende Versorgung für LGBTIQ-Jugendliche",
-                  "timeStart": "24.560",
-                  "timeEnd": "26.200",
-                  "entities": []
+                  "timeStart": "21.240",
+                  "timeEnd": "24.280",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1692/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend flächendeckende Versorgung für LGBTIQ-Jugendliche"
@@ -331,8 +504,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "26.200",
-                  "timeEnd": "27.000",
+                  "timeStart": "24.280",
+                  "timeEnd": "24.560",
                   "entities": []
                 }
               ],
@@ -345,9 +518,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1690/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend \"Corona-Bonus auch für die nicht sichtbaren Heldinnen und Helden – vergessen wir jetzt nicht auf Menschen, die während der Corona-Krise Tag und Nacht für uns da waren!\"",
-                  "timeStart": "27.000",
-                  "timeEnd": "29.400",
-                  "entities": []
+                  "timeStart": "24.560",
+                  "timeEnd": "30.120",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1690/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend \"Corona-Bonus auch für die nicht sichtbaren Heldinnen und Helden – vergessen wir jetzt nicht auf Menschen, die während der Corona-Krise Tag und Nacht für uns da waren!\""
@@ -359,9 +545,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1695/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekerkammergesetz 2001 und das Gehaltskassengesetz 2002 geändert werden",
-                  "timeStart": "29.400",
+                  "timeStart": "30.120",
                   "timeEnd": "34.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1695/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Apothekerkammergesetz 2001 und das Gehaltskassengesetz 2002 geändert werden"
@@ -375,7 +574,20 @@
                   "text": "Antrag 1696/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das IVF-Fonds-Gesetz geändert wird",
                   "timeStart": "34.600",
                   "timeEnd": "38.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1696/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das IVF-Fonds-Gesetz geändert wird"
@@ -388,7 +600,7 @@
                 {
                   "text": "Gleichbehandlungsausschuss:",
                   "timeStart": "38.200",
-                  "timeEnd": "38.200",
+                  "timeEnd": "38.400",
                   "entities": []
                 }
               ],
@@ -401,9 +613,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1693/A(E) der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend flächendeckende Versorgung für LGBTIQ-Jugendliche",
-                  "timeStart": "38.200",
-                  "timeEnd": "39.560",
-                  "entities": []
+                  "timeStart": "38.400",
+                  "timeEnd": "40.040",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1693/A(E) der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend flächendeckende Versorgung für LGBTIQ-Jugendliche"
@@ -415,15 +640,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1694/A(E) der Abgeordneten Mag.",
-                  "timeStart": "39.560",
-                  "timeEnd": "39.560",
+                  "timeStart": "40.040",
+                  "timeEnd": "41.480",
                   "entities": []
                 },
                 {
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend LGBTIQ-inklusive Lehr- und Lernmaterialien und niederschwellige Anlaufstellen in Österreichs Schulen",
-                  "timeStart": "39.560",
-                  "timeEnd": "39.920",
-                  "entities": []
+                  "timeStart": "41.480",
+                  "timeEnd": "42.040",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "Österreichs",
+                      "wid": "Q131964",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1694/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend LGBTIQ-inklusive Lehr- und Lernmaterialien und niederschwellige Anlaufstellen in Österreichs Schulen"
@@ -435,8 +673,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "39.920",
-                  "timeEnd": "40.240",
+                  "timeStart": "42.040",
+                  "timeEnd": "42.240",
                   "entities": []
                 }
               ],
@@ -449,21 +687,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1699/A der Abgeordneten Mag.",
-                  "timeStart": "40.240",
-                  "timeEnd": "40.760",
+                  "timeStart": "42.240",
+                  "timeEnd": "42.960",
                   "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
-                  "timeStart": "40.760",
-                  "timeEnd": "40.760",
-                  "entities": []
+                  "timeStart": "42.960",
+                  "timeEnd": "42.960",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwaltungsgerichtsverfahrensgesetz und das Verwaltungsgerichtshofgesetz 1985 geändert werden",
-                  "timeStart": "40.760",
-                  "timeEnd": "43.560",
-                  "entities": []
+                  "timeStart": "42.960",
+                  "timeEnd": "45.120",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1699/A der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Verwaltungsgerichtsverfahrensgesetz und das Verwaltungsgerichtshofgesetz 1985 geändert werden"
@@ -475,8 +727,8 @@
               "sentences": [
                 {
                   "text": "Ich weise des Weiteren den Antrag 1700/A(E) dem Finanzausschuss, die Anträge 1701/A(E) plus 1702/A(E) dem Ausschuss für Familie und Jugend, den Antrag 1703/A(E) dem Menschenrechtsausschuss, den Antrag 1704/A(E) dem Ausschuss für Land- und Forstwirtschaft sowie den Antrag 1705/A dem Justizausschuss zu.",
-                  "timeStart": "43.560",
-                  "timeEnd": "50.400",
+                  "timeStart": "45.120",
+                  "timeEnd": "51.040",
                   "entities": []
                 }
               ],
@@ -489,8 +741,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 16. Juni 2021, um 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen.",
-                  "timeStart": "50.400",
-                  "timeEnd": "52.360",
+                  "timeStart": "51.040",
+                  "timeEnd": "52.600",
                   "entities": []
                 }
               ],
@@ -503,8 +755,8 @@
               "sentences": [
                 {
                   "text": "Ich darf mich herzlich bedanken.",
-                  "timeStart": "52.360",
-                  "timeEnd": "52.560",
+                  "timeStart": "52.600",
+                  "timeEnd": "52.800",
                   "entities": []
                 }
               ],
@@ -517,7 +769,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "52.560",
+                  "timeStart": "52.800",
                   "timeEnd": "53.960",
                   "entities": []
                 }
@@ -532,8 +784,8 @@
         "stdId": 246437,
         "debatteId": 300,
         "proceedingIndex": 246437,
-        "alignDuration": 0.5842940807342529,
-        "nerDuration": 0.20513105392456055
+        "alignDuration": 0.6559333801269531,
+        "nerDuration": 0.38239598274230957
       },
       "originalLanguage": "de"
     }

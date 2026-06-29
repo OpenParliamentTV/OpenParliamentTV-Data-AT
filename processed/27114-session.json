@@ -5,11 +5,12 @@
     "dateStart": "2021-06-17T20:57:09",
     "dateEnd": "2021-06-17T20:57:35",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T14:26:36",
+    "lastUpdate": "2026-06-28T10:45:33",
     "processing": {
       "merge": "2026-06-16T04:23:49+00:00",
-      "align": "2026-06-20T14:26:36",
-      "ner": "2026-06-28T02:46:46"
+      "align": "2026-06-28T10:45:33",
+      "ner": "2026-06-28T15:20:47",
+      "nel": "2026-06-28T07:25:27"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Die Sitzung ist eröffnet.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.080",
+                  "timeEnd": "1.840",
                   "entities": []
                 }
               ],
@@ -85,33 +86,71 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten MMag.",
-                  "timeStart": "1.080",
-                  "timeEnd": "1.080",
+                  "timeStart": "1.840",
+                  "timeEnd": "2.120",
                   "entities": []
                 },
                 {
                   "text": "Dr. Agnes Totter, BEd , MMag.",
-                  "timeStart": "1.080",
-                  "timeEnd": "1.080",
+                  "timeStart": "2.120",
+                  "timeEnd": "2.120",
                   "entities": []
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "1.080",
-                  "timeEnd": "1.080",
+                  "timeStart": "2.120",
+                  "timeEnd": "2.120",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Mag.",
-                  "timeStart": "1.080",
-                  "timeEnd": "1.080",
-                  "entities": []
+                  "timeStart": "2.120",
+                  "timeEnd": "2.120",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Dr. Helmut Brandstätter und Josef Schellhorn .",
-                  "timeStart": "1.080",
-                  "timeEnd": "1.440",
-                  "entities": []
+                  "timeStart": "2.120",
+                  "timeEnd": "2.560",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten MMag. Dr. Agnes Totter, BEd , MMag. DDr. Hubert Fuchs , Mag. Philipp Schrangl , Wolfgang Zanger , Barbara Neßler , Dr. Helmut Brandstätter und Josef Schellhorn ."
@@ -123,8 +162,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "1.440",
-                  "timeEnd": "1.440",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -137,8 +176,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "1.440",
-                  "timeEnd": "1.440",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -151,8 +190,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "1.440",
-                  "timeEnd": "1.440",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -165,8 +204,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "1.440",
-                  "timeEnd": "1.440",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -179,8 +218,8 @@
               "sentences": [
                 {
                   "text": "1. Schriftliche Anfragen:",
-                  "timeStart": "1.440",
-                  "timeEnd": "1.440",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -193,8 +232,8 @@
               "sentences": [
                 {
                   "text": "Schriftliche Anfrage an den Präsidenten des Nationalrates:",
-                  "timeStart": "1.440",
-                  "timeEnd": "1.840",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -207,8 +246,8 @@
               "sentences": [
                 {
                   "text": "36/JPR",
-                  "timeStart": "1.840",
-                  "timeEnd": "2.120",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -221,8 +260,8 @@
               "sentences": [
                 {
                   "text": "2. Anfragebeantwortungen: 6273/AB bis 6276/AB",
-                  "timeStart": "2.120",
-                  "timeEnd": "2.360",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -235,8 +274,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "2.360",
-                  "timeEnd": "2.480",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -249,8 +288,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "2.480",
-                  "timeEnd": "2.480",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -263,8 +302,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "2.480",
-                  "timeEnd": "2.480",
+                  "timeStart": "2.560",
+                  "timeEnd": "2.560",
                   "entities": []
                 }
               ],
@@ -277,9 +316,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1749/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Unterstützung des Arbeitsministers für sein arbeitsmarktpolitisches Ziel, den Bestand der Langzeitbeschäftigungslosen bis Ende 2022 um mindestens 50.000 Personen zu verringern",
-                  "timeStart": "2.480",
+                  "timeStart": "2.560",
                   "timeEnd": "2.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1749/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Unterstützung des Arbeitsministers für sein arbeitsmarktpolitisches Ziel, den Bestand der Langzeitbeschäftigungslosen bis Ende 2022 um mindestens 50.000 Personen zu verringern"
@@ -320,8 +372,21 @@
                 {
                   "text": "Antrag 1763/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen",
                   "timeStart": "2.560",
-                  "timeEnd": "2.640",
-                  "entities": []
+                  "timeEnd": "2.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9362
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1763/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen"
@@ -333,15 +398,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1773/A der Abgeordneten August Wöginger , Josef Muchitsch , Mag.",
-                  "timeStart": "2.640",
+                  "timeStart": "2.560",
                   "timeEnd": "3.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz geändert wird",
                   "timeStart": "3.720",
                   "timeEnd": "4.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Abfertigungsgesetz",
+                      "wid": "Q320006",
+                      "wtype": "MISC",
+                      "score": 0.7482
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1773/A der Abgeordneten August Wöginger , Josef Muchitsch , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz geändert wird"
@@ -361,7 +452,20 @@
                   "text": "Andreas Hanger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz geändert wird",
                   "timeStart": "4.760",
                   "timeEnd": "4.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andreas Hanger",
+                      "wid": "Q15783312",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1775/A der Abgeordneten Mag. Andreas Hanger , David Stögmüller , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz geändert wird"
@@ -375,13 +479,27 @@
                   "text": "Antrag 1776/A der Abgeordneten Tanja Graf , Mag.",
                   "timeStart": "4.920",
                   "timeEnd": "5.580",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q2392681",
+                      "wtype": "PER",
+                      "score": 0.3899
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Sonderunterstützungsgesetz geändert werden",
                   "timeStart": "5.580",
-                  "timeEnd": "6.440",
-                  "entities": []
+                  "timeEnd": "6.200",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1776/A der Abgeordneten Tanja Graf , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Sonderunterstützungsgesetz geändert werden"
@@ -393,15 +511,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1777/A der Abgeordneten Mag.",
-                  "timeStart": "6.440",
+                  "timeStart": "6.200",
                   "timeEnd": "6.960",
                   "entities": []
                 },
                 {
                   "text": "Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird",
                   "timeStart": "6.960",
-                  "timeEnd": "7.520",
-                  "entities": []
+                  "timeEnd": "7.600",
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1777/A der Abgeordneten Mag. Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz geändert wird"
@@ -413,21 +550,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1779/A(E) der Abgeordneten Mag.",
-                  "timeStart": "7.520",
-                  "timeEnd": "8.080",
+                  "timeStart": "7.600",
+                  "timeEnd": "7.600",
                   "entities": []
                 },
                 {
                   "text": "Ernst Gödl , Mag.",
-                  "timeStart": "8.080",
-                  "timeEnd": "8.200",
-                  "entities": []
+                  "timeStart": "7.600",
+                  "timeEnd": "7.600",
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9913
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend \"Ausbau und Verlängerung des Fachkräftestipendiums\"",
-                  "timeStart": "8.200",
-                  "timeEnd": "8.640",
-                  "entities": []
+                  "timeStart": "7.600",
+                  "timeEnd": "7.920",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1779/A(E) der Abgeordneten Mag. Ernst Gödl , Mag. Markus Koza , Kolleginnen und Kollegen betreffend \"Ausbau und Verlängerung des Fachkräftestipendiums\""
@@ -439,9 +596,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1780/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden",
-                  "timeStart": "8.640",
-                  "timeEnd": "10.080",
-                  "entities": []
+                  "timeStart": "7.920",
+                  "timeEnd": "7.920",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6306
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1780/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
@@ -453,9 +629,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1781/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
-                  "timeStart": "10.080",
-                  "timeEnd": "10.080",
-                  "entities": []
+                  "timeStart": "7.920",
+                  "timeEnd": "8.520",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1781/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -467,8 +662,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "10.080",
-                  "timeEnd": "10.080",
+                  "timeStart": "8.520",
+                  "timeEnd": "8.720",
                   "entities": []
                 }
               ],
@@ -481,9 +676,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1778/A der Abgeordneten Karlheinz Kopf , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz genehmigt wird, erlassen wird und das Bundesgesetz, mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden, geändert wird",
-                  "timeStart": "10.080",
+                  "timeStart": "8.720",
                   "timeEnd": "10.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Elisabeth Götze",
+                      "wid": "Q72074591",
+                      "wtype": "PER",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Bundesvermögen",
+                      "wid": "Q1553011",
+                      "wtype": "LOC",
+                      "score": 0.4197
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1778/A der Abgeordneten Karlheinz Kopf , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz genehmigt wird, erlassen wird und das Bundesgesetz, mit dem zur Abdeckung des Bedarfes zur Bekämpfung der Covid-19-Pandemie Ermächtigungen zur Verfügung über Bundesvermögen erteilt werden, geändert wird"
@@ -511,13 +731,51 @@
                   "text": "Antrag 1764/A(E) der Abgeordneten Christian Hafenecker, MA , Mag.",
                   "timeStart": "10.080",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Teilnahme am ESA-Wahlprogramm \"BOOST!\"",
                   "timeStart": "10.840",
                   "timeEnd": "11.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Oberrauner",
+                      "wid": "Q72078872",
+                      "wtype": "PER",
+                      "score": 0.9872
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1764/A(E) der Abgeordneten Christian Hafenecker, MA , Mag. Dr. Petra Oberrauner , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Teilnahme am ESA-Wahlprogramm \"BOOST!\""
@@ -530,7 +788,7 @@
                 {
                   "text": "Gesundheitsausschuss:",
                   "timeStart": "11.880",
-                  "timeEnd": "12.040",
+                  "timeEnd": "12.080",
                   "entities": []
                 }
               ],
@@ -543,7 +801,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1748/A(E) der Abgeordneten Mag.",
-                  "timeStart": "12.040",
+                  "timeStart": "12.080",
                   "timeEnd": "12.120",
                   "entities": []
                 },
@@ -551,7 +809,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Überarbeitung der COVID-19-Impfungen-Anwendungsempfehlungen des Nationalen Impfgremiums im Hinblick auf die Zunahme der Reisetätigkeit",
                   "timeStart": "12.120",
                   "timeEnd": "12.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1748/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Überarbeitung der COVID-19-Impfungen-Anwendungsempfehlungen des Nationalen Impfgremiums im Hinblick auf die Zunahme der Reisetätigkeit"
@@ -564,8 +829,21 @@
                 {
                   "text": "Antrag 1753/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen",
                   "timeStart": "12.240",
-                  "timeEnd": "12.720",
-                  "entities": []
+                  "timeEnd": "12.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9362
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1753/A(E) der Abgeordneten Christian Ries , Kolleginnen und Kollegen betreffend finanzieller Besserstellung von Bürgerinnen und Bürgern in Pflegeberufen"
@@ -577,7 +855,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1756/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zum Grünem Pass und einer Kinderimpfpflicht",
-                  "timeStart": "12.720",
+                  "timeStart": "12.680",
                   "timeEnd": "13.600",
                   "entities": []
                 }
@@ -592,7 +870,7 @@
                 {
                   "text": "Antrag 1758/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Keine Impfpflicht für Kinder und Jugendliche",
                   "timeStart": "13.600",
-                  "timeEnd": "15.240",
+                  "timeEnd": "14.840",
                   "entities": []
                 }
               ],
@@ -605,9 +883,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1774/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Ende der dauernden Anbindehaltung bei Rindern",
-                  "timeStart": "15.240",
+                  "timeStart": "14.840",
                   "timeEnd": "15.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1774/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Ende der dauernden Anbindehaltung bei Rindern"
@@ -663,7 +960,20 @@
                   "text": "Antrag 1760/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Gewährleistungsrecht NEU",
                   "timeStart": "15.440",
                   "timeEnd": "15.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1760/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Gewährleistungsrecht NEU"
@@ -697,7 +1007,20 @@
                   "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend \"Cancel Culture\" in Österreich verhindern",
                   "timeStart": "15.440",
                   "timeEnd": "15.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1766/A(E) der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend \"Cancel Culture\" in Österreich verhindern"
@@ -725,7 +1048,20 @@
                   "text": "Antrag 1761/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen",
                   "timeStart": "15.440",
                   "timeEnd": "15.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1761/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Schaffung von Blühstreifen"
@@ -739,7 +1075,26 @@
                   "text": "Antrag 1768/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Bevölkerungsschutz in wolfsnahen Siedlungsgebieten durch Anpassung der FFH-Richtlinie",
                   "timeStart": "15.440",
                   "timeEnd": "15.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.984
+                    },
+                    {
+                      "label": "FFH-Richtlinie",
+                      "wid": "Q759874",
+                      "wtype": "ORG",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1768/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Bevölkerungsschutz in wolfsnahen Siedlungsgebieten durch Anpassung der FFH-Richtlinie"
@@ -753,7 +1108,20 @@
                   "text": "Antrag 1772/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Schluss mit dem Verstecken der Herkunftskennzeichnung",
                   "timeStart": "15.440",
                   "timeEnd": "15.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9707
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1772/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend Schluss mit dem Verstecken der Herkunftskennzeichnung"
@@ -767,7 +1135,26 @@
                   "text": "Antrag 1782/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung von Schweinen in Österreich",
                   "timeStart": "15.440",
                   "timeEnd": "16.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1782/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Agrarfördermitteleinsatz zur Erreichung des Endes der Vollspaltenböden-Haltung von Schweinen in Österreich"
@@ -780,8 +1167,15 @@
                 {
                   "text": "Tourismusausschuss:",
                   "timeStart": "16.960",
-                  "timeEnd": "16.960",
-                  "entities": []
+                  "timeEnd": "17.280",
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -793,9 +1187,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1752/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird",
-                  "timeStart": "16.960",
+                  "timeStart": "17.280",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Elisabeth Götze",
+                      "wid": "Q72074591",
+                      "wtype": "PER",
+                      "score": 0.962
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1752/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird"
@@ -837,7 +1244,20 @@
                   "text": "Antrag 1770/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Klimaschutz ohne Bevormundung",
                   "timeStart": "21.240",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1770/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Klimaschutz ohne Bevormundung"
@@ -893,7 +1313,20 @@
                   "text": "Antrag 1771/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Vetovolksabstimmung gegen Klima-Bevormundung",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1771/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Vetovolksabstimmung gegen Klima-Bevormundung"
@@ -921,7 +1354,26 @@
                   "text": "Antrag 1765/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Zulassung von E10-Treibstoff",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1765/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Zulassung von E10-Treibstoff"
@@ -935,7 +1387,26 @@
                   "text": "Antrag 1767/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend keine Erhöhung der motorbezogenen Versicherungssteuer",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1767/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend keine Erhöhung der motorbezogenen Versicherungssteuer"
@@ -949,7 +1420,26 @@
                   "text": "Antrag 1769/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend qualitativer Lärmschutz im Bereich des ÖBB-Netzes für die Landeshauptstadt St. Pölten",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    },
+                    {
+                      "label": "St. Pölten",
+                      "wid": "Q82500",
+                      "wtype": "LOC",
+                      "score": 0.5586
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1769/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend qualitativer Lärmschutz im Bereich des ÖBB-Netzes für die Landeshauptstadt St. Pölten"
@@ -983,7 +1473,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Sperrstunde abschaffen und Nachtgastronomie ermöglichen",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1747/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Sperrstunde abschaffen und Nachtgastronomie ermöglichen"
@@ -997,7 +1494,20 @@
                   "text": "Antrag 1750/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014 geändert wird",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Bilanzbuchhaltungsgesetz",
+                      "wid": "Q860342",
+                      "wtype": "MISC",
+                      "score": 0.7419
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1750/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bilanzbuchhaltungsgesetz 2014 geändert wird"
@@ -1011,7 +1521,14 @@
                   "text": "Antrag 1751/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1751/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird"
@@ -1025,7 +1542,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "22.040",
                   "timeEnd": "22.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -1044,8 +1568,15 @@
                 {
                   "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend sofortige Impfmöglichkeit für alle Studierenden",
                   "timeStart": "22.040",
-                  "timeEnd": "22.040",
-                  "entities": []
+                  "timeEnd": "22.080",
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9886
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1745/A(E) der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend sofortige Impfmöglichkeit für alle Studierenden"
@@ -1057,7 +1588,7 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "22.040",
+                  "timeStart": "22.080",
                   "timeEnd": "22.600",
                   "entities": []
                 }
@@ -1072,7 +1603,7 @@
                 {
                   "text": "Justizausschuss:",
                   "timeStart": "22.600",
-                  "timeEnd": "22.600",
+                  "timeEnd": "22.960",
                   "entities": []
                 }
               ],
@@ -1085,9 +1616,22 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Mai 2021, vorgelegt von der Bundesministerin für Justiz ( III-350 d.B. )",
-                  "timeStart": "22.600",
-                  "timeEnd": "23.440",
-                  "entities": []
+                  "timeStart": "22.960",
+                  "timeEnd": "23.640",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesministerin für Justiz",
+                      "wid": "Q872203",
+                      "wtype": "ORG",
+                      "score": 0.9311
+                    }
+                  ]
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Mai 2021, vorgelegt von der Bundesministerin für Justiz ( III-350 d.B. )"
@@ -1099,7 +1643,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 7. Juli 2021 um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "23.440",
+                  "timeStart": "23.640",
                   "timeEnd": "25.360",
                   "entities": []
                 }
@@ -1128,8 +1672,8 @@
         "stdId": 248576,
         "debatteId": 300,
         "proceedingIndex": 248576,
-        "alignDuration": 1.0334489345550537,
-        "nerDuration": 0.44245290756225586
+        "alignDuration": 0.9563243389129639,
+        "nerDuration": 1.0076663494110107
       },
       "originalLanguage": "de"
     }

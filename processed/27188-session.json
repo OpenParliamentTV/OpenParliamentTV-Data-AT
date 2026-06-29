@@ -5,11 +5,12 @@
     "dateStart": "2022-12-13T21:28:45",
     "dateEnd": "2022-12-13T21:29:18",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-23T20:08:05",
+    "lastUpdate": "2026-06-28T12:51:14",
     "processing": {
       "merge": "2026-06-16T04:24:03+00:00",
-      "align": "2026-06-23T20:08:05",
-      "ner": "2026-06-28T03:10:53"
+      "align": "2026-06-28T12:51:14",
+      "ner": "2026-06-28T15:55:35",
+      "nel": "2026-06-28T07:25:32"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 188. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.400",
+                  "timeEnd": "3.560",
                   "entities": []
                 }
               ],
@@ -85,21 +86,84 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Dr. Reinhold Lopatka , Alexander Melchior , Dipl.-Kffr. (",
-                  "timeStart": "1.400",
-                  "timeEnd": "3.560",
-                  "entities": []
+                  "timeStart": "3.560",
+                  "timeEnd": "3.760",
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Reinhold Lopatka",
+                      "wid": "Q1507084",
+                      "wtype": "PER",
+                      "score": 0.9909
+                    },
+                    {
+                      "label": "Alexander Melchior",
+                      "wid": "Q30015127",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    }
+                  ]
                 },
                 {
                   "text": "FH) Elisabeth Pfurtscheller , Dr. Josef Smolle , Mag.",
-                  "timeStart": "3.560",
+                  "timeStart": "3.760",
                   "timeEnd": "4.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "MISC",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Rudolf Silvan , Dr. Harald Troch , Heike Grebien und Hermann Weratschnig, MBA MSc .",
                   "timeStart": "4.160",
                   "timeEnd": "5.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.977
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Dr. Reinhold Lopatka , Alexander Melchior , Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Dr. Josef Smolle , Mag. Karin Greiner , Rudolf Silvan , Dr. Harald Troch , Heike Grebien und Hermann Weratschnig, MBA MSc ."
@@ -168,7 +232,7 @@
                 {
                   "text": "Anfragebeantwortungen: 12386/AB bis 12404/AB",
                   "timeStart": "6.880",
-                  "timeEnd": "7.600",
+                  "timeEnd": "7.160",
                   "entities": []
                 }
               ],
@@ -181,8 +245,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "7.600",
-                  "timeEnd": "7.640",
+                  "timeStart": "7.160",
+                  "timeEnd": "7.200",
                   "entities": []
                 }
               ],
@@ -195,7 +259,7 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "7.640",
+                  "timeStart": "7.200",
                   "timeEnd": "7.760",
                   "entities": []
                 }
@@ -231,7 +295,26 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einen Vorsitzenden für die Alterssicherungskommission (ASK) ( 3032/A(E) )",
                   "timeStart": "8.080",
                   "timeEnd": "8.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "ASK",
+                      "wid": "Q190395",
+                      "wtype": "ORG",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einen Vorsitzenden für die Alterssicherungskommission (ASK) ( 3032/A(E) )"
@@ -251,7 +334,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung eines Pensionsgipfels ( 3037/A(E) )",
                   "timeStart": "8.320",
                   "timeEnd": "8.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung eines Pensionsgipfels ( 3037/A(E) )"
@@ -271,7 +367,20 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3045/A(E) )",
                   "timeStart": "8.320",
                   "timeEnd": "9.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3045/A(E) )"
@@ -299,7 +408,26 @@
                   "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 3049/A(E) )",
                   "timeStart": "9.960",
                   "timeEnd": "9.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Aktion 60 plus für den österreichischen Arbeitsmarkt ( 3049/A(E) )"
@@ -326,13 +454,13 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend AMS-Schulungen: Mehr als 50 Prozent Ausländer! (",
                   "timeStart": "9.960",
-                  "timeEnd": "10.360",
+                  "timeEnd": "9.960",
                   "entities": []
                 },
                 {
                   "text": "3052/AE))",
-                  "timeStart": "10.360",
-                  "timeEnd": "10.720",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
                   "entities": []
                 }
               ],
@@ -345,8 +473,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "10.720",
-                  "timeEnd": "10.720",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
                   "entities": []
                 }
               ],
@@ -359,9 +487,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Entschuldung des Sudans ( 3044/A(E) )",
-                  "timeStart": "10.720",
-                  "timeEnd": "12.680",
-                  "entities": []
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Sudans",
+                      "wid": "Q209703",
+                      "wtype": "LOC",
+                      "score": 0.1005
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Entschuldung des Sudans ( 3044/A(E) )"
@@ -373,8 +520,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "12.680",
-                  "timeEnd": "13.160",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
                   "entities": []
                 }
               ],
@@ -387,9 +534,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit dem Warten auf die Familienbeihilfe – Mehr Personal für die Finanzämter\" ( 3027/A(E) )",
-                  "timeStart": "13.160",
-                  "timeEnd": "13.800",
-                  "entities": []
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit dem Warten auf die Familienbeihilfe – Mehr Personal für die Finanzämter\" ( 3027/A(E) )"
@@ -401,8 +561,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
                   "entities": []
                 }
               ],
@@ -415,15 +575,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
+                  "timeStart": "9.960",
+                  "timeEnd": "9.960",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Overhead-Finanzierung von Forschungsprojekten ( 3031/A(E) )",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
-                  "entities": []
+                  "timeStart": "9.960",
+                  "timeEnd": "10.360",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Overhead-Finanzierung von Forschungsprojekten ( 3031/A(E) )"
@@ -435,8 +608,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
+                  "timeStart": "10.360",
+                  "timeEnd": "10.720",
                   "entities": []
                 }
               ],
@@ -449,9 +622,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Vorbereitende Maßnahmen für den EHDS ( 3029/A(E) )",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
-                  "entities": []
+                  "timeStart": "10.720",
+                  "timeEnd": "12.640",
+                  "entities": [
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Vorbereitende Maßnahmen für den EHDS ( 3029/A(E) )"
@@ -463,15 +649,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
+                  "timeStart": "12.640",
+                  "timeEnd": "12.640",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3047/A(E) )",
-                  "timeStart": "13.800",
+                  "timeStart": "12.640",
                   "timeEnd": "13.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpasses aus nationalen Datenbanken ( 1831 d.B. ) bis zum 31. März 2023 ( 3047/A(E) )"
@@ -498,8 +697,21 @@
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Gezielte Präventionsarbeit gegen Gewalt an Mädchen und Frauen ( 3042/A(E) )",
                   "timeStart": "13.800",
-                  "timeEnd": "13.800",
-                  "entities": []
+                  "timeEnd": "14.320",
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Gezielte Präventionsarbeit gegen Gewalt an Mädchen und Frauen ( 3042/A(E) )"
@@ -511,8 +723,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "13.800",
-                  "timeEnd": "13.800",
+                  "timeStart": "14.320",
+                  "timeEnd": "14.640",
                   "entities": []
                 }
               ],
@@ -525,8 +737,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Durchgriffsrecht zur Unterbringung von Asylwerber:innen ( 3030/A(E) )",
-                  "timeStart": "13.800",
-                  "timeEnd": "15.880",
+                  "timeStart": "14.640",
+                  "timeEnd": "16.320",
                   "entities": []
                 }
               ],
@@ -539,15 +751,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "15.880",
-                  "timeEnd": "15.880",
+                  "timeStart": "16.320",
+                  "timeEnd": "17.120",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Verschärfung des Asylrechts nach Migrantenkrawallen ( 3046/A(E) )",
-                  "timeStart": "15.880",
-                  "timeEnd": "17.600",
-                  "entities": []
+                  "timeStart": "17.120",
+                  "timeEnd": "18.720",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Verschärfung des Asylrechts nach Migrantenkrawallen ( 3046/A(E) )"
@@ -559,15 +790,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "17.600",
-                  "timeEnd": "17.600",
+                  "timeStart": "18.720",
+                  "timeEnd": "18.760",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aufnahme von Klimaterrorismus und -extremismus in den Verfassungsschutzbericht ( 3050/A(E) )",
-                  "timeStart": "17.600",
-                  "timeEnd": "19.640",
-                  "entities": []
+                  "timeStart": "18.760",
+                  "timeEnd": "19.920",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aufnahme von Klimaterrorismus und -extremismus in den Verfassungsschutzbericht ( 3050/A(E) )"
@@ -579,7 +829,7 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "19.640",
+                  "timeStart": "19.920",
                   "timeEnd": "20.120",
                   "entities": []
                 }
@@ -595,7 +845,26 @@
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend die Verankerung von Stealthing im Strafgesetzbuch ( 3028/A(E) )",
                   "timeStart": "20.120",
                   "timeEnd": "21.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Stealthing",
+                      "wid": "Q29582627",
+                      "wtype": "ORG",
+                      "score": 0.872
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend die Verankerung von Stealthing im Strafgesetzbuch ( 3028/A(E) )"
@@ -622,7 +891,7 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Rechtsverbindlichkeit von öffentlichen Beschaffungen erst mit Veröffentlichung ( 3034/A(E) )",
                   "timeStart": "24.000",
-                  "timeEnd": "25.560",
+                  "timeEnd": "25.640",
                   "entities": []
                 }
               ],
@@ -635,7 +904,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "25.560",
+                  "timeStart": "25.640",
                   "timeEnd": "26.320",
                   "entities": []
                 }
@@ -657,12 +926,19 @@
                   "text": "Katharina Werner, Bakk. ,",
                   "timeStart": "26.320",
                   "timeEnd": "26.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Werner",
+                      "wid": "Q109601540",
+                      "wtype": "PER",
+                      "score": 0.5913
+                    }
+                  ]
                 },
                 {
                   "text": "Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Alternative-Streitbeilegung-Gesetz geändert wird ( 3025/A )",
                   "timeStart": "26.320",
-                  "timeEnd": "27.160",
+                  "timeEnd": "27.200",
                   "entities": []
                 }
               ],
@@ -675,8 +951,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "27.160",
-                  "timeEnd": "27.760",
+                  "timeStart": "27.200",
+                  "timeEnd": "27.720",
                   "entities": []
                 }
               ],
@@ -689,9 +965,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Verankerung von Stealthing im Sexualkundeunterricht ( 3043/A(E) )",
-                  "timeStart": "27.760",
-                  "timeEnd": "28.040",
-                  "entities": []
+                  "timeStart": "27.720",
+                  "timeEnd": "28.080",
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Stealthing",
+                      "wid": "Q29582627",
+                      "wtype": "ORG",
+                      "score": 0.872
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Verankerung von Stealthing im Sexualkundeunterricht ( 3043/A(E) )"
@@ -703,7 +998,7 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "28.040",
+                  "timeStart": "28.080",
                   "timeEnd": "28.120",
                   "entities": []
                 }
@@ -719,7 +1014,20 @@
                   "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Finanzierung politischer Parteien (Parteiengesetz 2012 – PartG) geändert wird ( 3026/A )",
                   "timeStart": "28.120",
                   "timeEnd": "29.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Parteiengesetz",
+                      "wid": "Q1303489",
+                      "wtype": "MISC",
+                      "score": 0.3608
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Finanzierung politischer Parteien (Parteiengesetz 2012 – PartG) geändert wird ( 3026/A )"
@@ -733,7 +1041,20 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend transparente Veröffentlichung der Entscheidungen der RTR-Beirät:innen ( 3038/A(E) )",
                   "timeStart": "29.600",
                   "timeEnd": "29.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend transparente Veröffentlichung der Entscheidungen der RTR-Beirät:innen ( 3038/A(E) )"
@@ -747,7 +1068,20 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neuaufstellung des Fonds zur Förderung der digitalen Transformation ( 3039/A(E) )",
                   "timeStart": "29.600",
                   "timeEnd": "29.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Neuaufstellung des Fonds zur Förderung der digitalen Transformation ( 3039/A(E) )"
@@ -761,7 +1095,26 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bericht über Wirkungsziele bei der RTR ( 3040/A(E) )",
                   "timeStart": "29.600",
                   "timeEnd": "29.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "RTR",
+                      "wid": "Q1780502",
+                      "wtype": "ORG",
+                      "score": 0.4981
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bericht über Wirkungsziele bei der RTR ( 3040/A(E) )"
@@ -775,7 +1128,20 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Finanzielle und politische Unabhängigkeit für die Wiener Zeitung! (",
                   "timeStart": "29.600",
                   "timeEnd": "29.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Wiener Zeitung",
+                      "wid": "Q697173",
+                      "wtype": "ORG",
+                      "score": 0.9793
+                    }
+                  ]
                 },
                 {
                   "text": "3041/A(E) )",
@@ -823,7 +1189,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "29.600",
                   "timeEnd": "29.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -842,8 +1215,21 @@
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Masterstudium Schulsozialarbeit einrichten ( 3036/A(E) )",
                   "timeStart": "29.600",
-                  "timeEnd": "29.600",
-                  "entities": []
+                  "timeEnd": "30.280",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Masterstudium Schulsozialarbeit einrichten ( 3036/A(E) )"
@@ -855,21 +1241,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "29.600",
-                  "timeEnd": "29.600",
+                  "timeStart": "30.280",
+                  "timeEnd": "30.280",
                   "entities": []
                 },
                 {
                   "text": "Dr. Rudolf Taschner , Mag.",
-                  "timeStart": "29.600",
-                  "timeEnd": "29.600",
+                  "timeStart": "30.280",
+                  "timeEnd": "30.280",
                   "entities": []
                 },
                 {
                   "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG) geändert wird (3053/A)",
-                  "timeStart": "29.600",
-                  "timeEnd": "31.600",
-                  "entities": []
+                  "timeStart": "30.280",
+                  "timeEnd": "32.080",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Rudolf Taschner , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über hochschulrechtliche Sondervorschriften an Universitäten, Pädagogischen Hochschulen und Fachhochschulen aufgrund von COVID-19 (2. COVID-19-Hochschulgesetz – 2. C-HG) geändert wird (3053/A)"
@@ -881,7 +1274,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für morgen um 9 Uhr ein.",
-                  "timeStart": "31.600",
+                  "timeStart": "32.080",
                   "timeEnd": "32.600",
                   "entities": []
                 }
@@ -910,7 +1303,7 @@
                 {
                   "text": "Ich wünsche Ihnen einen schönen Abend.",
                   "timeStart": "32.720",
-                  "timeEnd": "33.160",
+                  "timeEnd": "33.200",
                   "entities": []
                 }
               ],
@@ -923,7 +1316,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "33.160",
+                  "timeStart": "33.200",
                   "timeEnd": "34.000",
                   "entities": []
                 }
@@ -938,8 +1331,8 @@
         "stdId": 285683,
         "debatteId": 300,
         "proceedingIndex": 285683,
-        "alignDuration": 0.9552829265594482,
-        "nerDuration": 0.36559009552001953
+        "alignDuration": 0.8054649829864502,
+        "nerDuration": 0.7567813396453857
       },
       "originalLanguage": "de"
     }

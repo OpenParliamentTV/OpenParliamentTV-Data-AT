@@ -5,11 +5,12 @@
     "dateStart": "2022-10-04T14:06:22",
     "dateEnd": "2022-10-04T14:08:19",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-23T07:12:33",
+    "lastUpdate": "2026-06-28T12:36:06",
     "processing": {
       "merge": "2026-06-16T04:24:01+00:00",
-      "align": "2026-06-23T07:12:33",
-      "ner": "2026-06-28T03:07:05"
+      "align": "2026-06-28T12:36:06",
+      "ner": "2026-06-28T15:50:16",
+      "nel": "2026-06-28T07:25:32"
     }
   },
   "data": [
@@ -86,50 +87,195 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
                   "timeStart": "3.680",
-                  "timeEnd": "5.640",
+                  "timeEnd": "4.620",
                   "entities": []
                 },
                 {
                   "text": "Klaus Fürlinger , Tanja Graf , Mag.",
-                  "timeStart": "5.640",
-                  "timeEnd": "7.920",
-                  "entities": []
+                  "timeStart": "4.620",
+                  "timeEnd": "5.640",
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    },
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4964
+                    }
+                  ]
                 },
                 {
                   "text": "Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , MMag.",
-                  "timeStart": "7.920",
-                  "timeEnd": "10.920",
-                  "entities": []
+                  "timeStart": "5.640",
+                  "timeEnd": "8.360",
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.5379
+                    },
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.9853
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag.",
-                  "timeStart": "10.920",
-                  "timeEnd": "12.880",
-                  "entities": []
+                  "timeStart": "8.360",
+                  "timeEnd": "10.160",
+                  "entities": [
+                    {
+                      "label": "BEd",
+                      "wid": "Q1837914",
+                      "wtype": "PER",
+                      "score": 0.3222
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag.",
-                  "timeStart": "12.880",
-                  "timeEnd": "17.160",
-                  "entities": []
+                  "timeStart": "10.160",
+                  "timeEnd": "14.760",
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9916
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Christoph Matznetter",
+                      "wid": "Q88260",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    },
+                    {
+                      "label": "Michael Seemayer",
+                      "wid": "Q72078612",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.863
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Selma Yildirim , Dr. Reinhard Eugen Bösch , Ing. Mag.",
-                  "timeStart": "17.160",
-                  "timeEnd": "19.160",
-                  "entities": []
+                  "timeStart": "14.760",
+                  "timeEnd": "16.480",
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Michael Schnedlitz , Mag.",
-                  "timeStart": "19.160",
-                  "timeEnd": "20.240",
-                  "entities": []
+                  "timeStart": "16.480",
+                  "timeEnd": "17.920",
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer und Douglas Hoyos-Trauttmansdorff .",
-                  "timeStart": "20.240",
-                  "timeEnd": "24.120",
-                  "entities": []
+                  "timeStart": "17.920",
+                  "timeEnd": "21.840",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Clemens Stammler",
+                      "wid": "Q81616228",
+                      "wtype": "PER",
+                      "score": 0.9755
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Tanja Graf , Mag. Michael Hammer , Ing. Manfred Hofinger , Martina Kaufmann, MMSc BA , MMag. Dr. Agnes Totter, BEd , Doris Bures , Elisabeth Feichtinger, BEd BEd , Mag. Karin Greiner , Gabriele Heinisch-Hosek , Kai Jan Krainer , Dr. Christoph Matznetter , Sabine Schatz , Michael Seemayer , Alois Stöger, diplômé , Mag. Selma Yildirim , Dr. Reinhard Eugen Bösch , Ing. Mag. Volker Reifenberger , Michael Schnedlitz , Mag. Philipp Schrangl , Barbara Neßler , Clemens Stammler , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer und Douglas Hoyos-Trauttmansdorff ."
@@ -141,8 +287,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisung",
-                  "timeStart": "24.120",
-                  "timeEnd": "25.160",
+                  "timeStart": "21.840",
+                  "timeEnd": "22.040",
                   "entities": []
                 }
               ],
@@ -155,8 +301,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "25.160",
-                  "timeEnd": "30.560",
+                  "timeStart": "22.040",
+                  "timeEnd": "27.780",
                   "entities": []
                 }
               ],
@@ -169,8 +315,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "30.560",
-                  "timeEnd": "31.400",
+                  "timeStart": "27.780",
+                  "timeEnd": "29.160",
                   "entities": []
                 }
               ],
@@ -183,8 +329,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "31.400",
-                  "timeEnd": "32.320",
+                  "timeStart": "29.160",
+                  "timeEnd": "30.840",
                   "entities": []
                 }
               ],
@@ -197,8 +343,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 11674/AB bis 11680/AB",
-                  "timeStart": "32.320",
-                  "timeEnd": "35.160",
+                  "timeStart": "30.840",
+                  "timeEnd": "34.040",
                   "entities": []
                 }
               ],
@@ -211,8 +357,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "35.160",
-                  "timeEnd": "35.760",
+                  "timeStart": "34.040",
+                  "timeEnd": "35.160",
                   "entities": []
                 }
               ],
@@ -225,8 +371,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "35.760",
-                  "timeEnd": "36.200",
+                  "timeStart": "35.160",
+                  "timeEnd": "35.640",
                   "entities": []
                 }
               ],
@@ -239,8 +385,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "36.200",
-                  "timeEnd": "36.800",
+                  "timeStart": "35.640",
+                  "timeEnd": "36.400",
                   "entities": []
                 }
               ],
@@ -253,15 +399,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten MMMag.",
-                  "timeStart": "36.800",
-                  "timeEnd": "37.800",
+                  "timeStart": "36.400",
+                  "timeEnd": "37.840",
                   "entities": []
                 },
                 {
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Intensivierung der bilateralen Gespräche mit der Regierung der Republik Serbien zur Unterbindung illegaler Migrationsströme ( 2841/A(E) )",
-                  "timeStart": "37.800",
+                  "timeStart": "37.840",
                   "timeEnd": "43.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Republik Serbien",
+                      "wid": "Q403",
+                      "wtype": "LOC",
+                      "score": 0.8746
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Intensivierung der bilateralen Gespräche mit der Regierung der Republik Serbien zur Unterbindung illegaler Migrationsströme ( 2841/A(E) )"
@@ -289,13 +454,27 @@
                   "text": "Weiters teile ich mit, dass die Abgeordneten Nico Marchetti und Mag.",
                   "timeStart": "45.080",
                   "timeEnd": "46.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9876
+                    }
+                  ]
                 },
                 {
                   "text": "Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 22. Oktober 2022 zu erstrecken.",
                   "timeStart": "52.480",
-                  "timeEnd": "56.480",
-                  "entities": []
+                  "timeEnd": "56.960",
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Nico Marchetti und Mag. Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 22. Oktober 2022 zu erstrecken."
@@ -307,25 +486,25 @@
               "sentences": [
                 {
                   "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht. (",
-                  "timeStart": "56.480",
-                  "timeEnd": "57.280",
+                  "timeStart": "56.960",
+                  "timeEnd": "59.200",
                   "entities": []
                 },
                 {
                   "text": "Abg.",
-                  "timeStart": "57.280",
-                  "timeEnd": "57.320",
+                  "timeStart": "59.200",
+                  "timeEnd": "59.240",
                   "entities": []
                 },
                 {
                   "text": "Wöginger: Nein, nicht 22. Oktober!) –",
-                  "timeStart": "57.320",
-                  "timeEnd": "59.360",
+                  "timeStart": "59.240",
+                  "timeEnd": "60.040",
                   "entities": []
                 },
                 {
                   "text": "Habe ich 22. gesagt? (",
-                  "timeStart": "59.360",
+                  "timeStart": "60.040",
                   "timeEnd": "61.080",
                   "entities": []
                 },
@@ -367,13 +546,27 @@
                   "text": "Ich wiederhole noch einmal: Ich teile mit, dass die Abgeordneten Nico Marchetti und Mag.",
                   "timeStart": "64.640",
                   "timeEnd": "66.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9876
+                    }
+                  ]
                 },
                 {
                   "text": "Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken.",
                   "timeStart": "66.960",
                   "timeEnd": "79.140",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Ich wiederhole noch einmal: Ich teile mit, dass die Abgeordneten Nico Marchetti und Mag. Sibylle Hamann beantragt haben, dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken."
@@ -400,8 +593,8 @@
         "stdId": 278116,
         "debatteId": 300,
         "proceedingIndex": 278116,
-        "alignDuration": 0.6911742687225342,
-        "nerDuration": 0.153336763381958
+        "alignDuration": 0.6292169094085693,
+        "nerDuration": 0.31186771392822266
       },
       "originalLanguage": "de"
     },
@@ -464,7 +657,7 @@
                 {
                   "text": "Abstimmung über einen Fristerstreckungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "1.440",
+                  "timeEnd": "1.480",
                   "entities": []
                 }
               ],
@@ -477,15 +670,29 @@
               "sentences": [
                 {
                   "text": "Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Nico Marchetti und Mag.",
-                  "timeStart": "1.440",
-                  "timeEnd": "3.680",
-                  "entities": []
+                  "timeStart": "1.480",
+                  "timeEnd": "3.600",
+                  "entities": [
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9876
+                    }
+                  ]
                 },
                 {
                   "text": "Sibylle Hamann , dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken.",
-                  "timeStart": "3.680",
+                  "timeStart": "3.600",
                   "timeEnd": "13.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Wir kommen nunmehr zur Abstimmung über den Antrag der Abgeordneten Nico Marchetti und Mag. Sibylle Hamann , dem Unterrichtsausschuss zur Berichterstattung über die Regierungsvorlage 1696 der Beilagen die Frist bis 12. Oktober 2022 zu erstrecken."
@@ -546,8 +753,8 @@
         "stdId": 278125,
         "debatteId": 310,
         "proceedingIndex": 278125,
-        "alignDuration": 0.34178781509399414,
-        "nerDuration": 0.03571915626525879
+        "alignDuration": 0.38823676109313965,
+        "nerDuration": 0.04412841796875
       },
       "originalLanguage": "de"
     }

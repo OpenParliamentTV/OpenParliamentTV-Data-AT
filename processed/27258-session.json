@@ -5,11 +5,12 @@
     "dateStart": "2024-03-21T18:36:58",
     "dateEnd": "2024-03-21T18:41:34",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-26T21:25:30",
+    "lastUpdate": "2026-06-28T14:22:31",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "align": "2026-06-26T21:25:30",
-      "ner": "2026-06-28T03:31:16"
+      "align": "2026-06-28T14:22:31",
+      "ner": "2026-06-28T16:26:08",
+      "nel": "2026-06-28T07:25:37"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 258. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "4.280",
+                  "timeEnd": "5.080",
                   "entities": []
                 }
               ],
@@ -85,7 +86,7 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag.",
-                  "timeStart": "4.280",
+                  "timeStart": "5.080",
                   "timeEnd": "6.080",
                   "entities": []
                 },
@@ -93,19 +94,100 @@
                   "text": "Johanna Jachs , Dr. Gudrun Kugler , Mag.",
                   "timeStart": "6.080",
                   "timeEnd": "6.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Gudrun Kugler",
+                      "wid": "Q87353",
+                      "wtype": "PER",
+                      "score": 0.9801
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Maria Theresia Niss, MBA , Rudolf Silvan , Dr. Harald Troch , Walter Rauch , Christian Ries , Wolfgang Zanger , Heike Grebien , Mag.",
                   "timeStart": "6.840",
-                  "timeEnd": "9.600",
-                  "entities": []
+                  "timeEnd": "9.360",
+                  "entities": [
+                    {
+                      "label": "Maria Theresia Niss",
+                      "wid": "Q42304258",
+                      "wtype": "PER",
+                      "score": 0.41
+                    },
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.977
+                    },
+                    {
+                      "label": "Walter Rauch",
+                      "wid": "Q23929155",
+                      "wtype": "PER",
+                      "score": 0.789
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 },
                 {
                   "text": "Ulrike Fischer , Dr. Helmut Brandstätter , Fiona Fiedler, BEd und Dr. Johannes Margreiter .",
-                  "timeStart": "9.600",
-                  "timeEnd": "11.040",
-                  "entities": []
+                  "timeStart": "9.360",
+                  "timeEnd": "10.400",
+                  "entities": [
+                    {
+                      "label": "Ulrike Fischer",
+                      "wid": "Q72072449",
+                      "wtype": "PER",
+                      "score": 0.8662
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "Johannes Margreiter",
+                      "wid": "Q69352200",
+                      "wtype": "PER",
+                      "score": 0.9875
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Mag. Johanna Jachs , Dr. Gudrun Kugler , Mag. Dr. Maria Theresia Niss, MBA , Rudolf Silvan , Dr. Harald Troch , Walter Rauch , Christian Ries , Wolfgang Zanger , Heike Grebien , Mag. Ulrike Fischer , Dr. Helmut Brandstätter , Fiona Fiedler, BEd und Dr. Johannes Margreiter ."
@@ -117,7 +199,7 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "11.040",
+                  "timeStart": "10.400",
                   "timeEnd": "11.120",
                   "entities": []
                 }
@@ -132,7 +214,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "11.120",
-                  "timeEnd": "14.120",
+                  "timeEnd": "15.080",
                   "entities": []
                 }
               ],
@@ -145,8 +227,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "14.120",
-                  "timeEnd": "14.200",
+                  "timeStart": "15.080",
+                  "timeEnd": "16.640",
                   "entities": []
                 }
               ],
@@ -159,8 +241,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "14.200",
-                  "timeEnd": "14.800",
+                  "timeStart": "16.640",
+                  "timeEnd": "17.440",
                   "entities": []
                 }
               ],
@@ -173,8 +255,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 16964/AB und 16965/AB",
-                  "timeStart": "14.800",
-                  "timeEnd": "16.640",
+                  "timeStart": "17.440",
+                  "timeEnd": "20.280",
                   "entities": []
                 }
               ],
@@ -187,8 +269,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "16.640",
-                  "timeEnd": "17.000",
+                  "timeStart": "20.280",
+                  "timeEnd": "21.480",
                   "entities": []
                 }
               ],
@@ -201,8 +283,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "17.000",
-                  "timeEnd": "17.120",
+                  "timeStart": "21.480",
+                  "timeEnd": "21.720",
                   "entities": []
                 }
               ],
@@ -215,8 +297,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "17.120",
-                  "timeEnd": "17.640",
+                  "timeStart": "21.720",
+                  "timeEnd": "22.640",
                   "entities": []
                 }
               ],
@@ -229,21 +311,53 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "17.640",
-                  "timeEnd": "18.640",
+                  "timeStart": "22.640",
+                  "timeEnd": "23.760",
                   "entities": []
                 },
                 {
                   "text": "Ernst Gödl , Mag.",
-                  "timeStart": "18.640",
-                  "timeEnd": "19.560",
-                  "entities": []
+                  "timeStart": "23.760",
+                  "timeEnd": "24.080",
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9913
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Selbständigen-Sozialversicherungsgesetz und das Sozialversicherungs-Ergänzungsgesetz geändert werden ( 3983/A )",
-                  "timeStart": "19.560",
-                  "timeEnd": "29.360",
-                  "entities": []
+                  "timeStart": "24.080",
+                  "timeEnd": "31.720",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ernst Gödl , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz, das Selbständigen-Sozialversicherungsgesetz und das Sozialversicherungs-Ergänzungsgesetz geändert werden ( 3983/A )"
@@ -255,8 +369,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "29.360",
-                  "timeEnd": "29.600",
+                  "timeStart": "31.720",
+                  "timeEnd": "32.960",
                   "entities": []
                 }
               ],
@@ -269,8 +383,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Ablehnung des \"WHO-Pandemievertrags\" sowie der novellierten Internationalen Gesundheitsvorschriften (IGV) ( 3978/A(E) )",
-                  "timeStart": "29.600",
-                  "timeEnd": "34.520",
+                  "timeStart": "32.960",
+                  "timeEnd": "39.920",
                   "entities": []
                 }
               ],
@@ -283,8 +397,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "34.520",
-                  "timeEnd": "35.120",
+                  "timeStart": "39.920",
+                  "timeEnd": "40.480",
                   "entities": []
                 }
               ],
@@ -297,9 +411,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3982/A(E) )",
-                  "timeStart": "35.120",
-                  "timeEnd": "39.560",
-                  "entities": []
+                  "timeStart": "40.480",
+                  "timeEnd": "45.480",
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3982/A(E) )"
@@ -311,9 +438,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wahlen vor Deepfakes schützen\" ( 3979/A(E) )",
-                  "timeStart": "39.560",
-                  "timeEnd": "43.560",
-                  "entities": []
+                  "timeStart": "48.680",
+                  "timeEnd": "52.360",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Wahlen vor Deepfakes schützen\" ( 3979/A(E) )"
@@ -325,8 +465,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "43.560",
-                  "timeEnd": "43.760",
+                  "timeStart": "52.360",
+                  "timeEnd": "52.840",
                   "entities": []
                 }
               ],
@@ -339,9 +479,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Modernisierung des Bundesarchivgesetzes – Zugang zu historischen Gerichtsakten ( 3985/A(E) )",
-                  "timeStart": "43.760",
-                  "timeEnd": "52.400",
-                  "entities": []
+                  "timeStart": "52.840",
+                  "timeEnd": "58.880",
+                  "entities": [
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Bundesarchivgesetzes",
+                      "wid": "Q1005628",
+                      "wtype": "LOC",
+                      "score": 0.462
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Modernisierung des Bundesarchivgesetzes – Zugang zu historischen Gerichtsakten ( 3985/A(E) )"
@@ -353,8 +512,8 @@
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
-                  "timeStart": "52.400",
-                  "timeEnd": "52.840",
+                  "timeStart": "58.880",
+                  "timeEnd": "59.640",
                   "entities": []
                 }
               ],
@@ -367,8 +526,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend vorausschauende Planung und besseres Datenmonitoring für eine resiliente Wasserwirtschaft ( 3986/A(E) )",
-                  "timeStart": "52.840",
-                  "timeEnd": "58.880",
+                  "timeStart": "59.640",
+                  "timeEnd": "65.320",
                   "entities": []
                 }
               ],
@@ -381,8 +540,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "58.880",
-                  "timeEnd": "59.640",
+                  "timeStart": "65.320",
+                  "timeEnd": "66.320",
                   "entities": []
                 }
               ],
@@ -395,14 +554,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Weg mit der verpflichtenden abschließenden Arbeit! (",
-                  "timeStart": "59.640",
-                  "timeEnd": "61.720",
-                  "entities": []
+                  "timeStart": "66.320",
+                  "timeEnd": "70.000",
+                  "entities": [
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 },
                 {
                   "text": "3977/A(E) )",
-                  "timeStart": "61.720",
-                  "timeEnd": "62.760",
+                  "timeStart": "70.000",
+                  "timeEnd": "71.280",
                   "entities": []
                 }
               ],
@@ -415,9 +587,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3981/A(E) )",
-                  "timeStart": "62.760",
-                  "timeEnd": "65.720",
-                  "entities": []
+                  "timeStart": "71.280",
+                  "timeEnd": "73.720",
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schulen als Orte der Gesundheit fördern\" ( 3981/A(E) )"
@@ -429,8 +614,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "65.720",
-                  "timeEnd": "66.040",
+                  "timeStart": "73.720",
+                  "timeEnd": "74.360",
                   "entities": []
                 }
               ],
@@ -443,20 +628,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Verordnung der Bundesregierung vom 29. März 1955, betreffend die Gebühren bei Dienstreisen, Dienstverrichtungen im Dienstort, Dienstzuteilungen und Versetzungen (Reisegebührenvorschrift 1955), BGBI.",
-                  "timeStart": "66.040",
-                  "timeEnd": "74.600",
-                  "entities": []
+                  "timeStart": "74.360",
+                  "timeEnd": "81.160",
+                  "entities": [
+                    {
+                      "label": "Werner Herbert",
+                      "wid": "Q1555361",
+                      "wtype": "PER",
+                      "score": 0.9593
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 133/1955, zuletzt geändert mit BGBI.",
-                  "timeStart": "74.600",
-                  "timeEnd": "77.960",
+                  "timeStart": "81.160",
+                  "timeEnd": "83.360",
                   "entities": []
                 },
                 {
                   "text": "I Nr. 205/2022, geändert wird ( 3980/A )",
-                  "timeStart": "77.960",
-                  "timeEnd": "80.160",
+                  "timeStart": "83.360",
+                  "timeEnd": "85.440",
                   "entities": []
                 }
               ],
@@ -469,21 +661,41 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "80.160",
-                  "timeEnd": "80.240",
+                  "timeStart": "85.440",
+                  "timeEnd": "86.280",
                   "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
-                  "timeStart": "80.240",
-                  "timeEnd": "80.480",
-                  "entities": []
+                  "timeStart": "86.280",
+                  "timeEnd": "86.800",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird (Bundesministeriengesetz-Novelle 2024) ( 3984/A )",
-                  "timeStart": "80.480",
-                  "timeEnd": "85.760",
-                  "entities": []
+                  "timeStart": "86.800",
+                  "timeEnd": "91.760",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9837
+                    },
+                    {
+                      "label": "Bundesministeriengesetz",
+                      "wid": "Q27556236",
+                      "wtype": "MISC",
+                      "score": 0.7679
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird (Bundesministeriengesetz-Novelle 2024) ( 3984/A )"
@@ -495,8 +707,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "85.760",
-                  "timeEnd": "86.280",
+                  "timeStart": "91.760",
+                  "timeEnd": "92.160",
                   "entities": []
                 }
               ],
@@ -509,9 +721,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 geändert wird (35. StVO-Novelle) ( 3975/A )",
-                  "timeStart": "86.280",
-                  "timeEnd": "89.600",
-                  "entities": []
+                  "timeStart": "92.160",
+                  "timeEnd": "98.760",
+                  "entities": [
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Andreas Ottenschläger",
+                      "wid": "Q15116861",
+                      "wtype": "PER",
+                      "score": 0.9776
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Weratschnig, MBA MSc , Andreas Ottenschläger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Straßenverkehrsordnung 1960 geändert wird (35. StVO-Novelle) ( 3975/A )"
@@ -523,8 +748,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "89.600",
-                  "timeEnd": "91.920",
+                  "timeStart": "98.760",
+                  "timeEnd": "99.920",
                   "entities": []
                 }
               ],
@@ -537,14 +762,21 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Schluss mit den obszönen Übergewinnen – her mit leistbaren Preisen! (",
-                  "timeStart": "91.920",
-                  "timeEnd": "95.600",
-                  "entities": []
+                  "timeStart": "99.920",
+                  "timeEnd": "102.280",
+                  "entities": [
+                    {
+                      "label": "Alois Schroll",
+                      "wid": "Q72078740",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    }
+                  ]
                 },
                 {
                   "text": "3976/A(E) )",
-                  "timeStart": "95.600",
-                  "timeEnd": "97.600",
+                  "timeStart": "102.280",
+                  "timeEnd": "104.520",
                   "entities": []
                 }
               ],
@@ -557,8 +789,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich den Antrag 3987/A(E) dem Verfassungsausschuss, den Antrag 3988/A dem Ausschuss für Wirtschaft, Industrie und Energie und den Antrag 3989/A(E) dem Tourismusausschuss zu.",
-                  "timeStart": "97.600",
-                  "timeEnd": "105.680",
+                  "timeStart": "104.520",
+                  "timeEnd": "112.720",
                   "entities": []
                 }
               ],
@@ -571,8 +803,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsanträge",
-                  "timeStart": "105.680",
-                  "timeEnd": "106.880",
+                  "timeStart": "112.720",
+                  "timeEnd": "113.560",
                   "entities": []
                 }
               ],
@@ -585,8 +817,8 @@
               "sentences": [
                 {
                   "text": "Ich teile mit, dass",
-                  "timeStart": "106.880",
-                  "timeEnd": "107.200",
+                  "timeStart": "113.560",
+                  "timeEnd": "114.400",
                   "entities": []
                 }
               ],
@@ -599,9 +831,34 @@
               "sentences": [
                 {
                   "text": "die Abgeordneten Taschner und Blimlinger beantragt haben, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen , sowie",
-                  "timeStart": "107.200",
-                  "timeEnd": "113.560",
-                  "entities": []
+                  "timeStart": "114.400",
+                  "timeEnd": "117.360",
+                  "entities": [
+                    {
+                      "label": "Taschner",
+                      "wid": "Q1530755",
+                      "wtype": "PER",
+                      "score": 0.0934
+                    },
+                    {
+                      "label": "Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.0994
+                    },
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    },
+                    {
+                      "label": "Regierungsvorlage",
+                      "wid": "Q1519127",
+                      "wtype": "ORG",
+                      "score": 0.1316
+                    }
+                  ]
                 }
               ],
               "text": "die Abgeordneten Taschner und Blimlinger beantragt haben, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen , sowie"
@@ -613,8 +870,8 @@
               "sentences": [
                 {
                   "text": "die Abgeordneten Weratschnig und Ottenschläger beantragt haben, dem Verkehrsausschuss zur Berichterstattung über den Antrag 3975/A",
-                  "timeStart": "113.560",
-                  "timeEnd": "118.080",
+                  "timeStart": "117.360",
+                  "timeEnd": "120.960",
                   "entities": []
                 }
               ],
@@ -627,8 +884,8 @@
               "sentences": [
                 {
                   "text": "jeweils eine Frist bis zum 16. April 2024 zu setzen.",
-                  "timeStart": "118.080",
-                  "timeEnd": "120.880",
+                  "timeStart": "120.960",
+                  "timeEnd": "123.200",
                   "entities": []
                 }
               ],
@@ -641,8 +898,8 @@
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass folgende Fristsetzungsanträge, dem Justizausschuss jeweils eine Frist bis zum 17. April 2024 zu setzen, vorliegen:",
-                  "timeStart": "120.880",
-                  "timeEnd": "125.320",
+                  "timeStart": "123.200",
+                  "timeEnd": "126.760",
                   "entities": []
                 }
               ],
@@ -655,8 +912,8 @@
               "sentences": [
                 {
                   "text": "Antrag des Abgeordneten Schmiedlechner zur Berichterstattung über den Antrag 1078/A(E) ,",
-                  "timeStart": "125.320",
-                  "timeEnd": "129.280",
+                  "timeStart": "126.760",
+                  "timeEnd": "128.640",
                   "entities": []
                 }
               ],
@@ -669,8 +926,8 @@
               "sentences": [
                 {
                   "text": "Antrag des Abgeordneten Stefan zur Berichterstattung über den Antrag 3967/A .",
-                  "timeStart": "129.280",
-                  "timeEnd": "130.480",
+                  "timeStart": "128.640",
+                  "timeEnd": "129.760",
                   "entities": []
                 }
               ],
@@ -683,8 +940,8 @@
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass die Abgeordneten Haubner, Götze beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A , sowie",
-                  "timeStart": "130.480",
-                  "timeEnd": "135.440",
+                  "timeStart": "129.760",
+                  "timeEnd": "133.680",
                   "entities": []
                 }
               ],
@@ -697,9 +954,22 @@
               "sentences": [
                 {
                   "text": "die Abgeordneten Gerstl und Agnes Sirkka Prammer beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A",
-                  "timeStart": "135.440",
-                  "timeEnd": "138.080",
-                  "entities": []
+                  "timeStart": "133.680",
+                  "timeEnd": "136.560",
+                  "entities": [
+                    {
+                      "label": "Gerstl",
+                      "wid": "Q129113",
+                      "wtype": "PER",
+                      "score": 0.0984
+                    },
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "die Abgeordneten Gerstl und Agnes Sirkka Prammer beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A"
@@ -711,8 +981,8 @@
               "sentences": [
                 {
                   "text": "jeweils eine Frist bis zum 16. April zu setzen.",
-                  "timeStart": "138.080",
-                  "timeEnd": "139.160",
+                  "timeStart": "136.560",
+                  "timeEnd": "137.280",
                   "entities": []
                 }
               ],
@@ -725,7 +995,7 @@
               "sentences": [
                 {
                   "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gelangen.",
-                  "timeStart": "139.160",
+                  "timeStart": "137.280",
                   "timeEnd": "139.960",
                   "entities": []
                 }
@@ -740,8 +1010,8 @@
         "stdId": 319750,
         "debatteId": 300,
         "proceedingIndex": 319750,
-        "alignDuration": 0.7927649021148682,
-        "nerDuration": 0.2821009159088135
+        "alignDuration": 0.8607394695281982,
+        "nerDuration": 0.5103664398193359
       },
       "originalLanguage": "de"
     },
@@ -804,7 +1074,7 @@
                 {
                   "text": "Abstimmung über Fristsetzungsanträge",
                   "timeStart": "1.000",
-                  "timeEnd": "1.360",
+                  "timeEnd": "2.640",
                   "entities": []
                 }
               ],
@@ -817,8 +1087,8 @@
               "sentences": [
                 {
                   "text": "Wir kommen zur Abstimmung über die vorliegenden Fristsetzungsanträge.",
-                  "timeStart": "1.360",
-                  "timeEnd": "5.000",
+                  "timeStart": "2.640",
+                  "timeEnd": "5.120",
                   "entities": []
                 }
               ],
@@ -831,9 +1101,28 @@
               "sentences": [
                 {
                   "text": "Abstimmung über den Antrag der Abgeordneten Taschner und Blimlinger, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen eine Frist bis zum 16. April zu setzen.",
-                  "timeStart": "5.000",
+                  "timeStart": "5.120",
                   "timeEnd": "18.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Taschner",
+                      "wid": "Q1530755",
+                      "wtype": "PER",
+                      "score": 0.0934
+                    },
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    },
+                    {
+                      "label": "Regierungsvorlage",
+                      "wid": "Q1519127",
+                      "wtype": "ORG",
+                      "score": 0.1316
+                    }
+                  ]
                 }
               ],
               "text": "Abstimmung über den Antrag der Abgeordneten Taschner und Blimlinger, dem Wissenschaftsausschuss zur Berichterstattung über die Regierungsvorlage 2504 der Beilagen eine Frist bis zum 16. April zu setzen."
@@ -886,7 +1175,7 @@
                 {
                   "text": "Das ist mit Mehrheit so angenommen.",
                   "timeStart": "38.580",
-                  "timeEnd": "41.120",
+                  "timeEnd": "41.160",
                   "entities": []
                 }
               ],
@@ -899,7 +1188,7 @@
               "sentences": [
                 {
                   "text": "Abstimmung über den Antrag des Abgeordneten Schmiedlechner, dem Justizausschuss zur Berichterstattung über den Antrag 1078/A(E) eine Frist bis zum 17. April 2024 zu setzen. –",
-                  "timeStart": "41.120",
+                  "timeStart": "41.160",
                   "timeEnd": "52.420",
                   "entities": []
                 },
@@ -920,8 +1209,15 @@
                 {
                   "text": "Abstimmung über den Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 3967/A eine Frist bis zum 17. April 2024 zu setzen.",
                   "timeStart": "54.600",
-                  "timeEnd": "67.960",
-                  "entities": []
+                  "timeEnd": "66.000",
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    }
+                  ]
                 }
               ],
               "text": "Abstimmung über den Antrag des Abgeordneten Harald Stefan, dem Justizausschuss zur Berichterstattung über den Antrag 3967/A eine Frist bis zum 17. April 2024 zu setzen."
@@ -933,13 +1229,13 @@
               "sentences": [
                 {
                   "text": "Wer ist für diese Fristsetzung? –",
-                  "timeStart": "67.960",
-                  "timeEnd": "68.560",
+                  "timeStart": "66.000",
+                  "timeEnd": "68.200",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Minderheit, abgelehnt.",
-                  "timeStart": "68.560",
+                  "timeStart": "68.200",
                   "timeEnd": "70.460",
                   "entities": []
                 }
@@ -954,7 +1250,7 @@
                 {
                   "text": "Antrag der Abgeordneten Haubner und Götze, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 3988/A eine Frist bis zum 16. April 2024 zu setzen.",
                   "timeStart": "70.460",
-                  "timeEnd": "83.680",
+                  "timeEnd": "84.040",
                   "entities": []
                 }
               ],
@@ -967,7 +1263,7 @@
               "sentences": [
                 {
                   "text": "Wer spricht sich dafür aus? –",
-                  "timeStart": "83.680",
+                  "timeStart": "84.040",
                   "timeEnd": "85.340",
                   "entities": []
                 },
@@ -988,7 +1284,7 @@
                 {
                   "text": "Abstimmung über den Antrag der Abgeordneten Gerstl und Prammer, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3944/A eine Frist bis zum 16. April 2024 zu setzen.",
                   "timeStart": "87.520",
-                  "timeEnd": "99.900",
+                  "timeEnd": "100.760",
                   "entities": []
                 }
               ],
@@ -1001,13 +1297,13 @@
               "sentences": [
                 {
                   "text": "Wer spricht sich dafür aus? –",
-                  "timeStart": "99.900",
-                  "timeEnd": "101.920",
+                  "timeStart": "100.760",
+                  "timeEnd": "102.000",
                   "entities": []
                 },
                 {
                   "text": "Das ist mit Mehrheit angenommen.",
-                  "timeStart": "101.920",
+                  "timeStart": "102.000",
                   "timeEnd": "106.000",
                   "entities": []
                 }
@@ -1022,8 +1318,8 @@
         "stdId": 319751,
         "debatteId": 310,
         "proceedingIndex": 319751,
-        "alignDuration": 0.49184513092041016,
-        "nerDuration": 0.09486985206604004
+        "alignDuration": 0.5840981006622314,
+        "nerDuration": 0.13744068145751953
       },
       "originalLanguage": "de"
     },
@@ -1086,7 +1382,7 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, 17. April 2024, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
                   "timeStart": "1.000",
-                  "timeEnd": "9.400",
+                  "timeEnd": "9.440",
                   "entities": []
                 }
               ],
@@ -1099,7 +1395,7 @@
               "sentences": [
                 {
                   "text": "Weiters gebe ich noch bekannt, dass im Anschluss an diese Sitzung zunächst der Cofag-Untersuchungsausschuss, danach der Rot-blauer-Machtmissbrauchs-Untersuchungsausschuss jeweils im Lokal 1 zusammentritt.",
-                  "timeStart": "9.400",
+                  "timeStart": "9.440",
                   "timeEnd": "22.280",
                   "entities": []
                 }
@@ -1114,7 +1410,7 @@
                 {
                   "text": "Allen anderen, die nicht diesen Ausschüssen angehören, wünsche ich jetzt schon einen schönen Abend, den anderen dann im Anschluss.",
                   "timeStart": "22.280",
-                  "timeEnd": "29.420",
+                  "timeEnd": "30.880",
                   "entities": []
                 }
               ],
@@ -1127,7 +1423,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "29.420",
+                  "timeStart": "30.880",
                   "timeEnd": "32.320",
                   "entities": []
                 }
@@ -1142,8 +1438,8 @@
         "stdId": 319725,
         "debatteId": 320,
         "proceedingIndex": 319725,
-        "alignDuration": 0.3241729736328125,
-        "nerDuration": 0.024222850799560547
+        "alignDuration": 0.39662981033325195,
+        "nerDuration": 0.027912616729736328
       },
       "originalLanguage": "de"
     }

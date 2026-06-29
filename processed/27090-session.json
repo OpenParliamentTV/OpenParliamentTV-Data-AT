@@ -5,11 +5,12 @@
     "dateStart": "2021-03-24T23:40:30",
     "dateEnd": "2021-03-24T23:41:08",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T03:38:03",
+    "lastUpdate": "2026-06-28T10:20:02",
     "processing": {
       "merge": "2026-06-16T04:23:46+00:00",
-      "align": "2026-06-19T03:38:03",
-      "ner": "2026-06-28T02:40:31"
+      "align": "2026-06-28T10:20:02",
+      "ner": "2026-06-28T15:11:51",
+      "nel": "2026-06-28T07:25:25"
     }
   },
   "data": [
@@ -85,13 +86,69 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Doris Bures , Klaus Köchl , Petra Steger , Wolfgang Zanger und Mag.",
                   "timeStart": "2.440",
                   "timeEnd": "2.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9803
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES .",
                   "timeStart": "2.440",
                   "timeEnd": "2.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Doris Bures , Klaus Köchl , Petra Steger , Wolfgang Zanger und Mag. Beate Meinl-Reisinger, MES ."
@@ -160,7 +217,7 @@
                 {
                   "text": "1. Anfragebeantwortung: 5131/AB",
                   "timeStart": "2.480",
-                  "timeEnd": "3.200",
+                  "timeEnd": "2.480",
                   "entities": []
                 }
               ],
@@ -173,8 +230,8 @@
               "sentences": [
                 {
                   "text": "2. Regierungsvorlagen:",
-                  "timeStart": "3.200",
-                  "timeEnd": "3.600",
+                  "timeStart": "2.480",
+                  "timeEnd": "2.480",
                   "entities": []
                 }
               ],
@@ -187,9 +244,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Heizkostenabrechnungsgesetz geändert wird ( 768 d.B. )",
-                  "timeStart": "3.600",
-                  "timeEnd": "4.240",
-                  "entities": []
+                  "timeStart": "2.480",
+                  "timeEnd": "3.240",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Heizkostenabrechnungsgesetz",
+                      "wid": "Q64019496",
+                      "wtype": "MISC",
+                      "score": 0.8637
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Heizkostenabrechnungsgesetz geändert wird ( 768 d.B. )"
@@ -201,8 +271,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Gerichtsorganisationsgesetz, das Bundesverwaltungsgerichtsgesetz, das Verwaltungsgerichtshofgesetz 1985 und das Bundesfinanzgerichtsgesetz geändert werden ( 769 d.B. )",
-                  "timeStart": "4.240",
-                  "timeEnd": "6.120",
+                  "timeStart": "3.240",
+                  "timeEnd": "4.240",
                   "entities": []
                 }
               ],
@@ -215,9 +285,16 @@
               "sentences": [
                 {
                   "text": "Gesamtreform des Exekutionsrechts – GREx ( 770 d.B. )",
-                  "timeStart": "6.120",
-                  "timeEnd": "6.240",
-                  "entities": []
+                  "timeStart": "4.240",
+                  "timeEnd": "4.840",
+                  "entities": [
+                    {
+                      "label": "GREx",
+                      "wid": "Q4886",
+                      "wtype": "LOC",
+                      "score": 0.437
+                    }
+                  ]
                 }
               ],
               "text": "Gesamtreform des Exekutionsrechts – GREx ( 770 d.B. )"
@@ -229,8 +306,8 @@
               "sentences": [
                 {
                   "text": "3. Anträge:",
-                  "timeStart": "6.240",
-                  "timeEnd": "6.320",
+                  "timeStart": "4.840",
+                  "timeEnd": "4.840",
                   "entities": []
                 }
               ],
@@ -243,8 +320,8 @@
               "sentences": [
                 {
                   "text": "Zurückziehung: Zu 1432/A(E)",
-                  "timeStart": "6.320",
-                  "timeEnd": "6.520",
+                  "timeStart": "4.840",
+                  "timeEnd": "5.560",
                   "entities": []
                 }
               ],
@@ -257,8 +334,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "6.520",
-                  "timeEnd": "6.520",
+                  "timeStart": "5.560",
+                  "timeEnd": "5.880",
                   "entities": []
                 }
               ],
@@ -271,8 +348,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "6.520",
-                  "timeEnd": "6.520",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.120",
                   "entities": []
                 }
               ],
@@ -285,8 +362,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "6.520",
-                  "timeEnd": "6.880",
+                  "timeStart": "6.120",
+                  "timeEnd": "6.280",
                   "entities": []
                 }
               ],
@@ -299,7 +376,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1427/A(E) der Abgeordneten Mag.",
-                  "timeStart": "6.880",
+                  "timeStart": "6.280",
                   "timeEnd": "7.840",
                   "entities": []
                 },
@@ -307,7 +384,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Mobiles Arbeiten ermöglichen",
                   "timeStart": "7.840",
                   "timeEnd": "8.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1427/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Mobiles Arbeiten ermöglichen"
@@ -320,14 +404,21 @@
                 {
                   "text": "Antrag 1428/A(E) der Abgeordneten Mag.",
                   "timeStart": "8.120",
-                  "timeEnd": "8.760",
+                  "timeEnd": "8.520",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Reform der Leistungen aus der Arbeitslosenversicherung",
-                  "timeStart": "8.760",
+                  "timeStart": "8.520",
                   "timeEnd": "9.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1428/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Reform der Leistungen aus der Arbeitslosenversicherung"
@@ -341,7 +432,14 @@
                   "text": "Antrag 1436/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird",
                   "timeStart": "9.360",
                   "timeEnd": "9.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1436/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird"
@@ -360,8 +458,15 @@
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Datensicherheit sowie Daten- und Geschäftsgeheimnisschutz im Homeoffice\"",
                   "timeStart": "9.920",
-                  "timeEnd": "10.480",
-                  "entities": []
+                  "timeEnd": "11.800",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1437/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Datensicherheit sowie Daten- und Geschäftsgeheimnisschutz im Homeoffice\""
@@ -373,9 +478,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1438/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Rolle des Arbeitsministeriums in der Causa \"Hygiene Austria\"",
-                  "timeStart": "10.480",
-                  "timeEnd": "11.640",
-                  "entities": []
+                  "timeStart": "11.800",
+                  "timeEnd": "13.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Arbeitsministeriums",
+                      "wid": "Q628807",
+                      "wtype": "ORG",
+                      "score": 0.1388
+                    },
+                    {
+                      "label": "Hygiene Austria",
+                      "wid": "Q105810492",
+                      "wtype": "ORG",
+                      "score": 0.8731
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1438/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Rolle des Arbeitsministeriums in der Causa \"Hygiene Austria\""
@@ -387,8 +511,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
-                  "timeStart": "11.640",
-                  "timeEnd": "11.800",
+                  "timeStart": "13.560",
+                  "timeEnd": "13.800",
                   "entities": []
                 }
               ],
@@ -401,15 +525,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1411/A(E) der Abgeordneten Mag.",
-                  "timeStart": "11.800",
-                  "timeEnd": "11.800",
+                  "timeStart": "13.800",
+                  "timeEnd": "14.080",
                   "entities": []
                 },
                 {
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend weitere Entlastungen für Mieterinnen und Mieter im Rahmen der COVID-19-Krise",
-                  "timeStart": "11.800",
-                  "timeEnd": "11.800",
-                  "entities": []
+                  "timeStart": "14.080",
+                  "timeEnd": "14.320",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.982
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1411/A(E) der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend weitere Entlastungen für Mieterinnen und Mieter im Rahmen der COVID-19-Krise"
@@ -421,8 +552,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend",
-                  "timeStart": "11.800",
-                  "timeEnd": "11.800",
+                  "timeStart": "14.320",
+                  "timeEnd": "14.520",
                   "entities": []
                 }
               ],
@@ -435,9 +566,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1430/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Richtlinien zum Familienhärteausgleich",
-                  "timeStart": "11.800",
-                  "timeEnd": "13.200",
-                  "entities": []
+                  "timeStart": "14.520",
+                  "timeEnd": "15.880",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1430/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Richtlinien zum Familienhärteausgleich"
@@ -449,9 +593,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1431/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend \"Familienberatungsstellen am Limit!\"",
-                  "timeStart": "13.200",
-                  "timeEnd": "15.040",
-                  "entities": []
+                  "timeStart": "15.880",
+                  "timeEnd": "16.960",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1431/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend \"Familienberatungsstellen am Limit!\""
@@ -463,8 +620,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "15.040",
-                  "timeEnd": "15.080",
+                  "timeStart": "16.960",
+                  "timeEnd": "17.040",
                   "entities": []
                 }
               ],
@@ -477,8 +634,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1408/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Klima schützen ohne EPU und KMU in den Ruin zu treiben",
-                  "timeStart": "15.080",
-                  "timeEnd": "16.200",
+                  "timeStart": "17.040",
+                  "timeEnd": "17.440",
                   "entities": []
                 }
               ],
@@ -491,8 +648,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1412/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Österreich braucht endlich ein Wagniskapitalfonds-Gesetz",
-                  "timeStart": "16.200",
-                  "timeEnd": "16.680",
+                  "timeStart": "17.440",
+                  "timeEnd": "17.440",
                   "entities": []
                 }
               ],
@@ -505,7 +662,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1414/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Umsatzersatz: Mehr Flexibilität für Grenzfälle",
-                  "timeStart": "16.680",
+                  "timeStart": "17.440",
                   "timeEnd": "17.440",
                   "entities": []
                 }
@@ -534,14 +691,21 @@
                 {
                   "text": "Antrag 1416/A(E) der Abgeordneten Mag.",
                   "timeStart": "18.520",
-                  "timeEnd": "19.760",
+                  "timeEnd": "19.640",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Steuerrechtliche Lösung für Grenzgänger im Home-Office",
-                  "timeStart": "19.760",
+                  "timeStart": "19.640",
                   "timeEnd": "20.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1416/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Steuerrechtliche Lösung für Grenzgänger im Home-Office"
@@ -569,7 +733,14 @@
                   "text": "Antrag 1434/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommenssteuergesetz geändert wird",
                   "timeStart": "20.320",
                   "timeEnd": "21.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1434/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommenssteuergesetz geändert wird"
@@ -596,8 +767,21 @@
                 {
                   "text": "Antrag 1418/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen",
                   "timeStart": "22.000",
-                  "timeEnd": "23.400",
-                  "entities": []
+                  "timeEnd": "23.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1418/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen"
@@ -609,8 +793,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1424/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Langfristige Finanzierung von Sequenzierungen des SARS-CoV-2 Genoms",
-                  "timeStart": "23.400",
-                  "timeEnd": "23.440",
+                  "timeStart": "23.560",
+                  "timeEnd": "23.640",
                   "entities": []
                 }
               ],
@@ -623,8 +807,8 @@
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "timeStart": "23.440",
-                  "timeEnd": "23.440",
+                  "timeStart": "23.640",
+                  "timeEnd": "23.640",
                   "entities": []
                 }
               ],
@@ -637,7 +821,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1419/A(E) der Abgeordneten Mag.",
-                  "timeStart": "23.440",
+                  "timeStart": "23.640",
                   "timeEnd": "23.640",
                   "entities": []
                 },
@@ -645,7 +829,14 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Diskriminierungsfreie Blutspende verbindlich umsetzen",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1419/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Diskriminierungsfreie Blutspende verbindlich umsetzen"
@@ -665,13 +856,33 @@
                   "text": "Meri Disoski , Dipl.-Kffr. (",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    }
+                  ]
                 },
                 {
                   "text": "FH) Elisabeth Pfurtscheller , Kolleginnen und Kollegen betreffend \"Frauenspezifische Maßnahmen im Kampf gegen die Corona-Krise\"",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Corona-Krise",
+                      "wid": "Q86847911",
+                      "wtype": "MISC",
+                      "score": 0.3224
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1435/A(E) der Abgeordneten Mag. Meri Disoski , Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Kolleginnen und Kollegen betreffend \"Frauenspezifische Maßnahmen im Kampf gegen die Corona-Krise\""
@@ -719,7 +930,20 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Sofortmaßnahmen zum Schutz der psychischen Gesundheit von Kindern und Jugendlichen während und nach Corona",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "Corona",
+                      "wid": "Q81068910",
+                      "wtype": "LOC",
+                      "score": 0.0912
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1420/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Sofortmaßnahmen zum Schutz der psychischen Gesundheit von Kindern und Jugendlichen während und nach Corona"
@@ -739,7 +963,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende ICPC-2-Diagnosedokumentation im niedergelassenen Bereich",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1426/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende ICPC-2-Diagnosedokumentation im niedergelassenen Bereich"
@@ -759,7 +990,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1433/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
@@ -773,7 +1011,26 @@
                   "text": "Antrag 1439/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Ausbau der intensivmedizinischen Versorgung statt Regierungs-PR in Corona-Zeiten in der Höhe von 210 Millionen Euro",
                   "timeStart": "23.640",
                   "timeEnd": "23.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    },
+                    {
+                      "label": "Regierungs-PR",
+                      "wid": "Q2137755",
+                      "wtype": "ORG",
+                      "score": 0.1717
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1439/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Ausbau der intensivmedizinischen Versorgung statt Regierungs-PR in Corona-Zeiten in der Höhe von 210 Millionen Euro"
@@ -786,8 +1043,21 @@
                 {
                   "text": "Antrag 1440/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Aussetzen von COVID19-Impfungen mit AstraZeneca-Impfstoff",
                   "timeStart": "23.640",
-                  "timeEnd": "23.800",
-                  "entities": []
+                  "timeEnd": "25.320",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1440/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Aussetzen von COVID19-Impfungen mit AstraZeneca-Impfstoff"
@@ -799,8 +1069,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "23.800",
-                  "timeEnd": "24.120",
+                  "timeStart": "25.320",
+                  "timeEnd": "25.440",
                   "entities": []
                 }
               ],
@@ -813,8 +1083,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1425/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Gebühren bei Antrag gem §508 ZPO",
-                  "timeStart": "24.120",
-                  "timeEnd": "27.200",
+                  "timeStart": "25.440",
+                  "timeEnd": "27.840",
                   "entities": []
                 }
               ],
@@ -827,15 +1097,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1442/A(E) der Abgeordneten Mag.",
-                  "timeStart": "27.200",
-                  "timeEnd": "28.760",
+                  "timeStart": "27.840",
+                  "timeEnd": "29.400",
                   "entities": []
                 },
                 {
                   "text": "Harald Stefan , Kolleginnen und Kollegen betreffend Bekämpfung der islamistischen Praxis der \"Jungfräulichkeitszertifikate\"",
-                  "timeStart": "28.760",
+                  "timeStart": "29.400",
                   "timeEnd": "30.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1442/A(E) der Abgeordneten Mag. Harald Stefan , Kolleginnen und Kollegen betreffend Bekämpfung der islamistischen Praxis der \"Jungfräulichkeitszertifikate\""
@@ -848,8 +1125,15 @@
                 {
                   "text": "Landesverteidigungsausschuss:",
                   "timeStart": "30.480",
-                  "timeEnd": "31.200",
-                  "entities": []
+                  "timeEnd": "30.880",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -861,9 +1145,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1417/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Expertise zur Verfassungsmäßigkeit der Luftraumüberwachung",
-                  "timeStart": "31.200",
+                  "timeStart": "30.880",
                   "timeEnd": "31.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1417/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Expertise zur Verfassungsmäßigkeit der Luftraumüberwachung"
@@ -925,7 +1222,14 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Vergaberichtlinien für die Zukunft: Keine internationalen Sportgroßveranstaltung ohne Menschenrechtsstandards",
                   "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1421/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Vergaberichtlinien für die Zukunft: Keine internationalen Sportgroßveranstaltung ohne Menschenrechtsstandards"
@@ -939,7 +1243,26 @@
                   "text": "Antrag 1423/A(E) der Abgeordneten Fiona Fiedler, BED , Kolleginnen und Kollegen betreffend Besondere Öffnungsschritte für besondere Notwendigkeiten: Indoor-Sport für Kinder mit Behinderungen rasch ermöglichen!",
                   "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "BED",
+                      "wid": "Q1837914",
+                      "wtype": "MISC",
+                      "score": 0.3102
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1423/A(E) der Abgeordneten Fiona Fiedler, BED , Kolleginnen und Kollegen betreffend Besondere Öffnungsschritte für besondere Notwendigkeiten: Indoor-Sport für Kinder mit Behinderungen rasch ermöglichen!"
@@ -953,7 +1276,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -973,7 +1303,14 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Einkommensgrenze für Nebeneinkünfte für Privatvermieter gemäß der Richtlinie nach dem Härtefallfondsgesetz abschaffen",
                   "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1441/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Einkommensgrenze für Nebeneinkünfte für Privatvermieter gemäß der Richtlinie nach dem Härtefallfondsgesetz abschaffen"
@@ -1001,7 +1338,20 @@
                   "text": "Antrag 1409/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend ÖGS Lehrplan bzw. ÖGS an Schulen",
                   "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1409/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend ÖGS Lehrplan bzw. ÖGS an Schulen"
@@ -1015,7 +1365,26 @@
                   "text": "Antrag 1422/A(E) der Abgeordneten Fiona Fiedler, BED , Kolleginnen und Kollegen betreffend Lehrplan Österreichische Gebärdensprache",
                   "timeStart": "32.280",
                   "timeEnd": "32.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "BED",
+                      "wid": "Q1837914",
+                      "wtype": "MISC",
+                      "score": 0.3102
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1422/A(E) der Abgeordneten Fiona Fiedler, BED , Kolleginnen und Kollegen betreffend Lehrplan Österreichische Gebärdensprache"
@@ -1056,8 +1425,21 @@
                 {
                   "text": "Antrag 1410/A(E) der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Kaufkraftstärkung durch das 1.000 Euro Gutscheinheft",
                   "timeStart": "32.760",
-                  "timeEnd": "33.640",
-                  "entities": []
+                  "timeEnd": "33.600",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1410/A(E) der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend Kaufkraftstärkung durch das 1.000 Euro Gutscheinheft"
@@ -1069,8 +1451,8 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "33.640",
-                  "timeEnd": "33.720",
+                  "timeStart": "33.600",
+                  "timeEnd": "34.640",
                   "entities": []
                 }
               ],
@@ -1083,8 +1465,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "33.720",
-                  "timeEnd": "34.560",
+                  "timeStart": "34.640",
+                  "timeEnd": "34.640",
                   "entities": []
                 }
               ],
@@ -1097,9 +1479,16 @@
               "sentences": [
                 {
                   "text": "Bericht gemäß § 13 Abs. 1a des Bundesgesetz über die Finanzierung der Arbeitsmarktpolitik (Arbeitsmarktpolitik-Finanzierungsgesetz – AMPFG) für Februar 2021, vorgelegt vom Bundesminister für Arbeit ( III-278 d.B. )",
-                  "timeStart": "34.560",
-                  "timeEnd": "37.320",
-                  "entities": []
+                  "timeStart": "34.640",
+                  "timeEnd": "36.040",
+                  "entities": [
+                    {
+                      "label": "Bundesminister für Arbeit",
+                      "wid": "Q491578",
+                      "wtype": "ORG",
+                      "score": 0.3065
+                    }
+                  ]
                 }
               ],
               "text": "Bericht gemäß § 13 Abs. 1a des Bundesgesetz über die Finanzierung der Arbeitsmarktpolitik (Arbeitsmarktpolitik-Finanzierungsgesetz – AMPFG) für Februar 2021, vorgelegt vom Bundesminister für Arbeit ( III-278 d.B. )"
@@ -1111,7 +1500,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 25. März 2021, um 9 Uhr ein.",
-                  "timeStart": "37.320",
+                  "timeStart": "36.040",
                   "timeEnd": "37.920",
                   "entities": []
                 },
@@ -1132,7 +1521,7 @@
                 {
                   "text": "Ich wünsche ein gutes Nachhausekommen, alles Gute und gute Nacht.",
                   "timeStart": "37.920",
-                  "timeEnd": "37.960",
+                  "timeEnd": "38.240",
                   "entities": []
                 }
               ],
@@ -1145,7 +1534,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "37.960",
+                  "timeStart": "38.240",
                   "timeEnd": "40.000",
                   "entities": []
                 }
@@ -1160,8 +1549,8 @@
         "stdId": 240347,
         "debatteId": 300,
         "proceedingIndex": 240347,
-        "alignDuration": 0.96893310546875,
-        "nerDuration": 0.43773317337036133
+        "alignDuration": 0.9184350967407227,
+        "nerDuration": 0.9661364555358887
       },
       "originalLanguage": "de"
     }

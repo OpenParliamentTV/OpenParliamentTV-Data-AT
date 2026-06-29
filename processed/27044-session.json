@@ -5,11 +5,12 @@
     "dateStart": "2020-07-07T19:51:17",
     "dateEnd": "2020-07-07T19:51:46",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-16T18:40:45",
+    "lastUpdate": "2026-06-28T09:30:18",
     "processing": {
       "merge": "2026-06-16T04:23:39+00:00",
-      "align": "2026-06-16T18:40:45",
-      "ner": "2026-06-28T02:27:36"
+      "align": "2026-06-28T09:30:18",
+      "ner": "2026-06-28T14:52:31",
+      "nel": "2026-06-28T07:25:22"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Die Sitzung ist eröffnet.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.280",
+                  "timeEnd": "1.440",
                   "entities": []
                 }
               ],
@@ -85,15 +86,28 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "1.280",
-                  "timeEnd": "1.720",
+                  "timeStart": "1.440",
+                  "timeEnd": "2.080",
                   "entities": []
                 },
                 {
                   "text": "Elisabeth Scheucher-Pichler , Dietmar Keck , Mag.",
-                  "timeStart": "1.720",
+                  "timeStart": "2.080",
                   "timeEnd": "2.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9889
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Petra Oberrauner , Mag.",
@@ -105,7 +119,20 @@
                   "text": "Philipp Schrangl und Josef Schellhorn .",
                   "timeStart": "2.720",
                   "timeEnd": "3.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4046
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Elisabeth Scheucher-Pichler , Dietmar Keck , Mag. Dr. Petra Oberrauner , Mag. Philipp Schrangl und Josef Schellhorn ."
@@ -231,7 +258,20 @@
                   "text": "Antrag 750/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Faire und angemessene Bezahlung von Zivildienern",
                   "timeStart": "4.680",
                   "timeEnd": "4.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 750/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Faire und angemessene Bezahlung von Zivildienern"
@@ -245,7 +285,20 @@
                   "text": "Antrag 751/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst für Alle – Mehr als nur ein Wehrersatzdienst",
                   "timeStart": "4.840",
                   "timeEnd": "5.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 751/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst für Alle – Mehr als nur ein Wehrersatzdienst"
@@ -259,7 +312,20 @@
                   "text": "Antrag 752/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gerechte Krankenstandsregelung und Urlaubsanspruch im Zivildienst",
                   "timeStart": "5.480",
                   "timeEnd": "6.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 752/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gerechte Krankenstandsregelung und Urlaubsanspruch im Zivildienst"
@@ -273,7 +339,20 @@
                   "text": "Antrag 753/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst – Kompensation von Überstunden durch Urlaubstage",
                   "timeStart": "6.080",
                   "timeEnd": "6.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 753/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Zivildienst – Kompensation von Überstunden durch Urlaubstage"
@@ -287,7 +366,20 @@
                   "text": "Antrag 754/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gleiche Zulagen bei gleicher Leistung für Zivildiener",
                   "timeStart": "6.080",
                   "timeEnd": "6.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 754/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gleiche Zulagen bei gleicher Leistung für Zivildiener"
@@ -307,7 +399,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Fachkräftestipendium für Elementarpädagogik-Kolleg",
                   "timeStart": "6.160",
                   "timeEnd": "6.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 761/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Fachkräftestipendium für Elementarpädagogik-Kolleg"
@@ -341,7 +440,14 @@
                   "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend Verbesserung von steuerlichen Anreizen um die Sanierungsrate zu erhöhen und Klimaziele zu erreichen",
                   "timeStart": "6.920",
                   "timeEnd": "7.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 755/A(E) der Abgeordneten Mag. Felix Eypeltauer , Kolleginnen und Kollegen betreffend Verbesserung von steuerlichen Anreizen um die Sanierungsrate zu erhöhen und Klimaziele zu erreichen"
@@ -354,14 +460,21 @@
                 {
                   "text": "Antrag 756/A(E) der Abgeordneten Mag.",
                   "timeStart": "7.360",
-                  "timeEnd": "8.120",
+                  "timeEnd": "7.800",
                   "entities": []
                 },
                 {
                   "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend Implementierung einer einheitlichen Definition der Sanierungsrate",
-                  "timeStart": "8.120",
+                  "timeStart": "7.800",
                   "timeEnd": "8.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 756/A(E) der Abgeordneten Mag. Felix Eypeltauer , Kolleginnen und Kollegen betreffend Implementierung einer einheitlichen Definition der Sanierungsrate"
@@ -388,8 +501,15 @@
                 {
                   "text": "Antrag 746/A der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird",
                   "timeStart": "8.920",
-                  "timeEnd": "10.360",
-                  "entities": []
+                  "timeEnd": "9.840",
+                  "entities": [
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 746/A der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird"
@@ -401,8 +521,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "10.360",
-                  "timeEnd": "10.560",
+                  "timeStart": "9.840",
+                  "timeEnd": "9.840",
                   "entities": []
                 }
               ],
@@ -415,15 +535,22 @@
               "sentences": [
                 {
                   "text": "Antrag 749/A(E) der Abgeordneten Mag.",
-                  "timeStart": "10.560",
-                  "timeEnd": "11.560",
+                  "timeStart": "9.840",
+                  "timeEnd": "9.840",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Neuaufstellung der PRIKRAF-Fondskommission",
-                  "timeStart": "11.560",
-                  "timeEnd": "11.880",
-                  "entities": []
+                  "timeStart": "9.840",
+                  "timeEnd": "9.840",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 749/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Neuaufstellung der PRIKRAF-Fondskommission"
@@ -435,9 +562,22 @@
               "sentences": [
                 {
                   "text": "Antrag 764/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung des Tiertransportgesetz",
-                  "timeStart": "11.880",
-                  "timeEnd": "11.880",
-                  "entities": []
+                  "timeStart": "9.840",
+                  "timeEnd": "9.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 764/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung des Tiertransportgesetz"
@@ -449,9 +589,22 @@
               "sentences": [
                 {
                   "text": "Antrag 765/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung der Strafen im Tiertransportgesetz",
-                  "timeStart": "11.880",
-                  "timeEnd": "12.000",
-                  "entities": []
+                  "timeStart": "9.920",
+                  "timeEnd": "10.760",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 765/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Novellierung der Strafen im Tiertransportgesetz"
@@ -463,8 +616,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "12.000",
-                  "timeEnd": "12.360",
+                  "timeStart": "10.760",
+                  "timeEnd": "11.040",
                   "entities": []
                 }
               ],
@@ -477,8 +630,8 @@
               "sentences": [
                 {
                   "text": "Antrag 768/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Angleichung der Tagessätze in der Grundversorgung für unbegleitete minderjährige Geflüchtete",
-                  "timeStart": "12.360",
-                  "timeEnd": "13.240",
+                  "timeStart": "11.040",
+                  "timeEnd": "12.080",
                   "entities": []
                 }
               ],
@@ -491,8 +644,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "13.240",
-                  "timeEnd": "13.440",
+                  "timeStart": "12.080",
+                  "timeEnd": "12.280",
                   "entities": []
                 }
               ],
@@ -505,8 +658,8 @@
               "sentences": [
                 {
                   "text": "Antrag 767/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend \"Right to Plug\"",
-                  "timeStart": "13.440",
-                  "timeEnd": "14.680",
+                  "timeStart": "12.280",
+                  "timeEnd": "13.240",
                   "entities": []
                 }
               ],
@@ -519,9 +672,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "14.680",
-                  "timeEnd": "14.880",
-                  "entities": []
+                  "timeStart": "13.240",
+                  "timeEnd": "13.440",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -533,9 +693,34 @@
               "sentences": [
                 {
                   "text": "Antrag 766/A(E) der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Österreichs Luftraumüberwachung, drohende Lärm- und Gesundheitsbelastung der Murtaler Bevölkerung\"",
-                  "timeStart": "14.880",
-                  "timeEnd": "17.400",
-                  "entities": []
+                  "timeStart": "13.440",
+                  "timeEnd": "16.800",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Maximilian Lercher",
+                      "wid": "Q1733882",
+                      "wtype": "PER",
+                      "score": 0.4124
+                    },
+                    {
+                      "label": "Österreichs",
+                      "wid": "Q131964",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    },
+                    {
+                      "label": "Murtaler",
+                      "wid": "Q1684573",
+                      "wtype": "LOC",
+                      "score": 0.4487
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 766/A(E) der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Österreichs Luftraumüberwachung, drohende Lärm- und Gesundheitsbelastung der Murtaler Bevölkerung\""
@@ -547,8 +732,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "17.400",
-                  "timeEnd": "17.920",
+                  "timeStart": "16.800",
+                  "timeEnd": "17.480",
                   "entities": []
                 }
               ],
@@ -561,7 +746,7 @@
               "sentences": [
                 {
                   "text": "Antrag 744/A(E) der Abgeordneten Mag.",
-                  "timeStart": "17.920",
+                  "timeStart": "17.480",
                   "timeEnd": "18.400",
                   "entities": []
                 },
@@ -569,7 +754,14 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Importstopp für Flüssig- und Trockenei aus Drittstaaten",
                   "timeStart": "18.400",
                   "timeEnd": "19.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 744/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Importstopp für Flüssig- und Trockenei aus Drittstaaten"
@@ -597,7 +789,26 @@
                   "text": "Antrag 747/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Sanktionsmechanismus gegen Menschenrechtsverletzer",
                   "timeStart": "19.920",
                   "timeEnd": "21.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Menschenrechtsverletzer",
+                      "wid": "Q8458",
+                      "wtype": "PER",
+                      "score": 0.5504
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 747/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Sanktionsmechanismus gegen Menschenrechtsverletzer"
@@ -611,7 +822,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "21.560",
                   "timeEnd": "21.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -631,7 +849,20 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend voller Entschädigungsanspruch nach dem Epidemiegesetz für alle Gastronomie- und Beherbergungsbetriebe bis zum Zeitpunkt der Aufhebung des Betretungsverbotes",
                   "timeStart": "22.240",
                   "timeEnd": "22.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 745/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend voller Entschädigungsanspruch nach dem Epidemiegesetz für alle Gastronomie- und Beherbergungsbetriebe bis zum Zeitpunkt der Aufhebung des Betretungsverbotes"
@@ -665,7 +896,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Financial Life Skills",
                   "timeStart": "23.240",
                   "timeEnd": "23.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 763/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Financial Life Skills"
@@ -692,14 +930,21 @@
                 {
                   "text": "Antrag 742/A(E) der Abgeordneten Mag.",
                   "timeStart": "23.440",
-                  "timeEnd": "23.760",
+                  "timeEnd": "24.560",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Datenschutzbericht – Personalmangel in der Datenschutzbehörde – immer mehr gesetzliche Aufgaben",
-                  "timeStart": "23.760",
+                  "timeStart": "24.560",
                   "timeEnd": "25.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 742/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Datenschutzbericht – Personalmangel in der Datenschutzbehörde – immer mehr gesetzliche Aufgaben"
@@ -719,7 +964,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sicherung, Aufbewahrung und Nutzung von Archivgut des Bundes (Bundesarchivgesetz) geändert wird",
                   "timeStart": "25.160",
                   "timeEnd": "25.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 743/A der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Sicherung, Aufbewahrung und Nutzung von Archivgut des Bundes (Bundesarchivgesetz) geändert wird"
@@ -747,7 +999,26 @@
                   "text": "Antrag 757/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Vehicle-to-Grid als Lösung für nachhaltige E-Mobilität und Netzstabilität",
                   "timeStart": "25.160",
                   "timeEnd": "25.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Vehicle-to-Grid",
+                      "wid": "Q1783938",
+                      "wtype": "MISC",
+                      "score": 0.9911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 757/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Vehicle-to-Grid als Lösung für nachhaltige E-Mobilität und Netzstabilität"
@@ -774,7 +1045,7 @@
                 {
                   "text": "Antrag 759/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Ortskerne als Begegnungszonen",
                   "timeStart": "25.160",
-                  "timeEnd": "26.000",
+                  "timeEnd": "25.160",
                   "entities": []
                 }
               ],
@@ -787,8 +1058,8 @@
               "sentences": [
                 {
                   "text": "Antrag 760/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Entlastung für Carsharing Unternehmen",
-                  "timeStart": "26.000",
-                  "timeEnd": "26.640",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.680",
                   "entities": []
                 }
               ],
@@ -801,8 +1072,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "26.640",
-                  "timeEnd": "27.000",
+                  "timeStart": "25.680",
+                  "timeEnd": "26.000",
                   "entities": []
                 }
               ],
@@ -815,15 +1086,22 @@
               "sentences": [
                 {
                   "text": "Antrag 748/A(E) der Abgeordneten Mag.",
-                  "timeStart": "27.000",
-                  "timeEnd": "27.360",
+                  "timeStart": "26.000",
+                  "timeEnd": "26.560",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Auflösung der WK-Rücklagen gemäß den Vorschlägen der \"Grünen Wirtschaft\"",
-                  "timeStart": "27.360",
-                  "timeEnd": "27.760",
-                  "entities": []
+                  "timeStart": "26.560",
+                  "timeEnd": "26.720",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 748/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Auflösung der WK-Rücklagen gemäß den Vorschlägen der \"Grünen Wirtschaft\""
@@ -835,9 +1113,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "27.760",
-                  "timeEnd": "27.880",
-                  "entities": []
+                  "timeStart": "26.720",
+                  "timeEnd": "26.760",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -849,15 +1134,22 @@
               "sentences": [
                 {
                   "text": "Antrag 762/A(E) der Abgeordneten Mag.",
-                  "timeStart": "27.880",
-                  "timeEnd": "29.040",
+                  "timeStart": "26.760",
+                  "timeEnd": "27.360",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Transparenzregeln für Nebenbeschäftigungen von Universitätsprofessor_innen",
-                  "timeStart": "29.040",
-                  "timeEnd": "29.280",
-                  "entities": []
+                  "timeStart": "27.360",
+                  "timeEnd": "27.960",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 762/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Transparenzregeln für Nebenbeschäftigungen von Universitätsprofessor_innen"
@@ -869,8 +1161,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für Mittwoch, den 8. Juli 2020, 9 Uhr, ein.",
-                  "timeStart": "29.280",
-                  "timeEnd": "29.280",
+                  "timeStart": "27.960",
+                  "timeEnd": "29.120",
                   "entities": []
                 }
               ],
@@ -883,8 +1175,8 @@
               "sentences": [
                 {
                   "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
-                  "timeStart": "29.280",
-                  "timeEnd": "29.320",
+                  "timeStart": "29.120",
+                  "timeEnd": "29.280",
                   "entities": []
                 }
               ],
@@ -897,7 +1189,7 @@
               "sentences": [
                 {
                   "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der Geschäftsordnungsausschuss hier im Plenarsaal zusammentritt.",
-                  "timeStart": "29.320",
+                  "timeStart": "29.280",
                   "timeEnd": "29.640",
                   "entities": []
                 }
@@ -926,8 +1218,8 @@
         "stdId": 221928,
         "debatteId": 300,
         "proceedingIndex": 221928,
-        "alignDuration": 0.6755447387695312,
-        "nerDuration": 0.34015989303588867
+        "alignDuration": 0.7271227836608887,
+        "nerDuration": 0.7733497619628906
       },
       "originalLanguage": "de"
     }

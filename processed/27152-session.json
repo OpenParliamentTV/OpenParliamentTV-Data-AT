@@ -5,11 +5,12 @@
     "dateStart": "2022-04-05T14:50:01",
     "dateEnd": "2022-04-05T14:51:04",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-22T08:52:39",
+    "lastUpdate": "2026-06-28T11:38:00",
     "processing": {
       "merge": "2026-06-16T04:23:56+00:00",
-      "align": "2026-06-22T08:52:39",
-      "ner": "2026-06-28T02:59:13"
+      "align": "2026-06-28T11:38:00",
+      "ner": "2026-06-28T15:39:10",
+      "nel": "2026-06-28T07:25:30"
     }
   },
   "data": [
@@ -86,50 +87,202 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.a Johanna Jachs , Ing. Klaus Lindinger, BSc , Mag.a Dr.in Maria Theresia Niss, MBA , Mag.a Bettina Rausch , Mag.a Elisabeth Scheucher-Pichler , Melanie Erasim, MSc , Josef Muchitsch , Petra Vorderwinkler , Christian Hafenecker, MA , Mag.",
                   "timeStart": "2.440",
-                  "timeEnd": "7.760",
-                  "entities": []
+                  "timeEnd": "5.680",
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Bettina Rausch",
+                      "wid": "Q850023",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9889
+                    },
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.971
+                    },
+                    {
+                      "label": "MSc",
+                      "wid": "Q183816",
+                      "wtype": "PER",
+                      "score": 0.6951
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , MMMag.",
-                  "timeStart": "7.760",
-                  "timeEnd": "7.880",
-                  "entities": []
+                  "timeStart": "5.680",
+                  "timeEnd": "5.840",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Axel Kassegger , Christian Lausch , Mag.",
-                  "timeStart": "7.880",
-                  "timeEnd": "8.480",
-                  "entities": []
+                  "timeStart": "5.840",
+                  "timeEnd": "7.320",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9793
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Mag.",
-                  "timeStart": "8.480",
-                  "timeEnd": "8.680",
-                  "entities": []
+                  "timeStart": "7.320",
+                  "timeEnd": "8.280",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Harald Stefan , Wolfgang Zanger , Mag.",
-                  "timeStart": "8.680",
+                  "timeStart": "8.280",
                   "timeEnd": "9.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.965
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    }
+                  ]
                 },
                 {
                   "text": "Faika El-Nagashi , Barbara Neßler , Ralph Schallmeiner , Mag.",
                   "timeStart": "9.360",
                   "timeEnd": "10.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Faika El-Nagashi",
+                      "wid": "Q29585127",
+                      "wtype": "PER",
+                      "score": 0.9888
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Dr. Helmut Brandstätter , Henrike Brandstötter und Mag.",
                   "timeStart": "10.040",
-                  "timeEnd": "11.480",
-                  "entities": []
+                  "timeEnd": "11.360",
+                  "entities": [
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4116
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    }
+                  ]
                 },
                 {
                   "text": "Yannick Shetty .",
-                  "timeStart": "11.480",
-                  "timeEnd": "11.560",
-                  "entities": []
+                  "timeStart": "11.360",
+                  "timeEnd": "11.440",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag.a Johanna Jachs , Ing. Klaus Lindinger, BSc , Mag.a Dr.in Maria Theresia Niss, MBA , Mag.a Bettina Rausch , Mag.a Elisabeth Scheucher-Pichler , Melanie Erasim, MSc , Josef Muchitsch , Petra Vorderwinkler , Christian Hafenecker, MA , Mag. Gerald Hauser , MMMag. Dr. Axel Kassegger , Christian Lausch , Mag. Philipp Schrangl , Mag. Harald Stefan , Wolfgang Zanger , Mag. Faika El-Nagashi , Barbara Neßler , Ralph Schallmeiner , Mag. Dr. Jakob Schwarz, BA , Dr. Helmut Brandstätter , Henrike Brandstötter und Mag. Yannick Shetty ."
@@ -141,7 +294,7 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "11.560",
+                  "timeStart": "11.440",
                   "timeEnd": "12.080",
                   "entities": []
                 }
@@ -184,7 +337,7 @@
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
                   "timeStart": "14.200",
-                  "timeEnd": "15.320",
+                  "timeEnd": "14.520",
                   "entities": []
                 }
               ],
@@ -197,8 +350,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen : 9463/AB bis 9468/AB",
-                  "timeStart": "15.320",
-                  "timeEnd": "17.160",
+                  "timeStart": "14.520",
+                  "timeEnd": "15.320",
                   "entities": []
                 }
               ],
@@ -211,8 +364,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortung (Präsident des Nationalrates):",
-                  "timeStart": "17.160",
-                  "timeEnd": "18.360",
+                  "timeStart": "15.320",
+                  "timeEnd": "16.400",
                   "entities": []
                 }
               ],
@@ -225,8 +378,8 @@
               "sentences": [
                 {
                   "text": "42/ABPR",
-                  "timeStart": "18.360",
-                  "timeEnd": "19.120",
+                  "timeStart": "16.400",
+                  "timeEnd": "17.200",
                   "entities": []
                 }
               ],
@@ -239,8 +392,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "19.120",
-                  "timeEnd": "19.520",
+                  "timeStart": "17.200",
+                  "timeEnd": "17.920",
                   "entities": []
                 }
               ],
@@ -253,8 +406,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung :",
-                  "timeStart": "19.520",
-                  "timeEnd": "19.960",
+                  "timeStart": "17.920",
+                  "timeEnd": "18.280",
                   "entities": []
                 }
               ],
@@ -267,8 +420,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "19.960",
-                  "timeEnd": "20.680",
+                  "timeStart": "18.280",
+                  "timeEnd": "19.120",
                   "entities": []
                 }
               ],
@@ -281,15 +434,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "20.680",
-                  "timeEnd": "21.080",
+                  "timeStart": "19.120",
+                  "timeEnd": "19.280",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz geändert wird ( 2423/A )",
-                  "timeStart": "21.080",
-                  "timeEnd": "24.760",
-                  "entities": []
+                  "timeStart": "19.280",
+                  "timeEnd": "21.680",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz geändert wird ( 2423/A )"
@@ -301,15 +461,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "24.760",
-                  "timeEnd": "25.600",
+                  "timeStart": "21.680",
+                  "timeEnd": "21.920",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwer(st)arbeit ( 2424/A(E) )",
-                  "timeStart": "25.600",
-                  "timeEnd": "28.760",
-                  "entities": []
+                  "timeStart": "21.920",
+                  "timeEnd": "24.440",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Schwer",
+                      "wid": "Q546658",
+                      "wtype": "PER",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwer(st)arbeit ( 2424/A(E) )"
@@ -321,8 +500,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2427/A(E) )",
-                  "timeStart": "28.760",
-                  "timeEnd": "32.200",
+                  "timeStart": "24.440",
+                  "timeEnd": "27.200",
                   "entities": []
                 }
               ],
@@ -335,8 +514,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
-                  "timeStart": "32.200",
-                  "timeEnd": "32.720",
+                  "timeStart": "27.200",
+                  "timeEnd": "27.880",
                   "entities": []
                 }
               ],
@@ -349,15 +528,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "32.720",
-                  "timeEnd": "33.400",
+                  "timeStart": "27.880",
+                  "timeEnd": "29.280",
                   "entities": []
                 },
                 {
                   "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietreduktion im Wiener Gemeindebau – gemeinnützige Grundmiete statt Richtwert ( 2426/A(E) )",
-                  "timeStart": "33.400",
-                  "timeEnd": "35.960",
-                  "entities": []
+                  "timeStart": "29.280",
+                  "timeEnd": "33.400",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Wiener",
+                      "wid": "Q1741",
+                      "wtype": "MISC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Mietreduktion im Wiener Gemeindebau – gemeinnützige Grundmiete statt Richtwert ( 2426/A(E) )"
@@ -369,8 +567,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "35.960",
-                  "timeEnd": "36.720",
+                  "timeStart": "33.400",
+                  "timeEnd": "33.600",
                   "entities": []
                 }
               ],
@@ -383,9 +581,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik ( 2425/A(E) )",
-                  "timeStart": "36.720",
-                  "timeEnd": "41.160",
-                  "entities": []
+                  "timeStart": "33.600",
+                  "timeEnd": "38.200",
+                  "entities": [
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Kinderbetreuungs-Zweckzuschussgesetz des Bundes zur Umsetzung eines Gratis-Angebots in der Elementarpädagogik ( 2425/A(E) )"
@@ -397,8 +608,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "41.160",
-                  "timeEnd": "41.760",
+                  "timeStart": "38.200",
+                  "timeEnd": "38.960",
                   "entities": []
                 }
               ],
@@ -411,9 +622,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2428/A(E) )",
-                  "timeStart": "41.760",
-                  "timeEnd": "45.320",
-                  "entities": []
+                  "timeStart": "38.960",
+                  "timeEnd": "42.120",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2428/A(E) )"
@@ -425,8 +655,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich den Antrag 2429/A dem Ausschuss für Bauten und Wohnen sowie den Antrag 2430/A(E) dem Ausschuss für Arbeit und Soziales zu.",
-                  "timeStart": "45.320",
-                  "timeEnd": "50.560",
+                  "timeStart": "42.120",
+                  "timeEnd": "48.440",
                   "entities": []
                 }
               ],
@@ -439,8 +669,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrats, die für Mittwoch, den 27. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "50.560",
-                  "timeEnd": "51.280",
+                  "timeStart": "48.440",
+                  "timeEnd": "50.560",
                   "entities": []
                 }
               ],
@@ -453,9 +683,16 @@
               "sentences": [
                 {
                   "text": "Weiters gebe ich noch bekannt, dass heute um 15.15 Uhr der Verkehrsausschuss im Camineum sowie um 16.30 Uhr der Ständige Unterausschuss in Angelegenheiten der Europäischen Union im Dachfoyer zusammentreten.",
-                  "timeStart": "51.280",
+                  "timeStart": "50.560",
                   "timeEnd": "53.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Europäischen Union",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.9591
+                    }
+                  ]
                 }
               ],
               "text": "Weiters gebe ich noch bekannt, dass heute um 15.15 Uhr der Verkehrsausschuss im Camineum sowie um 16.30 Uhr der Ständige Unterausschuss in Angelegenheiten der Europäischen Union im Dachfoyer zusammentreten."
@@ -482,8 +719,8 @@
         "stdId": 264640,
         "debatteId": 300,
         "proceedingIndex": 264640,
-        "alignDuration": 0.6173989772796631,
-        "nerDuration": 0.17782187461853027
+        "alignDuration": 0.622443675994873,
+        "nerDuration": 0.3261418342590332
       },
       "originalLanguage": "de"
     }

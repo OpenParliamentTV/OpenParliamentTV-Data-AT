@@ -5,11 +5,12 @@
     "dateStart": "2021-09-22T20:53:12",
     "dateEnd": "2021-09-22T20:53:46",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T22:16:37",
+    "lastUpdate": "2026-06-28T10:57:04",
     "processing": {
-      "merge": "2026-06-16T04:23:51+00:00",
-      "align": "2026-06-20T22:16:37",
-      "ner": "2026-06-28T02:49:32"
+      "merge": "2026-06-28T07:25:12+00:00",
+      "nel": "2026-06-28T09:26:41",
+      "align": "2026-06-28T10:57:04",
+      "ner": "2026-06-28T15:24:51"
     }
   },
   "data": [
@@ -27,7 +28,9 @@
       "speechIndex": 1,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/8742766c-f6cc-47c6-962e-c9fee124ea07/hls/index.m3u8?startseconds=8&stopseconds=42",
@@ -68,6 +71,7 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Die Sitzung ist eröffnet.",
@@ -82,6 +86,7 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
@@ -92,14 +97,64 @@
                 {
                   "text": "Martin Engelberg , Karlheinz Kopf , Mag.",
                   "timeStart": "3.120",
-                  "timeEnd": "3.480",
-                  "entities": []
+                  "timeEnd": "3.640",
+                  "entities": [
+                    {
+                      "label": "Martin Engelberg",
+                      "wid": "Q42307913",
+                      "wtype": "PER",
+                      "score": 0.9791
+                    },
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    }
+                  ]
                 },
                 {
                   "text": "Maria Smodics-Neumann , Dr. Christian Stocker , Cornelia Ecker , Dietmar Keck , Katharina Kucharowits , Rosa Ecker, MBA und Alois Kainz .",
-                  "timeStart": "3.480",
+                  "timeStart": "3.640",
                   "timeEnd": "7.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Maria Smodics-Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9744
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Karlheinz Kopf , Mag. Maria Smodics-Neumann , Dr. Christian Stocker , Cornelia Ecker , Dietmar Keck , Katharina Kucharowits , Rosa Ecker, MBA und Alois Kainz ."
@@ -108,11 +163,12 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
                   "timeStart": "7.120",
-                  "timeEnd": "7.680",
+                  "timeEnd": "7.640",
                   "entities": []
                 }
               ],
@@ -122,11 +178,12 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "7.680",
-                  "timeEnd": "9.720",
+                  "timeStart": "7.640",
+                  "timeEnd": "9.800",
                   "entities": []
                 }
               ],
@@ -136,11 +193,12 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "9.720",
-                  "timeEnd": "9.760",
+                  "timeStart": "9.800",
+                  "timeEnd": "10.120",
                   "entities": []
                 }
               ],
@@ -150,11 +208,12 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "9.760",
-                  "timeEnd": "10.320",
+                  "timeStart": "10.120",
+                  "timeEnd": "10.240",
                   "entities": []
                 }
               ],
@@ -164,10 +223,11 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "10.320",
+                  "timeStart": "10.240",
                   "timeEnd": "10.720",
                   "entities": []
                 }
@@ -178,6 +238,7 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
@@ -192,12 +253,87 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
-                  "text": "Bundesgesetz, mit dem ein Telekommunikationsgesetz erlassen (Telekommunikationsgesetz 2021 – TKG 2021), das KommAustria-Gesetz (KommAustria-Gesetz – KOG), die Strafprozeßordnung 1975 (StPO), das Polizeikooperationsgesetz (PolKG), das Polizeiliche Staatsschutzgesetz (PStSG), das Sicherheitspolizeigesetz (SPG), das Wertpapieraufsichtsgesetz 2018 (WAG 2018), das Börsegesetz 2018 (BörseG 2018), das Postmarktgesetz (PMG), das Kraftfahrgesetz 1967 (KFG 1967), das Funkanlagen-Marktüberwachungs-Gesetz (FMAG 2016), das Funker-Zeugnisgesetz 1998 (FZG), das Rundfunkgebührengesetz (RGG), das Fernsprechentgeltzuschussgesetz (FeZG) und das Audiovisuelle Mediendienste-Gesetz (AMD-G) geändert werden ( 1043 d.B. )",
+                  "text": "Bundesgesetz, mit dem ein Telekommunikationsgesetz erlassen (Telekommunikationsgesetz 2021",
                   "timeStart": "11.040",
-                  "timeEnd": "28.680",
+                  "timeEnd": "13.600",
                   "entities": []
+                },
+                {
+                  "text": "TKG 2021), das KommAustria-Gesetz (KommAustria-Gesetz",
+                  "timeStart": "13.600",
+                  "timeEnd": "15.400",
+                  "entities": [
+                    {
+                      "label": "TKG",
+                      "wid": "Q2401732",
+                      "wtype": "MISC",
+                      "score": 0.3607
+                    }
+                  ]
+                },
+                {
+                  "text": "KOG), die Strafprozeßordnung 1975 (StPO), das Polizeikooperationsgesetz (PolKG), das Polizeiliche Staatsschutzgesetz (PStSG), das Sicherheitspolizeigesetz (SPG), das Wertpapieraufsichtsgesetz 2018 (WAG 2018), das Börsegesetz 2018 (BörseG 2018), das Postmarktgesetz (PMG), das Kraftfahrgesetz 1967 (KFG 1967), das Funkanlagen-Marktüberwachungs-Gesetz (FMAG 2016), das Funker-Zeugnisgesetz 1998 (FZG), das Rundfunkgebührengesetz (RGG), das Fernsprechentgeltzuschussgesetz (FeZG) und das Audiovisuelle Mediendienste-Gesetz (AMD-G) geändert werden ( 1043 d.B. )",
+                  "timeStart": "15.400",
+                  "timeEnd": "28.680",
+                  "entities": [
+                    {
+                      "label": "KOG",
+                      "wid": "Q1770909",
+                      "wtype": "ORG",
+                      "score": 0.1556
+                    },
+                    {
+                      "label": "StPO",
+                      "wid": "Q897021",
+                      "wtype": "LOC",
+                      "score": 0.5628
+                    },
+                    {
+                      "label": "Polizeiliche Staatsschutzgesetz",
+                      "wid": "Q23689498",
+                      "wtype": "MISC",
+                      "score": 0.9772
+                    },
+                    {
+                      "label": "Sicherheitspolizeigesetz",
+                      "wid": "Q2281293",
+                      "wtype": "MISC",
+                      "score": 0.8721
+                    },
+                    {
+                      "label": "SPG",
+                      "wid": "Q2281293",
+                      "wtype": "ORG",
+                      "score": 0.2287
+                    },
+                    {
+                      "label": "WAG",
+                      "wid": "Q1587985",
+                      "wtype": "ORG",
+                      "score": 0.2726
+                    },
+                    {
+                      "label": "PMG",
+                      "wid": "Q372314",
+                      "wtype": "MISC",
+                      "score": 0.234
+                    },
+                    {
+                      "label": "KFG",
+                      "wid": "Q1481818",
+                      "wtype": "ORG",
+                      "score": 0.5117
+                    },
+                    {
+                      "label": "FZG",
+                      "wid": "Q56651755",
+                      "wtype": "ORG",
+                      "score": 0.139
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Telekommunikationsgesetz erlassen (Telekommunikationsgesetz 2021 – TKG 2021), das KommAustria-Gesetz (KommAustria-Gesetz – KOG), die Strafprozeßordnung 1975 (StPO), das Polizeikooperationsgesetz (PolKG), das Polizeiliche Staatsschutzgesetz (PStSG), das Sicherheitspolizeigesetz (SPG), das Wertpapieraufsichtsgesetz 2018 (WAG 2018), das Börsegesetz 2018 (BörseG 2018), das Postmarktgesetz (PMG), das Kraftfahrgesetz 1967 (KFG 1967), das Funkanlagen-Marktüberwachungs-Gesetz (FMAG 2016), das Funker-Zeugnisgesetz 1998 (FZG), das Rundfunkgebührengesetz (RGG), das Fernsprechentgeltzuschussgesetz (FeZG) und das Audiovisuelle Mediendienste-Gesetz (AMD-G) geändert werden ( 1043 d.B. )"
@@ -206,6 +342,7 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
@@ -220,6 +357,7 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Bundesgrundsatzgesetz, mit dem das Bundesgesetz über die Grundsätze betreffend die fachlichen Anstellungserfordernisse für Kindergärtnerinnen und Erzieher geändert wird ( 1042 d.B. )",
@@ -234,11 +372,12 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 13. Oktober 2021, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
                   "timeStart": "30.960",
-                  "timeEnd": "35.080",
+                  "timeEnd": "33.020",
                   "entities": []
                 }
               ],
@@ -248,11 +387,12 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Kommen Sie gut nach Hause!",
-                  "timeStart": "35.080",
-                  "timeEnd": "35.480",
+                  "timeStart": "33.020",
+                  "timeEnd": "33.640",
                   "entities": []
                 }
               ],
@@ -262,10 +402,11 @@
               "type": "speech",
               "speaker": "Norbert Hofer",
               "speakerstatus": "Präsident",
+              "speakerID": "35521",
               "sentences": [
                 {
                   "text": "Diese Sitzung ist geschlossen.",
-                  "timeStart": "35.480",
+                  "timeStart": "33.640",
                   "timeEnd": "36.000",
                   "entities": []
                 }
@@ -280,8 +421,12 @@
         "stdId": 252667,
         "debatteId": 300,
         "proceedingIndex": 252667,
-        "alignDuration": 0.5640151500701904,
-        "nerDuration": 0.09066390991210938
+        "linkedMediaIndexes": [
+          1
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.5097627639770508,
+        "nerDuration": 0.2955350875854492
       },
       "originalLanguage": "de"
     }

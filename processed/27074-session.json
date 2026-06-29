@@ -5,11 +5,12 @@
     "dateStart": "2020-12-21T10:17:37",
     "dateEnd": "2020-12-21T10:18:24",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T09:22:17",
+    "lastUpdate": "2026-06-28T10:02:56",
     "processing": {
       "merge": "2026-06-16T04:23:43+00:00",
-      "align": "2026-06-18T09:22:17",
-      "ner": "2026-06-28T02:35:43"
+      "align": "2026-06-28T10:02:56",
+      "ner": "2026-06-28T15:04:44",
+      "nel": "2026-06-28T07:25:24"
     }
   },
   "data": [
@@ -84,14 +85,45 @@
                 {
                   "text": "Gemäß der Vereinbarung im Präsidialrundlauf nimmt nur eine reduzierte Anzahl an Abgeordneten an dieser Sitzung teil.",
                   "timeStart": "2.000",
-                  "timeEnd": "4.000",
+                  "timeEnd": "4.040",
                   "entities": []
                 },
                 {
                   "text": "Folgende Abgeordnete von ÖVP, FPÖ, Grünen und NEOS sind entsprechend den Meldungen an die Parlamentsdirektion anwesend:",
-                  "timeStart": "4.000",
-                  "timeEnd": "6.760",
-                  "entities": []
+                  "timeStart": "4.040",
+                  "timeEnd": "7.200",
+                  "entities": [
+                    {
+                      "label": "ÖVP",
+                      "wid": "Q186867",
+                      "wtype": "ORG",
+                      "score": 0.7392
+                    },
+                    {
+                      "label": "FPÖ",
+                      "wid": "Q131692",
+                      "wtype": "ORG",
+                      "score": 0.7791
+                    },
+                    {
+                      "label": "Grünen",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.3575
+                    },
+                    {
+                      "label": "NEOS",
+                      "wid": "Q13564543",
+                      "wtype": "ORG",
+                      "score": 0.804
+                    },
+                    {
+                      "label": "Parlamentsdirektion",
+                      "wid": "Q4817650",
+                      "wtype": "MISC",
+                      "score": 0.7738
+                    }
+                  ]
                 }
               ],
               "text": "Gemäß der Vereinbarung im Präsidialrundlauf nimmt nur eine reduzierte Anzahl an Abgeordneten an dieser Sitzung teil. Folgende Abgeordnete von ÖVP, FPÖ, Grünen und NEOS sind entsprechend den Meldungen an die Parlamentsdirektion anwesend:"
@@ -103,45 +135,213 @@
               "sentences": [
                 {
                   "text": "Mag.",
-                  "timeStart": "6.760",
-                  "timeEnd": "6.760",
+                  "timeStart": "7.200",
+                  "timeEnd": "7.200",
                   "entities": []
                 },
                 {
                   "text": "Klaus Fürlinger , Mag.",
-                  "timeStart": "6.760",
-                  "timeEnd": "7.280",
-                  "entities": []
+                  "timeStart": "7.200",
+                  "timeEnd": "7.880",
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
-                  "timeStart": "7.280",
-                  "timeEnd": "7.880",
-                  "entities": []
+                  "timeStart": "7.880",
+                  "timeEnd": "8.600",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Ernst Gödl , Kira Grünberg , Mag.",
-                  "timeStart": "7.880",
-                  "timeEnd": "8.480",
-                  "entities": []
+                  "timeStart": "8.600",
+                  "timeEnd": "9.860",
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Michael Hammer , Peter Haubner , Rebecca Kirchbaumer , August Wöginger , Bettina Zopf von der ÖVP, Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , Dr. Susanne Fürst , Peter Schmiedlechner , Peter Wurm von der FPÖ, Mag.",
-                  "timeStart": "8.480",
-                  "timeEnd": "15.280",
-                  "entities": []
+                  "timeStart": "9.860",
+                  "timeEnd": "15.240",
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.4728
+                    },
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Rebecca Kirchbaumer",
+                      "wid": "Q43143110",
+                      "wtype": "PER",
+                      "score": 0.9361
+                    },
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Bettina Zopf",
+                      "wid": "Q72311418",
+                      "wtype": "PER",
+                      "score": 0.9548
+                    },
+                    {
+                      "label": "ÖVP",
+                      "wid": "Q186867",
+                      "wtype": "ORG",
+                      "score": 0.7392
+                    },
+                    {
+                      "label": "Dagmar Belakowitsch",
+                      "wid": "Q90426",
+                      "wtype": "PER",
+                      "score": 0.9855
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9738
+                    },
+                    {
+                      "label": "Susanne Fürst",
+                      "wid": "Q42295912",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9355
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "FPÖ",
+                      "wid": "Q131692",
+                      "wtype": "ORG",
+                      "score": 0.7791
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Georg Bürstmayr , Mag.",
-                  "timeStart": "15.280",
+                  "timeStart": "15.240",
                   "timeEnd": "15.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Georg Bürstmayr",
+                      "wid": "Q38057788",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Sigrid Maurer, BA , Ralph Schallmeiner von den Grünen, Douglas Hoyos-Trauttmansdorff und Dr. Nikolaus Scherak, MA von den NEOS.",
                   "timeStart": "15.680",
-                  "timeEnd": "19.520",
-                  "entities": []
+                  "timeEnd": "19.640",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Sigrid Maurer",
+                      "wid": "Q1618939",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4116
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Grünen",
+                      "wid": "Q193178",
+                      "wtype": "ORG",
+                      "score": 0.3041
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "NEOS",
+                      "wid": "Q13564543",
+                      "wtype": "ORG",
+                      "score": 0.804
+                    }
+                  ]
                 }
               ],
               "text": "Mag. Klaus Fürlinger , Mag. Wolfgang Gerstl , Mag. Ernst Gödl , Kira Grünberg , Mag. Michael Hammer , Peter Haubner , Rebecca Kirchbaumer , August Wöginger , Bettina Zopf von der ÖVP, Dr. Dagmar Belakowitsch , Rosa Ecker, MBA , Dr. Susanne Fürst , Peter Schmiedlechner , Peter Wurm von der FPÖ, Mag. Georg Bürstmayr , Mag. Markus Koza , Sigrid Maurer, BA , Ralph Schallmeiner von den Grünen, Douglas Hoyos-Trauttmansdorff und Dr. Nikolaus Scherak, MA von den NEOS."
@@ -153,7 +353,7 @@
               "sentences": [
                 {
                   "text": "Die übrigen Abgeordneten dieser Klubs gelten als entschuldigt.",
-                  "timeStart": "19.520",
+                  "timeStart": "19.640",
                   "timeEnd": "20.340",
                   "entities": []
                 }
@@ -168,8 +368,21 @@
                 {
                   "text": "Seitens der SPÖ wurden folgende Abgeordnete als verhindert gemeldet – und zwar für diese Sitzung –: Cornelia Ecker und Ing. Reinhold Einwallner .",
                   "timeStart": "20.340",
-                  "timeEnd": "25.720",
-                  "entities": []
+                  "timeEnd": "25.360",
+                  "entities": [
+                    {
+                      "label": "SPÖ",
+                      "wid": "Q179111",
+                      "wtype": "ORG",
+                      "score": 0.7304
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.983
+                    }
+                  ]
                 }
               ],
               "text": "Seitens der SPÖ wurden folgende Abgeordnete als verhindert gemeldet – und zwar für diese Sitzung –: Cornelia Ecker und Ing. Reinhold Einwallner ."
@@ -181,8 +394,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "25.720",
-                  "timeEnd": "26.320",
+                  "timeStart": "25.360",
+                  "timeEnd": "25.480",
                   "entities": []
                 }
               ],
@@ -195,8 +408,8 @@
               "sentences": [
                 {
                   "text": "Ich weise die Regierungsvorlage 608 der Beilagen dem Gesundheitsausschuss sowie die Regierungsvorlage 609 der Beilagen dem Außenpolitischen Ausschuss zu.",
-                  "timeStart": "26.320",
-                  "timeEnd": "30.080",
+                  "timeStart": "25.480",
+                  "timeEnd": "28.080",
                   "entities": []
                 }
               ],
@@ -209,8 +422,8 @@
               "sentences": [
                 {
                   "text": "Ich weise die Anträge 1192/A bis 1195/A dem Ausschuss für Arbeit und Soziales zu.",
-                  "timeStart": "30.080",
-                  "timeEnd": "34.480",
+                  "timeStart": "28.080",
+                  "timeEnd": "32.320",
                   "entities": []
                 }
               ],
@@ -223,7 +436,7 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich die Anträge 1196/A bis 1198/A dem Gesundheitsausschuss zu.",
-                  "timeStart": "34.480",
+                  "timeStart": "32.320",
                   "timeEnd": "35.940",
                   "entities": []
                 }
@@ -244,7 +457,7 @@
                 {
                   "text": "Die Tagesordnung ergeht auf schriftlichem Wege.",
                   "timeStart": "43.800",
-                  "timeEnd": "45.520",
+                  "timeEnd": "45.480",
                   "entities": []
                 }
               ],
@@ -257,7 +470,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "45.520",
+                  "timeStart": "45.480",
                   "timeEnd": "48.000",
                   "entities": []
                 }
@@ -272,8 +485,8 @@
         "stdId": 233524,
         "debatteId": 300,
         "proceedingIndex": 233524,
-        "alignDuration": 0.5453331470489502,
-        "nerDuration": 0.09720182418823242
+        "alignDuration": 0.4908943176269531,
+        "nerDuration": 0.22602128982543945
       },
       "originalLanguage": "de"
     }

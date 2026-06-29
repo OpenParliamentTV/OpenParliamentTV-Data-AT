@@ -5,11 +5,12 @@
     "dateStart": "2024-04-17T22:52:42",
     "dateEnd": "2024-04-17T22:53:26",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-27T00:08:50",
+    "lastUpdate": "2026-06-28T14:26:18",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "align": "2026-06-27T00:08:50",
-      "ner": "2026-06-28T03:32:13"
+      "align": "2026-06-28T14:26:18",
+      "ner": "2026-06-28T16:27:32",
+      "nel": "2026-06-28T07:25:37"
     }
   },
   "data": [
@@ -87,7 +88,20 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst.",
                   "timeStart": "2.840",
                   "timeEnd": "5.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Franz Hörl",
+                      "wid": "Q1275622",
+                      "wtype": "PER",
+                      "score": 0.9914
+                    },
+                    {
+                      "label": "MMst",
+                      "wid": "Q913257",
+                      "wtype": "ORG",
+                      "score": 0.1141
+                    }
+                  ]
                 },
                 {
                   "text": "Mag. (",
@@ -98,20 +112,65 @@
                 {
                   "text": "FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag.",
                   "timeStart": "5.360",
-                  "timeEnd": "6.040",
-                  "entities": []
+                  "timeEnd": "6.960",
+                  "entities": [
+                    {
+                      "label": "Maria Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.5136
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0921
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger und Mag.",
-                  "timeStart": "6.040",
-                  "timeEnd": "6.040",
-                  "entities": []
+                  "timeStart": "6.960",
+                  "timeEnd": "7.240",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer .",
-                  "timeStart": "6.040",
-                  "timeEnd": "6.440",
-                  "entities": []
+                  "timeStart": "7.240",
+                  "timeEnd": "7.680",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst. Mag. (FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag. Eva Blimlinger und Mag. Agnes Sirkka Prammer ."
@@ -123,8 +182,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "6.440",
-                  "timeEnd": "6.960",
+                  "timeStart": "7.680",
+                  "timeEnd": "8.520",
                   "entities": []
                 }
               ],
@@ -137,8 +196,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungsaal verteilte Mitteilung.",
-                  "timeStart": "6.960",
-                  "timeEnd": "9.720",
+                  "timeStart": "8.520",
+                  "timeEnd": "12.320",
                   "entities": []
                 }
               ],
@@ -151,8 +210,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "9.720",
-                  "timeEnd": "10.920",
+                  "timeStart": "12.320",
+                  "timeEnd": "13.360",
                   "entities": []
                 }
               ],
@@ -165,8 +224,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen:",
-                  "timeStart": "10.920",
-                  "timeEnd": "11.120",
+                  "timeStart": "13.360",
+                  "timeEnd": "13.680",
                   "entities": []
                 }
               ],
@@ -179,8 +238,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "11.120",
-                  "timeEnd": "12.040",
+                  "timeStart": "13.680",
+                  "timeEnd": "14.480",
                   "entities": []
                 }
               ],
@@ -193,8 +252,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "12.040",
-                  "timeEnd": "12.280",
+                  "timeStart": "14.480",
+                  "timeEnd": "14.760",
                   "entities": []
                 }
               ],
@@ -207,8 +266,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "12.280",
-                  "timeEnd": "13.000",
+                  "timeStart": "14.760",
+                  "timeEnd": "15.640",
                   "entities": []
                 }
               ],
@@ -221,9 +280,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )",
-                  "timeStart": "13.000",
-                  "timeEnd": "16.800",
-                  "entities": []
+                  "timeStart": "15.640",
+                  "timeEnd": "20.680",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Asylgesetz 2005",
+                      "wid": "Q752581",
+                      "wtype": "MISC",
+                      "score": 0.985
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )"
@@ -235,8 +307,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "16.800",
-                  "timeEnd": "17.200",
+                  "timeStart": "20.680",
+                  "timeEnd": "20.920",
                   "entities": []
                 }
               ],
@@ -249,8 +321,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )",
-                  "timeStart": "17.200",
-                  "timeEnd": "21.360",
+                  "timeStart": "20.920",
+                  "timeEnd": "23.520",
                   "entities": []
                 }
               ],
@@ -263,8 +335,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "21.360",
-                  "timeEnd": "21.440",
+                  "timeStart": "23.520",
+                  "timeEnd": "24.680",
                   "entities": []
                 }
               ],
@@ -277,9 +349,40 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )",
-                  "timeStart": "21.440",
-                  "timeEnd": "26.080",
-                  "entities": []
+                  "timeStart": "24.680",
+                  "timeEnd": "32.600",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3107
+                    },
+                    {
+                      "label": "Patientenverfügungs-Gesetz",
+                      "wid": "Q1422657",
+                      "wtype": "MISC",
+                      "score": 0.9843
+                    },
+                    {
+                      "label": "Suchtmittelgesetz",
+                      "wid": "Q7633015",
+                      "wtype": "MISC",
+                      "score": 0.8638
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )"
@@ -291,8 +394,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 15. Mai, 9 Uhr, in Aussicht genommen wird, wird auf schriftlichem Wege einberufen.",
-                  "timeStart": "26.080",
-                  "timeEnd": "28.920",
+                  "timeStart": "32.600",
+                  "timeEnd": "36.920",
                   "entities": []
                 }
               ],
@@ -305,8 +408,8 @@
               "sentences": [
                 {
                   "text": "Weiters darf ich bekannt geben, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss und der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss – jeweils im Lokal Hansen – zusammentreten.",
-                  "timeStart": "28.920",
-                  "timeEnd": "39.880",
+                  "timeStart": "36.920",
+                  "timeEnd": "42.480",
                   "entities": []
                 }
               ],
@@ -319,8 +422,8 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "39.880",
-                  "timeEnd": "41.560",
+                  "timeStart": "42.480",
+                  "timeEnd": "45.960",
                   "entities": []
                 }
               ],
@@ -334,8 +437,8 @@
         "stdId": 322115,
         "debatteId": 300,
         "proceedingIndex": 322115,
-        "alignDuration": 0.4267120361328125,
-        "nerDuration": 0.1007838249206543
+        "alignDuration": 0.5030951499938965,
+        "nerDuration": 0.22759199142456055
       },
       "originalLanguage": "de"
     }

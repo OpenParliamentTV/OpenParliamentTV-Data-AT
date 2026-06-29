@@ -5,11 +5,12 @@
     "dateStart": "2024-02-28T22:58:33",
     "dateEnd": "2024-02-28T22:59:18",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-26T18:47:54",
+    "lastUpdate": "2026-06-28T14:16:39",
     "processing": {
       "merge": "2026-06-16T04:24:13+00:00",
-      "align": "2026-06-26T18:47:54",
-      "ner": "2026-06-28T03:30:28"
+      "align": "2026-06-28T14:16:39",
+      "ner": "2026-06-28T16:24:13",
+      "nel": "2026-06-28T07:25:37"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 254. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "4.600",
+                  "timeEnd": "3.120",
                   "entities": []
                 }
               ],
@@ -85,27 +86,66 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "4.600",
-                  "timeEnd": "5.680",
+                  "timeStart": "3.120",
+                  "timeEnd": "4.600",
                   "entities": []
                 },
                 {
                   "text": "Dr. Juliane Bogner-Strauß , Mag.",
-                  "timeStart": "5.680",
-                  "timeEnd": "6.800",
-                  "entities": []
+                  "timeStart": "4.600",
+                  "timeEnd": "5.480",
+                  "entities": [
+                    {
+                      "label": "Juliane Bogner-Strauß",
+                      "wid": "Q42303930",
+                      "wtype": "PER",
+                      "score": 0.9938
+                    }
+                  ]
                 },
                 {
                   "text": "Johanna Jachs , Ing. Klaus Lindinger, BSc , Julia Elisabeth Herr , Dr. Harald Troch , Mag.",
-                  "timeStart": "6.800",
-                  "timeEnd": "9.280",
-                  "entities": []
+                  "timeStart": "5.480",
+                  "timeEnd": "9.240",
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.977
+                    }
+                  ]
                 },
                 {
                   "text": "Gerhard Kaniak , Wolfgang Zanger und Heike Grebien .",
-                  "timeStart": "9.280",
+                  "timeStart": "9.240",
                   "timeEnd": "10.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9845
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Dr. Juliane Bogner-Strauß , Mag. Johanna Jachs , Ing. Klaus Lindinger, BSc , Julia Elisabeth Herr , Dr. Harald Troch , Mag. Gerhard Kaniak , Wolfgang Zanger und Heike Grebien ."
@@ -118,7 +158,7 @@
                 {
                   "text": "Einlauf und Zuweisungen",
                   "timeStart": "10.800",
-                  "timeEnd": "11.440",
+                  "timeEnd": "11.600",
                   "entities": []
                 }
               ],
@@ -131,8 +171,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "11.440",
-                  "timeEnd": "17.200",
+                  "timeStart": "11.600",
+                  "timeEnd": "18.520",
                   "entities": []
                 }
               ],
@@ -145,8 +185,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "17.200",
-                  "timeEnd": "18.480",
+                  "timeStart": "18.520",
+                  "timeEnd": "19.800",
                   "entities": []
                 }
               ],
@@ -159,8 +199,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "18.480",
-                  "timeEnd": "18.920",
+                  "timeStart": "19.800",
+                  "timeEnd": "20.520",
                   "entities": []
                 }
               ],
@@ -173,8 +213,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "18.920",
-                  "timeEnd": "19.560",
+                  "timeStart": "20.520",
+                  "timeEnd": "21.000",
                   "entities": []
                 }
               ],
@@ -187,8 +227,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "19.560",
-                  "timeEnd": "19.880",
+                  "timeStart": "21.000",
+                  "timeEnd": "21.440",
                   "entities": []
                 }
               ],
@@ -201,7 +241,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem zur Lösung haftungsrechtlicher Fragen bei Bäumen das allgemeine bürgerliche Gesetzbuch geändert wird (Haftungsrechts-Änderungsgesetz 2024 – HaftRÄG 2024) ( 2462 d.B. )",
-                  "timeStart": "19.880",
+                  "timeStart": "21.440",
                   "timeEnd": "25.480",
                   "entities": []
                 }
@@ -230,7 +270,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Denkmalschutzgesetz geändert wird ( 2463 d.B. )",
                   "timeStart": "26.320",
-                  "timeEnd": "27.760",
+                  "timeEnd": "27.720",
                   "entities": []
                 }
               ],
@@ -243,9 +283,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "27.760",
-                  "timeEnd": "28.000",
-                  "entities": []
+                  "timeStart": "27.720",
+                  "timeEnd": "27.960",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -257,7 +304,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz über das Institute of Digital Sciences Austria (Interdisciplinary Transformation University) ( 2461 d.B. )",
-                  "timeStart": "28.000",
+                  "timeStart": "27.960",
                   "timeEnd": "29.320",
                   "entities": []
                 }
@@ -314,8 +361,8 @@
         "stdId": 317292,
         "debatteId": 300,
         "proceedingIndex": 317292,
-        "alignDuration": 0.411297082901001,
-        "nerDuration": 0.09221100807189941
+        "alignDuration": 0.49001574516296387,
+        "nerDuration": 0.14589476585388184
       },
       "originalLanguage": "de"
     }

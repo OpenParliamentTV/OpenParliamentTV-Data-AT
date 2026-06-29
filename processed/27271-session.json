@@ -5,11 +5,12 @@
     "dateStart": "2024-07-03T23:25:04",
     "dateEnd": "2024-07-03T23:26:24",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-27T15:14:43",
+    "lastUpdate": "2026-06-28T14:41:23",
     "processing": {
       "merge": "2026-06-16T04:24:16+00:00",
-      "align": "2026-06-27T15:14:43",
-      "ner": "2026-06-28T03:35:57"
+      "align": "2026-06-28T14:41:23",
+      "ner": "2026-06-28T16:32:59",
+      "nel": "2026-06-28T07:25:38"
     }
   },
   "data": [
@@ -86,14 +87,58 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Gudrun Kugler , Mag.",
                   "timeStart": "3.000",
-                  "timeEnd": "3.320",
-                  "entities": []
+                  "timeEnd": "4.520",
+                  "entities": [
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Gudrun Kugler",
+                      "wid": "Q87353",
+                      "wtype": "PER",
+                      "score": 0.9801
+                    }
+                  ]
                 },
                 {
                   "text": "Muna Duzdar , Elisabeth Feichtinger, BEd BEd , Maximilian Lercher , Christian Lausch und Bedrana Ribo, MA .",
-                  "timeStart": "3.320",
-                  "timeEnd": "3.320",
-                  "entities": []
+                  "timeStart": "4.520",
+                  "timeEnd": "5.760",
+                  "entities": [
+                    {
+                      "label": "Muna Duzdar",
+                      "wid": "Q1329538",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    },
+                    {
+                      "label": "Maximilian Lercher",
+                      "wid": "Q1733882",
+                      "wtype": "PER",
+                      "score": 0.4085
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9793
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Dr. Gudrun Kugler , Mag. Muna Duzdar , Elisabeth Feichtinger, BEd BEd , Maximilian Lercher , Christian Lausch und Bedrana Ribo, MA ."
@@ -105,8 +150,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "3.320",
-                  "timeEnd": "3.320",
+                  "timeStart": "5.760",
+                  "timeEnd": "6.920",
                   "entities": []
                 }
               ],
@@ -119,8 +164,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "3.320",
-                  "timeEnd": "5.400",
+                  "timeStart": "6.920",
+                  "timeEnd": "12.120",
                   "entities": []
                 }
               ],
@@ -133,8 +178,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "5.400",
-                  "timeEnd": "5.400",
+                  "timeStart": "12.120",
+                  "timeEnd": "13.280",
                   "entities": []
                 }
               ],
@@ -147,8 +192,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "5.400",
-                  "timeEnd": "5.480",
+                  "timeStart": "13.280",
+                  "timeEnd": "14.320",
                   "entities": []
                 }
               ],
@@ -161,8 +206,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "5.480",
-                  "timeEnd": "5.680",
+                  "timeStart": "14.320",
+                  "timeEnd": "14.920",
                   "entities": []
                 }
               ],
@@ -175,8 +220,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "5.680",
-                  "timeEnd": "5.720",
+                  "timeStart": "14.920",
+                  "timeEnd": "15.160",
                   "entities": []
                 }
               ],
@@ -189,15 +234,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "5.720",
-                  "timeEnd": "6.360",
+                  "timeStart": "15.160",
+                  "timeEnd": "15.880",
                   "entities": []
                 },
                 {
                   "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend Indexierung der pauschalen Freibeträge für außergewöhnliche Belastungen und aufgrund von Behinderungen ( 4137/A(E) )",
-                  "timeStart": "6.360",
-                  "timeEnd": "10.040",
-                  "entities": []
+                  "timeStart": "15.880",
+                  "timeEnd": "21.000",
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend Indexierung der pauschalen Freibeträge für außergewöhnliche Belastungen und aufgrund von Behinderungen ( 4137/A(E) )"
@@ -209,8 +267,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "10.040",
-                  "timeEnd": "10.960",
+                  "timeStart": "21.000",
+                  "timeEnd": "21.880",
                   "entities": []
                 }
               ],
@@ -223,9 +281,16 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem der besondere Arbeitnehmerschutz in Verkehrsbetrieben erlassen wird (ANSV-G) und das Bundesgesetz über die Ordnung des öffentlichen Personennah-und Regionalverkehrs – ÖPNRV-G 1999 BGBI I 204/1999 geändert wird ( 4136/A )",
-                  "timeStart": "10.960",
-                  "timeEnd": "25.520",
-                  "entities": []
+                  "timeStart": "21.880",
+                  "timeEnd": "28.440",
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem der besondere Arbeitnehmerschutz in Verkehrsbetrieben erlassen wird (ANSV-G) und das Bundesgesetz über die Ordnung des öffentlichen Personennah-und Regionalverkehrs – ÖPNRV-G 1999 BGBI I 204/1999 geändert wird ( 4136/A )"
@@ -237,8 +302,8 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "25.520",
-                  "timeEnd": "27.640",
+                  "timeStart": "28.440",
+                  "timeEnd": "30.160",
                   "entities": []
                 }
               ],
@@ -251,8 +316,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "27.640",
-                  "timeEnd": "28.440",
+                  "timeStart": "30.160",
+                  "timeEnd": "30.760",
                   "entities": []
                 }
               ],
@@ -265,9 +330,16 @@
               "sentences": [
                 {
                   "text": "Tätigkeitsbericht der Schienen-Control GmbH 2023, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-1193 d.B. )",
-                  "timeStart": "28.440",
+                  "timeStart": "30.760",
                   "timeEnd": "34.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Schienen-Control GmbH",
+                      "wid": "Q2234576",
+                      "wtype": "MISC",
+                      "score": 0.9479
+                    }
+                  ]
                 }
               ],
               "text": "Tätigkeitsbericht der Schienen-Control GmbH 2023, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-1193 d.B. )"
@@ -322,8 +394,8 @@
         "stdId": 328758,
         "debatteId": 300,
         "proceedingIndex": 328758,
-        "alignDuration": 0.4562549591064453,
-        "nerDuration": 0.10255312919616699
+        "alignDuration": 0.5272760391235352,
+        "nerDuration": 0.195176362991333
       },
       "originalLanguage": "de"
     },
@@ -386,7 +458,7 @@
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "5.040",
+                  "timeEnd": "4.720",
                   "entities": []
                 }
               ],
@@ -399,7 +471,7 @@
               "sentences": [
                 {
                   "text": "Wir kommen daher zur Abstimmung über den soeben erwähnten Fristsetzungsantrag.",
-                  "timeStart": "5.040",
+                  "timeStart": "4.720",
                   "timeEnd": "8.680",
                   "entities": []
                 }
@@ -414,12 +486,12 @@
                 {
                   "text": "Ich bitte die Damen und Herren, die diesem Fristsetzungsantrag die Zustimmung geben, um ein dementsprechendes Zeichen. –",
                   "timeStart": "8.680",
-                  "timeEnd": "14.120",
+                  "timeEnd": "13.960",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Mehrheit, angenommen.",
-                  "timeStart": "14.120",
+                  "timeStart": "13.960",
                   "timeEnd": "16.000",
                   "entities": []
                 }
@@ -434,8 +506,8 @@
         "stdId": 328781,
         "debatteId": 310,
         "proceedingIndex": 328781,
-        "alignDuration": 0.2973320484161377,
-        "nerDuration": 0.018046855926513672
+        "alignDuration": 0.3677220344543457,
+        "nerDuration": 0.020633935928344727
       },
       "originalLanguage": "de"
     },
@@ -497,13 +569,13 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 4. Juli, um 9 Uhr ein.",
                   "timeStart": "1.000",
-                  "timeEnd": "5.520",
+                  "timeEnd": "5.240",
                   "entities": []
                 },
                 {
                   "text": "Die Tagesordnung ist bereits auf schriftlichem Wege ergangen.",
-                  "timeStart": "5.520",
-                  "timeEnd": "10.040",
+                  "timeStart": "5.240",
+                  "timeEnd": "8.280",
                   "entities": []
                 }
               ],
@@ -516,7 +588,7 @@
               "sentences": [
                 {
                   "text": "Kommen Sie gut nach Hause oder feiern Sie ausgiebig die nächsten Stunden bis zum Beginn der nächsten Sitzung um 9 Uhr.",
-                  "timeStart": "10.040",
+                  "timeStart": "8.280",
                   "timeEnd": "18.840",
                   "entities": []
                 }
@@ -545,8 +617,8 @@
         "stdId": 328798,
         "debatteId": 320,
         "proceedingIndex": 328798,
-        "alignDuration": 0.30481529235839844,
-        "nerDuration": 0.020256996154785156
+        "alignDuration": 0.37491536140441895,
+        "nerDuration": 0.02287459373474121
       },
       "originalLanguage": "de"
     }

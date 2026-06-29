@@ -5,11 +5,12 @@
     "dateStart": "2021-04-09T15:10:45",
     "dateEnd": "2021-04-09T15:11:28",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T12:41:08",
+    "lastUpdate": "2026-06-28T10:26:18",
     "processing": {
       "merge": "2026-06-16T04:23:47+00:00",
-      "align": "2026-06-19T12:41:08",
-      "ner": "2026-06-28T02:42:08"
+      "align": "2026-06-28T10:26:18",
+      "ner": "2026-06-28T15:14:07",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 96. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.720",
+                  "timeEnd": "1.240",
                   "entities": []
                 }
               ],
@@ -85,56 +86,154 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Martina Diesner-Wais , Gabriela Schwarz , Dr. Josef Smolle , Mag.",
-                  "timeStart": "1.720",
-                  "timeEnd": "3.120",
-                  "entities": []
+                  "timeStart": "1.240",
+                  "timeEnd": "1.240",
+                  "entities": [
+                    {
+                      "label": "Martina Diesner-Wais",
+                      "wid": "Q1369083",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "MISC",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Ruth Becher , Doris Bures , Cornelia Ecker , Mag.",
-                  "timeStart": "3.120",
-                  "timeEnd": "3.640",
-                  "entities": []
+                  "timeStart": "1.240",
+                  "timeEnd": "1.720",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.9781
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Sonja Hammerschmid , Klaus Köchl , Mag.",
-                  "timeStart": "3.640",
-                  "timeEnd": "4.160",
-                  "entities": []
+                  "timeStart": "1.720",
+                  "timeEnd": "1.760",
+                  "entities": [
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Verena Nussbaum , Dr. Reinhard Eugen Bösch , Mag.",
-                  "timeStart": "4.160",
-                  "timeEnd": "4.860",
-                  "entities": []
+                  "timeStart": "1.760",
+                  "timeEnd": "2.280",
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.978
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Martin Graf , MMMag.",
-                  "timeStart": "4.860",
-                  "timeEnd": "5.320",
-                  "entities": []
+                  "timeStart": "2.280",
+                  "timeEnd": "2.280",
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Axel Kassegger , Mag.",
-                  "timeStart": "5.320",
-                  "timeEnd": "5.680",
-                  "entities": []
+                  "timeStart": "2.280",
+                  "timeEnd": "2.320",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Mag.",
-                  "timeStart": "5.680",
-                  "timeEnd": "6.360",
-                  "entities": []
+                  "timeStart": "2.320",
+                  "timeEnd": "2.400",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski und Mag.",
-                  "timeStart": "6.360",
-                  "timeEnd": "6.640",
-                  "entities": []
+                  "timeStart": "2.400",
+                  "timeEnd": "2.440",
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA .",
-                  "timeStart": "6.640",
-                  "timeEnd": "7.720",
+                  "timeStart": "2.440",
+                  "timeEnd": "2.440",
                   "entities": []
                 }
               ],
@@ -147,8 +246,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "7.720",
-                  "timeEnd": "8.200",
+                  "timeStart": "2.440",
+                  "timeEnd": "2.480",
                   "entities": []
                 }
               ],
@@ -161,8 +260,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "8.200",
-                  "timeEnd": "10.040",
+                  "timeStart": "2.480",
+                  "timeEnd": "2.520",
                   "entities": []
                 }
               ],
@@ -175,8 +274,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "10.040",
-                  "timeEnd": "10.320",
+                  "timeStart": "2.520",
+                  "timeEnd": "2.680",
                   "entities": []
                 }
               ],
@@ -189,8 +288,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "10.320",
-                  "timeEnd": "10.720",
+                  "timeStart": "2.680",
+                  "timeEnd": "3.200",
                   "entities": []
                 }
               ],
@@ -203,8 +302,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 5268/AB bis 5296/AB",
-                  "timeStart": "10.720",
-                  "timeEnd": "11.440",
+                  "timeStart": "3.200",
+                  "timeEnd": "4.920",
                   "entities": []
                 }
               ],
@@ -217,8 +316,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "11.440",
-                  "timeEnd": "11.840",
+                  "timeStart": "4.920",
+                  "timeEnd": "5.000",
                   "entities": []
                 }
               ],
@@ -231,8 +330,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "11.840",
-                  "timeEnd": "12.000",
+                  "timeStart": "5.000",
+                  "timeEnd": "5.320",
                   "entities": []
                 }
               ],
@@ -245,8 +344,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "12.000",
-                  "timeEnd": "12.520",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.440",
                   "entities": []
                 }
               ],
@@ -259,15 +358,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1477/A der Abgeordneten August Wöginger , Mag.",
-                  "timeStart": "12.520",
-                  "timeEnd": "14.120",
-                  "entities": []
+                  "timeStart": "5.440",
+                  "timeEnd": "5.600",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird",
-                  "timeStart": "14.120",
-                  "timeEnd": "15.600",
-                  "entities": []
+                  "timeStart": "5.600",
+                  "timeEnd": "6.640",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1477/A der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird"
@@ -279,8 +398,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "15.600",
-                  "timeEnd": "15.920",
+                  "timeStart": "6.640",
+                  "timeEnd": "6.800",
                   "entities": []
                 }
               ],
@@ -293,8 +412,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1481/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Wartezeit auf das Kinderbetreuungsgeld verkürzen",
-                  "timeStart": "15.920",
-                  "timeEnd": "17.040",
+                  "timeStart": "6.800",
+                  "timeEnd": "9.280",
                   "entities": []
                 }
               ],
@@ -307,8 +426,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "17.040",
-                  "timeEnd": "17.320",
+                  "timeStart": "9.280",
+                  "timeEnd": "9.640",
                   "entities": []
                 }
               ],
@@ -321,9 +440,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1476/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Kontrolle der Erfüllung von unternehmerischen Sorgfaltspflichten durch die österreichischen Zollbehörden",
-                  "timeStart": "17.320",
-                  "timeEnd": "18.560",
-                  "entities": []
+                  "timeStart": "9.640",
+                  "timeEnd": "11.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1476/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Kontrolle der Erfüllung von unternehmerischen Sorgfaltspflichten durch die österreichischen Zollbehörden"
@@ -335,8 +473,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "18.560",
-                  "timeEnd": "18.760",
+                  "timeStart": "11.480",
+                  "timeEnd": "11.880",
                   "entities": []
                 }
               ],
@@ -349,15 +487,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1479/A(E) der Abgeordneten Mag.",
-                  "timeStart": "18.760",
-                  "timeEnd": "19.360",
+                  "timeStart": "11.880",
+                  "timeEnd": "13.920",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-Impfungen: stärkere Einbindung der Sozialversicherung",
-                  "timeStart": "19.360",
-                  "timeEnd": "19.920",
-                  "entities": []
+                  "timeStart": "13.920",
+                  "timeEnd": "14.520",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "COVID-Impfungen",
+                      "wid": "Q87719492",
+                      "wtype": "MISC",
+                      "score": 0.8442
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1479/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-Impfungen: stärkere Einbindung der Sozialversicherung"
@@ -369,15 +520,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1482/A(E) der Abgeordneten Mag.",
-                  "timeStart": "19.920",
-                  "timeEnd": "20.920",
+                  "timeStart": "14.520",
+                  "timeEnd": "15.360",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Zusätzliche Datentransparenz bei COVID-Testungen, -Impfungen und -Spitalsaufenthalten",
-                  "timeStart": "20.920",
-                  "timeEnd": "22.000",
-                  "entities": []
+                  "timeStart": "15.360",
+                  "timeEnd": "16.740",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1482/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Zusätzliche Datentransparenz bei COVID-Testungen, -Impfungen und -Spitalsaufenthalten"
@@ -389,8 +547,8 @@
               "sentences": [
                 {
                   "text": "Rechnungshofausschuss:",
-                  "timeStart": "22.000",
-                  "timeEnd": "22.400",
+                  "timeStart": "16.740",
+                  "timeEnd": "17.360",
                   "entities": []
                 }
               ],
@@ -403,8 +561,8 @@
               "sentences": [
                 {
                   "text": "Bericht des Rechnungshofes betreffend Management von Forschungsinfrastruktur – Reihe BUND 2021/14 ( III-290 d.B. )",
-                  "timeStart": "22.400",
-                  "timeEnd": "24.280",
+                  "timeStart": "17.360",
+                  "timeEnd": "18.400",
                   "entities": []
                 }
               ],
@@ -417,9 +575,34 @@
               "sentences": [
                 {
                   "text": "Bericht des Rechnungshofes betreffend Überbetriebliche Lehrausbildung mit Schwerpunkt Oberösterreich und Wien – Reihe BUND 2021/15 ( III-291 d.B. )",
-                  "timeStart": "24.280",
-                  "timeEnd": "27.000",
-                  "entities": []
+                  "timeStart": "18.400",
+                  "timeEnd": "19.520",
+                  "entities": [
+                    {
+                      "label": "Rechnungshofes",
+                      "wid": "Q2135305",
+                      "wtype": "ORG",
+                      "score": 0.3905
+                    },
+                    {
+                      "label": "Oberösterreich",
+                      "wid": "Q41967",
+                      "wtype": "LOC",
+                      "score": 0.7601
+                    },
+                    {
+                      "label": "Wien",
+                      "wid": "Q1741",
+                      "wtype": "LOC",
+                      "score": 0.6476
+                    },
+                    {
+                      "label": "BUND",
+                      "wid": "Q897009",
+                      "wtype": "ORG",
+                      "score": 0.0894
+                    }
+                  ]
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Überbetriebliche Lehrausbildung mit Schwerpunkt Oberösterreich und Wien – Reihe BUND 2021/15 ( III-291 d.B. )"
@@ -431,8 +614,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "27.000",
-                  "timeEnd": "27.400",
+                  "timeStart": "19.520",
+                  "timeEnd": "19.920",
                   "entities": []
                 }
               ],
@@ -445,15 +628,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1478/A(E) der Abgeordneten Mag.",
-                  "timeStart": "27.400",
-                  "timeEnd": "28.200",
+                  "timeStart": "19.920",
+                  "timeEnd": "20.360",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verbesserung der Luftqualität in Schulklassen im Rahmen der Pandemiebekämpfung",
-                  "timeStart": "28.200",
-                  "timeEnd": "28.840",
-                  "entities": []
+                  "timeStart": "20.360",
+                  "timeEnd": "21.000",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1478/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verbesserung der Luftqualität in Schulklassen im Rahmen der Pandemiebekämpfung"
@@ -465,8 +655,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "28.840",
-                  "timeEnd": "30.040",
+                  "timeStart": "21.000",
+                  "timeEnd": "21.360",
                   "entities": []
                 }
               ],
@@ -479,8 +669,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1480/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Errichtung einer Whistleblowing-Plattform auf Bundesebene",
-                  "timeStart": "30.040",
-                  "timeEnd": "31.880",
+                  "timeStart": "21.360",
+                  "timeEnd": "23.080",
                   "entities": []
                 }
               ],
@@ -493,8 +683,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "31.880",
-                  "timeEnd": "32.080",
+                  "timeStart": "23.080",
+                  "timeEnd": "23.320",
                   "entities": []
                 }
               ],
@@ -507,9 +697,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1483/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Entschärfung der Sicherheitsmängel am Bahnhof Baumgartenberg",
-                  "timeStart": "32.080",
-                  "timeEnd": "33.240",
-                  "entities": []
+                  "timeStart": "23.320",
+                  "timeEnd": "26.040",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1483/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Entschärfung der Sicherheitsmängel am Bahnhof Baumgartenberg"
@@ -521,8 +724,8 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "33.240",
-                  "timeEnd": "33.480",
+                  "timeStart": "26.040",
+                  "timeEnd": "27.360",
                   "entities": []
                 }
               ],
@@ -535,8 +738,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "33.480",
-                  "timeEnd": "33.480",
+                  "timeStart": "27.360",
+                  "timeEnd": "27.400",
                   "entities": []
                 }
               ],
@@ -549,9 +752,22 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für März 2021, vorgelegt von der Bundesministerin für Justiz ( III-293 d.B. )",
-                  "timeStart": "33.480",
-                  "timeEnd": "34.040",
-                  "entities": []
+                  "timeStart": "27.400",
+                  "timeEnd": "30.880",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesministerin für Justiz",
+                      "wid": "Q872203",
+                      "wtype": "ORG",
+                      "score": 0.9311
+                    }
+                  ]
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für März 2021, vorgelegt von der Bundesministerin für Justiz ( III-293 d.B. )"
@@ -563,8 +779,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "34.040",
-                  "timeEnd": "34.440",
+                  "timeStart": "30.880",
+                  "timeEnd": "30.880",
                   "entities": []
                 }
               ],
@@ -577,8 +793,8 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 1 Abs. 4 des Bundesgesetzes über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler für März 2021, vorgelegt vom Bundesminister für Kunst, Kultur, öffentlichen Dienst und Sport ( III-294 d.B. )",
-                  "timeStart": "34.440",
-                  "timeEnd": "35.480",
+                  "timeStart": "30.880",
+                  "timeEnd": "33.440",
                   "entities": []
                 }
               ],
@@ -591,8 +807,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich zu:",
-                  "timeStart": "35.480",
-                  "timeEnd": "35.480",
+                  "timeStart": "33.440",
+                  "timeEnd": "33.520",
                   "entities": []
                 }
               ],
@@ -605,8 +821,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 1484/A(E) und 1485/A(E) dem Ausschuss für Arbeit und Soziales,",
-                  "timeStart": "35.480",
-                  "timeEnd": "38.160",
+                  "timeStart": "33.520",
+                  "timeEnd": "34.760",
                   "entities": []
                 }
               ],
@@ -619,8 +835,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 1486/A(E) bis 1489/A(E) dem Gesundheitsausschuss,",
-                  "timeStart": "38.160",
-                  "timeEnd": "39.640",
+                  "timeStart": "34.760",
+                  "timeEnd": "36.320",
                   "entities": []
                 }
               ],
@@ -633,8 +849,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1490/A(E) dem Ausschuss für Wirtschaft, Industrie und Energie sowie",
-                  "timeStart": "39.640",
-                  "timeEnd": "41.000",
+                  "timeStart": "36.320",
+                  "timeEnd": "39.000",
                   "entities": []
                 }
               ],
@@ -647,8 +863,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 1491/A(E) und 1492/A(E) dem Ausschuss für Konsumentenschutz.",
-                  "timeStart": "41.000",
-                  "timeEnd": "42.560",
+                  "timeStart": "39.000",
+                  "timeEnd": "41.560",
                   "entities": []
                 }
               ],
@@ -661,7 +877,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "42.560",
+                  "timeStart": "41.560",
                   "timeEnd": "43.600",
                   "entities": []
                 }
@@ -690,8 +906,8 @@
         "stdId": 242305,
         "debatteId": 300,
         "proceedingIndex": 242305,
-        "alignDuration": 0.6017489433288574,
-        "nerDuration": 0.246873140335083
+        "alignDuration": 0.6587505340576172,
+        "nerDuration": 0.5453310012817383
       },
       "originalLanguage": "de"
     }

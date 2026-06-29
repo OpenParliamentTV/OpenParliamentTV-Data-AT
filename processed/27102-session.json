@@ -5,11 +5,12 @@
     "dateStart": "2021-05-03T15:45:48",
     "dateEnd": "2021-05-03T15:47:04",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T20:04:56",
+    "lastUpdate": "2026-06-28T10:31:42",
     "processing": {
       "merge": "2026-06-16T04:23:48+00:00",
-      "align": "2026-06-19T20:04:56",
-      "ner": "2026-06-28T02:43:26"
+      "align": "2026-06-28T10:31:42",
+      "ner": "2026-06-28T15:16:00",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -86,56 +87,172 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
                   "timeStart": "5.160",
-                  "timeEnd": "5.400",
+                  "timeEnd": "5.360",
                   "entities": []
                 },
                 {
                   "text": "Klaus Fürlinger , Mag.",
-                  "timeStart": "5.400",
+                  "timeStart": "5.360",
                   "timeEnd": "5.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 },
                 {
                   "text": "Wolfgang Gerstl , Ing. Klaus Lindinger, BSc , Gabriela Schwarz , Dietmar Keck , Andreas Kollross , Robert Laimer , Mario Lindner , Mag.",
                   "timeStart": "5.640",
                   "timeEnd": "6.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    },
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.9877
+                    },
+                    {
+                      "label": "Robert Laimer",
+                      "wid": "Q42857692",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Petra Oberrauner , Dr. Reinhard Eugen Bösch , Christian Hafenecker, MA , Ing. Norbert Hofer , Mag.",
                   "timeStart": "6.800",
                   "timeEnd": "9.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Norbert Hofer",
+                      "wid": "Q1996861",
+                      "wtype": "PER",
+                      "score": 0.9888
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Gerhard Kaniak , MMMag.",
                   "timeStart": "9.040",
-                  "timeEnd": "9.360",
-                  "entities": []
+                  "timeEnd": "9.680",
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Axel Kassegger , Ing. Mag.",
-                  "timeStart": "9.360",
-                  "timeEnd": "10.480",
-                  "entities": []
+                  "timeStart": "9.680",
+                  "timeEnd": "10.360",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Mag.",
-                  "timeStart": "10.480",
+                  "timeStart": "10.360",
                   "timeEnd": "11.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl und Mag.",
                   "timeStart": "11.080",
-                  "timeEnd": "11.720",
-                  "entities": []
+                  "timeEnd": "11.480",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Felix Eypeltauer .",
-                  "timeStart": "11.720",
+                  "timeStart": "11.480",
                   "timeEnd": "12.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Mag. Wolfgang Gerstl , Ing. Klaus Lindinger, BSc , Gabriela Schwarz , Dietmar Keck , Andreas Kollross , Robert Laimer , Mario Lindner , Mag. Dr. Petra Oberrauner , Dr. Reinhard Eugen Bösch , Christian Hafenecker, MA , Ing. Norbert Hofer , Mag. Gerhard Kaniak , MMMag. Dr. Axel Kassegger , Ing. Mag. Volker Reifenberger , Mag. Philipp Schrangl und Mag. Felix Eypeltauer ."
@@ -261,7 +378,20 @@
                   "text": "Monatserfolg März 2021 sowie COVID-19 Berichterstattung, gemäß § 3 Abs. 4 COVID-19 Fondsgesetz, § 3b Abs. 4 ABBAG-Gesetz und § 1 Abs. 5 Härtefallfondsgesetz, vorgelegt vom Bundesminister für Finanzen (Vorlage 62 BA)",
                   "timeStart": "21.760",
                   "timeEnd": "27.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesminister für Finanzen",
+                      "wid": "Q877814",
+                      "wtype": "ORG",
+                      "score": 0.9664
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.1216
+                    }
+                  ]
                 }
               ],
               "text": "Monatserfolg März 2021 sowie COVID-19 Berichterstattung, gemäß § 3 Abs. 4 COVID-19 Fondsgesetz, § 3b Abs. 4 ABBAG-Gesetz und § 1 Abs. 5 Härtefallfondsgesetz, vorgelegt vom Bundesminister für Finanzen (Vorlage 62 BA)"
@@ -275,7 +405,26 @@
                   "text": "Bericht des Bundesministers für Finanzen gemäß § 54 Abs. 12 BHG 2013 über die Genehmigung von Mittelverwendungsüberschreitungen und gemäß § 60 Abs. 3 BHG 2013 über zugestimmte Vorbelastungen im 1. Quartal 2021 (Vorlage 63 BA)",
                   "timeStart": "27.440",
                   "timeEnd": "31.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesministers für Finanzen",
+                      "wid": "Q877814",
+                      "wtype": "ORG",
+                      "score": 0.9232
+                    },
+                    {
+                      "label": "BHG",
+                      "wid": "Q1019283",
+                      "wtype": "ORG",
+                      "score": 0.163
+                    },
+                    {
+                      "label": "BHG",
+                      "wid": "Q1019283",
+                      "wtype": "ORG",
+                      "score": 0.163
+                    }
+                  ]
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen gemäß § 54 Abs. 12 BHG 2013 über die Genehmigung von Mittelverwendungsüberschreitungen und gemäß § 60 Abs. 3 BHG 2013 über zugestimmte Vorbelastungen im 1. Quartal 2021 (Vorlage 63 BA)"
@@ -316,7 +465,7 @@
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
                   "timeStart": "32.320",
-                  "timeEnd": "32.840",
+                  "timeEnd": "33.400",
                   "entities": []
                 }
               ],
@@ -329,15 +478,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1570/A(E) der Abgeordneten Mag.",
-                  "timeStart": "32.840",
-                  "timeEnd": "34.160",
+                  "timeStart": "33.400",
+                  "timeEnd": "34.240",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Verbesserungen für die Pflege- und Gesundheitsberufe bei der Schwerarbeitspension",
-                  "timeStart": "34.160",
-                  "timeEnd": "34.480",
-                  "entities": []
+                  "timeStart": "34.240",
+                  "timeEnd": "34.560",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1570/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Verbesserungen für die Pflege- und Gesundheitsberufe bei der Schwerarbeitspension"
@@ -349,8 +505,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "34.480",
-                  "timeEnd": "34.720",
+                  "timeStart": "34.560",
+                  "timeEnd": "34.760",
                   "entities": []
                 }
               ],
@@ -363,7 +519,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1566/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Kompetenzbereinigung im Bereich des Glückspielwesens sowie Zuständigkeitsänderung",
-                  "timeStart": "34.720",
+                  "timeStart": "34.760",
                   "timeEnd": "35.720",
                   "entities": []
                 }
@@ -378,7 +534,7 @@
                 {
                   "text": "Gesundheitsausschuss:",
                   "timeStart": "35.720",
-                  "timeEnd": "35.760",
+                  "timeEnd": "36.000",
                   "entities": []
                 }
               ],
@@ -391,9 +547,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1563/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Datenspeicherung \"Grünen Pass\"",
-                  "timeStart": "35.760",
-                  "timeEnd": "38.160",
-                  "entities": []
+                  "timeStart": "36.000",
+                  "timeEnd": "37.640",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1563/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Datenspeicherung \"Grünen Pass\""
@@ -405,7 +574,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1564/A(E) der Abgeordneten Mag.",
-                  "timeStart": "38.160",
+                  "timeStart": "37.640",
                   "timeEnd": "38.760",
                   "entities": []
                 },
@@ -413,7 +582,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Antikörpertests im \"Grünen Pass\"",
                   "timeStart": "38.760",
                   "timeEnd": "39.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Grünen Pass",
+                      "wid": "Q107079070",
+                      "wtype": "LOC",
+                      "score": 0.9749
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1564/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Antikörpertests im \"Grünen Pass\""
@@ -426,14 +608,21 @@
                 {
                   "text": "Antrag 1565/A(E) der Abgeordneten Mag.",
                   "timeStart": "39.560",
-                  "timeEnd": "40.200",
+                  "timeEnd": "40.280",
                   "entities": []
                 },
                 {
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager 2021",
-                  "timeStart": "40.200",
-                  "timeEnd": "42.480",
-                  "entities": []
+                  "timeStart": "40.280",
+                  "timeEnd": "42.040",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1565/A(E) der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager 2021"
@@ -445,9 +634,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1569/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Covid-Nachweise in Österreich",
-                  "timeStart": "42.480",
+                  "timeStart": "42.040",
                   "timeEnd": "44.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1569/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Covid-Nachweise in Österreich"
@@ -460,7 +668,7 @@
                 {
                   "text": "Gleichbehandlungsausschuss:",
                   "timeStart": "44.120",
-                  "timeEnd": "44.560",
+                  "timeEnd": "44.360",
                   "entities": []
                 }
               ],
@@ -473,9 +681,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1562/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Schluss mit den Morden an Frauen durch Männergewalt",
-                  "timeStart": "44.560",
-                  "timeEnd": "47.480",
-                  "entities": []
+                  "timeStart": "44.360",
+                  "timeEnd": "47.000",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1562/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Schluss mit den Morden an Frauen durch Männergewalt"
@@ -487,8 +708,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "47.480",
-                  "timeEnd": "47.640",
+                  "timeStart": "47.000",
+                  "timeEnd": "47.280",
                   "entities": []
                 }
               ],
@@ -501,7 +722,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1567/A(E) der Abgeordneten Mag.",
-                  "timeStart": "47.640",
+                  "timeStart": "47.280",
                   "timeEnd": "47.960",
                   "entities": []
                 },
@@ -509,7 +730,20 @@
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend die Verankerung der Bundeswettbewerbsbehörde im Bundesministerium für Justiz",
                   "timeStart": "47.960",
                   "timeEnd": "48.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Bundesministerium für Justiz",
+                      "wid": "Q872203",
+                      "wtype": "ORG",
+                      "score": 0.9733
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1567/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend die Verankerung der Bundeswettbewerbsbehörde im Bundesministerium für Justiz"
@@ -522,7 +756,7 @@
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
                   "timeStart": "48.400",
-                  "timeEnd": "50.880",
+                  "timeEnd": "50.680",
                   "entities": []
                 }
               ],
@@ -535,7 +769,7 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "50.880",
+                  "timeStart": "50.680",
                   "timeEnd": "51.200",
                   "entities": []
                 }
@@ -550,7 +784,7 @@
                 {
                   "text": "Österreichischer Aufbau- und Resilienzplan 2020-2026, vorgelegt von der Bundesministerin für EU und Verfassung, vom Bundesminister für Finanzen und von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-311 d.B. )",
                   "timeStart": "51.200",
-                  "timeEnd": "53.480",
+                  "timeEnd": "53.760",
                   "entities": []
                 }
               ],
@@ -563,8 +797,8 @@
               "sentences": [
                 {
                   "text": "Bericht der Bundesregierung betreffend Nationales Reformprogramm Österreich 2021 ( III-312 d.B. )",
-                  "timeStart": "53.480",
-                  "timeEnd": "57.120",
+                  "timeStart": "53.760",
+                  "timeEnd": "56.360",
                   "entities": []
                 }
               ],
@@ -577,8 +811,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich",
-                  "timeStart": "57.120",
-                  "timeEnd": "57.360",
+                  "timeStart": "56.360",
+                  "timeEnd": "56.800",
                   "entities": []
                 }
               ],
@@ -591,8 +825,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1571/A(E) dem Ausschuss für Arbeit und Soziales,",
-                  "timeStart": "57.360",
-                  "timeEnd": "60.240",
+                  "timeStart": "56.800",
+                  "timeEnd": "59.080",
                   "entities": []
                 }
               ],
@@ -605,8 +839,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 1572/A und 1579/A(E) dem Gesundheitsausschuss,",
-                  "timeStart": "60.240",
-                  "timeEnd": "63.280",
+                  "timeStart": "59.080",
+                  "timeEnd": "62.440",
                   "entities": []
                 }
               ],
@@ -619,8 +853,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1573/A(E) dem Verkehrsausschuss,",
-                  "timeStart": "63.280",
-                  "timeEnd": "65.440",
+                  "timeStart": "62.440",
+                  "timeEnd": "64.360",
                   "entities": []
                 }
               ],
@@ -633,7 +867,7 @@
               "sentences": [
                 {
                   "text": "die Anträge 1574/A(E) und 1575/A(E) dem Ausschuss für Wirtschaft, Industrie und Energie,",
-                  "timeStart": "65.440",
+                  "timeStart": "64.360",
                   "timeEnd": "68.360",
                   "entities": []
                 }
@@ -648,7 +882,7 @@
                 {
                   "text": "die Anträge 1576/A(E) und 1577/A(E) dem Umweltausschuss und",
                   "timeStart": "68.360",
-                  "timeEnd": "69.880",
+                  "timeEnd": "70.280",
                   "entities": []
                 }
               ],
@@ -661,7 +895,7 @@
               "sentences": [
                 {
                   "text": "den Antrag 1578/A(E) dem Ausschuss für Land- und Forstwirtschaft zu.",
-                  "timeStart": "69.880",
+                  "timeStart": "70.280",
                   "timeEnd": "72.120",
                   "entities": []
                 }
@@ -676,7 +910,7 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 19. Mai, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
                   "timeStart": "72.120",
-                  "timeEnd": "73.680",
+                  "timeEnd": "73.640",
                   "entities": []
                 }
               ],
@@ -689,7 +923,7 @@
               "sentences": [
                 {
                   "text": "Ich wünsche Ihnen einen schönen Nachmittag, und bleiben Sie gesund!",
-                  "timeStart": "73.680",
+                  "timeStart": "73.640",
                   "timeEnd": "75.160",
                   "entities": []
                 }
@@ -718,8 +952,8 @@
         "stdId": 243900,
         "debatteId": 300,
         "proceedingIndex": 243900,
-        "alignDuration": 0.6581981182098389,
-        "nerDuration": 0.26362109184265137
+        "alignDuration": 0.728417158126831,
+        "nerDuration": 0.4929647445678711
       },
       "originalLanguage": "de"
     }

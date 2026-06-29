@@ -5,11 +5,12 @@
     "dateStart": "2021-12-16T22:18:17",
     "dateEnd": "2021-12-16T22:18:52",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-22T02:12:45",
+    "lastUpdate": "2026-06-28T11:19:26",
     "processing": {
       "merge": "2026-06-16T04:23:54+00:00",
-      "align": "2026-06-22T02:12:45",
-      "ner": "2026-06-28T02:55:16"
+      "align": "2026-06-28T11:19:26",
+      "ner": "2026-06-28T15:33:23",
+      "nel": "2026-06-28T07:25:29"
     }
   },
   "data": [
@@ -86,14 +87,46 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Rosa Ecker, MBA , Peter Schmiedlechner , Michel Reimon, MBA und Mag.",
                   "timeStart": "1.320",
-                  "timeEnd": "2.560",
-                  "entities": []
+                  "timeEnd": "2.440",
+                  "entities": [
+                    {
+                      "label": "MSc",
+                      "wid": "Q183816",
+                      "wtype": "PER",
+                      "score": 0.694
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9744
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9357
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Julia Seidl .",
-                  "timeStart": "2.560",
+                  "timeStart": "2.440",
                   "timeEnd": "2.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Dr. Pamela Rendi-Wagner, MSc , Rosa Ecker, MBA , Peter Schmiedlechner , Michel Reimon, MBA und Mag. Julia Seidl ."
@@ -120,7 +153,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen darf ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung verweisen.",
                   "timeStart": "2.760",
-                  "timeEnd": "2.800",
+                  "timeEnd": "3.240",
                   "entities": []
                 }
               ],
@@ -133,8 +166,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "2.800",
-                  "timeEnd": "2.960",
+                  "timeStart": "3.240",
+                  "timeEnd": "3.560",
                   "entities": []
                 }
               ],
@@ -147,8 +180,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "2.960",
-                  "timeEnd": "3.600",
+                  "timeStart": "3.560",
+                  "timeEnd": "3.560",
                   "entities": []
                 }
               ],
@@ -161,8 +194,8 @@
               "sentences": [
                 {
                   "text": "1. Schriftliche Anfrage:",
-                  "timeStart": "3.600",
-                  "timeEnd": "4.080",
+                  "timeStart": "3.560",
+                  "timeEnd": "3.560",
                   "entities": []
                 }
               ],
@@ -175,8 +208,8 @@
               "sentences": [
                 {
                   "text": "Zurückziehung: 8981/J",
-                  "timeStart": "4.080",
-                  "timeEnd": "4.480",
+                  "timeStart": "3.560",
+                  "timeEnd": "4.080",
                   "entities": []
                 }
               ],
@@ -189,8 +222,8 @@
               "sentences": [
                 {
                   "text": "2. Anfragebeantwortungen: 8145/AB bis 8149/AB",
-                  "timeStart": "4.480",
-                  "timeEnd": "5.560",
+                  "timeStart": "4.080",
+                  "timeEnd": "5.000",
                   "entities": []
                 }
               ],
@@ -203,8 +236,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "5.560",
-                  "timeEnd": "5.680",
+                  "timeStart": "5.000",
+                  "timeEnd": "5.760",
                   "entities": []
                 }
               ],
@@ -217,7 +250,7 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "5.680",
+                  "timeStart": "5.760",
                   "timeEnd": "6.000",
                   "entities": []
                 }
@@ -267,7 +300,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Reform Rot-Weiß-Rot Karte: Fast Track einführen!",
                   "timeStart": "7.400",
                   "timeEnd": "7.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "Rot-Weiß-Rot",
+                      "wid": "Q2167987",
+                      "wtype": "MISC",
+                      "score": 0.3982
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2156/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Reform Rot-Weiß-Rot Karte: Fast Track einführen!"
@@ -315,7 +361,20 @@
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Kostentragung des CO2-Preises im Wohnbereich durch die Vermieter*innen",
                   "timeStart": "8.000",
                   "timeEnd": "8.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.9781
+                    },
+                    {
+                      "label": "CO2-Preises",
+                      "wid": "Q20681009",
+                      "wtype": "MISC",
+                      "score": 0.8702
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2176/A(E) der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Kostentragung des CO2-Preises im Wohnbereich durch die Vermieter*innen"
@@ -371,7 +430,26 @@
                   "text": "Antrag 2165/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Künftige Finanzierung von IHS und WIFO",
                   "timeStart": "8.000",
                   "timeEnd": "8.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "IHS",
+                      "wid": "Q1141808",
+                      "wtype": "ORG",
+                      "score": 0.37
+                    },
+                    {
+                      "label": "WIFO",
+                      "wid": "Q306647",
+                      "wtype": "ORG",
+                      "score": 0.1699
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2165/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Künftige Finanzierung von IHS und WIFO"
@@ -385,7 +463,14 @@
                   "text": "Antrag 2180/A der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "8.000",
                   "timeEnd": "8.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Transparenzdatenbankgesetz 2012 geändert wird (COVID-19-Compliance-Gesetz)",
@@ -419,7 +504,20 @@
                   "text": "Antrag 2179/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Verlängerung der Familienbeihilfe und der Lehrlingsfreifahrt",
                   "timeStart": "8.360",
                   "timeEnd": "8.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2179/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Verlängerung der Familienbeihilfe und der Lehrlingsfreifahrt"
@@ -432,7 +530,7 @@
                 {
                   "text": "Finanzausschuss:",
                   "timeStart": "8.880",
-                  "timeEnd": "9.120",
+                  "timeEnd": "9.080",
                   "entities": []
                 }
               ],
@@ -445,9 +543,22 @@
               "sentences": [
                 {
                   "text": "Antrag 2155/A(E) der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend bundesweit einheitliche finanzielle Unterstützung für Gemeinden bei der Anschaffung von Gerätschaften der Feuerwehr",
-                  "timeStart": "9.120",
+                  "timeStart": "9.080",
                   "timeEnd": "10.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.99
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2155/A(E) der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend bundesweit einheitliche finanzielle Unterstützung für Gemeinden bei der Anschaffung von Gerätschaften der Feuerwehr"
@@ -461,7 +572,20 @@
                   "text": "Antrag 2157/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Transparenz in Budgets für Informationstätigkeit bringen",
                   "timeStart": "10.280",
                   "timeEnd": "11.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2157/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Transparenz in Budgets für Informationstätigkeit bringen"
@@ -489,7 +613,26 @@
                   "text": "Antrag 2187/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Einführung einer Treibstoffpreisdeckelung",
                   "timeStart": "12.640",
                   "timeEnd": "13.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2187/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Einführung einer Treibstoffpreisdeckelung"
@@ -517,7 +660,32 @@
                   "text": "Antrag 2164/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Künftige Finanzierung von IHS und WIFO",
                   "timeStart": "13.720",
                   "timeEnd": "14.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "IHS",
+                      "wid": "Q1141808",
+                      "wtype": "ORG",
+                      "score": 0.37
+                    },
+                    {
+                      "label": "WIFO",
+                      "wid": "Q306647",
+                      "wtype": "ORG",
+                      "score": 0.1699
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2164/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Künftige Finanzierung von IHS und WIFO"
@@ -544,7 +712,7 @@
                 {
                   "text": "Antrag 2149/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Nein zur Impfpflicht, nein zur Diskriminierung Ungeimpfter, ja zum Plan B!",
                   "timeStart": "14.800",
-                  "timeEnd": "15.840",
+                  "timeEnd": "16.280",
                   "entities": []
                 }
               ],
@@ -557,7 +725,7 @@
               "sentences": [
                 {
                   "text": "Antrag 2152/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Offenlegung und Transparenz betreffend Unvereinbarkeiten für die Mitglieder des Nationalen Impfgremiums im Zusammenhang mit Forschungsaufträgen für die Pharmaindustrie und Impfstoffhersteller",
-                  "timeStart": "15.840",
+                  "timeStart": "16.280",
                   "timeEnd": "18.320",
                   "entities": []
                 }
@@ -578,8 +746,21 @@
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Umsetzungsstrategie für die Anliegen und Forderungen des Tierschutzvolksbegehrens für das Jahr 2022",
                   "timeStart": "18.480",
-                  "timeEnd": "19.480",
-                  "entities": []
+                  "timeEnd": "19.800",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2154/A(E) der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Umsetzungsstrategie für die Anliegen und Forderungen des Tierschutzvolksbegehrens für das Jahr 2022"
@@ -591,8 +772,8 @@
               "sentences": [
                 {
                   "text": "Antrag 2159/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Schlachtung im gewohnten Lebensumfeld der Tiere – einstimmigen Entschließungsantrag endlich umsetzen!",
-                  "timeStart": "19.480",
-                  "timeEnd": "19.560",
+                  "timeStart": "19.800",
+                  "timeEnd": "20.280",
                   "entities": []
                 }
               ],
@@ -605,9 +786,28 @@
               "sentences": [
                 {
                   "text": "Antrag 2170/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Maßnahmen zur Umsetzung des Tierschutzvolksbegehrens",
-                  "timeStart": "19.560",
-                  "timeEnd": "19.680",
-                  "entities": []
+                  "timeStart": "20.280",
+                  "timeEnd": "20.800",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2170/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Maßnahmen zur Umsetzung des Tierschutzvolksbegehrens"
@@ -619,9 +819,34 @@
               "sentences": [
                 {
                   "text": "Antrag 2172/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
-                  "timeStart": "19.680",
-                  "timeEnd": "20.800",
-                  "entities": []
+                  "timeStart": "20.800",
+                  "timeEnd": "21.280",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2172/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
@@ -633,9 +858,22 @@
               "sentences": [
                 {
                   "text": "Antrag 2173/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz über die Impfpflicht gegen COVID-19 (COVID-19-Impfpflichtgesetz – COVID-19-IG)",
-                  "timeStart": "20.800",
+                  "timeStart": "21.280",
                   "timeEnd": "21.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2173/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz über die Impfpflicht gegen COVID-19 (COVID-19-Impfpflichtgesetz – COVID-19-IG)"
@@ -663,7 +901,20 @@
                   "text": "Antrag 2168/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend umfassender Gewaltschutz",
                   "timeStart": "21.280",
                   "timeEnd": "21.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2168/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend umfassender Gewaltschutz"
@@ -691,7 +942,20 @@
                   "text": "Antrag 2183/A(E) der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend entschiedenes Vorgehen zur Bekämpfung von LGBTIQ-feindlicher Hasskriminalität",
                   "timeStart": "21.280",
                   "timeEnd": "21.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2183/A(E) der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend entschiedenes Vorgehen zur Bekämpfung von LGBTIQ-feindlicher Hasskriminalität"
@@ -719,7 +983,32 @@
                   "text": "Vereinbarung zwischen der Republik Österreich und dem Vereinigten Königreich Großbritannien und Nordirland über die Ausdehnung des Anwendungsbereichs des Europäischen Auslieferungsübereinkommens auf Gibraltar ( 1296 d.B. )",
                   "timeStart": "21.280",
                   "timeEnd": "21.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Republik Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.6573
+                    },
+                    {
+                      "label": "Vereinigten Königreich Großbritannien und Nordirland",
+                      "wid": "Q145",
+                      "wtype": "LOC",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Europäischen Auslieferungsübereinkommens",
+                      "wid": "Q779462",
+                      "wtype": "ORG",
+                      "score": 0.9825
+                    },
+                    {
+                      "label": "Gibraltar",
+                      "wid": "Q1410",
+                      "wtype": "LOC",
+                      "score": 0.7632
+                    }
+                  ]
                 }
               ],
               "text": "Vereinbarung zwischen der Republik Österreich und dem Vereinigten Königreich Großbritannien und Nordirland über die Ausdehnung des Anwendungsbereichs des Europäischen Auslieferungsübereinkommens auf Gibraltar ( 1296 d.B. )"
@@ -761,7 +1050,20 @@
                   "text": "Antrag 2177/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Erstanlaufstelle Zahlungsverzug-Umsetzung bis zum 31. März 2022\"",
                   "timeStart": "21.280",
                   "timeEnd": "21.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2177/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend \"Erstanlaufstelle Zahlungsverzug-Umsetzung bis zum 31. März 2022\""
@@ -775,7 +1077,20 @@
                   "text": "Antrag 2178/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Vertretung der Verbraucherinteressen bei Normungen mit Umsetzungstermin 31. März 2022",
                   "timeStart": "21.280",
                   "timeEnd": "22.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2178/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Vertretung der Verbraucherinteressen bei Normungen mit Umsetzungstermin 31. März 2022"
@@ -788,7 +1103,7 @@
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
                   "timeStart": "22.560",
-                  "timeEnd": "23.040",
+                  "timeEnd": "22.960",
                   "entities": []
                 }
               ],
@@ -801,9 +1116,22 @@
               "sentences": [
                 {
                   "text": "Antrag 2166/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Umverteilungsprämie um die Verteilungsgerechtigkeit der öffentlichen Steuermittel zwischen den landwirtschaftlichen Betrieben zu erhöhen",
-                  "timeStart": "23.040",
+                  "timeStart": "22.960",
                   "timeEnd": "24.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.983
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2166/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Umverteilungsprämie um die Verteilungsgerechtigkeit der öffentlichen Steuermittel zwischen den landwirtschaftlichen Betrieben zu erhöhen"
@@ -817,7 +1145,26 @@
                   "text": "Antrag 2167/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Ausbau der Fördermaßnahme \"Soziale Angelegenheiten\" (Soziale Dienstleistungen, SDL) im Rahmen der GAP-Fördermittel statt massiver Kürzung der Mittel",
                   "timeStart": "24.320",
                   "timeEnd": "24.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "Soziale Angelegenheiten",
+                      "wid": "Q1240689",
+                      "wtype": "MISC",
+                      "score": 0.16
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2167/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Ausbau der Fördermaßnahme \"Soziale Angelegenheiten\" (Soziale Dienstleistungen, SDL) im Rahmen der GAP-Fördermittel statt massiver Kürzung der Mittel"
@@ -831,7 +1178,26 @@
                   "text": "Antrag 2171/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Maßnahmen zur Umsetzung des Tierschutzvolksbegehrens",
                   "timeStart": "24.560",
                   "timeEnd": "24.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2171/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Maßnahmen zur Umsetzung des Tierschutzvolksbegehrens"
@@ -878,8 +1244,33 @@
                 {
                   "text": "Eva Blimlinger , Sabine Schatz , Henrike Brandstötter , Kolleginnen und Kollegen betreffend den verstärkten Schutz von Medienvertreterinnen und -vertretern im Zuge der Covid 19 – Pandemie",
                   "timeStart": "25.360",
-                  "timeEnd": "26.160",
-                  "entities": []
+                  "timeEnd": "25.760",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Covid 19",
+                      "wid": "Q84263196",
+                      "wtype": "MISC",
+                      "score": 0.1764
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2188/A(E) der Abgeordneten Dr. Gudrun Kugler , Mag. Eva Blimlinger , Sabine Schatz , Henrike Brandstötter , Kolleginnen und Kollegen betreffend den verstärkten Schutz von Medienvertreterinnen und -vertretern im Zuge der Covid 19 – Pandemie"
@@ -891,8 +1282,8 @@
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
-                  "timeStart": "26.160",
-                  "timeEnd": "26.440",
+                  "timeStart": "25.760",
+                  "timeEnd": "26.040",
                   "entities": []
                 }
               ],
@@ -905,8 +1296,8 @@
               "sentences": [
                 {
                   "text": "Antrag 2182/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Klimakrise, die soziale Frage unserer Zeit!",
-                  "timeStart": "26.440",
-                  "timeEnd": "28.760",
+                  "timeStart": "26.040",
+                  "timeEnd": "26.160",
                   "entities": []
                 }
               ],
@@ -919,8 +1310,8 @@
               "sentences": [
                 {
                   "text": "Antrag 2185/A(E) der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend dringende Notwehrmaßnahmen gegen EU-Atomstrom-Verordnung",
-                  "timeStart": "28.760",
-                  "timeEnd": "32.040",
+                  "timeStart": "26.160",
+                  "timeEnd": "26.240",
                   "entities": []
                 }
               ],
@@ -933,8 +1324,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "32.040",
-                  "timeEnd": "32.040",
+                  "timeStart": "26.240",
+                  "timeEnd": "26.680",
                   "entities": []
                 }
               ],
@@ -947,9 +1338,28 @@
               "sentences": [
                 {
                   "text": "Antrag 2153/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Cool-off-Phase gegen Medien-Postenschacher",
-                  "timeStart": "32.040",
-                  "timeEnd": "32.120",
-                  "entities": []
+                  "timeStart": "26.680",
+                  "timeEnd": "32.040",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2153/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Cool-off-Phase gegen Medien-Postenschacher"
@@ -961,8 +1371,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "32.120",
-                  "timeEnd": "32.120",
+                  "timeStart": "32.040",
+                  "timeEnd": "32.040",
                   "entities": []
                 }
               ],
@@ -975,21 +1385,47 @@
               "sentences": [
                 {
                   "text": "Antrag 2169/A der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art.",
-                  "timeStart": "32.120",
+                  "timeStart": "32.040",
                   "timeEnd": "32.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 },
                 {
                   "text": "142 Abs. 2 lit.",
                   "timeStart": "32.120",
-                  "timeEnd": "32.120",
+                  "timeEnd": "32.760",
                   "entities": []
                 },
                 {
                   "text": "b B-VG wider der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie Leonore Gewessler",
-                  "timeStart": "32.120",
-                  "timeEnd": "32.120",
-                  "entities": []
+                  "timeStart": "32.760",
+                  "timeEnd": "32.760",
+                  "entities": [
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Leonore Gewessler",
+                      "wid": "Q64954602",
+                      "wtype": "PER",
+                      "score": 0.9945
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2169/A der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art. 142 Abs. 2 lit. b B-VG wider der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie Leonore Gewessler"
@@ -1001,9 +1437,16 @@
               "sentences": [
                 {
                   "text": "Antrag 2174/A der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem besondere Ziele für den Verkehr erlassen werden (Bundesverkehrszielegesetz)",
-                  "timeStart": "32.120",
+                  "timeStart": "32.760",
                   "timeEnd": "32.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2174/A der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem besondere Ziele für den Verkehr erlassen werden (Bundesverkehrszielegesetz)"
@@ -1017,7 +1460,26 @@
                   "text": "Antrag 2175/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Umsetzung einer flächendeckenden LKW-Maut",
                   "timeStart": "32.760",
                   "timeEnd": "32.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    },
+                    {
+                      "label": "LKW-Maut",
+                      "wid": "Q913676",
+                      "wtype": "MISC",
+                      "score": 0.3729
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2175/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Umsetzung einer flächendeckenden LKW-Maut"
@@ -1072,8 +1534,33 @@
                 {
                   "text": "Antrag 2184/A der Abgeordneten Lukas Hammer , Tanja Graf , Alois Schroll , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Erneuerbaren-Ausbau-Gesetz (EAG), das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (EIWOG 2010) und das Energie-Control-Gesetz (E-ControlG) geändert werden",
                   "timeStart": "32.800",
-                  "timeEnd": "34.400",
-                  "entities": []
+                  "timeEnd": "34.720",
+                  "entities": [
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4505
+                    },
+                    {
+                      "label": "Alois Schroll",
+                      "wid": "Q72078740",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "EAG",
+                      "wid": "Q8919",
+                      "wtype": "ORG",
+                      "score": 0.1103
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2184/A der Abgeordneten Lukas Hammer , Tanja Graf , Alois Schroll , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Erneuerbaren-Ausbau-Gesetz (EAG), das Elektrizitätswirtschafts- und -organisationsgesetz 2010 (EIWOG 2010) und das Energie-Control-Gesetz (E-ControlG) geändert werden"
@@ -1085,7 +1572,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates ist für Donnerstag, den 20. Jänner 2022, in Aussicht genommen und wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "34.400",
+                  "timeStart": "34.720",
                   "timeEnd": "34.800",
                   "entities": []
                 }
@@ -1134,8 +1621,8 @@
         "stdId": 259254,
         "debatteId": 300,
         "proceedingIndex": 259254,
-        "alignDuration": 1.2131211757659912,
-        "nerDuration": 0.4445831775665283
+        "alignDuration": 1.0295155048370361,
+        "nerDuration": 0.9997375011444092
       },
       "originalLanguage": "de"
     }

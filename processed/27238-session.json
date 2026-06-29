@@ -5,11 +5,12 @@
     "dateStart": "2023-10-25T18:41:38",
     "dateEnd": "2023-10-25T18:42:35",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T23:30:16",
+    "lastUpdate": "2026-06-28T13:54:27",
     "processing": {
       "merge": "2026-06-16T04:24:10+00:00",
-      "align": "2026-06-25T23:30:16",
-      "ner": "2026-06-28T03:25:15"
+      "align": "2026-06-28T13:54:27",
+      "ner": "2026-06-28T16:16:29",
+      "nel": "2026-06-28T07:25:36"
     }
   },
   "data": [
@@ -93,7 +94,50 @@
                   "text": "Martin Engelberg , Karlheinz Kopf , Dr. Reinhold Lopatka , Nico Marchetti , Carina Reiter , Ing. Reinhold Einwallner , Dietmar Keck , Kai Jan Krainer , Dr. Harald Troch , MMag.",
                   "timeStart": "6.380",
                   "timeEnd": "14.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martin Engelberg",
+                      "wid": "Q42307913",
+                      "wtype": "PER",
+                      "score": 0.9791
+                    },
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Carina Reiter",
+                      "wid": "Q72079820",
+                      "wtype": "PER",
+                      "score": 0.978
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9598
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.9767
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
@@ -105,13 +149,63 @@
                   "text": "Hubert Fuchs , Christian Ries , Dr. Ewa Ernst-Dziedzic , Dr. Elisabeth Götze , Heike Grebien , Mag.",
                   "timeStart": "14.800",
                   "timeEnd": "19.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Elisabeth Götze",
+                      "wid": "Q72074591",
+                      "wtype": "PER",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 },
                 {
                   "text": "Nina Tomaselli , Henrike Brandstötter , Douglas Hoyos-Trauttmansdorff , Dr. Stephanie Krisper und Dr. Nikolaus Scherak, MA .",
                   "timeStart": "19.600",
                   "timeEnd": "26.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Karlheinz Kopf , Dr. Reinhold Lopatka , Nico Marchetti , Carina Reiter , Ing. Reinhold Einwallner , Dietmar Keck , Kai Jan Krainer , Dr. Harald Troch , MMag. DDr. Hubert Fuchs , Christian Ries , Dr. Ewa Ernst-Dziedzic , Dr. Elisabeth Götze , Heike Grebien , Mag. Nina Tomaselli , Henrike Brandstötter , Douglas Hoyos-Trauttmansdorff , Dr. Stephanie Krisper und Dr. Nikolaus Scherak, MA ."
@@ -243,7 +337,26 @@
                   "text": "Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend Wahlrecht für EU-Bürger:innen ( 3668/A(E) )",
                   "timeStart": "44.760",
                   "timeEnd": "50.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Beate Meinl-Reisinger, MES , Kolleginnen und Kollegen betreffend Wahlrecht für EU-Bürger:innen ( 3668/A(E) )"
@@ -313,7 +426,20 @@
                   "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 1771/A(E) eine Frist bis zum 26. Oktober 2023 zu setzen.",
                   "timeStart": "66.680",
                   "timeEnd": "83.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.3233
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 1771/A(E) eine Frist bis zum 26. Oktober 2023 zu setzen."
@@ -327,7 +453,14 @@
                   "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3309/A ebenfalls eine Frist bis zum 26. Oktober 2023 zu setzen.",
                   "timeStart": "83.120",
                   "timeEnd": "97.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.3233
+                    }
+                  ]
                 }
               ],
               "text": "Weiters teile ich mit, dass Herr Abgeordneter Kickl, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 3309/A ebenfalls eine Frist bis zum 26. Oktober 2023 zu setzen."
@@ -341,7 +474,8 @@
         "debatteId": 300,
         "proceedingIndex": 307597,
         "alignDuration": 0.6005878448486328,
-        "nerDuration": 0.1151418685913086
+        "nerDuration": 0.19605398178100586,
+        "alignError": "aligned timecodes exceed media duration (98.0s > 57s)"
       },
       "originalLanguage": "de"
     }

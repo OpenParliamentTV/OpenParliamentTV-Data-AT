@@ -5,11 +5,12 @@
     "dateStart": "2023-10-19T22:52:06",
     "dateEnd": "2023-10-19T22:52:57",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T22:13:04",
+    "lastUpdate": "2026-06-28T13:53:48",
     "processing": {
       "merge": "2026-06-16T04:24:10+00:00",
-      "align": "2026-06-25T22:13:04",
-      "ner": "2026-06-28T03:24:59"
+      "align": "2026-06-28T13:53:48",
+      "ner": "2026-06-28T16:16:02",
+      "nel": "2026-06-28T07:25:36"
     }
   },
   "data": [
@@ -93,13 +94,57 @@
                   "text": "Carmen Jeitler-Cincelli, BA , Mag.",
                   "timeStart": "3.280",
                   "timeEnd": "3.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Carmen Jeitler-Cincelli",
+                      "wid": "Q42310694",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Jörg Leichtfried , Sabine Schatz , Heike Grebien und Douglas Hoyos-Trauttmansdorff .",
                   "timeStart": "3.520",
                   "timeEnd": "3.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.9003
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Carmen Jeitler-Cincelli, BA , Mag. Jörg Leichtfried , Sabine Schatz , Heike Grebien und Douglas Hoyos-Trauttmansdorff ."
@@ -126,7 +171,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "3.520",
-                  "timeEnd": "6.200",
+                  "timeEnd": "3.800",
                   "entities": []
                 }
               ],
@@ -139,8 +184,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "6.200",
-                  "timeEnd": "7.200",
+                  "timeStart": "3.800",
+                  "timeEnd": "4.720",
                   "entities": []
                 }
               ],
@@ -153,8 +198,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "7.200",
-                  "timeEnd": "7.560",
+                  "timeStart": "4.720",
+                  "timeEnd": "5.480",
                   "entities": []
                 }
               ],
@@ -167,8 +212,8 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 15469/AB",
-                  "timeStart": "7.560",
-                  "timeEnd": "8.480",
+                  "timeStart": "5.480",
+                  "timeEnd": "7.200",
                   "entities": []
                 }
               ],
@@ -181,8 +226,8 @@
               "sentences": [
                 {
                   "text": "2. Anträge:",
-                  "timeStart": "8.480",
-                  "timeEnd": "8.640",
+                  "timeStart": "7.200",
+                  "timeEnd": "7.480",
                   "entities": []
                 }
               ],
@@ -195,8 +240,8 @@
               "sentences": [
                 {
                   "text": "Zurückziehung des Verlangens auf erste Lesung: Zu 3656/A",
-                  "timeStart": "8.640",
-                  "timeEnd": "10.320",
+                  "timeStart": "7.480",
+                  "timeEnd": "8.560",
                   "entities": []
                 }
               ],
@@ -209,8 +254,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "10.320",
-                  "timeEnd": "11.240",
+                  "timeStart": "8.560",
+                  "timeEnd": "9.780",
                   "entities": []
                 }
               ],
@@ -223,8 +268,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "11.240",
-                  "timeEnd": "11.560",
+                  "timeStart": "9.780",
+                  "timeEnd": "9.920",
                   "entities": []
                 }
               ],
@@ -237,8 +282,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "11.560",
-                  "timeEnd": "11.680",
+                  "timeStart": "9.920",
+                  "timeEnd": "10.320",
                   "entities": []
                 }
               ],
@@ -251,9 +296,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Klickarbeiter:innen vor Ausbeutung schützen\" ( 3653/A(E) )",
-                  "timeStart": "11.680",
-                  "timeEnd": "13.080",
-                  "entities": []
+                  "timeStart": "10.320",
+                  "timeEnd": "12.160",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Klickarbeiter",
+                      "wid": "Q210748",
+                      "wtype": "MISC",
+                      "score": 0.1214
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Klickarbeiter:innen vor Ausbeutung schützen\" ( 3653/A(E) )"
@@ -265,15 +329,29 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Tanja Graf , Mag.",
-                  "timeStart": "13.080",
-                  "timeEnd": "13.600",
-                  "entities": []
+                  "timeStart": "12.160",
+                  "timeEnd": "13.460",
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q2392681",
+                      "wtype": "PER",
+                      "score": 0.3899
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Nachtschwerarbeitsgesetz geändert wird ( 3654/A )",
-                  "timeStart": "13.600",
+                  "timeStart": "13.460",
                   "timeEnd": "14.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Tanja Graf , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Nachtschwerarbeitsgesetz geändert wird ( 3654/A )"
@@ -293,7 +371,26 @@
                   "text": "Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz und das Arbeits- und Sozialgerichtsgesetz geändert werden ( 3655/A )",
                   "timeStart": "15.080",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ernst Gödl , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundespflegegeldgesetz und das Arbeits- und Sozialgerichtsgesetz geändert werden ( 3655/A )"
@@ -321,7 +418,32 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Prüfung der Türkei als sicheres Herkunftsland für Kurd:innen und Oppositionelle\" ( 3647/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Türkei",
+                      "wid": "Q43",
+                      "wtype": "LOC",
+                      "score": 0.3734
+                    },
+                    {
+                      "label": "Kurd",
+                      "wid": "Q1122153",
+                      "wtype": "LOC",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Prüfung der Türkei als sicheres Herkunftsland für Kurd:innen und Oppositionelle\" ( 3647/A(E) )"
@@ -335,7 +457,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Verurteilung und Verbot autonomer Waffensysteme\" ( 3649/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Verurteilung und Verbot autonomer Waffensysteme\" ( 3649/A(E) )"
@@ -349,7 +484,20 @@
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend humanitärer Waffenstillstand im Nahen Osten ( 3659/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend humanitärer Waffenstillstand im Nahen Osten ( 3659/A(E) )"
@@ -362,8 +510,27 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Beendigung der Charmeoffensive gegenüber der Türkei und Verurteilung der völkerrechtswidrigen türkischen Militäroperationen ( 3664/A(E) )",
                   "timeStart": "16.560",
-                  "timeEnd": "17.800",
-                  "entities": []
+                  "timeEnd": "16.680",
+                  "entities": [
+                    {
+                      "label": "Türkei",
+                      "wid": "Q43",
+                      "wtype": "LOC",
+                      "score": 0.3734
+                    },
+                    {
+                      "label": "türkischen",
+                      "wid": "Q43",
+                      "wtype": "MISC",
+                      "score": 0.294
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Beendigung der Charmeoffensive gegenüber der Türkei und Verurteilung der völkerrechtswidrigen türkischen Militäroperationen ( 3664/A(E) )"
@@ -375,8 +542,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "17.800",
-                  "timeEnd": "17.800",
+                  "timeStart": "16.680",
+                  "timeEnd": "16.680",
                   "entities": []
                 }
               ],
@@ -389,15 +556,71 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
-                  "timeStart": "17.800",
-                  "timeEnd": "18.400",
-                  "entities": []
+                  "timeStart": "16.680",
+                  "timeEnd": "16.960",
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Arbeit und Wirtschaft genehmigt und mit dem das Bundesgesetz hinsichtlich Begleitmaßnahmen zur Durchführung der Verordnung (EU) 2023/1781 des Europäischen Parlaments und des Rates vom 13. September 2023 zur Schaffung eines Rahmens für Maßnahmen zur Stärkung des europäischen Halbleiter-Ökosystems und zur Änderung der Verordnung (EU) 2021/694 (Chip-Gesetz-Begleitmaßnahmengesetz) erlassen wird (3656/A)",
-                  "timeStart": "18.400",
+                  "timeStart": "16.960",
                   "timeEnd": "22.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4116
+                    },
+                    {
+                      "label": "Bundesminister für Arbeit und Wirtschaft",
+                      "wid": "Q22694650",
+                      "wtype": "ORG",
+                      "score": 0.9235
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.646
+                    },
+                    {
+                      "label": "Europäischen Parlaments",
+                      "wid": "Q8889",
+                      "wtype": "ORG",
+                      "score": 0.9411
+                    },
+                    {
+                      "label": "Rates",
+                      "wid": "Q8896",
+                      "wtype": "ORG",
+                      "score": 0.0886
+                    },
+                    {
+                      "label": "europäischen",
+                      "wid": "Q46",
+                      "wtype": "MISC",
+                      "score": 0.1518
+                    },
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.646
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister für Arbeit und Wirtschaft genehmigt und mit dem das Bundesgesetz hinsichtlich Begleitmaßnahmen zur Durchführung der Verordnung (EU) 2023/1781 des Europäischen Parlaments und des Rates vom 13. September 2023 zur Schaffung eines Rahmens für Maßnahmen zur Stärkung des europäischen Halbleiter-Ökosystems und zur Änderung der Verordnung (EU) 2021/694 (Chip-Gesetz-Begleitmaßnahmengesetz) erlassen wird (3656/A)"
@@ -411,13 +634,39 @@
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "22.280",
                   "timeEnd": "22.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Pensionsordnungen der Oesterreichischen Nationalbank geändert und das Bundesgesetz zur Änderung von Betriebspensionszusagen im Bereich der Austrian Airlines (AUA-Betriebspensions-Änderungsgesetz) erlassen wird ( 3657/A )",
                   "timeStart": "22.280",
                   "timeEnd": "22.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Oesterreichischen Nationalbank",
+                      "wid": "Q670723",
+                      "wtype": "ORG",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Austrian Airlines",
+                      "wid": "Q781770",
+                      "wtype": "ORG",
+                      "score": 0.9895
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Pensionsordnungen der Oesterreichischen Nationalbank geändert und das Bundesgesetz zur Änderung von Betriebspensionszusagen im Bereich der Austrian Airlines (AUA-Betriebspensions-Änderungsgesetz) erlassen wird ( 3657/A )"
@@ -431,13 +680,33 @@
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "22.280",
                   "timeEnd": "22.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Bundesrechenzentrum GmbH (BRZ GmbH) geändert wird ( 3658/A )",
                   "timeStart": "22.280",
                   "timeEnd": "22.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Bundesrechenzentrum GmbH",
+                      "wid": "Q306566",
+                      "wtype": "ORG",
+                      "score": 0.983
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Bundesrechenzentrum GmbH (BRZ GmbH) geändert wird ( 3658/A )"
@@ -465,7 +734,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Bereitstellung von höheren finanziellen Mitteln für die KI-Grundlagenforschung\" ( 3651/A(E) )",
                   "timeStart": "22.280",
                   "timeEnd": "23.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Bereitstellung von höheren finanziellen Mitteln für die KI-Grundlagenforschung\" ( 3651/A(E) )"
@@ -479,7 +761,14 @@
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend genderspezifische Auswirkungen in der Klima- und Energiepolitik ernstnehmen – Energy-Gender-Nexus! (",
                   "timeStart": "23.000",
                   "timeEnd": "24.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 },
                 {
                   "text": "3652/A(E) )",
@@ -513,13 +802,39 @@
                   "text": "Vereinbarung zwischen dem Bund und dem Land Wien gemäß Artikel 15a B-VG, mit der die Verrechnung der Differenzbeträge zwischen den Kostenhöchstsätzen der Grundversorgungsvereinbarung – Art.",
                   "timeStart": "25.560",
                   "timeEnd": "27.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bund",
+                      "wid": "Q1005903",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Land Wien",
+                      "wid": "Q1741",
+                      "wtype": "LOC",
+                      "score": 0.4026
+                    },
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.962
+                    }
+                  ]
                 },
                 {
                   "text": "15a B-VG und den tatsächlich entstandenen Kosten für sämtliche in organisierten Unterkünften untergebrachten Personen inklusive der Unterbringung, Versorgung und Betreuung von vulnerablen Personengruppen ermöglicht werden soll (Realkostenverrechnungsvereinbarung Bund – Wien) ( 2272 d.B. )",
                   "timeStart": "27.520",
-                  "timeEnd": "30.960",
-                  "entities": []
+                  "timeEnd": "31.000",
+                  "entities": [
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.6178
+                    }
+                  ]
                 }
               ],
               "text": "Vereinbarung zwischen dem Bund und dem Land Wien gemäß Artikel 15a B-VG, mit der die Verrechnung der Differenzbeträge zwischen den Kostenhöchstsätzen der Grundversorgungsvereinbarung – Art. 15a B-VG und den tatsächlich entstandenen Kosten für sämtliche in organisierten Unterkünften untergebrachten Personen inklusive der Unterbringung, Versorgung und Betreuung von vulnerablen Personengruppen ermöglicht werden soll (Realkostenverrechnungsvereinbarung Bund – Wien) ( 2272 d.B. )"
@@ -531,9 +846,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Prüfung der Türkei als sicheres Herkunftsland für Kurd:innen und Oppositionelle\" ( 3648/A(E) )",
-                  "timeStart": "30.960",
+                  "timeStart": "31.000",
                   "timeEnd": "32.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Türkei",
+                      "wid": "Q43",
+                      "wtype": "LOC",
+                      "score": 0.3734
+                    },
+                    {
+                      "label": "Kurd",
+                      "wid": "Q1122153",
+                      "wtype": "LOC",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Prüfung der Türkei als sicheres Herkunftsland für Kurd:innen und Oppositionelle\" ( 3648/A(E) )"
@@ -567,7 +907,20 @@
                   "text": "Julia Seidl , Kolleginnen und Kollegen betreffend Vertrauensstelle vera* im Westen einrichten ( 3646/A(E) )",
                   "timeStart": "32.000",
                   "timeEnd": "32.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Julia Seidl , Kolleginnen und Kollegen betreffend Vertrauensstelle vera* im Westen einrichten ( 3646/A(E) )"
@@ -601,7 +954,26 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Schutz der Almwirtschaft vor dem Wolf ( 3661/A(E) )",
                   "timeStart": "32.000",
                   "timeEnd": "32.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "Wolf",
+                      "wid": "Q18498",
+                      "wtype": "LOC",
+                      "score": 0.0912
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Schutz der Almwirtschaft vor dem Wolf ( 3661/A(E) )"
@@ -615,7 +987,20 @@
                   "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Freiheitliches Entlastungspaket für die Landwirtschaft ( 3662/A(E) )",
                   "timeStart": "32.000",
                   "timeEnd": "32.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Freiheitliches Entlastungspaket für die Landwirtschaft ( 3662/A(E) )"
@@ -643,7 +1028,20 @@
                   "text": "Antrag der Abgeordneten Lukas Hammer , Johannes Schmuckenschlager , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus (Klimabonusgesetz – KliBG) geändert wird ( 3660/A )",
                   "timeStart": "32.560",
                   "timeEnd": "34.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Johannes Schmuckenschlager",
+                      "wid": "Q1698360",
+                      "wtype": "PER",
+                      "score": 0.9896
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Lukas Hammer , Johannes Schmuckenschlager , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den regionalen Klimabonus (Klimabonusgesetz – KliBG) geändert wird ( 3660/A )"
@@ -671,7 +1069,20 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Breiter zivilgesellschaftlicher Prozess für ein umfangreiches, neues ORF-Gesetz ( 3645/A(E) )",
                   "timeStart": "34.320",
                   "timeEnd": "36.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Breiter zivilgesellschaftlicher Prozess für ein umfangreiches, neues ORF-Gesetz ( 3645/A(E) )"
@@ -685,18 +1096,25 @@
                   "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesgesetz zur Abschaffung der ORF-Zwangssteuer, mit dem das Bundesgesetz über die Erhebung eines ORF-Beitrags 2024 (ORF-Beitrags-Gesetz 2024), BGBl.",
                   "timeStart": "36.280",
                   "timeEnd": "37.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 },
                 {
                   "text": "I Nr. 112/2023, aufgehoben wird. (",
                   "timeStart": "37.440",
-                  "timeEnd": "38.360",
+                  "timeEnd": "38.760",
                   "entities": []
                 },
                 {
                   "text": "3663/A )",
-                  "timeStart": "38.360",
-                  "timeEnd": "38.400",
+                  "timeStart": "38.760",
+                  "timeEnd": "38.760",
                   "entities": []
                 }
               ],
@@ -709,8 +1127,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "38.400",
-                  "timeEnd": "38.560",
+                  "timeStart": "38.760",
+                  "timeEnd": "38.760",
                   "entities": []
                 }
               ],
@@ -723,15 +1141,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "38.560",
+                  "timeStart": "38.760",
                   "timeEnd": "38.760",
                   "entities": []
                 },
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Sanierung der Luegbrücke und Start des Projekts \"Tunnel Lueg\" ( 3665/A(E) )",
                   "timeStart": "38.760",
-                  "timeEnd": "40.600",
-                  "entities": []
+                  "timeEnd": "40.760",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Luegbrücke",
+                      "wid": "Q74089148",
+                      "wtype": "LOC",
+                      "score": 0.8874
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Sanierung der Luegbrücke und Start des Projekts \"Tunnel Lueg\" ( 3665/A(E) )"
@@ -743,9 +1180,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "40.600",
+                  "timeStart": "40.760",
                   "timeEnd": "41.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -759,7 +1203,20 @@
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Bereitstellung von höheren finanziellen Mitteln für die KI-Grundlagenforschung\" ( 3650/A(E) )",
                   "timeStart": "41.080",
                   "timeEnd": "41.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Bereitstellung von höheren finanziellen Mitteln für die KI-Grundlagenforschung\" ( 3650/A(E) )"
@@ -806,14 +1263,52 @@
                 {
                   "text": "Herzlichen Dank auch unserer Administration, der Parlamentsdirektion, dem Nationalratsdienst – herzlichen Dank! (",
                   "timeStart": "46.720",
-                  "timeEnd": "48.480",
-                  "entities": []
+                  "timeEnd": "48.520",
+                  "entities": [
+                    {
+                      "label": "Parlamentsdirektion",
+                      "wid": "Q4817650",
+                      "wtype": "MISC",
+                      "score": 0.7934
+                    }
+                  ]
                 },
                 {
                   "text": "Beifall bei Abgeordneten von ÖVP, SPÖ, FPÖ, Grünen und NEOS.)",
-                  "timeStart": "48.480",
+                  "timeStart": "48.520",
                   "timeEnd": "51.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "ÖVP",
+                      "wid": "Q186867",
+                      "wtype": "ORG",
+                      "score": 0.7392
+                    },
+                    {
+                      "label": "SPÖ",
+                      "wid": "Q179111",
+                      "wtype": "ORG",
+                      "score": 0.7342
+                    },
+                    {
+                      "label": "FPÖ",
+                      "wid": "Q131692",
+                      "wtype": "ORG",
+                      "score": 0.7791
+                    },
+                    {
+                      "label": "Grünen",
+                      "wid": "Q49766",
+                      "wtype": "ORG",
+                      "score": 0.3575
+                    },
+                    {
+                      "label": "NEOS",
+                      "wid": "Q13564543",
+                      "wtype": "ORG",
+                      "score": 0.804
+                    }
+                  ]
                 }
               ],
               "text": "Ich bedanke mich bei allen für das Ausharren und die sehr intensiven Diskussionen in den letzten beiden Tagen. Herzlichen Dank auch unserer Administration, der Parlamentsdirektion, dem Nationalratsdienst – herzlichen Dank! (Beifall bei Abgeordneten von ÖVP, SPÖ, FPÖ, Grünen und NEOS.)"
@@ -840,8 +1335,8 @@
         "stdId": 307305,
         "debatteId": 300,
         "proceedingIndex": 307305,
-        "alignDuration": 0.8127400875091553,
-        "nerDuration": 0.3435230255126953
+        "alignDuration": 0.8223545551300049,
+        "nerDuration": 0.8462445735931396
       },
       "originalLanguage": "de"
     }

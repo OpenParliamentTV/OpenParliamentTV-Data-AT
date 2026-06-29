@@ -5,11 +5,12 @@
     "dateStart": "2022-12-14T22:29:57",
     "dateEnd": "2022-12-14T22:30:31",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-23T22:55:23",
+    "lastUpdate": "2026-06-28T12:54:37",
     "processing": {
       "merge": "2026-06-16T04:24:03+00:00",
-      "align": "2026-06-23T22:55:23",
-      "ner": "2026-06-28T03:11:44"
+      "align": "2026-06-28T12:54:37",
+      "ner": "2026-06-28T15:56:43",
+      "nel": "2026-06-28T07:25:32"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 190. Sitzung.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.760",
+                  "timeEnd": "2.320",
                   "entities": []
                 }
               ],
@@ -85,7 +86,7 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind heute die Abgeordneten Dipl.-Kffr. (",
-                  "timeStart": "1.760",
+                  "timeStart": "2.320",
                   "timeEnd": "2.840",
                   "entities": []
                 },
@@ -93,25 +94,95 @@
                   "text": "FH) Elisabeth Pfurtscheller , MMMag.",
                   "timeStart": "2.840",
                   "timeEnd": "2.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Gertraud Salzmann , Dr. Josef Smolle , Mag.",
                   "timeStart": "2.840",
                   "timeEnd": "2.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gertraud Salzmann",
+                      "wid": "Q47004998",
+                      "wtype": "PER",
+                      "score": 0.9795
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "MISC",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Maximilian Köllner, MA , Dr. Pamela Rendi-Wagner, MSc , Dr. Dagmar Belakowitsch , Herbert Kickl und Mag.",
                   "timeStart": "2.840",
                   "timeEnd": "2.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.9803
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Pamela Rendi-Wagner",
+                      "wid": "Q28912455",
+                      "wtype": "PER",
+                      "score": 0.9903
+                    },
+                    {
+                      "label": "Dagmar Belakowitsch",
+                      "wid": "Q90426",
+                      "wtype": "PER",
+                      "score": 0.9855
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Nina Tomaselli .",
                   "timeStart": "2.840",
                   "timeEnd": "2.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , MMMag. Gertraud Salzmann , Dr. Josef Smolle , Mag. Karin Greiner , Maximilian Köllner, MA , Dr. Pamela Rendi-Wagner, MSc , Dr. Dagmar Belakowitsch , Herbert Kickl und Mag. Nina Tomaselli ."
@@ -194,7 +265,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Medizinproduktegesetz 2021 geändert wird ( 1899 d.B. )",
                   "timeStart": "5.880",
-                  "timeEnd": "8.480",
+                  "timeEnd": "8.280",
                   "entities": []
                 }
               ],
@@ -207,7 +278,7 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "8.480",
+                  "timeStart": "8.280",
                   "timeEnd": "9.520",
                   "entities": []
                 }
@@ -236,7 +307,7 @@
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
                   "timeStart": "9.880",
-                  "timeEnd": "10.480",
+                  "timeEnd": "10.720",
                   "entities": []
                 }
               ],
@@ -249,20 +320,33 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "10.480",
-                  "timeEnd": "10.480",
+                  "timeStart": "10.720",
+                  "timeEnd": "11.480",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Pflegeprämie muss auch in Kärnten und allen anderen Bundesländern 2.000 Euro netto betragen! (",
-                  "timeStart": "10.480",
-                  "timeEnd": "10.720",
-                  "entities": []
+                  "timeStart": "11.480",
+                  "timeEnd": "12.200",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "Kärnten",
+                      "wid": "Q37985",
+                      "wtype": "LOC",
+                      "score": 0.6833
+                    }
+                  ]
                 },
                 {
                   "text": "3054/A(E) )",
-                  "timeStart": "10.720",
-                  "timeEnd": "11.480",
+                  "timeStart": "12.200",
+                  "timeEnd": "12.200",
                   "entities": []
                 }
               ],
@@ -275,9 +359,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz BGBl I 17/2012 geändert wird ( 3059/A )",
-                  "timeStart": "11.480",
+                  "timeStart": "12.200",
                   "timeEnd": "12.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    },
+                    {
+                      "label": "BGBl I",
+                      "wid": "Q836156",
+                      "wtype": "MISC",
+                      "score": 0.5281
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Freiwilligengesetz BGBl I 17/2012 geändert wird ( 3059/A )"
@@ -365,7 +462,20 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Pflegeprämie muss auch in Kärnten und allen anderen Bundesländern 2.000 Euro netto betragen! (",
                   "timeStart": "12.200",
                   "timeEnd": "12.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "Kärnten",
+                      "wid": "Q37985",
+                      "wtype": "LOC",
+                      "score": 0.6833
+                    }
+                  ]
                 },
                 {
                   "text": "3055/A(E) )",
@@ -385,7 +495,26 @@
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend kostenfreier Zugang zur HIV-Prä-Expositionsprophylaxe (PrEP) ( 3060/A(E) )",
                   "timeStart": "12.200",
                   "timeEnd": "12.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "PrEP",
+                      "wid": "Q7239230",
+                      "wtype": "ORG",
+                      "score": 0.238
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q910277",
+                      "wtype": "LOC",
+                      "score": 0.2155
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend kostenfreier Zugang zur HIV-Prä-Expositionsprophylaxe (PrEP) ( 3060/A(E) )"
@@ -399,7 +528,20 @@
                   "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Schaffung eines Arzneimittelkostendeckels ( 3061/A(E) )",
                   "timeStart": "12.200",
                   "timeEnd": "12.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend Schaffung eines Arzneimittelkostendeckels ( 3061/A(E) )"
@@ -413,7 +555,26 @@
                   "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Datenerhebung und Bewusstseinskampagne zu Stealthing ( 3062/A(E) )",
                   "timeStart": "12.200",
                   "timeEnd": "12.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Stealthing",
+                      "wid": "Q29582627",
+                      "wtype": "LOC",
+                      "score": 0.872
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Datenerhebung und Bewusstseinskampagne zu Stealthing ( 3062/A(E) )"
@@ -440,8 +601,21 @@
                 {
                   "text": "Antrag der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Es braucht eine wirklich faire Schwerarbeiterregelung für die Justizwache ( 3065/A(E) )",
                   "timeStart": "12.360",
-                  "timeEnd": "13.440",
-                  "entities": []
+                  "timeEnd": "13.280",
+                  "entities": [
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Es braucht eine wirklich faire Schwerarbeiterregelung für die Justizwache ( 3065/A(E) )"
@@ -453,8 +627,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "13.440",
-                  "timeEnd": "13.440",
+                  "timeStart": "13.280",
+                  "timeEnd": "13.400",
                   "entities": []
                 }
               ],
@@ -467,9 +641,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Weiterentwicklung des Grundrechtekatalogs – Schaffung von sozialen Grundrechten ( 3057/A(E) )",
-                  "timeStart": "13.440",
-                  "timeEnd": "17.680",
-                  "entities": []
+                  "timeStart": "13.400",
+                  "timeEnd": "17.720",
+                  "entities": [
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.977
+                    },
+                    {
+                      "label": "Grundrechtekatalogs",
+                      "wid": "Q315575",
+                      "wtype": "LOC",
+                      "score": 0.4899
+                    },
+                    {
+                      "label": "sozialen",
+                      "wid": "Q619610",
+                      "wtype": "MISC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Weiterentwicklung des Grundrechtekatalogs – Schaffung von sozialen Grundrechten ( 3057/A(E) )"
@@ -481,9 +680,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Bericht der Volksanwaltschaft über Präventive Empfehlungen zum Schutz und zur Förderung der Menschenrechte im Bereich des Straf- und Maßnahmenvollzugs – Schriftenreihe der Volksanwaltschaft – Band VI ( 3058/A(E) )",
-                  "timeStart": "17.680",
-                  "timeEnd": "21.000",
-                  "entities": []
+                  "timeStart": "17.720",
+                  "timeEnd": "19.800",
+                  "entities": [
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Bericht der Volksanwaltschaft über Präventive Empfehlungen zum Schutz und zur Förderung der Menschenrechte im Bereich des Straf- und Maßnahmenvollzugs – Schriftenreihe der Volksanwaltschaft – Band VI ( 3058/A(E) )"
@@ -495,8 +707,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "21.000",
-                  "timeEnd": "21.400",
+                  "timeStart": "19.800",
+                  "timeEnd": "19.840",
                   "entities": []
                 }
               ],
@@ -509,32 +721,52 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "21.400",
-                  "timeEnd": "21.400",
+                  "timeStart": "19.840",
+                  "timeEnd": "19.840",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Gendern?",
-                  "timeStart": "21.400",
-                  "timeEnd": "21.680",
-                  "entities": []
+                  "timeStart": "19.840",
+                  "timeEnd": "20.000",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
                 },
                 {
                   "text": "Nein Danke!",
-                  "timeStart": "21.680",
-                  "timeEnd": "21.720",
+                  "timeStart": "20.000",
+                  "timeEnd": "20.000",
                   "entities": []
                 },
                 {
                   "text": "Regeln der deutschen Sprache einhalten – keine politisch motivierte Verfremdung der Sprache! (",
-                  "timeStart": "21.720",
-                  "timeEnd": "22.360",
-                  "entities": []
+                  "timeStart": "20.000",
+                  "timeEnd": "21.680",
+                  "entities": [
+                    {
+                      "label": "deutschen Sprache",
+                      "wid": "Q188",
+                      "wtype": "MISC",
+                      "score": 0.4234
+                    }
+                  ]
                 },
                 {
                   "text": "3063/A(E) )",
-                  "timeStart": "22.360",
-                  "timeEnd": "22.960",
+                  "timeStart": "21.680",
+                  "timeEnd": "22.360",
                   "entities": []
                 }
               ],
@@ -547,8 +779,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "22.960",
-                  "timeEnd": "23.080",
+                  "timeStart": "22.360",
+                  "timeEnd": "22.920",
                   "entities": []
                 }
               ],
@@ -561,14 +793,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
-                  "timeStart": "23.080",
-                  "timeEnd": "23.720",
-                  "entities": []
+                  "timeStart": "22.920",
+                  "timeEnd": "23.840",
+                  "entities": [
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.9914
+                    },
+                    {
+                      "label": "XXVII",
+                      "wid": "Q1463422",
+                      "wtype": "MISC",
+                      "score": 0.095
+                    }
+                  ]
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird ( 3066/A )",
-                  "timeStart": "23.720",
-                  "timeEnd": "25.120",
+                  "timeStart": "23.840",
+                  "timeEnd": "25.600",
                   "entities": []
                 }
               ],
@@ -581,9 +826,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "25.120",
-                  "timeEnd": "25.280",
-                  "entities": []
+                  "timeStart": "25.600",
+                  "timeEnd": "25.880",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -595,15 +847,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "25.280",
-                  "timeEnd": "26.000",
+                  "timeStart": "25.880",
+                  "timeEnd": "26.960",
                   "entities": []
                 },
                 {
                   "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend Schluss mit dem Genderzwang an den Universitäten ( 3056/A(E) )",
-                  "timeStart": "26.000",
+                  "timeStart": "26.960",
                   "timeEnd": "27.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Martin Graf , Kolleginnen und Kollegen betreffend Schluss mit dem Genderzwang an den Universitäten ( 3056/A(E) )"
@@ -623,7 +888,20 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend FH-Entwicklungs- und Finanzierungsplan ( 3064/A(E) )",
                   "timeStart": "27.880",
                   "timeEnd": "29.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend FH-Entwicklungs- und Finanzierungsplan ( 3064/A(E) )"
@@ -692,8 +970,8 @@
         "stdId": 286503,
         "debatteId": 300,
         "proceedingIndex": 286503,
-        "alignDuration": 0.8161299228668213,
-        "nerDuration": 0.2632570266723633
+        "alignDuration": 0.6515579223632812,
+        "nerDuration": 0.4694335460662842
       },
       "originalLanguage": "de"
     }

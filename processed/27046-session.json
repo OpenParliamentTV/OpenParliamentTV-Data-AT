@@ -5,11 +5,12 @@
     "dateStart": "2020-07-08T22:51:29",
     "dateEnd": "2020-07-08T22:52:05",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-16T21:47:02",
+    "lastUpdate": "2026-06-28T09:33:41",
     "processing": {
       "merge": "2026-06-16T04:23:39+00:00",
-      "align": "2026-06-16T21:47:02",
-      "ner": "2026-06-28T02:28:23"
+      "align": "2026-06-28T09:33:41",
+      "ner": "2026-06-28T14:53:39",
+      "nel": "2026-06-28T07:25:22"
     }
   },
   "data": [
@@ -84,14 +85,40 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Angela Baumgartner , Carina Reiter , Mag.",
                   "timeStart": "2.240",
-                  "timeEnd": "3.360",
-                  "entities": []
+                  "timeEnd": "3.400",
+                  "entities": [
+                    {
+                      "label": "Angela Baumgartner",
+                      "wid": "Q42328389",
+                      "wtype": "PER",
+                      "score": 0.9774
+                    },
+                    {
+                      "label": "Carina Reiter",
+                      "wid": "Q72079820",
+                      "wtype": "PER",
+                      "score": 0.978
+                    }
+                  ]
                 },
                 {
                   "text": "Elisabeth Scheucher-Pichler , Dietmar Keck , Mag.",
-                  "timeStart": "3.360",
+                  "timeStart": "3.400",
                   "timeEnd": "5.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9889
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Petra Oberrauner und Josef Schellhorn .",
@@ -194,7 +221,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Umweltförderungsgesetz geändert wird ( 342 d.B. )",
                   "timeStart": "8.600",
-                  "timeEnd": "9.560",
+                  "timeEnd": "9.280",
                   "entities": []
                 }
               ],
@@ -207,9 +234,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird ( 343 d.B. )",
-                  "timeStart": "9.560",
+                  "timeStart": "9.280",
                   "timeEnd": "11.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Bundesministerin für Digitalisierung und Wirtschaftsstandort",
+                      "wid": "Q1006406",
+                      "wtype": "ORG",
+                      "score": 0.9204
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird ( 343 d.B. )"
@@ -265,7 +305,26 @@
                   "text": "Antrag 773/A(E) der Abgeordneten Rainer Wimmer , Kolleginnen und Kollegen betreffend Ratifizierung des Übereinkommens (Nr. 184) und der Empfehlung (Nr. 192) der Internationalen Arbeitsorganisation über den Arbeitsschutz in der Landwirtschaft",
                   "timeStart": "12.880",
                   "timeEnd": "15.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8825
+                    },
+                    {
+                      "label": "Internationalen Arbeitsorganisation",
+                      "wid": "Q54129",
+                      "wtype": "ORG",
+                      "score": 0.9935
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 773/A(E) der Abgeordneten Rainer Wimmer , Kolleginnen und Kollegen betreffend Ratifizierung des Übereinkommens (Nr. 184) und der Empfehlung (Nr. 192) der Internationalen Arbeitsorganisation über den Arbeitsschutz in der Landwirtschaft"
@@ -293,7 +352,20 @@
                   "text": "Antrag 770/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"einen bundeseinheitlichen Rahmen und einheitlich geregelte Finanzierung der Kinderschutzzentren\"",
                   "timeStart": "15.920",
                   "timeEnd": "16.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 770/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"einen bundeseinheitlichen Rahmen und einheitlich geregelte Finanzierung der Kinderschutzzentren\""
@@ -307,7 +379,20 @@
                   "text": "Antrag 772/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend erweiterter Beobachtungszeitraum für das Erfordernis der Erwerbstätigkeit beim einkommensabhängigen Kinderbetreuungsgeld",
                   "timeStart": "16.600",
                   "timeEnd": "18.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 772/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend erweiterter Beobachtungszeitraum für das Erfordernis der Erwerbstätigkeit beim einkommensabhängigen Kinderbetreuungsgeld"
@@ -320,7 +405,7 @@
                 {
                   "text": "Gesundheitsausschuss:",
                   "timeStart": "18.120",
-                  "timeEnd": "18.120",
+                  "timeEnd": "18.240",
                   "entities": []
                 }
               ],
@@ -333,8 +418,8 @@
               "sentences": [
                 {
                   "text": "Antrag 775/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Keine zwangsweise Trennung von internationalen, unverheirateten Paaren mehr",
-                  "timeStart": "18.120",
-                  "timeEnd": "20.640",
+                  "timeStart": "18.240",
+                  "timeEnd": "21.040",
                   "entities": []
                 }
               ],
@@ -347,8 +432,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "20.640",
-                  "timeEnd": "21.040",
+                  "timeStart": "21.040",
+                  "timeEnd": "21.080",
                   "entities": []
                 }
               ],
@@ -361,9 +446,34 @@
               "sentences": [
                 {
                   "text": "Antrag 771/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend den \"Mahnstein gegen Krieg und Faschismus\" in Braunau",
-                  "timeStart": "21.040",
-                  "timeEnd": "22.880",
-                  "entities": []
+                  "timeStart": "21.080",
+                  "timeEnd": "24.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Faschismus",
+                      "wid": "Q6223",
+                      "wtype": "ORG",
+                      "score": 0.6181
+                    },
+                    {
+                      "label": "Braunau",
+                      "wid": "Q131128",
+                      "wtype": "LOC",
+                      "score": 0.4332
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 771/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend den \"Mahnstein gegen Krieg und Faschismus\" in Braunau"
@@ -375,8 +485,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "22.880",
-                  "timeEnd": "24.240",
+                  "timeStart": "24.680",
+                  "timeEnd": "24.800",
                   "entities": []
                 }
               ],
@@ -389,7 +499,7 @@
               "sentences": [
                 {
                   "text": "Antrag 777/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Einrichtung eines Grünen Netzes von 200.000 Hektar zusätzlich geschützter Waldfläche in ganz Österreich",
-                  "timeStart": "24.240",
+                  "timeStart": "24.800",
                   "timeEnd": "26.800",
                   "entities": []
                 }
@@ -405,7 +515,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "26.800",
                   "timeEnd": "26.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -418,8 +535,21 @@
                 {
                   "text": "Antrag 774/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Gutscheinheft für Freizeitaktivitäten",
                   "timeStart": "26.800",
-                  "timeEnd": "28.280",
-                  "entities": []
+                  "timeEnd": "28.160",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 774/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Gutscheinheft für Freizeitaktivitäten"
@@ -431,8 +561,8 @@
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
-                  "timeStart": "28.280",
-                  "timeEnd": "28.280",
+                  "timeStart": "28.160",
+                  "timeEnd": "28.240",
                   "entities": []
                 }
               ],
@@ -445,7 +575,7 @@
               "sentences": [
                 {
                   "text": "Antrag 776/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Einrichtung eines Grünen Netzes von 200.000 Hektar zusätzlich geschützter Waldfläche in ganz Österreich",
-                  "timeStart": "28.280",
+                  "timeStart": "28.240",
                   "timeEnd": "30.360",
                   "entities": []
                 }
@@ -460,7 +590,7 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 9. Juli 2020, um 10 Uhr ein, denn um 8 Uhr tagt der EU-Hauptausschuss.",
                   "timeStart": "30.360",
-                  "timeEnd": "32.160",
+                  "timeEnd": "32.200",
                   "entities": []
                 }
               ],
@@ -473,8 +603,8 @@
               "sentences": [
                 {
                   "text": "Die Tagesordnung ergeht auf schriftlichem Wege.",
-                  "timeStart": "32.160",
-                  "timeEnd": "32.480",
+                  "timeStart": "32.200",
+                  "timeEnd": "32.280",
                   "entities": []
                 }
               ],
@@ -487,7 +617,7 @@
               "sentences": [
                 {
                   "text": "Ich danke für das Ausharren und die konstruktiven Dialoge.",
-                  "timeStart": "32.480",
+                  "timeStart": "32.280",
                   "timeEnd": "33.760",
                   "entities": []
                 }
@@ -516,8 +646,8 @@
         "stdId": 222477,
         "debatteId": 300,
         "proceedingIndex": 222477,
-        "alignDuration": 0.5039398670196533,
-        "nerDuration": 0.17667198181152344
+        "alignDuration": 0.5795433521270752,
+        "nerDuration": 0.3384413719177246
       },
       "originalLanguage": "de"
     }

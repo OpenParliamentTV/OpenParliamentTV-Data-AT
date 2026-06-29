@@ -5,11 +5,12 @@
     "dateStart": "2021-03-25T22:07:56",
     "dateEnd": "2021-03-25T22:08:21",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T08:23:01",
+    "lastUpdate": "2026-06-28T10:23:25",
     "processing": {
       "merge": "2026-06-16T04:23:47+00:00",
-      "align": "2026-06-19T08:23:01",
-      "ner": "2026-06-28T02:41:18"
+      "align": "2026-06-28T10:23:25",
+      "ner": "2026-06-28T15:12:54",
+      "nel": "2026-06-28T07:25:25"
     }
   },
   "data": [
@@ -87,13 +88,63 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Ing. Johann Weber , Doris Bures , Klaus Köchl , Wolfgang Zanger und Mag.",
                   "timeStart": "1.920",
                   "timeEnd": "2.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES .",
                   "timeStart": "2.880",
                   "timeEnd": "3.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Ing. Johann Weber , Doris Bures , Klaus Köchl , Wolfgang Zanger und Mag. Beate Meinl-Reisinger, MES ."
@@ -176,7 +227,7 @@
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
                   "timeStart": "5.400",
-                  "timeEnd": "5.840",
+                  "timeEnd": "5.800",
                   "entities": []
                 }
               ],
@@ -189,7 +240,7 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "5.840",
+                  "timeStart": "5.800",
                   "timeEnd": "6.160",
                   "entities": []
                 }
@@ -219,7 +270,20 @@
                   "text": "Antrag 1449/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen",
                   "timeStart": "6.520",
                   "timeEnd": "6.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1449/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen"
@@ -247,7 +311,26 @@
                   "text": "Antrag 1444/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verbotsverfahren gegen die HDP",
                   "timeStart": "6.840",
                   "timeEnd": "6.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "HDP",
+                      "wid": "Q15123187",
+                      "wtype": "ORG",
+                      "score": 0.3608
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1444/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verbotsverfahren gegen die HDP"
@@ -274,8 +357,39 @@
                 {
                   "text": "Antrag 1445/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend klare Vorgaben für den Vollzug, um das im Tierschutzgesetz vorgegebene Verbot der Qualzucht, tatsächlich zu beenden",
                   "timeStart": "7.400",
-                  "timeEnd": "9.960",
-                  "entities": []
+                  "timeEnd": "10.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9357
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1445/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend klare Vorgaben für den Vollzug, um das im Tierschutzgesetz vorgegebene Verbot der Qualzucht, tatsächlich zu beenden"
@@ -287,9 +401,40 @@
               "sentences": [
                 {
                   "text": "Antrag 1446/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen gegen den illegalen Welpenhandel",
-                  "timeStart": "9.960",
-                  "timeEnd": "10.840",
-                  "entities": []
+                  "timeStart": "10.400",
+                  "timeEnd": "10.800",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9357
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1446/A(E) der Abgeordneten Dietmar Keck , Peter Schmiedlechner , Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Maßnahmen gegen den illegalen Welpenhandel"
@@ -301,15 +446,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1448/A der Abgeordneten Mag.",
-                  "timeStart": "10.840",
-                  "timeEnd": "12.000",
+                  "timeStart": "10.800",
+                  "timeEnd": "12.320",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Sicherheitsanforderungen und weitere Anforderungen an Lebensmittel, Gebrauchsgegenstände und kosmetische Mittel zum Schutz der Verbraucherinnen und Verbraucher (Lebensmittelsicherheits- und Verbraucherschutzgesetz – LMSVG) geändert wird",
-                  "timeStart": "12.000",
+                  "timeStart": "12.320",
                   "timeEnd": "14.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1448/A der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über Sicherheitsanforderungen und weitere Anforderungen an Lebensmittel, Gebrauchsgegenstände und kosmetische Mittel zum Schutz der Verbraucherinnen und Verbraucher (Lebensmittelsicherheits- und Verbraucherschutzgesetz – LMSVG) geändert wird"
@@ -329,7 +481,14 @@
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Änderung der Strategie zur Pandemiebekämpfung und den angeblich alternativlosen Lockdowns",
                   "timeStart": "14.840",
                   "timeEnd": "15.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1452/A(E) der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Änderung der Strategie zur Pandemiebekämpfung und den angeblich alternativlosen Lockdowns"
@@ -356,8 +515,21 @@
                 {
                   "text": "Antrag 1450/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen",
                   "timeStart": "15.840",
-                  "timeEnd": "16.160",
-                  "entities": []
+                  "timeEnd": "17.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1450/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Berufszentren für Mädchen und junge Frauen"
@@ -369,8 +541,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "16.160",
-                  "timeEnd": "16.160",
+                  "timeStart": "17.680",
+                  "timeEnd": "17.840",
                   "entities": []
                 }
               ],
@@ -383,15 +555,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1443/A(E) der Abgeordneten Mag.",
-                  "timeStart": "16.160",
-                  "timeEnd": "16.160",
+                  "timeStart": "17.840",
+                  "timeEnd": "18.800",
                   "entities": []
                 },
                 {
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend dringend notwendige grundlegende Verbesserungen im Maßnahmenvollzug",
-                  "timeStart": "16.160",
-                  "timeEnd": "16.160",
-                  "entities": []
+                  "timeStart": "18.800",
+                  "timeEnd": "19.480",
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "Maßnahmenvollzug",
+                      "wid": "Q1462958",
+                      "wtype": "MISC",
+                      "score": 0.8555
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1443/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend dringend notwendige grundlegende Verbesserungen im Maßnahmenvollzug"
@@ -403,9 +588,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1447/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Anpassung der Arbeitsbedingungen für Gerichtsdolmetscher*innen an COVID-19-Pandemie, Verbesserung der Qualitätsstandards und Anhebung der Gebühren",
-                  "timeStart": "16.160",
-                  "timeEnd": "17.800",
-                  "entities": []
+                  "timeStart": "19.480",
+                  "timeEnd": "22.240",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1447/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Anpassung der Arbeitsbedingungen für Gerichtsdolmetscher*innen an COVID-19-Pandemie, Verbesserung der Qualitätsstandards und Anhebung der Gebühren"
@@ -417,9 +615,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1453/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eines Lieferkettengesetzes für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise",
-                  "timeStart": "17.800",
-                  "timeEnd": "20.880",
-                  "entities": []
+                  "timeStart": "22.240",
+                  "timeEnd": "23.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "soziale",
+                      "wid": "Q345367",
+                      "wtype": "MISC",
+                      "score": 0.0878
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1453/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend eines Lieferkettengesetzes für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise"
@@ -431,8 +648,8 @@
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
-                  "timeStart": "20.880",
-                  "timeEnd": "21.000",
+                  "timeStart": "23.680",
+                  "timeEnd": "23.720",
                   "entities": []
                 }
               ],
@@ -445,8 +662,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1454/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend ein Lieferkettengesetz für eine soziale, menschenrechtskonforme und nachhaltige Produktionsweise",
-                  "timeStart": "21.000",
-                  "timeEnd": "22.240",
+                  "timeStart": "23.720",
+                  "timeEnd": "24.120",
                   "entities": []
                 }
               ],
@@ -459,8 +676,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1455/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Einrichtung eines Grünen Netzes geschützter Wälder im Ausmaß von zehn Prozent der gesamten Waldfläche in ganz Österreich",
-                  "timeStart": "22.240",
-                  "timeEnd": "23.480",
+                  "timeStart": "24.120",
+                  "timeEnd": "24.120",
                   "entities": []
                 }
               ],
@@ -473,9 +690,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1456/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Ausstieg aus dem Energiecharta-Vertrag",
-                  "timeStart": "23.480",
-                  "timeEnd": "23.840",
-                  "entities": []
+                  "timeStart": "24.120",
+                  "timeEnd": "24.160",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Energiecharta-Vertrag",
+                      "wid": "Q2001857",
+                      "wtype": "MISC",
+                      "score": 0.9233
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1456/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Ausstieg aus dem Energiecharta-Vertrag"
@@ -487,8 +717,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "23.840",
-                  "timeEnd": "24.000",
+                  "timeStart": "24.160",
+                  "timeEnd": "24.160",
                   "entities": []
                 }
               ],
@@ -501,9 +731,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1451/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend sichere Finanzierung des 1-2-3-Tickets",
-                  "timeStart": "24.000",
+                  "timeStart": "24.160",
                   "timeEnd": "24.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1451/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend sichere Finanzierung des 1-2-3-Tickets"
@@ -558,8 +801,8 @@
         "stdId": 240976,
         "debatteId": 300,
         "proceedingIndex": 240976,
-        "alignDuration": 0.7344181537628174,
-        "nerDuration": 0.19578909873962402
+        "alignDuration": 0.598933219909668,
+        "nerDuration": 0.3883638381958008
       },
       "originalLanguage": "de"
     }

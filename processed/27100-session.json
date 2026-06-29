@@ -5,11 +5,12 @@
     "dateStart": "2021-04-22T15:54:16",
     "dateEnd": "2021-04-22T15:55:56",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T19:39:55",
+    "lastUpdate": "2026-06-28T10:31:05",
     "processing": {
       "merge": "2026-06-16T04:23:48+00:00",
-      "align": "2026-06-19T19:39:55",
-      "ner": "2026-06-28T02:43:14"
+      "align": "2026-06-28T10:31:05",
+      "ner": "2026-06-28T15:15:43",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -92,20 +93,70 @@
                 {
                   "text": "Wolfgang Gerstl , Ing. Josef Hechenberger , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Petra Bayr, MA MLS , Kai Jan Krainer , Maximilian Lercher , MMag.",
                   "timeStart": "1.960",
-                  "timeEnd": "3.120",
-                  "entities": []
+                  "timeEnd": "1.960",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Maximilian Lercher",
+                      "wid": "Q1733882",
+                      "wtype": "PER",
+                      "score": 0.4085
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "3.120",
-                  "timeEnd": "3.120",
+                  "timeStart": "1.960",
+                  "timeEnd": "1.960",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs und Christian Lausch .",
-                  "timeStart": "3.120",
-                  "timeEnd": "3.880",
-                  "entities": []
+                  "timeStart": "1.960",
+                  "timeEnd": "1.960",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9793
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Wolfgang Gerstl , Ing. Josef Hechenberger , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Petra Bayr, MA MLS , Kai Jan Krainer , Maximilian Lercher , MMag. DDr. Hubert Fuchs und Christian Lausch ."
@@ -117,8 +168,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "3.880",
-                  "timeEnd": "4.000",
+                  "timeStart": "1.960",
+                  "timeEnd": "1.960",
                   "entities": []
                 }
               ],
@@ -131,8 +182,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "4.000",
-                  "timeEnd": "5.480",
+                  "timeStart": "1.960",
+                  "timeEnd": "1.960",
                   "entities": []
                 }
               ],
@@ -145,8 +196,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "5.480",
-                  "timeEnd": "7.380",
+                  "timeStart": "1.960",
+                  "timeEnd": "1.960",
                   "entities": []
                 }
               ],
@@ -159,8 +210,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "7.380",
-                  "timeEnd": "8.640",
+                  "timeStart": "1.960",
+                  "timeEnd": "1.960",
                   "entities": []
                 }
               ],
@@ -173,8 +224,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 5455/AB bis 5468/AB",
-                  "timeStart": "8.640",
-                  "timeEnd": "9.560",
+                  "timeStart": "1.960",
+                  "timeEnd": "2.120",
                   "entities": []
                 }
               ],
@@ -187,8 +238,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "9.560",
-                  "timeEnd": "9.560",
+                  "timeStart": "2.120",
+                  "timeEnd": "2.120",
                   "entities": []
                 }
               ],
@@ -201,8 +252,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "9.560",
-                  "timeEnd": "9.880",
+                  "timeStart": "2.120",
+                  "timeEnd": "2.320",
                   "entities": []
                 }
               ],
@@ -215,8 +266,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "9.880",
-                  "timeEnd": "10.080",
+                  "timeStart": "2.320",
+                  "timeEnd": "2.440",
                   "entities": []
                 }
               ],
@@ -229,9 +280,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1538/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Klarstellung der Rechtslage betreffend Schutzmaßnahmen für Pflegepersonal in Pflegeeinrichtungen",
-                  "timeStart": "10.080",
-                  "timeEnd": "10.720",
-                  "entities": []
+                  "timeStart": "2.440",
+                  "timeEnd": "4.080",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1538/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Klarstellung der Rechtslage betreffend Schutzmaßnahmen für Pflegepersonal in Pflegeeinrichtungen"
@@ -243,9 +307,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1539/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Erhöhung der Leistungen aus der Arbeitslosenversicherung",
-                  "timeStart": "10.720",
-                  "timeEnd": "10.720",
-                  "entities": []
+                  "timeStart": "4.080",
+                  "timeEnd": "7.380",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1539/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Erhöhung der Leistungen aus der Arbeitslosenversicherung"
@@ -257,9 +334,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1540/A der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gleichbehandlungsgesetz und das Gesetz über die Gleichbehandlungskommission und die Gleichbehandlungsanwaltschaft geändert werden",
-                  "timeStart": "10.720",
-                  "timeEnd": "10.720",
-                  "entities": []
+                  "timeStart": "7.380",
+                  "timeEnd": "10.520",
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9916
+                    },
+                    {
+                      "label": "Gleichbehandlungsgesetz",
+                      "wid": "Q1006097",
+                      "wtype": "MISC",
+                      "score": 0.1014
+                    },
+                    {
+                      "label": "Gleichbehandlungsanwaltschaft",
+                      "wid": "Q1006097",
+                      "wtype": "MISC",
+                      "score": 0.5841
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1540/A der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gleichbehandlungsgesetz und das Gesetz über die Gleichbehandlungskommission und die Gleichbehandlungsanwaltschaft geändert werden"
@@ -271,9 +367,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1541/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schaffung eines \"Corona-Beschäftigungsbonus\"",
-                  "timeStart": "10.720",
-                  "timeEnd": "11.640",
-                  "entities": []
+                  "timeStart": "10.520",
+                  "timeEnd": "10.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1541/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schaffung eines \"Corona-Beschäftigungsbonus\""
@@ -285,9 +394,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1545/A(E) der Abgeordneten Heike Grebien , Kira Grünberg , Kolleginnen und Kollegen betreffend \"Schaffung entsprechender One-Stop-Shops für Menschen mit Behinderungen\"",
-                  "timeStart": "11.640",
+                  "timeStart": "10.920",
                   "timeEnd": "12.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1545/A(E) der Abgeordneten Heike Grebien , Kira Grünberg , Kolleginnen und Kollegen betreffend \"Schaffung entsprechender One-Stop-Shops für Menschen mit Behinderungen\""
@@ -301,7 +429,20 @@
                   "text": "Antrag 1546/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Frauen am Arbeitsmarkt – Maßnahmenpaket zur Krisenbewältigung",
                   "timeStart": "12.120",
                   "timeEnd": "13.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1546/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Frauen am Arbeitsmarkt – Maßnahmenpaket zur Krisenbewältigung"
@@ -314,8 +455,15 @@
                 {
                   "text": "Antrag 1547/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Krankenanstalten-Arbeitszeitgesetz geändert wird",
                   "timeStart": "13.600",
-                  "timeEnd": "14.840",
-                  "entities": []
+                  "timeEnd": "14.800",
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1547/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Krankenanstalten-Arbeitszeitgesetz geändert wird"
@@ -327,8 +475,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1553/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Beendigung der Finanzierung von Golf- und Jachtklubmitgliedschaften mit Kammerbeiträgen der Zwangsmitglieder",
-                  "timeStart": "14.840",
-                  "timeEnd": "18.040",
+                  "timeStart": "14.800",
+                  "timeEnd": "17.200",
                   "entities": []
                 }
               ],
@@ -341,8 +489,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "18.040",
-                  "timeEnd": "18.040",
+                  "timeStart": "17.200",
+                  "timeEnd": "17.200",
                   "entities": []
                 }
               ],
@@ -355,9 +503,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1556/A(E) der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Österreich darf nicht Teil einer Schuldenunion werden",
-                  "timeStart": "18.040",
-                  "timeEnd": "19.640",
-                  "entities": []
+                  "timeStart": "17.200",
+                  "timeEnd": "17.360",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1556/A(E) der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Österreich darf nicht Teil einer Schuldenunion werden"
@@ -369,8 +536,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "19.640",
-                  "timeEnd": "19.640",
+                  "timeStart": "17.360",
+                  "timeEnd": "17.600",
                   "entities": []
                 }
               ],
@@ -383,9 +550,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1554/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend „Netto-Wohnbau“ als Chance in der Krise",
-                  "timeStart": "19.640",
-                  "timeEnd": "19.800",
-                  "entities": []
+                  "timeStart": "17.600",
+                  "timeEnd": "19.640",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1554/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend „Netto-Wohnbau“ als Chance in der Krise"
@@ -397,9 +577,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1555/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Abschaffung der Normverbrauchsabgabe (NoVA)",
-                  "timeStart": "19.800",
-                  "timeEnd": "20.600",
-                  "entities": []
+                  "timeStart": "19.640",
+                  "timeEnd": "20.200",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "NoVA",
+                      "wid": "Q1692950",
+                      "wtype": "ORG",
+                      "score": 0.6078
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1555/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Abschaffung der Normverbrauchsabgabe (NoVA)"
@@ -411,7 +610,7 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "20.600",
+                  "timeStart": "20.200",
                   "timeEnd": "20.720",
                   "entities": []
                 }
@@ -427,7 +626,20 @@
                   "text": "Antrag 1549/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
                   "timeStart": "20.720",
                   "timeEnd": "21.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1549/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -455,7 +667,20 @@
                   "text": "Antrag 1543/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Online-Formular für NS-Meldestelle",
                   "timeStart": "22.400",
                   "timeEnd": "24.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1543/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Online-Formular für NS-Meldestelle"
@@ -468,7 +693,7 @@
                 {
                   "text": "Justizausschuss:",
                   "timeStart": "24.000",
-                  "timeEnd": "24.120",
+                  "timeEnd": "24.080",
                   "entities": []
                 }
               ],
@@ -481,8 +706,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1542/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz vom 23. Jänner 1974 über die mit gerichtlicher Strafe bedrohten Handlungen (Strafgesetzbuch – StGB) geändert wird",
-                  "timeStart": "24.120",
-                  "timeEnd": "26.380",
+                  "timeStart": "24.080",
+                  "timeEnd": "28.880",
                   "entities": []
                 }
               ],
@@ -495,8 +720,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "26.380",
-                  "timeEnd": "27.120",
+                  "timeStart": "28.880",
+                  "timeEnd": "29.400",
                   "entities": []
                 }
               ],
@@ -509,15 +734,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1544/A(E) der Abgeordneten Mag.",
-                  "timeStart": "27.120",
-                  "timeEnd": "27.760",
+                  "timeStart": "29.400",
+                  "timeEnd": "30.140",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Absicherung des Existenzminimums und unpfändbarer Beträge bei Pfändungen",
-                  "timeStart": "27.760",
-                  "timeEnd": "28.880",
-                  "entities": []
+                  "timeStart": "30.140",
+                  "timeEnd": "31.040",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1544/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Absicherung des Existenzminimums und unpfändbarer Beträge bei Pfändungen"
@@ -529,15 +761,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1557/A(E) der Abgeordneten Mag.",
-                  "timeStart": "28.880",
-                  "timeEnd": "29.400",
+                  "timeStart": "31.040",
+                  "timeEnd": "32.240",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend mehr Bio-Produkte und Lebensmittel aus der Region in Großküchen, Kantinen und anderen Versorgungseinheiten in Einrichtungen des Bundes, der Länder und Gemeinden",
-                  "timeStart": "29.400",
-                  "timeEnd": "30.120",
-                  "entities": []
+                  "timeStart": "32.240",
+                  "timeEnd": "32.280",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Großküchen",
+                      "wid": "Q1549418",
+                      "wtype": "LOC",
+                      "score": 0.31
+                    },
+                    {
+                      "label": "Bundes",
+                      "wid": "Q1005903",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1557/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend mehr Bio-Produkte und Lebensmittel aus der Region in Großküchen, Kantinen und anderen Versorgungseinheiten in Einrichtungen des Bundes, der Länder und Gemeinden"
@@ -549,8 +800,8 @@
               "sentences": [
                 {
                   "text": "Sportausschuss:",
-                  "timeStart": "30.120",
-                  "timeEnd": "30.120",
+                  "timeStart": "32.280",
+                  "timeEnd": "32.280",
                   "entities": []
                 }
               ],
@@ -563,21 +814,66 @@
               "sentences": [
                 {
                   "text": "Antrag 1551/A(E) der Abgeordneten Christoph Zarits , Mag.",
-                  "timeStart": "30.120",
-                  "timeEnd": "31.040",
-                  "entities": []
+                  "timeStart": "32.280",
+                  "timeEnd": "32.280",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christoph Zarits",
+                      "wid": "Q42344335",
+                      "wtype": "PER",
+                      "score": 0.9862
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Maximilian Köllner, MA , Mag.",
-                  "timeStart": "31.040",
-                  "timeEnd": "31.400",
-                  "entities": []
+                  "timeStart": "32.280",
+                  "timeEnd": "32.280",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9837
+                    },
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.9803
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Förderung der Menschenrechte durch Sport und große Sportereignisse",
-                  "timeStart": "31.400",
+                  "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1551/A(E) der Abgeordneten Christoph Zarits , Mag. Agnes Sirkka Prammer , Maximilian Köllner, MA , Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Förderung der Menschenrechte durch Sport und große Sportereignisse"
@@ -639,7 +935,32 @@
                   "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesverfassungsgesetz über besondere Verpflichtungen für Mitglieder des Nationalrates, des Bundesrates und des Europäischen Parlaments in den Parlamentsgebäuden während der Covid-19-Pandemie erlassen wird",
                   "timeStart": "32.280",
                   "timeEnd": "32.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.9176
+                    },
+                    {
+                      "label": "Nationalrates",
+                      "wid": "Q871363",
+                      "wtype": "ORG",
+                      "score": 0.547
+                    },
+                    {
+                      "label": "Europäischen Parlaments",
+                      "wid": "Q8889",
+                      "wtype": "ORG",
+                      "score": 0.9429
+                    },
+                    {
+                      "label": "Covid-19-Pandemie",
+                      "wid": "Q81068910",
+                      "wtype": "MISC",
+                      "score": 0.8706
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1548/A der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesverfassungsgesetz über besondere Verpflichtungen für Mitglieder des Nationalrates, des Bundesrates und des Europäischen Parlaments in den Parlamentsgebäuden während der Covid-19-Pandemie erlassen wird"
@@ -708,8 +1029,8 @@
         "stdId": 243588,
         "debatteId": 300,
         "proceedingIndex": 243588,
-        "alignDuration": 0.7940857410430908,
-        "nerDuration": 0.2624819278717041
+        "alignDuration": 0.7178678512573242,
+        "nerDuration": 0.5358598232269287
       },
       "originalLanguage": "de"
     },
@@ -772,7 +1093,7 @@
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "3.760",
+                  "timeEnd": "2.200",
                   "entities": []
                 }
               ],
@@ -785,7 +1106,7 @@
               "sentences": [
                 {
                   "text": "Vor Eingang in die Tagesordnung teile ich mit, dass die Abgeordneten Leichtfried, Kolleginnen und Kollegen beantragt haben, dem Verfassungsausschuss zur Berichterstattung über den Antrag 1548/A (E) eine Frist bis zum 25. April zu setzen.",
-                  "timeStart": "3.760",
+                  "timeStart": "2.200",
                   "timeEnd": "15.940",
                   "entities": []
                 }
@@ -828,12 +1149,12 @@
                 {
                   "text": "Wer dafür ist, den bitte ich um ein bejahendes Zeichen. –",
                   "timeStart": "37.680",
-                  "timeEnd": "41.160",
+                  "timeEnd": "41.120",
                   "entities": []
                 },
                 {
                   "text": "Das ist die Minderheit, abgelehnt.",
-                  "timeStart": "41.160",
+                  "timeStart": "41.120",
                   "timeEnd": "46.000",
                   "entities": []
                 }
@@ -848,8 +1169,8 @@
         "stdId": 243590,
         "debatteId": 310,
         "proceedingIndex": 243590,
-        "alignDuration": 0.35673022270202637,
-        "nerDuration": 0.03540611267089844
+        "alignDuration": 0.4283134937286377,
+        "nerDuration": 0.04412078857421875
       },
       "originalLanguage": "de"
     },
@@ -954,8 +1275,8 @@
         "stdId": 243592,
         "debatteId": 320,
         "proceedingIndex": 243592,
-        "alignDuration": 0.3010141849517822,
-        "nerDuration": 0.016141176223754883
+        "alignDuration": 0.36029577255249023,
+        "nerDuration": 0.019544124603271484
       },
       "originalLanguage": "de"
     }

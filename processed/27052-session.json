@@ -5,11 +5,12 @@
     "dateStart": "2020-09-23T22:47:00",
     "dateEnd": "2020-09-23T22:47:37",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-17T08:59:26",
+    "lastUpdate": "2026-06-28T09:40:24",
     "processing": {
       "merge": "2026-06-16T04:23:40+00:00",
-      "align": "2026-06-17T08:59:26",
-      "ner": "2026-06-28T02:30:05"
+      "align": "2026-06-28T09:40:24",
+      "ner": "2026-06-28T14:56:09",
+      "nel": "2026-06-28T07:25:22"
     }
   },
   "data": [
@@ -86,7 +87,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "1.160",
-                  "timeEnd": "1.720",
+                  "timeEnd": "1.160",
                   "entities": []
                 }
               ],
@@ -99,7 +100,7 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "1.720",
+                  "timeStart": "1.160",
                   "timeEnd": "1.720",
                   "entities": []
                 }
@@ -190,8 +191,15 @@
                 {
                   "text": "Peter Weidinger",
                   "timeStart": "2.800",
-                  "timeEnd": "2.800",
-                  "entities": []
+                  "timeEnd": "3.040",
+                  "entities": [
+                    {
+                      "label": "Peter Weidinger",
+                      "wid": "Q42941654",
+                      "wtype": "PER",
+                      "score": 0.9811
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 40 betreffend \"Für klare Spielregeln bei Tuning-Treffen in Österreich\", überreicht vom Abgeordneten Mag. Peter Weidinger"
@@ -203,9 +211,16 @@
               "sentences": [
                 {
                   "text": "Petition Nr. 41 betreffend der \"Rettung des Lorenz-Böhler-Unfallkrankenhauses\", überreicht vom Abgeordneten Rudolf Silvan",
-                  "timeStart": "2.800",
-                  "timeEnd": "3.240",
-                  "entities": []
+                  "timeStart": "3.040",
+                  "timeEnd": "3.680",
+                  "entities": [
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 41 betreffend der \"Rettung des Lorenz-Böhler-Unfallkrankenhauses\", überreicht vom Abgeordneten Rudolf Silvan"
@@ -217,9 +232,16 @@
               "sentences": [
                 {
                   "text": "Petition Nr. 42 betreffend \"Zukunft der Pflege jetzt gestalten – Daheim statt Heim\", überreicht vom Abgeordneten Christian Ries",
-                  "timeStart": "3.240",
+                  "timeStart": "3.680",
                   "timeEnd": "3.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9362
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 42 betreffend \"Zukunft der Pflege jetzt gestalten – Daheim statt Heim\", überreicht vom Abgeordneten Christian Ries"
@@ -288,14 +310,21 @@
                 {
                   "text": "Antrag 846/A(E) der Abgeordneten Mag.",
                   "timeStart": "4.440",
-                  "timeEnd": "5.000",
+                  "timeEnd": "4.560",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Zuversichtspaket: Reformvorschlag für treffsichere und sparsame Kurzarbeit",
-                  "timeStart": "5.000",
-                  "timeEnd": "5.520",
-                  "entities": []
+                  "timeStart": "4.560",
+                  "timeEnd": "5.780",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 846/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Zuversichtspaket: Reformvorschlag für treffsichere und sparsame Kurzarbeit"
@@ -307,15 +336,22 @@
               "sentences": [
                 {
                   "text": "Antrag 847/A(E) der Abgeordneten Mag.",
-                  "timeStart": "5.520",
-                  "timeEnd": "5.880",
+                  "timeStart": "5.780",
+                  "timeEnd": "6.120",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Zuversichtspaket: Neue Arbeitsplätze ermöglichen",
-                  "timeStart": "5.880",
+                  "timeStart": "6.120",
                   "timeEnd": "6.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 847/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Zuversichtspaket: Neue Arbeitsplätze ermöglichen"
@@ -328,14 +364,27 @@
                 {
                   "text": "Antrag 849/A(E) der Abgeordneten Mag.",
                   "timeStart": "6.880",
-                  "timeEnd": "7.120",
+                  "timeEnd": "6.880",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Offenlegung der Bilanz des SWF",
-                  "timeStart": "7.120",
-                  "timeEnd": "7.520",
-                  "entities": []
+                  "timeStart": "6.880",
+                  "timeEnd": "7.160",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "SWF",
+                      "wid": "Q897128",
+                      "wtype": "ORG",
+                      "score": 0.3707
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 849/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Offenlegung der Bilanz des SWF"
@@ -347,15 +396,22 @@
               "sentences": [
                 {
                   "text": "Antrag 851/A(E) der Abgeordneten Mag.",
-                  "timeStart": "7.520",
-                  "timeEnd": "7.560",
+                  "timeStart": "7.160",
+                  "timeEnd": "7.880",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Corona-Blum-Bonus 2020",
-                  "timeStart": "7.560",
-                  "timeEnd": "7.840",
-                  "entities": []
+                  "timeStart": "7.880",
+                  "timeEnd": "8.040",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 851/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Corona-Blum-Bonus 2020"
@@ -367,15 +423,22 @@
               "sentences": [
                 {
                   "text": "Antrag 872/A der Abgeordneten Mag.",
-                  "timeStart": "7.840",
-                  "timeEnd": "8.240",
+                  "timeStart": "8.040",
+                  "timeEnd": "8.280",
                   "entities": []
                 },
                 {
                   "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Maskenpausen-Gesetz erlassen wird",
-                  "timeStart": "8.240",
+                  "timeStart": "8.280",
                   "timeEnd": "8.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 872/A der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Maskenpausen-Gesetz erlassen wird"
@@ -416,8 +479,27 @@
                 {
                   "text": "Antrag 860/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Langfristige Perspektiven für EZA",
                   "timeStart": "8.280",
-                  "timeEnd": "8.360",
-                  "entities": []
+                  "timeEnd": "8.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "EZA",
+                      "wid": "Q865909",
+                      "wtype": "ORG",
+                      "score": 0.3566
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 860/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Langfristige Perspektiven für EZA"
@@ -429,7 +511,7 @@
               "sentences": [
                 {
                   "text": "Antrag 892/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Betreuung von Tieren bei Grenzschließungen",
-                  "timeStart": "8.360",
+                  "timeStart": "8.400",
                   "timeEnd": "9.200",
                   "entities": []
                 }
@@ -445,7 +527,44 @@
                   "text": "Antrag 898/A(E) der Abgeordneten Dr. Reinhold Lopatka , Dr. Pamela Rendi-Wagner, MSc , Dr. Ewa Ernst-Dziedzic , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend die aktuelle politische Situation in der Republik Belarus (Weißrussland)",
                   "timeStart": "9.200",
                   "timeEnd": "9.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Pamela Rendi-Wagner",
+                      "wid": "Q28912455",
+                      "wtype": "PER",
+                      "score": 0.9903
+                    },
+                    {
+                      "label": "Ewa Ernst-Dziedzic",
+                      "wid": "Q21683549",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    },
+                    {
+                      "label": "Belarus",
+                      "wid": "Q184",
+                      "wtype": "LOC",
+                      "score": 0.3979
+                    },
+                    {
+                      "label": "Weißrussland",
+                      "wid": "Q275396",
+                      "wtype": "LOC",
+                      "score": 0.0999
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 898/A(E) der Abgeordneten Dr. Reinhold Lopatka , Dr. Pamela Rendi-Wagner, MSc , Dr. Ewa Ernst-Dziedzic , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend die aktuelle politische Situation in der Republik Belarus (Weißrussland)"
@@ -472,7 +591,7 @@
                 {
                   "text": "Antrag 855/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Transparenz in der Berichterstattung zum Fixkostenzuschuss",
                   "timeStart": "9.920",
-                  "timeEnd": "10.800",
+                  "timeEnd": "10.840",
                   "entities": []
                 }
               ],
@@ -485,7 +604,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "10.800",
+                  "timeStart": "10.840",
                   "timeEnd": "10.840",
                   "entities": []
                 }
@@ -515,7 +634,20 @@
                   "text": "Antrag 878/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit den Hürden beim Familienhärtefonds – Jedes Kind ist gleich viel wert“",
                   "timeStart": "10.840",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 878/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend \"Schluss mit den Hürden beim Familienhärtefonds – Jedes Kind ist gleich viel wert“"
@@ -529,7 +661,20 @@
                   "text": "Antrag 879/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Schulstartgeld erhöhen für langfristige, planbare Unterstützung",
                   "timeStart": "10.840",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 879/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Schulstartgeld erhöhen für langfristige, planbare Unterstützung"
@@ -543,7 +688,20 @@
                   "text": "Antrag 880/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Maßnahmen gegen Kinderarmut",
                   "timeStart": "10.840",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 880/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Maßnahmen gegen Kinderarmut"
@@ -599,7 +757,20 @@
                   "text": "Antrag 862/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Zuversichtspaket: Unbürokratisch entlasten – Verlustrücktrag ausweiten",
                   "timeStart": "10.840",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Unbürokratisch",
+                      "wid": "Q72468",
+                      "wtype": "PER",
+                      "score": 0.314
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 862/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Zuversichtspaket: Unbürokratisch entlasten – Verlustrücktrag ausweiten"
@@ -613,7 +784,20 @@
                   "text": "Antrag 875/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Vorübergehendes Aussetzen der Steuer auf Einnahmen aus Onlinewerbung (\"Digitalsteuer\")",
                   "timeStart": "10.840",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 875/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Vorübergehendes Aussetzen der Steuer auf Einnahmen aus Onlinewerbung (\"Digitalsteuer\")"
@@ -627,7 +811,20 @@
                   "text": "Antrag 881/A(E) der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend dringend notwendige Reparatur des unsozialen ÖVP-Familienbonus",
                   "timeStart": "10.840",
                   "timeEnd": "10.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 881/A(E) der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend dringend notwendige Reparatur des unsozialen ÖVP-Familienbonus"
@@ -661,7 +858,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Finanzierung für die mittel- bis langfristige Erforschung der psychosozialen Auswirkungen der COVID-19-Pandemie auf die Gesellschaft",
                   "timeStart": "10.840",
                   "timeEnd": "12.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 873/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Finanzierung für die mittel- bis langfristige Erforschung der psychosozialen Auswirkungen der COVID-19-Pandemie auf die Gesellschaft"
@@ -688,8 +892,21 @@
                 {
                   "text": "Antrag 839/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Schnellstmögliche Einberufung der Arbeitsgruppe zur diskriminierungsfreien Blutspende",
                   "timeStart": "12.080",
-                  "timeEnd": "13.040",
-                  "entities": []
+                  "timeEnd": "12.760",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 839/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Schnellstmögliche Einberufung der Arbeitsgruppe zur diskriminierungsfreien Blutspende"
@@ -701,9 +918,22 @@
               "sentences": [
                 {
                   "text": "Antrag 840/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung aus 2019 endlich umsetzen",
-                  "timeStart": "13.040",
+                  "timeStart": "12.760",
                   "timeEnd": "13.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 840/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung aus 2019 endlich umsetzen"
@@ -716,14 +946,21 @@
                 {
                   "text": "Antrag 848/A(E) der Abgeordneten Mag.",
                   "timeStart": "13.840",
-                  "timeEnd": "14.840",
+                  "timeEnd": "13.840",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Verlängerung der telefonischen Krankschreibung für alle",
-                  "timeStart": "14.840",
-                  "timeEnd": "15.320",
-                  "entities": []
+                  "timeStart": "13.840",
+                  "timeEnd": "14.480",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 848/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Verlängerung der telefonischen Krankschreibung für alle"
@@ -735,15 +972,22 @@
               "sentences": [
                 {
                   "text": "Antrag 850/A(E) der Abgeordneten Mag.",
-                  "timeStart": "15.320",
-                  "timeEnd": "15.360",
+                  "timeStart": "14.480",
+                  "timeEnd": "14.840",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-19-Forschungsdatensatz der COVID-19-Hospitalisierten",
-                  "timeStart": "15.360",
+                  "timeStart": "14.840",
                   "timeEnd": "15.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 850/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend COVID-19-Forschungsdatensatz der COVID-19-Hospitalisierten"
@@ -757,7 +1001,20 @@
                   "text": "Antrag 876/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Verbot des Tötens männlicher Küken",
                   "timeStart": "15.360",
                   "timeEnd": "15.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 876/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Verbot des Tötens männlicher Küken"
@@ -771,7 +1028,26 @@
                   "text": "Antrag 899/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Franz Leonhard Eßl , Clemens Stammler , Kolleginnen und Kollegen betreffend die Förderung und Ermöglichung von regionalen und (teil-)mobilen Schlachthöfen und Schlachtung im gewohnten Lebensumfeld der Tiere",
                   "timeStart": "15.360",
                   "timeEnd": "15.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Franz Leonhard Eßl",
+                      "wid": "Q1435943",
+                      "wtype": "PER",
+                      "score": 0.9623
+                    },
+                    {
+                      "label": "Clemens Stammler",
+                      "wid": "Q81616228",
+                      "wtype": "PER",
+                      "score": 0.9755
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 899/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Franz Leonhard Eßl , Clemens Stammler , Kolleginnen und Kollegen betreffend die Förderung und Ermöglichung von regionalen und (teil-)mobilen Schlachthöfen und Schlachtung im gewohnten Lebensumfeld der Tiere"
@@ -805,13 +1081,33 @@
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
                   "timeStart": "15.360",
                   "timeEnd": "15.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend Frauengesundheit: Brustkrebsfrüherkennung während der Corona-Krise",
                   "timeStart": "15.360",
-                  "timeEnd": "16.680",
-                  "entities": []
+                  "timeEnd": "16.120",
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    },
+                    {
+                      "label": "Corona-Krise",
+                      "wid": "Q86847911",
+                      "wtype": "MISC",
+                      "score": 0.3224
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 836/A(E) der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend Frauengesundheit: Brustkrebsfrüherkennung während der Corona-Krise"
@@ -823,7 +1119,7 @@
               "sentences": [
                 {
                   "text": "Antrag 837/A(E) der Abgeordneten Mag.",
-                  "timeStart": "16.680",
+                  "timeStart": "16.120",
                   "timeEnd": "17.320",
                   "entities": []
                 },
@@ -831,7 +1127,26 @@
                   "text": "Meri Disoski , Kira Grünberg , Kolleginnen und Kollegen betreffend Erstellung von Informationsbroschüren in Leichter Sprache zu gynäkologischen Vorsorgeuntersuchungen für Frauen mit Behinderungen",
                   "timeStart": "17.320",
                   "timeEnd": "17.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Leichter Sprache",
+                      "wid": "Q55523846",
+                      "wtype": "MISC",
+                      "score": 0.9774
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 837/A(E) der Abgeordneten Mag. Meri Disoski , Kira Grünberg , Kolleginnen und Kollegen betreffend Erstellung von Informationsbroschüren in Leichter Sprache zu gynäkologischen Vorsorgeuntersuchungen für Frauen mit Behinderungen"
@@ -858,7 +1173,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Bundesgesetz über die Kennzeichnung von Schusswaffen und wesentlichen Bestandteilen von Schusswaffen (Schusswaffenkennzeichnungsgesetz – SchKG) erlassen und das EU-Polizeikooperationsgesetz geändert wird ( 360 d.B. )",
                   "timeStart": "17.360",
-                  "timeEnd": "17.360",
+                  "timeEnd": "18.320",
                   "entities": []
                 }
               ],
@@ -871,8 +1186,8 @@
               "sentences": [
                 {
                   "text": "Antrag 864/A(E) der Abgeordneten Ing. Norbert Hofer , Kolleginnen und Kollegen betreffend unbedingt erforderliche Neukodifikation des gesamten Fremdenrechts",
-                  "timeStart": "17.360",
-                  "timeEnd": "17.360",
+                  "timeStart": "18.320",
+                  "timeEnd": "19.160",
                   "entities": []
                 }
               ],
@@ -885,9 +1200,22 @@
               "sentences": [
                 {
                   "text": "Antrag 865/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend die Nichtaufnahme von \"Moria-Migranten\"",
-                  "timeStart": "17.360",
-                  "timeEnd": "18.000",
-                  "entities": []
+                  "timeStart": "19.160",
+                  "timeEnd": "19.360",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 865/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend die Nichtaufnahme von \"Moria-Migranten\""
@@ -899,15 +1227,28 @@
               "sentences": [
                 {
                   "text": "Antrag 866/A(E) der Abgeordneten Mag.",
-                  "timeStart": "18.000",
-                  "timeEnd": "18.320",
+                  "timeStart": "19.360",
+                  "timeEnd": "19.680",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Transparenzbericht über sämtliche Eingriffe in die Grund- und Freiheitsrechte",
-                  "timeStart": "18.320",
-                  "timeEnd": "19.160",
-                  "entities": []
+                  "timeStart": "19.680",
+                  "timeEnd": "20.000",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 866/A(E) der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Transparenzbericht über sämtliche Eingriffe in die Grund- und Freiheitsrechte"
@@ -919,15 +1260,28 @@
               "sentences": [
                 {
                   "text": "Antrag 868/A(E) der Abgeordneten Mag.",
-                  "timeStart": "19.160",
-                  "timeEnd": "19.680",
+                  "timeStart": "20.000",
+                  "timeEnd": "20.000",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Transparenz bei Straftaten gegen die Exekutive",
-                  "timeStart": "19.680",
+                  "timeStart": "20.000",
                   "timeEnd": "20.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 868/A(E) der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Transparenz bei Straftaten gegen die Exekutive"
@@ -941,7 +1295,32 @@
                   "text": "Antrag 877/A(E) der Abgeordneten Karl Mahrer , David Stögmüller , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Verrechtlichung des gesamtstaatlichen Krisenmanagements",
                   "timeStart": "20.000",
                   "timeEnd": "20.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Karl Mahrer",
+                      "wid": "Q1256218",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 877/A(E) der Abgeordneten Karl Mahrer , David Stögmüller , Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Verrechtlichung des gesamtstaatlichen Krisenmanagements"
@@ -975,13 +1354,27 @@
                   "text": "Michaela Steinacker , Mag.",
                   "timeStart": "20.000",
                   "timeEnd": "20.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das 1. COVID-19-Justiz-Begleitgesetz, das Disziplinarstatut für Rechtsanwälte und Rechtsanwaltsanwärter, das Gesellschaftsrechtliche COVID-19-Gesetz und die Rechtsanwaltsordnung geändert werden",
                   "timeStart": "20.000",
                   "timeEnd": "20.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 895/A der Abgeordneten Mag. Michaela Steinacker , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das 1. COVID-19-Justiz-Begleitgesetz, das Disziplinarstatut für Rechtsanwälte und Rechtsanwaltsanwärter, das Gesellschaftsrechtliche COVID-19-Gesetz und die Rechtsanwaltsordnung geändert werden"
@@ -1001,7 +1394,20 @@
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend die vergleichsweise hohen Inhaftierungsraten Jugendlicher in Österreich und die Suche nach sinnvollen Alternativen",
                   "timeStart": "20.000",
                   "timeEnd": "20.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 897/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend die vergleichsweise hohen Inhaftierungsraten Jugendlicher in Österreich und die Suche nach sinnvollen Alternativen"
@@ -1029,7 +1435,20 @@
                   "text": "Antrag 886/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Konsumentenschutzpolitik muss weiterhin Priorität haben",
                   "timeStart": "20.000",
                   "timeEnd": "20.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 886/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Konsumentenschutzpolitik muss weiterhin Priorität haben"
@@ -1084,7 +1503,7 @@
                 {
                   "text": "Antrag 856/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Evaluierung der landwirtschaftlichen und klimapolitischen Potentiale von künstlichen Witterungsprozessen",
                   "timeStart": "20.000",
-                  "timeEnd": "20.400",
+                  "timeEnd": "20.360",
                   "entities": []
                 }
               ],
@@ -1097,8 +1516,8 @@
               "sentences": [
                 {
                   "text": "Antrag 863/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Eingliederung von biologischen CO2-Sequestierungsleistungen der Landwirtschaft in die geplante Ökologisierung des Steuer- und Abgabensystems sowie die Umsetzung der GAP Neuausrichtung",
-                  "timeStart": "20.400",
-                  "timeEnd": "22.520",
+                  "timeStart": "20.360",
+                  "timeEnd": "22.120",
                   "entities": []
                 }
               ],
@@ -1111,9 +1530,22 @@
               "sentences": [
                 {
                   "text": "Antrag 884/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Sockelförderbetrag für Arbeitsplätze am Bauernhof",
-                  "timeStart": "22.520",
+                  "timeStart": "22.120",
                   "timeEnd": "23.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 884/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Sockelförderbetrag für Arbeitsplätze am Bauernhof"
@@ -1127,7 +1559,20 @@
                   "text": "Antrag 888/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Landschaftsschützer-Bonus für die Pfleger unserer Kulturlandschaft",
                   "timeStart": "23.040",
                   "timeEnd": "24.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 888/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Landschaftsschützer-Bonus für die Pfleger unserer Kulturlandschaft"
@@ -1197,7 +1642,20 @@
                   "text": "Antrag 841/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Beendigung des massiven Interessenkonflikts der Fördernehmer_innen in Entscheidungsgremien der Sportförderung",
                   "timeStart": "26.960",
                   "timeEnd": "27.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 841/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Beendigung des massiven Interessenkonflikts der Fördernehmer_innen in Entscheidungsgremien der Sportförderung"
@@ -1211,7 +1669,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "27.480",
                   "timeEnd": "27.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -1224,8 +1689,21 @@
                 {
                   "text": "Antrag 833/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Maßnahmen für die Lehrlinge der Tourismusbranche in den Tourismusbetrieben",
                   "timeStart": "27.480",
-                  "timeEnd": "28.000",
-                  "entities": []
+                  "timeEnd": "27.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 833/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Maßnahmen für die Lehrlinge der Tourismusbranche in den Tourismusbetrieben"
@@ -1237,7 +1715,7 @@
               "sentences": [
                 {
                   "text": "Antrag 867/A(E) der Abgeordneten Mag.",
-                  "timeStart": "28.000",
+                  "timeStart": "27.480",
                   "timeEnd": "28.000",
                   "entities": []
                 },
@@ -1245,7 +1723,14 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Eigenkapitalstärkung zur Wiederbelebung der Tourismuswirtschaft",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 867/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Eigenkapitalstärkung zur Wiederbelebung der Tourismuswirtschaft"
@@ -1265,7 +1750,14 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Maßnahmen zur Kompensation der Einnahmenausfälle für Gastronomie und Tourismus in Folge der jüngst verordneten Einschränkungen",
                   "timeStart": "28.000",
                   "timeEnd": "28.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 889/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Maßnahmen zur Kompensation der Einnahmenausfälle für Gastronomie und Tourismus in Folge der jüngst verordneten Einschränkungen"
@@ -1279,7 +1771,20 @@
                   "text": "Antrag 900/A der Abgeordneten Karl Schmidhofer , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird",
                   "timeStart": "28.640",
                   "timeEnd": "29.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karl Schmidhofer",
+                      "wid": "Q63243084",
+                      "wtype": "PER",
+                      "score": 0.9201
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9858
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 900/A der Abgeordneten Karl Schmidhofer , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird"
@@ -1306,7 +1811,7 @@
                 {
                   "text": "Antrag 835/A(E) der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend keine Abwälzung der EU-Plastikabgabe auf SteuerzahlerInnen statt Plastikhersteller",
                   "timeStart": "29.560",
-                  "timeEnd": "29.960",
+                  "timeEnd": "30.120",
                   "entities": []
                 }
               ],
@@ -1319,8 +1824,8 @@
               "sentences": [
                 {
                   "text": "Antrag 858/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Prüfung der Handlungsfähigkeit und der Führungspraxis der Geschäftsführung des Umweltbundesamts",
-                  "timeStart": "29.960",
-                  "timeEnd": "30.240",
+                  "timeStart": "30.120",
+                  "timeEnd": "30.400",
                   "entities": []
                 }
               ],
@@ -1333,7 +1838,7 @@
               "sentences": [
                 {
                   "text": "Antrag 859/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Schaffung eines Masterplans für CO2 Speicherung",
-                  "timeStart": "30.240",
+                  "timeStart": "30.400",
                   "timeEnd": "30.840",
                   "entities": []
                 }
@@ -1363,7 +1868,20 @@
                   "text": "Antrag 890/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Altlastenbeitragsbefreiung für mehr Flächenrecycling",
                   "timeStart": "30.840",
                   "timeEnd": "30.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 890/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Altlastenbeitragsbefreiung für mehr Flächenrecycling"
@@ -1411,7 +1929,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Individuelle Förderung im Kindergarten",
                   "timeStart": "30.840",
                   "timeEnd": "30.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 853/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Individuelle Förderung im Kindergarten"
@@ -1431,7 +1956,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Chancenindex",
                   "timeStart": "30.840",
                   "timeEnd": "30.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 854/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Chancenindex"
@@ -1445,7 +1977,14 @@
                   "text": "Antrag 874/A der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird",
                   "timeStart": "30.840",
                   "timeEnd": "31.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 874/A der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird"
@@ -1515,7 +2054,20 @@
                   "text": "Antrag 870/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Schaffung einer transparenten Preisstruktur bei der ÖBB-\"Vorteilscard\"",
                   "timeStart": "33.680",
                   "timeEnd": "33.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 870/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Schaffung einer transparenten Preisstruktur bei der ÖBB-\"Vorteilscard\""
@@ -1528,8 +2080,21 @@
                 {
                   "text": "Antrag 882/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend verpflichtende Einführung eines Abbiegeassistenten für LKW",
                   "timeStart": "33.960",
-                  "timeEnd": "34.240",
-                  "entities": []
+                  "timeEnd": "34.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 882/A(E) der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend verpflichtende Einführung eines Abbiegeassistenten für LKW"
@@ -1541,7 +2106,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "34.240",
+                  "timeStart": "34.480",
                   "timeEnd": "34.480",
                   "entities": []
                 }
@@ -1591,7 +2156,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Corona-Blum-Bonus",
                   "timeStart": "34.480",
                   "timeEnd": "34.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 852/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Corona-Blum-Bonus"
@@ -1605,7 +2177,20 @@
                   "text": "Antrag 869/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Lehrstellen schaffen durch Einführung des Blum-Bonus-Corona",
                   "timeStart": "34.480",
                   "timeEnd": "34.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 869/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Lehrstellen schaffen durch Einführung des Blum-Bonus-Corona"
@@ -1619,7 +2204,26 @@
                   "text": "Antrag 883/A(E) der Abgeordneten Martina Kaufmann, MMSc BA , Süleyman Zorba , Kolleginnen und Kollegen betreffend Schaffung einer Lehrausbildung mit Schwerpunkt in der digitalen Fertigung",
                   "timeStart": "34.480",
                   "timeEnd": "34.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 883/A(E) der Abgeordneten Martina Kaufmann, MMSc BA , Süleyman Zorba , Kolleginnen und Kollegen betreffend Schaffung einer Lehrausbildung mit Schwerpunkt in der digitalen Fertigung"
@@ -1633,7 +2237,20 @@
                   "text": "Antrag 887/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Rücklagen auflösen und Kammerumlagen aussetzen",
                   "timeStart": "34.480",
                   "timeEnd": "34.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 887/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Rücklagen auflösen und Kammerumlagen aussetzen"
@@ -1717,7 +2334,14 @@
                   "text": "Landesverteidigungsausschuss:",
                   "timeStart": "34.480",
                   "timeEnd": "34.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -1731,7 +2355,20 @@
                   "text": "Bericht der Bundesministerin für Landesverteidigung betreffend den Jahresbericht 2019 der Parlamentarischen Bundesheerkommission für Beschwerdewesen und Stellungnahme der Bundesministerin für Landesverteidigung ( III-177 d.B. )",
                   "timeStart": "34.640",
                   "timeEnd": "35.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesministerin für Landesverteidigung",
+                      "wid": "Q872173",
+                      "wtype": "MISC",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Bundesministerin für Landesverteidigung",
+                      "wid": "Q872173",
+                      "wtype": "ORG",
+                      "score": 0.962
+                    }
+                  ]
                 }
               ],
               "text": "Bericht der Bundesministerin für Landesverteidigung betreffend den Jahresbericht 2019 der Parlamentarischen Bundesheerkommission für Beschwerdewesen und Stellungnahme der Bundesministerin für Landesverteidigung ( III-177 d.B. )"
@@ -1800,8 +2437,8 @@
         "stdId": 225233,
         "debatteId": 300,
         "proceedingIndex": 225233,
-        "alignDuration": 1.5806999206542969,
-        "nerDuration": 0.7353181838989258
+        "alignDuration": 1.3516924381256104,
+        "nerDuration": 1.6699893474578857
       },
       "originalLanguage": "de"
     }

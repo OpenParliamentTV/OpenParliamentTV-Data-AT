@@ -5,11 +5,12 @@
     "dateStart": "2021-07-19T14:38:20",
     "dateEnd": "2021-07-19T14:40:49",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T20:02:21",
+    "lastUpdate": "2026-06-28T10:54:19",
     "processing": {
       "merge": "2026-06-16T04:23:51+00:00",
-      "align": "2026-06-20T20:02:21",
-      "ner": "2026-06-28T02:48:46"
+      "align": "2026-06-28T10:54:19",
+      "ner": "2026-06-28T15:23:40",
+      "nel": "2026-06-28T07:25:27"
     }
   },
   "data": [
@@ -100,110 +101,341 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
                   "timeStart": "6.000",
-                  "timeEnd": "7.680",
+                  "timeEnd": "6.720",
                   "entities": []
                 },
                 {
                   "text": "Martin Engelberg , Mag.",
-                  "timeStart": "7.680",
-                  "timeEnd": "8.280",
-                  "entities": []
+                  "timeStart": "6.720",
+                  "timeEnd": "6.720",
+                  "entities": [
+                    {
+                      "label": "Martin Engelberg",
+                      "wid": "Q42307913",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Carmen Jeitler-Cincelli, BA , Nico Marchetti , Alexander Melchior , Ing. Mag. (",
-                  "timeStart": "8.280",
-                  "timeEnd": "9.120",
-                  "entities": []
+                  "timeStart": "6.720",
+                  "timeEnd": "7.080",
+                  "entities": [
+                    {
+                      "label": "Carmen Jeitler-Cincelli",
+                      "wid": "Q42310694",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4116
+                    },
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Alexander Melchior",
+                      "wid": "Q30015127",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    }
+                  ]
                 },
                 {
                   "text": "FH) Alexandra Tanda , Mag.",
-                  "timeStart": "9.120",
-                  "timeEnd": "10.000",
-                  "entities": []
+                  "timeStart": "7.080",
+                  "timeEnd": "8.200",
+                  "entities": [
+                    {
+                      "label": "FH",
+                      "wid": "Q17028020",
+                      "wtype": "ORG",
+                      "score": 0.0889
+                    },
+                    {
+                      "label": "Alexandra Tanda",
+                      "wid": "Q81616242",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Rudolf Taschner , Mag.",
-                  "timeStart": "10.000",
-                  "timeEnd": "10.640",
+                  "timeStart": "8.200",
+                  "timeEnd": "8.800",
                   "entities": []
                 },
                 {
                   "text": "Ruth Becher , Melanie Erasim, MSc , Mag.",
-                  "timeStart": "10.640",
-                  "timeEnd": "10.640",
-                  "entities": []
+                  "timeStart": "8.800",
+                  "timeEnd": "9.040",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.9781
+                    },
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.971
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Mag.",
-                  "timeStart": "10.640",
-                  "timeEnd": "10.640",
-                  "entities": []
+                  "timeStart": "9.040",
+                  "timeEnd": "9.080",
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9636
+                    }
+                  ]
                 },
                 {
                   "text": "Andrea Kuntzl , Petra Vorderwinkler , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , MMag.",
-                  "timeStart": "10.640",
-                  "timeEnd": "11.200",
-                  "entities": []
+                  "timeStart": "9.080",
+                  "timeEnd": "10.160",
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "11.200",
-                  "timeEnd": "11.200",
+                  "timeStart": "10.160",
+                  "timeEnd": "10.160",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Dr. Susanne Fürst , Mag.",
-                  "timeStart": "11.200",
-                  "timeEnd": "11.440",
-                  "entities": []
+                  "timeStart": "10.160",
+                  "timeEnd": "10.840",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Alois Kainz , Herbert Kickl , Ing. Mag.",
-                  "timeStart": "11.440",
-                  "timeEnd": "11.440",
-                  "entities": []
+                  "timeStart": "10.840",
+                  "timeEnd": "11.160",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Christian Ries , Mag.",
-                  "timeStart": "11.440",
-                  "timeEnd": "12.120",
-                  "entities": []
+                  "timeStart": "11.160",
+                  "timeEnd": "11.160",
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Harald Stefan , Dr. Ewa Ernst-Dziedzic , Mag.",
-                  "timeStart": "12.120",
-                  "timeEnd": "12.600",
-                  "entities": []
+                  "timeStart": "11.160",
+                  "timeEnd": "12.120",
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.965
+                    },
+                    {
+                      "label": "Ewa Ernst-Dziedzic",
+                      "wid": "Q21683549",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Bedrana Ribo, MA , Dr. Helmut Brandstätter , Mag.",
-                  "timeStart": "12.600",
-                  "timeEnd": "13.040",
-                  "entities": []
+                  "timeStart": "12.120",
+                  "timeEnd": "12.640",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    }
+                  ]
                 },
                 {
                   "text": "Felix Eypeltauer , Mag.",
-                  "timeStart": "13.040",
-                  "timeEnd": "13.120",
-                  "entities": []
+                  "timeStart": "12.640",
+                  "timeEnd": "12.840",
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 },
                 {
                   "text": "Martina Künsberg Sarre , Mag.",
-                  "timeStart": "13.120",
-                  "timeEnd": "13.120",
-                  "entities": []
+                  "timeStart": "12.840",
+                  "timeEnd": "12.840",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "LOC",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES , Josef Schellhorn und Mag.",
-                  "timeStart": "13.120",
-                  "timeEnd": "13.680",
-                  "entities": []
+                  "timeStart": "12.840",
+                  "timeEnd": "13.560",
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4046
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Yannick Shetty .",
-                  "timeStart": "13.680",
-                  "timeEnd": "13.840",
-                  "entities": []
+                  "timeStart": "13.560",
+                  "timeEnd": "13.800",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Mag. Carmen Jeitler-Cincelli, BA , Nico Marchetti , Alexander Melchior , Ing. Mag. (FH) Alexandra Tanda , Mag. Dr. Rudolf Taschner , Mag. Ruth Becher , Melanie Erasim, MSc , Mag. Karin Greiner , Mag. Andrea Kuntzl , Petra Vorderwinkler , Dr. Reinhard Eugen Bösch , Dipl.-Ing. Gerhard Deimek , MMag. DDr. Hubert Fuchs , Dr. Susanne Fürst , Mag. Gerald Hauser , Alois Kainz , Herbert Kickl , Ing. Mag. Volker Reifenberger , Christian Ries , Mag. Harald Stefan , Dr. Ewa Ernst-Dziedzic , Mag. Markus Koza , Bedrana Ribo, MA , Dr. Helmut Brandstätter , Mag. Felix Eypeltauer , Mag. Martina Künsberg Sarre , Mag. Beate Meinl-Reisinger, MES , Josef Schellhorn und Mag. Yannick Shetty ."
@@ -215,7 +447,7 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "13.840",
+                  "timeStart": "13.800",
                   "timeEnd": "14.840",
                   "entities": []
                 }
@@ -258,7 +490,7 @@
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
                   "timeStart": "16.720",
-                  "timeEnd": "16.720",
+                  "timeEnd": "17.040",
                   "entities": []
                 }
               ],
@@ -271,7 +503,7 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 6582/AB bis 6614/AB",
-                  "timeStart": "16.720",
+                  "timeStart": "17.040",
                   "timeEnd": "18.440",
                   "entities": []
                 }
@@ -300,7 +532,7 @@
                 {
                   "text": "a) zur Vorberatung:",
                   "timeStart": "18.560",
-                  "timeEnd": "18.600",
+                  "timeEnd": "18.560",
                   "entities": []
                 }
               ],
@@ -313,7 +545,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "18.600",
+                  "timeStart": "18.560",
                   "timeEnd": "19.400",
                   "entities": []
                 }
@@ -329,7 +561,20 @@
                   "text": "Antrag 1844/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Wiederherstellung der Rechtslage vor dem VfGH-Erkenntnis V95-96 vom 23. Juni 2021 betreffend Beschäftigung von Asylwerbern durch eine entsprechende Verordnung des Bundesministers für Arbeit",
                   "timeStart": "19.400",
                   "timeEnd": "22.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Bundesministers für Arbeit",
+                      "wid": "Q491578",
+                      "wtype": "ORG",
+                      "score": 0.618
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1844/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Wiederherstellung der Rechtslage vor dem VfGH-Erkenntnis V95-96 vom 23. Juni 2021 betreffend Beschäftigung von Asylwerbern durch eine entsprechende Verordnung des Bundesministers für Arbeit"
@@ -342,7 +587,7 @@
                 {
                   "text": "Unterrichtsausschuss:",
                   "timeStart": "22.680",
-                  "timeEnd": "22.960",
+                  "timeEnd": "23.240",
                   "entities": []
                 }
               ],
@@ -355,15 +600,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1845/A(E) der Abgeordneten Mag.",
-                  "timeStart": "22.960",
-                  "timeEnd": "23.960",
+                  "timeStart": "23.240",
+                  "timeEnd": "24.200",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Persönliche Assistenz für Schülerinnen und Schüler mit Behinderungen",
-                  "timeStart": "23.960",
+                  "timeStart": "24.200",
                   "timeEnd": "24.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1845/A(E) der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Persönliche Assistenz für Schülerinnen und Schüler mit Behinderungen"
@@ -405,7 +657,20 @@
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2021, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-377 d.B. )",
                   "timeStart": "26.640",
                   "timeEnd": "29.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesminister für Bildung, Wissenschaft und Forschung",
+                      "wid": "Q606227",
+                      "wtype": "ORG",
+                      "score": 0.8749
+                    }
+                  ]
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Juni 2021, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-377 d.B. )"
@@ -432,8 +697,8 @@
         "stdId": 251780,
         "debatteId": 300,
         "proceedingIndex": 251780,
-        "alignDuration": 0.6049869060516357,
-        "nerDuration": 0.16824603080749512
+        "alignDuration": 0.529433012008667,
+        "nerDuration": 0.3863792419433594
       },
       "originalLanguage": "de"
     },
@@ -524,13 +789,13 @@
                 {
                   "text": "„Der Herr Bundespräsident wird ersucht, die außerordentliche Tagung vom 19. Juli 2021 der XXVII.",
                   "timeStart": "8.020",
-                  "timeEnd": "17.040",
+                  "timeEnd": "17.080",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.“",
-                  "timeStart": "17.040",
-                  "timeEnd": "26.280",
+                  "timeStart": "17.080",
+                  "timeEnd": "26.240",
                   "entities": []
                 }
               ],
@@ -543,13 +808,13 @@
               "sentences": [
                 {
                   "text": "Ich bitte jene Damen und Herren, die diesem Antrag zustimmen, um ein entsprechendes Zeichen. –",
-                  "timeStart": "26.280",
-                  "timeEnd": "35.440",
+                  "timeStart": "26.240",
+                  "timeEnd": "31.680",
                   "entities": []
                 },
                 {
                   "text": "Das ist einstimmig angenommen.",
-                  "timeStart": "35.440",
+                  "timeStart": "35.320",
                   "timeEnd": "40.000",
                   "entities": []
                 }
@@ -564,8 +829,8 @@
         "stdId": 251792,
         "debatteId": 310,
         "proceedingIndex": 251792,
-        "alignDuration": 0.33249711990356445,
-        "nerDuration": 0.030499935150146484
+        "alignDuration": 0.400073766708374,
+        "nerDuration": 0.04353642463684082
       },
       "originalLanguage": "de"
     },
@@ -696,7 +961,7 @@
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates mit Ablauf des 19. Juli 2021 für beendet zu erklären.‘“",
                   "timeStart": "36.000",
-                  "timeEnd": "44.080",
+                  "timeEnd": "44.160",
                   "entities": []
                 }
               ],
@@ -709,14 +974,14 @@
               "sentences": [
                 {
                   "text": "Erheben sich Einwendungen gegen die Fassung oder den Inhalt des Amtlichen Protokolls? –",
-                  "timeStart": "44.080",
+                  "timeStart": "44.160",
                   "timeEnd": "50.140",
                   "entities": []
                 },
                 {
                   "text": "Das ist nicht der Fall.",
                   "timeStart": "50.140",
-                  "timeEnd": "52.000",
+                  "timeEnd": "52.040",
                   "entities": []
                 }
               ],
@@ -729,7 +994,7 @@
               "sentences": [
                 {
                   "text": "Dieser Teil des Amtlichen Protokolls gilt daher gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt.",
-                  "timeStart": "52.000",
+                  "timeStart": "52.040",
                   "timeEnd": "61.900",
                   "entities": []
                 }
@@ -758,7 +1023,7 @@
                 {
                   "text": "Ich wünsche Ihnen einen schönen und erholsamen Sommer.",
                   "timeStart": "71.540",
-                  "timeEnd": "76.560",
+                  "timeEnd": "76.520",
                   "entities": []
                 }
               ],
@@ -771,7 +1036,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "76.560",
+                  "timeStart": "76.520",
                   "timeEnd": "80.000",
                   "entities": []
                 }
@@ -786,8 +1051,8 @@
         "stdId": 251795,
         "debatteId": 320,
         "proceedingIndex": 251795,
-        "alignDuration": 0.42126011848449707,
-        "nerDuration": 0.06856203079223633
+        "alignDuration": 0.4886050224304199,
+        "nerDuration": 0.08699727058410645
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2020-06-30T12:50:00",
     "dateEnd": "2020-06-30T12:50:57",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-16T16:42:26",
+    "lastUpdate": "2026-06-28T09:27:40",
     "processing": {
       "merge": "2026-06-16T04:23:38+00:00",
-      "align": "2026-06-16T16:42:26",
-      "ner": "2026-06-28T02:26:59"
+      "align": "2026-06-28T09:27:40",
+      "ner": "2026-06-28T14:51:34",
+      "nel": "2026-06-28T07:25:22"
     }
   },
   "data": [
@@ -70,7 +71,7 @@
                 {
                   "text": "Ich eröffne die 41. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.120",
+                  "timeEnd": "3.400",
                   "entities": []
                 }
               ],
@@ -83,39 +84,91 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "2.120",
-                  "timeEnd": "3.440",
-                  "entities": []
-                },
-                {
-                  "text": "Elisabeth Scheucher-Pichler , Mag.",
-                  "timeStart": "3.440",
+                  "timeStart": "3.400",
                   "timeEnd": "4.640",
                   "entities": []
                 },
                 {
-                  "text": "Thomas Drozda , MMag.",
+                  "text": "Elisabeth Scheucher-Pichler , Mag.",
                   "timeStart": "4.640",
-                  "timeEnd": "5.440",
-                  "entities": []
+                  "timeEnd": "5.400",
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9924
+                    }
+                  ]
+                },
+                {
+                  "text": "Thomas Drozda , MMag.",
+                  "timeStart": "5.400",
+                  "timeEnd": "6.040",
+                  "entities": [
+                    {
+                      "label": "Thomas Drozda",
+                      "wid": "Q24082654",
+                      "wtype": "PER",
+                      "score": 0.9942
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "5.440",
-                  "timeEnd": "5.720",
+                  "timeStart": "6.040",
+                  "timeEnd": "6.040",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Ing. Mag.",
-                  "timeStart": "5.720",
-                  "timeEnd": "6.120",
-                  "entities": []
+                  "timeStart": "6.040",
+                  "timeEnd": "6.040",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty .",
-                  "timeStart": "6.120",
+                  "timeStart": "6.040",
                   "timeEnd": "7.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9868
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Elisabeth Scheucher-Pichler , Mag. Thomas Drozda , MMag. DDr. Hubert Fuchs , Ing. Mag. Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty ."
@@ -170,7 +223,7 @@
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
                   "timeStart": "9.400",
-                  "timeEnd": "9.880",
+                  "timeEnd": "9.920",
                   "entities": []
                 }
               ],
@@ -183,7 +236,7 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 1835/AB bis 1841/AB",
-                  "timeStart": "9.880",
+                  "timeStart": "9.920",
                   "timeEnd": "11.280",
                   "entities": []
                 }
@@ -198,7 +251,7 @@
                 {
                   "text": "2. Regierungsvorlagen:",
                   "timeStart": "11.280",
-                  "timeEnd": "11.760",
+                  "timeEnd": "11.920",
                   "entities": []
                 }
               ],
@@ -211,8 +264,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz betreffend die Errichtung eines Fonds zur Abgeltung von Borkenkäferschäden, zur Förderung klimafitter, artenreicher Wälder und zur Stärkung der Verwendung des Rohstoffes Holz (Waldfondsgesetz) ( 282 d.B. )",
-                  "timeStart": "11.760",
-                  "timeEnd": "13.120",
+                  "timeStart": "11.920",
+                  "timeEnd": "14.520",
                   "entities": []
                 }
               ],
@@ -225,9 +278,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )",
-                  "timeStart": "13.120",
+                  "timeStart": "14.520",
                   "timeEnd": "14.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Polizeiliche Staatsschutzgesetz",
+                      "wid": "Q23689498",
+                      "wtype": "MISC",
+                      "score": 0.9822
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )"
@@ -241,7 +307,20 @@
                   "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )",
                   "timeStart": "14.520",
                   "timeEnd": "14.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )"
@@ -269,7 +348,20 @@
                   "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )",
                   "timeStart": "14.520",
                   "timeEnd": "14.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Telekommunikationsgesetz",
+                      "wid": "Q2401732",
+                      "wtype": "MISC",
+                      "score": 0.3795
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )"
@@ -297,7 +389,20 @@
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )",
                   "timeStart": "14.520",
                   "timeEnd": "16.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Bundesministerin für Digitalisierung und Wirtschaftsstandort",
+                      "wid": "Q1006406",
+                      "wtype": "ORG",
+                      "score": 0.9204
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )"
@@ -310,7 +415,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Tierversuchsgesetz 2012 geändert wird ( 289 d.B. )",
                   "timeStart": "16.280",
-                  "timeEnd": "18.560",
+                  "timeEnd": "18.520",
                   "entities": []
                 }
               ],
@@ -323,8 +428,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz mit dem das Presseförderungsgesetz 2004 geändert wird ( 290 d.B. )",
-                  "timeStart": "18.560",
-                  "timeEnd": "20.360",
+                  "timeStart": "18.520",
+                  "timeEnd": "20.040",
                   "entities": []
                 }
               ],
@@ -337,8 +442,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "20.360",
-                  "timeEnd": "21.060",
+                  "timeStart": "20.040",
+                  "timeEnd": "20.360",
                   "entities": []
                 }
               ],
@@ -351,8 +456,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "21.060",
-                  "timeEnd": "22.080",
+                  "timeStart": "20.360",
+                  "timeEnd": "20.920",
                   "entities": []
                 }
               ],
@@ -365,8 +470,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "22.080",
-                  "timeEnd": "22.760",
+                  "timeStart": "20.920",
+                  "timeEnd": "21.040",
                   "entities": []
                 }
               ],
@@ -379,8 +484,8 @@
               "sentences": [
                 {
                   "text": "Antrag 734/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Anpassung des Corona Familienhärtefonds",
-                  "timeStart": "22.760",
-                  "timeEnd": "27.000",
+                  "timeStart": "21.040",
+                  "timeEnd": "22.760",
                   "entities": []
                 }
               ],
@@ -393,8 +498,8 @@
               "sentences": [
                 {
                   "text": "Antrag 737/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Anpassung des Fixkostenzuschusses",
-                  "timeStart": "27.000",
-                  "timeEnd": "29.360",
+                  "timeStart": "22.760",
+                  "timeEnd": "24.800",
                   "entities": []
                 }
               ],
@@ -407,8 +512,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "29.360",
-                  "timeEnd": "29.440",
+                  "timeStart": "24.800",
+                  "timeEnd": "25.160",
                   "entities": []
                 }
               ],
@@ -421,8 +526,8 @@
               "sentences": [
                 {
                   "text": "Versicherungsaufsichtsrechtsnovelle 2020 ( 249 d.B. )",
-                  "timeStart": "29.440",
-                  "timeEnd": "30.800",
+                  "timeStart": "25.160",
+                  "timeEnd": "25.640",
                   "entities": []
                 }
               ],
@@ -435,8 +540,8 @@
               "sentences": [
                 {
                   "text": "Antrag 733/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Absicherung des Warenverkehrs in der Krise",
-                  "timeStart": "30.800",
-                  "timeEnd": "32.400",
+                  "timeStart": "25.640",
+                  "timeEnd": "27.400",
                   "entities": []
                 }
               ],
@@ -449,8 +554,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "32.400",
-                  "timeEnd": "32.600",
+                  "timeStart": "27.400",
+                  "timeEnd": "28.200",
                   "entities": []
                 }
               ],
@@ -463,8 +568,8 @@
               "sentences": [
                 {
                   "text": "Antrag 732/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Anreize für Forschungsförderung durch Private",
-                  "timeStart": "32.600",
-                  "timeEnd": "34.440",
+                  "timeStart": "28.200",
+                  "timeEnd": "30.000",
                   "entities": []
                 }
               ],
@@ -477,8 +582,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "34.440",
-                  "timeEnd": "35.200",
+                  "timeStart": "30.000",
+                  "timeEnd": "30.600",
                   "entities": []
                 }
               ],
@@ -491,15 +596,41 @@
               "sentences": [
                 {
                   "text": "Antrag 730/A(E) der Abgeordneten Karl Mahrer , Mag.",
-                  "timeStart": "35.200",
-                  "timeEnd": "37.180",
-                  "entities": []
+                  "timeStart": "30.600",
+                  "timeEnd": "31.040",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Karl Mahrer",
+                      "wid": "Q1256218",
+                      "wtype": "PER",
+                      "score": 0.9936
+                    }
+                  ]
                 },
                 {
                   "text": "Georg Bürstmayr , Douglas Hoyos-Trauttmansdorff , Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Transparenz im Staatlichen Krisen- und Katastrophenschutzmanagement",
-                  "timeStart": "37.180",
-                  "timeEnd": "42.080",
-                  "entities": []
+                  "timeStart": "31.040",
+                  "timeEnd": "32.600",
+                  "entities": [
+                    {
+                      "label": "Georg Bürstmayr",
+                      "wid": "Q38057788",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 730/A(E) der Abgeordneten Karl Mahrer , Mag. Georg Bürstmayr , Douglas Hoyos-Trauttmansdorff , Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Transparenz im Staatlichen Krisen- und Katastrophenschutzmanagement"
@@ -511,21 +642,53 @@
               "sentences": [
                 {
                   "text": "Antrag 731/A(E) der Abgeordneten Mag.",
-                  "timeStart": "42.080",
-                  "timeEnd": "43.280",
+                  "timeStart": "32.600",
+                  "timeEnd": "33.120",
                   "entities": []
                 },
                 {
                   "text": "Peter Weidinger , Sabine Schatz , Mag.",
-                  "timeStart": "43.280",
-                  "timeEnd": "43.840",
-                  "entities": []
+                  "timeStart": "33.120",
+                  "timeEnd": "33.120",
+                  "entities": [
+                    {
+                      "label": "Peter Weidinger",
+                      "wid": "Q42941654",
+                      "wtype": "PER",
+                      "score": 0.9754
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    }
+                  ]
                 },
                 {
                   "text": "Georg Bürstmayr , Michael Bernhard , Kolleginnen und Kollegen betreffend Untersagung der Feier im Gedenken an das \"Massaker von Bleiburg\"",
-                  "timeStart": "43.840",
-                  "timeEnd": "44.080",
-                  "entities": []
+                  "timeStart": "33.120",
+                  "timeEnd": "35.960",
+                  "entities": [
+                    {
+                      "label": "Georg Bürstmayr",
+                      "wid": "Q38057788",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Michael Bernhard",
+                      "wid": "Q15602114",
+                      "wtype": "PER",
+                      "score": 0.5088
+                    },
+                    {
+                      "label": "Massaker von Bleiburg",
+                      "wid": "Q312388",
+                      "wtype": "MISC",
+                      "score": 0.9903
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 731/A(E) der Abgeordneten Mag. Peter Weidinger , Sabine Schatz , Mag. Georg Bürstmayr , Michael Bernhard , Kolleginnen und Kollegen betreffend Untersagung der Feier im Gedenken an das \"Massaker von Bleiburg\""
@@ -537,9 +700,22 @@
               "sentences": [
                 {
                   "text": "Antrag 735/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Bericht über nationale Cybersicherheit",
-                  "timeStart": "44.080",
-                  "timeEnd": "44.080",
-                  "entities": []
+                  "timeStart": "35.960",
+                  "timeEnd": "41.640",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 735/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Bericht über nationale Cybersicherheit"
@@ -551,8 +727,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "44.080",
-                  "timeEnd": "44.080",
+                  "timeStart": "41.640",
+                  "timeEnd": "42.080",
                   "entities": []
                 }
               ],
@@ -565,8 +741,8 @@
               "sentences": [
                 {
                   "text": "Antrag 736/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Angleichung der Rechtzeitigkeitserfordernisse von mittels elektronischem Rechtsverkehr und E-Mail erfolgenden Eingaben mit auf postalischem Weg erfolgenden Eingaben im Verwaltungsverfahren",
-                  "timeStart": "44.080",
-                  "timeEnd": "45.960",
+                  "timeStart": "42.080",
+                  "timeEnd": "44.080",
                   "entities": []
                 }
               ],
@@ -579,8 +755,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "45.960",
-                  "timeEnd": "46.800",
+                  "timeStart": "44.080",
+                  "timeEnd": "44.440",
                   "entities": []
                 }
               ],
@@ -593,8 +769,8 @@
               "sentences": [
                 {
                   "text": "Antrag 738/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Pharmastandortkonzept für eine bessere Arzneimittelversorgungssicherheit",
-                  "timeStart": "46.800",
-                  "timeEnd": "50.000",
+                  "timeStart": "44.440",
+                  "timeEnd": "46.680",
                   "entities": []
                 }
               ],
@@ -607,8 +783,8 @@
               "sentences": [
                 {
                   "text": "Darüber hinaus weise ich den Antrag 739/A(E) dem Sportausschuss, den Antrag 740/A(E) dem Justizausschuss und den Antrag 741/A(E) dem Ausschuss für innere Angelegenheiten zu.",
-                  "timeStart": "50.000",
-                  "timeEnd": "53.240",
+                  "timeStart": "46.680",
+                  "timeEnd": "51.580",
                   "entities": []
                 }
               ],
@@ -621,8 +797,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die weitere geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 12.51 Uhr – das ist gleich im Anschluss an diese Sitzung – ein.",
-                  "timeStart": "53.240",
-                  "timeEnd": "56.440",
+                  "timeStart": "51.580",
+                  "timeEnd": "55.760",
                   "entities": []
                 }
               ],
@@ -635,7 +811,7 @@
               "sentences": [
                 {
                   "text": "Diese Sitzung ist geschlossen.",
-                  "timeStart": "56.440",
+                  "timeStart": "55.760",
                   "timeEnd": "58.000",
                   "entities": []
                 }
@@ -650,8 +826,8 @@
         "stdId": 220807,
         "debatteId": 300,
         "proceedingIndex": 220807,
-        "alignDuration": 0.8232691287994385,
-        "nerDuration": 0.23566985130310059
+        "alignDuration": 0.664959192276001,
+        "nerDuration": 0.6380424499511719
       },
       "originalLanguage": "de"
     }

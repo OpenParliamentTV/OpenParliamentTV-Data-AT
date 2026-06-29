@@ -5,11 +5,12 @@
     "dateStart": "2023-01-25T15:53:48",
     "dateEnd": "2023-01-25T15:56:27",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-24T03:16:11",
+    "lastUpdate": "2026-06-28T12:58:46",
     "processing": {
       "merge": "2026-06-16T04:24:04+00:00",
-      "align": "2026-06-24T03:16:11",
-      "ner": "2026-06-28T03:12:44"
+      "align": "2026-06-28T12:58:46",
+      "ner": "2026-06-28T15:58:08",
+      "nel": "2026-06-28T07:25:33"
     }
   },
   "data": [
@@ -93,31 +94,70 @@
                   "text": "Klaus Fürlinger , Mag.",
                   "timeStart": "3.040",
                   "timeEnd": "3.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 },
                 {
                   "text": "Corinna Scharzenberger , Kira Grünberg , Petra Bayr, MA MLS , Mag.",
                   "timeStart": "3.400",
+                  "timeEnd": "4.120",
+                  "entities": [
+                    {
+                      "label": "Corinna Scharzenberger",
+                      "wid": "Q47005183",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
+                },
+                {
+                  "text": "Dr. Petra Oberrauner , Mag.",
+                  "timeStart": "4.120",
                   "timeEnd": "4.720",
                   "entities": []
                 },
                 {
-                  "text": "Dr. Petra Oberrauner , Mag.",
-                  "timeStart": "4.720",
-                  "timeEnd": "5.000",
-                  "entities": []
-                },
-                {
                   "text": "Dr. Martin Graf und Mag.",
-                  "timeStart": "5.000",
-                  "timeEnd": "5.400",
+                  "timeStart": "4.720",
+                  "timeEnd": "5.200",
                   "entities": []
                 },
                 {
                   "text": "Julia Seidl .",
-                  "timeStart": "5.400",
-                  "timeEnd": "5.880",
-                  "entities": []
+                  "timeStart": "5.200",
+                  "timeEnd": "5.320",
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Dipl.-Ing. Nikolaus Berlakovich , Mag. Klaus Fürlinger , Mag. Corinna Scharzenberger , Kira Grünberg , Petra Bayr, MA MLS , Mag. Dr. Petra Oberrauner , Mag. Dr. Martin Graf und Mag. Julia Seidl ."
@@ -129,8 +169,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "5.880",
-                  "timeEnd": "6.520",
+                  "timeStart": "5.320",
+                  "timeEnd": "5.520",
                   "entities": []
                 }
               ],
@@ -143,8 +183,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "6.520",
-                  "timeEnd": "7.600",
+                  "timeStart": "5.520",
+                  "timeEnd": "8.280",
                   "entities": []
                 }
               ],
@@ -157,8 +197,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "7.600",
-                  "timeEnd": "8.280",
+                  "timeStart": "8.280",
+                  "timeEnd": "8.640",
                   "entities": []
                 }
               ],
@@ -171,8 +211,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "8.280",
-                  "timeEnd": "8.600",
+                  "timeStart": "8.640",
+                  "timeEnd": "9.160",
                   "entities": []
                 }
               ],
@@ -185,8 +225,8 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 12796/AB und 12797/AB",
-                  "timeStart": "8.600",
-                  "timeEnd": "9.360",
+                  "timeStart": "9.160",
+                  "timeEnd": "13.200",
                   "entities": []
                 }
               ],
@@ -199,8 +239,8 @@
               "sentences": [
                 {
                   "text": "2. Regierungsvorlagen:",
-                  "timeStart": "9.360",
-                  "timeEnd": "10.680",
+                  "timeStart": "13.200",
+                  "timeEnd": "13.360",
                   "entities": []
                 }
               ],
@@ -213,9 +253,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Fundrechts-Novelle 2023 – FundR-Nov 2023) ( 1920 d.B. )",
-                  "timeStart": "10.680",
-                  "timeEnd": "13.800",
-                  "entities": []
+                  "timeStart": "13.360",
+                  "timeEnd": "18.000",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine bürgerliche Gesetzbuch",
+                      "wid": "Q698262",
+                      "wtype": "MISC",
+                      "score": 0.6135
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine bürgerliche Gesetzbuch geändert wird (Fundrechts-Novelle 2023 – FundR-Nov 2023) ( 1920 d.B. )"
@@ -227,8 +280,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "13.800",
-                  "timeEnd": "14.240",
+                  "timeStart": "18.000",
+                  "timeEnd": "18.040",
                   "entities": []
                 }
               ],
@@ -241,8 +294,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "14.240",
-                  "timeEnd": "14.880",
+                  "timeStart": "18.040",
+                  "timeEnd": "18.200",
                   "entities": []
                 }
               ],
@@ -255,8 +308,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "14.880",
-                  "timeEnd": "15.680",
+                  "timeStart": "18.200",
+                  "timeEnd": "18.760",
                   "entities": []
                 }
               ],
@@ -269,9 +322,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Abschaffung der Aliquotierung der ersten Anpassung ( 3091/A(E) )",
-                  "timeStart": "15.680",
+                  "timeStart": "18.760",
                   "timeEnd": "19.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Abschaffung der Aliquotierung der ersten Anpassung ( 3091/A(E) )"
@@ -285,7 +351,20 @@
                   "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Schutzklausel bei der Aufwertung der Pensionskontogutschriften ( 3092/A(E) )",
                   "timeStart": "19.000",
                   "timeEnd": "21.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Einführung einer Schutzklausel bei der Aufwertung der Pensionskontogutschriften ( 3092/A(E) )"
@@ -299,7 +378,20 @@
                   "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend keine Abschaffung der geblockten Altersteilzeit ( 3093/A(E) )",
                   "timeStart": "21.480",
                   "timeEnd": "24.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend keine Abschaffung der geblockten Altersteilzeit ( 3093/A(E) )"
@@ -327,7 +419,38 @@
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl.",
                   "timeStart": "24.640",
                   "timeEnd": "27.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0946
+                    },
+                    {
+                      "label": "EU-Kommission",
+                      "wid": "Q8880",
+                      "wtype": "ORG",
+                      "score": 0.9618
+                    },
+                    {
+                      "label": "Nationalrat",
+                      "wid": "Q676078",
+                      "wtype": "ORG",
+                      "score": 0.5497
+                    },
+                    {
+                      "label": "Bundes-Verfassungsgesetz",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.9364
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 1/1930 idF BGBl.",
@@ -344,7 +467,7 @@
                 {
                   "text": "I Nr. 222/2022, geändert wird ( 3101/A )",
                   "timeStart": "28.840",
-                  "timeEnd": "32.400",
+                  "timeEnd": "31.000",
                   "entities": []
                 }
               ],
@@ -357,8 +480,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
-                  "timeStart": "32.400",
-                  "timeEnd": "32.520",
+                  "timeStart": "31.000",
+                  "timeEnd": "31.360",
                   "entities": []
                 }
               ],
@@ -371,7 +494,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Maklergesetz geändert wird (Maklergesetz-Änderungsgesetz – MaklerG-ÄG) ( 1900 d.B. )",
-                  "timeStart": "32.520",
+                  "timeStart": "31.360",
                   "timeEnd": "33.880",
                   "entities": []
                 }
@@ -386,14 +509,27 @@
                 {
                   "text": "Antrag der Abgeordneten Mag.",
                   "timeStart": "33.880",
-                  "timeEnd": "33.880",
+                  "timeEnd": "33.920",
                   "entities": []
                 },
                 {
                   "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz und das Richtwertgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz) ( 3090/A )",
-                  "timeStart": "33.880",
+                  "timeStart": "33.920",
                   "timeEnd": "35.080",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    },
+                    {
+                      "label": "Mietrechtsgesetz",
+                      "wid": "Q48472168",
+                      "wtype": "MISC",
+                      "score": 0.4561
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem zur Linderung der Inflationsfolgen bei den Wohnkosten das Mietrechtsgesetz und das Richtwertgesetz geändert werden (3. Mietrechtliches Inflationslinderungsgesetz) ( 3090/A )"
@@ -406,8 +542,21 @@
                 {
                   "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Wiedereinführung der Wohnbauinvestitionsbank (WBIB) ( 3094/A(E) )",
                   "timeStart": "35.080",
-                  "timeEnd": "36.160",
-                  "entities": []
+                  "timeEnd": "36.680",
+                  "entities": [
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend Wiedereinführung der Wohnbauinvestitionsbank (WBIB) ( 3094/A(E) )"
@@ -419,7 +568,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Johann Singer , Mag.",
-                  "timeStart": "36.160",
+                  "timeStart": "36.680",
                   "timeEnd": "36.720",
                   "entities": []
                 },
@@ -427,7 +576,14 @@
                   "text": "Nina Tomaselli , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Heiz- und Kältekostenabrechnungsgesetz geändert wird ( 3095/A )",
                   "timeStart": "36.720",
                   "timeEnd": "38.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Johann Singer , Mag. Nina Tomaselli , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Heiz- und Kältekostenabrechnungsgesetz geändert wird ( 3095/A )"
@@ -447,7 +603,20 @@
                   "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Keine Anlegerwohnungen bei Wohnungsgenossenschaften ( 3097/A(E) )",
                   "timeStart": "39.520",
                   "timeEnd": "40.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Keine Anlegerwohnungen bei Wohnungsgenossenschaften ( 3097/A(E) )"
@@ -481,7 +650,20 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3089/A )",
                   "timeStart": "40.600",
                   "timeEnd": "42.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3089/A )"
@@ -494,7 +676,7 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das das Bundesgesetz betreffend vorläufige Maßnahmen zur Verhinderung der Verbreitung von COVID-19 (COVID-19-Maßnahmengesetz – COVID-19-MG) geändert wird ( 3104/A )",
                   "timeStart": "42.040",
-                  "timeEnd": "43.920",
+                  "timeEnd": "43.880",
                   "entities": []
                 }
               ],
@@ -507,8 +689,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "43.920",
-                  "timeEnd": "44.120",
+                  "timeStart": "43.880",
+                  "timeEnd": "44.160",
                   "entities": []
                 }
               ],
@@ -521,9 +703,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Maßnahmen gegen Pädophilie und Kinderpornographie ( 3105/A(E) )",
-                  "timeStart": "44.120",
+                  "timeStart": "44.160",
                   "timeEnd": "44.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Maßnahmen gegen Pädophilie und Kinderpornographie ( 3105/A(E) )"
@@ -550,8 +745,27 @@
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Zuleitung eines Berichts über die verschiedenen Möglichkeiten zur Sicherstellung einer langfristigen Finanzierung des Vereins für Konsumenteninformation bis zum 31.3.2023 ( 3099/A(E) )",
                   "timeStart": "44.720",
-                  "timeEnd": "48.240",
-                  "entities": []
+                  "timeEnd": "48.360",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Vereins für Konsumenteninformation",
+                      "wid": "Q2514794",
+                      "wtype": "ORG",
+                      "score": 0.975
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Zuleitung eines Berichts über die verschiedenen Möglichkeiten zur Sicherstellung einer langfristigen Finanzierung des Vereins für Konsumenteninformation bis zum 31.3.2023 ( 3099/A(E) )"
@@ -563,9 +777,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Herkunftskennzeichnung von importierten Honigmischungen ( 3100/A(E) )",
-                  "timeStart": "48.240",
-                  "timeEnd": "48.600",
-                  "entities": []
+                  "timeStart": "48.360",
+                  "timeEnd": "49.040",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Herkunftskennzeichnung von importierten Honigmischungen ( 3100/A(E) )"
@@ -577,8 +804,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "48.600",
-                  "timeEnd": "48.720",
+                  "timeStart": "49.040",
+                  "timeEnd": "49.040",
                   "entities": []
                 }
               ],
@@ -591,9 +818,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Ausloten des Synergiepotentials durch die Verringerung der Anzahl an Förderstellen im Bereich der Filmförderung ( 3098/A(E) )",
-                  "timeStart": "48.720",
+                  "timeStart": "49.040",
                   "timeEnd": "50.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Thomas Spalt",
+                      "wid": "Q114598449",
+                      "wtype": "PER",
+                      "score": 0.9831
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Ausloten des Synergiepotentials durch die Verringerung der Anzahl an Förderstellen im Bereich der Filmförderung ( 3098/A(E) )"
@@ -606,8 +846,15 @@
                 {
                   "text": "Tourismusausschuss:",
                   "timeStart": "50.320",
-                  "timeEnd": "50.600",
-                  "entities": []
+                  "timeEnd": "50.520",
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -619,15 +866,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "50.600",
-                  "timeEnd": "51.240",
+                  "timeStart": "50.520",
+                  "timeEnd": "50.600",
                   "entities": []
                 },
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Kulanzlösung und Entschädigung für alle im Zeitraum 17. bis 25. März 2020 nach dem Epidemiegesetz zwangsgeschlossene Gastronomiebetriebe ( 3102/A(E) )",
-                  "timeStart": "51.240",
+                  "timeStart": "50.600",
                   "timeEnd": "54.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Kulanzlösung und Entschädigung für alle im Zeitraum 17. bis 25. März 2020 nach dem Epidemiegesetz zwangsgeschlossene Gastronomiebetriebe ( 3102/A(E) )"
@@ -654,7 +920,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Umweltverträglichkeitsprüfungsgesetz 2000 geändert wird ( 1901 d.B. )",
                   "timeStart": "54.400",
-                  "timeEnd": "56.360",
+                  "timeEnd": "56.400",
                   "entities": []
                 }
               ],
@@ -667,7 +933,7 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "56.360",
+                  "timeStart": "56.400",
                   "timeEnd": "56.440",
                   "entities": []
                 }
@@ -683,7 +949,38 @@
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz zur Übertragung des Vorschlagsrechts für das österreichische Mitglied der EU-Kommission auf den Nationalrat, wobei dieses der bei den Europawahlen stimmenstärksten Partei zukommen soll, mit dem das Bundes-Verfassungsgesetz (B-VG), BGBl.",
                   "timeStart": "56.440",
                   "timeEnd": "58.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0946
+                    },
+                    {
+                      "label": "EU-Kommission",
+                      "wid": "Q8880",
+                      "wtype": "ORG",
+                      "score": 0.9618
+                    },
+                    {
+                      "label": "Nationalrat",
+                      "wid": "Q676078",
+                      "wtype": "ORG",
+                      "score": 0.5497
+                    },
+                    {
+                      "label": "Bundes-Verfassungsgesetz",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.9364
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 1/1930 idF BGBl.",
@@ -728,8 +1025,21 @@
                 {
                   "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umgehende Verlängerung der Schwellenwerteverordnung 2018 für das Jahr 2023 ( 3096/A(E) )",
                   "timeStart": "62.040",
-                  "timeEnd": "65.000",
-                  "entities": []
+                  "timeEnd": "62.560",
+                  "entities": [
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umgehende Verlängerung der Schwellenwerteverordnung 2018 für das Jahr 2023 ( 3096/A(E) )"
@@ -741,8 +1051,8 @@
               "sentences": [
                 {
                   "text": "Ich weise den Antrag 3106/A dem Ausschuss für Wirtschaft, Industrie und Energie zu.",
-                  "timeStart": "65.000",
-                  "timeEnd": "66.680",
+                  "timeStart": "62.560",
+                  "timeEnd": "63.640",
                   "entities": []
                 }
               ],
@@ -755,8 +1065,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsanträge",
-                  "timeStart": "66.680",
-                  "timeEnd": "67.080",
+                  "timeStart": "63.640",
+                  "timeEnd": "63.920",
                   "entities": []
                 }
               ],
@@ -769,15 +1079,28 @@
               "sentences": [
                 {
                   "text": "Ich teile mit, dass Abgeordneter Mag.",
-                  "timeStart": "67.080",
-                  "timeEnd": "67.720",
+                  "timeStart": "63.920",
+                  "timeEnd": "65.000",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker beantragt hat, dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen.",
-                  "timeStart": "67.720",
-                  "timeEnd": "71.320",
-                  "entities": []
+                  "timeStart": "65.000",
+                  "timeEnd": "69.120",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Ich teile mit, dass Abgeordneter Mag. Gerald Loacker beantragt hat, dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen."
@@ -789,8 +1112,8 @@
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass die Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 3089/A eine Frist bis 31. Jänner 2023 zu setzen.",
-                  "timeStart": "71.320",
-                  "timeEnd": "77.080",
+                  "timeStart": "69.120",
+                  "timeEnd": "72.000",
                   "entities": []
                 }
               ],
@@ -803,15 +1126,22 @@
               "sentences": [
                 {
                   "text": "Ferner hat Abgeordneter Mag.",
-                  "timeStart": "77.080",
-                  "timeEnd": "77.440",
+                  "timeStart": "72.000",
+                  "timeEnd": "72.560",
                   "entities": []
                 },
                 {
                   "text": "Philipp Schrangl beantragt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen.",
-                  "timeStart": "77.440",
-                  "timeEnd": "79.600",
-                  "entities": []
+                  "timeStart": "72.560",
+                  "timeEnd": "76.120",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Ferner hat Abgeordneter Mag. Philipp Schrangl beantragt, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen."
@@ -823,7 +1153,7 @@
               "sentences": [
                 {
                   "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung, also sogleich, zur Abstimmung gebracht werden.",
-                  "timeStart": "79.600",
+                  "timeStart": "76.120",
                   "timeEnd": "80.000",
                   "entities": []
                 }
@@ -838,8 +1168,8 @@
         "stdId": 288086,
         "debatteId": 300,
         "proceedingIndex": 288086,
-        "alignDuration": 0.9427621364593506,
-        "nerDuration": 0.33832597732543945
+        "alignDuration": 0.8635509014129639,
+        "nerDuration": 0.5817146301269531
       },
       "originalLanguage": "de"
     },
@@ -923,7 +1253,20 @@
                   "text": "Gerald Loacker , dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen.",
                   "timeStart": "6.320",
                   "timeEnd": "14.700",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Wir kommen nunmehr zur Abstimmung über den Antrag des Abgeordneten Mag. Gerald Loacker , dem Finanzausschuss zur Berichterstattung über den Antrag 2762/A(E) eine Frist bis 30. Jänner 2023 zu setzen."
@@ -990,14 +1333,21 @@
                 {
                   "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag.",
                   "timeStart": "45.740",
-                  "timeEnd": "48.840",
+                  "timeEnd": "48.640",
                   "entities": []
                 },
                 {
                   "text": "Philipp Schrangl , Kolleginnen und Kollegen, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen.",
-                  "timeStart": "48.840",
+                  "timeStart": "48.640",
                   "timeEnd": "60.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Wir kommen zur Abstimmung über den Antrag des Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen, dem Ausschuss für Bauten und Wohnen zur Berichterstattung über den Antrag 2466/A eine Frist bis 30. Jänner 2023 zu setzen."
@@ -1058,8 +1408,8 @@
         "stdId": 288191,
         "debatteId": 310,
         "proceedingIndex": 288191,
-        "alignDuration": 0.45166897773742676,
-        "nerDuration": 0.07523012161254883
+        "alignDuration": 0.5390410423278809,
+        "nerDuration": 0.14421987533569336
       },
       "originalLanguage": "de"
     }

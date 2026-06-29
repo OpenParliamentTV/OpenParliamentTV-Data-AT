@@ -5,11 +5,12 @@
     "dateStart": "2020-06-30T12:51:13",
     "dateEnd": "2020-06-30T12:52:29",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-16T16:43:08",
+    "lastUpdate": "2026-06-28T09:27:40",
     "processing": {
       "merge": "2026-06-16T04:23:38+00:00",
-      "align": "2026-06-16T16:43:08",
-      "ner": "2026-06-28T02:26:59"
+      "align": "2026-06-28T09:27:40",
+      "ner": "2026-06-28T14:51:35",
+      "nel": "2026-06-28T07:25:22"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 42. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.640",
+                  "timeEnd": "2.760",
                   "entities": []
                 }
               ],
@@ -85,21 +86,35 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet für die heutige Sitzung sind die Abgeordneten Mag.",
-                  "timeStart": "2.640",
-                  "timeEnd": "4.640",
+                  "timeStart": "2.760",
+                  "timeEnd": "4.600",
                   "entities": []
                 },
                 {
                   "text": "Elisabeth Scheucher-Pichler , Mag.",
-                  "timeStart": "4.640",
+                  "timeStart": "4.600",
                   "timeEnd": "5.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9924
+                    }
+                  ]
                 },
                 {
                   "text": "Thomas Drozda , MMag.",
                   "timeStart": "5.160",
                   "timeEnd": "6.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Thomas Drozda",
+                      "wid": "Q24082654",
+                      "wtype": "PER",
+                      "score": 0.9942
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
@@ -110,14 +125,52 @@
                 {
                   "text": "Hubert Fuchs , Ing. Mag.",
                   "timeStart": "7.020",
-                  "timeEnd": "8.440",
-                  "entities": []
+                  "timeEnd": "8.400",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9799
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty .",
-                  "timeStart": "8.440",
-                  "timeEnd": "10.640",
-                  "entities": []
+                  "timeStart": "8.400",
+                  "timeEnd": "10.800",
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9868
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet für die heutige Sitzung sind die Abgeordneten Mag. Elisabeth Scheucher-Pichler , Mag. Thomas Drozda , MMag. DDr. Hubert Fuchs , Ing. Mag. Volker Reifenberger , Peter Wurm , Wolfgang Zanger , Heike Grebien , Dipl.-Ing. Olga Voglauer und Yannick Shetty ."
@@ -129,7 +182,7 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "10.640",
+                  "timeStart": "10.800",
                   "timeEnd": "11.520",
                   "entities": []
                 }
@@ -144,7 +197,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "11.520",
-                  "timeEnd": "15.480",
+                  "timeEnd": "14.840",
                   "entities": []
                 }
               ],
@@ -157,8 +210,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "15.480",
-                  "timeEnd": "16.560",
+                  "timeStart": "14.840",
+                  "timeEnd": "15.360",
                   "entities": []
                 }
               ],
@@ -171,8 +224,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "16.560",
-                  "timeEnd": "16.880",
+                  "timeStart": "15.360",
+                  "timeEnd": "15.760",
                   "entities": []
                 }
               ],
@@ -185,8 +238,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "16.880",
-                  "timeEnd": "17.080",
+                  "timeStart": "15.760",
+                  "timeEnd": "15.800",
                   "entities": []
                 }
               ],
@@ -199,8 +252,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "17.080",
-                  "timeEnd": "18.680",
+                  "timeStart": "15.800",
+                  "timeEnd": "16.560",
                   "entities": []
                 }
               ],
@@ -213,9 +266,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )",
-                  "timeStart": "18.680",
-                  "timeEnd": "24.040",
-                  "entities": []
+                  "timeStart": "16.560",
+                  "timeEnd": "19.960",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden ( 284 d.B. )"
@@ -227,8 +293,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977, das Arbeitsmarktservicegesetz, das Familienlastenausgleichsgesetz 1967 und das Arbeitsmarktförderungsgesetz geändert werden ( 285 d.B. )",
-                  "timeStart": "24.040",
-                  "timeEnd": "31.600",
+                  "timeStart": "19.960",
+                  "timeEnd": "27.160",
                   "entities": []
                 }
               ],
@@ -241,8 +307,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "31.600",
-                  "timeEnd": "32.720",
+                  "timeStart": "27.160",
+                  "timeEnd": "27.400",
                   "entities": []
                 }
               ],
@@ -255,9 +321,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )",
-                  "timeStart": "32.720",
-                  "timeEnd": "35.800",
-                  "entities": []
+                  "timeStart": "27.400",
+                  "timeEnd": "28.240",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Telekommunikationsgesetz",
+                      "wid": "Q2401732",
+                      "wtype": "MISC",
+                      "score": 0.3795
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Telekommunikationsgesetz 2003 geändert wird ( 286 d.B. )"
@@ -269,8 +348,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Tierversuchsgesetz 2012 geändert wird ( 289 d.B. )",
-                  "timeStart": "35.800",
-                  "timeEnd": "37.600",
+                  "timeStart": "28.240",
+                  "timeEnd": "31.600",
                   "entities": []
                 }
               ],
@@ -283,8 +362,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "37.600",
-                  "timeEnd": "38.120",
+                  "timeStart": "31.600",
+                  "timeEnd": "32.760",
                   "entities": []
                 }
               ],
@@ -297,9 +376,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )",
-                  "timeStart": "38.120",
-                  "timeEnd": "39.080",
-                  "entities": []
+                  "timeStart": "32.760",
+                  "timeEnd": "35.800",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Polizeiliche Staatsschutzgesetz",
+                      "wid": "Q23689498",
+                      "wtype": "MISC",
+                      "score": 0.9822
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Polizeiliche Staatsschutzgesetz geändert wird ( 283 d.B. )"
@@ -311,8 +403,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "39.080",
-                  "timeEnd": "39.320",
+                  "timeStart": "35.800",
+                  "timeEnd": "36.840",
                   "entities": []
                 }
               ],
@@ -325,8 +417,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz betreffend die Errichtung eines Fonds zur Abgeltung von Borkenkäferschäden, zur Förderung klimafitter, artenreicher Wälder und zur Stärkung der Verwendung des Rohstoffes Holz (Waldfondsgesetz) ( 282 d.B. )",
-                  "timeStart": "39.320",
-                  "timeEnd": "44.680",
+                  "timeStart": "36.840",
+                  "timeEnd": "40.600",
                   "entities": []
                 }
               ],
@@ -339,8 +431,8 @@
               "sentences": [
                 {
                   "text": "Konjunkturstärkungsgesetz 2020 – KonStG 2020 ( 287 d.B. )",
-                  "timeStart": "44.680",
-                  "timeEnd": "48.960",
+                  "timeStart": "40.600",
+                  "timeEnd": "44.160",
                   "entities": []
                 }
               ],
@@ -353,9 +445,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )",
-                  "timeStart": "48.960",
-                  "timeEnd": "55.440",
-                  "entities": []
+                  "timeStart": "44.160",
+                  "timeEnd": "50.360",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Bundesministerin für Digitalisierung und Wirtschaftsstandort",
+                      "wid": "Q1006406",
+                      "wtype": "ORG",
+                      "score": 0.9204
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Digitalisierung und Wirtschaftsstandort genehmigt wird und ein Bundesgesetz über eine COVID-19 Investitionsprämie für Unternehmen (Investitionsprämiengesetz – InvPrG) erlassen wird ( 288 d.B. )"
@@ -367,8 +472,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz mit dem das Presseförderungsgesetz 2004 geändert wird ( 290 d.B. )",
-                  "timeStart": "55.440",
-                  "timeEnd": "58.320",
+                  "timeStart": "50.360",
+                  "timeEnd": "53.880",
                   "entities": []
                 }
               ],
@@ -381,8 +486,8 @@
               "sentences": [
                 {
                   "text": "Fristsetzungsanträge",
-                  "timeStart": "58.320",
-                  "timeEnd": "59.080",
+                  "timeStart": "53.880",
+                  "timeEnd": "54.600",
                   "entities": []
                 }
               ],
@@ -395,9 +500,22 @@
               "sentences": [
                 {
                   "text": "Ich teile mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über die Regierungsvorlagen 282 der Beilagen , 287 der Beilagen , 288 der Beilagen sowie 290 der Beilagen jeweils eine Frist bis zum 6. Juli 2020 zu setzen.",
-                  "timeStart": "59.080",
-                  "timeEnd": "67.480",
-                  "entities": []
+                  "timeStart": "54.600",
+                  "timeEnd": "64.400",
+                  "entities": [
+                    {
+                      "label": "Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.3288
+                    },
+                    {
+                      "label": "Jakob Schwarz",
+                      "wid": "Q69299892",
+                      "wtype": "PER",
+                      "score": 0.9627
+                    }
+                  ]
                 }
               ],
               "text": "Ich teile mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über die Regierungsvorlagen 282 der Beilagen , 287 der Beilagen , 288 der Beilagen sowie 290 der Beilagen jeweils eine Frist bis zum 6. Juli 2020 zu setzen."
@@ -409,9 +527,22 @@
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Forschung, Innovation und Digitalisierung zur Berichterstattung über die Regierungsvorlagen 286 der Beilagen und 289 der Beilagen eine Frist bis zum 6. Juli 2020 zu setzen.",
-                  "timeStart": "67.480",
-                  "timeEnd": "70.800",
-                  "entities": []
+                  "timeStart": "64.400",
+                  "timeEnd": "69.920",
+                  "entities": [
+                    {
+                      "label": "Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.3288
+                    },
+                    {
+                      "label": "Jakob Schwarz",
+                      "wid": "Q69299892",
+                      "wtype": "PER",
+                      "score": 0.9627
+                    }
+                  ]
                 }
               ],
               "text": "Weiters teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Forschung, Innovation und Digitalisierung zur Berichterstattung über die Regierungsvorlagen 286 der Beilagen und 289 der Beilagen eine Frist bis zum 6. Juli 2020 zu setzen."
@@ -423,9 +554,22 @@
               "sentences": [
                 {
                   "text": "Ferner teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über die Regierungsvorlagen 284 der Beilagen und 285 der Beilagen jeweils eine Frist bis zum 7. Juli 2020 zu setzen.",
-                  "timeStart": "70.800",
-                  "timeEnd": "75.720",
-                  "entities": []
+                  "timeStart": "69.920",
+                  "timeEnd": "74.040",
+                  "entities": [
+                    {
+                      "label": "Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.3288
+                    },
+                    {
+                      "label": "Jakob Schwarz",
+                      "wid": "Q69299892",
+                      "wtype": "PER",
+                      "score": 0.9627
+                    }
+                  ]
                 }
               ],
               "text": "Ferner teile ich mit, dass die Abgeordneten Wöginger, Jakob Schwarz beantragt haben, dem Ausschuss für Arbeit und Soziales zur Berichterstattung über die Regierungsvorlagen 284 der Beilagen und 285 der Beilagen jeweils eine Frist bis zum 7. Juli 2020 zu setzen."
@@ -437,7 +581,7 @@
               "sentences": [
                 {
                   "text": "Die gegenständlichen Anträge werden gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung – und somit sogleich – zur Abstimmung gebracht werden.",
-                  "timeStart": "75.720",
+                  "timeStart": "74.040",
                   "timeEnd": "77.960",
                   "entities": []
                 }
@@ -452,8 +596,8 @@
         "stdId": 220860,
         "debatteId": 300,
         "proceedingIndex": 220860,
-        "alignDuration": 0.7373759746551514,
-        "nerDuration": 0.16135811805725098
+        "alignDuration": 0.638253927230835,
+        "nerDuration": 0.31580328941345215
       },
       "originalLanguage": "de"
     }

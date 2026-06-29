@@ -5,11 +5,12 @@
     "dateStart": "2021-03-26T17:57:14",
     "dateEnd": "2021-03-26T17:58:07",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T11:34:25",
+    "lastUpdate": "2026-06-28T10:25:30",
     "processing": {
       "merge": "2026-06-16T04:23:47+00:00",
-      "align": "2026-06-19T11:34:25",
-      "ner": "2026-06-28T02:41:52"
+      "align": "2026-06-28T10:25:30",
+      "ner": "2026-06-28T15:13:42",
+      "nel": "2026-06-28T07:25:25"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 94. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.440",
+                  "timeEnd": "2.760",
                   "entities": []
                 }
               ],
@@ -85,21 +86,107 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "2.440",
-                  "timeEnd": "2.760",
+                  "timeStart": "2.760",
+                  "timeEnd": "4.240",
                   "entities": []
                 },
                 {
                   "text": "Martin Engelberg , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Bettina Zopf , Doris Bures , Cornelia Ecker , Klaus Köchl , Katharina Kucharowits , Philip Kucher , Josef Muchitsch , Wolfgang Zanger und Mag.",
-                  "timeStart": "2.760",
+                  "timeStart": "4.240",
                   "timeEnd": "6.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martin Engelberg",
+                      "wid": "Q42307913",
+                      "wtype": "PER",
+                      "score": 0.9791
+                    },
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Bettina Zopf",
+                      "wid": "Q72311418",
+                      "wtype": "PER",
+                      "score": 0.9548
+                    },
+                    {
+                      "label": "Doris Bures",
+                      "wid": "Q85433",
+                      "wtype": "PER",
+                      "score": 0.9906
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.978
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.986
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.9784
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES .",
                   "timeStart": "6.200",
                   "timeEnd": "6.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Martin Engelberg , Eva-Maria Himmelbauer, BSc , Gabriela Schwarz , Bettina Zopf , Doris Bures , Cornelia Ecker , Klaus Köchl , Katharina Kucharowits , Philip Kucher , Josef Muchitsch , Wolfgang Zanger und Mag. Beate Meinl-Reisinger, MES ."
@@ -126,7 +213,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "7.280",
-                  "timeEnd": "7.840",
+                  "timeEnd": "7.880",
                   "entities": []
                 }
               ],
@@ -139,7 +226,7 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "7.840",
+                  "timeStart": "7.880",
                   "timeEnd": "8.520",
                   "entities": []
                 }
@@ -168,7 +255,7 @@
                 {
                   "text": "Anfragebeantwortungen: 5144/AB bis 5151/AB",
                   "timeStart": "9.120",
-                  "timeEnd": "9.560",
+                  "timeEnd": "9.840",
                   "entities": []
                 }
               ],
@@ -181,8 +268,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen:",
-                  "timeStart": "9.560",
-                  "timeEnd": "9.840",
+                  "timeStart": "9.840",
+                  "timeEnd": "10.040",
                   "entities": []
                 }
               ],
@@ -195,7 +282,7 @@
               "sentences": [
                 {
                   "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:",
-                  "timeStart": "9.840",
+                  "timeStart": "10.040",
                   "timeEnd": "13.320",
                   "entities": []
                 }
@@ -224,7 +311,7 @@
                 {
                   "text": "Petition Nr. 54 betreffend \"Verpflichtende Erdkabel für 110kV Leitungen\", überreicht von der Abgeordneten Dipl.-Ing. Karin Doppelbauer",
                   "timeStart": "13.720",
-                  "timeEnd": "16.560",
+                  "timeEnd": "16.160",
                   "entities": []
                 }
               ],
@@ -237,15 +324,22 @@
               "sentences": [
                 {
                   "text": "Petition Nr. 55 betreffend \"Förderung und bevorzugte Nutzung erneuerbarer Energieträger unter umwelt- und landschaftsverträglichen Bedingungen\", überreicht vom Abgeordneten Mag.",
-                  "timeStart": "16.560",
-                  "timeEnd": "19.160",
+                  "timeStart": "16.160",
+                  "timeEnd": "18.440",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger",
-                  "timeStart": "19.160",
-                  "timeEnd": "19.160",
-                  "entities": []
+                  "timeStart": "18.440",
+                  "timeEnd": "18.640",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 55 betreffend \"Förderung und bevorzugte Nutzung erneuerbarer Energieträger unter umwelt- und landschaftsverträglichen Bedingungen\", überreicht vom Abgeordneten Mag. Christian Ragger"
@@ -257,7 +351,7 @@
               "sentences": [
                 {
                   "text": "2. Zuweisungen in dieser Sitzung",
-                  "timeStart": "19.160",
+                  "timeStart": "18.640",
                   "timeEnd": "19.160",
                   "entities": []
                 }
@@ -272,7 +366,7 @@
                 {
                   "text": "a) zur Vorberatung:",
                   "timeStart": "19.160",
-                  "timeEnd": "19.760",
+                  "timeEnd": "19.240",
                   "entities": []
                 }
               ],
@@ -285,7 +379,7 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "19.760",
+                  "timeStart": "19.240",
                   "timeEnd": "20.120",
                   "entities": []
                 }
@@ -300,8 +394,27 @@
                 {
                   "text": "Antrag 1469/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der Istanbul Konvention",
                   "timeStart": "20.120",
-                  "timeEnd": "21.600",
-                  "entities": []
+                  "timeEnd": "22.000",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Istanbul",
+                      "wid": "Q406",
+                      "wtype": "LOC",
+                      "score": 0.3876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1469/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Stärkung der Istanbul Konvention"
@@ -313,8 +426,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "21.600",
-                  "timeEnd": "22.000",
+                  "timeStart": "22.000",
+                  "timeEnd": "22.120",
                   "entities": []
                 }
               ],
@@ -327,7 +440,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1458/A(E) der Abgeordneten Mag.",
-                  "timeStart": "22.000",
+                  "timeStart": "22.120",
                   "timeEnd": "23.640",
                   "entities": []
                 },
@@ -335,7 +448,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende Antikörpertests",
                   "timeStart": "23.640",
                   "timeEnd": "24.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "Antikörpertests",
+                      "wid": "Q82069695",
+                      "wtype": "LOC",
+                      "score": 0.3879
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1458/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Flächendeckende Antikörpertests"
@@ -348,8 +474,27 @@
                 {
                   "text": "Antrag 1465/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
                   "timeStart": "24.240",
-                  "timeEnd": "26.520",
-                  "entities": []
+                  "timeEnd": "24.440",
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1465/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
@@ -361,9 +506,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1466/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden",
-                  "timeStart": "26.520",
-                  "timeEnd": "28.280",
-                  "entities": []
+                  "timeStart": "24.440",
+                  "timeEnd": "24.840",
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1466/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
@@ -375,9 +533,16 @@
               "sentences": [
                 {
                   "text": "Antrag 1467/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird",
-                  "timeStart": "28.280",
-                  "timeEnd": "28.280",
-                  "entities": []
+                  "timeStart": "24.840",
+                  "timeEnd": "26.840",
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1467/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
@@ -389,9 +554,16 @@
               "sentences": [
                 {
                   "text": "Antrag 1468/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird",
-                  "timeStart": "28.280",
+                  "timeStart": "26.840",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1468/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Zweckzuschussgesetz geändert wird"
@@ -405,7 +577,26 @@
                   "text": "Antrag 1470/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz – AMG geändert wird",
                   "timeStart": "28.280",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    },
+                    {
+                      "label": "Arzneimittelgesetz",
+                      "wid": "Q718685",
+                      "wtype": "MISC",
+                      "score": 0.3817
+                    },
+                    {
+                      "label": "AMG",
+                      "wid": "Q26966",
+                      "wtype": "ORG",
+                      "score": 0.1271
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1470/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arzneimittelgesetz – AMG geändert wird"
@@ -433,7 +624,26 @@
                   "text": "Antrag 1461/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich",
                   "timeStart": "28.280",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1461/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich"
@@ -461,7 +671,20 @@
                   "text": "Antrag 1459/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend sofortiger Importstopp von Kartoffeln aus dem EU-Ausland um heimische Bauern wieder zu stärken",
                   "timeStart": "28.280",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.9914
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1459/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend sofortiger Importstopp von Kartoffeln aus dem EU-Ausland um heimische Bauern wieder zu stärken"
@@ -489,7 +712,26 @@
                   "text": "Antrag 1460/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich",
                   "timeStart": "28.280",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1460/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Erstellung einer Statistik über Kinderehen in Österreich"
@@ -558,14 +800,33 @@
                 {
                   "text": "Antrag 1457/A(E) der Abgeordneten Mag.",
                   "timeStart": "30.800",
-                  "timeEnd": "30.880",
+                  "timeEnd": "30.920",
                   "entities": []
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Christoph Zarits , Kolleginnen und Kollegen betreffend Vorlage eines jährlichen Sportberichts an den Nationalrat",
-                  "timeStart": "30.880",
+                  "timeStart": "30.920",
                   "timeEnd": "32.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9837
+                    },
+                    {
+                      "label": "Christoph Zarits",
+                      "wid": "Q42344335",
+                      "wtype": "PER",
+                      "score": 0.9845
+                    },
+                    {
+                      "label": "Nationalrat",
+                      "wid": "Q871363",
+                      "wtype": "ORG",
+                      "score": 0.4355
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1457/A(E) der Abgeordneten Mag. Agnes Sirkka Prammer , Christoph Zarits , Kolleginnen und Kollegen betreffend Vorlage eines jährlichen Sportberichts an den Nationalrat"
@@ -620,7 +881,7 @@
                 {
                   "text": "Antrag 1463/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Einführung eines legislativen Fußabdrucks",
                   "timeStart": "34.560",
-                  "timeEnd": "36.720",
+                  "timeEnd": "38.120",
                   "entities": []
                 }
               ],
@@ -633,8 +894,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1464/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Fake-News-Rechenschaftsbericht der Bundesregierung",
-                  "timeStart": "36.720",
-                  "timeEnd": "37.880",
+                  "timeStart": "38.120",
+                  "timeEnd": "40.160",
                   "entities": []
                 }
               ],
@@ -647,8 +908,8 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "37.880",
-                  "timeEnd": "39.080",
+                  "timeStart": "40.160",
+                  "timeEnd": "41.080",
                   "entities": []
                 }
               ],
@@ -661,8 +922,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "39.080",
-                  "timeEnd": "40.160",
+                  "timeStart": "41.080",
+                  "timeEnd": "41.080",
                   "entities": []
                 }
               ],
@@ -675,7 +936,7 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt vom Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz ( III-280 d.B. )",
-                  "timeStart": "40.160",
+                  "timeStart": "41.080",
                   "timeEnd": "41.440",
                   "entities": []
                 }
@@ -704,7 +965,7 @@
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Februar 2021, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-279 d.B. )",
                   "timeStart": "42.080",
-                  "timeEnd": "42.840",
+                  "timeEnd": "42.640",
                   "entities": []
                 }
               ],
@@ -717,8 +978,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich zu:",
-                  "timeStart": "42.840",
-                  "timeEnd": "42.920",
+                  "timeStart": "42.640",
+                  "timeEnd": "42.680",
                   "entities": []
                 }
               ],
@@ -731,7 +992,7 @@
               "sentences": [
                 {
                   "text": "den Antrag 1471/A(E) und 1472/A(E) sowie 1474/A(E) dem Ausschuss für Menschenrechte,",
-                  "timeStart": "42.920",
+                  "timeStart": "42.680",
                   "timeEnd": "43.920",
                   "entities": []
                 }
@@ -774,7 +1035,7 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 21. April, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
                   "timeStart": "45.720",
-                  "timeEnd": "48.200",
+                  "timeEnd": "48.420",
                   "entities": []
                 }
               ],
@@ -787,14 +1048,14 @@
               "sentences": [
                 {
                   "text": "Herzlichen Dank.",
-                  "timeStart": "48.200",
-                  "timeEnd": "48.960",
+                  "timeStart": "48.420",
+                  "timeEnd": "49.960",
                   "entities": []
                 },
                 {
                   "text": "Kommen Sie gut nach Hause.",
-                  "timeStart": "48.960",
-                  "timeEnd": "50.000",
+                  "timeStart": "49.960",
+                  "timeEnd": "51.120",
                   "entities": []
                 }
               ],
@@ -807,7 +1068,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "50.000",
+                  "timeStart": "51.120",
                   "timeEnd": "53.960",
                   "entities": []
                 }
@@ -822,8 +1083,8 @@
         "stdId": 241504,
         "debatteId": 300,
         "proceedingIndex": 241504,
-        "alignDuration": 0.8411712646484375,
-        "nerDuration": 0.2959938049316406
+        "alignDuration": 0.7813901901245117,
+        "nerDuration": 0.5845210552215576
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2021-05-17T15:38:37",
     "dateEnd": "2021-05-17T15:39:34",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-19T20:59:52",
+    "lastUpdate": "2026-06-28T10:32:21",
     "processing": {
       "merge": "2026-06-16T04:23:48+00:00",
-      "align": "2026-06-19T20:59:52",
-      "ner": "2026-06-28T02:43:39"
+      "align": "2026-06-28T10:32:21",
+      "ner": "2026-06-28T15:16:21",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 104. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.700",
+                  "timeEnd": "2.080",
                   "entities": []
                 }
               ],
@@ -85,45 +86,172 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Tanja Graf , Claudia Plakolm , Dr. Christian Stocker , Cornelia Ecker , Gabriele Heinisch-Hosek , Klaus Köchl , Maximilian Lercher , Mag.",
-                  "timeStart": "2.700",
-                  "timeEnd": "6.560",
-                  "entities": []
+                  "timeStart": "2.080",
+                  "timeEnd": "4.000",
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4505
+                    },
+                    {
+                      "label": "Claudia Plakolm",
+                      "wid": "Q42294925",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9916
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Maximilian Lercher",
+                      "wid": "Q1733882",
+                      "wtype": "PER",
+                      "score": 0.4085
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Selma Yildirim , Ing. Norbert Hofer , Mag.",
-                  "timeStart": "6.560",
-                  "timeEnd": "7.920",
-                  "entities": []
+                  "timeStart": "4.000",
+                  "timeEnd": "4.320",
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Christian Ragger , Christian Ries , Michael Schnedlitz , Mag.",
-                  "timeStart": "7.920",
-                  "timeEnd": "9.840",
-                  "entities": []
+                  "timeStart": "4.320",
+                  "timeEnd": "5.480",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Mag.",
-                  "timeStart": "9.840",
-                  "timeEnd": "10.240",
-                  "entities": []
+                  "timeStart": "5.480",
+                  "timeEnd": "5.680",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Harald Stefan , Mag.",
-                  "timeStart": "10.240",
-                  "timeEnd": "11.160",
-                  "entities": []
+                  "timeStart": "5.680",
+                  "timeEnd": "5.840",
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    }
+                  ]
                 },
                 {
                   "text": "Georg Bürstmayr , Michael Bernhard , Mag.",
-                  "timeStart": "11.160",
-                  "timeEnd": "12.440",
-                  "entities": []
+                  "timeStart": "5.840",
+                  "timeEnd": "6.040",
+                  "entities": [
+                    {
+                      "label": "Georg Bürstmayr",
+                      "wid": "Q38057788",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Michael Bernhard",
+                      "wid": "Q15602114",
+                      "wtype": "PER",
+                      "score": 0.5463
+                    }
+                  ]
                 },
                 {
                   "text": "Felix Eypeltauer , Fiona Fiedler, BEd und Josef Schellhorn .",
-                  "timeStart": "12.440",
-                  "timeEnd": "13.320",
-                  "entities": []
+                  "timeStart": "6.040",
+                  "timeEnd": "6.280",
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9781
+                    },
+                    {
+                      "label": "BEd",
+                      "wid": "Q1837914",
+                      "wtype": "PER",
+                      "score": 0.3222
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4046
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Tanja Graf , Claudia Plakolm , Dr. Christian Stocker , Cornelia Ecker , Gabriele Heinisch-Hosek , Klaus Köchl , Maximilian Lercher , Mag. Selma Yildirim , Ing. Norbert Hofer , Mag. Christian Ragger , Christian Ries , Michael Schnedlitz , Mag. Philipp Schrangl , Mag. Harald Stefan , Mag. Georg Bürstmayr , Michael Bernhard , Mag. Felix Eypeltauer , Fiona Fiedler, BEd und Josef Schellhorn ."
@@ -135,8 +263,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "13.320",
-                  "timeEnd": "13.880",
+                  "timeStart": "6.280",
+                  "timeEnd": "6.560",
                   "entities": []
                 }
               ],
@@ -149,8 +277,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "13.880",
-                  "timeEnd": "16.320",
+                  "timeStart": "6.560",
+                  "timeEnd": "7.600",
                   "entities": []
                 }
               ],
@@ -163,8 +291,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "16.320",
-                  "timeEnd": "17.220",
+                  "timeStart": "7.600",
+                  "timeEnd": "7.920",
                   "entities": []
                 }
               ],
@@ -177,8 +305,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "17.220",
-                  "timeEnd": "18.520",
+                  "timeStart": "7.920",
+                  "timeEnd": "8.240",
                   "entities": []
                 }
               ],
@@ -191,8 +319,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 5785/AB bis 5812/AB",
-                  "timeStart": "18.520",
-                  "timeEnd": "21.320",
+                  "timeStart": "8.240",
+                  "timeEnd": "8.480",
                   "entities": []
                 }
               ],
@@ -205,8 +333,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "21.320",
-                  "timeEnd": "22.080",
+                  "timeStart": "8.480",
+                  "timeEnd": "8.680",
                   "entities": []
                 }
               ],
@@ -219,8 +347,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "22.080",
-                  "timeEnd": "23.240",
+                  "timeStart": "8.680",
+                  "timeEnd": "9.040",
                   "entities": []
                 }
               ],
@@ -233,8 +361,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "23.240",
-                  "timeEnd": "23.480",
+                  "timeStart": "9.040",
+                  "timeEnd": "9.200",
                   "entities": []
                 }
               ],
@@ -247,9 +375,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1580/A der Abgeordneten Gabriel Obernosterer , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz zur Beschaffung von und Verfügung über SARS-CoV-2-Antigentests zur Eigenanwendung im Rahmen der COVID-19-Öffnungsverordnung",
-                  "timeStart": "23.480",
-                  "timeEnd": "26.800",
-                  "entities": []
+                  "timeStart": "9.200",
+                  "timeEnd": "11.760",
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1580/A der Abgeordneten Gabriel Obernosterer , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz zur Beschaffung von und Verfügung über SARS-CoV-2-Antigentests zur Eigenanwendung im Rahmen der COVID-19-Öffnungsverordnung"
@@ -261,8 +402,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "26.800",
-                  "timeEnd": "27.040",
+                  "timeStart": "11.760",
+                  "timeEnd": "11.880",
                   "entities": []
                 }
               ],
@@ -275,9 +416,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (20. FSG-Novelle) ( 848 d.B. )",
-                  "timeStart": "27.040",
-                  "timeEnd": "27.800",
-                  "entities": []
+                  "timeStart": "11.880",
+                  "timeEnd": "13.840",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Führerscheingesetz",
+                      "wid": "Q15591543",
+                      "wtype": "MISC",
+                      "score": 0.4334
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Führerscheingesetz geändert wird (20. FSG-Novelle) ( 848 d.B. )"
@@ -289,9 +443,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985 und das Symbole-Gesetz geändert werden ( 854 d.B. )",
-                  "timeStart": "27.800",
-                  "timeEnd": "30.360",
-                  "entities": []
+                  "timeStart": "13.840",
+                  "timeEnd": "17.220",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Symbole-Gesetz",
+                      "wid": "Q19309720",
+                      "wtype": "MISC",
+                      "score": 0.9688
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985 und das Symbole-Gesetz geändert werden ( 854 d.B. )"
@@ -303,8 +470,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "30.360",
-                  "timeEnd": "31.580",
+                  "timeStart": "17.220",
+                  "timeEnd": "17.920",
                   "entities": []
                 }
               ],
@@ -317,8 +484,8 @@
               "sentences": [
                 {
                   "text": "Terror-Bekämpfungs-Gesetz – TeBG ( 849 d.B. )",
-                  "timeStart": "31.580",
-                  "timeEnd": "32.200",
+                  "timeStart": "17.920",
+                  "timeEnd": "19.820",
                   "entities": []
                 }
               ],
@@ -331,9 +498,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "32.200",
-                  "timeEnd": "32.720",
-                  "entities": []
+                  "timeStart": "19.820",
+                  "timeEnd": "20.160",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -345,8 +519,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Heeresgebührengesetz 2001 und das Heeresdisziplinargesetz 2014 geändert werden ( 851 d.B. )",
-                  "timeStart": "32.720",
-                  "timeEnd": "33.200",
+                  "timeStart": "20.160",
+                  "timeEnd": "23.280",
                   "entities": []
                 }
               ],
@@ -359,8 +533,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "33.200",
-                  "timeEnd": "33.400",
+                  "timeStart": "23.280",
+                  "timeEnd": "23.480",
                   "entities": []
                 }
               ],
@@ -373,9 +547,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesgesetz über die Rechtspersönlichkeit von religiösen Bekenntnisgemeinschaften und das Islamgesetz 2015 geändert werden ( 850 d.B. )",
-                  "timeStart": "33.400",
-                  "timeEnd": "34.880",
-                  "entities": []
+                  "timeStart": "23.480",
+                  "timeEnd": "27.400",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Islamgesetz 2015",
+                      "wid": "Q54956938",
+                      "wtype": "MISC",
+                      "score": 0.9889
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über die Rechtspersönlichkeit von religiösen Bekenntnisgemeinschaften und das Islamgesetz 2015 geändert werden ( 850 d.B. )"
@@ -387,27 +574,65 @@
               "sentences": [
                 {
                   "text": "Antrag 1581/A der Abgeordneten Mag.",
-                  "timeStart": "34.880",
-                  "timeEnd": "36.080",
+                  "timeStart": "27.400",
+                  "timeEnd": "28.440",
                   "entities": []
                 },
                 {
                   "text": "Jörg Leichtfried , Herbert Kickl , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art.",
-                  "timeStart": "36.080",
-                  "timeEnd": "37.400",
-                  "entities": []
+                  "timeStart": "28.440",
+                  "timeEnd": "31.580",
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q29561239",
+                      "wtype": "PER",
+                      "score": 0.3287
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Nikolaus Scherak",
+                      "wid": "Q1991669",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 },
                 {
                   "text": "142 Abs. 2 lit.",
-                  "timeStart": "37.400",
-                  "timeEnd": "38.260",
+                  "timeStart": "31.580",
+                  "timeEnd": "33.160",
                   "entities": []
                 },
                 {
                   "text": "b B-VG wider den Bundesminister für Finanzen",
-                  "timeStart": "38.260",
-                  "timeEnd": "38.520",
-                  "entities": []
+                  "timeStart": "33.160",
+                  "timeEnd": "33.160",
+                  "entities": [
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Bundesminister für Finanzen",
+                      "wid": "Q877814",
+                      "wtype": "ORG",
+                      "score": 0.9664
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1581/A der Abgeordneten Mag. Jörg Leichtfried , Herbert Kickl , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art. 142 Abs. 2 lit. b B-VG wider den Bundesminister für Finanzen"
@@ -419,8 +644,8 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "38.520",
-                  "timeEnd": "38.760",
+                  "timeStart": "33.160",
+                  "timeEnd": "33.960",
                   "entities": []
                 }
               ],
@@ -433,8 +658,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "38.760",
-                  "timeEnd": "39.000",
+                  "timeStart": "33.960",
+                  "timeEnd": "34.320",
                   "entities": []
                 }
               ],
@@ -447,9 +672,16 @@
               "sentences": [
                 {
                   "text": "Jahresbericht 2020 der Agentur für Passagier- und Fahrgastrechte, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-320 d.B. )",
-                  "timeStart": "39.000",
-                  "timeEnd": "40.520",
-                  "entities": []
+                  "timeStart": "34.320",
+                  "timeEnd": "40.040",
+                  "entities": [
+                    {
+                      "label": "Agentur für Passagier- und Fahrgastrechte",
+                      "wid": "Q21036365",
+                      "wtype": "ORG",
+                      "score": 0.981
+                    }
+                  ]
                 }
               ],
               "text": "Jahresbericht 2020 der Agentur für Passagier- und Fahrgastrechte, vorgelegt von der Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie ( III-320 d.B. )"
@@ -461,7 +693,7 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich die Anträge",
-                  "timeStart": "40.520",
+                  "timeStart": "40.040",
                   "timeEnd": "40.520",
                   "entities": []
                 }
@@ -476,7 +708,7 @@
                 {
                   "text": "1582/A und 1583/A dem Tourismusausschuss,",
                   "timeStart": "40.520",
-                  "timeEnd": "42.680",
+                  "timeEnd": "43.640",
                   "entities": []
                 }
               ],
@@ -489,8 +721,8 @@
               "sentences": [
                 {
                   "text": "1584/A und 1585/A dem Unterrichtsausschuss,",
-                  "timeStart": "42.680",
-                  "timeEnd": "44.440",
+                  "timeStart": "43.640",
+                  "timeEnd": "44.720",
                   "entities": []
                 }
               ],
@@ -503,7 +735,7 @@
               "sentences": [
                 {
                   "text": "1586/A dem Gesundheitsausschuss sowie",
-                  "timeStart": "44.440",
+                  "timeStart": "44.720",
                   "timeEnd": "45.440",
                   "entities": []
                 }
@@ -546,13 +778,13 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für den 19. Mai um 9 Uhr ein.",
                   "timeStart": "46.400",
-                  "timeEnd": "47.720",
+                  "timeEnd": "48.240",
                   "entities": []
                 },
                 {
                   "text": "Die Tagesordnung ergeht auf schriftlichem Wege.",
-                  "timeStart": "47.720",
-                  "timeEnd": "48.280",
+                  "timeStart": "48.240",
+                  "timeEnd": "48.480",
                   "entities": []
                 }
               ],
@@ -565,8 +797,8 @@
               "sentences": [
                 {
                   "text": "Ich danke der Bundesregierung herzlich für die Teilnahme.",
-                  "timeStart": "48.280",
-                  "timeEnd": "48.800",
+                  "timeStart": "48.480",
+                  "timeEnd": "52.160",
                   "entities": []
                 }
               ],
@@ -579,8 +811,8 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "48.800",
-                  "timeEnd": "49.560",
+                  "timeStart": "52.160",
+                  "timeEnd": "58.000",
                   "entities": []
                 }
               ],
@@ -594,8 +826,8 @@
         "stdId": 244971,
         "debatteId": 300,
         "proceedingIndex": 244971,
-        "alignDuration": 0.5425689220428467,
-        "nerDuration": 0.19675707817077637
+        "alignDuration": 0.6003634929656982,
+        "nerDuration": 0.3356459140777588
       },
       "originalLanguage": "de"
     }

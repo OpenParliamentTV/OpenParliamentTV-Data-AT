@@ -5,11 +5,12 @@
     "dateStart": "2020-10-07T16:11:04",
     "dateEnd": "2020-10-07T16:11:38",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-17T10:06:57",
+    "lastUpdate": "2026-06-28T09:41:13",
     "processing": {
       "merge": "2026-06-16T04:23:40+00:00",
-      "align": "2026-06-17T10:06:57",
-      "ner": "2026-06-28T02:30:22"
+      "align": "2026-06-28T09:41:13",
+      "ner": "2026-06-28T14:56:37",
+      "nel": "2026-06-28T07:25:22"
     }
   },
   "data": [
@@ -85,25 +86,71 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Alexander Melchior , Johannes Schmuckenschlager , Mag.",
                   "timeStart": "4.600",
                   "timeEnd": "4.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Alexander Melchior",
+                      "wid": "Q30015127",
+                      "wtype": "PER",
+                      "score": 0.4046
+                    },
+                    {
+                      "label": "Johannes Schmuckenschlager",
+                      "wid": "Q1698360",
+                      "wtype": "PER",
+                      "score": 0.9926
+                    }
+                  ]
                 },
                 {
                   "text": "Ulrike Fischer , Lukas Hammer , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer , Mag.",
                   "timeStart": "4.920",
                   "timeEnd": "4.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ulrike Fischer",
+                      "wid": "Q72072449",
+                      "wtype": "PER",
+                      "score": 0.8662
+                    },
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    }
+                  ]
                 },
                 {
                   "text": "Felix Eypeltauer , Mag.",
                   "timeStart": "4.960",
                   "timeEnd": "4.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 },
                 {
                   "text": "Martina Künsberg Sarre und Josef Schellhorn .",
                   "timeStart": "4.960",
                   "timeEnd": "4.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4046
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Alexander Melchior , Johannes Schmuckenschlager , Mag. Ulrike Fischer , Lukas Hammer , Dipl.-Ing. Olga Voglauer , Dipl.-Ing. Karin Doppelbauer , Mag. Felix Eypeltauer , Mag. Martina Künsberg Sarre und Josef Schellhorn ."
@@ -158,7 +205,7 @@
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
                   "timeStart": "7.080",
-                  "timeEnd": "7.080",
+                  "timeEnd": "7.160",
                   "entities": []
                 }
               ],
@@ -171,8 +218,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "7.080",
-                  "timeEnd": "7.520",
+                  "timeStart": "7.160",
+                  "timeEnd": "7.880",
                   "entities": []
                 }
               ],
@@ -185,7 +232,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "7.520",
+                  "timeStart": "7.880",
                   "timeEnd": "8.640",
                   "entities": []
                 }
@@ -201,7 +248,14 @@
                   "text": "Antrag 904/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitsvertragsrechts-Anpassungsgesetz geändert wird",
                   "timeStart": "8.640",
                   "timeEnd": "9.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 904/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitsvertragsrechts-Anpassungsgesetz geändert wird"
@@ -214,8 +268,15 @@
                 {
                   "text": "Antrag 905/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird",
                   "timeStart": "9.960",
-                  "timeEnd": "10.520",
-                  "entities": []
+                  "timeEnd": "10.320",
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 905/A der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird"
@@ -227,9 +288,22 @@
               "sentences": [
                 {
                   "text": "Antrag 906/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend faire Pensionsanpassung",
-                  "timeStart": "10.520",
+                  "timeStart": "10.320",
                   "timeEnd": "11.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 906/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend faire Pensionsanpassung"
@@ -242,14 +316,21 @@
                 {
                   "text": "Antrag 907/A der Abgeordneten Mag.",
                   "timeStart": "11.480",
-                  "timeEnd": "11.520",
+                  "timeEnd": "11.880",
                   "entities": []
                 },
                 {
                   "text": "Verena Nussbaum , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Arbeitsmarktservicegesetz geändert wird",
-                  "timeStart": "11.520",
-                  "timeEnd": "12.640",
-                  "entities": []
+                  "timeStart": "11.880",
+                  "timeEnd": "13.360",
+                  "entities": [
+                    {
+                      "label": "Verena Nussbaum",
+                      "wid": "Q42376270",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 907/A der Abgeordneten Mag. Verena Nussbaum , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Arbeitsmarktservicegesetz geändert wird"
@@ -261,8 +342,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "12.640",
-                  "timeEnd": "12.920",
+                  "timeStart": "13.360",
+                  "timeEnd": "13.800",
                   "entities": []
                 }
               ],
@@ -275,8 +356,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Arbeitsverfassungsgesetz und das Post-Betriebsverfassungsgesetz geändert werden ( 378 d.B. )",
-                  "timeStart": "12.920",
-                  "timeEnd": "14.000",
+                  "timeStart": "13.800",
+                  "timeEnd": "14.200",
                   "entities": []
                 }
               ],
@@ -289,7 +370,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "14.000",
+                  "timeStart": "14.200",
                   "timeEnd": "14.200",
                   "entities": []
                 }
@@ -305,7 +386,26 @@
                   "text": "Antrag 916/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Internet als Daseinsvorsorge",
                   "timeStart": "14.200",
                   "timeEnd": "14.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Internet",
+                      "wid": "Q75",
+                      "wtype": "MISC",
+                      "score": 0.2189
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 916/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Internet als Daseinsvorsorge"
@@ -332,8 +432,21 @@
                 {
                   "text": "Antrag 908/A der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Schutz der Tiere (Tierschutzgesetz – TSchG) geändert wird",
                   "timeStart": "14.200",
-                  "timeEnd": "14.320",
-                  "entities": []
+                  "timeEnd": "14.200",
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 908/A der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über den Schutz der Tiere (Tierschutzgesetz – TSchG) geändert wird"
@@ -345,15 +458,22 @@
               "sentences": [
                 {
                   "text": "Antrag 912/A(E) der Abgeordneten Mag.",
-                  "timeStart": "14.320",
-                  "timeEnd": "15.640",
+                  "timeStart": "14.200",
+                  "timeEnd": "14.200",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Implementierung einer 1450-Videokomponente",
-                  "timeStart": "15.640",
-                  "timeEnd": "15.920",
-                  "entities": []
+                  "timeStart": "14.200",
+                  "timeEnd": "14.320",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 912/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Implementierung einer 1450-Videokomponente"
@@ -365,15 +485,22 @@
               "sentences": [
                 {
                   "text": "Antrag 913/A(E) der Abgeordneten Mag.",
-                  "timeStart": "15.920",
-                  "timeEnd": "15.960",
+                  "timeStart": "14.320",
+                  "timeEnd": "15.640",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Implementierung eines Chatbots zur Entlastung der 1450-Hotline",
-                  "timeStart": "15.960",
+                  "timeStart": "15.640",
                   "timeEnd": "17.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 913/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Implementierung eines Chatbots zur Entlastung der 1450-Hotline"
@@ -386,14 +513,21 @@
                 {
                   "text": "Antrag 914/A der Abgeordneten Mag.",
                   "timeStart": "17.240",
-                  "timeEnd": "18.000",
+                  "timeEnd": "18.040",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird",
-                  "timeStart": "18.000",
-                  "timeEnd": "19.640",
-                  "entities": []
+                  "timeStart": "18.040",
+                  "timeEnd": "19.920",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 914/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
@@ -405,8 +539,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "19.640",
-                  "timeEnd": "19.880",
+                  "timeStart": "19.920",
+                  "timeEnd": "20.080",
                   "entities": []
                 }
               ],
@@ -419,7 +553,7 @@
               "sentences": [
                 {
                   "text": "Antrag 910/A(E) der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Maßnahmen zur Stärkung der Effizienz und Unabhängigkeit der Ermittlungen in Fällen mutmaßlicher Polizeigewalt",
-                  "timeStart": "19.880",
+                  "timeStart": "20.080",
                   "timeEnd": "20.240",
                   "entities": []
                 }
@@ -449,7 +583,14 @@
                   "text": "Antrag 911/A der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Staatsanwaltschaftsgesetz geändert wird",
                   "timeStart": "20.640",
                   "timeEnd": "21.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Staatsanwaltschaftsgesetz",
+                      "wid": "Q1307517",
+                      "wtype": "MISC",
+                      "score": 0.7994
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 911/A der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Staatsanwaltschaftsgesetz geändert wird"
@@ -519,7 +660,26 @@
                   "text": "Antrag 917/A(E) der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Verlängerung der finanziellen Unterstützungsmaßnahmen im Sport",
                   "timeStart": "25.240",
                   "timeEnd": "26.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 917/A(E) der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Verlängerung der finanziellen Unterstützungsmaßnahmen im Sport"
@@ -547,7 +707,20 @@
                   "text": "Antrag 918/A(E) der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Hilfsfonds für gestundete Energiekosten",
                   "timeStart": "27.280",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Schroll",
+                      "wid": "Q72078740",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 918/A(E) der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Hilfsfonds für gestundete Energiekosten"
@@ -561,7 +734,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "28.280",
                   "timeEnd": "28.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -575,7 +755,20 @@
                   "text": "Antrag 915/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Frauenförderung in der Wissenschaft",
                   "timeStart": "28.840",
                   "timeEnd": "29.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 915/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Frauenförderung in der Wissenschaft"
@@ -588,7 +781,7 @@
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
                   "timeStart": "29.680",
-                  "timeEnd": "30.480",
+                  "timeEnd": "30.440",
                   "entities": []
                 }
               ],
@@ -601,7 +794,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "30.480",
+                  "timeStart": "30.440",
                   "timeEnd": "30.480",
                   "entities": []
                 }
@@ -672,8 +865,8 @@
         "stdId": 225869,
         "debatteId": 300,
         "proceedingIndex": 225869,
-        "alignDuration": 0.5877420902252197,
-        "nerDuration": 0.2366471290588379
+        "alignDuration": 0.6274807453155518,
+        "nerDuration": 0.628819465637207
       },
       "originalLanguage": "de"
     }

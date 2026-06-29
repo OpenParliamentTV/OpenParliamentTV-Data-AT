@@ -5,11 +5,12 @@
     "dateStart": "2022-03-24T20:57:39",
     "dateEnd": "2022-03-24T20:58:45",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-22T08:47:54",
+    "lastUpdate": "2026-06-28T11:37:11",
     "processing": {
       "merge": "2026-06-16T04:23:56+00:00",
-      "align": "2026-06-22T08:47:54",
-      "ner": "2026-06-28T02:58:59"
+      "align": "2026-06-28T11:37:11",
+      "ner": "2026-06-28T15:38:51",
+      "nel": "2026-06-28T07:25:30"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Die 150. Sitzung des Nationalrates ist eröffnet.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.880",
+                  "timeEnd": "2.120",
                   "entities": []
                 }
               ],
@@ -85,7 +86,7 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "1.880",
+                  "timeStart": "2.120",
                   "timeEnd": "2.680",
                   "entities": []
                 },
@@ -93,55 +94,172 @@
                   "text": "Andreas Hanger , Dipl.-Ing. Andrea Holzner , Martina Kaufmann, MMSc BA , Mag.",
                   "timeStart": "2.680",
                   "timeEnd": "3.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andreas Hanger",
+                      "wid": "Q15783312",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    }
+                  ]
                 },
                 {
                   "text": "Bettina Rausch , Mag.",
                   "timeStart": "3.320",
-                  "timeEnd": "3.680",
-                  "entities": []
+                  "timeEnd": "3.720",
+                  "entities": [
+                    {
+                      "label": "Bettina Rausch",
+                      "wid": "Q850023",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 },
                 {
                   "text": "Corinna Scharzenberger , Mag.",
-                  "timeStart": "3.680",
+                  "timeStart": "3.720",
                   "timeEnd": "3.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Corinna Scharzenberger",
+                      "wid": "Q47005183",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Julia Elisabeth Herr , Dietmar Keck , Dipl.-Ing. Gerhard Deimek , Mag.",
                   "timeStart": "3.880",
-                  "timeEnd": "6.320",
-                  "entities": []
+                  "timeEnd": "4.520",
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9889
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.96
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Martin Graf , Mag.",
-                  "timeStart": "6.320",
-                  "timeEnd": "6.720",
-                  "entities": []
+                  "timeStart": "4.520",
+                  "timeEnd": "4.520",
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Ing. Norbert Hofer , Mag.",
-                  "timeStart": "6.720",
-                  "timeEnd": "6.960",
-                  "entities": []
+                  "timeStart": "4.520",
+                  "timeEnd": "4.600",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Hermann Weratschnig, MBA MSc , Henrike Brandstötter , Dr. Stephanie Krisper , Mag.",
-                  "timeStart": "6.960",
-                  "timeEnd": "9.640",
-                  "entities": []
+                  "timeStart": "4.600",
+                  "timeEnd": "6.320",
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES und Mag.",
-                  "timeStart": "9.640",
-                  "timeEnd": "10.120",
-                  "entities": []
+                  "timeStart": "6.320",
+                  "timeEnd": "6.800",
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Julia Seidl .",
-                  "timeStart": "10.120",
-                  "timeEnd": "10.520",
-                  "entities": []
+                  "timeStart": "6.800",
+                  "timeEnd": "6.800",
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Andreas Hanger , Dipl.-Ing. Andrea Holzner , Martina Kaufmann, MMSc BA , Mag. Bettina Rausch , Mag. Corinna Scharzenberger , Mag. Elisabeth Scheucher-Pichler , Petra Bayr, MA MLS , Julia Elisabeth Herr , Dietmar Keck , Dipl.-Ing. Gerhard Deimek , Mag. Dr. Martin Graf , Mag. Gerald Hauser , Ing. Norbert Hofer , Mag. Meri Disoski , Dr. Ewa Ernst-Dziedzic , Heike Grebien , Hermann Weratschnig, MBA MSc , Henrike Brandstötter , Dr. Stephanie Krisper , Mag. Beate Meinl-Reisinger, MES und Mag. Julia Seidl ."
@@ -153,8 +271,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "10.520",
-                  "timeEnd": "11.160",
+                  "timeStart": "6.800",
+                  "timeEnd": "7.000",
                   "entities": []
                 }
               ],
@@ -167,8 +285,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "11.160",
-                  "timeEnd": "14.120",
+                  "timeStart": "7.000",
+                  "timeEnd": "9.560",
                   "entities": []
                 }
               ],
@@ -181,8 +299,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "14.120",
-                  "timeEnd": "14.960",
+                  "timeStart": "9.560",
+                  "timeEnd": "10.240",
                   "entities": []
                 }
               ],
@@ -195,8 +313,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "14.960",
-                  "timeEnd": "15.560",
+                  "timeStart": "10.240",
+                  "timeEnd": "10.720",
                   "entities": []
                 }
               ],
@@ -209,8 +327,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 9355/AB bis 9367/AB",
-                  "timeStart": "15.560",
-                  "timeEnd": "17.880",
+                  "timeStart": "10.720",
+                  "timeEnd": "12.040",
                   "entities": []
                 }
               ],
@@ -223,8 +341,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "17.880",
-                  "timeEnd": "18.200",
+                  "timeStart": "12.040",
+                  "timeEnd": "12.720",
                   "entities": []
                 }
               ],
@@ -237,8 +355,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "18.200",
-                  "timeEnd": "18.480",
+                  "timeStart": "12.720",
+                  "timeEnd": "13.480",
                   "entities": []
                 }
               ],
@@ -251,8 +369,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "18.480",
-                  "timeEnd": "20.000",
+                  "timeStart": "13.480",
+                  "timeEnd": "14.120",
                   "entities": []
                 }
               ],
@@ -265,21 +383,48 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Josef Muchitsch , Tanja Graf , Mag.",
-                  "timeStart": "20.000",
-                  "timeEnd": "20.800",
-                  "entities": []
+                  "timeStart": "14.120",
+                  "timeEnd": "14.360",
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4964
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Mag.",
-                  "timeStart": "20.800",
-                  "timeEnd": "21.440",
-                  "entities": []
+                  "timeStart": "14.360",
+                  "timeEnd": "15.120",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz und das Ausländerbeschäftigungsgesetz geändert werden ( 2411/A )",
-                  "timeStart": "21.440",
-                  "timeEnd": "26.600",
-                  "entities": []
+                  "timeStart": "15.120",
+                  "timeEnd": "19.200",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Tanja Graf , Mag. Markus Koza , Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bauarbeiter-Urlaubs- und Abfertigungsgesetz und das Ausländerbeschäftigungsgesetz geändert werden ( 2411/A )"
@@ -291,8 +436,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "26.600",
-                  "timeEnd": "27.200",
+                  "timeStart": "19.200",
+                  "timeEnd": "20.000",
                   "entities": []
                 }
               ],
@@ -305,20 +450,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Ergebnisse der Kinderkostenstudie ernst nehmen – Anpassung der Regelbedarfssätze und Umsetzung der Unterhaltsgarantie.",
-                  "timeStart": "27.200",
-                  "timeEnd": "28.640",
-                  "entities": []
+                  "timeStart": "20.000",
+                  "timeEnd": "20.640",
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 },
                 {
                   "text": "Jetzt! (",
-                  "timeStart": "28.640",
-                  "timeEnd": "28.880",
+                  "timeStart": "20.640",
+                  "timeEnd": "20.680",
                   "entities": []
                 },
                 {
                   "text": "2409/A(E) )",
-                  "timeStart": "28.880",
-                  "timeEnd": "29.800",
+                  "timeStart": "20.680",
+                  "timeEnd": "20.760",
                   "entities": []
                 }
               ],
@@ -331,9 +483,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Kinderbetreuungsgeldgesetz geändert wird ( 2417/A )",
-                  "timeStart": "29.800",
-                  "timeEnd": "33.160",
-                  "entities": []
+                  "timeStart": "20.760",
+                  "timeEnd": "23.040",
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Norbert Sieber",
+                      "wid": "Q1997216",
+                      "wtype": "PER",
+                      "score": 0.9756
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Kinderbetreuungsgeldgesetz geändert wird ( 2417/A )"
@@ -345,9 +516,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Familienlastenausgleichsgesetz 1967 geändert wird ( 2418/A )",
-                  "timeStart": "33.160",
-                  "timeEnd": "36.080",
-                  "entities": []
+                  "timeStart": "23.040",
+                  "timeEnd": "27.200",
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Norbert Sieber",
+                      "wid": "Q1997216",
+                      "wtype": "PER",
+                      "score": 0.9756
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Norbert Sieber , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Familienlastenausgleichsgesetz 1967 geändert wird ( 2418/A )"
@@ -359,8 +549,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "36.080",
-                  "timeEnd": "36.440",
+                  "timeStart": "27.200",
+                  "timeEnd": "27.280",
                   "entities": []
                 }
               ],
@@ -373,9 +563,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2413/A(E) )",
-                  "timeStart": "36.440",
-                  "timeEnd": "39.240",
-                  "entities": []
+                  "timeStart": "27.280",
+                  "timeEnd": "28.640",
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 2413/A(E) )"
@@ -387,9 +596,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Erdgasabgabegesetz, das Elektrizitätsabgabegesetz und das Mineralölsteuergesetz 2022 geändert werden ( 2421/A )",
-                  "timeStart": "39.240",
-                  "timeEnd": "44.280",
-                  "entities": []
+                  "timeStart": "28.640",
+                  "timeEnd": "34.920",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.9908
+                    },
+                    {
+                      "label": "Sigrid Maurer",
+                      "wid": "Q1618939",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4116
+                    },
+                    {
+                      "label": "Mineralölsteuergesetz",
+                      "wid": "Q1341407",
+                      "wtype": "MISC",
+                      "score": 0.8512
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten August Wöginger , Sigrid Maurer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Erdgasabgabegesetz, das Elektrizitätsabgabegesetz und das Mineralölsteuergesetz 2022 geändert werden ( 2421/A )"
@@ -401,8 +635,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "44.280",
-                  "timeEnd": "44.520",
+                  "timeStart": "34.920",
+                  "timeEnd": "35.120",
                   "entities": []
                 }
               ],
@@ -415,8 +649,8 @@
               "sentences": [
                 {
                   "text": "EU-Berufsanerkennungsgesetz-Gesundheitsberufe 2022 – EU-BAG-GB 2022 ( 1403 d.B. )",
-                  "timeStart": "44.520",
-                  "timeEnd": "46.000",
+                  "timeStart": "35.120",
+                  "timeEnd": "38.040",
                   "entities": []
                 }
               ],
@@ -429,8 +663,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "46.000",
-                  "timeEnd": "46.200",
+                  "timeStart": "38.040",
+                  "timeEnd": "38.440",
                   "entities": []
                 }
               ],
@@ -443,20 +677,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Ergebnisse der Kinderkostenstudie ernst nehmen – Anpassung der Regelbedarfssätze und Umsetzung der Unterhaltsgarantie.",
-                  "timeStart": "46.200",
-                  "timeEnd": "49.560",
-                  "entities": []
+                  "timeStart": "38.440",
+                  "timeEnd": "40.320",
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 },
                 {
                   "text": "Jetzt! (",
-                  "timeStart": "49.560",
-                  "timeEnd": "49.720",
+                  "timeStart": "40.320",
+                  "timeEnd": "40.680",
                   "entities": []
                 },
                 {
                   "text": "2408/A(E) )",
-                  "timeStart": "49.720",
-                  "timeEnd": "50.480",
+                  "timeStart": "40.680",
+                  "timeEnd": "40.920",
                   "entities": []
                 }
               ],
@@ -469,8 +710,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "50.480",
-                  "timeEnd": "50.920",
+                  "timeStart": "40.920",
+                  "timeEnd": "41.120",
                   "entities": []
                 }
               ],
@@ -483,15 +724,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Ing. Mag.",
-                  "timeStart": "50.920",
-                  "timeEnd": "51.480",
+                  "timeStart": "41.120",
+                  "timeEnd": "42.420",
                   "entities": []
                 },
                 {
                   "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend denkmalgeschützte Bausubstanz erhalten – Erhaltungsmaßnahmen forcieren – Denkmalfonds beleben ( 2407/A(E) )",
-                  "timeStart": "51.480",
-                  "timeEnd": "53.480",
-                  "entities": []
+                  "timeStart": "42.420",
+                  "timeEnd": "43.040",
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend denkmalgeschützte Bausubstanz erhalten – Erhaltungsmaßnahmen forcieren – Denkmalfonds beleben ( 2407/A(E) )"
@@ -503,9 +757,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "53.480",
-                  "timeEnd": "53.800",
-                  "entities": []
+                  "timeStart": "43.040",
+                  "timeEnd": "43.200",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -517,9 +778,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend Stärkung des österreichischen Bundesheers insbesondere der Miliz ( 2410/A(E) )",
-                  "timeStart": "53.800",
-                  "timeEnd": "53.880",
-                  "entities": []
+                  "timeStart": "43.200",
+                  "timeEnd": "44.440",
+                  "entities": [
+                    {
+                      "label": "Robert Laimer",
+                      "wid": "Q42857692",
+                      "wtype": "PER",
+                      "score": 0.9919
+                    },
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Robert Laimer , Kolleginnen und Kollegen betreffend Stärkung des österreichischen Bundesheers insbesondere der Miliz ( 2410/A(E) )"
@@ -531,9 +811,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Überarbeitung der Österreichischen Sicherheitsstrategie ( 2414/A(E) )",
-                  "timeStart": "53.880",
-                  "timeEnd": "53.880",
-                  "entities": []
+                  "timeStart": "44.440",
+                  "timeEnd": "45.600",
+                  "entities": [
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9929
+                    },
+                    {
+                      "label": "Österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Überarbeitung der Österreichischen Sicherheitsstrategie ( 2414/A(E) )"
@@ -545,9 +844,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Sonderinvestitionspaket für das Österreichische Bundesheer und Anhebung des Regelbudgets \"Militärische Angelegenheiten\" auf 1 % des BIP ( 2415/A(E) )",
-                  "timeStart": "53.880",
-                  "timeEnd": "53.880",
-                  "entities": []
+                  "timeStart": "45.600",
+                  "timeEnd": "51.600",
+                  "entities": [
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9929
+                    },
+                    {
+                      "label": "Österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0948
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Sonderinvestitionspaket für das Österreichische Bundesheer und Anhebung des Regelbudgets \"Militärische Angelegenheiten\" auf 1 % des BIP ( 2415/A(E) )"
@@ -559,9 +877,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Wiedereinführung der 8 Monate Grundwehrdienst im Modell 6 + 2 Monate ( 2416/A(E) )",
-                  "timeStart": "53.880",
-                  "timeEnd": "56.660",
-                  "entities": []
+                  "timeStart": "51.600",
+                  "timeEnd": "53.480",
+                  "entities": [
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9929
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Reinhard Eugen Bösch , Kolleginnen und Kollegen betreffend Wiedereinführung der 8 Monate Grundwehrdienst im Modell 6 + 2 Monate ( 2416/A(E) )"
@@ -573,8 +904,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "56.660",
-                  "timeEnd": "57.280",
+                  "timeStart": "53.480",
+                  "timeEnd": "53.880",
                   "entities": []
                 }
               ],
@@ -587,9 +918,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend 5-Punkte-Plan zum Schutz der Neutralität ( 2420/A(E) )",
-                  "timeStart": "57.280",
-                  "timeEnd": "59.640",
-                  "entities": []
+                  "timeStart": "53.880",
+                  "timeEnd": "57.280",
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend 5-Punkte-Plan zum Schutz der Neutralität ( 2420/A(E) )"
@@ -601,8 +945,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "59.640",
-                  "timeEnd": "60.000",
+                  "timeStart": "57.280",
+                  "timeEnd": "57.720",
                   "entities": []
                 }
               ],
@@ -615,8 +959,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Dringlichkeit der Verlängerung des Härtefallfonds sowie des Ausfallsbonus ( 2406/A(E) )",
-                  "timeStart": "60.000",
-                  "timeEnd": "61.280",
+                  "timeStart": "57.720",
+                  "timeEnd": "60.560",
                   "entities": []
                 }
               ],
@@ -629,9 +973,16 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird ( 2419/A )",
-                  "timeStart": "61.280",
+                  "timeStart": "60.560",
                   "timeEnd": "62.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über besondere Förderungen von kleinen und mittleren Unternehmen (KMU-Förderungsgesetz) geändert wird ( 2419/A )"
@@ -644,7 +995,7 @@
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
                   "timeStart": "62.160",
-                  "timeEnd": "62.920",
+                  "timeEnd": "62.880",
                   "entities": []
                 }
               ],
@@ -657,8 +1008,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "62.920",
-                  "timeEnd": "63.720",
+                  "timeStart": "62.880",
+                  "timeEnd": "63.400",
                   "entities": []
                 }
               ],
@@ -671,9 +1022,22 @@
               "sentences": [
                 {
                   "text": "Bericht gemäß § 13 Abs. 1a des Bundesgesetzes über die Finanzierung der Arbeitsmarktpolitik (Arbeitsmarktpolitik-Finanzierungsgesetz – AMPFG) für Jänner 2020 bis Februar 2022, vorgelegt vom Bundesminister für Arbeit ( III-609 d.B. )",
-                  "timeStart": "63.720",
+                  "timeStart": "63.400",
                   "timeEnd": "67.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesminister für Arbeit",
+                      "wid": "Q491578",
+                      "wtype": "ORG",
+                      "score": 0.3065
+                    }
+                  ]
                 }
               ],
               "text": "Bericht gemäß § 13 Abs. 1a des Bundesgesetzes über die Finanzierung der Arbeitsmarktpolitik (Arbeitsmarktpolitik-Finanzierungsgesetz – AMPFG) für Jänner 2020 bis Februar 2022, vorgelegt vom Bundesminister für Arbeit ( III-609 d.B. )"
@@ -686,8 +1050,8 @@
         "stdId": 264124,
         "debatteId": 300,
         "proceedingIndex": 264124,
-        "alignDuration": 0.9222240447998047,
-        "nerDuration": 0.269467830657959
+        "alignDuration": 0.7638492584228516,
+        "nerDuration": 0.5603072643280029
       },
       "originalLanguage": "de"
     }

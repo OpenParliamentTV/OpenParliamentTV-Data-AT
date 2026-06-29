@@ -5,11 +5,12 @@
     "dateStart": "2021-05-20T21:00:21",
     "dateEnd": "2021-05-20T21:02:53",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T04:39:18",
+    "lastUpdate": "2026-06-28T10:37:47",
     "processing": {
       "merge": "2026-06-16T04:23:48+00:00",
-      "align": "2026-06-20T04:39:18",
-      "ner": "2026-06-28T02:44:54"
+      "align": "2026-06-28T10:37:47",
+      "ner": "2026-06-28T15:18:06",
+      "nel": "2026-06-28T07:25:26"
     }
   },
   "data": [
@@ -85,19 +86,52 @@
                   "text": "Als v erhindert gemeldet sind die Abgeordneten Kira Grünberg , Claudia Plakolm , Dr. Christian Stocker , Mag.",
                   "timeStart": "2.140",
                   "timeEnd": "4.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    },
+                    {
+                      "label": "Claudia Plakolm",
+                      "wid": "Q42294925",
+                      "wtype": "PER",
+                      "score": 0.99
+                    }
+                  ]
                 },
                 {
                   "text": "Karin Greiner , Ing. Norbert Hofer , Ing. Mag.",
                   "timeStart": "4.640",
-                  "timeEnd": "4.880",
-                  "entities": []
+                  "timeEnd": "4.760",
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9636
+                    }
+                  ]
                 },
                 {
                   "text": "Volker Reifenberger und Michel Reimon, MBA . (",
-                  "timeStart": "4.880",
+                  "timeStart": "4.760",
                   "timeEnd": "5.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Unruhe im Saal.) –",
@@ -108,7 +142,7 @@
                 {
                   "text": "Jetzt dauert es nicht mehr sehr lange.",
                   "timeStart": "5.440",
-                  "timeEnd": "5.720",
+                  "timeEnd": "5.880",
                   "entities": []
                 }
               ],
@@ -121,8 +155,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "5.720",
-                  "timeEnd": "5.840",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.520",
                   "entities": []
                 }
               ],
@@ -135,8 +169,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "5.840",
-                  "timeEnd": "7.860",
+                  "timeStart": "6.520",
+                  "timeEnd": "7.240",
                   "entities": []
                 }
               ],
@@ -149,8 +183,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "7.860",
-                  "timeEnd": "9.680",
+                  "timeStart": "7.240",
+                  "timeEnd": "9.400",
                   "entities": []
                 }
               ],
@@ -163,8 +197,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "9.680",
-                  "timeEnd": "9.800",
+                  "timeStart": "9.400",
+                  "timeEnd": "9.720",
                   "entities": []
                 }
               ],
@@ -177,7 +211,7 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 5855/AB bis 5865/AB",
-                  "timeStart": "9.800",
+                  "timeStart": "9.720",
                   "timeEnd": "13.360",
                   "entities": []
                 }
@@ -192,7 +226,7 @@
                 {
                   "text": "2. Antrag: Zurückziehung: Zu 1636/A",
                   "timeStart": "13.360",
-                  "timeEnd": "14.960",
+                  "timeEnd": "14.920",
                   "entities": []
                 }
               ],
@@ -205,8 +239,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "14.960",
-                  "timeEnd": "15.360",
+                  "timeStart": "14.920",
+                  "timeEnd": "15.240",
                   "entities": []
                 }
               ],
@@ -219,7 +253,7 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "15.360",
+                  "timeStart": "15.240",
                   "timeEnd": "15.440",
                   "entities": []
                 }
@@ -249,7 +283,20 @@
                   "text": "Antrag 1645/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Einführung einer neuen Familienarbeitszeit",
                   "timeStart": "15.960",
                   "timeEnd": "16.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1645/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Einführung einer neuen Familienarbeitszeit"
@@ -262,8 +309,21 @@
                 {
                   "text": "Antrag 1652/A der Abgeordneten Bettina Zopf , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Mutterschutzgesetz 1979 geändert wird",
                   "timeStart": "16.960",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeEnd": "20.680",
+                  "entities": [
+                    {
+                      "label": "Bettina Zopf",
+                      "wid": "Q72311418",
+                      "wtype": "PER",
+                      "score": 0.9548
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1652/A der Abgeordneten Bettina Zopf , Barbara Neßler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Mutterschutzgesetz 1979 geändert wird"
@@ -275,15 +335,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1659/A der Abgeordneten August Wöginger , Mag.",
-                  "timeStart": "19.200",
-                  "timeEnd": "20.200",
-                  "entities": []
+                  "timeStart": "20.680",
+                  "timeEnd": "21.800",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Arbeitsmarktservicegesetz geändert werden",
-                  "timeStart": "20.200",
-                  "timeEnd": "21.760",
-                  "entities": []
+                  "timeStart": "21.800",
+                  "timeEnd": "25.960",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1659/A der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 und das Arbeitsmarktservicegesetz geändert werden"
@@ -295,21 +375,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1661/A der Abgeordneten Mag.",
-                  "timeStart": "21.760",
-                  "timeEnd": "22.960",
+                  "timeStart": "25.960",
+                  "timeEnd": "28.080",
                   "entities": []
                 },
                 {
                   "text": "Michael Hammer , Mag.",
-                  "timeStart": "22.960",
-                  "timeEnd": "23.000",
+                  "timeStart": "28.080",
+                  "timeEnd": "28.240",
                   "entities": []
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz zur Bekämpfung pandemiebedingter Armutsfolgen (COVID-19-Gesetz-Armut) geändert wird",
-                  "timeStart": "23.000",
-                  "timeEnd": "25.920",
-                  "entities": []
+                  "timeStart": "28.240",
+                  "timeEnd": "30.800",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1661/A der Abgeordneten Mag. Michael Hammer , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz zur Bekämpfung pandemiebedingter Armutsfolgen (COVID-19-Gesetz-Armut) geändert wird"
@@ -321,15 +408,29 @@
               "sentences": [
                 {
                   "text": "Antrag 1664/A der Abgeordneten Maria Großbauer , Mag.",
-                  "timeStart": "25.920",
-                  "timeEnd": "27.080",
-                  "entities": []
+                  "timeStart": "30.800",
+                  "timeEnd": "32.480",
+                  "entities": [
+                    {
+                      "label": "Maria Großbauer",
+                      "wid": "Q28851897",
+                      "wtype": "PER",
+                      "score": 0.9923
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Künstler-Sozialversicherungsfondsgesetz und das Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler geändert werden",
-                  "timeStart": "27.080",
-                  "timeEnd": "27.160",
-                  "entities": []
+                  "timeStart": "32.480",
+                  "timeEnd": "34.080",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1664/A der Abgeordneten Maria Großbauer , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Künstler-Sozialversicherungsfondsgesetz und das Bundesgesetz über die Errichtung eines Fonds für eine Überbrückungsfinanzierung für selbständige Künstlerinnen und Künstler geändert werden"
@@ -341,15 +442,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1667/A der Abgeordneten Tanja Graf , Alois Stöger, diplômé , Mag.",
-                  "timeStart": "27.160",
-                  "timeEnd": "29.560",
-                  "entities": []
+                  "timeStart": "34.080",
+                  "timeEnd": "36.880",
+                  "entities": [
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q2392681",
+                      "wtype": "PER",
+                      "score": 0.3899
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitskräfteüberlassungsgesetz geändert wird",
-                  "timeStart": "29.560",
-                  "timeEnd": "31.840",
-                  "entities": []
+                  "timeStart": "36.880",
+                  "timeEnd": "37.840",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1667/A der Abgeordneten Tanja Graf , Alois Stöger, diplômé , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitskräfteüberlassungsgesetz geändert wird"
@@ -361,15 +488,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1668/A der Abgeordneten Rebecca Kirchbaumer , Mag.",
-                  "timeStart": "31.840",
-                  "timeEnd": "33.440",
-                  "entities": []
+                  "timeStart": "37.840",
+                  "timeEnd": "39.360",
+                  "entities": [
+                    {
+                      "label": "Rebecca Kirchbaumer",
+                      "wid": "Q43143110",
+                      "wtype": "PER",
+                      "score": 0.9419
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über eine COVID-19 Förderung für betriebliche Testungen (Betriebliches Testungs-Gesetz – BTG) geändert wird",
-                  "timeStart": "33.440",
-                  "timeEnd": "34.080",
-                  "entities": []
+                  "timeStart": "39.360",
+                  "timeEnd": "40.160",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    },
+                    {
+                      "label": "BTG",
+                      "wid": "Q797061",
+                      "wtype": "MISC",
+                      "score": 0.1278
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1668/A der Abgeordneten Rebecca Kirchbaumer , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über eine COVID-19 Förderung für betriebliche Testungen (Betriebliches Testungs-Gesetz – BTG) geändert wird"
@@ -381,9 +528,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1672/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Aussteuerungssystem des ÖVP-Wirtschaftsbundes gegen Arbeitslosen in Österreich in Zeiten der Corona-Arbeitsmarktkrise",
-                  "timeStart": "34.080",
-                  "timeEnd": "40.160",
-                  "entities": []
+                  "timeStart": "40.160",
+                  "timeEnd": "43.360",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "ÖVP-Wirtschaftsbundes",
+                      "wid": "Q306538",
+                      "wtype": "ORG",
+                      "score": 0.9327
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1672/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Aussteuerungssystem des ÖVP-Wirtschaftsbundes gegen Arbeitslosen in Österreich in Zeiten der Corona-Arbeitsmarktkrise"
@@ -395,8 +561,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1682/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Aktion 100.000 gegen die Corona-Langzeitarbeitslosigkeit",
-                  "timeStart": "40.160",
-                  "timeEnd": "43.560",
+                  "timeStart": "43.360",
+                  "timeEnd": "45.960",
                   "entities": []
                 }
               ],
@@ -409,8 +575,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "43.560",
-                  "timeEnd": "43.960",
+                  "timeStart": "45.960",
+                  "timeEnd": "45.960",
                   "entities": []
                 }
               ],
@@ -423,9 +589,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1653/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das KMU-Förderungsgesetz und das Garantiegesetz 1977 geändert werden",
-                  "timeStart": "43.960",
+                  "timeStart": "45.960",
                   "timeEnd": "47.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Elisabeth Götze",
+                      "wid": "Q72074591",
+                      "wtype": "PER",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Garantiegesetz",
+                      "wid": "Q1518813",
+                      "wtype": "MISC",
+                      "score": 0.7436
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1653/A der Abgeordneten Gabriel Obernosterer , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das KMU-Förderungsgesetz und das Garantiegesetz 1977 geändert werden"
@@ -439,12 +624,19 @@
                   "text": "Antrag 1669/A der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "47.520",
                   "timeEnd": "47.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988, das Umsatzsteuergesetz 1994 und das Alkoholsteuergesetz geändert werden",
                   "timeStart": "47.520",
-                  "timeEnd": "49.680",
+                  "timeEnd": "50.040",
                   "entities": []
                 }
               ],
@@ -457,9 +649,16 @@
               "sentences": [
                 {
                   "text": "Antrag 1686/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Errichtung eines Härtefallfonds (Härtefallfondsgesetz) geändert wird",
-                  "timeStart": "49.680",
-                  "timeEnd": "53.320",
-                  "entities": []
+                  "timeStart": "50.040",
+                  "timeEnd": "55.040",
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1686/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Errichtung eines Härtefallfonds (Härtefallfondsgesetz) geändert wird"
@@ -471,8 +670,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "53.320",
-                  "timeEnd": "53.320",
+                  "timeStart": "55.040",
+                  "timeEnd": "55.200",
                   "entities": []
                 }
               ],
@@ -485,9 +684,16 @@
               "sentences": [
                 {
                   "text": "Antrag 1640/A der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Familienlastenausgleichsgesetz 1967 geändert wird",
-                  "timeStart": "53.320",
-                  "timeEnd": "55.160",
-                  "entities": []
+                  "timeStart": "55.200",
+                  "timeEnd": "57.960",
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1640/A der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Familienlastenausgleichsgesetz 1967 geändert wird"
@@ -499,9 +705,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1641/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Familien unterstützen – Wirtschaft stärken: Bessere Qualität und höhere Investitionen in Kinderbetreuung und elementare Bildung!",
-                  "timeStart": "55.160",
-                  "timeEnd": "57.800",
-                  "entities": []
+                  "timeStart": "57.960",
+                  "timeEnd": "59.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1641/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Familien unterstützen – Wirtschaft stärken: Bessere Qualität und höhere Investitionen in Kinderbetreuung und elementare Bildung!"
@@ -513,8 +732,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "57.800",
-                  "timeEnd": "58.200",
+                  "timeStart": "59.720",
+                  "timeEnd": "60.120",
                   "entities": []
                 }
               ],
@@ -527,9 +746,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1637/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend flächendeckende und niederschwellige Kurse für digitale Kompetenz",
-                  "timeStart": "58.200",
-                  "timeEnd": "60.280",
-                  "entities": []
+                  "timeStart": "60.120",
+                  "timeEnd": "61.520",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1637/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend flächendeckende und niederschwellige Kurse für digitale Kompetenz"
@@ -541,8 +773,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "60.280",
-                  "timeEnd": "61.040",
+                  "timeStart": "61.520",
+                  "timeEnd": "61.760",
                   "entities": []
                 }
               ],
@@ -555,9 +787,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1635/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
-                  "timeStart": "61.040",
+                  "timeStart": "61.760",
                   "timeEnd": "64.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1635/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
@@ -576,8 +833,15 @@
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller",
                   "timeStart": "65.960",
-                  "timeEnd": "66.840",
-                  "entities": []
+                  "timeEnd": "66.960",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1646/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller"
@@ -589,15 +853,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1655/A(E) der Abgeordneten Mag.",
-                  "timeStart": "66.840",
-                  "timeEnd": "67.320",
+                  "timeStart": "66.960",
+                  "timeEnd": "67.560",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend mehr Information bei der Kennzeichnung von Lebensmitteln für mehr Entscheidungsfreiheit der KonsumentInnen",
-                  "timeStart": "67.320",
+                  "timeStart": "67.560",
                   "timeEnd": "69.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1655/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend mehr Information bei der Kennzeichnung von Lebensmitteln für mehr Entscheidungsfreiheit der KonsumentInnen"
@@ -610,8 +881,33 @@
                 {
                   "text": "Antrag 1660/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
                   "timeStart": "69.160",
-                  "timeEnd": "72.080",
-                  "entities": []
+                  "timeEnd": "71.520",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1660/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
@@ -623,9 +919,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1662/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Suchtmittelgesetz, das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden",
-                  "timeStart": "72.080",
-                  "timeEnd": "76.080",
-                  "entities": []
+                  "timeStart": "71.520",
+                  "timeEnd": "75.520",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.977
+                    },
+                    {
+                      "label": "Suchtmittelgesetz",
+                      "wid": "Q7633015",
+                      "wtype": "MISC",
+                      "score": 0.8632
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1662/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Suchtmittelgesetz, das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
@@ -637,9 +958,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1663/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Medizinproduktegesetz und das Gesundheits- und Ernährungssicherheitsgesetz geändert werden",
-                  "timeStart": "76.080",
+                  "timeStart": "75.520",
                   "timeEnd": "78.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1663/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Medizinproduktegesetz und das Gesundheits- und Ernährungssicherheitsgesetz geändert werden"
@@ -652,8 +986,27 @@
                 {
                   "text": "Antrag 1665/A der Abgeordneten Gabriela Schwarz , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Pflegefondsgesetz und das COVID-19-Zweckzuschussgesetz geändert werden",
                   "timeStart": "78.880",
-                  "timeEnd": "82.920",
-                  "entities": []
+                  "timeEnd": "81.680",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1665/A der Abgeordneten Gabriela Schwarz , Bedrana Ribo, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Pflegefondsgesetz und das COVID-19-Zweckzuschussgesetz geändert werden"
@@ -665,9 +1018,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1670/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Gendergerechte Medizin",
-                  "timeStart": "82.920",
+                  "timeStart": "81.680",
                   "timeEnd": "83.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1670/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Gendergerechte Medizin"
@@ -681,7 +1047,20 @@
                   "text": "Antrag 1684/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend rasche Durchführung einer Impfstudie betreffend Schwangere und Kinder",
                   "timeStart": "83.680",
                   "timeEnd": "83.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1684/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend rasche Durchführung einer Impfstudie betreffend Schwangere und Kinder"
@@ -709,7 +1088,20 @@
                   "text": "Antrag 1642/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Ende der Gewalt gegen Frauen!",
                   "timeStart": "83.680",
                   "timeEnd": "83.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1642/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Ende der Gewalt gegen Frauen!"
@@ -723,7 +1115,20 @@
                   "text": "Antrag 1643/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Recht und Würde intergeschlechtlicher Kinder dürfen nicht weiter verletzt werden",
                   "timeStart": "83.680",
                   "timeEnd": "83.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1643/A(E) der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Recht und Würde intergeschlechtlicher Kinder dürfen nicht weiter verletzt werden"
@@ -737,7 +1142,26 @@
                   "text": "Antrag 1644/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend aktueller Bericht zur Situation von Frauen in Österreich (Frauenbericht)",
                   "timeStart": "83.680",
                   "timeEnd": "83.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1644/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend aktueller Bericht zur Situation von Frauen in Österreich (Frauenbericht)"
@@ -750,8 +1174,21 @@
                 {
                   "text": "Antrag 1678/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Gendergerechte Medizin",
                   "timeStart": "83.680",
-                  "timeEnd": "84.000",
-                  "entities": []
+                  "timeEnd": "83.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1678/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Gendergerechte Medizin"
@@ -763,9 +1200,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1683/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend rasche Durchführung einer Impfstudie betreffend Schwangere und Kinder",
-                  "timeStart": "84.000",
-                  "timeEnd": "89.520",
-                  "entities": []
+                  "timeStart": "83.680",
+                  "timeEnd": "84.780",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1683/A(E) der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend rasche Durchführung einer Impfstudie betreffend Schwangere und Kinder"
@@ -777,8 +1227,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "89.520",
-                  "timeEnd": "89.880",
+                  "timeStart": "84.780",
+                  "timeEnd": "85.760",
                   "entities": []
                 }
               ],
@@ -791,9 +1241,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1651/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verschwinden von Kindern und Jugendlichen mit Fluchterfahrung",
-                  "timeStart": "89.880",
-                  "timeEnd": "91.920",
-                  "entities": []
+                  "timeStart": "85.760",
+                  "timeEnd": "89.000",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1651/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Verschwinden von Kindern und Jugendlichen mit Fluchterfahrung"
@@ -805,15 +1268,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1656/A(E) der Abgeordneten Karl Mahrer , Sabine Schatz , Mag.",
-                  "timeStart": "91.920",
-                  "timeEnd": "94.000",
-                  "entities": []
+                  "timeStart": "89.000",
+                  "timeEnd": "90.600",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Karl Mahrer",
+                      "wid": "Q1256218",
+                      "wtype": "PER",
+                      "score": 0.9903
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Aktionsplan gegen Rechtsextremismus",
-                  "timeStart": "94.000",
-                  "timeEnd": "96.120",
-                  "entities": []
+                  "timeStart": "90.600",
+                  "timeEnd": "92.240",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1656/A(E) der Abgeordneten Karl Mahrer , Sabine Schatz , Mag. Eva Blimlinger , Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Aktionsplan gegen Rechtsextremismus"
@@ -825,15 +1314,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1657/A der Abgeordneten Karl Mahrer , Mag.",
-                  "timeStart": "96.120",
-                  "timeEnd": "97.200",
-                  "entities": []
+                  "timeStart": "92.240",
+                  "timeEnd": "93.000",
+                  "entities": [
+                    {
+                      "label": "Karl Mahrer",
+                      "wid": "Q1256218",
+                      "wtype": "PER",
+                      "score": 0.9936
+                    }
+                  ]
                 },
                 {
                   "text": "Georg Bürstmayr , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985, das Niederlassungs- und Aufenthaltsgesetz, das BFA Verfahrensgesetz und das Asylgesetz 2005 geändert werden",
-                  "timeStart": "97.200",
-                  "timeEnd": "101.280",
-                  "entities": []
+                  "timeStart": "93.000",
+                  "timeEnd": "96.800",
+                  "entities": [
+                    {
+                      "label": "Georg Bürstmayr",
+                      "wid": "Q38057788",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Asylgesetz 2005",
+                      "wid": "Q752581",
+                      "wtype": "MISC",
+                      "score": 0.9786
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1657/A der Abgeordneten Karl Mahrer , Mag. Georg Bürstmayr , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Staatsbürgerschaftsgesetz 1985, das Niederlassungs- und Aufenthaltsgesetz, das BFA Verfahrensgesetz und das Asylgesetz 2005 geändert werden"
@@ -845,21 +1354,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1658/A der Abgeordneten Dipl.-Kffr. (",
-                  "timeStart": "101.280",
-                  "timeEnd": "104.120",
+                  "timeStart": "96.800",
+                  "timeEnd": "98.700",
                   "entities": []
                 },
                 {
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
-                  "timeStart": "104.120",
-                  "timeEnd": "104.480",
-                  "entities": []
+                  "timeStart": "98.700",
+                  "timeEnd": "99.680",
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Sicherheitspolizeigesetz geändert wird",
-                  "timeStart": "104.480",
-                  "timeEnd": "104.920",
-                  "entities": []
+                  "timeStart": "99.680",
+                  "timeEnd": "100.880",
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Sicherheitspolizeigesetz",
+                      "wid": "Q2281293",
+                      "wtype": "MISC",
+                      "score": 0.8721
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1658/A der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Sicherheitspolizeigesetz geändert wird"
@@ -871,8 +1400,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "104.920",
-                  "timeEnd": "105.400",
+                  "timeStart": "100.880",
+                  "timeEnd": "101.360",
                   "entities": []
                 }
               ],
@@ -885,15 +1414,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1638/A(E) der Abgeordneten Mag.",
-                  "timeStart": "105.400",
-                  "timeEnd": "105.640",
+                  "timeStart": "101.360",
+                  "timeEnd": "105.400",
                   "entities": []
                 },
                 {
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Beweissicherung bei häuslicher Gewalt",
-                  "timeStart": "105.640",
+                  "timeStart": "105.400",
                   "timeEnd": "105.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1638/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Beweissicherung bei häuslicher Gewalt"
@@ -913,7 +1449,20 @@
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend die dramatische Unterdotierung der Gerichtsmedizin in Österreich",
                   "timeStart": "105.640",
                   "timeEnd": "105.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1639/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend die dramatische Unterdotierung der Gerichtsmedizin in Österreich"
@@ -926,8 +1475,27 @@
                 {
                   "text": "Antrag 1650/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend rasche Umsetzung der UPR Empfehlungen",
                   "timeStart": "105.640",
-                  "timeEnd": "105.640",
-                  "entities": []
+                  "timeEnd": "105.880",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "UPR",
+                      "wid": "Q1270771",
+                      "wtype": "ORG",
+                      "score": 0.1103
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1650/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend rasche Umsetzung der UPR Empfehlungen"
@@ -939,8 +1507,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.640",
+                  "timeStart": "105.880",
+                  "timeEnd": "107.760",
                   "entities": []
                 }
               ],
@@ -953,9 +1521,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1671/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Aufschub des Endes der gesetzlichen Corona-Kreditstundungen",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.640",
-                  "entities": []
+                  "timeStart": "107.760",
+                  "timeEnd": "111.280",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1671/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Aufschub des Endes der gesetzlichen Corona-Kreditstundungen"
@@ -967,8 +1548,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.640",
+                  "timeStart": "111.280",
+                  "timeEnd": "111.720",
                   "entities": []
                 }
               ],
@@ -981,15 +1562,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1654/A(E) der Abgeordneten Mag.",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.640",
+                  "timeStart": "111.720",
+                  "timeEnd": "112.600",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.640",
-                  "entities": []
+                  "timeStart": "112.600",
+                  "timeEnd": "113.520",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1654/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller"
@@ -1001,8 +1589,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.640",
+                  "timeStart": "113.520",
+                  "timeEnd": "114.240",
                   "entities": []
                 }
               ],
@@ -1015,8 +1603,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1680/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Generalamnestie bei menschenrechtswidrigen COVID-19-Strafen",
-                  "timeStart": "105.640",
-                  "timeEnd": "105.840",
+                  "timeStart": "114.240",
+                  "timeEnd": "117.280",
                   "entities": []
                 }
               ],
@@ -1029,8 +1617,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "105.840",
-                  "timeEnd": "106.120",
+                  "timeStart": "117.280",
+                  "timeEnd": "117.360",
                   "entities": []
                 }
               ],
@@ -1043,21 +1631,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1647/A der Abgeordneten Mag.",
-                  "timeStart": "106.120",
-                  "timeEnd": "108.080",
+                  "timeStart": "117.360",
+                  "timeEnd": "118.280",
                   "entities": []
                 },
                 {
                   "text": "Michaela Steinacker , Mag.",
-                  "timeStart": "108.080",
-                  "timeEnd": "109.040",
-                  "entities": []
+                  "timeStart": "118.280",
+                  "timeEnd": "118.920",
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Diziplinarstatut für Rechtsanwälte und Rechtsanwaltsanwärter, die Rechtsanwaltsordnung, das 1. COVID-19-Justiz-Begleitgesetz und das 2. COVID-19-Justiz-Begleitgesetz geändert werden",
-                  "timeStart": "109.040",
-                  "timeEnd": "112.960",
-                  "entities": []
+                  "timeStart": "118.920",
+                  "timeEnd": "122.120",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1647/A der Abgeordneten Mag. Michaela Steinacker , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Diziplinarstatut für Rechtsanwälte und Rechtsanwaltsanwärter, die Rechtsanwaltsordnung, das 1. COVID-19-Justiz-Begleitgesetz und das 2. COVID-19-Justiz-Begleitgesetz geändert werden"
@@ -1069,21 +1671,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1648/A der Abgeordneten Mag.",
-                  "timeStart": "112.960",
-                  "timeEnd": "114.640",
+                  "timeStart": "122.120",
+                  "timeEnd": "122.820",
                   "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
-                  "timeStart": "114.640",
-                  "timeEnd": "115.480",
-                  "entities": []
+                  "timeStart": "122.820",
+                  "timeEnd": "123.720",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz über Änderungen des Bundes-Verfassungsgesetzes, des COVID-19 Begleitgesetzes Vergabe und des Verwaltungsrechtlichen COVID-19-Begleitgesetzes sowie das Außerkrafttreten einiger Verfassungsbestimmungen",
-                  "timeStart": "115.480",
-                  "timeEnd": "118.880",
-                  "entities": []
+                  "timeStart": "123.720",
+                  "timeEnd": "129.240",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    },
+                    {
+                      "label": "Bundes-Verfassungsgesetzes",
+                      "wid": "Q700706",
+                      "wtype": "MISC",
+                      "score": 0.6258
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1648/A der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz über Änderungen des Bundes-Verfassungsgesetzes, des COVID-19 Begleitgesetzes Vergabe und des Verwaltungsrechtlichen COVID-19-Begleitgesetzes sowie das Außerkrafttreten einiger Verfassungsbestimmungen"
@@ -1095,21 +1717,35 @@
               "sentences": [
                 {
                   "text": "Antrag 1649/A der Abgeordneten Mag.",
-                  "timeStart": "118.880",
-                  "timeEnd": "120.200",
+                  "timeStart": "129.240",
+                  "timeEnd": "130.000",
                   "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
-                  "timeStart": "120.200",
-                  "timeEnd": "120.520",
-                  "entities": []
+                  "timeStart": "130.000",
+                  "timeEnd": "130.040",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Parteiengesetz 2012, das KommAustria-Gesetz, das Presseförderungsgesetz 2004, das Publizistikförderungsgesetz 1984 und das ORF-Gesetz geändert werden",
-                  "timeStart": "120.520",
-                  "timeEnd": "125.840",
-                  "entities": []
+                  "timeStart": "130.040",
+                  "timeEnd": "133.160",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1649/A der Abgeordneten Mag. Wolfgang Gerstl , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Parteiengesetz 2012, das KommAustria-Gesetz, das Presseförderungsgesetz 2004, das Publizistikförderungsgesetz 1984 und das ORF-Gesetz geändert werden"
@@ -1121,9 +1757,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1673/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Sicherheit bei der Berufsausübung – Definitivstellung nach 4 Jahren",
-                  "timeStart": "125.840",
-                  "timeEnd": "129.000",
-                  "entities": []
+                  "timeStart": "133.160",
+                  "timeEnd": "134.960",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1673/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Sicherheit bei der Berufsausübung – Definitivstellung nach 4 Jahren"
@@ -1135,9 +1784,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1674/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Pauschalierte Zulagen und Nebengebühren müssen Bestandteil des Grundbezuges werden",
-                  "timeStart": "129.000",
-                  "timeEnd": "130.720",
-                  "entities": []
+                  "timeStart": "134.960",
+                  "timeEnd": "135.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9793
+                    },
+                    {
+                      "label": "Pauschalierte",
+                      "wid": "Q2884599",
+                      "wtype": "LOC",
+                      "score": 0.3367
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1674/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Pauschalierte Zulagen und Nebengebühren müssen Bestandteil des Grundbezuges werden"
@@ -1149,9 +1817,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1675/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Ballungsraumzulage für arbeitsintensive Polizeidienststellen",
-                  "timeStart": "130.720",
-                  "timeEnd": "133.160",
-                  "entities": []
+                  "timeStart": "135.400",
+                  "timeEnd": "135.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1675/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Ballungsraumzulage für arbeitsintensive Polizeidienststellen"
@@ -1163,9 +1844,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1676/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Absicherung für 50+ Bedienstete im Sicherheitsbereich",
-                  "timeStart": "133.160",
-                  "timeEnd": "133.560",
-                  "entities": []
+                  "timeStart": "135.400",
+                  "timeEnd": "135.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1676/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Absicherung für 50+ Bedienstete im Sicherheitsbereich"
@@ -1177,9 +1871,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1677/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Reform der Polizeiausbildung",
-                  "timeStart": "133.560",
-                  "timeEnd": "134.320",
-                  "entities": []
+                  "timeStart": "135.720",
+                  "timeEnd": "138.280",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1677/A(E) der Abgeordneten Christian Lausch , Kolleginnen und Kollegen betreffend Reform der Polizeiausbildung"
@@ -1191,8 +1898,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1679/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Datensparsamkeit statt Grüner Pass",
-                  "timeStart": "134.320",
-                  "timeEnd": "135.720",
+                  "timeStart": "138.280",
+                  "timeEnd": "140.440",
                   "entities": []
                 }
               ],
@@ -1205,8 +1912,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1681/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Schaffung eines Verbotsgesetzes für den politischen Islam",
-                  "timeStart": "135.720",
-                  "timeEnd": "138.880",
+                  "timeStart": "140.440",
+                  "timeEnd": "142.360",
                   "entities": []
                 }
               ],
@@ -1219,9 +1926,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1687/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Generalamnestie bei COVID-19-Strafen",
-                  "timeStart": "138.880",
-                  "timeEnd": "141.760",
-                  "entities": []
+                  "timeStart": "142.360",
+                  "timeEnd": "144.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.9914
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1687/A(E) der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Generalamnestie bei COVID-19-Strafen"
@@ -1233,8 +1953,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "141.760",
-                  "timeEnd": "142.320",
+                  "timeStart": "144.560",
+                  "timeEnd": "145.000",
                   "entities": []
                 }
               ],
@@ -1247,15 +1967,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1666/A(E) der Abgeordneten Dr. Elisabeth Götze , Dipl.-Kffr. (",
-                  "timeStart": "142.320",
-                  "timeEnd": "144.320",
+                  "timeStart": "145.000",
+                  "timeEnd": "146.720",
                   "entities": []
                 },
                 {
                   "text": "FH) Elisabeth Pfurtscheller , Kolleginnen und Kollegen betreffend \"Prüfung von Maßnahmen zur Erhöhung der Frauenquote in börsennotierten Unternehmen\"",
-                  "timeStart": "144.320",
-                  "timeEnd": "144.560",
-                  "entities": []
+                  "timeStart": "146.720",
+                  "timeEnd": "147.600",
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1666/A(E) der Abgeordneten Dr. Elisabeth Götze , Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Kolleginnen und Kollegen betreffend \"Prüfung von Maßnahmen zur Erhöhung der Frauenquote in börsennotierten Unternehmen\""
@@ -1267,9 +1994,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1685/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend dringende Branchenuntersuchung durch die Bundeswettbewerbsbehörde zur Prüfung der Gründe der die Wirtschaft enorm belastenden Preissteigerungen und Kapazitätsengpässe von Roh-, Bau- und Werkstoffen",
-                  "timeStart": "144.560",
-                  "timeEnd": "148.040",
-                  "entities": []
+                  "timeStart": "147.600",
+                  "timeEnd": "149.840",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1685/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend dringende Branchenuntersuchung durch die Bundeswettbewerbsbehörde zur Prüfung der Gründe der die Wirtschaft enorm belastenden Preissteigerungen und Kapazitätsengpässe von Roh-, Bau- und Werkstoffen"
@@ -1281,8 +2021,8 @@
               "sentences": [
                 {
                   "text": "C. Verlangen gemäß § 26 Abs. 8 GOG hinsichtlich des Antrages",
-                  "timeStart": "148.040",
-                  "timeEnd": "148.960",
+                  "timeStart": "149.840",
+                  "timeEnd": "150.360",
                   "entities": []
                 }
               ],
@@ -1295,15 +2035,41 @@
               "sentences": [
                 {
                   "text": "1080/A(E) der Abgeordneten Dr. Reinhard Eugen Bösch , Mag.",
-                  "timeStart": "148.960",
-                  "timeEnd": "149.960",
-                  "entities": []
+                  "timeStart": "150.360",
+                  "timeEnd": "150.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9929
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Loacker , Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Rettung der direkten Demokratie in Vorarlberg",
-                  "timeStart": "149.960",
-                  "timeEnd": "150.400",
-                  "entities": []
+                  "timeStart": "150.400",
+                  "timeEnd": "151.040",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "Vorarlberg",
+                      "wid": "Q38981",
+                      "wtype": "LOC",
+                      "score": 0.783
+                    }
+                  ]
                 }
               ],
               "text": "1080/A(E) der Abgeordneten Dr. Reinhard Eugen Bösch , Mag. Gerald Loacker , Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Rettung der direkten Demokratie in Vorarlberg"
@@ -1315,9 +2081,28 @@
               "sentences": [
                 {
                   "text": "Den Entschließungsantrag 1688/A(E) der Abgeordneten Kucher, Kolleginnen und Kollegen betreffend „Planung künftiger Covid-Impfungen“ weise ich dem Gesundheitsausschuss zu.",
-                  "timeStart": "150.400",
+                  "timeStart": "151.040",
                   "timeEnd": "152.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Kucher",
+                      "wid": "Q95184146",
+                      "wtype": "PER",
+                      "score": 0.0954
+                    },
+                    {
+                      "label": "Covid-Impfungen",
+                      "wid": "Q87719492",
+                      "wtype": "MISC",
+                      "score": 0.8748
+                    }
+                  ]
                 }
               ],
               "text": "Den Entschließungsantrag 1688/A(E) der Abgeordneten Kucher, Kolleginnen und Kollegen betreffend „Planung künftiger Covid-Impfungen“ weise ich dem Gesundheitsausschuss zu."
@@ -1344,8 +2129,8 @@
         "stdId": 246109,
         "debatteId": 300,
         "proceedingIndex": 246109,
-        "alignDuration": 1.445302963256836,
-        "nerDuration": 0.5832998752593994
+        "alignDuration": 1.3555879592895508,
+        "nerDuration": 1.3670849800109863
       },
       "originalLanguage": "de"
     }

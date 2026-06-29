@@ -5,11 +5,12 @@
     "dateStart": "2023-09-20T23:40:01",
     "dateEnd": "2023-09-20T23:40:39",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T16:20:29",
+    "lastUpdate": "2026-06-28T13:46:59",
     "processing": {
       "merge": "2026-06-16T04:24:09+00:00",
-      "align": "2026-06-25T16:20:29",
-      "ner": "2026-06-28T03:23:24"
+      "align": "2026-06-28T13:46:59",
+      "ner": "2026-06-28T16:13:45",
+      "nel": "2026-06-28T07:25:35"
     }
   },
   "data": [
@@ -93,13 +94,57 @@
                   "text": "Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag.",
                   "timeStart": "1.240",
                   "timeEnd": "1.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Johanna Jachs",
+                      "wid": "Q42305634",
+                      "wtype": "PER",
+                      "score": 0.988
+                    },
+                    {
+                      "label": "Maria Smodics-Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Heike Grebien und Michel Reimon, MBA .",
                   "timeStart": "1.240",
                   "timeEnd": "1.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Johanna Jachs , Maria Smodics-Neumann, Petra Bayr, MA MLS , Mag. Philipp Schrangl , Heike Grebien und Michel Reimon, MBA ."
@@ -183,7 +228,32 @@
                   "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )",
                   "timeStart": "1.240",
                   "timeEnd": "1.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Bundes-Ehrenzeichen",
+                      "wid": "Q1005377",
+                      "wtype": "LOC",
+                      "score": 0.9801
+                    },
+                    {
+                      "label": "Österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0948
+                    },
+                    {
+                      "label": "Österreichische Ehrenkreuz für Wissenschaft und Kunst",
+                      "wid": "Q306590",
+                      "wtype": "ORG",
+                      "score": 0.9484
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über das Ehrenzeichen für Verdienste um die Republik Österreich, das Bundes-Ehrenzeichen sowie das Österreichische Ehrenzeichen für Wissenschaft und Kunst und das Österreichische Ehrenkreuz für Wissenschaft und Kunst (Ehrenzeichengesetz – EhrenzeichenG) erlassen wird und das Militärauszeichnungsgesetz 2002 geändert wird ( 2197 d.B. )"
@@ -196,7 +266,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Verkehrsopfer-Entschädigungsgesetz, das Kraftfahrzeug-Haftpflichtversicherungsgesetz 1994, das Kraftfahrgesetz 1967, das Versicherungsaufsichtsgesetz 2016 und die Straßenverkehrsordnung 1960 geändert werden (Kraftfahr-Versicherungsrechts-Änderungsgesetz 2023 –KraftVerÄG 2023) ( 2198 d.B. )",
                   "timeStart": "1.560",
-                  "timeEnd": "1.840",
+                  "timeEnd": "3.760",
                   "entities": []
                 }
               ],
@@ -209,8 +279,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz über österreichische Beiträge an internationale Finanzinstitutionen (IFI-Beitragsgesetz 2023) ( 2199 d.B. )",
-                  "timeStart": "1.840",
-                  "timeEnd": "2.680",
+                  "timeStart": "3.760",
+                  "timeEnd": "3.960",
                   "entities": []
                 }
               ],
@@ -223,8 +293,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Schulunterrichtsgesetz geändert wird ( 2200 d.B. )",
-                  "timeStart": "2.680",
-                  "timeEnd": "3.120",
+                  "timeStart": "3.960",
+                  "timeEnd": "4.000",
                   "entities": []
                 }
               ],
@@ -237,8 +307,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Hochschülerinnen- und Hochschülerschaftsgesetz 2014 geändert wird ( 2201 d.B. )",
-                  "timeStart": "3.120",
-                  "timeEnd": "3.760",
+                  "timeStart": "4.000",
+                  "timeEnd": "4.280",
                   "entities": []
                 }
               ],
@@ -251,9 +321,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )",
-                  "timeStart": "3.760",
-                  "timeEnd": "3.960",
-                  "entities": []
+                  "timeStart": "4.280",
+                  "timeEnd": "5.640",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Namensänderungsgesetz",
+                      "wid": "Q15812161",
+                      "wtype": "MISC",
+                      "score": 0.7923
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Meldegesetz 1991, das Personenstandsgesetz 2013 und das Namensänderungsgesetz geändert werden ( 2202 d.B. )"
@@ -265,8 +348,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Anstellungserfordernisse-Grundsatzgesetz geändert wird ( 2203 d.B. )",
-                  "timeStart": "3.960",
-                  "timeEnd": "4.320",
+                  "timeStart": "5.640",
+                  "timeEnd": "5.640",
                   "entities": []
                 }
               ],
@@ -279,8 +362,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesstraßen-Mautgesetz 2002 und das ASFINAG-Gesetz geändert werden ( 2204 d.B. )",
-                  "timeStart": "4.320",
-                  "timeEnd": "5.720",
+                  "timeStart": "5.640",
+                  "timeEnd": "6.320",
                   "entities": []
                 }
               ],
@@ -293,8 +376,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Forstgesetz 1975 geändert wird ( 2205 d.B. )",
-                  "timeStart": "5.720",
-                  "timeEnd": "6.040",
+                  "timeStart": "6.320",
+                  "timeEnd": "7.280",
                   "entities": []
                 }
               ],
@@ -307,8 +390,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Österreichisch-Jüdisches Kulturerbegesetz geändert wird ( 2206 d.B. )",
-                  "timeStart": "6.040",
-                  "timeEnd": "7.280",
+                  "timeStart": "7.280",
+                  "timeEnd": "7.720",
                   "entities": []
                 }
               ],
@@ -321,8 +404,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Gesundheits-Zielsteuerungsgesetz – (G-ZG) geändert wird ( 2207 d.B. )",
-                  "timeStart": "7.280",
-                  "timeEnd": "8.160",
+                  "timeStart": "7.720",
+                  "timeEnd": "8.240",
                   "entities": []
                 }
               ],
@@ -335,7 +418,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Strafgesetzbuch, die Strafprozeßordnung 1975, das Kommunikationsplattformen-Gesetz und das Audiovisuelle Mediendienste-Gesetz geändert werden ( 2208 d.B. )",
-                  "timeStart": "8.160",
+                  "timeStart": "8.240",
                   "timeEnd": "8.280",
                   "entities": []
                 }
@@ -364,8 +447,57 @@
                 {
                   "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )",
                   "timeStart": "8.720",
-                  "timeEnd": "9.000",
-                  "entities": []
+                  "timeEnd": "9.200",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Tierarzneimittelgesetz",
+                      "wid": "Q110555156",
+                      "wtype": "MISC",
+                      "score": 0.8843
+                    },
+                    {
+                      "label": "TAMG",
+                      "wid": "Q110555156",
+                      "wtype": "MISC",
+                      "score": 0.1176
+                    },
+                    {
+                      "label": "Arzneimittelgesetz",
+                      "wid": "Q718685",
+                      "wtype": "MISC",
+                      "score": 0.7428
+                    },
+                    {
+                      "label": "ChemG",
+                      "wid": "Q1069273",
+                      "wtype": "MISC",
+                      "score": 0.4217
+                    },
+                    {
+                      "label": "Patentgesetz 1970",
+                      "wid": "Q2056725",
+                      "wtype": "MISC",
+                      "score": 0.9427
+                    },
+                    {
+                      "label": "Apothekengesetz",
+                      "wid": "Q620546",
+                      "wtype": "MISC",
+                      "score": 0.8372
+                    },
+                    {
+                      "label": "TSchG",
+                      "wid": "Q2432435",
+                      "wtype": "MISC",
+                      "score": 0.372
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Tierarzneimittelgesetz (TAMG) erlassen und das Arzneimittelgesetz, das Gesundheits- und Ernährungssicherheitsgesetz (GESG), das Lebensmittelsicherheits- und Verbraucherschutzgesetz (LMSVG), das Tierärztegesetz, das Arzneiwareneinfuhrgesetz 2005, das Biozidproduktegesetz, das Chemikaliengesetz 1996 (ChemG 1996), das Patentgesetz 1970, das Apothekengesetz, das Tierschutzgesetz (TSchG) das Tierärztekammergesetz (TÄKamG), das Rezeptpflichtgesetz und das Arzneibuchgesetz 2012 geändert werden ( 2210 d.B. )"
@@ -377,8 +509,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen:",
-                  "timeStart": "9.000",
-                  "timeEnd": "9.040",
+                  "timeStart": "9.200",
+                  "timeEnd": "9.320",
                   "entities": []
                 }
               ],
@@ -391,8 +523,8 @@
               "sentences": [
                 {
                   "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:",
-                  "timeStart": "9.040",
-                  "timeEnd": "10.720",
+                  "timeStart": "9.320",
+                  "timeEnd": "11.000",
                   "entities": []
                 }
               ],
@@ -405,8 +537,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
-                  "timeStart": "10.720",
-                  "timeEnd": "10.760",
+                  "timeStart": "11.000",
+                  "timeEnd": "11.400",
                   "entities": []
                 }
               ],
@@ -419,9 +551,16 @@
               "sentences": [
                 {
                   "text": "Bürgerinitiative betreffend \"Anerkennung des Schutzbedarfs kurdischer Aktivist*innen und oppositioneller Personen aus der Türkei\" ( 60/BI )",
-                  "timeStart": "10.760",
-                  "timeEnd": "10.760",
-                  "entities": []
+                  "timeStart": "11.400",
+                  "timeEnd": "11.400",
+                  "entities": [
+                    {
+                      "label": "Türkei",
+                      "wid": "Q43",
+                      "wtype": "LOC",
+                      "score": 0.3734
+                    }
+                  ]
                 }
               ],
               "text": "Bürgerinitiative betreffend \"Anerkennung des Schutzbedarfs kurdischer Aktivist*innen und oppositioneller Personen aus der Türkei\" ( 60/BI )"
@@ -433,8 +572,8 @@
               "sentences": [
                 {
                   "text": "2. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "10.760",
-                  "timeEnd": "10.760",
+                  "timeStart": "11.400",
+                  "timeEnd": "11.400",
                   "entities": []
                 }
               ],
@@ -447,8 +586,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "10.760",
-                  "timeEnd": "10.960",
+                  "timeStart": "11.400",
+                  "timeEnd": "11.400",
                   "entities": []
                 }
               ],
@@ -461,8 +600,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "10.960",
-                  "timeEnd": "11.360",
+                  "timeStart": "11.400",
+                  "timeEnd": "11.400",
                   "entities": []
                 }
               ],
@@ -475,7 +614,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "11.360",
+                  "timeStart": "11.400",
                   "timeEnd": "11.400",
                   "entities": []
                 },
@@ -483,7 +622,20 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Vereinbarkeit der Lehre mit verschiedenen Arbeitszeitmodellen ( 3577/A(E) )",
                   "timeStart": "11.400",
                   "timeEnd": "11.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Vereinbarkeit der Lehre mit verschiedenen Arbeitszeitmodellen ( 3577/A(E) )"
@@ -496,7 +648,7 @@
                 {
                   "text": "Antrag der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend \"Sicherheitsmaßnahmen zur Reduktion von Forstunfällen\" ( 3602/A(E) )",
                   "timeStart": "11.400",
-                  "timeEnd": "12.440",
+                  "timeEnd": "12.520",
                   "entities": []
                 }
               ],
@@ -509,15 +661,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "12.440",
-                  "timeEnd": "12.520",
+                  "timeStart": "12.520",
+                  "timeEnd": "12.560",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Einrichtung eines Inklusionsfonds ( 3608/A(E) )",
-                  "timeStart": "12.520",
+                  "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Einrichtung eines Inklusionsfonds ( 3608/A(E) )"
@@ -545,7 +710,20 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Vorlage der Afrikastrategie ( 3578/A(E) )",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Vorlage der Afrikastrategie ( 3578/A(E) )"
@@ -559,7 +737,32 @@
                   "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Sofortige Abberufung des Leiters der Vertretung der EU-Kommission in Österreich, Dr. Martin Selmayr ( 3599/A(E) )",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "EU-Kommission",
+                      "wid": "Q8880",
+                      "wtype": "ORG",
+                      "score": 0.9618
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Schnedlitz , Kolleginnen und Kollegen betreffend Sofortige Abberufung des Leiters der Vertretung der EU-Kommission in Österreich, Dr. Martin Selmayr ( 3599/A(E) )"
@@ -579,7 +782,14 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Schluss mit der Steuergeldverschwendung!",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    }
+                  ]
                 },
                 {
                   "text": "Es braucht eine Reform der Entwicklungshilfe ( 3618/A(E) )",
@@ -605,7 +815,20 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Aktionsplan für altösterreichische Minderheiten ( 3619/A(E) )",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Aktionsplan für altösterreichische Minderheiten ( 3619/A(E) )"
@@ -639,7 +862,20 @@
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Wohnen in der Krise – umfassendes Maßnahmenpaket für leistbares Wohnen ( 3562/A(E) )",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.982
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Wohnen in der Krise – umfassendes Maßnahmenpaket für leistbares Wohnen ( 3562/A(E) )"
@@ -667,7 +903,20 @@
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Schluss mit den Mogelpackungen in der elementaren Kinderbildung ( 3564/A(E) )",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Schluss mit den Mogelpackungen in der elementaren Kinderbildung ( 3564/A(E) )"
@@ -681,7 +930,20 @@
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Kinder besser schützen – Betroffene besser unterstützen ( 3568/A(E) )",
                   "timeStart": "12.560",
                   "timeEnd": "12.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Kinder besser schützen – Betroffene besser unterstützen ( 3568/A(E) )"
@@ -709,7 +971,26 @@
                   "text": "Protokoll zur Abänderung des Abkommens zwischen der Regierung der Republik Österreich und der Regierung der Volksrepublik China zur Vermeidung der Doppelbesteuerung und zur Verhinderung der Steuerumgehung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen samt Protokoll ( 2196 d.B. )",
                   "timeStart": "12.560",
                   "timeEnd": "12.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abkommens",
+                      "wid": "Q321865",
+                      "wtype": "MISC",
+                      "score": 0.0893
+                    },
+                    {
+                      "label": "Republik Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.4129
+                    },
+                    {
+                      "label": "Volksrepublik China",
+                      "wid": "Q148",
+                      "wtype": "LOC",
+                      "score": 0.6319
+                    }
+                  ]
                 }
               ],
               "text": "Protokoll zur Abänderung des Abkommens zwischen der Regierung der Republik Österreich und der Regierung der Volksrepublik China zur Vermeidung der Doppelbesteuerung und zur Verhinderung der Steuerumgehung auf dem Gebiete der Steuern vom Einkommen und vom Vermögen samt Protokoll ( 2196 d.B. )"
@@ -728,8 +1009,21 @@
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend KESt-Befreiung für längerfristige Veranlagungen ( 3573/A(E) )",
                   "timeStart": "12.960",
-                  "timeEnd": "13.720",
-                  "entities": []
+                  "timeEnd": "13.520",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend KESt-Befreiung für längerfristige Veranlagungen ( 3573/A(E) )"
@@ -741,8 +1035,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Kalte Progression zu hundert Prozent abschaffen ( 3574/A(E) )",
-                  "timeStart": "13.720",
-                  "timeEnd": "14.840",
+                  "timeStart": "13.520",
+                  "timeEnd": "13.520",
                   "entities": []
                 }
               ],
@@ -755,15 +1049,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "14.840",
-                  "timeEnd": "14.840",
+                  "timeStart": "13.520",
+                  "timeEnd": "13.720",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommenssteuergesetz 1988 geändert wird ( 3584/A )",
-                  "timeStart": "14.840",
-                  "timeEnd": "15.400",
-                  "entities": []
+                  "timeStart": "13.720",
+                  "timeEnd": "14.680",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommenssteuergesetz 1988 geändert wird ( 3584/A )"
@@ -775,8 +1076,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "15.400",
-                  "timeEnd": "15.440",
+                  "timeStart": "14.680",
+                  "timeEnd": "14.800",
                   "entities": []
                 }
               ],
@@ -789,15 +1090,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "15.440",
-                  "timeEnd": "15.440",
+                  "timeStart": "14.800",
+                  "timeEnd": "14.840",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Einrichtung eines Inklusionsfonds ( 3609/A(E) )",
-                  "timeStart": "15.440",
-                  "timeEnd": "15.840",
-                  "entities": []
+                  "timeStart": "14.840",
+                  "timeEnd": "14.880",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Einrichtung eines Inklusionsfonds ( 3609/A(E) )"
@@ -809,8 +1123,8 @@
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "timeStart": "15.840",
-                  "timeEnd": "16.080",
+                  "timeStart": "14.880",
+                  "timeEnd": "14.880",
                   "entities": []
                 }
               ],
@@ -823,14 +1137,27 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Kritik des Rechnungshofes ernst nehmen – Nationalen Aktionsplan gegen Gewalt vorlegen! (",
-                  "timeStart": "16.080",
-                  "timeEnd": "16.720",
-                  "entities": []
+                  "timeStart": "14.880",
+                  "timeEnd": "15.200",
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Rechnungshofes",
+                      "wid": "Q2135305",
+                      "wtype": "ORG",
+                      "score": 0.3905
+                    }
+                  ]
                 },
                 {
                   "text": "3563/A(E) )",
-                  "timeStart": "16.720",
-                  "timeEnd": "17.200",
+                  "timeStart": "15.200",
+                  "timeEnd": "15.400",
                   "entities": []
                 }
               ],
@@ -843,15 +1170,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "17.200",
-                  "timeEnd": "17.320",
+                  "timeStart": "15.400",
+                  "timeEnd": "15.440",
                   "entities": []
                 },
                 {
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend KZ-Gedenkstättenbesuche im Rahmen der Werte- und Orientierungskurse ( 3579/A(E) )",
-                  "timeStart": "17.320",
-                  "timeEnd": "18.000",
-                  "entities": []
+                  "timeStart": "15.440",
+                  "timeEnd": "16.080",
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend KZ-Gedenkstättenbesuche im Rahmen der Werte- und Orientierungskurse ( 3579/A(E) )"
@@ -863,8 +1203,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "18.000",
-                  "timeEnd": "18.000",
+                  "timeStart": "16.080",
+                  "timeEnd": "16.320",
                   "entities": []
                 }
               ],
@@ -877,7 +1217,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz zur Unterstützung von Rettungs- und Zivilschutzorganisationen (Rettungs- und Zivilschutzorganisationen-Unterstützungsgesetz) ( 2177 d.B. )",
-                  "timeStart": "18.000",
+                  "timeStart": "16.320",
                   "timeEnd": "18.120",
                   "entities": []
                 }
@@ -893,7 +1233,26 @@
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Lagebericht Hate Crime im Parlament diskutieren ( 3560/A(E) )",
                   "timeStart": "18.120",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "Hate Crime",
+                      "wid": "Q459409",
+                      "wtype": "MISC",
+                      "score": 0.8726
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Lagebericht Hate Crime im Parlament diskutieren ( 3560/A(E) )"
@@ -927,7 +1286,32 @@
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aussetzung der Zulassung von Asylanträgen in Österreich ( 3614/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Aussetzung der Zulassung von Asylanträgen in Österreich ( 3614/A(E) )"
@@ -947,7 +1331,26 @@
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Migration ist keine Lösung zum Ausgleich von Geburtenrückgängen ( 3615/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Migration ist keine Lösung zum Ausgleich von Geburtenrückgängen ( 3615/A(E) )"
@@ -981,7 +1384,20 @@
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Kinder besser schützen – Betroffene besser unterstützen ( 3566/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Kinder besser schützen – Betroffene besser unterstützen ( 3566/A(E) )"
@@ -1015,7 +1431,20 @@
                   "text": "Harald Stefan , Kolleginnen und Kollegen betreffend Kinderschutzpaket ( 3605/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Harald Stefan , Kolleginnen und Kollegen betreffend Kinderschutzpaket ( 3605/A(E) )"
@@ -1043,7 +1472,20 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Fairness für Bankkunden – Sofortmaßnahmen im Sinne der Kreditnehmer und der Sparer ( 3606/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Fairness für Bankkunden – Sofortmaßnahmen im Sinne der Kreditnehmer und der Sparer ( 3606/A(E) )"
@@ -1057,7 +1499,26 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Echtes \"Opting out\" für Konsumenten bei Smart-Meter ( 3610/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Smart-Meter",
+                      "wid": "Q1630602",
+                      "wtype": "MISC",
+                      "score": 0.9681
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Echtes \"Opting out\" für Konsumenten bei Smart-Meter ( 3610/A(E) )"
@@ -1071,7 +1532,26 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3621/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Kostenlawine stoppen – Entlastung für Österreich ( 3621/A(E) )"
@@ -1091,7 +1571,26 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Sonderzinssatz für Kontoüberziehungen ( 3625/A(E) )",
                   "timeStart": "19.040",
                   "timeEnd": "19.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Kontoüberziehungen",
+                      "wid": "Q1129100",
+                      "wtype": "LOC",
+                      "score": 0.4588
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Sonderzinssatz für Kontoüberziehungen ( 3625/A(E) )"
@@ -1110,8 +1609,21 @@
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Begrenzung von Inkassokosten ( 3626/A(E) )",
                   "timeStart": "20.080",
-                  "timeEnd": "21.560",
-                  "entities": []
+                  "timeEnd": "22.040",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Begrenzung von Inkassokosten ( 3626/A(E) )"
@@ -1123,8 +1635,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "21.560",
-                  "timeEnd": "21.560",
+                  "timeStart": "22.040",
+                  "timeEnd": "22.520",
                   "entities": []
                 }
               ],
@@ -1137,9 +1649,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend \"Zukunft des RSO langfristig sichern\" ( 3596/A(E) )",
-                  "timeStart": "21.560",
-                  "timeEnd": "22.960",
-                  "entities": []
+                  "timeStart": "22.520",
+                  "timeEnd": "23.000",
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "RSO",
+                      "wid": "Q778792",
+                      "wtype": "ORG",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend \"Zukunft des RSO langfristig sichern\" ( 3596/A(E) )"
@@ -1151,9 +1682,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Maßnahmen zur Attraktivierung der ehrenamtlichen Tätigkeit in Chören und Musikkapellen sowie Erhöhung der Bundesförderungen ( 3616/A(E) )",
-                  "timeStart": "22.960",
-                  "timeEnd": "22.960",
-                  "entities": []
+                  "timeStart": "23.000",
+                  "timeEnd": "23.400",
+                  "entities": [
+                    {
+                      "label": "Thomas Spalt",
+                      "wid": "Q114598449",
+                      "wtype": "PER",
+                      "score": 0.9831
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Thomas Spalt , Kolleginnen und Kollegen betreffend Maßnahmen zur Attraktivierung der ehrenamtlichen Tätigkeit in Chören und Musikkapellen sowie Erhöhung der Bundesförderungen ( 3616/A(E) )"
@@ -1165,9 +1709,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "22.960",
-                  "timeEnd": "22.960",
-                  "entities": []
+                  "timeStart": "23.400",
+                  "timeEnd": "23.400",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -1179,9 +1730,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Hubschrauberstationierung im Bundesgebiet ( 3576/A(E) )",
-                  "timeStart": "22.960",
-                  "timeEnd": "22.960",
-                  "entities": []
+                  "timeStart": "23.400",
+                  "timeEnd": "23.400",
+                  "entities": [
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Hubschrauberstationierung im Bundesgebiet ( 3576/A(E) )"
@@ -1193,8 +1757,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "22.960",
-                  "timeEnd": "22.960",
+                  "timeStart": "23.400",
+                  "timeEnd": "23.400",
                   "entities": []
                 }
               ],
@@ -1207,14 +1771,14 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Rascher Beschluss einer Bodenschutzstrategie und Umsetzung entsprechender Maßnahmen! (",
-                  "timeStart": "22.960",
-                  "timeEnd": "22.960",
+                  "timeStart": "23.400",
+                  "timeEnd": "23.400",
                   "entities": []
                 },
                 {
                   "text": "3572/A(E) )",
-                  "timeStart": "22.960",
-                  "timeEnd": "22.960",
+                  "timeStart": "23.400",
+                  "timeEnd": "23.400",
                   "entities": []
                 }
               ],
@@ -1227,9 +1791,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend dringliche Erarbeitung einer Machbarkeitsstudie zur Wasserversorgung der Landwirtschaft und rasche Forschung zu Wasserentnahmen wegen der drohenden Grundwasserkrise bis zum Jahr 2050 ( 3603/A(E) )",
-                  "timeStart": "22.960",
+                  "timeStart": "23.400",
                   "timeEnd": "23.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9818
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend dringliche Erarbeitung einer Machbarkeitsstudie zur Wasserversorgung der Landwirtschaft und rasche Forschung zu Wasserentnahmen wegen der drohenden Grundwasserkrise bis zum Jahr 2050 ( 3603/A(E) )"
@@ -1242,8 +1819,21 @@
                 {
                   "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend verbindliche Reduzierung chemisch – synthetischer Pestizide und Forschungsstrategien für schonende Alternativen ( 3627/A(E) )",
                   "timeStart": "23.400",
-                  "timeEnd": "23.720",
-                  "entities": []
+                  "timeEnd": "23.400",
+                  "entities": [
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9818
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend verbindliche Reduzierung chemisch – synthetischer Pestizide und Forschungsstrategien für schonende Alternativen ( 3627/A(E) )"
@@ -1255,8 +1845,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "23.720",
-                  "timeEnd": "23.920",
+                  "timeStart": "23.400",
+                  "timeEnd": "23.400",
                   "entities": []
                 }
               ],
@@ -1269,9 +1859,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Ewa Ernst-Dziedzic , Dr. Gudrun Kugler , Dr. Harald Troch , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Stopp des militärischen Kampfeinsatzes und der humanitären Krise in Bergkarabach ( 3629/A(E) )",
-                  "timeStart": "23.920",
+                  "timeStart": "23.400",
                   "timeEnd": "23.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Bergkarabach",
+                      "wid": "Q44302",
+                      "wtype": "LOC",
+                      "score": 0.2118
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Ewa Ernst-Dziedzic , Dr. Gudrun Kugler , Dr. Harald Troch , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Stopp des militärischen Kampfeinsatzes und der humanitären Krise in Bergkarabach ( 3629/A(E) )"
@@ -1285,7 +1894,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "23.920",
                   "timeEnd": "23.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -1305,7 +1921,20 @@
                   "text": "Julia Seidl , Kolleginnen und Kollegen betreffend Echte Entlastung statt Mahrer-Show: Streichung der Kammerumlage 2 ( 3575/A(E) )",
                   "timeStart": "23.920",
                   "timeEnd": "23.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Julia Seidl , Kolleginnen und Kollegen betreffend Echte Entlastung statt Mahrer-Show: Streichung der Kammerumlage 2 ( 3575/A(E) )"
@@ -1324,8 +1953,21 @@
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Dringende Erhöhung der Förderung der alpinen Infrastruktur ( 3604/A(E) )",
                   "timeStart": "23.920",
-                  "timeEnd": "24.520",
-                  "entities": []
+                  "timeEnd": "23.920",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Dringende Erhöhung der Förderung der alpinen Infrastruktur ( 3604/A(E) )"
@@ -1337,9 +1979,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Franz Hörl , Barbara Neßler , Kolleginnen und Kollegen betreffend die Weiterentwicklung der Erfolgsmessung im Tourismus durch langfristige und zielgerichtete Erhebungen zur Tourismusakzeptanz in der Bevölkerung ( 3607/A(E) )",
-                  "timeStart": "24.520",
+                  "timeStart": "23.920",
                   "timeEnd": "24.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Franz Hörl",
+                      "wid": "Q1275622",
+                      "wtype": "PER",
+                      "score": 0.9885
+                    },
+                    {
+                      "label": "Barbara Neßler",
+                      "wid": "Q66312190",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Franz Hörl , Barbara Neßler , Kolleginnen und Kollegen betreffend die Weiterentwicklung der Erfolgsmessung im Tourismus durch langfristige und zielgerichtete Erhebungen zur Tourismusakzeptanz in der Bevölkerung ( 3607/A(E) )"
@@ -1353,7 +2014,26 @@
                   "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz BAG, BGBl.",
                   "timeStart": "24.520",
                   "timeEnd": "24.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.9752
+                    },
+                    {
+                      "label": "BAG",
+                      "wid": "Q176936",
+                      "wtype": "ORG",
+                      "score": 0.0964
+                    },
+                    {
+                      "label": "BGBl",
+                      "wid": "Q1006107",
+                      "wtype": "ORG",
+                      "score": 0.0943
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 142/1969, zuletzt geändert durch das Bundesgesetz BGBl.",
@@ -1378,8 +2058,21 @@
                 {
                   "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Individualisierung und Tourismus ( 3628/A(E) )",
                   "timeStart": "25.680",
-                  "timeEnd": "26.720",
-                  "entities": []
+                  "timeEnd": "26.560",
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.9752
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Melanie Erasim, MSc , Kolleginnen und Kollegen betreffend Individualisierung und Tourismus ( 3628/A(E) )"
@@ -1391,8 +2084,8 @@
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
-                  "timeStart": "26.720",
-                  "timeEnd": "26.720",
+                  "timeStart": "26.560",
+                  "timeEnd": "26.560",
                   "entities": []
                 }
               ],
@@ -1405,9 +2098,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Brandmanagement Schilf, insbesondere den Schilfgürtel Neusiedler See ( 3586/A(E) )",
-                  "timeStart": "26.720",
+                  "timeStart": "26.560",
                   "timeEnd": "27.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Neusiedler See",
+                      "wid": "Q6396",
+                      "wtype": "LOC",
+                      "score": 0.9744
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Brandmanagement Schilf, insbesondere den Schilfgürtel Neusiedler See ( 3586/A(E) )"
@@ -1440,7 +2158,7 @@
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend Mehr Jobs für mehr Kreislaufwirtschaft ( 3589/A(E) )",
                   "timeStart": "27.080",
-                  "timeEnd": "27.080",
+                  "timeEnd": "27.400",
                   "entities": []
                 }
               ],
@@ -1453,8 +2171,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "27.080",
-                  "timeEnd": "27.080",
+                  "timeStart": "27.400",
+                  "timeEnd": "27.520",
                   "entities": []
                 }
               ],
@@ -1467,8 +2185,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend Schluss mit den Mogelpackungen in der elementaren Kinderbildung ( 3565/A(E) )",
-                  "timeStart": "27.080",
-                  "timeEnd": "27.080",
+                  "timeStart": "27.520",
+                  "timeEnd": "28.000",
                   "entities": []
                 }
               ],
@@ -1481,15 +2199,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "27.080",
-                  "timeEnd": "27.080",
+                  "timeStart": "28.000",
+                  "timeEnd": "28.440",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bürokratische Vorschriften für Schulen durchforsten und abbauen ( 3569/A(E) )",
-                  "timeStart": "27.080",
-                  "timeEnd": "27.520",
-                  "entities": []
+                  "timeStart": "28.440",
+                  "timeEnd": "29.120",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bürokratische Vorschriften für Schulen durchforsten und abbauen ( 3569/A(E) )"
@@ -1501,15 +2232,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "27.520",
-                  "timeEnd": "27.520",
+                  "timeStart": "29.120",
+                  "timeEnd": "29.120",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend System-Wirrwarr in der Schulbürokratie überwinden, digitale Wende beschleunigen ( 3580/A(E) )",
-                  "timeStart": "27.520",
-                  "timeEnd": "28.040",
-                  "entities": []
+                  "timeStart": "29.120",
+                  "timeEnd": "29.560",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend System-Wirrwarr in der Schulbürokratie überwinden, digitale Wende beschleunigen ( 3580/A(E) )"
@@ -1521,9 +2265,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Statistische Erfassung von Schwimmunterrichtseinheiten an Österreichs Schulen ( 3590/A(E) )",
-                  "timeStart": "28.040",
-                  "timeEnd": "28.880",
-                  "entities": []
+                  "timeStart": "29.560",
+                  "timeEnd": "30.440",
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Österreichs",
+                      "wid": "Q131964",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Statistische Erfassung von Schwimmunterrichtseinheiten an Österreichs Schulen ( 3590/A(E) )"
@@ -1535,9 +2298,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Fremdsprachen nicht aus den Lehrplänen streichen\" ( 3591/A(E) )",
-                  "timeStart": "28.880",
-                  "timeEnd": "29.120",
-                  "entities": []
+                  "timeStart": "30.440",
+                  "timeEnd": "30.720",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Fremdsprachen nicht aus den Lehrplänen streichen\" ( 3591/A(E) )"
@@ -1549,9 +2325,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Partizipationsmöglichkeiten für Mittelschulen stärken und verbessern\" ( 3592/A(E) )",
-                  "timeStart": "29.120",
-                  "timeEnd": "29.440",
-                  "entities": []
+                  "timeStart": "30.720",
+                  "timeEnd": "31.400",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend \"Partizipationsmöglichkeiten für Mittelschulen stärken und verbessern\" ( 3592/A(E) )"
@@ -1563,8 +2352,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend Teurer Schulstart ( 3593/A(E) )",
-                  "timeStart": "29.440",
-                  "timeEnd": "29.440",
+                  "timeStart": "31.400",
+                  "timeEnd": "32.160",
                   "entities": []
                 }
               ],
@@ -1577,8 +2366,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Tanzler , Kolleginnen und Kollegen betreffend bessere Unterstützung bei Wiederholungsprüfungen ( 3594/A(E) )",
-                  "timeStart": "29.440",
-                  "timeEnd": "29.760",
+                  "timeStart": "32.160",
+                  "timeEnd": "32.720",
                   "entities": []
                 }
               ],
@@ -1591,9 +2380,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Reform der Lehrerausbildung ( 3601/A(E) )",
-                  "timeStart": "29.760",
-                  "timeEnd": "30.440",
-                  "entities": []
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720",
+                  "entities": [
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Reform der Lehrerausbildung ( 3601/A(E) )"
@@ -1605,21 +2413,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Tanzler , Mag.",
-                  "timeStart": "30.440",
-                  "timeEnd": "30.440",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720",
                   "entities": []
                 },
                 {
                   "text": "Dr. Rudolf Taschner , Mag.",
-                  "timeStart": "30.440",
-                  "timeEnd": "30.720",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720",
                   "entities": []
                 },
                 {
                   "text": "Sibylle Hamann , Kolleginnen und Kollegen betreffend Evaluierung des neuen Quereinstiegsmodells im Rahmen der Lehrkräfteinitiative für die Sekundarstufe Allgemeinbildung ( 3617/A(E) )",
-                  "timeStart": "30.720",
-                  "timeEnd": "31.240",
-                  "entities": []
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720",
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Tanzler , Mag. Dr. Rudolf Taschner , Mag. Sibylle Hamann , Kolleginnen und Kollegen betreffend Evaluierung des neuen Quereinstiegsmodells im Rahmen der Lehrkräfteinitiative für die Sekundarstufe Allgemeinbildung ( 3617/A(E) )"
@@ -1631,8 +2452,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "31.240",
-                  "timeEnd": "31.480",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720",
                   "entities": []
                 }
               ],
@@ -1645,15 +2466,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "31.480",
-                  "timeEnd": "31.880",
+                  "timeStart": "32.720",
+                  "timeEnd": "32.720",
                   "entities": []
                 },
                 {
                   "text": "Muna Duzdar , Kolleginnen und Kollegen betreffend \"Zukunft des RSO langfristig sichern\" ( 3595/A(E) )",
-                  "timeStart": "31.880",
+                  "timeStart": "32.720",
                   "timeEnd": "32.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Muna Duzdar",
+                      "wid": "Q1329538",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "RSO",
+                      "wid": "Q778792",
+                      "wtype": "ORG",
+                      "score": 0.0894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Muna Duzdar , Kolleginnen und Kollegen betreffend \"Zukunft des RSO langfristig sichern\" ( 3595/A(E) )"
@@ -1667,7 +2507,26 @@
                   "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend Besondere Hilfeleistung nach einem Dienstunfall für Exekutivbedienstete ( 3612/A(E) )",
                   "timeStart": "32.720",
                   "timeEnd": "32.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Werner Herbert",
+                      "wid": "Q1555361",
+                      "wtype": "PER",
+                      "score": 0.9542
+                    },
+                    {
+                      "label": "Exekutivbedienstete",
+                      "wid": "Q1383636",
+                      "wtype": "PER",
+                      "score": 0.8456
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend Besondere Hilfeleistung nach einem Dienstunfall für Exekutivbedienstete ( 3612/A(E) )"
@@ -1680,8 +2539,21 @@
                 {
                   "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend Freiwillige Altersteilzeit im öffentlichen Dienst für besonders belastete Bedienstete ( 3613/A(E) )",
                   "timeStart": "32.720",
-                  "timeEnd": "34.120",
-                  "entities": []
+                  "timeEnd": "33.560",
+                  "entities": [
+                    {
+                      "label": "Werner Herbert",
+                      "wid": "Q1555361",
+                      "wtype": "PER",
+                      "score": 0.9593
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Werner Herbert , Kolleginnen und Kollegen betreffend Freiwillige Altersteilzeit im öffentlichen Dienst für besonders belastete Bedienstete ( 3613/A(E) )"
@@ -1693,27 +2565,66 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "34.120",
-                  "timeEnd": "34.120",
+                  "timeStart": "33.560",
+                  "timeEnd": "33.560",
                   "entities": []
                 },
                 {
                   "text": "Wolfgang Gerstl , Mag.",
-                  "timeStart": "34.120",
-                  "timeEnd": "34.120",
-                  "entities": []
+                  "timeStart": "33.560",
+                  "timeEnd": "33.560",
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Jörg Leichtfried , Mag.",
-                  "timeStart": "34.120",
-                  "timeEnd": "34.600",
-                  "entities": []
+                  "timeStart": "33.560",
+                  "timeEnd": "33.560",
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Bundesgesetz zur Errichtung der Stiftung Forum Verfassung erlassen wird, geändert wird ( 3622/A )",
-                  "timeStart": "34.600",
+                  "timeStart": "33.560",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9837
+                    },
+                    {
+                      "label": "Nikolaus Scherak",
+                      "wid": "Q1991669",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Wolfgang Gerstl , Mag. Jörg Leichtfried , Mag. Agnes Sirkka Prammer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Bundesgesetz zur Errichtung der Stiftung Forum Verfassung erlassen wird, geändert wird ( 3622/A )"
@@ -1733,19 +2644,64 @@
                   "text": "Wolfgang Gerstl , Mag.",
                   "timeStart": "34.880",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wolfgang Gerstl",
+                      "wid": "Q2589687",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Jörg Leichtfried , Mag.",
                   "timeStart": "34.880",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Nationalrats-Wahlordnung 1992, die Europawahlordnung, das Bundespräsidentenwahlgesetz 1971, das Volksabstimmungsgesetz 1972 und das Volksbefragungsgesetz 1989 geändert werden ( 3623/A )",
                   "timeStart": "34.880",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9837
+                    },
+                    {
+                      "label": "Nikolaus Scherak",
+                      "wid": "Q1991669",
+                      "wtype": "PER",
+                      "score": 0.987
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Nationalrats-Wahlordnung 1992",
+                      "wid": "Q1969266",
+                      "wtype": "MISC",
+                      "score": 0.3764
+                    },
+                    {
+                      "label": "Bundespräsidentenwahlgesetz",
+                      "wid": "Q1006521",
+                      "wtype": "MISC",
+                      "score": 0.7934
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Wolfgang Gerstl , Mag. Jörg Leichtfried , Mag. Agnes Sirkka Prammer , Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Nationalrats-Wahlordnung 1992, die Europawahlordnung, das Bundespräsidentenwahlgesetz 1971, das Volksabstimmungsgesetz 1972 und das Volksbefragungsgesetz 1989 geändert werden ( 3623/A )"
@@ -1787,7 +2743,26 @@
                   "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Keine absurden Verschärfungen beim Führerschein durch die 4. EU-Führerscheinrichtlinie ( 3620/A(E) )",
                   "timeStart": "34.880",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Keine absurden Verschärfungen beim Führerschein durch die 4. EU-Führerscheinrichtlinie ( 3620/A(E) )"
@@ -1835,7 +2810,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend echte Entlastung statt Mahrer-Show: Streichung der Kammerumlage 2 ( 3570/A(E) )",
                   "timeStart": "34.880",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend echte Entlastung statt Mahrer-Show: Streichung der Kammerumlage 2 ( 3570/A(E) )"
@@ -1855,7 +2843,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend WKO-Zwangsbeiträge direkt einheben ( 3571/A(E) )",
                   "timeStart": "34.880",
                   "timeEnd": "34.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend WKO-Zwangsbeiträge direkt einheben ( 3571/A(E) )"
@@ -1874,8 +2875,21 @@
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes 2022 ( 3582/A(E) )",
                   "timeStart": "34.880",
-                  "timeEnd": "36.000",
-                  "entities": []
+                  "timeEnd": "37.000",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Verlängerung des Strompreiskosten-Ausgleichsgesetzes 2022 ( 3582/A(E) )"
@@ -1887,9 +2901,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Herstellung des rechtskonformen Zustands bei der Preistransparenz für Fernwärme ( 3587/A(E) )",
-                  "timeStart": "36.000",
-                  "timeEnd": "37.640",
-                  "entities": []
+                  "timeStart": "37.000",
+                  "timeEnd": "38.400",
+                  "entities": [
+                    {
+                      "label": "Alois Schroll",
+                      "wid": "Q72078740",
+                      "wtype": "PER",
+                      "score": 0.9825
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Schroll , Kolleginnen und Kollegen betreffend Herstellung des rechtskonformen Zustands bei der Preistransparenz für Fernwärme ( 3587/A(E) )"
@@ -1901,9 +2928,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Echtes \"Opting out\" für Konsumenten bei Smart-Meter ( 3611/A(E) )",
-                  "timeStart": "37.640",
-                  "timeEnd": "38.400",
-                  "entities": []
+                  "timeStart": "38.400",
+                  "timeEnd": "38.480",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Smart-Meter",
+                      "wid": "Q1630602",
+                      "wtype": "MISC",
+                      "score": 0.9681
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Echtes \"Opting out\" für Konsumenten bei Smart-Meter ( 3611/A(E) )"
@@ -1915,9 +2961,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "38.400",
+                  "timeStart": "38.480",
                   "timeEnd": "38.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -1937,7 +2990,26 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Hochschullehrgang Quereinstieg auch für Sondervertragslehrkräfte öffnen, Bürokratie-Hürden abbauen ( 3581/A(E) )",
                   "timeStart": "38.480",
                   "timeEnd": "38.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9511
+                    },
+                    {
+                      "label": "Hochschullehrgang",
+                      "wid": "Q1622271",
+                      "wtype": "LOC",
+                      "score": 0.5505
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Hochschullehrgang Quereinstieg auch für Sondervertragslehrkräfte öffnen, Bürokratie-Hürden abbauen ( 3581/A(E) )"
@@ -1957,7 +3029,20 @@
                   "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend Umsetzung eines Teilzeitstudiums für Studierende an Österreichischen Hochschulen ( 3597/A(E) )",
                   "timeStart": "38.480",
                   "timeEnd": "38.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9886
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend Umsetzung eines Teilzeitstudiums für Studierende an Österreichischen Hochschulen ( 3597/A(E) )"
@@ -1977,7 +3062,20 @@
                   "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend tatsächlicher Umsetzung und Korrektur der Regelung des §109 UG ( 3598/A(E) )",
                   "timeStart": "38.480",
                   "timeEnd": "38.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9886
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend tatsächlicher Umsetzung und Korrektur der Regelung des §109 UG ( 3598/A(E) )"
@@ -1996,8 +3094,21 @@
                 {
                   "text": "Dr. Martin Graf , Kolleginnen und Kollegen betreffend Kein Zwang zum Gendern bei wissenschaftlichen Arbeiten ( 3600/A(E) )",
                   "timeStart": "38.480",
-                  "timeEnd": "38.480",
-                  "entities": []
+                  "timeEnd": "39.040",
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Martin Graf , Kolleginnen und Kollegen betreffend Kein Zwang zum Gendern bei wissenschaftlichen Arbeiten ( 3600/A(E) )"
@@ -2009,8 +3120,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich den Antrag 3630/A(E) dem Außenpolitischen Ausschuss zu.",
-                  "timeStart": "38.480",
-                  "timeEnd": "39.280",
+                  "timeStart": "39.040",
+                  "timeEnd": "39.360",
                   "entities": []
                 }
               ],
@@ -2023,7 +3134,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 23.40 Uhr – das ist gleich im Anschluss an diese Sitzung – ein.",
-                  "timeStart": "39.280",
+                  "timeStart": "39.360",
                   "timeEnd": "39.720",
                   "entities": []
                 }
@@ -2052,8 +3163,8 @@
         "stdId": 304846,
         "debatteId": 300,
         "proceedingIndex": 304846,
-        "alignDuration": 1.6403717994689941,
-        "nerDuration": 0.8972558975219727
+        "alignDuration": 1.5388026237487793,
+        "nerDuration": 2.0044491291046143
       },
       "originalLanguage": "de"
     }

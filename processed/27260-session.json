@@ -5,11 +5,12 @@
     "dateStart": "2024-04-17T22:51:43",
     "dateEnd": "2024-04-17T22:52:32",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-27T00:08:30",
+    "lastUpdate": "2026-06-28T14:26:18",
     "processing": {
       "merge": "2026-06-16T04:24:14+00:00",
-      "align": "2026-06-27T00:08:30",
-      "ner": "2026-06-28T03:32:12"
+      "align": "2026-06-28T14:26:18",
+      "ner": "2026-06-28T16:27:31",
+      "nel": "2026-06-28T07:25:37"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 260. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.960",
+                  "timeEnd": "1.440",
                   "entities": []
                 }
               ],
@@ -85,33 +86,91 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst.",
-                  "timeStart": "1.960",
-                  "timeEnd": "3.000",
-                  "entities": []
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
+                  "entities": [
+                    {
+                      "label": "Franz Hörl",
+                      "wid": "Q1275622",
+                      "wtype": "PER",
+                      "score": 0.9914
+                    },
+                    {
+                      "label": "MMst",
+                      "wid": "Q913257",
+                      "wtype": "ORG",
+                      "score": 0.1141
+                    }
+                  ]
                 },
                 {
                   "text": "Mag. (",
-                  "timeStart": "3.000",
-                  "timeEnd": "3.080",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
                   "entities": []
                 },
                 {
                   "text": "FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag.",
-                  "timeStart": "3.080",
-                  "timeEnd": "4.520",
-                  "entities": []
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
+                  "entities": [
+                    {
+                      "label": "Maria Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.5136
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9813
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0921
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger und Mag.",
-                  "timeStart": "4.520",
-                  "timeEnd": "4.520",
-                  "entities": []
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 },
                 {
                   "text": "Agnes Sirkka Prammer .",
-                  "timeStart": "4.520",
-                  "timeEnd": "4.840",
-                  "entities": []
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
+                  "entities": [
+                    {
+                      "label": "Agnes Sirkka Prammer",
+                      "wid": "Q81616260",
+                      "wtype": "PER",
+                      "score": 0.9865
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Franz Hörl , MMst. Mag. (FH) Maria Neumann , Petra Bayr, MA MLS , Christian Hafenecker, MA , Mag. Eva Blimlinger und Mag. Agnes Sirkka Prammer ."
@@ -123,8 +182,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "4.840",
-                  "timeEnd": "4.960",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
                   "entities": []
                 }
               ],
@@ -137,8 +196,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisung verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "4.960",
-                  "timeEnd": "5.840",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
                   "entities": []
                 }
               ],
@@ -151,8 +210,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "5.840",
-                  "timeEnd": "6.000",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
                   "entities": []
                 }
               ],
@@ -165,8 +224,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "6.000",
-                  "timeEnd": "6.000",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.440",
                   "entities": []
                 }
               ],
@@ -179,8 +238,8 @@
               "sentences": [
                 {
                   "text": "Regierungsvorlagen:",
-                  "timeStart": "6.000",
-                  "timeEnd": "6.000",
+                  "timeStart": "1.440",
+                  "timeEnd": "1.640",
                   "entities": []
                 }
               ],
@@ -193,9 +252,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )",
-                  "timeStart": "6.000",
-                  "timeEnd": "7.760",
-                  "entities": []
+                  "timeStart": "1.640",
+                  "timeEnd": "2.640",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Asylgesetz 2005",
+                      "wid": "Q752581",
+                      "wtype": "MISC",
+                      "score": 0.985
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Ausländerbeschäftigungsgesetz, das Niederlassungs- und Aufenthaltsgesetz, das Asylgesetz 2005 und das Ausbildungspflichtgesetz geändert werden ( 2528 d.B. )"
@@ -207,8 +279,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz betreffend die Ermächtigung zur Verfügung über bewegliches Bundesvermögen ( 2529 d.B. )",
-                  "timeStart": "7.760",
-                  "timeEnd": "8.320",
+                  "timeStart": "2.640",
+                  "timeEnd": "4.480",
                   "entities": []
                 }
               ],
@@ -221,9 +293,40 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )",
-                  "timeStart": "8.320",
-                  "timeEnd": "10.160",
-                  "entities": []
+                  "timeStart": "4.480",
+                  "timeEnd": "6.200",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3107
+                    },
+                    {
+                      "label": "Patientenverfügungs-Gesetz",
+                      "wid": "Q1422657",
+                      "wtype": "MISC",
+                      "score": 0.9843
+                    },
+                    {
+                      "label": "Suchtmittelgesetz",
+                      "wid": "Q7633015",
+                      "wtype": "MISC",
+                      "score": 0.8638
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012, das Allgemeine Sozialversicherungsgesetz, das Epidemiegesetz 1950, das Patientenverfügungs-Gesetz und das Suchtmittelgesetz geändert werden ( 2530 d.B. )"
@@ -235,8 +338,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "10.160",
-                  "timeEnd": "10.640",
+                  "timeStart": "6.200",
+                  "timeEnd": "6.320",
                   "entities": []
                 }
               ],
@@ -249,8 +352,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "10.640",
-                  "timeEnd": "10.880",
+                  "timeStart": "6.320",
+                  "timeEnd": "6.480",
                   "entities": []
                 }
               ],
@@ -263,8 +366,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "10.880",
-                  "timeEnd": "11.080",
+                  "timeStart": "6.480",
+                  "timeEnd": "7.000",
                   "entities": []
                 }
               ],
@@ -277,9 +380,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schutzmaßnahmen im Arbeitsrecht zur Abwendung der Gefahren durch Hitze am Arbeitsplatz ( 3998/A(E) )",
-                  "timeStart": "11.080",
-                  "timeEnd": "12.920",
-                  "entities": []
+                  "timeStart": "7.000",
+                  "timeEnd": "9.280",
+                  "entities": [
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    },
+                    {
+                      "label": "Arbeitsplatz",
+                      "wid": "Q628858",
+                      "wtype": "LOC",
+                      "score": 0.1807
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Schutzmaßnahmen im Arbeitsrecht zur Abwendung der Gefahren durch Hitze am Arbeitsplatz ( 3998/A(E) )"
@@ -291,9 +413,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Michael Seemayer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Arbeitsmarktservicegesetz BGBI 314/1994 geändert wird ( 4003/A )",
-                  "timeStart": "12.920",
-                  "timeEnd": "13.960",
-                  "entities": []
+                  "timeStart": "9.280",
+                  "timeEnd": "11.920",
+                  "entities": [
+                    {
+                      "label": "Michael Seemayer",
+                      "wid": "Q72078612",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Michael Seemayer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Arbeitsmarktservicegesetz BGBI 314/1994 geändert wird ( 4003/A )"
@@ -305,8 +440,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "13.960",
-                  "timeEnd": "13.960",
+                  "timeStart": "11.920",
+                  "timeEnd": "12.920",
                   "entities": []
                 }
               ],
@@ -319,9 +454,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3992/A(E) )",
-                  "timeStart": "13.960",
-                  "timeEnd": "14.640",
-                  "entities": []
+                  "timeStart": "12.920",
+                  "timeEnd": "13.720",
+                  "entities": [
+                    {
+                      "label": "Russischen Föderation",
+                      "wid": "Q159",
+                      "wtype": "LOC",
+                      "score": 0.955
+                    },
+                    {
+                      "label": "Republik Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.6573
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Gegenwehr Spionage: Anpassung der Größe der diplomatischen Missionen zwischen der Russischen Föderation und der Republik Österreich ( 3992/A(E) )"
@@ -333,15 +487,71 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Hermann Gahr , Mag.",
-                  "timeStart": "14.640",
-                  "timeEnd": "14.920",
-                  "entities": []
+                  "timeStart": "13.720",
+                  "timeEnd": "14.120",
+                  "entities": [
+                    {
+                      "label": "Hermann Gahr",
+                      "wid": "Q1611160",
+                      "wtype": "PER",
+                      "score": 0.9872
+                    }
+                  ]
                 },
                 {
                   "text": "Selma Yildirim , Peter Wurm , Hermann Weratschnig, MBA MSc , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend gegenseitige Anerkennung von Fachhochschulabschlüssen zwischen Österreich und Italien zur weiteren Erleichterung für Studierende ( 4000/A(E) )",
-                  "timeStart": "14.920",
+                  "timeStart": "14.120",
                   "timeEnd": "15.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9885
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Hermann Weratschnig",
+                      "wid": "Q15815387",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    },
+                    {
+                      "label": "Fachhochschulabschlüssen",
+                      "wid": "Q15850083",
+                      "wtype": "LOC",
+                      "score": 0.7909
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "Italien",
+                      "wid": "Q38",
+                      "wtype": "LOC",
+                      "score": 0.6482
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Hermann Gahr , Mag. Selma Yildirim , Peter Wurm , Hermann Weratschnig, MBA MSc , Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend gegenseitige Anerkennung von Fachhochschulabschlüssen zwischen Österreich und Italien zur weiteren Erleichterung für Studierende ( 4000/A(E) )"
@@ -354,8 +564,21 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Kontrollstelle und -berichte für alle an die Ukraine getätigten Zahlungen ( 4006/A(E) )",
                   "timeStart": "15.640",
-                  "timeEnd": "17.120",
-                  "entities": []
+                  "timeEnd": "16.600",
+                  "entities": [
+                    {
+                      "label": "Ukraine",
+                      "wid": "Q212",
+                      "wtype": "LOC",
+                      "score": 0.369
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Kontrollstelle und -berichte für alle an die Ukraine getätigten Zahlungen ( 4006/A(E) )"
@@ -367,8 +590,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "17.120",
-                  "timeEnd": "17.480",
+                  "timeStart": "16.600",
+                  "timeEnd": "16.960",
                   "entities": []
                 }
               ],
@@ -381,9 +604,16 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz über die Erhöhung der Quote Österreichs beim Internationalen Währungsfonds (IWF-Quotenerhöhungsgesetz 2024) ( 2509 d.B. )",
-                  "timeStart": "17.480",
-                  "timeEnd": "19.220",
-                  "entities": []
+                  "timeStart": "16.960",
+                  "timeEnd": "18.440",
+                  "entities": [
+                    {
+                      "label": "Internationalen Währungsfonds",
+                      "wid": "Q7804",
+                      "wtype": "ORG",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz über die Erhöhung der Quote Österreichs beim Internationalen Währungsfonds (IWF-Quotenerhöhungsgesetz 2024) ( 2509 d.B. )"
@@ -395,9 +625,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994, das ArbeitnehmerInnenschutzgesetz und die Bundesabgabenordnung geändert werden (Grace-Period – Gesetz) ( 2510 d.B. )",
-                  "timeStart": "19.220",
+                  "timeStart": "18.440",
                   "timeEnd": "20.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "ArbeitnehmerInnenschutzgesetz",
+                      "wid": "Q627288",
+                      "wtype": "ORG",
+                      "score": 0.8986
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem die Gewerbeordnung 1994, das ArbeitnehmerInnenschutzgesetz und die Bundesabgabenordnung geändert werden (Grace-Period – Gesetz) ( 2510 d.B. )"
@@ -425,7 +668,14 @@
                   "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch geändert wird ( 4004/A )",
                   "timeStart": "24.320",
                   "timeEnd": "24.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Unternehmensgesetzbuch geändert wird ( 4004/A )"
@@ -438,7 +688,7 @@
                 {
                   "text": "Gesundheitsausschuss:",
                   "timeStart": "24.760",
-                  "timeEnd": "25.360",
+                  "timeEnd": "25.120",
                   "entities": []
                 }
               ],
@@ -451,7 +701,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "25.360",
+                  "timeStart": "25.120",
                   "timeEnd": "26.180",
                   "entities": []
                 },
@@ -459,7 +709,14 @@
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das mit dem das Bundesgesetz der Tierärztinnen und Tierärzte (Tierärztegesetz-TÄG) geändert wird ( 4012/A )",
                   "timeStart": "26.180",
                   "timeEnd": "28.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das mit dem das Bundesgesetz der Tierärztinnen und Tierärzte (Tierärztegesetz-TÄG) geändert wird ( 4012/A )"
@@ -472,7 +729,7 @@
                 {
                   "text": "Gleichbehandlungsausschuss:",
                   "timeStart": "28.280",
-                  "timeEnd": "28.560",
+                  "timeEnd": "28.720",
                   "entities": []
                 }
               ],
@@ -485,21 +742,41 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Kffr. (",
-                  "timeStart": "28.560",
-                  "timeEnd": "28.720",
+                  "timeStart": "28.720",
+                  "timeEnd": "29.280",
                   "entities": []
                 },
                 {
                   "text": "FH) Elisabeth Pfurtscheller , Mag.",
-                  "timeStart": "28.720",
+                  "timeStart": "29.280",
                   "timeEnd": "30.220",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Pfurtscheller",
+                      "wid": "Q15807820",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 3996/A(E) )",
                   "timeStart": "30.220",
                   "timeEnd": "32.520",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Kffr. (FH) Elisabeth Pfurtscheller , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend der Ratifizierung der ILO Konvention 190 gegen Gewalt und Belästigung in der Arbeitswelt ( 3996/A(E) )"
@@ -589,7 +866,26 @@
                   "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Import-Stopp für pestizidbelastetes und gentechnisch verändertes Getreide aus der Ukraine ( 4007/A(E) )",
                   "timeStart": "32.720",
                   "timeEnd": "32.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    },
+                    {
+                      "label": "Ukraine",
+                      "wid": "Q212",
+                      "wtype": "LOC",
+                      "score": 0.369
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Import-Stopp für pestizidbelastetes und gentechnisch verändertes Getreide aus der Ukraine ( 4007/A(E) )"
@@ -617,7 +913,20 @@
                   "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Recht auf Gesundheit sowie auf Prävention und Vorsorge ( 3991/A(E) )",
                   "timeStart": "32.720",
                   "timeEnd": "32.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend Recht auf Gesundheit sowie auf Prävention und Vorsorge ( 3991/A(E) )"
@@ -631,7 +940,26 @@
                   "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend \"Sicherung der Pressefreiheit in Österreich\" ( 4002/A(E) )",
                   "timeStart": "32.720",
                   "timeEnd": "32.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend \"Sicherung der Pressefreiheit in Österreich\" ( 4002/A(E) )"
@@ -645,7 +973,20 @@
                   "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Verteidigung der Presse- und Meinungsfreiheit im Fall Julian Assange ( 4005/A(E) )",
                   "timeStart": "32.720",
                   "timeEnd": "32.720",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Julian Assange",
+                      "wid": "Q360",
+                      "wtype": "PER",
+                      "score": 0.9953
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Verteidigung der Presse- und Meinungsfreiheit im Fall Julian Assange ( 4005/A(E) )"
@@ -672,7 +1013,7 @@
                 {
                   "text": "Antrag der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem Bundesgesetz über eine nachhaltige Abfallwirtschaft (Abfallwirtschaftsgesetz 2002 – AWG 2002) geändert wird ( 3997/A )",
                   "timeStart": "32.720",
-                  "timeEnd": "34.640",
+                  "timeEnd": "37.080",
                   "entities": []
                 }
               ],
@@ -685,9 +1026,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Emissionsgesetz-Luft 2018 geändert wird ( 4001/A )",
-                  "timeStart": "34.640",
-                  "timeEnd": "36.800",
-                  "entities": []
+                  "timeStart": "37.080",
+                  "timeEnd": "38.280",
+                  "entities": [
+                    {
+                      "label": "Johannes Schmuckenschlager",
+                      "wid": "Q1698360",
+                      "wtype": "PER",
+                      "score": 0.9896
+                    },
+                    {
+                      "label": "Astrid Rössler",
+                      "wid": "Q750777",
+                      "wtype": "PER",
+                      "score": 0.9903
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Johannes Schmuckenschlager , Dr. Astrid Rössler , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Emissionsgesetz-Luft 2018 geändert wird ( 4001/A )"
@@ -699,9 +1053,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4009/A(E) )",
-                  "timeStart": "36.800",
-                  "timeEnd": "38.760",
-                  "entities": []
+                  "timeStart": "38.280",
+                  "timeEnd": "38.720",
+                  "entities": [
+                    {
+                      "label": "EU-Kommission",
+                      "wid": "Q8880",
+                      "wtype": "ORG",
+                      "score": 0.9656
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4009/A(E) )"
@@ -713,7 +1080,7 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend eine europäische Wasserstrategie vorantreiben ( 4011/A(E) )",
-                  "timeStart": "38.760",
+                  "timeStart": "38.720",
                   "timeEnd": "39.160",
                   "entities": []
                 }
@@ -728,7 +1095,7 @@
                 {
                   "text": "Unterrichtsausschuss:",
                   "timeStart": "39.160",
-                  "timeEnd": "39.280",
+                  "timeEnd": "39.400",
                   "entities": []
                 }
               ],
@@ -741,9 +1108,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Sondertopf im Bildungsbudget für Familiennachzug einrichten\" ( 4008/A(E) )",
-                  "timeStart": "39.280",
+                  "timeStart": "39.400",
                   "timeEnd": "40.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend \"Sondertopf im Bildungsbudget für Familiennachzug einrichten\" ( 4008/A(E) )"
@@ -771,7 +1151,20 @@
                   "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Gratis Öffis für alle Kinder ( 3999/A(E) )",
                   "timeStart": "40.600",
                   "timeEnd": "41.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend Gratis Öffis für alle Kinder ( 3999/A(E) )"
@@ -799,7 +1192,20 @@
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4010/A(E) )",
                   "timeStart": "41.360",
                   "timeEnd": "41.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "EU-Kommission",
+                      "wid": "Q8880",
+                      "wtype": "ORG",
+                      "score": 0.9656
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend rasche Übermittlung des Nationalen Energie- und Klimaplans an die EU-Kommission zur Vermeidung von Strafzahlungen ( 4010/A(E) )"
@@ -840,7 +1246,7 @@
                 {
                   "text": "Außen- und Europapolitischer Bericht 2022 der Bundesregierung ( III-1151 d.B. )",
                   "timeStart": "41.600",
-                  "timeEnd": "42.880",
+                  "timeEnd": "42.840",
                   "entities": []
                 }
               ],
@@ -853,7 +1259,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "42.880",
+                  "timeStart": "42.840",
                   "timeEnd": "43.600",
                   "entities": []
                 }
@@ -882,7 +1288,7 @@
                 {
                   "text": "Weiters weise ich dem Verfassungsausschuss den Antrag 4013/A , dem Finanzausschuss die Anträge 4014/A und 4015/A und dem Umweltausschuss den Antrag 4016/A zu.",
                   "timeStart": "45.520",
-                  "timeEnd": "47.320",
+                  "timeEnd": "47.080",
                   "entities": []
                 }
               ],
@@ -895,7 +1301,7 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen und Zuweisungen betreffen wird, berufe ich für 22.52 Uhr, das ist gleich im Anschluss an diese Sitzung, ein.",
-                  "timeStart": "47.320",
+                  "timeStart": "47.080",
                   "timeEnd": "49.400",
                   "entities": []
                 }
@@ -924,8 +1330,8 @@
         "stdId": 322109,
         "debatteId": 300,
         "proceedingIndex": 322109,
-        "alignDuration": 0.7697720527648926,
-        "nerDuration": 0.4040822982788086
+        "alignDuration": 0.8663475513458252,
+        "nerDuration": 0.814530611038208
       },
       "originalLanguage": "de"
     }

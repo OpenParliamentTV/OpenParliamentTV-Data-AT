@@ -5,11 +5,12 @@
     "dateStart": "2023-10-18T22:17:33",
     "dateEnd": "2023-10-18T22:18:08",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T19:19:33",
+    "lastUpdate": "2026-06-28T13:50:22",
     "processing": {
       "merge": "2026-06-16T04:24:10+00:00",
-      "align": "2026-06-25T19:19:33",
-      "ner": "2026-06-28T03:24:08"
+      "align": "2026-06-28T13:50:22",
+      "ner": "2026-06-28T16:14:46",
+      "nel": "2026-06-28T07:25:35"
     }
   },
   "data": [
@@ -35,7 +36,8 @@
         "creator": "Parlamentsdirektion / Parlament Österreich",
         "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
         "originMediaID": "306205",
-        "duration": 35
+        "duration": 35,
+        "aligned": true
       },
       "dateStart": "2023-10-18T22:17:33",
       "dateEnd": "2023-10-18T22:18:08",
@@ -68,7 +70,9 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist eröffnet.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.000",
+                  "timeEnd": "1.080"
                 }
               ],
               "text": "Die Sitzung ist eröffnet."
@@ -80,11 +84,59 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Gabriele Heinisch-Hosek , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ],
+                  "timeStart": "1.080",
+                  "timeEnd": "2.200"
                 },
                 {
                   "text": "Jörg Leichtfried , Sabine Schatz , Heike Grebien , Henrike Brandstötter und Douglas Hoyos-Trauttmansdorff .",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.9007
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    }
+                  ],
+                  "timeStart": "2.200",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Gabriele Heinisch-Hosek , Mag. Jörg Leichtfried , Sabine Schatz , Heike Grebien , Henrike Brandstötter und Douglas Hoyos-Trauttmansdorff ."
@@ -96,7 +148,9 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "Einlauf und Zuweisungen"
@@ -108,7 +162,9 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -120,7 +176,9 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -132,7 +190,9 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "A. Eingelangte Verhandlungsgegenstände:"
@@ -144,7 +204,9 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen: 15447/AB bis 15466/AB",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "1. Anfragebeantwortungen: 15447/AB bis 15466/AB"
@@ -156,7 +218,9 @@
               "sentences": [
                 {
                   "text": "2. Regierungsvorlagen:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "2.680"
                 }
               ],
               "text": "2. Regierungsvorlagen:"
@@ -168,7 +232,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2024 bis 2027 erlassen wird (Bundesfinanzrahmengesetz 2024 bis 2027 – BFRG 2024-2027) ( 2179 und Zu 2179 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.680",
+                  "timeEnd": "4.080"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2024 bis 2027 erlassen wird (Bundesfinanzrahmengesetz 2024 bis 2027 – BFRG 2024-2027) ( 2179 und Zu 2179 d.B. )"
@@ -180,7 +246,9 @@
               "sentences": [
                 {
                   "text": "Budgetbegleitgesetz 2024 ( 2267 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.080",
+                  "timeEnd": "5.920"
                 }
               ],
               "text": "Budgetbegleitgesetz 2024 ( 2267 d.B. )"
@@ -192,7 +260,16 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz über die erneuerbare Wärmebereitstellung in neuen Baulichkeiten (Erneuerbare-Wärme-Gesetz – EWG) ( 2268 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "EWG",
+                      "wid": "Q52847",
+                      "wtype": "ORG",
+                      "score": 0.3265
+                    }
+                  ],
+                  "timeStart": "5.920",
+                  "timeEnd": "6.920"
                 }
               ],
               "text": "Bundesgesetz über die erneuerbare Wärmebereitstellung in neuen Baulichkeiten (Erneuerbare-Wärme-Gesetz – EWG) ( 2268 d.B. )"
@@ -204,7 +281,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister/die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 2269 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "6.920",
+                  "timeEnd": "7.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch den Bundesminister/die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 2269 d.B. )"
@@ -216,7 +295,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 2270 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "7.720",
+                  "timeEnd": "9.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 2270 d.B. )"
@@ -228,7 +309,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Kontroll- und Digitalisierungs-Durchführungsgesetz erlassen wird sowie das Tierseuchengesetz, das Lebensmittelsicherheits- und Verbraucherschutzgesetz geändert werden ( 2271 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "9.720",
+                  "timeEnd": "10.720"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Kontroll- und Digitalisierungs-Durchführungsgesetz erlassen wird sowie das Tierseuchengesetz, das Lebensmittelsicherheits- und Verbraucherschutzgesetz geändert werden ( 2271 d.B. )"
@@ -240,7 +323,9 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "10.720",
+                  "timeEnd": "10.720"
                 }
               ],
               "text": "B. Zuweisungen:"
@@ -252,7 +337,9 @@
               "sentences": [
                 {
                   "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "10.720",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "1. Zuweisungen seit der letzten Sitzung gemäß §§ 31d Abs. 5a, 32a Abs. 4, 74d Abs. 2, 74f Abs. 3, 80 Abs. 1, 100 Abs.4, 100b Abs. 1 und 100c Abs. 1:"
@@ -264,7 +351,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "Ausschuss für Petitionen und Bürgerinitiativen:"
@@ -276,7 +365,16 @@
               "sentences": [
                 {
                   "text": "Petition betreffend \"Priorisierung der PV-Installationen auf öffentlichen Gebäuden zum Schutz unseres Ackerbodens und zur Förderung der heimischen Lebensmittelsicherheit\", überreicht vom Abgeordneten Christian Lausch ( 130/PET )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    }
+                  ],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "Petition betreffend \"Priorisierung der PV-Installationen auf öffentlichen Gebäuden zum Schutz unseres Ackerbodens und zur Förderung der heimischen Lebensmittelsicherheit\", überreicht vom Abgeordneten Christian Lausch ( 130/PET )"
@@ -288,7 +386,9 @@
               "sentences": [
                 {
                   "text": "2. Zuweisungen in dieser Sitzung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "2. Zuweisungen in dieser Sitzung:"
@@ -300,7 +400,9 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -312,7 +414,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.520"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -324,11 +428,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.520"
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwerarbeit ( 3632/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "11.520",
+                  "timeEnd": "11.640"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Pflege und Betreuung ist Schwerarbeit ( 3632/A(E) )"
@@ -340,11 +461,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.640",
+                  "timeEnd": "11.760"
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz – APG geändert wird ( 3633/A )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "APG",
+                      "wid": "Q783723",
+                      "wtype": "ORG",
+                      "score": 0.0999
+                    }
+                  ],
+                  "timeStart": "11.760",
+                  "timeEnd": "13.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Pensionsgesetz – APG geändert wird ( 3633/A )"
@@ -356,11 +494,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "13.840",
+                  "timeEnd": "13.840"
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Niedrigere Beiträge: Entlastung durch Arbeitsmarktreformen ( 3634/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "13.840",
+                  "timeEnd": "14.520"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Niedrigere Beiträge: Entlastung durch Arbeitsmarktreformen ( 3634/A(E) )"
@@ -372,7 +527,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.520",
+                  "timeEnd": "14.720"
                 }
               ],
               "text": "Ausschuss für Bauten und Wohnen:"
@@ -384,11 +541,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.720",
+                  "timeEnd": "14.800"
                 },
                 {
                   "text": "Philipp Schrangl , Kolleginnen und Kollegen betreffend Bundesweiter Zuschuss für Häuslbauer entsprechend dem Modell Oberösterreich ( 3642/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Oberösterreich",
+                      "wid": "Q41967",
+                      "wtype": "LOC",
+                      "score": 0.7664
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "14.800",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Philipp Schrangl , Kolleginnen und Kollegen betreffend Bundesweiter Zuschuss für Häuslbauer entsprechend dem Modell Oberösterreich ( 3642/A(E) )"
@@ -400,7 +580,9 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.840",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -412,7 +594,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird (Progressionsabgeltungsgesetz 2024 – PrAG 2024) ( 2217 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "PrAG",
+                      "wid": "Q1085",
+                      "wtype": "ORG",
+                      "score": 0.3718
+                    }
+                  ],
+                  "timeStart": "14.840",
+                  "timeEnd": "14.840"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Einkommensteuergesetz 1988 geändert wird (Progressionsabgeltungsgesetz 2024 – PrAG 2024) ( 2217 d.B. )"
@@ -424,7 +621,9 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Verbindliche Tilgungspläne im Rahmen einer verfassungsrechtlich verankerten Schuldenbremse ( 3638/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.840",
+                  "timeEnd": "15.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Verbindliche Tilgungspläne im Rahmen einer verfassungsrechtlich verankerten Schuldenbremse ( 3638/A(E) )"
@@ -436,7 +635,9 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Mit Ausgabenbremse Staatsfinanzen in den Griff bekommen ( 3639/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "15.040",
+                  "timeEnd": "16.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Mit Ausgabenbremse Staatsfinanzen in den Griff bekommen ( 3639/A(E) )"
@@ -448,7 +649,9 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "16.360",
+                  "timeEnd": "16.520"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -460,7 +663,40 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend rasches Handeln für Patient:innen mit Long Covid und ME/CFS ( 3631/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.986
+                    },
+                    {
+                      "label": "Long Covid",
+                      "wid": "Q100732653",
+                      "wtype": "PER",
+                      "score": 0.972
+                    },
+                    {
+                      "label": "ME",
+                      "wid": "Q20991250",
+                      "wtype": "MISC",
+                      "score": 0.0949
+                    },
+                    {
+                      "label": "CFS",
+                      "wid": "Q1053588",
+                      "wtype": "ORG",
+                      "score": 0.1047
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "16.520",
+                  "timeEnd": "17.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend rasches Handeln für Patient:innen mit Long Covid und ME/CFS ( 3631/A(E) )"
@@ -472,15 +708,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten MMag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "17.720",
+                  "timeEnd": "17.760"
                 },
                 {
                   "text": "Katharina Werner, Bakk. ,",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Werner",
+                      "wid": "Q109601540",
+                      "wtype": "PER",
+                      "score": 0.5913
+                    }
+                  ],
+                  "timeStart": "17.760",
+                  "timeEnd": "17.760"
                 },
                 {
                   "text": "Kolleginnen und Kollegen betreffend Paket \"sichere Hundehaltung in Österreich\" ( 3637/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "17.760",
+                  "timeEnd": "17.960"
                 }
               ],
               "text": "Antrag der Abgeordneten MMag. Katharina Werner, Bakk. , Kolleginnen und Kollegen betreffend Paket \"sichere Hundehaltung in Österreich\" ( 3637/A(E) )"
@@ -492,11 +741,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "17.960",
+                  "timeEnd": "18.000"
                 },
                 {
                   "text": "Harald Stefan , Kolleginnen und Kollegen betreffend Strafbarkeit der Eltern, Erziehungsberechtigten oder gesetzlichen Vormunde bei Beschneidung von Mädchen und jungen Frauen ( 3644/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "18.000",
+                  "timeEnd": "18.760"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Harald Stefan , Kolleginnen und Kollegen betreffend Strafbarkeit der Eltern, Erziehungsberechtigten oder gesetzlichen Vormunde bei Beschneidung von Mädchen und jungen Frauen ( 3644/A(E) )"
@@ -508,7 +774,9 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "18.760",
+                  "timeEnd": "18.800"
                 }
               ],
               "text": "Justizausschuss:"
@@ -520,7 +788,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das GmbH-Gesetz, das Aktiengesetz, das Genossenschaftsgesetz, das SE-Gesetz, das SCE-Gesetz und das Firmenbuchgesetz geändert werden (Gesellschaftsrechtliches Digitalisierungsgesetz 2023 – GesDigG 2023) ( 2228 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "18.800",
+                  "timeEnd": "21.480"
                 }
               ],
               "text": "Bundesgesetz, mit dem das GmbH-Gesetz, das Aktiengesetz, das Genossenschaftsgesetz, das SE-Gesetz, das SCE-Gesetz und das Firmenbuchgesetz geändert werden (Gesellschaftsrechtliches Digitalisierungsgesetz 2023 – GesDigG 2023) ( 2228 d.B. )"
@@ -532,11 +802,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "21.480",
+                  "timeEnd": "21.920"
                 },
                 {
                   "text": "Harald Stefan , Kolleginnen und Kollegen betreffend Strafbarkeit der Eltern, Erziehungsberechtigten oder gesetzlichen Vormunde bei Beschneidung von Mädchen und jungen Frauen ( 3643/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Harald Stefan",
+                      "wid": "Q1584758",
+                      "wtype": "PER",
+                      "score": 0.9728
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "21.920",
+                  "timeEnd": "24.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Harald Stefan , Kolleginnen und Kollegen betreffend Strafbarkeit der Eltern, Erziehungsberechtigten oder gesetzlichen Vormunde bei Beschneidung von Mädchen und jungen Frauen ( 3643/A(E) )"
@@ -548,7 +835,9 @@
               "sentences": [
                 {
                   "text": "Sportausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "24.720",
+                  "timeEnd": "24.720"
                 }
               ],
               "text": "Sportausschuss:"
@@ -560,11 +849,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "24.720",
+                  "timeEnd": "25.280"
                 },
                 {
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Sicherstellung einer einheitlichen österreichischen Haltung zu Sportsanktionen ( 3636/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "25.280",
+                  "timeEnd": "25.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Sicherstellung einer einheitlichen österreichischen Haltung zu Sportsanktionen ( 3636/A(E) )"
@@ -576,7 +888,9 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "25.960",
+                  "timeEnd": "26.040"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -588,7 +902,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Umsetzung der UN-BRK-Handlungsempfehlungen im Bildungsbereich ( 3635/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "26.040",
+                  "timeEnd": "26.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Umsetzung der UN-BRK-Handlungsempfehlungen im Bildungsbereich ( 3635/A(E) )"
@@ -600,7 +929,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Volle Entlohnung für neue Berufsschullehrer:innen in den Einführungswochen ( 3640/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "26.160",
+                  "timeEnd": "26.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Volle Entlohnung für neue Berufsschullehrer:innen in den Einführungswochen ( 3640/A(E) )"
@@ -612,7 +956,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wiederverleihung des Staatspreises Erwachsenenbildung ( 3641/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "26.440",
+                  "timeEnd": "26.480"
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend Wiederverleihung des Staatspreises Erwachsenenbildung ( 3641/A(E) )"
@@ -624,7 +983,9 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "26.480",
+                  "timeEnd": "26.480"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -636,7 +997,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Bundes-Verfassungsgesetz geändert und ein Informationsfreiheitsgesetz erlassen wird ( 2238 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Bundes-Verfassungsgesetz",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.9934
+                    }
+                  ],
+                  "timeStart": "26.480",
+                  "timeEnd": "27.360"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundes-Verfassungsgesetz geändert und ein Informationsfreiheitsgesetz erlassen wird ( 2238 d.B. )"
@@ -648,7 +1024,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "27.360",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -660,7 +1038,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Emissionsschutzgesetz für Kesselanlagen geändert wird ( 2246 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Emissionsschutzgesetz für Kesselanlagen geändert wird ( 2246 d.B. )"
@@ -672,7 +1052,9 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -684,7 +1066,9 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "Budgetausschuss:"
@@ -696,7 +1080,22 @@
               "sentences": [
                 {
                   "text": "Bericht des Bundesministers für Finanzen betreffend Übersicht über die österreichische Haushaltsplanung 2024 ( III-1044 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesministers für Finanzen",
+                      "wid": "Q877814",
+                      "wtype": "ORG",
+                      "score": 0.9232
+                    },
+                    {
+                      "label": "österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0946
+                    }
+                  ],
+                  "timeStart": "27.800",
+                  "timeEnd": "27.800"
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen betreffend Übersicht über die österreichische Haushaltsplanung 2024 ( III-1044 d.B. )"
@@ -708,7 +1107,9 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "27.800",
+                  "timeEnd": "27.920"
                 }
               ],
               "text": "Justizausschuss:"
@@ -720,7 +1121,22 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für September 2023, vorgelegt von der Bundesministerin für Justiz ( III-1045 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesministerin für Justiz",
+                      "wid": "Q872203",
+                      "wtype": "ORG",
+                      "score": 0.9311
+                    }
+                  ],
+                  "timeStart": "27.920",
+                  "timeEnd": "29.560"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für September 2023, vorgelegt von der Bundesministerin für Justiz ( III-1045 d.B. )"
@@ -732,7 +1148,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ],
+                  "timeStart": "29.560",
+                  "timeEnd": "29.720"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -744,7 +1169,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsbericht 2023 gemäß Landesverteidigungs-Finanzierungsgesetz (LV-FinG), vorgelegt von der Bundesministerin für Landesverteidigung (III-1043 d.B.)",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesministerin für Landesverteidigung",
+                      "wid": "Q872173",
+                      "wtype": "ORG",
+                      "score": 0.968
+                    }
+                  ],
+                  "timeStart": "29.720",
+                  "timeEnd": "31.640"
                 }
               ],
               "text": "Landesverteidigungsbericht 2023 gemäß Landesverteidigungs-Finanzierungsgesetz (LV-FinG), vorgelegt von der Bundesministerin für Landesverteidigung (III-1043 d.B.)"
@@ -756,7 +1190,9 @@
               "sentences": [
                 {
                   "text": "C. Verlangen gemäß § 26 Abs. 8 GOG:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "31.640",
+                  "timeEnd": "31.880"
                 }
               ],
               "text": "C. Verlangen gemäß § 26 Abs. 8 GOG:"
@@ -768,7 +1204,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Doppelstaatsbürgerschaft für Südtiroler ( 3370/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    },
+                    {
+                      "label": "Südtiroler",
+                      "wid": "Q15124",
+                      "wtype": "LOC",
+                      "score": 0.11
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "31.880",
+                  "timeEnd": "32.960"
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Doppelstaatsbürgerschaft für Südtiroler ( 3370/A(E) )"
@@ -780,7 +1237,9 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 19. Oktober, um 9 Uhr, ein.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "32.960",
+                  "timeEnd": "35.400"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates berufe ich für Donnerstag, den 19. Oktober, um 9 Uhr, ein."
@@ -792,7 +1251,9 @@
               "sentences": [
                 {
                   "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "35.400",
+                  "timeEnd": "35.480"
                 }
               ],
               "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen."
@@ -804,7 +1265,9 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "35.480",
+                  "timeEnd": "36.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -818,7 +1281,8 @@
         "debatteId": 300,
         "proceedingIndex": 306205,
         "alignError": "exit 1",
-        "nerDuration": 0.3574228286743164
+        "nerDuration": 0.7401862144470215,
+        "alignDuration": 0.877831220626831
       },
       "originalLanguage": "de"
     }

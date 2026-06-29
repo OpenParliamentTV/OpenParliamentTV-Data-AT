@@ -5,11 +5,12 @@
     "dateStart": "2023-02-24T15:45:11",
     "dateEnd": "2023-02-24T15:45:40",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-24T08:32:26",
+    "lastUpdate": "2026-06-28T13:05:40",
     "processing": {
       "merge": "2026-06-16T04:24:05+00:00",
-      "align": "2026-06-24T08:32:26",
-      "ner": "2026-06-28T03:14:06"
+      "align": "2026-06-28T13:05:40",
+      "ner": "2026-06-28T16:00:31",
+      "nel": "2026-06-28T07:25:33"
     }
   },
   "data": [
@@ -35,7 +36,8 @@
         "creator": "Parlamentsdirektion / Parlament Österreich",
         "license": "https://www.parlament.gv.at/en/services/help/terms-of-use",
         "originMediaID": "290695",
-        "duration": 29
+        "duration": 29,
+        "aligned": true
       },
       "dateStart": "2023-02-24T15:45:11",
       "dateEnd": "2023-02-24T15:45:40",
@@ -68,7 +70,9 @@
               "sentences": [
                 {
                   "text": "Ich eröffne die 201. Sitzung des Nationalrates.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "1.000",
+                  "timeEnd": "2.000"
                 }
               ],
               "text": "Ich eröffne die 201. Sitzung des Nationalrates."
@@ -80,51 +84,230 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.000",
+                  "timeEnd": "2.920"
                 },
                 {
                   "text": "Carmen Jeitler-Cincelli, BA , Martina Kaufmann, MMSc BA , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Carmen Jeitler-Cincelli",
+                      "wid": "Q42310694",
+                      "wtype": "PER",
+                      "score": 0.9763
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.416
+                    },
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    }
+                  ],
+                  "timeStart": "2.920",
+                  "timeEnd": "3.960"
                 },
                 {
                   "text": "Elisabeth Scheucher-Pichler , Dipl.-Ing. Georg Strasser , Petra Tanzler , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Scheucher-Pichler",
+                      "wid": "Q1330250",
+                      "wtype": "PER",
+                      "score": 0.9924
+                    },
+                    {
+                      "label": "Petra Tanzler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.3157
+                    }
+                  ],
+                  "timeStart": "3.960",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Karin Greiner , Elisabeth Feichtinger, BEd BEd , Klaus Köchl , Josef Muchitsch , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karin Greiner",
+                      "wid": "Q15822812",
+                      "wtype": "PER",
+                      "score": 0.9576
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9856
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Dr. Petra Oberrauner , Alois Stöger, diplômé , Rainer Wimmer , Erwin Angerer , Hermann Brückl, MA , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.863
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.984
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9773
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Dr. Martin Graf , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martin Graf",
+                      "wid": "Q86691",
+                      "wtype": "PER",
+                      "score": 0.514
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Gerhard Kaniak , MMMag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Dr. Axel Kassegger , Michael Schnedlitz , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Philipp Schrangl , Peter Wurm , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Eva Blimlinger , Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Meri Disoski , Dr. Ewa Ernst-Dziedzic und Mag.",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 },
                 {
                   "text": "Nina Tomaselli .",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Carmen Jeitler-Cincelli, BA , Martina Kaufmann, MMSc BA , Mag. Elisabeth Scheucher-Pichler , Dipl.-Ing. Georg Strasser , Petra Tanzler , Mag. Karin Greiner , Elisabeth Feichtinger, BEd BEd , Klaus Köchl , Josef Muchitsch , Mag. Dr. Petra Oberrauner , Alois Stöger, diplômé , Rainer Wimmer , Erwin Angerer , Hermann Brückl, MA , Mag. Dr. Martin Graf , Mag. Gerhard Kaniak , MMMag. Dr. Axel Kassegger , Michael Schnedlitz , Mag. Philipp Schrangl , Peter Wurm , Mag. Eva Blimlinger , Mag. Meri Disoski , Dr. Ewa Ernst-Dziedzic und Mag. Nina Tomaselli ."
@@ -136,7 +319,9 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 }
               ],
               "text": "Zuweisungen"
@@ -148,7 +333,9 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.200"
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung."
@@ -160,7 +347,9 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.200",
+                  "timeEnd": "4.560"
                 }
               ],
               "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:"
@@ -172,7 +361,9 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.560",
+                  "timeEnd": "5.320"
                 }
               ],
               "text": "Zuweisungen in dieser Sitzung:"
@@ -184,7 +375,9 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "5.320",
+                  "timeEnd": "5.800"
                 }
               ],
               "text": "a) zur Vorberatung:"
@@ -196,7 +389,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "5.800",
+                  "timeEnd": "6.360"
                 }
               ],
               "text": "Ausschuss für Arbeit und Soziales:"
@@ -208,7 +403,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Präsentation und Umsetzung des Nationalen Aktionsplans zur Europäischen Garantie für Kinder ( 3166/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "6.360",
+                  "timeEnd": "7.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Präsentation und Umsetzung des Nationalen Aktionsplans zur Europäischen Garantie für Kinder ( 3166/A(E) )"
@@ -220,11 +430,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "7.920",
+                  "timeEnd": "7.960"
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Kulanz- und Härtefallregelung bei Todesfall und Pensions- bzw. Pflegegeldbezug ( 3168/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "7.960",
+                  "timeEnd": "9.920"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Kulanz- und Härtefallregelung bei Todesfall und Pensions- bzw. Pflegegeldbezug ( 3168/A(E) )"
@@ -236,7 +463,9 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "9.920",
+                  "timeEnd": "10.360"
                 }
               ],
               "text": "Außenpolitischer Ausschuss:"
@@ -248,7 +477,9 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend \"Verpflichtende Berichte über Waffenexporte Österreichs\" ( 3162/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "10.360",
+                  "timeEnd": "12.360"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend \"Verpflichtende Berichte über Waffenexporte Österreichs\" ( 3162/A(E) )"
@@ -260,7 +491,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "12.360",
+                  "timeEnd": "12.600"
                 }
               ],
               "text": "Ausschuss für Familie und Jugend:"
@@ -272,7 +505,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Verbot der Leihmutterschaft ( 3169/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "12.600",
+                  "timeEnd": "14.160"
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Verbot der Leihmutterschaft ( 3169/A(E) )"
@@ -284,7 +532,9 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.160",
+                  "timeEnd": "14.160"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -296,7 +546,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend valide Daten zur besseren STI-Prävention sichern ( 3167/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "14.160",
+                  "timeEnd": "14.720"
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend valide Daten zur besseren STI-Prävention sichern ( 3167/A(E) )"
@@ -308,7 +573,9 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.720",
+                  "timeEnd": "14.960"
                 }
               ],
               "text": "Justizausschuss:"
@@ -320,7 +587,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Hypothekar- und Immobilienkreditgesetz und die Rechtsanwaltsordnung geändert werden ( 1946 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.960",
+                  "timeEnd": "14.960"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Hypothekar- und Immobilienkreditgesetz und die Rechtsanwaltsordnung geändert werden ( 1946 d.B. )"
@@ -332,7 +601,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Strafgesetzbuch geändert wird ( 1948 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.960",
+                  "timeEnd": "14.960"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Strafgesetzbuch geändert wird ( 1948 d.B. )"
@@ -344,7 +615,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ],
+                  "timeStart": "14.960",
+                  "timeEnd": "14.960"
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -356,7 +636,9 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend \"Verpflichtende Berichte über Waffenexporte Österreichs\" ( 3163/A(E) )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "14.960",
+                  "timeEnd": "15.040"
                 }
               ],
               "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend \"Verpflichtende Berichte über Waffenexporte Österreichs\" ( 3163/A(E) )"
@@ -368,7 +650,9 @@
               "sentences": [
                 {
                   "text": "Rechnungshofausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "15.040",
+                  "timeEnd": "15.040"
                 }
               ],
               "text": "Rechnungshofausschuss:"
@@ -380,7 +664,9 @@
               "sentences": [
                 {
                   "text": "Bericht des Rechnungshofes betreffend Österreichische Akademie der Wissenschaften – Reihe BUND 2023/6 ( III-888 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "15.040",
+                  "timeEnd": "17.360"
                 }
               ],
               "text": "Bericht des Rechnungshofes betreffend Österreichische Akademie der Wissenschaften – Reihe BUND 2023/6 ( III-888 d.B. )"
@@ -392,7 +678,9 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "17.360",
+                  "timeEnd": "17.480"
                 }
               ],
               "text": "Verfassungsausschuss:"
@@ -404,15 +692,34 @@
               "sentences": [
                 {
                   "text": "Gesetzesantrag der Bundesrätinnen und Bundesräte MMag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "17.480",
+                  "timeEnd": "18.400"
                 },
                 {
                   "text": "Dr. Karl Arthur Arlamovsky, Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "18.400",
+                  "timeEnd": "18.800"
                 },
                 {
                   "text": "Sascha Obrecht, Christoph Steiner, Kolleginnen und Kollegen vom 16. Februar 2023 betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird ( 1940 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christoph Steiner",
+                      "wid": "Q51885957",
+                      "wtype": "PER",
+                      "score": 0.8284
+                    },
+                    {
+                      "label": "Bundesministeriengesetz",
+                      "wid": "Q27556236",
+                      "wtype": "MISC",
+                      "score": 0.7936
+                    }
+                  ],
+                  "timeStart": "18.800",
+                  "timeEnd": "23.160"
                 }
               ],
               "text": "Gesetzesantrag der Bundesrätinnen und Bundesräte MMag. Dr. Karl Arthur Arlamovsky, Mag. Sascha Obrecht, Christoph Steiner, Kolleginnen und Kollegen vom 16. Februar 2023 betreffend ein Bundesgesetz, mit dem das Bundesministeriengesetz 1986 geändert wird ( 1940 d.B. )"
@@ -424,7 +731,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Erhaltung des ORF Spartensenders Sport+ ( 3164/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "23.160",
+                  "timeEnd": "24.440"
                 }
               ],
               "text": "Antrag der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Erhaltung des ORF Spartensenders Sport+ ( 3164/A(E) )"
@@ -436,7 +764,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "24.440",
+                  "timeEnd": "24.680"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -448,7 +778,9 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird ( 1947 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "24.680",
+                  "timeEnd": "26.020"
                 }
               ],
               "text": "Bundesgesetz, mit dem das Wirtschaftstreuhandberufsgesetz 2017 geändert wird ( 1947 d.B. )"
@@ -460,7 +792,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ],
+                  "timeStart": "26.020",
+                  "timeEnd": "26.440"
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -472,11 +813,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "26.440",
+                  "timeEnd": "27.480"
                 },
                 {
                   "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend Erstellung des Entwurfs des Fachhochschulentwicklungs- und Finanzierungsplans 2023/24 - 2025/26 ( 3165/A(E) )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9886
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ],
+                  "timeStart": "27.480",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend Erstellung des Entwurfs des Fachhochschulentwicklungs- und Finanzierungsplans 2023/24 - 2025/26 ( 3165/A(E) )"
@@ -488,7 +846,9 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):"
@@ -500,7 +860,9 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "Gesundheitsausschuss:"
@@ -512,7 +874,9 @@
               "sentences": [
                 {
                   "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz betreffend Monitoring der Finanzzielsteuerung; Kurzbericht für das Jahr 2022 inklusive der Stellungnahmen der Landes-Zielsteuerungskommissionen aufgrund der Entschließung des Nationalrates vom 26. April 2013, E 301-NR/XXIV.GP ( III-893 d.B. )",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "Bericht des Bundesministers für Soziales, Gesundheit, Pflege und Konsumentenschutz betreffend Monitoring der Finanzzielsteuerung; Kurzbericht für das Jahr 2022 inklusive der Stellungnahmen der Landes-Zielsteuerungskommissionen aufgrund der Entschließung des Nationalrates vom 26. April 2013, E 301-NR/XXIV.GP ( III-893 d.B. )"
@@ -524,7 +888,9 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "Unterrichtsausschuss:"
@@ -536,7 +902,22 @@
               "sentences": [
                 {
                   "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Jänner 2023, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-891 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetzes",
+                      "wid": "Q1006079",
+                      "wtype": "MISC",
+                      "score": 0.0908
+                    },
+                    {
+                      "label": "Bundesminister für Bildung, Wissenschaft und Forschung",
+                      "wid": "Q606227",
+                      "wtype": "ORG",
+                      "score": 0.8749
+                    }
+                  ],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "Bericht nach § 3 Abs. 5 des Bundesgesetzes über die Errichtung des COVID-19-Krisenbewältigungsfonds für Jänner 2023, vorgelegt vom Bundesminister für Bildung, Wissenschaft und Forschung ( III-891 d.B. )"
@@ -548,7 +929,9 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.080"
                 }
               ],
               "text": "Ausschuss für Wirtschaft, Industrie und Energie:"
@@ -560,7 +943,22 @@
               "sentences": [
                 {
                   "text": "Bericht über die Situation und Entwicklung kleiner und mittlerer Unternehmen der österreichischen Wirtschaft (\"KMU im Fokus 2022\"), vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-892 d.B. )",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    },
+                    {
+                      "label": "Bundesminister für Arbeit und Wirtschaft",
+                      "wid": "Q22694650",
+                      "wtype": "ORG",
+                      "score": 0.9284
+                    }
+                  ],
+                  "timeStart": "28.080",
+                  "timeEnd": "28.240"
                 }
               ],
               "text": "Bericht über die Situation und Entwicklung kleiner und mittlerer Unternehmen der österreichischen Wirtschaft (\"KMU im Fokus 2022\"), vorgelegt vom Bundesminister für Arbeit und Wirtschaft ( III-892 d.B. )"
@@ -572,7 +970,9 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 1. März 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.240",
+                  "timeEnd": "29.440"
                 }
               ],
               "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 1. März 2023, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden."
@@ -584,7 +984,9 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "29.440",
+                  "timeEnd": "30.000"
                 }
               ],
               "text": "Die Sitzung ist geschlossen."
@@ -598,7 +1000,8 @@
         "debatteId": 300,
         "proceedingIndex": 290695,
         "alignError": "exit 1",
-        "nerDuration": 0.2739861011505127
+        "nerDuration": 0.5125432014465332,
+        "alignDuration": 0.6656358242034912
       },
       "originalLanguage": "de"
     }

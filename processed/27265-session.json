@@ -5,11 +5,12 @@
     "dateStart": "2024-05-16T18:21:42",
     "dateEnd": "2024-05-16T18:23:21",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-27T06:06:36",
+    "lastUpdate": "2026-06-28T14:31:45",
     "processing": {
-      "merge": "2026-06-16T04:24:15+00:00",
-      "align": "2026-06-27T06:06:36",
-      "ner": "2026-06-28T03:33:41"
+      "merge": "2026-06-28T07:25:21+00:00",
+      "nel": "2026-06-28T09:26:49",
+      "align": "2026-06-28T14:31:45",
+      "ner": "2026-06-28T16:29:46"
     }
   },
   "data": [
@@ -27,7 +28,9 @@
       "speechIndex": 1,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/099ceb38-83d3-4114-ad98-ef1e127666db/hls/index.m3u8?startseconds=0&stopseconds=22",
@@ -68,6 +71,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ich eröffne die 265. Sitzung des Nationalrates.",
@@ -82,24 +86,88 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Ing. Reinhold Einwallner , Hermann Brückl, MA , Mag.",
                   "timeStart": "2.920",
                   "timeEnd": "2.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "ORG",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Gerhard Kaniak , Herbert Kickl , Lukas Hammer , Mag.",
                   "timeStart": "2.920",
                   "timeEnd": "3.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9845
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    },
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Michel Reimon, MBA , David Stögmüller und Josef Schellhorn .",
                   "timeStart": "3.280",
                   "timeEnd": "4.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Michel Reimon",
+                      "wid": "Q1930882",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Ing. Reinhold Einwallner , Hermann Brückl, MA , Mag. Gerhard Kaniak , Herbert Kickl , Lukas Hammer , Mag. Markus Koza , Michel Reimon, MBA , David Stögmüller und Josef Schellhorn ."
@@ -108,6 +176,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
@@ -122,6 +191,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
@@ -136,6 +206,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
@@ -150,6 +221,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
@@ -164,6 +236,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Anfragebeantwortungen: 17550/AB bis 17553/AB",
@@ -178,6 +251,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
@@ -192,6 +266,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
@@ -206,11 +281,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
                   "timeStart": "4.680",
-                  "timeEnd": "5.360",
+                  "timeEnd": "5.600",
                   "entities": []
                 }
               ],
@@ -220,12 +296,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf analoge Inanspruchnahme und Teilhabe an den Dienstleistungen der Verwaltung und der Daseinsvorsorge ( 4057/A(E) )",
-                  "timeStart": "5.360",
+                  "timeStart": "5.600",
                   "timeEnd": "5.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Daseinsvorsorge",
+                      "wid": "Q161837",
+                      "wtype": "ORG",
+                      "score": 0.8168
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf analoge Inanspruchnahme und Teilhabe an den Dienstleistungen der Verwaltung und der Daseinsvorsorge ( 4057/A(E) )"
@@ -234,6 +330,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -245,13 +342,39 @@
                   "text": "Ernst Gödl , Mag.",
                   "timeStart": "5.760",
                   "timeEnd": "5.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Ernst Gödl",
+                      "wid": "Q1358410",
+                      "wtype": "PER",
+                      "score": 0.9913
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Sabine Schatz , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Opferfürsorgegesetz geändert wird ( 4065/A )",
                   "timeStart": "5.760",
                   "timeEnd": "6.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9824
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Ernst Gödl , Mag. Eva Blimlinger , Sabine Schatz , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Opferfürsorgegesetz geändert wird ( 4065/A )"
@@ -260,6 +383,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
@@ -274,18 +398,39 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag.",
                   "timeStart": "6.120",
-                  "timeEnd": "6.640",
-                  "entities": []
+                  "timeEnd": "6.440",
+                  "entities": [
+                    {
+                      "label": "Gabriel Obernosterer",
+                      "wid": "Q1489513",
+                      "wtype": "PER",
+                      "score": 0.9935
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über eine Verbrauchsteuer auf Mineralöl, Kraftstoffe und Heizstoffe (Mineralölsteuergesetz 2022 – MinStG 2022) geändert wird ( 4068/A )",
-                  "timeStart": "6.640",
-                  "timeEnd": "7.080",
-                  "entities": []
+                  "timeStart": "6.440",
+                  "timeEnd": "6.960",
+                  "entities": [
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Mineralölsteuergesetz",
+                      "wid": "Q1341407",
+                      "wtype": "LOC",
+                      "score": 0.8713
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriel Obernosterer , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über eine Verbrauchsteuer auf Mineralöl, Kraftstoffe und Heizstoffe (Mineralölsteuergesetz 2022 – MinStG 2022) geändert wird ( 4068/A )"
@@ -294,18 +439,57 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Karlheinz Kopf , Mag.",
-                  "timeStart": "7.080",
+                  "timeStart": "6.960",
+                  "timeEnd": "6.960",
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9867
+                    }
+                  ]
+                },
+                {
+                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Neuordnung der Aufgaben der COVID-19-Finanzierungsagentur des Bundes (COFAG-Neuordnungs- und Abwicklungsgesetz",
+                  "timeStart": "6.960",
                   "timeEnd": "7.080",
                   "entities": []
                 },
                 {
-                  "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Neuordnung der Aufgaben der COVID-19-Finanzierungsagentur des Bundes (COFAG-Neuordnungs- und Abwicklungsgesetz – COFAG-NoAG) erlassen wird sowie das ABBAG-Gesetz, das COVID-19-Förderungsprüfungsgesetz, das Energiekostenausgleichsgesetz 2022, das Bundesgesetz, mit dem Förderungen des Bundes aufgrund der COVID-19-Pandemie an das steuerliche Wohlverhalten geknüpft werden, das Bundesgesetz über die Wirtschaftstreuhandberufe, das Bundesgesetz über die Bilanzbuchhaltungsberufe, das Garantiegesetz 1977 und das KMU-Förderungsgesetz geändert werden (COFAG Sammelgesetz) ( 4070/A )",
+                  "text": "COFAG-NoAG) erlassen wird sowie das ABBAG-Gesetz, das COVID-19-Förderungsprüfungsgesetz, das Energiekostenausgleichsgesetz 2022, das Bundesgesetz, mit dem Förderungen des Bundes aufgrund der COVID-19-Pandemie an das steuerliche Wohlverhalten geknüpft werden, das Bundesgesetz über die Wirtschaftstreuhandberufe, das Bundesgesetz über die Bilanzbuchhaltungsberufe, das Garantiegesetz 1977 und das KMU-Förderungsgesetz geändert werden (COFAG Sammelgesetz) ( 4070/A )",
                   "timeStart": "7.080",
-                  "timeEnd": "9.320",
-                  "entities": []
+                  "timeEnd": "9.280",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0938
+                    },
+                    {
+                      "label": "Bundes",
+                      "wid": "Q1005903",
+                      "wtype": "LOC",
+                      "score": 0.0871
+                    },
+                    {
+                      "label": "Garantiegesetz",
+                      "wid": "Q1518813",
+                      "wtype": "MISC",
+                      "score": 0.746
+                    },
+                    {
+                      "label": "COFAG",
+                      "wid": "Q113485305",
+                      "wtype": "ORG",
+                      "score": 0.1213
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Karlheinz Kopf , Mag. Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Neuordnung der Aufgaben der COVID-19-Finanzierungsagentur des Bundes (COFAG-Neuordnungs- und Abwicklungsgesetz – COFAG-NoAG) erlassen wird sowie das ABBAG-Gesetz, das COVID-19-Förderungsprüfungsgesetz, das Energiekostenausgleichsgesetz 2022, das Bundesgesetz, mit dem Förderungen des Bundes aufgrund der COVID-19-Pandemie an das steuerliche Wohlverhalten geknüpft werden, das Bundesgesetz über die Wirtschaftstreuhandberufe, das Bundesgesetz über die Bilanzbuchhaltungsberufe, das Garantiegesetz 1977 und das KMU-Förderungsgesetz geändert werden (COFAG Sammelgesetz) ( 4070/A )"
@@ -314,10 +498,11 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "9.320",
+                  "timeStart": "9.280",
                   "timeEnd": "9.480",
                   "entities": []
                 }
@@ -328,6 +513,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -354,12 +540,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Süleyman Zorba , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Telekommunikationsgesetz 2021 geändert wird ( 4066/A )",
                   "timeStart": "9.920",
                   "timeEnd": "9.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    },
+                    {
+                      "label": "Telekommunikationsgesetz",
+                      "wid": "Q2401732",
+                      "wtype": "MISC",
+                      "score": 0.3795
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Süleyman Zorba , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Telekommunikationsgesetz 2021 geändert wird ( 4066/A )"
@@ -368,12 +574,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4069/A(E) )",
                   "timeStart": "9.920",
                   "timeEnd": "9.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Maßnahmenpaket für mehr Geschlechtergerechtigkeit in Entwicklung und Anwendung von Künstlicher Intelligenz ( 4069/A(E) )"
@@ -382,6 +602,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
@@ -396,12 +617,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz – ASVG BGBI.",
                   "timeStart": "9.920",
                   "timeEnd": "9.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9857
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 189/1955, das Gewerbliches Sozialversicherungsgesetz BGBI.",
@@ -434,6 +669,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -445,7 +681,26 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Tierhaltungskennzeichnung jetzt\" als wichtiger Baustein, um Österreich zu einem Tierwohlmusterland zu entwickeln ( 4064/A(E) )",
                   "timeStart": "10.920",
                   "timeEnd": "10.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Tierhaltungskennzeichnung jetzt\" als wichtiger Baustein, um Österreich zu einem Tierwohlmusterland zu entwickeln ( 4064/A(E) )"
@@ -454,6 +709,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Justizausschuss:",
@@ -468,6 +724,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -478,14 +735,28 @@
                 {
                   "text": "Michaela Steinacker , Mag.",
                   "timeStart": "10.920",
-                  "timeEnd": "11.000",
-                  "entities": []
+                  "timeEnd": "10.920",
+                  "entities": [
+                    {
+                      "label": "Michaela Steinacker",
+                      "wid": "Q15835119",
+                      "wtype": "PER",
+                      "score": 0.989
+                    }
+                  ]
                 },
                 {
                   "text": "Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über die Förderung von Gewaltambulanzen (Gewaltambulanzenförderungs-Gesetz – GewaltAFG) erlassen wird ( 4067/A )",
-                  "timeStart": "11.000",
+                  "timeStart": "10.920",
                   "timeEnd": "12.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Meri Disoski",
+                      "wid": "Q69823248",
+                      "wtype": "PER",
+                      "score": 0.9905
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Michaela Steinacker , Mag. Meri Disoski , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über die Förderung von Gewaltambulanzen (Gewaltambulanzenförderungs-Gesetz – GewaltAFG) erlassen wird ( 4067/A )"
@@ -494,6 +765,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
@@ -508,12 +780,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf analoge Inanspruchnahme und Teilhabe an den Dienstleistungen der Verwaltung und der Daseinsvorsorge ( 4056/A(E) )",
                   "timeStart": "12.480",
-                  "timeEnd": "15.040",
-                  "entities": []
+                  "timeEnd": "13.280",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Daseinsvorsorge",
+                      "wid": "Q161837",
+                      "wtype": "ORG",
+                      "score": 0.8168
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Recht auf analoge Inanspruchnahme und Teilhabe an den Dienstleistungen der Verwaltung und der Daseinsvorsorge ( 4056/A(E) )"
@@ -522,18 +814,38 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "15.040",
-                  "timeEnd": "15.640",
+                  "timeStart": "13.280",
+                  "timeEnd": "13.760",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Tierhaltungskennzeichnung jetzt\" als wichtiger Baustein, um Österreich zu einem Tierwohlmusterland zu entwickeln ( 4062/A(E) )",
-                  "timeStart": "15.640",
-                  "timeEnd": "16.680",
-                  "entities": []
+                  "timeStart": "13.760",
+                  "timeEnd": "16.280",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Tierhaltungskennzeichnung jetzt\" als wichtiger Baustein, um Österreich zu einem Tierwohlmusterland zu entwickeln ( 4062/A(E) )"
@@ -542,12 +854,20 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "16.680",
-                  "timeEnd": "16.840",
-                  "entities": []
+                  "timeStart": "16.280",
+                  "timeEnd": "16.680",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -556,18 +876,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Ing. Mag.",
-                  "timeStart": "16.840",
-                  "timeEnd": "17.000",
+                  "timeStart": "16.680",
+                  "timeEnd": "16.880",
                   "entities": []
                 },
                 {
                   "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend Wiedereinführung von 8 Monaten Grundwehrdienst im Modell 6 + 2 Monate ( 4061/A(E) )",
-                  "timeStart": "17.000",
+                  "timeStart": "16.880",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend Wiedereinführung von 8 Monaten Grundwehrdienst im Modell 6 + 2 Monate ( 4061/A(E) )"
@@ -576,6 +910,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
@@ -590,12 +925,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend \"Tierhaltungskennzeichnung jetzt\" als wichtiger Baustein, um Österreich zu einem Tierwohlmusterland zu entwickeln ( 4063/A(E) )",
                   "timeStart": "17.000",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9818
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Elisabeth Feichtinger, BEd BEd , Kolleginnen und Kollegen betreffend \"Tierhaltungskennzeichnung jetzt\" als wichtiger Baustein, um Österreich zu einem Tierwohlmusterland zu entwickeln ( 4063/A(E) )"
@@ -604,6 +959,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Sportausschuss:",
@@ -618,12 +974,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Vereinheitlichung und Vereinfachung der Sportförderabwicklung ( 4052/A(E) )",
                   "timeStart": "17.000",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Vereinheitlichung und Vereinfachung der Sportförderabwicklung ( 4052/A(E) )"
@@ -632,12 +1002,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Erstellung einer Bewerbungsstrategie für Sportgroßveranstaltungen ( 4058/A(E) )",
                   "timeStart": "17.000",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Petra Steger",
+                      "wid": "Q15618404",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Petra Steger , Kolleginnen und Kollegen betreffend Erstellung einer Bewerbungsstrategie für Sportgroßveranstaltungen ( 4058/A(E) )"
@@ -646,6 +1030,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
@@ -660,6 +1045,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Julia Elisabeth Herr , Kolleginnen und Kollegen betreffend wissenschaftliche Grundlage zur Beurteilung des Erhaltungszustandes des Wolfes ( 4054/A(E) )",
@@ -674,6 +1060,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend Abschaffung des Klimabonus für Asylwerber ( 4072/A(E) )",
@@ -688,6 +1075,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
@@ -702,12 +1090,26 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend \"Saubere Luft in unseren Bildungseinrichtungen\" ( 4049/A(E) )",
                   "timeStart": "17.000",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Rudolf Silvan",
+                      "wid": "Q71004072",
+                      "wtype": "PER",
+                      "score": 0.9808
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Rudolf Silvan , Kolleginnen und Kollegen betreffend \"Saubere Luft in unseren Bildungseinrichtungen\" ( 4049/A(E) )"
@@ -716,6 +1118,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
@@ -730,6 +1133,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -741,7 +1145,20 @@
                   "text": "Muna Duzdar , Kolleginnen und Kollegen betreffend Das \"Meine-Zeitung-Abo\" als neues Förderinstrument für mehr Medienvielfalt ( 4059/A(E) )",
                   "timeStart": "17.000",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Muna Duzdar",
+                      "wid": "Q1329538",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Muna Duzdar , Kolleginnen und Kollegen betreffend Das \"Meine-Zeitung-Abo\" als neues Förderinstrument für mehr Medienvielfalt ( 4059/A(E) )"
@@ -750,12 +1167,32 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend ORF-Wahlbeeinflussung in der Causa Ziegler offenlegen ( 4071/A(E) )",
                   "timeStart": "17.000",
                   "timeEnd": "17.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend ORF-Wahlbeeinflussung in der Causa Ziegler offenlegen ( 4071/A(E) )"
@@ -764,6 +1201,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
@@ -778,12 +1216,20 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Zielnetz für die Eisenbahninfrastruktur definiert wird (Zielnetzgesetz) ( 4053/A )",
                   "timeStart": "17.000",
-                  "timeEnd": "18.480",
-                  "entities": []
+                  "timeEnd": "18.520",
+                  "entities": [
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.4054
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Alois Stöger, diplômé , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Zielnetz für die Eisenbahninfrastruktur definiert wird (Zielnetzgesetz) ( 4053/A )"
@@ -792,10 +1238,11 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "18.480",
+                  "timeStart": "18.520",
                   "timeEnd": "18.840",
                   "entities": []
                 }
@@ -806,6 +1253,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Neue Jobs schaffen und sichern - durch eine echte Begleitung der Transformation der Wirtschaft ( 4050/A(E) )",
@@ -820,6 +1268,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend Schaffung eines Baukulturförderprogramms inklusive Revitalisierungsbonus zur Belebung von Stadt- und Ortskernen ( 4051/A(E) )",
@@ -834,12 +1283,20 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christoph Stark , Mag.",
                   "timeStart": "20.560",
                   "timeEnd": "20.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christoph Stark",
+                      "wid": "Q23781187",
+                      "wtype": "PER",
+                      "score": 0.383
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz zur Abmilderung von Krisenfolgen und zur Verbesserung der Marktbedingungen im Falle von marktbeherrschenden Energieversorgern erlassen wird ( 4073/A )",
@@ -854,6 +1311,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
@@ -865,7 +1323,26 @@
                   "text": "Dr. Jakob Schwarz, BA , Tanja Graf , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011, das Gasdiversifizierungsgesetz 2022 und das Energielenkungsgesetz 2012 geändert werden ( 4074/A )",
                   "timeStart": "21.120",
                   "timeEnd": "21.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4964
+                    },
+                    {
+                      "label": "Gaswirtschaftsgesetz",
+                      "wid": "Q1341378",
+                      "wtype": "MISC",
+                      "score": 0.4754
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Dr. Jakob Schwarz, BA , Tanja Graf , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gaswirtschaftsgesetz 2011, das Gasdiversifizierungsgesetz 2022 und das Energielenkungsgesetz 2012 geändert werden ( 4074/A )"
@@ -874,6 +1351,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Fristsetzungsantrag",
@@ -888,11 +1366,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Weiters teile ich mit, dass die Abgeordneten Stark und Schwarz beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 4073/A eine Frist bis 11. Juni 2024 zu setzen.",
                   "timeStart": "21.200",
-                  "timeEnd": "21.240",
+                  "timeEnd": "21.280",
                   "entities": []
                 }
               ],
@@ -902,10 +1381,11 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung – also sogleich – zur Abstimmung gebracht werden.",
-                  "timeStart": "21.240",
+                  "timeStart": "21.280",
                   "timeEnd": "24.000",
                   "entities": []
                 }
@@ -920,8 +1400,12 @@
         "stdId": 324610,
         "debatteId": 300,
         "proceedingIndex": 324610,
-        "alignDuration": 0.8227288722991943,
-        "nerDuration": 0.38532590866088867
+        "linkedMediaIndexes": [
+          1
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.8988041877746582,
+        "nerDuration": 0.8096449375152588
       },
       "originalLanguage": "de"
     },
@@ -939,7 +1423,9 @@
       "speechIndex": 2,
       "agendaItem": {
         "officialTitle": "Abstimmung über einen Fristsetzungsantrag",
-        "title": "Abstimmung über einen Fristsetzungsantrag"
+        "title": "Abstimmung über einen Fristsetzungsantrag",
+        "type": "voting",
+        "nativeType": "AT-voting"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/099ceb38-83d3-4114-ad98-ef1e127666db/hls/index.m3u8?startseconds=22&stopseconds=71",
@@ -980,6 +1466,7 @@
               "type": "speech",
               "speaker": null,
               "speakerstatus": null,
+              "speakerID": null,
               "sentences": [
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
@@ -994,11 +1481,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Wir kommen zur soeben erwähnten Abstimmung über den Antrag, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 4073/A eine Frist bis 11. Juni 2024 zu setzen.",
                   "timeStart": "7.000",
-                  "timeEnd": "31.880",
+                  "timeEnd": "43.080",
                   "entities": []
                 }
               ],
@@ -1008,16 +1496,17 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Wer für diesen Fristsetzungsantrag ist, den bitte ich um ein Zeichen. –",
-                  "timeStart": "31.880",
-                  "timeEnd": "41.800",
+                  "timeStart": "43.080",
+                  "timeEnd": "50.320",
                   "entities": []
                 },
                 {
                   "text": "Das ist mit Mehrheit angenommen.",
-                  "timeStart": "41.800",
+                  "timeStart": "50.320",
                   "timeEnd": "51.960",
                   "entities": []
                 }
@@ -1032,8 +1521,12 @@
         "stdId": 324613,
         "debatteId": 310,
         "proceedingIndex": 324613,
-        "alignDuration": 0.3601570129394531,
-        "nerDuration": 0.019896984100341797
+        "linkedMediaIndexes": [
+          2
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.4534876346588135,
+        "nerDuration": 0.021917104721069336
       },
       "originalLanguage": "de"
     },
@@ -1051,7 +1544,9 @@
       "speechIndex": 3,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/099ceb38-83d3-4114-ad98-ef1e127666db/hls/index.m3u8?startseconds=71&stopseconds=99",
@@ -1092,6 +1587,7 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 14. Juni, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
@@ -1106,11 +1602,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Weiters gebe ich bekannt, dass im Anschluss an diese Sitzung der Geschäftsordnungsausschuss, danach der Cofag-Untersuchungsausschuss und im Anschluss an diesen der Finanzausschuss im Lokal 4 zusammentreten.",
                   "timeStart": "6.880",
-                  "timeEnd": "19.760",
+                  "timeEnd": "21.040",
                   "entities": []
                 }
               ],
@@ -1120,11 +1617,12 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Ich wünsche Ihnen einen schönen Abend.",
-                  "timeStart": "19.760",
-                  "timeEnd": "21.200",
+                  "timeStart": "21.040",
+                  "timeEnd": "23.980",
                   "entities": []
                 }
               ],
@@ -1134,10 +1632,11 @@
               "type": "speech",
               "speaker": "Doris Bures",
               "speakerstatus": "Präsidentin",
+              "speakerID": "145",
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "21.200",
+                  "timeStart": "23.980",
                   "timeEnd": "25.160",
                   "entities": []
                 }
@@ -1152,8 +1651,12 @@
         "stdId": 324618,
         "debatteId": 320,
         "proceedingIndex": 324618,
-        "alignDuration": 0.3181271553039551,
-        "nerDuration": 0.022150039672851562
+        "linkedMediaIndexes": [
+          3
+        ],
+        "confidence": 1.0,
+        "alignDuration": 0.3831064701080322,
+        "nerDuration": 0.02738213539123535
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2021-07-07T23:20:50",
     "dateEnd": "2021-07-07T23:21:19",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T16:44:31",
+    "lastUpdate": "2026-06-28T10:49:58",
     "processing": {
       "merge": "2026-06-16T04:23:50+00:00",
-      "align": "2026-06-20T16:44:31",
-      "ner": "2026-06-28T02:47:44"
+      "align": "2026-06-28T10:49:58",
+      "ner": "2026-06-28T15:22:09",
+      "nel": "2026-06-28T07:25:27"
     }
   },
   "data": [
@@ -87,19 +88,124 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Petra Wimmer , Christian Hafenecker, MA , Alois Kainz , Mag.",
                   "timeStart": "3.360",
                   "timeEnd": "5.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.971
+                    },
+                    {
+                      "label": "MSc",
+                      "wid": "Q183816",
+                      "wtype": "PER",
+                      "score": 0.6951
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9857
+                    },
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.9877
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Christoph Matznetter",
+                      "wid": "Q88260",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.979
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    }
+                  ]
                 },
                 {
                   "text": "Christian Ragger , Christian Ries , Heike Grebien , David Stögmüller , Mag.",
                   "timeStart": "5.200",
-                  "timeEnd": "5.200",
-                  "entities": []
+                  "timeEnd": "5.600",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper und Josef Schellhorn .",
-                  "timeStart": "5.200",
-                  "timeEnd": "5.200",
-                  "entities": []
+                  "timeStart": "5.600",
+                  "timeEnd": "5.600",
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4008
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Petra Wimmer , Christian Hafenecker, MA , Alois Kainz , Mag. Christian Ragger , Christian Ries , Heike Grebien , David Stögmüller , Mag. Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper und Josef Schellhorn ."
@@ -111,8 +217,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "5.200",
-                  "timeEnd": "5.200",
+                  "timeStart": "5.600",
+                  "timeEnd": "5.600",
                   "entities": []
                 }
               ],
@@ -125,9 +231,16 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 GOG-NR auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "5.200",
+                  "timeStart": "5.600",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "GOG-NR",
+                      "wid": "Q1518211",
+                      "wtype": "ORG",
+                      "score": 0.9695
+                    }
+                  ]
                 }
               ],
               "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 GOG-NR auf die im Sitzungssaal verteilte Mitteilung."
@@ -259,7 +372,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend UGB-konforme Gewinnermittlung bei den Arbeiterkammern gemäß WK-Haushaltsordnung",
                   "timeStart": "6.680",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1790/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend UGB-konforme Gewinnermittlung bei den Arbeiterkammern gemäß WK-Haushaltsordnung"
@@ -273,7 +393,20 @@
                   "text": "Antrag 1792/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpass aus nationalen Datenbanken",
                   "timeStart": "6.680",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Fiona Fiedler",
+                      "wid": "Q72071743",
+                      "wtype": "PER",
+                      "score": 0.9821
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1792/A(E) der Abgeordneten Fiona Fiedler, BEd , Kolleginnen und Kollegen betreffend Automatische Fotoimplementierung bei Beantragung eines Behindertenpass aus nationalen Datenbanken"
@@ -293,7 +426,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Ausbau des Fachkräftestipendiums für Pflegeberufe",
                   "timeStart": "6.680",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1808/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Ausbau des Fachkräftestipendiums für Pflegeberufe"
@@ -307,7 +447,20 @@
                   "text": "Antrag 1809/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Pensionspaket für sichere und faire Pensionen",
                   "timeStart": "6.680",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1809/A(E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend Pensionspaket für sichere und faire Pensionen"
@@ -321,7 +474,20 @@
                   "text": "Antrag 1810/A (E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Lohn- und Sozialdumping-Bekämpfungsgesetz geändert wird",
                   "timeStart": "6.680",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1810/A (E) der Abgeordneten Josef Muchitsch , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Lohn- und Sozialdumping-Bekämpfungsgesetz geändert wird"
@@ -349,7 +515,20 @@
                   "text": "Antrag 1797/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Die Flagge der weißrussischen Demokratiebewegung",
                   "timeStart": "6.680",
                   "timeEnd": "6.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1797/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Die Flagge der weißrussischen Demokratiebewegung"
@@ -447,7 +626,20 @@
                   "text": "Antrag 1811/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Modell Hundecampus",
                   "timeStart": "8.240",
                   "timeEnd": "8.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1811/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Modell Hundecampus"
@@ -466,8 +658,21 @@
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel",
                   "timeStart": "8.960",
-                  "timeEnd": "10.600",
-                  "entities": []
+                  "timeEnd": "11.360",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Pestizidrückständen",
+                      "wid": "Q1810999",
+                      "wtype": "MISC",
+                      "score": 0.4815
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1813/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel"
@@ -479,8 +684,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "10.600",
-                  "timeEnd": "10.880",
+                  "timeStart": "11.360",
+                  "timeEnd": "11.680",
                   "entities": []
                 }
               ],
@@ -493,8 +698,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1794/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Für ein nationales Verbot des Einsatzes von Software zur automatisierten und massenhaften Gesichtserkennung im öffentlichen Raum",
-                  "timeStart": "10.880",
-                  "timeEnd": "12.040",
+                  "timeStart": "11.680",
+                  "timeEnd": "12.880",
                   "entities": []
                 }
               ],
@@ -507,9 +712,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1798/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Multiinstitutionelle Einberufung Sicherheitspolizeilicher Fallkonferenzen",
-                  "timeStart": "12.040",
+                  "timeStart": "12.880",
                   "timeEnd": "13.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1798/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Multiinstitutionelle Einberufung Sicherheitspolizeilicher Fallkonferenzen"
@@ -523,7 +741,26 @@
                   "text": "Antrag 1799/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bundesweit einheitliches Risk-Assessment für Sicherheitspolizeiliche Fallkonferenzen",
                   "timeStart": "13.040",
                   "timeEnd": "13.740",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Bundesweit",
+                      "wid": "Q183",
+                      "wtype": "LOC",
+                      "score": 0.0932
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1799/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Bundesweit einheitliches Risk-Assessment für Sicherheitspolizeiliche Fallkonferenzen"
@@ -550,8 +787,21 @@
                 {
                   "text": "Antrag 1806/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden der Polizei mit Photovoltaik-Anlagen",
                   "timeStart": "14.080",
-                  "timeEnd": "14.520",
-                  "entities": []
+                  "timeEnd": "14.800",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9818
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1806/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden der Polizei mit Photovoltaik-Anlagen"
@@ -563,8 +813,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss :",
-                  "timeStart": "14.520",
-                  "timeEnd": "14.800",
+                  "timeStart": "14.800",
+                  "timeEnd": "14.920",
                   "entities": []
                 }
               ],
@@ -577,7 +827,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1796/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die Zivilprozessordnung geändert wird",
-                  "timeStart": "14.800",
+                  "timeStart": "14.920",
                   "timeEnd": "15.840",
                   "entities": []
                 }
@@ -627,7 +877,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Reise-Stornierungsinformationsplattform",
                   "timeStart": "17.840",
                   "timeEnd": "18.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1783/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Reise-Stornierungsinformationsplattform"
@@ -646,8 +903,15 @@
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller",
                   "timeStart": "19.640",
-                  "timeEnd": "20.760",
-                  "entities": []
+                  "timeEnd": "20.960",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1812/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend die Neue Gentechnik muss als Gentechnik behandelt werden, sonst droht gentechnisch veränderte Pflanzenwelt und unkontrolliert Gentechnik am Teller"
@@ -659,15 +923,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1814/A(E) der Abgeordneten Mag.",
-                  "timeStart": "20.760",
+                  "timeStart": "20.960",
                   "timeEnd": "21.600",
                   "entities": []
                 },
                 {
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel",
                   "timeStart": "21.600",
-                  "timeEnd": "22.800",
-                  "entities": []
+                  "timeEnd": "22.960",
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9777
+                    },
+                    {
+                      "label": "Pestizidrückständen",
+                      "wid": "Q1810999",
+                      "wtype": "MISC",
+                      "score": 0.4815
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1814/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend \"Pestizidecocktail\" in Lebensmitteln – Festlegung einer Belastungshöchstgrenze (Summengrenzwert) bei mehreren Pestizidrückständen in einem Lebensmittel"
@@ -679,9 +956,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "22.800",
-                  "timeEnd": "22.840",
-                  "entities": []
+                  "timeStart": "22.960",
+                  "timeEnd": "23.040",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -693,9 +977,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1791/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Einbeziehung der Volksvertretung in die Heeresreform",
-                  "timeStart": "22.840",
+                  "timeStart": "23.040",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1791/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Einbeziehung der Volksvertretung in die Heeresreform"
@@ -709,7 +1006,32 @@
                   "text": "Antrag 1805/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden des Bundesheers mit Photovoltaik-Anlagen",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Elisabeth Feichtinger",
+                      "wid": "Q42294922",
+                      "wtype": "PER",
+                      "score": 0.9797
+                    },
+                    {
+                      "label": "Bundesheers",
+                      "wid": "Q13107252",
+                      "wtype": "ORG",
+                      "score": 0.0995
+                    },
+                    {
+                      "label": "Photovoltaik-Anlagen",
+                      "wid": "Q1897785",
+                      "wtype": "LOC",
+                      "score": 0.5106
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1805/A(E) der Abgeordneten Elisabeth Feichtinger, BEd, Kolleginnen und Kollegen betreffend Ausstattung von Gebäuden des Bundesheers mit Photovoltaik-Anlagen"
@@ -765,7 +1087,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -779,13 +1108,33 @@
                   "text": "Antrag 1784/A(E) der Abgeordneten Josef Muchitsch , Mag.",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Muchitsch",
+                      "wid": "Q1705321",
+                      "wtype": "PER",
+                      "score": 0.9881
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Installierung einer Tourismuskasse",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1784/A(E) der Abgeordneten Josef Muchitsch , Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Installierung einer Tourismuskasse"
@@ -819,7 +1168,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Multiprofessionelles Unterstützungspersonal für Schulen",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1786/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Multiprofessionelles Unterstützungspersonal für Schulen"
@@ -839,7 +1195,14 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bundesweiten Chancenindex jetzt umsetzen",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1787/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Bundesweiten Chancenindex jetzt umsetzen"
@@ -859,7 +1222,20 @@
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend School Nurses für Schulen in Österreich",
                   "timeStart": "23.760",
                   "timeEnd": "23.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1788/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend School Nurses für Schulen in Österreich"
@@ -872,8 +1248,21 @@
                 {
                   "text": "Antrag 1807/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Einführung von \"Reha-Klassen\" bzw. \"Reha-Schulen\"",
                   "timeStart": "23.760",
-                  "timeEnd": "24.280",
-                  "entities": []
+                  "timeEnd": "24.320",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1807/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Einführung von \"Reha-Klassen\" bzw. \"Reha-Schulen\""
@@ -885,7 +1274,7 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "24.280",
+                  "timeStart": "24.320",
                   "timeEnd": "24.440",
                   "entities": []
                 }
@@ -901,7 +1290,20 @@
                   "text": "Antrag 1802/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Deckelung der Ausgaben für Regierungsinserate",
                   "timeStart": "24.440",
                   "timeEnd": "25.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1802/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Deckelung der Ausgaben für Regierungsinserate"
@@ -914,8 +1316,21 @@
                 {
                   "text": "Antrag 1803/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zur Medienpolitik: Ende der Marktverzerrung durch Regierungsinserate",
                   "timeStart": "25.320",
-                  "timeEnd": "26.560",
-                  "entities": []
+                  "timeEnd": "26.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1803/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Runder Tisch zur Medienpolitik: Ende der Marktverzerrung durch Regierungsinserate"
@@ -927,9 +1342,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1804/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend vollständige Transparenz bei und längere Abrufbarkeit von Inseratausgaben der Regierung",
-                  "timeStart": "26.560",
+                  "timeStart": "26.720",
                   "timeEnd": "26.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1804/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend vollständige Transparenz bei und längere Abrufbarkeit von Inseratausgaben der Regierung"
@@ -942,7 +1370,7 @@
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
                   "timeStart": "26.920",
-                  "timeEnd": "27.440",
+                  "timeEnd": "27.360",
                   "entities": []
                 }
               ],
@@ -955,7 +1383,7 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Handelsstatistische Gesetz 1995 geändert wird ( 958 d.B. )",
-                  "timeStart": "27.440",
+                  "timeStart": "27.360",
                   "timeEnd": "28.040",
                   "entities": []
                 }
@@ -976,7 +1404,7 @@
                 {
                   "text": "Die Tagesordnung ergeht auf schriftlichem Weg.",
                   "timeStart": "29.120",
-                  "timeEnd": "29.480",
+                  "timeEnd": "29.600",
                   "entities": []
                 }
               ],
@@ -989,7 +1417,7 @@
               "sentences": [
                 {
                   "text": "Ich danke für die letztendlich doch noch bewiesene Disziplin.",
-                  "timeStart": "29.480",
+                  "timeStart": "29.600",
                   "timeEnd": "29.920",
                   "entities": []
                 }
@@ -1018,8 +1446,8 @@
         "stdId": 250157,
         "debatteId": 300,
         "proceedingIndex": 250157,
-        "alignDuration": 0.7925071716308594,
-        "nerDuration": 0.38565897941589355
+        "alignDuration": 0.8784849643707275,
+        "nerDuration": 0.8095963001251221
       },
       "originalLanguage": "de"
     }

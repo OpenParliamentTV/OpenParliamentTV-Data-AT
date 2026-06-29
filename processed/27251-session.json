@@ -5,11 +5,12 @@
     "dateStart": "2024-01-31T21:56:05",
     "dateEnd": "2024-01-31T21:56:52",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-26T16:04:29",
+    "lastUpdate": "2026-06-28T14:12:51",
     "processing": {
       "merge": "2026-06-16T04:24:13+00:00",
-      "align": "2026-06-26T16:04:29",
-      "ner": "2026-06-28T03:29:34"
+      "align": "2026-06-28T14:12:51",
+      "ner": "2026-06-28T16:22:56",
+      "nel": "2026-06-28T07:25:37"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Die 251. Sitzung des Nationalrates ist eröffnet.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.120",
+                  "timeEnd": "2.600",
                   "entities": []
                 }
               ],
@@ -85,21 +86,54 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag.",
-                  "timeStart": "2.120",
-                  "timeEnd": "3.200",
-                  "entities": []
+                  "timeStart": "2.600",
+                  "timeEnd": "5.880",
+                  "entities": [
+                    {
+                      "label": "Maria Großbauer",
+                      "wid": "Q28851897",
+                      "wtype": "PER",
+                      "score": 0.9897
+                    },
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Heike Grebien , Mag.",
-                  "timeStart": "3.200",
-                  "timeEnd": "3.560",
-                  "entities": []
+                  "timeStart": "5.880",
+                  "timeEnd": "7.320",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 },
                 {
                   "text": "Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer .",
-                  "timeStart": "3.560",
-                  "timeEnd": "3.640",
-                  "entities": []
+                  "timeStart": "7.320",
+                  "timeEnd": "9.440",
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Maria Großbauer , Nico Marchetti , Julia Elisabeth Herr , Mag. Gerald Hauser , Heike Grebien , Mag. Nina Tomaselli und Dipl.-Ing. Karin Doppelbauer ."
@@ -111,8 +145,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "3.640",
-                  "timeEnd": "4.000",
+                  "timeStart": "9.440",
+                  "timeEnd": "9.880",
                   "entities": []
                 }
               ],
@@ -125,8 +159,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "4.000",
-                  "timeEnd": "8.020",
+                  "timeStart": "9.880",
+                  "timeEnd": "18.160",
                   "entities": []
                 }
               ],
@@ -139,8 +173,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "8.020",
-                  "timeEnd": "8.680",
+                  "timeStart": "18.160",
+                  "timeEnd": "19.560",
                   "entities": []
                 }
               ],
@@ -153,8 +187,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "8.680",
-                  "timeEnd": "9.240",
+                  "timeStart": "19.560",
+                  "timeEnd": "20.160",
                   "entities": []
                 }
               ],
@@ -167,8 +201,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "9.240",
-                  "timeEnd": "9.680",
+                  "timeStart": "20.160",
+                  "timeEnd": "20.760",
                   "entities": []
                 }
               ],
@@ -181,8 +215,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "9.680",
-                  "timeEnd": "9.840",
+                  "timeStart": "20.760",
+                  "timeEnd": "21.480",
                   "entities": []
                 }
               ],
@@ -195,8 +229,8 @@
               "sentences": [
                 {
                   "text": "Veterinärrechtsnovelle 2024 (2433 d.B.)",
-                  "timeStart": "9.840",
-                  "timeEnd": "11.920",
+                  "timeStart": "21.480",
+                  "timeEnd": "24.640",
                   "entities": []
                 }
               ],
@@ -209,8 +243,8 @@
               "sentences": [
                 {
                   "text": "Umweltausschuss:",
-                  "timeStart": "11.920",
-                  "timeEnd": "12.400",
+                  "timeStart": "24.640",
+                  "timeEnd": "25.000",
                   "entities": []
                 }
               ],
@@ -223,8 +257,8 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Altlastensanierungsgesetz, das Umweltförderungsgesetz und das Umweltkontrollgesetz geändert werden (ALSAG-Novelle 2024) ( 2432 d.B. )",
-                  "timeStart": "12.400",
-                  "timeEnd": "17.780",
+                  "timeStart": "25.000",
+                  "timeEnd": "32.560",
                   "entities": []
                 }
               ],
@@ -237,8 +271,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 28. Februar 2024, um 9 Uhr, in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "17.780",
-                  "timeEnd": "27.460",
+                  "timeStart": "32.560",
+                  "timeEnd": "38.640",
                   "entities": []
                 }
               ],
@@ -251,14 +285,14 @@
               "sentences": [
                 {
                   "text": "Ich gebe weiters bekannt, dass im Anschluss an diese Sitzung der Cofag-Untersuchungsausschuss in Lokal 1 zusammentritt.",
-                  "timeStart": "27.460",
-                  "timeEnd": "35.440",
+                  "timeStart": "38.640",
+                  "timeEnd": "41.280",
                   "entities": []
                 },
                 {
                   "text": "Wir sehen uns dann dort.",
-                  "timeStart": "35.440",
-                  "timeEnd": "36.820",
+                  "timeStart": "41.280",
+                  "timeEnd": "42.280",
                   "entities": []
                 }
               ],
@@ -271,8 +305,8 @@
               "sentences": [
                 {
                   "text": "Im Anschluss tritt der Rot-blauer-Machtmissbrauch-Untersuchungsausschuss ebenfalls in Lokal 1 zusammen.",
-                  "timeStart": "36.820",
-                  "timeEnd": "43.720",
+                  "timeStart": "42.280",
+                  "timeEnd": "44.240",
                   "entities": []
                 }
               ],
@@ -285,7 +319,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "43.720",
+                  "timeStart": "44.240",
                   "timeEnd": "44.760",
                   "entities": []
                 }
@@ -300,8 +334,8 @@
         "stdId": 315839,
         "debatteId": 300,
         "proceedingIndex": 315839,
-        "alignDuration": 0.4071171283721924,
-        "nerDuration": 0.09213376045227051
+        "alignDuration": 0.4704709053039551,
+        "nerDuration": 0.14199495315551758
       },
       "originalLanguage": "de"
     }

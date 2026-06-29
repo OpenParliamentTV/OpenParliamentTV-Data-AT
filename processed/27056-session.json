@@ -5,11 +5,12 @@
     "dateStart": "2020-10-14T22:26:19",
     "dateEnd": "2020-10-14T22:27:03",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-17T14:24:30",
+    "lastUpdate": "2026-06-28T09:44:06",
     "processing": {
       "merge": "2026-06-16T04:23:41+00:00",
-      "align": "2026-06-17T14:24:30",
-      "ner": "2026-06-28T02:31:04"
+      "align": "2026-06-28T09:44:06",
+      "ner": "2026-06-28T14:57:47",
+      "nel": "2026-06-28T07:25:23"
     }
   },
   "data": [
@@ -143,7 +144,14 @@
                   "text": "Korrigierte Anfragebeantwortung: Zu 3101/AB",
                   "timeStart": "1.000",
                   "timeEnd": "1.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Korrigierte",
+                      "wid": "Q1414531",
+                      "wtype": "PER",
+                      "score": 0.3044
+                    }
+                  ]
                 }
               ],
               "text": "Korrigierte Anfragebeantwortung: Zu 3101/AB"
@@ -184,7 +192,7 @@
                 {
                   "text": "Budgetbegleitgesetz 2021 ( 408 d.B. )",
                   "timeStart": "3.040",
-                  "timeEnd": "5.980",
+                  "timeEnd": "3.780",
                   "entities": []
                 }
               ],
@@ -197,9 +205,28 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem das Verbraucherbehörden-Kooperationsgesetz, das Telekommunikationsgesetz 2003 und das Wettbewerbsgesetz geändert werden ( 409 d.B. )",
-                  "timeStart": "5.980",
+                  "timeStart": "3.780",
                   "timeEnd": "7.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Telekommunikationsgesetz",
+                      "wid": "Q2401732",
+                      "wtype": "MISC",
+                      "score": 0.8115
+                    },
+                    {
+                      "label": "Wettbewerbsgesetz",
+                      "wid": "Q1296353",
+                      "wtype": "MISC",
+                      "score": 0.7578
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Verbraucherbehörden-Kooperationsgesetz, das Telekommunikationsgesetz 2003 und das Wettbewerbsgesetz geändert werden ( 409 d.B. )"
@@ -240,7 +267,7 @@
                 {
                   "text": "Bundesgesetz, mit dem die Begründung von Vorbelastungen durch die Bundesministerin für Klimaschutz, Umwelt, Energie, Mobilität, Innovation und Technologie genehmigt wird ( 412 d.B. )",
                   "timeStart": "9.520",
-                  "timeEnd": "10.480",
+                  "timeEnd": "9.600",
                   "entities": []
                 }
               ],
@@ -253,8 +280,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "10.480",
-                  "timeEnd": "10.840",
+                  "timeStart": "9.600",
+                  "timeEnd": "10.340",
                   "entities": []
                 }
               ],
@@ -267,8 +294,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "10.840",
-                  "timeEnd": "11.120",
+                  "timeStart": "10.340",
+                  "timeEnd": "10.520",
                   "entities": []
                 }
               ],
@@ -281,7 +308,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "11.120",
+                  "timeStart": "10.520",
                   "timeEnd": "11.120",
                   "entities": []
                 }
@@ -296,14 +323,21 @@
                 {
                   "text": "Antrag 947/A(E) der Abgeordneten Mag.",
                   "timeStart": "11.120",
-                  "timeEnd": "11.480",
+                  "timeEnd": "11.520",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Pensionsreform im Sinne der Folgegenerationen",
-                  "timeStart": "11.480",
+                  "timeStart": "11.520",
                   "timeEnd": "11.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 947/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Pensionsreform im Sinne der Folgegenerationen"
@@ -323,7 +357,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Leichterer Zugang für die Wissenschaft und Forschung zu Registerdaten",
                   "timeStart": "11.840",
                   "timeEnd": "11.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 948/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Leichterer Zugang für die Wissenschaft und Forschung zu Registerdaten"
@@ -343,7 +384,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Angleichung der Freibeträge für Auslandspensionsbezieher",
                   "timeStart": "11.840",
                   "timeEnd": "11.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 949/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Angleichung der Freibeträge für Auslandspensionsbezieher"
@@ -363,7 +411,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Vermittlung von Arbeitnehmer_innen in Kurzarbeit durch das AMS",
                   "timeStart": "11.840",
                   "timeEnd": "11.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "AMS",
+                      "wid": "Q628700",
+                      "wtype": "ORG",
+                      "score": 0.0921
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 950/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Vermittlung von Arbeitnehmer_innen in Kurzarbeit durch das AMS"
@@ -376,19 +437,32 @@
                 {
                   "text": "Antrag 952/A der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz 1969, BGBl.",
                   "timeStart": "11.840",
-                  "timeEnd": "12.360",
-                  "entities": []
+                  "timeEnd": "11.840",
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9857
+                    },
+                    {
+                      "label": "Berufsausbildungsgesetz",
+                      "wid": "Q828791",
+                      "wtype": "MISC",
+                      "score": 0.8653
+                    }
+                  ]
                 },
                 {
                   "text": "Nr. 142, zuletzt geändert durch das Bundesgesetz BGBl.",
-                  "timeStart": "12.360",
-                  "timeEnd": "13.040",
+                  "timeStart": "11.840",
+                  "timeEnd": "11.840",
                   "entities": []
                 },
                 {
                   "text": "I Nr. 18/2020, geändert wird",
-                  "timeStart": "13.040",
-                  "timeEnd": "13.240",
+                  "timeStart": "11.840",
+                  "timeEnd": "11.840",
                   "entities": []
                 }
               ],
@@ -401,15 +475,35 @@
               "sentences": [
                 {
                   "text": "Antrag 957/A der Abgeordneten August Wöginger , Mag.",
-                  "timeStart": "13.240",
-                  "timeEnd": "13.600",
-                  "entities": []
+                  "timeStart": "11.840",
+                  "timeEnd": "12.360",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird",
-                  "timeStart": "13.600",
-                  "timeEnd": "14.040",
-                  "entities": []
+                  "timeStart": "12.360",
+                  "timeEnd": "13.240",
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 957/A der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Arbeitslosenversicherungsgesetz 1977 geändert wird"
@@ -421,15 +515,47 @@
               "sentences": [
                 {
                   "text": "Antrag 958/A der Abgeordneten August Wöginger , Mag.",
-                  "timeStart": "14.040",
-                  "timeEnd": "14.640",
-                  "entities": []
+                  "timeStart": "13.240",
+                  "timeEnd": "13.600",
+                  "entities": [
+                    {
+                      "label": "August Wöginger",
+                      "wid": "Q764838",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "ORG",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz und das Selbständigen-Sozialversicherungsgesetz geändert werden",
-                  "timeStart": "14.640",
+                  "timeStart": "13.600",
                   "timeEnd": "14.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Markus Koza",
+                      "wid": "Q72074424",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 958/A der Abgeordneten August Wöginger , Mag. Markus Koza , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz, das Beamten-Kranken- und Unfallversicherungsgesetz und das Selbständigen-Sozialversicherungsgesetz geändert werden"
@@ -485,7 +611,20 @@
                   "text": "Antrag 921/A(E) der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend Schaffung einer Stiftung zur Firmen- und Arbeitsplatzrettung",
                   "timeStart": "14.640",
                   "timeEnd": "14.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 921/A(E) der Abgeordneten Kai Jan Krainer , Kolleginnen und Kollegen betreffend Schaffung einer Stiftung zur Firmen- und Arbeitsplatzrettung"
@@ -526,8 +665,27 @@
                 {
                   "text": "Antrag 942/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kreditstundungen an Least Developed Countries",
                   "timeStart": "14.640",
-                  "timeEnd": "14.640",
-                  "entities": []
+                  "timeEnd": "15.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9848
+                    },
+                    {
+                      "label": "Least Developed Countries",
+                      "wid": "Q752401",
+                      "wtype": "ORG",
+                      "score": 0.9663
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 942/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Kreditstundungen an Least Developed Countries"
@@ -539,15 +697,22 @@
               "sentences": [
                 {
                   "text": "Antrag 954/A der Abgeordneten Mag.",
-                  "timeStart": "14.640",
-                  "timeEnd": "14.640",
+                  "timeStart": "15.920",
+                  "timeEnd": "16.560",
                   "entities": []
                 },
                 {
                   "text": "Felix Eypeltauer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 gändert wird",
-                  "timeStart": "14.640",
-                  "timeEnd": "16.240",
-                  "entities": []
+                  "timeStart": "16.560",
+                  "timeEnd": "18.080",
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 954/A der Abgeordneten Mag. Felix Eypeltauer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Einkommensteuergesetz 1988 gändert wird"
@@ -559,8 +724,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Forschung, Innovation und Digitalisierung:",
-                  "timeStart": "16.240",
-                  "timeEnd": "16.760",
+                  "timeStart": "18.080",
+                  "timeEnd": "18.560",
                   "entities": []
                 }
               ],
@@ -573,8 +738,8 @@
               "sentences": [
                 {
                   "text": "Antrag 939/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Leichterer Zugang für die Wissenschaft und Forschung zu Registerdaten",
-                  "timeStart": "16.760",
-                  "timeEnd": "18.080",
+                  "timeStart": "18.560",
+                  "timeEnd": "19.800",
                   "entities": []
                 }
               ],
@@ -587,8 +752,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "18.080",
-                  "timeEnd": "18.120",
+                  "timeStart": "19.800",
+                  "timeEnd": "20.000",
                   "entities": []
                 }
               ],
@@ -601,9 +766,22 @@
               "sentences": [
                 {
                   "text": "Antrag 931/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend diskriminierungsfreie Blutspende jetzt verankern!",
-                  "timeStart": "18.120",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "20.000",
+                  "timeEnd": "21.880",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 931/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend diskriminierungsfreie Blutspende jetzt verankern!"
@@ -615,9 +793,22 @@
               "sentences": [
                 {
                   "text": "Antrag 934/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend zügige und vollständige Umsetzung des \"Aktionsplans Frauengesundheit\"",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.560",
-                  "entities": []
+                  "timeStart": "21.880",
+                  "timeEnd": "22.200",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 934/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend zügige und vollständige Umsetzung des \"Aktionsplans Frauengesundheit\""
@@ -629,15 +820,34 @@
               "sentences": [
                 {
                   "text": "Antrag 946/A(E) der Abgeordneten Mag.",
-                  "timeStart": "19.560",
-                  "timeEnd": "20.360",
+                  "timeStart": "22.200",
+                  "timeEnd": "22.200",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Übermittlung aller Berichte der AGES über COVID-19 an das Parlament",
-                  "timeStart": "20.360",
-                  "timeEnd": "21.560",
-                  "entities": []
+                  "timeStart": "22.200",
+                  "timeEnd": "22.320",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "AGES",
+                      "wid": "Q1553505",
+                      "wtype": "ORG",
+                      "score": 0.1045
+                    },
+                    {
+                      "label": "COVID-19",
+                      "wid": "Q84263196",
+                      "wtype": "LOC",
+                      "score": 0.7343
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 946/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Übermittlung aller Berichte der AGES über COVID-19 an das Parlament"
@@ -649,9 +859,22 @@
               "sentences": [
                 {
                   "text": "Antrag 956/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998 geändert wird",
-                  "timeStart": "21.560",
-                  "timeEnd": "23.680",
-                  "entities": []
+                  "timeStart": "22.320",
+                  "timeEnd": "24.440",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 956/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Ärztegesetz 1998 geändert wird"
@@ -663,8 +886,8 @@
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "timeStart": "23.680",
-                  "timeEnd": "24.000",
+                  "timeStart": "24.440",
+                  "timeEnd": "24.440",
                   "entities": []
                 }
               ],
@@ -677,9 +900,22 @@
               "sentences": [
                 {
                   "text": "Antrag 933/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend zügige und vollständige Umsetzung des \"Aktionsplans Frauengesundheit\"",
-                  "timeStart": "24.000",
-                  "timeEnd": "26.480",
-                  "entities": []
+                  "timeStart": "24.440",
+                  "timeEnd": "26.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 933/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend zügige und vollständige Umsetzung des \"Aktionsplans Frauengesundheit\""
@@ -691,9 +927,22 @@
               "sentences": [
                 {
                   "text": "Antrag 943/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen",
-                  "timeStart": "26.480",
+                  "timeStart": "26.680",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 943/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen"
@@ -727,7 +976,14 @@
                   "text": "Selma Yildirim , Kolleginnen und Kollegen betreffend Datenübermittlung bei Stalkingfällen",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Selma Yildirim",
+                      "wid": "Q42303254",
+                      "wtype": "PER",
+                      "score": 0.9915
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 932/A(E) der Abgeordneten Mag. Selma Yildirim , Kolleginnen und Kollegen betreffend Datenübermittlung bei Stalkingfällen"
@@ -783,7 +1039,26 @@
                   "text": "Antrag 938/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Eingliederung der Insassen von Justizanstalten in das System der staatlichen Krankenversicherung",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Justizanstalten",
+                      "wid": "Q1560906",
+                      "wtype": "MISC",
+                      "score": 0.3047
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 938/A(E) der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend Eingliederung der Insassen von Justizanstalten in das System der staatlichen Krankenversicherung"
@@ -797,7 +1072,26 @@
                   "text": "Antrag 955/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das gerichtliche Verfahren in Rechtsangelegenheiten außer Streitsachen (Außerstreitgesetz – AußStrG) geändert wird",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Außerstreitgesetz",
+                      "wid": "Q790019",
+                      "wtype": "MISC",
+                      "score": 0.8623
+                    },
+                    {
+                      "label": "AußStrG",
+                      "wid": "Q790019",
+                      "wtype": "MISC",
+                      "score": 0.6204
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 955/A der Abgeordneten Dr. Johannes Margreiter , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über das gerichtliche Verfahren in Rechtsangelegenheiten außer Streitsachen (Außerstreitgesetz – AußStrG) geändert wird"
@@ -825,7 +1119,20 @@
                   "text": "Abkommen zwischen der Regierung der Republik Österreich und der Regierung des Staates Israel über die Nutzung von Reproduktionen bestimmter Archivalien ( 413 d.B. )",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Republik Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.4129
+                    },
+                    {
+                      "label": "Staates Israel",
+                      "wid": "Q801",
+                      "wtype": "LOC",
+                      "score": 0.3504
+                    }
+                  ]
                 }
               ],
               "text": "Abkommen zwischen der Regierung der Republik Österreich und der Regierung des Staates Israel über die Nutzung von Reproduktionen bestimmter Archivalien ( 413 d.B. )"
@@ -845,7 +1152,14 @@
                   "text": "Thomas Drozda , Kolleginnen und Kollegen betreffend Reparatur des NPO-Fonds",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Thomas Drozda",
+                      "wid": "Q24082654",
+                      "wtype": "PER",
+                      "score": 0.9942
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 919/A(E) der Abgeordneten Mag. Thomas Drozda , Kolleginnen und Kollegen betreffend Reparatur des NPO-Fonds"
@@ -865,7 +1179,14 @@
                   "text": "Thomas Drozda , Kolleginnen und Kollegen betreffend Errichtung eines One-Stop-Shops im Kulturministerium zur Unterstützung der Kulturbranche",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Thomas Drozda",
+                      "wid": "Q24082654",
+                      "wtype": "PER",
+                      "score": 0.9942
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 920/A(E) der Abgeordneten Mag. Thomas Drozda , Kolleginnen und Kollegen betreffend Errichtung eines One-Stop-Shops im Kulturministerium zur Unterstützung der Kulturbranche"
@@ -879,7 +1200,14 @@
                   "text": "Landesverteidigungsausschuss:",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -893,7 +1221,20 @@
                   "text": "Antrag 935/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Priorität beim Mannschutz",
                   "timeStart": "28.000",
                   "timeEnd": "28.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Douglas Hoyos-Trauttmansdorff",
+                      "wid": "Q19278490",
+                      "wtype": "PER",
+                      "score": 0.9788
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 935/A(E) der Abgeordneten Douglas Hoyos-Trauttmansdorff , Kolleginnen und Kollegen betreffend Priorität beim Mannschutz"
@@ -906,7 +1247,7 @@
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
                   "timeStart": "28.000",
-                  "timeEnd": "28.920",
+                  "timeEnd": "28.000",
                   "entities": []
                 }
               ],
@@ -919,9 +1260,22 @@
               "sentences": [
                 {
                   "text": "Antrag 923/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Forschungsstrategien für schonende Alternativen herkömmlicher chemisch-synthetischer Pestizide",
-                  "timeStart": "28.920",
-                  "timeEnd": "29.160",
-                  "entities": []
+                  "timeStart": "28.000",
+                  "timeEnd": "28.240",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Cornelia Ecker",
+                      "wid": "Q15616501",
+                      "wtype": "PER",
+                      "score": 0.983
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 923/A(E) der Abgeordneten Cornelia Ecker , Kolleginnen und Kollegen betreffend Forschungsstrategien für schonende Alternativen herkömmlicher chemisch-synthetischer Pestizide"
@@ -933,8 +1287,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "29.160",
-                  "timeEnd": "29.600",
+                  "timeStart": "28.240",
+                  "timeEnd": "28.920",
                   "entities": []
                 }
               ],
@@ -947,8 +1301,8 @@
               "sentences": [
                 {
                   "text": "Antrag 944/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Keine Weitergabe von Fluggastdaten an Drittstaaten",
-                  "timeStart": "29.600",
-                  "timeEnd": "32.680",
+                  "timeStart": "28.920",
+                  "timeEnd": "32.120",
                   "entities": []
                 }
               ],
@@ -961,7 +1315,7 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "32.680",
+                  "timeStart": "32.120",
                   "timeEnd": "32.680",
                   "entities": []
                 }
@@ -983,13 +1337,27 @@
                   "text": "Gertraud Salzmann , Mag.",
                   "timeStart": "33.040",
                   "timeEnd": "33.040",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gertraud Salzmann",
+                      "wid": "Q47004998",
+                      "wtype": "PER",
+                      "score": 0.9795
+                    }
+                  ]
                 },
                 {
                   "text": "Sibylle Hamann , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Errichtung eines COVID-19-Schulveranstaltungsausfall-Härtefonds (COVID-19-Schulstornofonds-Gesetz), geändert wird",
                   "timeStart": "33.040",
                   "timeEnd": "33.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 924/A der Abgeordneten MMMag. Gertraud Salzmann , Mag. Sibylle Hamann , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Errichtung eines COVID-19-Schulveranstaltungsausfall-Härtefonds (COVID-19-Schulstornofonds-Gesetz), geändert wird"
@@ -1023,7 +1391,20 @@
                   "text": "Antrag 926/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Wiederholungen von Teilprüfungen bzw. von Prüfungsgebieten der abschließenden Prüfung (Matura)",
                   "timeStart": "34.360",
                   "timeEnd": "36.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8349
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 926/A(E) der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Wiederholungen von Teilprüfungen bzw. von Prüfungsgebieten der abschließenden Prüfung (Matura)"
@@ -1037,7 +1418,26 @@
                   "text": "Antrag 927/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Sicherstellung einer weltanschaulich neutralen Sexualerziehung",
                   "timeStart": "36.120",
                   "timeEnd": "37.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 927/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Sicherstellung einer weltanschaulich neutralen Sexualerziehung"
@@ -1051,7 +1451,26 @@
                   "text": "Antrag 930/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Talente besser fördern und begleiten",
                   "timeStart": "37.640",
                   "timeEnd": "37.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 930/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Talente besser fördern und begleiten"
@@ -1079,7 +1498,32 @@
                   "text": "Bundesgesetz, mit dem das Bundesgesetz über äußere Rechtsverhältnisse der Evangelischen Kirche, das Bundesgesetz über finanzielle Leistungen an die altkatholische Kirche und das Gesetz betreffend die Regelung der äußeren Rechtsverhältnisse der israelitischen Religionsgesellschaft geändert werden ( 405 d.B. )",
                   "timeStart": "37.680",
                   "timeEnd": "37.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Evangelischen Kirche",
+                      "wid": "Q170111",
+                      "wtype": "ORG",
+                      "score": 0.3102
+                    },
+                    {
+                      "label": "altkatholische Kirche",
+                      "wid": "Q1456781",
+                      "wtype": "ORG",
+                      "score": 0.3368
+                    },
+                    {
+                      "label": "israelitischen Religionsgesellschaft",
+                      "wid": "Q6827235",
+                      "wtype": "ORG",
+                      "score": 0.7537
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem das Bundesgesetz über äußere Rechtsverhältnisse der Evangelischen Kirche, das Bundesgesetz über finanzielle Leistungen an die altkatholische Kirche und das Gesetz betreffend die Regelung der äußeren Rechtsverhältnisse der israelitischen Religionsgesellschaft geändert werden ( 405 d.B. )"
@@ -1092,7 +1536,7 @@
                 {
                   "text": "Antrag 945/A(E) der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend Verbesserung der Unabhängigkeit, Qualität und Transparenz der Verwaltungsgerichtsbarkeit",
                   "timeStart": "37.760",
-                  "timeEnd": "37.760",
+                  "timeEnd": "42.200",
                   "entities": []
                 }
               ],
@@ -1105,8 +1549,8 @@
               "sentences": [
                 {
                   "text": "Antrag 953/A der Abgeordneten Dr. Nikolaus Scherak, MA , Kolleginnen und Kollegen betreffend ein Bundesverfassungsgesetz, mit dem das Bundesverfassungsgesetz über die Rechte von Kindern geändert wird",
-                  "timeStart": "37.760",
-                  "timeEnd": "40.040",
+                  "timeStart": "42.200",
+                  "timeEnd": "43.640",
                   "entities": []
                 }
               ],
@@ -1119,8 +1563,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "40.040",
-                  "timeEnd": "40.160",
+                  "timeStart": "43.640",
+                  "timeEnd": "43.640",
                   "entities": []
                 }
               ],
@@ -1133,9 +1577,28 @@
               "sentences": [
                 {
                   "text": "Antrag 928/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Sicherstellung von B1-Deutschkenntnissen für \"Taxi-Lenker\"",
-                  "timeStart": "40.160",
+                  "timeStart": "43.640",
                   "timeEnd": "43.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 928/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Sicherstellung von B1-Deutschkenntnissen für \"Taxi-Lenker\""
@@ -1163,7 +1626,20 @@
                   "text": "Antrag 929/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Dringlichkeit von Maßnahmen zur Verhinderung von Massenkündigungen und zum Erhalt von Arbeitsplätzen",
                   "timeStart": "43.640",
                   "timeEnd": "43.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 929/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Dringlichkeit von Maßnahmen zur Verhinderung von Massenkündigungen und zum Erhalt von Arbeitsplätzen"
@@ -1177,7 +1653,14 @@
                   "text": "Wissenschaftsausschuss:",
                   "timeStart": "43.640",
                   "timeEnd": "43.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -1191,13 +1674,27 @@
                   "text": "Antrag 922/A der Abgeordneten Nico Marchetti , Mag.",
                   "timeStart": "43.640",
                   "timeEnd": "43.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nico Marchetti",
+                      "wid": "Q42308049",
+                      "wtype": "PER",
+                      "score": 0.9876
+                    }
+                  ]
                 },
                 {
                   "text": "Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Studienförderungsgesetz 1992 geändert wird",
                   "timeStart": "43.640",
                   "timeEnd": "43.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva Blimlinger",
+                      "wid": "Q15808910",
+                      "wtype": "PER",
+                      "score": 0.992
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 922/A der Abgeordneten Nico Marchetti , Mag. Eva Blimlinger , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Studienförderungsgesetz 1992 geändert wird"
@@ -1239,7 +1736,20 @@
                   "text": "Bericht des Bundesministers für Finanzen betreffend Übersicht über die österreichische Haushaltsplanung 2021 ( III-188 d.B. )",
                   "timeStart": "43.640",
                   "timeEnd": "43.640",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Bundesministers für Finanzen",
+                      "wid": "Q877814",
+                      "wtype": "ORG",
+                      "score": 0.9232
+                    },
+                    {
+                      "label": "österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0946
+                    }
+                  ]
                 }
               ],
               "text": "Bericht des Bundesministers für Finanzen betreffend Übersicht über die österreichische Haushaltsplanung 2021 ( III-188 d.B. )"
@@ -1328,8 +1838,8 @@
         "stdId": 226792,
         "debatteId": 300,
         "proceedingIndex": 226792,
-        "alignDuration": 0.9874069690704346,
-        "nerDuration": 0.5123610496520996
+        "alignDuration": 1.0761151313781738,
+        "nerDuration": 1.2626299858093262
       },
       "originalLanguage": "de"
     }

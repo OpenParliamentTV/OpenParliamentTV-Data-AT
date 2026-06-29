@@ -5,11 +5,12 @@
     "dateStart": "2021-03-08T15:18:39",
     "dateEnd": "2021-03-08T15:20:47",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T22:46:31",
+    "lastUpdate": "2026-06-28T10:16:36",
     "processing": {
       "merge": "2026-06-16T04:23:46+00:00",
-      "align": "2026-06-18T22:46:31",
-      "ner": "2026-06-28T02:39:39"
+      "align": "2026-06-28T10:16:36",
+      "ner": "2026-06-28T15:10:36",
+      "nel": "2026-06-28T07:25:25"
     }
   },
   "data": [
@@ -86,26 +87,102 @@
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Norbert Sieber , Ing. Reinhold Einwallner , Alois Schroll , Alois Stöger, diplômé , Rainer Wimmer , Christian Lausch , Wolfgang Zanger , Lukas Hammer , Mag.",
                   "timeStart": "3.120",
-                  "timeEnd": "6.240",
-                  "entities": []
+                  "timeEnd": "5.880",
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9884
+                    },
+                    {
+                      "label": "Norbert Sieber",
+                      "wid": "Q1997216",
+                      "wtype": "PER",
+                      "score": 0.9756
+                    },
+                    {
+                      "label": "Alois Schroll",
+                      "wid": "Q72078740",
+                      "wtype": "PER",
+                      "score": 0.9779
+                    },
+                    {
+                      "label": "Alois Stöger",
+                      "wid": "Q86182",
+                      "wtype": "PER",
+                      "score": 0.863
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9793
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.9784
+                    },
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Mag.",
-                  "timeStart": "6.240",
-                  "timeEnd": "6.280",
-                  "entities": []
+                  "timeStart": "5.880",
+                  "timeEnd": "5.920",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 },
                 {
                   "text": "Felix Eypeltauer und Mag.",
-                  "timeStart": "6.280",
-                  "timeEnd": "6.760",
-                  "entities": []
+                  "timeStart": "5.920",
+                  "timeEnd": "6.320",
+                  "entities": [
+                    {
+                      "label": "Felix Eypeltauer",
+                      "wid": "Q72071295",
+                      "wtype": "PER",
+                      "score": 0.993
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES .",
-                  "timeStart": "6.760",
-                  "timeEnd": "6.880",
-                  "entities": []
+                  "timeStart": "6.320",
+                  "timeEnd": "6.720",
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Eva-Maria Himmelbauer, BSc , Norbert Sieber , Ing. Reinhold Einwallner , Alois Schroll , Alois Stöger, diplômé , Rainer Wimmer , Christian Lausch , Wolfgang Zanger , Lukas Hammer , Mag. Gerald Hauser , Mag. Felix Eypeltauer und Mag. Beate Meinl-Reisinger, MES ."
@@ -117,7 +194,7 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "6.880",
+                  "timeStart": "6.720",
                   "timeEnd": "6.920",
                   "entities": []
                 }
@@ -174,7 +251,7 @@
                 {
                   "text": "Anfragebeantwortungen: 4826/AB und 4827/AB",
                   "timeStart": "9.240",
-                  "timeEnd": "10.520",
+                  "timeEnd": "11.800",
                   "entities": []
                 }
               ],
@@ -187,8 +264,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "10.520",
-                  "timeEnd": "11.280",
+                  "timeStart": "11.800",
+                  "timeEnd": "11.960",
                   "entities": []
                 }
               ],
@@ -201,8 +278,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "11.280",
-                  "timeEnd": "11.400",
+                  "timeStart": "11.960",
+                  "timeEnd": "11.960",
                   "entities": []
                 }
               ],
@@ -215,8 +292,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "11.400",
-                  "timeEnd": "12.120",
+                  "timeStart": "11.960",
+                  "timeEnd": "12.280",
                   "entities": []
                 }
               ],
@@ -229,9 +306,22 @@
               "sentences": [
                 {
                   "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Arbeitsrecht in der Land- und Forstwirtschaft (Landarbeitsgesetz 2021) erlassen wird sowie das Behinderten-Einstellungsgesetz, das Arbeitsplatz-Sicherungsgesetz, das Allgemeine Sozialversicherungsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden ( 687 d.B. )",
-                  "timeStart": "12.120",
-                  "timeEnd": "15.360",
-                  "entities": []
+                  "timeStart": "12.280",
+                  "timeEnd": "15.400",
+                  "entities": [
+                    {
+                      "label": "Bundesgesetz",
+                      "wid": "Q476068",
+                      "wtype": "MISC",
+                      "score": 0.0943
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9835
+                    }
+                  ]
                 }
               ],
               "text": "Bundesgesetz, mit dem ein Bundesgesetz über das Arbeitsrecht in der Land- und Forstwirtschaft (Landarbeitsgesetz 2021) erlassen wird sowie das Behinderten-Einstellungsgesetz, das Arbeitsplatz-Sicherungsgesetz, das Allgemeine Sozialversicherungsgesetz und das Betriebliche Mitarbeiter- und Selbständigenvorsorgegesetz geändert werden ( 687 d.B. )"
@@ -243,7 +333,7 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "15.360",
+                  "timeStart": "15.400",
                   "timeEnd": "16.000",
                   "entities": []
                 }
@@ -272,8 +362,21 @@
                 {
                   "text": "Antrag 1386/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen",
                   "timeStart": "17.400",
-                  "timeEnd": "19.400",
-                  "entities": []
+                  "timeEnd": "19.440",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1386/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Verbesserung des Handysignaturservices für Auslandsösterreicher_innen"
@@ -285,8 +388,8 @@
               "sentences": [
                 {
                   "text": "Budgetausschuss:",
-                  "timeStart": "19.400",
-                  "timeEnd": "19.400",
+                  "timeStart": "19.440",
+                  "timeEnd": "19.840",
                   "entities": []
                 }
               ],
@@ -299,8 +402,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1396/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Verbindliche Umsetzung des Gender Budgeting",
-                  "timeStart": "19.400",
-                  "timeEnd": "21.880",
+                  "timeStart": "19.840",
+                  "timeEnd": "20.760",
                   "entities": []
                 }
               ],
@@ -313,8 +416,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "21.880",
-                  "timeEnd": "22.280",
+                  "timeStart": "20.760",
+                  "timeEnd": "20.880",
                   "entities": []
                 }
               ],
@@ -327,8 +430,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1382/A(E) der Abgeordneten Michael Bernhard , Kolleginnen und Kollegen betreffend Ausreichende Finanzierung der Familienberatungsstellen",
-                  "timeStart": "22.280",
-                  "timeEnd": "24.400",
+                  "timeStart": "20.880",
+                  "timeEnd": "23.640",
                   "entities": []
                 }
               ],
@@ -341,9 +444,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1394/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Absicherung und Ausbau der Kinderschutzzentren",
-                  "timeStart": "24.400",
-                  "timeEnd": "28.160",
-                  "entities": []
+                  "timeStart": "23.640",
+                  "timeEnd": "24.400",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1394/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Absicherung und Ausbau der Kinderschutzzentren"
@@ -355,9 +471,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1395/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager im Sommer 2021",
-                  "timeStart": "28.160",
-                  "timeEnd": "30.000",
-                  "entities": []
+                  "timeStart": "24.400",
+                  "timeEnd": "27.840",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1395/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Planungssicherheit für Sommercamps und Ferienlager im Sommer 2021"
@@ -369,8 +498,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "30.000",
-                  "timeEnd": "30.080",
+                  "timeStart": "27.840",
+                  "timeEnd": "28.160",
                   "entities": []
                 }
               ],
@@ -383,9 +512,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1378/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend schnellstmögliche Öffnung der Hundeschulen für Gruppenausbildung als Gefahrenpräventionsmaßnahme gegen Verhaltensstörungen und aus Gründen des Tierschutzes",
-                  "timeStart": "30.080",
-                  "timeEnd": "32.360",
-                  "entities": []
+                  "timeStart": "28.160",
+                  "timeEnd": "28.920",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1378/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend schnellstmögliche Öffnung der Hundeschulen für Gruppenausbildung als Gefahrenpräventionsmaßnahme gegen Verhaltensstörungen und aus Gründen des Tierschutzes"
@@ -397,15 +545,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1391/A(E) der Abgeordneten Mag.",
-                  "timeStart": "32.360",
-                  "timeEnd": "32.760",
+                  "timeStart": "28.920",
+                  "timeEnd": "29.560",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Kostenersatz für Covid-19 Tests",
-                  "timeStart": "32.760",
-                  "timeEnd": "32.840",
-                  "entities": []
+                  "timeStart": "29.560",
+                  "timeEnd": "30.120",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1391/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Kostenersatz für Covid-19 Tests"
@@ -417,8 +572,8 @@
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "timeStart": "32.840",
-                  "timeEnd": "32.840",
+                  "timeStart": "30.120",
+                  "timeEnd": "30.640",
                   "entities": []
                 }
               ],
@@ -431,9 +586,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1385/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Geschlechtergerechtigkeitsprüfung und gleichstellungspolitische Folgenabschätzung von Hilfs- und Unterstützungsmaßnahmen der Regierung",
-                  "timeStart": "32.840",
-                  "timeEnd": "33.240",
-                  "entities": []
+                  "timeStart": "30.640",
+                  "timeEnd": "32.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1385/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Geschlechtergerechtigkeitsprüfung und gleichstellungspolitische Folgenabschätzung von Hilfs- und Unterstützungsmaßnahmen der Regierung"
@@ -445,9 +613,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1387/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend verbindliche Umsetzung des Gender Budgeting",
-                  "timeStart": "33.240",
-                  "timeEnd": "35.080",
-                  "entities": []
+                  "timeStart": "32.720",
+                  "timeEnd": "33.240",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1387/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend verbindliche Umsetzung des Gender Budgeting"
@@ -459,9 +640,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1388/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Zeitverwendungsstudie endlich umsetzen!",
-                  "timeStart": "35.080",
-                  "timeEnd": "36.720",
-                  "entities": []
+                  "timeStart": "33.240",
+                  "timeEnd": "35.080",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1388/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Zeitverwendungsstudie endlich umsetzen!"
@@ -473,8 +667,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "36.720",
-                  "timeEnd": "36.960",
+                  "timeStart": "35.080",
+                  "timeEnd": "35.280",
                   "entities": []
                 }
               ],
@@ -487,8 +681,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1392/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend Planungs- statt Ankündigungspolitik",
-                  "timeStart": "36.960",
-                  "timeEnd": "38.280",
+                  "timeStart": "35.280",
+                  "timeEnd": "36.760",
                   "entities": []
                 }
               ],
@@ -501,8 +695,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "38.280",
-                  "timeEnd": "38.960",
+                  "timeStart": "36.760",
+                  "timeEnd": "37.400",
                   "entities": []
                 }
               ],
@@ -515,8 +709,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1380/A der Abgeordneten Dipl.-Ing. Georg Strasser , Dipl.-Ing. Olga Voglauer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Pflanzenschutzmittelgesetz 2011 geändert wird",
-                  "timeStart": "38.960",
-                  "timeEnd": "40.280",
+                  "timeStart": "37.400",
+                  "timeEnd": "38.280",
                   "entities": []
                 }
               ],
@@ -529,8 +723,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "40.280",
-                  "timeEnd": "41.120",
+                  "timeStart": "38.280",
+                  "timeEnd": "38.480",
                   "entities": []
                 }
               ],
@@ -543,15 +737,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1389/A(E) der Abgeordneten Mag.",
-                  "timeStart": "41.120",
-                  "timeEnd": "41.480",
+                  "timeStart": "38.480",
+                  "timeEnd": "38.960",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend begleitendes Monitoring für die Maßnahmen des 200-Millionen-Euro-Förderpakets für Schülerinnen und Schüler",
-                  "timeStart": "41.480",
-                  "timeEnd": "43.040",
-                  "entities": []
+                  "timeStart": "38.960",
+                  "timeEnd": "41.120",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1389/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend begleitendes Monitoring für die Maßnahmen des 200-Millionen-Euro-Förderpakets für Schülerinnen und Schüler"
@@ -563,15 +764,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1390/A(E) der Abgeordneten Mag.",
-                  "timeStart": "43.040",
-                  "timeEnd": "44.240",
+                  "timeStart": "41.120",
+                  "timeEnd": "41.480",
                   "entities": []
                 },
                 {
                   "text": "Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verpflichtende digital-didaktische Aus- und Fortbildung für Lehrerinnen und Lehrer",
-                  "timeStart": "44.240",
-                  "timeEnd": "44.400",
-                  "entities": []
+                  "timeStart": "41.480",
+                  "timeEnd": "42.480",
+                  "entities": [
+                    {
+                      "label": "Martina Künsberg Sarre",
+                      "wid": "Q72076016",
+                      "wtype": "PER",
+                      "score": 0.9575
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1390/A(E) der Abgeordneten Mag. Martina Künsberg Sarre , Kolleginnen und Kollegen betreffend Verpflichtende digital-didaktische Aus- und Fortbildung für Lehrerinnen und Lehrer"
@@ -583,8 +791,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "44.400",
-                  "timeEnd": "44.600",
+                  "timeStart": "42.480",
+                  "timeEnd": "42.480",
                   "entities": []
                 }
               ],
@@ -597,9 +805,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1384/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Digitalförderung, die den Namen auch verdient",
-                  "timeStart": "44.600",
-                  "timeEnd": "46.160",
-                  "entities": []
+                  "timeStart": "42.480",
+                  "timeEnd": "44.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1384/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Digitalförderung, die den Namen auch verdient"
@@ -611,8 +832,8 @@
               "sentences": [
                 {
                   "text": "Verkehrsausschuss:",
-                  "timeStart": "46.160",
-                  "timeEnd": "46.360",
+                  "timeStart": "44.480",
+                  "timeEnd": "44.600",
                   "entities": []
                 }
               ],
@@ -625,8 +846,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1381/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Anpassung Güterbeförderungsgesetz",
-                  "timeStart": "46.360",
-                  "timeEnd": "46.720",
+                  "timeStart": "44.600",
+                  "timeEnd": "46.160",
                   "entities": []
                 }
               ],
@@ -639,7 +860,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "46.720",
+                  "timeStart": "46.160",
                   "timeEnd": "46.760",
                   "entities": []
                 }
@@ -669,7 +890,20 @@
                   "text": "Antrag 1379/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz geändert wird",
                   "timeStart": "48.280",
                   "timeEnd": "49.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Berufsausbildungsgesetz",
+                      "wid": "Q828791",
+                      "wtype": "MISC",
+                      "score": 0.8653
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1379/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Berufsausbildungsgesetz geändert wird"
@@ -683,7 +917,32 @@
                   "text": "Antrag 1393/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend RFF – Mit neuen und innovativen Projekten zum Erfolg für den österreichischen Wirtschaftsstandort",
                   "timeStart": "49.440",
                   "timeEnd": "50.440",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.2036
+                    },
+                    {
+                      "label": "RFF",
+                      "wid": "Q1071978",
+                      "wtype": "ORG",
+                      "score": 0.3439
+                    },
+                    {
+                      "label": "österreichischen",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0912
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1393/A(E) der Abgeordneten Josef Schellhorn , Kolleginnen und Kollegen betreffend RFF – Mit neuen und innovativen Projekten zum Erfolg für den österreichischen Wirtschaftsstandort"
@@ -710,7 +969,7 @@
                 {
                   "text": "den Antrag 1397/A dem Kulturausschuss,",
                   "timeStart": "50.480",
-                  "timeEnd": "50.520",
+                  "timeEnd": "50.840",
                   "entities": []
                 }
               ],
@@ -723,7 +982,7 @@
               "sentences": [
                 {
                   "text": "die Anträge 1398/A bis 1400/A dem Unterrichtsausschuss,",
-                  "timeStart": "50.520",
+                  "timeStart": "50.840",
                   "timeEnd": "52.320",
                   "entities": []
                 }
@@ -738,7 +997,7 @@
                 {
                   "text": "den Antrag 1401/A dem Tourismusausschuss,",
                   "timeStart": "52.320",
-                  "timeEnd": "52.920",
+                  "timeEnd": "52.880",
                   "entities": []
                 }
               ],
@@ -751,7 +1010,7 @@
               "sentences": [
                 {
                   "text": "den Antrag 1402/A und 1406/A sowie 1407/A dem Gesundheitsausschuss,",
-                  "timeStart": "52.920",
+                  "timeStart": "52.880",
                   "timeEnd": "53.200",
                   "entities": []
                 }
@@ -795,7 +1054,14 @@
                   "text": "den Antrag 1405/A dem Landesverteidigungsausschuss.",
                   "timeStart": "55.400",
                   "timeEnd": "56.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "MISC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "den Antrag 1405/A dem Landesverteidigungsausschuss."
@@ -808,8 +1074,8 @@
         "stdId": 238558,
         "debatteId": 300,
         "proceedingIndex": 238558,
-        "alignDuration": 0.8599259853363037,
-        "nerDuration": 0.27710413932800293
+        "alignDuration": 0.7709133625030518,
+        "nerDuration": 0.5189292430877686
       },
       "originalLanguage": "de"
     },
@@ -872,7 +1138,7 @@
                 {
                   "text": "Abstimmung über einen Fristsetzungsantrag",
                   "timeStart": "1.000",
-                  "timeEnd": "2.120",
+                  "timeEnd": "2.080",
                   "entities": []
                 }
               ],
@@ -885,7 +1151,7 @@
               "sentences": [
                 {
                   "text": "Vor Eingang in die Tagesordnung teile ich mit, dass die Abgeordneten Keck, Kolleginnen und Kollegen beantragt haben, dem Gesundheitsausschuss zur Berichterstattung über den Antrag 1378/A(E) eine Frist bis 10. März 2021 zu setzen.",
-                  "timeStart": "2.120",
+                  "timeStart": "2.080",
                   "timeEnd": "18.760",
                   "entities": []
                 }
@@ -948,8 +1214,8 @@
         "stdId": 238543,
         "debatteId": 310,
         "proceedingIndex": 238543,
-        "alignDuration": 0.3555288314819336,
-        "nerDuration": 0.03436112403869629
+        "alignDuration": 0.4272933006286621,
+        "nerDuration": 0.04372668266296387
       },
       "originalLanguage": "de"
     },
@@ -1012,7 +1278,7 @@
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. März 2021, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
                   "timeStart": "1.000",
-                  "timeEnd": "8.800",
+                  "timeEnd": "8.760",
                   "entities": []
                 }
               ],
@@ -1025,7 +1291,7 @@
               "sentences": [
                 {
                   "text": "Weiters gebe ich bekannt, dass in 10 Minuten, um 15.30 Uhr, der Hauptausschuss zusammentritt.",
-                  "timeStart": "8.800",
+                  "timeStart": "8.760",
                   "timeEnd": "15.280",
                   "entities": []
                 }
@@ -1046,8 +1312,21 @@
                 {
                   "text": "Beifall bei der SPÖ und bei Abgeordneten der Grünen.)",
                   "timeStart": "20.800",
-                  "timeEnd": "24.360",
-                  "entities": []
+                  "timeEnd": "24.320",
+                  "entities": [
+                    {
+                      "label": "SPÖ",
+                      "wid": "Q179111",
+                      "wtype": "ORG",
+                      "score": 0.3811
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    }
+                  ]
                 }
               ],
               "text": "Ich wünsche allen Frauen trotz alledem einen schönen Internationalen Frauentag. (Beifall bei der SPÖ und bei Abgeordneten der Grünen.)"
@@ -1059,7 +1338,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "24.360",
+                  "timeStart": "24.320",
                   "timeEnd": "25.960",
                   "entities": []
                 }
@@ -1074,8 +1353,8 @@
         "stdId": 238560,
         "debatteId": 320,
         "proceedingIndex": 238560,
-        "alignDuration": 0.3136751651763916,
-        "nerDuration": 0.026328086853027344
+        "alignDuration": 0.38495731353759766,
+        "nerDuration": 0.04574418067932129
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2021-12-09T20:20:52",
     "dateEnd": "2021-12-09T20:21:48",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-21T17:06:55",
+    "lastUpdate": "2026-06-28T11:11:54",
     "processing": {
       "merge": "2026-06-16T04:23:53+00:00",
-      "align": "2026-06-21T17:06:55",
-      "ner": "2026-06-28T02:53:18"
+      "align": "2026-06-28T11:11:54",
+      "ner": "2026-06-28T15:30:32",
+      "nel": "2026-06-28T07:25:28"
     }
   },
   "data": [
@@ -82,7 +83,7 @@
                 {
                   "text": "Ich eröffne die 134. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "4.500",
+                  "timeEnd": "3.080",
                   "entities": []
                 }
               ],
@@ -95,45 +96,98 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Mag.",
-                  "timeStart": "4.500",
-                  "timeEnd": "7.360",
+                  "timeStart": "3.080",
+                  "timeEnd": "5.000",
                   "entities": []
                 },
                 {
                   "text": "Klaus Fürlinger , Dr. Reinhold Lopatka , Andreas Kollross , Rainer Wimmer , MMag.",
-                  "timeStart": "7.360",
-                  "timeEnd": "12.280",
-                  "entities": []
+                  "timeStart": "5.000",
+                  "timeEnd": "8.240",
+                  "entities": [
+                    {
+                      "label": "Klaus Fürlinger",
+                      "wid": "Q1745104",
+                      "wtype": "PER",
+                      "score": 0.9839
+                    },
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.9877
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    }
+                  ]
                 },
                 {
                   "text": "DDr.",
-                  "timeStart": "12.280",
-                  "timeEnd": "12.320",
+                  "timeStart": "8.240",
+                  "timeEnd": "8.800",
                   "entities": []
                 },
                 {
                   "text": "Hubert Fuchs , Peter Schmiedlechner , Mag.",
-                  "timeStart": "12.320",
-                  "timeEnd": "14.000",
-                  "entities": []
+                  "timeStart": "8.800",
+                  "timeEnd": "10.560",
+                  "entities": [
+                    {
+                      "label": "Hubert Fuchs",
+                      "wid": "Q15507892",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9357
+                    }
+                  ]
                 },
                 {
                   "text": "Philipp Schrangl , Mag.",
-                  "timeStart": "14.000",
-                  "timeEnd": "14.800",
-                  "entities": []
+                  "timeStart": "10.560",
+                  "timeEnd": "11.080",
+                  "entities": [
+                    {
+                      "label": "Philipp Schrangl",
+                      "wid": "Q15602115",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Loacker und Mag.",
-                  "timeStart": "14.800",
-                  "timeEnd": "15.560",
-                  "entities": []
+                  "timeStart": "11.080",
+                  "timeEnd": "11.920",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 },
                 {
                   "text": "Julia Seidl .",
-                  "timeStart": "15.560",
-                  "timeEnd": "16.000",
-                  "entities": []
+                  "timeStart": "11.920",
+                  "timeEnd": "12.240",
+                  "entities": [
+                    {
+                      "label": "Julia Seidl",
+                      "wid": "Q108459625",
+                      "wtype": "PER",
+                      "score": 0.9713
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Mag. Klaus Fürlinger , Dr. Reinhold Lopatka , Andreas Kollross , Rainer Wimmer , MMag. DDr. Hubert Fuchs , Peter Schmiedlechner , Mag. Philipp Schrangl , Mag. Gerald Loacker und Mag. Julia Seidl ."
@@ -145,8 +199,8 @@
               "sentences": [
                 {
                   "text": "Zuweisungen",
-                  "timeStart": "16.000",
-                  "timeEnd": "16.280",
+                  "timeStart": "12.240",
+                  "timeEnd": "12.360",
                   "entities": []
                 }
               ],
@@ -159,7 +213,7 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "16.280",
+                  "timeStart": "12.360",
                   "timeEnd": "21.720",
                   "entities": []
                 }
@@ -174,7 +228,7 @@
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Gesamtwortlaut:",
                   "timeStart": "21.720",
-                  "timeEnd": "22.760",
+                  "timeEnd": "22.800",
                   "entities": []
                 }
               ],
@@ -187,7 +241,7 @@
               "sentences": [
                 {
                   "text": "Zuweisungen in dieser Sitzung:",
-                  "timeStart": "22.760",
+                  "timeStart": "22.800",
                   "timeEnd": "23.640",
                   "entities": []
                 }
@@ -202,7 +256,7 @@
                 {
                   "text": "zur Vorberatung:",
                   "timeStart": "23.640",
-                  "timeEnd": "24.360",
+                  "timeEnd": "25.060",
                   "entities": []
                 }
               ],
@@ -215,8 +269,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "24.360",
-                  "timeEnd": "25.060",
+                  "timeStart": "25.060",
+                  "timeEnd": "25.800",
                   "entities": []
                 }
               ],
@@ -229,9 +283,22 @@
               "sentences": [
                 {
                   "text": "Antrag 2124/A der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem die XXVII.",
-                  "timeStart": "25.060",
+                  "timeStart": "25.800",
                   "timeEnd": "30.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    },
+                    {
+                      "label": "XXVII",
+                      "wid": "Q1463422",
+                      "wtype": "MISC",
+                      "score": 0.095
+                    }
+                  ]
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates vorzeitig beendet wird",
@@ -265,7 +332,20 @@
                   "text": "Antrag 2125/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte",
                   "timeStart": "33.600",
                   "timeEnd": "40.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9707
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 2125/A(E) der Abgeordneten Alois Kainz , Kolleginnen und Kollegen betreffend umgehende Entwicklung einer bundesweiten Blackout-Gesamtstrategie sowie von Unterstützungsmaßnahmen für betroffene Gemeinden und Haushalte"
@@ -292,7 +372,7 @@
                 {
                   "text": "Bevor ich diese Sitzung schließe, gebe ich noch bekannt, dass im Anschluss an die Sitzung die Neuvereidigung der Mitglieder und Ersatzmitglieder des Ständigen Unterausschusses des Ausschusses für innere Angelegenheiten sowie des Ständigen Unterausschusses des Landesverteidigungsausschusses im Redoutensaal stattfinden wird.",
                   "timeStart": "45.220",
-                  "timeEnd": "51.720",
+                  "timeEnd": "50.960",
                   "entities": []
                 }
               ],
@@ -305,9 +385,16 @@
               "sentences": [
                 {
                   "text": "Daran anschließend wird im Lokal 7 der ÖVP-Korruptions-Untersuchungsausschuss seine konstituierende Sitzung abhalten.",
-                  "timeStart": "51.720",
+                  "timeStart": "50.960",
                   "timeEnd": "55.740",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "ÖVP-Korruptions-Untersuchungsausschuss",
+                      "wid": "Q110098413",
+                      "wtype": "LOC",
+                      "score": 0.9923
+                    }
+                  ]
                 }
               ],
               "text": "Daran anschließend wird im Lokal 7 der ÖVP-Korruptions-Untersuchungsausschuss seine konstituierende Sitzung abhalten."
@@ -334,8 +421,8 @@
         "stdId": 257974,
         "debatteId": 300,
         "proceedingIndex": 257974,
-        "alignDuration": 0.6281478404998779,
-        "nerDuration": 0.10549211502075195
+        "alignDuration": 0.5234355926513672,
+        "nerDuration": 0.2076873779296875
       },
       "originalLanguage": "de"
     }

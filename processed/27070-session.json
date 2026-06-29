@@ -5,11 +5,12 @@
     "dateStart": "2020-12-11T01:01:53",
     "dateEnd": "2020-12-11T01:02:30",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T05:27:05",
+    "lastUpdate": "2026-06-28T09:58:38",
     "processing": {
       "merge": "2026-06-16T04:23:42+00:00",
-      "align": "2026-06-18T05:27:05",
-      "ner": "2026-06-28T02:34:29"
+      "align": "2026-06-28T09:58:38",
+      "ner": "2026-06-28T15:03:00",
+      "nel": "2026-06-28T07:25:23"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 70. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.160",
+                  "timeEnd": "1.640",
                   "entities": []
                 }
               ],
@@ -85,27 +86,73 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind heute die Abgeordneten Kira Grünberg , Mag.",
-                  "timeStart": "2.160",
+                  "timeStart": "1.640",
                   "timeEnd": "2.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Kira Grünberg",
+                      "wid": "Q11739443",
+                      "wtype": "PER",
+                      "score": 0.9907
+                    },
+                    {
+                      "label": "Mag",
+                      "wid": "Q124313",
+                      "wtype": "PER",
+                      "score": 0.1812
+                    }
+                  ]
                 },
                 {
                   "text": "Maria Smodics-Neumann , Nurten Yılmaz , Mag.",
                   "timeStart": "2.800",
                   "timeEnd": "3.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Maria Smodics-Neumann",
+                      "wid": "Q47493936",
+                      "wtype": "PER",
+                      "score": 0.976
+                    },
+                    {
+                      "label": "Nurten Yılmaz",
+                      "wid": "Q1679312",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Hauser , Herbert Kickl , Dr. Ewa Ernst-Dziedzic und Mag.",
                   "timeStart": "3.360",
                   "timeEnd": "4.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.99
+                    }
+                  ]
                 },
                 {
                   "text": "Nina Tomaselli .",
                   "timeStart": "4.160",
                   "timeEnd": "4.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind heute die Abgeordneten Kira Grünberg , Mag. Maria Smodics-Neumann , Nurten Yılmaz , Mag. Gerald Hauser , Herbert Kickl , Dr. Ewa Ernst-Dziedzic und Mag. Nina Tomaselli ."
@@ -160,7 +207,7 @@
                 {
                   "text": "A. Eingelangter Verhandlungsgegenstand:",
                   "timeStart": "4.920",
-                  "timeEnd": "4.920",
+                  "timeEnd": "5.080",
                   "entities": []
                 }
               ],
@@ -173,8 +220,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortung: 3748/AB",
-                  "timeStart": "4.920",
-                  "timeEnd": "4.920",
+                  "timeStart": "5.080",
+                  "timeEnd": "5.880",
                   "entities": []
                 }
               ],
@@ -187,8 +234,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "4.920",
-                  "timeEnd": "4.920",
+                  "timeStart": "5.880",
+                  "timeEnd": "6.120",
                   "entities": []
                 }
               ],
@@ -201,8 +248,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung:",
-                  "timeStart": "4.920",
-                  "timeEnd": "4.920",
+                  "timeStart": "6.120",
+                  "timeEnd": "6.160",
                   "entities": []
                 }
               ],
@@ -215,8 +262,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "4.920",
-                  "timeEnd": "4.920",
+                  "timeStart": "6.160",
+                  "timeEnd": "6.400",
                   "entities": []
                 }
               ],
@@ -229,15 +276,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1143/A(E) der Abgeordneten Mag.",
-                  "timeStart": "4.920",
-                  "timeEnd": "5.040",
+                  "timeStart": "6.400",
+                  "timeEnd": "6.680",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einführung des AMS-Algorithmus",
-                  "timeStart": "5.040",
-                  "timeEnd": "5.040",
-                  "entities": []
+                  "timeStart": "6.680",
+                  "timeEnd": "6.720",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1143/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einführung des AMS-Algorithmus"
@@ -249,8 +303,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1150/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Beibehaltung und Adaptierung der abschlagsfreien Pensionen mit 540 Beitragsmonaten für alle Berufsgruppen",
-                  "timeStart": "5.040",
-                  "timeEnd": "6.240",
+                  "timeStart": "6.720",
+                  "timeEnd": "8.400",
                   "entities": []
                 }
               ],
@@ -263,8 +317,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1152/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Konsequenzen aus dem Datenschutz-Skandal des AMS",
-                  "timeStart": "6.240",
-                  "timeEnd": "8.420",
+                  "timeStart": "8.400",
+                  "timeEnd": "8.520",
                   "entities": []
                 }
               ],
@@ -277,7 +331,7 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "8.420",
+                  "timeStart": "8.520",
                   "timeEnd": "9.040",
                   "entities": []
                 }
@@ -293,7 +347,26 @@
                   "text": "Antrag 1136/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Visa für in Belarus verfolgte Demokratieaktivist_innen",
                   "timeStart": "9.040",
                   "timeEnd": "10.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Belarus",
+                      "wid": "Q184",
+                      "wtype": "LOC",
+                      "score": 0.3979
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1136/A(E) der Abgeordneten Dr. Helmut Brandstätter , Kolleginnen und Kollegen betreffend Visa für in Belarus verfolgte Demokratieaktivist_innen"
@@ -306,8 +379,27 @@
                 {
                   "text": "Antrag 1141/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Österreichs Beitrag zur Welthungerhilfe",
                   "timeStart": "10.920",
-                  "timeEnd": "13.480",
-                  "entities": []
+                  "timeEnd": "12.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "Österreichs",
+                      "wid": "Q131964",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1141/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Österreichs Beitrag zur Welthungerhilfe"
@@ -319,9 +411,40 @@
               "sentences": [
                 {
                   "text": "Antrag 1144/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einfluss österreichischer EZA in Fokusländern in Krisen",
-                  "timeStart": "13.480",
+                  "timeStart": "12.680",
                   "timeEnd": "13.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "österreichischer",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.3239
+                    },
+                    {
+                      "label": "EZA",
+                      "wid": "Q865909",
+                      "wtype": "ORG",
+                      "score": 0.3566
+                    },
+                    {
+                      "label": "Krisen",
+                      "wid": "Q290178",
+                      "wtype": "LOC",
+                      "score": 0.0897
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1144/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Einfluss österreichischer EZA in Fokusländern in Krisen"
@@ -341,7 +464,20 @@
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl",
                   "timeStart": "13.480",
                   "timeEnd": "13.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "EU-Verordnung",
+                      "wid": "Q240141",
+                      "wtype": "ORG",
+                      "score": 0.9246
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1149/A(E) der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl"
@@ -452,8 +588,21 @@
                 {
                   "text": "Antrag 1154/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Digitale Souveränität",
                   "timeStart": "13.480",
-                  "timeEnd": "13.760",
-                  "entities": []
+                  "timeEnd": "13.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1154/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Digitale Souveränität"
@@ -465,8 +614,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "13.760",
-                  "timeEnd": "13.760",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480",
                   "entities": []
                 }
               ],
@@ -479,15 +628,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1134/A der Abgeordneten Mag.",
-                  "timeStart": "13.760",
-                  "timeEnd": "14.520",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
-                  "timeStart": "14.520",
-                  "timeEnd": "15.880",
-                  "entities": []
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1134/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -499,15 +661,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1135/A der Abgeordneten Mag.",
-                  "timeStart": "15.880",
-                  "timeEnd": "17.320",
+                  "timeStart": "13.480",
+                  "timeEnd": "13.480",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird",
-                  "timeStart": "17.320",
-                  "timeEnd": "18.840",
-                  "entities": []
+                  "timeStart": "13.480",
+                  "timeEnd": "13.760",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1135/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz geändert wird"
@@ -519,15 +694,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1145/A(E) Antrag der Abgeordneten Mag.",
-                  "timeStart": "18.840",
-                  "timeEnd": "19.440",
+                  "timeStart": "13.760",
+                  "timeEnd": "14.880",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung des Sanitätsrats",
-                  "timeStart": "19.440",
-                  "timeEnd": "20.040",
-                  "entities": []
+                  "timeStart": "14.880",
+                  "timeEnd": "15.480",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Sanitätsrats",
+                      "wid": "Q2221822",
+                      "wtype": "PER",
+                      "score": 0.3156
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1145/A(E) Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Einberufung des Sanitätsrats"
@@ -539,8 +727,8 @@
               "sentences": [
                 {
                   "text": "Gleichbehandlungsausschuss:",
-                  "timeStart": "20.040",
-                  "timeEnd": "20.240",
+                  "timeStart": "15.480",
+                  "timeEnd": "15.600",
                   "entities": []
                 }
               ],
@@ -553,9 +741,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1130/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Nationaler Aktionsplan für die Gleichstellung von LGBTIQ-Personen",
-                  "timeStart": "20.240",
-                  "timeEnd": "20.280",
-                  "entities": []
+                  "timeStart": "15.600",
+                  "timeEnd": "16.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1130/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Nationaler Aktionsplan für die Gleichstellung von LGBTIQ-Personen"
@@ -567,9 +768,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1139/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Angleichung der Fristen zur Geltendmachung von Belästigungen in der Arbeitswelt auf drei Jahre",
-                  "timeStart": "20.280",
-                  "timeEnd": "20.280",
-                  "entities": []
+                  "timeStart": "16.720",
+                  "timeEnd": "16.720",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1139/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Angleichung der Fristen zur Geltendmachung von Belästigungen in der Arbeitswelt auf drei Jahre"
@@ -581,9 +795,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1140/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Ermöglichung eines wirksamen Monitorings durch die GAW",
-                  "timeStart": "20.280",
-                  "timeEnd": "20.280",
-                  "entities": []
+                  "timeStart": "16.720",
+                  "timeEnd": "17.120",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "GAW",
+                      "wid": "Q359094",
+                      "wtype": "ORG",
+                      "score": 0.1353
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1140/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Ermöglichung eines wirksamen Monitorings durch die GAW"
@@ -595,8 +828,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "20.280",
-                  "timeEnd": "20.280",
+                  "timeStart": "17.120",
+                  "timeEnd": "17.560",
                   "entities": []
                 }
               ],
@@ -609,15 +842,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1156/A(E) der Abgeordneten Mag.",
-                  "timeStart": "20.280",
-                  "timeEnd": "20.280",
+                  "timeStart": "17.560",
+                  "timeEnd": "18.040",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl",
-                  "timeStart": "20.280",
+                  "timeStart": "18.040",
                   "timeEnd": "20.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9879
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "EU-Verordnung",
+                      "wid": "Q240141",
+                      "wtype": "ORG",
+                      "score": 0.9246
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1156/A(E) der Abgeordneten Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend Ablehnung der EU-Verordnung zur Bewältigung von Krisensituationen und Situationen höherer Gewalt im Bereich Migration und Asyl"
@@ -631,7 +883,26 @@
                   "text": "Antrag 1159/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Abstimmung des NAP Rechtsextremismus und des NAP Antisemitismus",
                   "timeStart": "20.280",
                   "timeEnd": "20.400",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Sabine Schatz",
+                      "wid": "Q42853141",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "NAP",
+                      "wid": "Q4271952",
+                      "wtype": "ORG",
+                      "score": 0.1633
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1159/A(E) der Abgeordneten Sabine Schatz , Kolleginnen und Kollegen betreffend Abstimmung des NAP Rechtsextremismus und des NAP Antisemitismus"
@@ -659,7 +930,20 @@
                   "text": "Antrag 1132/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen!",
                   "timeStart": "20.840",
                   "timeEnd": "23.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1132/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend \"Konversionstherapien stoppen\" – einstimmige Entschließung von 2019 endlich umsetzen!"
@@ -686,8 +970,15 @@
                 {
                   "text": "Antrag 1158/A der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Vergleichbarkeit von Endgelten für Verbraucherzahlungskonten, den Wechsel von Verbraucherzahlungskonten und den Zugang zu Verbraucherzahlungskonten mit grundlegenden Funktionen (VZKG) geändert wird",
                   "timeStart": "24.160",
-                  "timeEnd": "26.440",
-                  "entities": []
+                  "timeEnd": "26.400",
+                  "entities": [
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.99
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1158/A der Abgeordneten Andreas Kollross , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Vergleichbarkeit von Endgelten für Verbraucherzahlungskonten, den Wechsel von Verbraucherzahlungskonten und den Zugang zu Verbraucherzahlungskonten mit grundlegenden Funktionen (VZKG) geändert wird"
@@ -699,9 +990,16 @@
               "sentences": [
                 {
                   "text": "Landesverteidigungsausschuss:",
-                  "timeStart": "26.440",
-                  "timeEnd": "26.440",
-                  "entities": []
+                  "timeStart": "26.400",
+                  "timeEnd": "26.400",
+                  "entities": [
+                    {
+                      "label": "Landesverteidigungsausschuss",
+                      "wid": "Q1226116",
+                      "wtype": "LOC",
+                      "score": 0.7564
+                    }
+                  ]
                 }
               ],
               "text": "Landesverteidigungsausschuss:"
@@ -713,9 +1011,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1148/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ständige Einsatzbereitschaft am Hubschrauberstützpunkt Klagenfurt",
-                  "timeStart": "26.440",
-                  "timeEnd": "27.360",
-                  "entities": []
+                  "timeStart": "26.400",
+                  "timeEnd": "27.160",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Philip Kucher",
+                      "wid": "Q15840387",
+                      "wtype": "PER",
+                      "score": 0.9883
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1148/A(E) der Abgeordneten Philip Kucher , Kolleginnen und Kollegen betreffend ständige Einsatzbereitschaft am Hubschrauberstützpunkt Klagenfurt"
@@ -727,8 +1038,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "27.360",
-                  "timeEnd": "27.880",
+                  "timeStart": "27.160",
+                  "timeEnd": "27.240",
                   "entities": []
                 }
               ],
@@ -741,8 +1052,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1133/A(E) der Abgeordneten Dipl.-Ing. Karin Doppelbauer , Kolleginnen und Kollegen betreffend Stopp den freiwilligen Zusatzmodulen des AMA-Gütesiegels",
-                  "timeStart": "27.880",
-                  "timeEnd": "28.840",
+                  "timeStart": "27.240",
+                  "timeEnd": "27.400",
                   "entities": []
                 }
               ],
@@ -755,9 +1066,16 @@
               "sentences": [
                 {
                   "text": "Tourismusausschuss:",
-                  "timeStart": "28.840",
-                  "timeEnd": "29.000",
-                  "entities": []
+                  "timeStart": "27.400",
+                  "timeEnd": "27.400",
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -769,9 +1087,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1157/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Ausbau der Erwachsenenlehre für ArbeitnehmerInnen im Tourismus",
-                  "timeStart": "29.000",
-                  "timeEnd": "29.000",
-                  "entities": []
+                  "timeStart": "27.400",
+                  "timeEnd": "27.440",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Vorderwinkler",
+                      "wid": "Q72073084",
+                      "wtype": "PER",
+                      "score": 0.9833
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1157/A(E) der Abgeordneten Petra Vorderwinkler , Kolleginnen und Kollegen betreffend Ausbau der Erwachsenenlehre für ArbeitnehmerInnen im Tourismus"
@@ -783,8 +1114,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "29.000",
-                  "timeEnd": "29.000",
+                  "timeStart": "27.440",
+                  "timeEnd": "27.880",
                   "entities": []
                 }
               ],
@@ -797,14 +1128,14 @@
               "sentences": [
                 {
                   "text": "Antrag 1153/A(E) der Abgeordneten Mag.",
-                  "timeStart": "29.000",
-                  "timeEnd": "29.000",
+                  "timeStart": "27.880",
+                  "timeEnd": "28.120",
                   "entities": []
                 },
                 {
                   "text": "Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Deutschförderung auf Basis wissenschaftlicher Erkenntnisse",
-                  "timeStart": "29.000",
-                  "timeEnd": "29.000",
+                  "timeStart": "28.120",
+                  "timeEnd": "28.880",
                   "entities": []
                 }
               ],
@@ -817,8 +1148,8 @@
               "sentences": [
                 {
                   "text": "Verfassungsausschuss:",
-                  "timeStart": "29.000",
-                  "timeEnd": "29.000",
+                  "timeStart": "28.880",
+                  "timeEnd": "28.920",
                   "entities": []
                 }
               ],
@@ -831,7 +1162,7 @@
               "sentences": [
                 {
                   "text": "Österreichisch-Jüdisches Kulturerbegesetz – ÖJKG ( 605 d.B. )",
-                  "timeStart": "29.000",
+                  "timeStart": "28.920",
                   "timeEnd": "29.000",
                   "entities": []
                 }
@@ -847,7 +1178,20 @@
                   "text": "Antrag 1138/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend drastische Reduzierung der Summe für die momentan ausgeschriebenen Rahmenverträge \"Mediaagenturleistungen Bund\" und \"Kreativagenturleistungen Bund\"",
                   "timeStart": "29.000",
                   "timeEnd": "29.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1138/A(E) der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend drastische Reduzierung der Summe für die momentan ausgeschriebenen Rahmenverträge \"Mediaagenturleistungen Bund\" und \"Kreativagenturleistungen Bund\""
@@ -903,7 +1247,20 @@
                   "text": "Antrag 1151/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umsatzersatz für alle Zulieferbetriebe und indirekt vom zweiten Lockdown betroffene Unternehmen",
                   "timeStart": "29.800",
                   "timeEnd": "31.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Erwin Angerer",
+                      "wid": "Q17352678",
+                      "wtype": "PER",
+                      "score": 0.987
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1151/A(E) der Abgeordneten Erwin Angerer , Kolleginnen und Kollegen betreffend Umsatzersatz für alle Zulieferbetriebe und indirekt vom zweiten Lockdown betroffene Unternehmen"
@@ -916,7 +1273,7 @@
                 {
                   "text": "Antrag 1155/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Wahrung der Unabhängigkeit der ZiviltechnikerInnen",
                   "timeStart": "31.000",
-                  "timeEnd": "32.080",
+                  "timeEnd": "32.160",
                   "entities": []
                 }
               ],
@@ -929,7 +1286,7 @@
               "sentences": [
                 {
                   "text": "C. Unterrichtung gemäß Art.",
-                  "timeStart": "32.080",
+                  "timeStart": "32.160",
                   "timeEnd": "32.160",
                   "entities": []
                 },
@@ -937,7 +1294,14 @@
                   "text": "50 Abs. 5 B-VG:",
                   "timeStart": "32.160",
                   "timeEnd": "32.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.6178
+                    }
+                  ]
                 }
               ],
               "text": "C. Unterrichtung gemäß Art. 50 Abs. 5 B-VG:"
@@ -950,7 +1314,7 @@
                 {
                   "text": "Aufnahme der Verhandlungen über ein Abkommen über den Beitritt der Europäischen Union zur Europäischen Konvention zum Schutze der Menschenrechte und Grundfreiheiten",
                   "timeStart": "32.320",
-                  "timeEnd": "32.960",
+                  "timeEnd": "32.600",
                   "entities": []
                 }
               ],
@@ -963,8 +1327,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates berufe ich für heute, Freitag, den 11. Dezember, um 9 Uhr ein.",
-                  "timeStart": "32.960",
-                  "timeEnd": "37.160",
+                  "timeStart": "32.600",
+                  "timeEnd": "33.560",
                   "entities": []
                 }
               ],
@@ -977,8 +1341,8 @@
               "sentences": [
                 {
                   "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
-                  "timeStart": "37.160",
-                  "timeEnd": "37.760",
+                  "timeStart": "33.560",
+                  "timeEnd": "36.040",
                   "entities": []
                 }
               ],
@@ -991,13 +1355,13 @@
               "sentences": [
                 {
                   "text": "Ich wünsche Ihnen eine gute Nacht.",
-                  "timeStart": "37.760",
-                  "timeEnd": "37.920",
+                  "timeStart": "36.040",
+                  "timeEnd": "37.160",
                   "entities": []
                 },
                 {
                   "text": "Diese Sitzung ist geschlossen.",
-                  "timeStart": "37.920",
+                  "timeStart": "37.160",
                   "timeEnd": "37.960",
                   "entities": []
                 }
@@ -1012,8 +1376,8 @@
         "stdId": 236285,
         "debatteId": 300,
         "proceedingIndex": 236285,
-        "alignDuration": 0.7851240634918213,
-        "nerDuration": 0.3683500289916992
+        "alignDuration": 0.849543571472168,
+        "nerDuration": 0.7120797634124756
       },
       "originalLanguage": "de"
     }

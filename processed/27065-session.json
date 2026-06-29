@@ -5,11 +5,12 @@
     "dateStart": "2020-11-20T20:59:58",
     "dateEnd": "2020-11-20T21:01:17",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T02:10:42",
+    "lastUpdate": "2026-06-28T09:54:16",
     "processing": {
       "merge": "2026-06-16T04:23:42+00:00",
-      "align": "2026-06-18T02:10:42",
-      "ner": "2026-06-28T02:33:24"
+      "align": "2026-06-28T09:54:16",
+      "ner": "2026-06-28T15:01:30",
+      "nel": "2026-06-28T07:25:23"
     }
   },
   "data": [
@@ -87,13 +88,51 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Franz Leonhard Eßl , Mag.",
                   "timeStart": "3.120",
                   "timeEnd": "3.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Franz Leonhard Eßl",
+                      "wid": "Q1435943",
+                      "wtype": "PER",
+                      "score": 0.965
+                    }
+                  ]
                 },
                 {
                   "text": "Michael Hammer , Klaus Köchl , Bedrana Ribo, MA und Süleyman Zorba .",
                   "timeStart": "3.840",
                   "timeEnd": "4.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Michael Hammer",
+                      "wid": "Q1549133",
+                      "wtype": "PER",
+                      "score": 0.4728
+                    },
+                    {
+                      "label": "Klaus Köchl",
+                      "wid": "Q1745373",
+                      "wtype": "PER",
+                      "score": 0.9893
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Süleyman Zorba",
+                      "wid": "Q72311413",
+                      "wtype": "PER",
+                      "score": 0.9854
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Franz Leonhard Eßl , Mag. Michael Hammer , Klaus Köchl , Bedrana Ribo, MA und Süleyman Zorba ."
@@ -120,7 +159,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "5.040",
-                  "timeEnd": "5.800",
+                  "timeEnd": "5.840",
                   "entities": []
                 }
               ],
@@ -133,7 +172,7 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "5.800",
+                  "timeStart": "5.840",
                   "timeEnd": "6.320",
                   "entities": []
                 }
@@ -218,7 +257,7 @@
                 {
                   "text": "Bundesgesetz, mit dem das Bundesfinanzrahmengesetz 2021 bis 2024 erlassen wird – BFRG 2021-2024 (484 d.B.)",
                   "timeStart": "9.320",
-                  "timeEnd": "11.800",
+                  "timeEnd": "10.120",
                   "entities": []
                 }
               ],
@@ -231,8 +270,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "11.800",
-                  "timeEnd": "12.200",
+                  "timeStart": "10.120",
+                  "timeEnd": "10.560",
                   "entities": []
                 }
               ],
@@ -245,8 +284,8 @@
               "sentences": [
                 {
                   "text": "a) zur Vorberatung:",
-                  "timeStart": "12.200",
-                  "timeEnd": "12.520",
+                  "timeStart": "10.560",
+                  "timeEnd": "10.880",
                   "entities": []
                 }
               ],
@@ -259,8 +298,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "12.520",
-                  "timeEnd": "13.320",
+                  "timeStart": "10.880",
+                  "timeEnd": "11.200",
                   "entities": []
                 }
               ],
@@ -273,15 +312,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1070/A der Abgeordneten Mag.",
-                  "timeStart": "13.320",
-                  "timeEnd": "13.960",
+                  "timeStart": "11.200",
+                  "timeEnd": "11.360",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden",
-                  "timeStart": "13.960",
-                  "timeEnd": "15.960",
-                  "entities": []
+                  "timeStart": "11.360",
+                  "timeEnd": "11.720",
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1070/A der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz und das Bauern-Sozialversicherungsgesetz geändert werden"
@@ -293,9 +345,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1082/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Anspruch auf Sonderbetreuungszeit für Angehörige von Schwerkranken",
-                  "timeStart": "15.960",
-                  "timeEnd": "17.280",
-                  "entities": []
+                  "timeStart": "11.720",
+                  "timeEnd": "11.760",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1082/A(E) der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Anspruch auf Sonderbetreuungszeit für Angehörige von Schwerkranken"
@@ -307,9 +372,16 @@
               "sentences": [
                 {
                   "text": "Antrag 1083/A der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Arbeitsvertragsrechts-Anpassungsgesetz geändert wird",
-                  "timeStart": "17.280",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "11.760",
+                  "timeEnd": "11.760",
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1083/A der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend ein Bundesgesetz mit dem das Arbeitsvertragsrechts-Anpassungsgesetz geändert wird"
@@ -321,9 +393,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1090/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Verbot von Covid-19-Zwangstestungen und Zwangsimpfungen",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "11.760",
+                  "timeEnd": "12.360",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1090/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Verbot von Covid-19-Zwangstestungen und Zwangsimpfungen"
@@ -335,15 +420,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1098/A(E) der Abgeordneten Mag.",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
+                  "timeStart": "12.360",
+                  "timeEnd": "13.960",
                   "entities": []
                 },
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Schadensabgeltung nach dem Epidemiegesetz zur Bewältigung der COVID-19-Krise",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "13.960",
+                  "timeEnd": "14.480",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1098/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Schadensabgeltung nach dem Epidemiegesetz zur Bewältigung der COVID-19-Krise"
@@ -355,8 +453,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
+                  "timeStart": "14.480",
+                  "timeEnd": "14.800",
                   "entities": []
                 }
               ],
@@ -369,9 +467,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1077/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Zwangssterilisationen in den USA",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "14.800",
+                  "timeEnd": "16.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "USA",
+                      "wid": "Q30",
+                      "wtype": "LOC",
+                      "score": 0.649
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1077/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend Zwangssterilisationen in den USA"
@@ -383,9 +500,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1101/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend aktuelle Situation in Äthiopien",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "16.560",
+                  "timeEnd": "19.040",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    },
+                    {
+                      "label": "Äthiopien",
+                      "wid": "Q115",
+                      "wtype": "LOC",
+                      "score": 0.4012
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1101/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend aktuelle Situation in Äthiopien"
@@ -397,7 +533,7 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "19.200",
+                  "timeStart": "19.040",
                   "timeEnd": "19.200",
                   "entities": []
                 }
@@ -413,7 +549,20 @@
                   "text": "Antrag 1073/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend partizipative und transparente Erstellung der Kinderkostenstudie",
                   "timeStart": "19.200",
                   "timeEnd": "19.200",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1073/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend partizipative und transparente Erstellung der Kinderkostenstudie"
@@ -454,7 +603,7 @@
                 {
                   "text": "Antrag 1094/A(E) der Abgeordneten Dipl.-Ing. Gerhard Deimek , Kolleginnen und Kollegen betreffend Budgetmittel für eine Nationale Taskforce \"Covid-19-Evidenz\"",
                   "timeStart": "19.200",
-                  "timeEnd": "19.200",
+                  "timeEnd": "19.320",
                   "entities": []
                 }
               ],
@@ -467,8 +616,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss:",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
+                  "timeStart": "19.320",
+                  "timeEnd": "19.600",
                   "entities": []
                 }
               ],
@@ -481,9 +630,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1091/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Verbot von Covid-19-Zwangstestungen und Zwangsimpfungen",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "19.600",
+                  "timeEnd": "22.680",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1091/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Verbot von Covid-19-Zwangstestungen und Zwangsimpfungen"
@@ -495,15 +657,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1092/A(E) der Abgeordneten Mag.",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
+                  "timeStart": "22.680",
+                  "timeEnd": "24.560",
                   "entities": []
                 },
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Schadensabgeltung nach dem Epidemiegesetz zur Bewältigung der COVID-19-Krise",
-                  "timeStart": "19.200",
-                  "timeEnd": "19.200",
-                  "entities": []
+                  "timeStart": "24.560",
+                  "timeEnd": "24.600",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1092/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Schadensabgeltung nach dem Epidemiegesetz zur Bewältigung der COVID-19-Krise"
@@ -515,8 +690,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "19.200",
-                  "timeEnd": "20.200",
+                  "timeStart": "24.600",
+                  "timeEnd": "24.720",
                   "entities": []
                 }
               ],
@@ -529,9 +704,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1069/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gelingende Integration – langfristige Dialogförderung zwischen Glaubensgemeinschaften",
-                  "timeStart": "20.200",
-                  "timeEnd": "21.960",
-                  "entities": []
+                  "timeStart": "24.720",
+                  "timeEnd": "27.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1069/A(E) der Abgeordneten Yannick Shetty , Kolleginnen und Kollegen betreffend Gelingende Integration – langfristige Dialogförderung zwischen Glaubensgemeinschaften"
@@ -543,15 +731,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1072/A der Abgeordneten Dr. Stephanie Krisper , Ing. Reinhold Einwallner , Mag.",
-                  "timeStart": "21.960",
-                  "timeEnd": "24.320",
+                  "timeStart": "27.560",
+                  "timeEnd": "28.800",
                   "entities": []
                 },
                 {
                   "text": "Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Organisation, Aufgaben und Befugnisse des polizeilichen Staatsschutzes (Polizeiliches Staatsschutzgesetz – PStSG) geändert wird (Bundesgesetz zur Stärkung der parlamentarischen Kontrolle des Bundesamtes für Verfassungsschutz und Terrorismusbekämpfung)",
-                  "timeStart": "24.320",
-                  "timeEnd": "26.600",
-                  "entities": []
+                  "timeStart": "28.800",
+                  "timeEnd": "30.480",
+                  "entities": [
+                    {
+                      "label": "Hannes Amesbauer",
+                      "wid": "Q15819226",
+                      "wtype": "PER",
+                      "score": 0.9879
+                    },
+                    {
+                      "label": "BA",
+                      "wid": "Q163727",
+                      "wtype": "ORG",
+                      "score": 0.4321
+                    },
+                    {
+                      "label": "Bundesamtes für Verfassungsschutz und Terrorismusbekämpfung",
+                      "wid": "Q443302",
+                      "wtype": "ORG",
+                      "score": 0.9832
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1072/A der Abgeordneten Dr. Stephanie Krisper , Ing. Reinhold Einwallner , Mag. Hannes Amesbauer, BA , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz über die Organisation, Aufgaben und Befugnisse des polizeilichen Staatsschutzes (Polizeiliches Staatsschutzgesetz – PStSG) geändert wird (Bundesgesetz zur Stärkung der parlamentarischen Kontrolle des Bundesamtes für Verfassungsschutz und Terrorismusbekämpfung)"
@@ -563,8 +770,8 @@
               "sentences": [
                 {
                   "text": "Justizausschuss:",
-                  "timeStart": "26.600",
-                  "timeEnd": "26.680",
+                  "timeStart": "30.480",
+                  "timeEnd": "30.960",
                   "entities": []
                 }
               ],
@@ -577,9 +784,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1078/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Verfolgung von Stall- und Hofeinbrüchen",
-                  "timeStart": "26.680",
-                  "timeEnd": "27.760",
-                  "entities": []
+                  "timeStart": "30.960",
+                  "timeEnd": "32.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1078/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Verfolgung von Stall- und Hofeinbrüchen"
@@ -591,8 +811,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "27.760",
-                  "timeEnd": "27.840",
+                  "timeStart": "32.480",
+                  "timeEnd": "32.760",
                   "entities": []
                 }
               ],
@@ -605,9 +825,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1089/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Verbot von Covid-19-Zwangstestungen und Zwangsimpfungen",
-                  "timeStart": "27.840",
-                  "timeEnd": "29.520",
-                  "entities": []
+                  "timeStart": "32.760",
+                  "timeEnd": "35.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1089/A(E) der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Verbot von Covid-19-Zwangstestungen und Zwangsimpfungen"
@@ -619,15 +852,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1093/A(E) der Abgeordneten Mag.",
-                  "timeStart": "29.520",
-                  "timeEnd": "30.040",
+                  "timeStart": "35.480",
+                  "timeEnd": "35.880",
                   "entities": []
                 },
                 {
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Schadensabgeltung nach dem Epidemiegesetz zur Bewältung der COVID-19-Krise",
-                  "timeStart": "30.040",
-                  "timeEnd": "30.120",
-                  "entities": []
+                  "timeStart": "35.880",
+                  "timeEnd": "36.720",
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    },
+                    {
+                      "label": "COVID-19-Krise",
+                      "wid": "Q81068910",
+                      "wtype": "ORG",
+                      "score": 0.8129
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1093/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Schadensabgeltung nach dem Epidemiegesetz zur Bewältung der COVID-19-Krise"
@@ -639,8 +885,8 @@
               "sentences": [
                 {
                   "text": "Kulturausschuss:",
-                  "timeStart": "30.120",
-                  "timeEnd": "30.120",
+                  "timeStart": "36.720",
+                  "timeEnd": "36.760",
                   "entities": []
                 }
               ],
@@ -653,15 +899,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1084/A(E) der Abgeordneten Ing. Mag.",
-                  "timeStart": "30.120",
-                  "timeEnd": "30.820",
+                  "timeStart": "36.760",
+                  "timeEnd": "36.840",
                   "entities": []
                 },
                 {
                   "text": "Volker Reifenberger , Kolleginnen und Kollegen betreffend Erhöhung der Basisabgeltung für Bundesmuseen, Österreichische Nationalbibliothek und Bundestheater ab 2021",
-                  "timeStart": "30.820",
-                  "timeEnd": "32.480",
-                  "entities": []
+                  "timeStart": "36.840",
+                  "timeEnd": "38.000",
+                  "entities": [
+                    {
+                      "label": "Volker Reifenberger",
+                      "wid": "Q54947714",
+                      "wtype": "PER",
+                      "score": 0.9864
+                    },
+                    {
+                      "label": "Bundesmuseen",
+                      "wid": "Q1006417",
+                      "wtype": "PER",
+                      "score": 0.8119
+                    },
+                    {
+                      "label": "Österreichische Nationalbibliothek",
+                      "wid": "Q304037",
+                      "wtype": "LOC",
+                      "score": 0.9725
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1084/A(E) der Abgeordneten Ing. Mag. Volker Reifenberger , Kolleginnen und Kollegen betreffend Erhöhung der Basisabgeltung für Bundesmuseen, Österreichische Nationalbibliothek und Bundestheater ab 2021"
@@ -673,8 +938,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Land- und Forstwirtschaft:",
-                  "timeStart": "32.480",
-                  "timeEnd": "33.660",
+                  "timeStart": "38.000",
+                  "timeEnd": "38.400",
                   "entities": []
                 }
               ],
@@ -687,9 +952,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1097/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Ausweitung der Prüfkompetenz des Rechnungshofes auf die Österreichische Hagelversicherung",
-                  "timeStart": "33.660",
-                  "timeEnd": "34.800",
-                  "entities": []
+                  "timeStart": "38.400",
+                  "timeEnd": "38.560",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    },
+                    {
+                      "label": "Österreichische",
+                      "wid": "Q40",
+                      "wtype": "MISC",
+                      "score": 0.0948
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1097/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Ausweitung der Prüfkompetenz des Rechnungshofes auf die Österreichische Hagelversicherung"
@@ -701,8 +985,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Menschenrechte:",
-                  "timeStart": "34.800",
-                  "timeEnd": "35.320",
+                  "timeStart": "38.560",
+                  "timeEnd": "38.640",
                   "entities": []
                 }
               ],
@@ -715,8 +999,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1063/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Nein zu Social-Scoring-Systemen",
-                  "timeStart": "35.320",
-                  "timeEnd": "36.720",
+                  "timeStart": "38.640",
+                  "timeEnd": "41.480",
                   "entities": []
                 }
               ],
@@ -729,8 +1013,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1064/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend Bekämpfung der islamistischen Praxis der \"Jungfräulichkeitszertifikate\"",
-                  "timeStart": "36.720",
-                  "timeEnd": "37.360",
+                  "timeStart": "41.480",
+                  "timeEnd": "44.560",
                   "entities": []
                 }
               ],
@@ -743,9 +1027,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1068/A(E) der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend die dramatische menschenrechtliche Situation für Armenier infolge des bewaffneten Konfliktes um Bergkarabach",
-                  "timeStart": "37.360",
-                  "timeEnd": "40.060",
-                  "entities": []
+                  "timeStart": "44.560",
+                  "timeEnd": "47.280",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Armenier",
+                      "wid": "Q79797",
+                      "wtype": "LOC",
+                      "score": 0.2033
+                    },
+                    {
+                      "label": "Bergkarabach",
+                      "wid": "Q44302",
+                      "wtype": "LOC",
+                      "score": 0.2118
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1068/A(E) der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend die dramatische menschenrechtliche Situation für Armenier infolge des bewaffneten Konfliktes um Bergkarabach"
@@ -757,9 +1066,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1071/A(E) der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend die aktuelle Situation in der Westsahara",
-                  "timeStart": "40.060",
-                  "timeEnd": "43.720",
-                  "entities": []
+                  "timeStart": "47.280",
+                  "timeEnd": "48.840",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Harald Troch",
+                      "wid": "Q1584792",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Westsahara",
+                      "wid": "Q6250",
+                      "wtype": "LOC",
+                      "score": 0.3953
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1071/A(E) der Abgeordneten Dr. Harald Troch , Kolleginnen und Kollegen betreffend die aktuelle Situation in der Westsahara"
@@ -771,8 +1099,8 @@
               "sentences": [
                 {
                   "text": "Rechnungshofausschuss:",
-                  "timeStart": "43.720",
-                  "timeEnd": "44.040",
+                  "timeStart": "48.840",
+                  "timeEnd": "49.440",
                   "entities": []
                 }
               ],
@@ -785,8 +1113,8 @@
               "sentences": [
                 {
                   "text": "Bericht des Rechnungshofes betreffend Öffentliches Risikomanagement für die Landwirtschaft – Reihe BUND 2020/43 ( III-200 d.B. )",
-                  "timeStart": "44.040",
-                  "timeEnd": "46.920",
+                  "timeStart": "49.440",
+                  "timeEnd": "50.080",
                   "entities": []
                 }
               ],
@@ -799,8 +1127,8 @@
               "sentences": [
                 {
                   "text": "Unterrichtsausschuss:",
-                  "timeStart": "46.920",
-                  "timeEnd": "47.040",
+                  "timeStart": "50.080",
+                  "timeEnd": "50.080",
                   "entities": []
                 }
               ],
@@ -813,21 +1141,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1065/A der Abgeordneten Mag.",
-                  "timeStart": "47.040",
-                  "timeEnd": "47.680",
+                  "timeStart": "50.080",
+                  "timeEnd": "50.080",
                   "entities": []
                 },
                 {
                   "text": "Dr. Rudolf Taschner , Mag.",
-                  "timeStart": "47.680",
-                  "timeEnd": "48.080",
+                  "timeStart": "50.080",
+                  "timeEnd": "50.200",
                   "entities": []
                 },
                 {
                   "text": "Sibylle Hamann , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulunterrichtsgesetz für Berufstätige, Kollegs und Vorbereitungslehrgänge, das Land- und forstwirtschaftliche Bundesschulgesetz, das Hochschulgesetz 2005, das Bundessportakademiengesetz und IQS-Gesetz geändert werden",
-                  "timeStart": "48.080",
-                  "timeEnd": "50.920",
-                  "entities": []
+                  "timeStart": "50.200",
+                  "timeEnd": "52.240",
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9861
+                    },
+                    {
+                      "label": "Schulorganisationsgesetz",
+                      "wid": "Q18412933",
+                      "wtype": "MISC",
+                      "score": 0.8636
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1065/A der Abgeordneten Mag. Dr. Rudolf Taschner , Mag. Sibylle Hamann , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Schulorganisationsgesetz, das Schulunterrichtsgesetz, das Schulunterrichtsgesetz für Berufstätige, Kollegs und Vorbereitungslehrgänge, das Land- und forstwirtschaftliche Bundesschulgesetz, das Hochschulgesetz 2005, das Bundessportakademiengesetz und IQS-Gesetz geändert werden"
@@ -839,13 +1180,13 @@
               "sentences": [
                 {
                   "text": "Antrag 1074/A(E) der Abgeordneten Mag.",
-                  "timeStart": "50.920",
-                  "timeEnd": "52.720",
+                  "timeStart": "52.240",
+                  "timeEnd": "52.960",
                   "entities": []
                 },
                 {
                   "text": "Dr. Sonja Hammerschmid , Kolleginnen und Kollegen betreffend Corona Maßnahmenpaket für die Zukunft unserer Kinder",
-                  "timeStart": "52.720",
+                  "timeStart": "52.960",
                   "timeEnd": "54.000",
                   "entities": []
                 }
@@ -881,7 +1222,20 @@
                   "text": "Antrag 1076/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend faire Laptops für Schüler*innen",
                   "timeStart": "55.600",
                   "timeEnd": "55.880",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Bayr",
+                      "wid": "Q2080110",
+                      "wtype": "PER",
+                      "score": 0.9834
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1076/A(E) der Abgeordneten Petra Bayr, MA MLS , Kolleginnen und Kollegen betreffend faire Laptops für Schüler*innen"
@@ -894,7 +1248,7 @@
                 {
                   "text": "Antrag 1085/A(E) der Abgeordneten Walter Rauch , Kolleginnen und Kollegen betreffend berufsbegleitendes dreijähriges Kolleg für Elementarpädagogik an der Bafep Mureck",
                   "timeStart": "55.880",
-                  "timeEnd": "57.160",
+                  "timeEnd": "57.120",
                   "entities": []
                 }
               ],
@@ -907,9 +1261,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1087/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Umfassende Landesverteidigung als Bestandteil der Allgemeinbildung",
-                  "timeStart": "57.160",
+                  "timeStart": "57.120",
                   "timeEnd": "57.160",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1087/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend Umfassende Landesverteidigung als Bestandteil der Allgemeinbildung"
@@ -923,7 +1296,26 @@
                   "text": "Antrag 1095/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend ausreichende Budgetmittel für Schulschließungs- und Lockdown-Verlierer",
                   "timeStart": "57.160",
                   "timeEnd": "57.480",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Hermann Brückl",
+                      "wid": "Q1610774",
+                      "wtype": "PER",
+                      "score": 0.9826
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1095/A(E) der Abgeordneten Hermann Brückl, MA , Kolleginnen und Kollegen betreffend ausreichende Budgetmittel für Schulschließungs- und Lockdown-Verlierer"
@@ -936,7 +1328,7 @@
                 {
                   "text": "Verfassungsausschuss:",
                   "timeStart": "57.480",
-                  "timeEnd": "57.480",
+                  "timeEnd": "57.640",
                   "entities": []
                 }
               ],
@@ -949,15 +1341,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1080/A(E) der Abgeordneten Dr. Reinhard Eugen Bösch , Mag.",
-                  "timeStart": "57.480",
+                  "timeStart": "57.640",
                   "timeEnd": "59.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Reinhard Eugen Bösch",
+                      "wid": "Q1373001",
+                      "wtype": "PER",
+                      "score": 0.9929
+                    }
+                  ]
                 },
                 {
                   "text": "Gerald Loacker , Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Rettung der direkten Demokratie in Vorarlberg",
                   "timeStart": "59.320",
                   "timeEnd": "60.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "Vorarlberg",
+                      "wid": "Q38981",
+                      "wtype": "LOC",
+                      "score": 0.783
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1080/A(E) der Abgeordneten Dr. Reinhard Eugen Bösch , Mag. Gerald Loacker , Ing. Reinhold Einwallner , Kolleginnen und Kollegen betreffend Rettung der direkten Demokratie in Vorarlberg"
@@ -985,7 +1403,26 @@
                   "text": "Antrag 1079/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Bemautung von Wohnmobilen mittels Vignette",
                   "timeStart": "60.520",
                   "timeEnd": "62.580",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Abgeordneten",
+                      "wid": "Q486839",
+                      "wtype": "ORG",
+                      "score": 0.0915
+                    },
+                    {
+                      "label": "Dietmar Keck",
+                      "wid": "Q1223441",
+                      "wtype": "PER",
+                      "score": 0.9682
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1079/A(E) der Abgeordneten Dietmar Keck , Kolleginnen und Kollegen betreffend Bemautung von Wohnmobilen mittels Vignette"
@@ -999,7 +1436,32 @@
                   "text": "Antrag 1088/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Ankauf der vom Land Niederösterreich übernommenen und eingestellten Nebenbahnen",
                   "timeStart": "62.580",
                   "timeEnd": "63.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    },
+                    {
+                      "label": "Land Niederösterreich",
+                      "wid": "Q23689677",
+                      "wtype": "LOC",
+                      "score": 0.3462
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1088/A(E) der Abgeordneten Christian Hafenecker, MA , Kolleginnen und Kollegen betreffend Ankauf der vom Land Niederösterreich übernommenen und eingestellten Nebenbahnen"
@@ -1026,7 +1488,7 @@
                 {
                   "text": "Antrag 1066/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Volle Entschädigung und Arbeitsplatzgarantie für alle Unternehmen statt Überförderung für einige wenige",
                   "timeStart": "63.560",
-                  "timeEnd": "64.840",
+                  "timeEnd": "63.560",
                   "entities": []
                 }
               ],
@@ -1039,8 +1501,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1067/A(E) der Abgeordneten Dr. Christoph Matznetter , Kolleginnen und Kollegen betreffend Auswirkungen der Coronakrise auf Pension und Kinderbetreuungsgeld von Selbstständigen wirkungsvoll abfedern",
-                  "timeStart": "64.840",
-                  "timeEnd": "66.280",
+                  "timeStart": "63.560",
+                  "timeEnd": "63.960",
                   "entities": []
                 }
               ],
@@ -1053,9 +1515,16 @@
               "sentences": [
                 {
                   "text": "Wissenschaftsausschuss:",
-                  "timeStart": "66.280",
-                  "timeEnd": "66.480",
-                  "entities": []
+                  "timeStart": "63.960",
+                  "timeEnd": "64.240",
+                  "entities": [
+                    {
+                      "label": "Wissenschaftsausschuss",
+                      "wid": "Q7889981",
+                      "wtype": "MISC",
+                      "score": 0.3049
+                    }
+                  ]
                 }
               ],
               "text": "Wissenschaftsausschuss:"
@@ -1067,15 +1536,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1096/A(E) der Abgeordneten MMMag.",
-                  "timeStart": "66.480",
-                  "timeEnd": "67.840",
+                  "timeStart": "64.240",
+                  "timeEnd": "65.720",
                   "entities": []
                 },
                 {
                   "text": "Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend kein Budget für islamischen Fundamentalismus an den Universitäten",
-                  "timeStart": "67.840",
-                  "timeEnd": "69.200",
-                  "entities": []
+                  "timeStart": "65.720",
+                  "timeEnd": "67.840",
+                  "entities": [
+                    {
+                      "label": "Axel Kassegger",
+                      "wid": "Q15784856",
+                      "wtype": "PER",
+                      "score": 0.9892
+                    },
+                    {
+                      "label": "islamischen",
+                      "wid": "Q432",
+                      "wtype": "MISC",
+                      "score": 0.0925
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1096/A(E) der Abgeordneten MMMag. Dr. Axel Kassegger , Kolleginnen und Kollegen betreffend kein Budget für islamischen Fundamentalismus an den Universitäten"
@@ -1087,9 +1569,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1099/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Unterstützung von gemeinnützigen Studierendenwohnheimen",
-                  "timeStart": "69.200",
-                  "timeEnd": "69.840",
-                  "entities": []
+                  "timeStart": "67.840",
+                  "timeEnd": "68.640",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1099/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Unterstützung von gemeinnützigen Studierendenwohnheimen"
@@ -1101,7 +1596,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1100/A(E) der Abgeordneten Mag.",
-                  "timeStart": "69.840",
+                  "timeStart": "68.640",
                   "timeEnd": "69.960",
                   "entities": []
                 },
@@ -1109,7 +1604,14 @@
                   "text": "Andrea Kuntzl , Kolleginnen und Kollegen betreffend Rückerstattung von Studienbeiträgen für das Sommersemester 2020",
                   "timeStart": "69.960",
                   "timeEnd": "70.240",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Andrea Kuntzl",
+                      "wid": "Q494220",
+                      "wtype": "PER",
+                      "score": 0.9886
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1100/A(E) der Abgeordneten Mag. Andrea Kuntzl , Kolleginnen und Kollegen betreffend Rückerstattung von Studienbeiträgen für das Sommersemester 2020"
@@ -1150,7 +1652,7 @@
                 {
                   "text": "Bericht der Bundesregierung über die innere Sicherheit in Österreich (Sicherheitsbericht 2019) ( III-208 d.B. )",
                   "timeStart": "70.240",
-                  "timeEnd": "71.400",
+                  "timeEnd": "72.720",
                   "entities": []
                 }
               ],
@@ -1163,8 +1665,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich",
-                  "timeStart": "71.400",
-                  "timeEnd": "71.400",
+                  "timeStart": "72.720",
+                  "timeEnd": "73.400",
                   "entities": []
                 }
               ],
@@ -1177,8 +1679,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1102/A dem Ausschuss für Land- und Forstwirtschaft,",
-                  "timeStart": "71.400",
-                  "timeEnd": "73.400",
+                  "timeStart": "73.400",
+                  "timeEnd": "73.960",
                   "entities": []
                 }
               ],
@@ -1191,8 +1693,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 1103/A bis 1105/A dem Ausschuss für Arbeit und Soziales,",
-                  "timeStart": "73.400",
-                  "timeEnd": "74.200",
+                  "timeStart": "73.960",
+                  "timeEnd": "74.680",
                   "entities": []
                 }
               ],
@@ -1205,8 +1707,8 @@
               "sentences": [
                 {
                   "text": "die Anträge 1106/A und 1107/A dem Ausschuss für innere Angelegenheiten,",
-                  "timeStart": "74.200",
-                  "timeEnd": "74.320",
+                  "timeStart": "74.680",
+                  "timeEnd": "74.680",
                   "entities": []
                 }
               ],
@@ -1219,8 +1721,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1108/A dem Volksanwaltsausschuss,",
-                  "timeStart": "74.320",
-                  "timeEnd": "74.640",
+                  "timeStart": "74.680",
+                  "timeEnd": "74.680",
                   "entities": []
                 }
               ],
@@ -1233,7 +1735,7 @@
               "sentences": [
                 {
                   "text": "die Anträge 1109/A bis 1112/A dem Finanzausschuss,",
-                  "timeStart": "74.640",
+                  "timeStart": "74.680",
                   "timeEnd": "74.880",
                   "entities": []
                 }
@@ -1360,8 +1862,8 @@
         "stdId": 230268,
         "debatteId": 300,
         "proceedingIndex": 230268,
-        "alignDuration": 1.0565142631530762,
-        "nerDuration": 0.5089468955993652
+        "alignDuration": 1.0732135772705078,
+        "nerDuration": 1.0786216259002686
       },
       "originalLanguage": "de"
     }

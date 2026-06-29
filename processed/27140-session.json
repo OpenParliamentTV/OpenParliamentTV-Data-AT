@@ -5,11 +5,12 @@
     "dateStart": "2022-01-20T22:24:22",
     "dateEnd": "2022-01-20T22:25:07",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-22T06:38:28",
+    "lastUpdate": "2026-06-28T11:22:46",
     "processing": {
       "merge": "2026-06-16T04:23:55+00:00",
-      "align": "2026-06-22T06:38:28",
-      "ner": "2026-06-28T02:56:05"
+      "align": "2026-06-28T11:22:46",
+      "ner": "2026-06-28T15:34:37",
+      "nel": "2026-06-28T07:25:29"
     }
   },
   "data": [
@@ -71,7 +72,7 @@
                 {
                   "text": "Schluss der Sitzung: 22.25 Uhr",
                   "timeStart": "1.000",
-                  "timeEnd": "28.120",
+                  "timeEnd": "20.560",
                   "entities": []
                 }
               ],
@@ -84,8 +85,8 @@
               "sentences": [
                 {
                   "text": "Impressum:",
-                  "timeStart": "28.120",
-                  "timeEnd": "30.020",
+                  "timeStart": "20.560",
+                  "timeEnd": "25.680",
                   "entities": []
                 }
               ],
@@ -98,9 +99,16 @@
               "sentences": [
                 {
                   "text": "Parlamentsdirektion",
-                  "timeStart": "30.020",
-                  "timeEnd": "36.280",
-                  "entities": []
+                  "timeStart": "25.680",
+                  "timeEnd": "31.840",
+                  "entities": [
+                    {
+                      "label": "Parlamentsdirektion",
+                      "wid": "Q4817650",
+                      "wtype": "PER",
+                      "score": 0.7934
+                    }
+                  ]
                 }
               ],
               "text": "Parlamentsdirektion"
@@ -112,9 +120,16 @@
               "sentences": [
                 {
                   "text": "1017 Wien",
-                  "timeStart": "36.280",
+                  "timeStart": "31.840",
                   "timeEnd": "41.680",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Wien",
+                      "wid": "Q1741",
+                      "wtype": "LOC",
+                      "score": 0.3446
+                    }
+                  ]
                 }
               ],
               "text": "1017 Wien"
@@ -127,8 +142,8 @@
         "stdId": 260567,
         "debatteId": 300,
         "proceedingIndex": 260567,
-        "alignDuration": 0.4189331531524658,
-        "nerDuration": 0.01567530632019043
+        "alignDuration": 0.3656582832336426,
+        "nerDuration": 0.03997015953063965
       },
       "originalLanguage": "de"
     }

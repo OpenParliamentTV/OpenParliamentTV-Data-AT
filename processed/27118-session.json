@@ -5,11 +5,12 @@
     "dateStart": "2021-07-08T23:44:35",
     "dateEnd": "2021-07-08T23:47:04",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-20T19:11:26",
+    "lastUpdate": "2026-06-28T10:53:39",
     "processing": {
       "merge": "2026-06-16T04:23:50+00:00",
-      "align": "2026-06-20T19:11:26",
-      "ner": "2026-06-28T02:48:34"
+      "align": "2026-06-28T10:53:39",
+      "ner": "2026-06-28T15:23:22",
+      "nel": "2026-06-28T07:25:27"
     }
   },
   "data": [
@@ -87,19 +88,142 @@
                   "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Rainer Wimmer , Christian Hafenecker, MA , Alois Kainz , Christian Ries , Bedrana Ribo, MA , Heike Grebien , David Stögmüller , Mag.",
                   "timeStart": "1.520",
                   "timeEnd": "2.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Melanie Erasim",
+                      "wid": "Q42328392",
+                      "wtype": "PER",
+                      "score": 0.971
+                    },
+                    {
+                      "label": "MSc",
+                      "wid": "Q183816",
+                      "wtype": "PER",
+                      "score": 0.6951
+                    },
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9857
+                    },
+                    {
+                      "label": "Andreas Kollross",
+                      "wid": "Q15783321",
+                      "wtype": "PER",
+                      "score": 0.9877
+                    },
+                    {
+                      "label": "Kai Jan Krainer",
+                      "wid": "Q1622583",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Christoph Matznetter",
+                      "wid": "Q88260",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    },
+                    {
+                      "label": "Christian Hafenecker",
+                      "wid": "Q1080106",
+                      "wtype": "PER",
+                      "score": 0.9912
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0921
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    },
+                    {
+                      "label": "Christian Ries",
+                      "wid": "Q46357211",
+                      "wtype": "PER",
+                      "score": 0.9267
+                    },
+                    {
+                      "label": "Bedrana Ribo",
+                      "wid": "Q72072625",
+                      "wtype": "PER",
+                      "score": 0.9827
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0921
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    },
+                    {
+                      "label": "David Stögmüller",
+                      "wid": "Q23060567",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper , Mag.",
                   "timeStart": "2.000",
                   "timeEnd": "2.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Nina Tomaselli",
+                      "wid": "Q18629460",
+                      "wtype": "PER",
+                      "score": 0.9901
+                    },
+                    {
+                      "label": "Helmut Brandstätter",
+                      "wid": "Q1603428",
+                      "wtype": "PER",
+                      "score": 0.9904
+                    }
+                  ]
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES und Josef Schellhorn .",
                   "timeStart": "2.000",
                   "timeEnd": "2.000",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    },
+                    {
+                      "label": "Josef Schellhorn",
+                      "wid": "Q17352992",
+                      "wtype": "PER",
+                      "score": 0.4046
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Melanie Erasim, MSc , Eva Maria Holzleitner, BSc , Andreas Kollross , Kai Jan Krainer , Dr. Christoph Matznetter , Rainer Wimmer , Christian Hafenecker, MA , Alois Kainz , Christian Ries , Bedrana Ribo, MA , Heike Grebien , David Stögmüller , Mag. Nina Tomaselli , Dr. Helmut Brandstätter , Dr. Stephanie Krisper , Mag. Beate Meinl-Reisinger, MES und Josef Schellhorn ."
@@ -126,7 +250,7 @@
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
                   "timeStart": "2.040",
-                  "timeEnd": "3.560",
+                  "timeEnd": "3.600",
                   "entities": []
                 }
               ],
@@ -139,7 +263,7 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "3.560",
+                  "timeStart": "3.600",
                   "timeEnd": "3.840",
                   "entities": []
                 }
@@ -210,7 +334,7 @@
                 {
                   "text": "Ausschuss für Petitionen und Bürgerinitiativen:",
                   "timeStart": "5.000",
-                  "timeEnd": "5.120",
+                  "timeEnd": "5.000",
                   "entities": []
                 }
               ],
@@ -223,9 +347,34 @@
               "sentences": [
                 {
                   "text": "Petition Nr. 66 betreffend \"Vierspuriger-Vollausbau der S3 zwischen Stockerau und Hollabrunn\", überreicht vom Abgeordneten Christian Lausch",
-                  "timeStart": "5.120",
+                  "timeStart": "5.000",
                   "timeEnd": "5.320",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "S3",
+                      "wid": "Q954514",
+                      "wtype": "LOC",
+                      "score": 0.097
+                    },
+                    {
+                      "label": "Stockerau",
+                      "wid": "Q494283",
+                      "wtype": "LOC",
+                      "score": 0.7979
+                    },
+                    {
+                      "label": "Hollabrunn",
+                      "wid": "Q624352",
+                      "wtype": "LOC",
+                      "score": 0.7303
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9816
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 66 betreffend \"Vierspuriger-Vollausbau der S3 zwischen Stockerau und Hollabrunn\", überreicht vom Abgeordneten Christian Lausch"
@@ -239,7 +388,20 @@
                   "text": "Petition Nr. 67 betreffend \"Wiedereinführung der Truppenküche am Truppenübungsplatz Allentsteig\", überreicht vom Abgeordneten Alois Kainz",
                   "timeStart": "5.320",
                   "timeEnd": "6.280",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Truppenübungsplatz Allentsteig",
+                      "wid": "Q1581469",
+                      "wtype": "LOC",
+                      "score": 0.9886
+                    },
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9637
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 67 betreffend \"Wiedereinführung der Truppenküche am Truppenübungsplatz Allentsteig\", überreicht vom Abgeordneten Alois Kainz"
@@ -253,7 +415,14 @@
                   "text": "Petition Nr. 68 betreffend \"Schluss mit dem Verstecken der Herkunftskennzeichnung\", überreicht vom Abgeordneten Alois Kainz",
                   "timeStart": "6.280",
                   "timeEnd": "6.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Alois Kainz",
+                      "wid": "Q46974794",
+                      "wtype": "PER",
+                      "score": 0.9707
+                    }
+                  ]
                 }
               ],
               "text": "Petition Nr. 68 betreffend \"Schluss mit dem Verstecken der Herkunftskennzeichnung\", überreicht vom Abgeordneten Alois Kainz"
@@ -280,7 +449,7 @@
                 {
                   "text": "a) zur Vorberatung:",
                   "timeStart": "6.960",
-                  "timeEnd": "7.080",
+                  "timeEnd": "6.960",
                   "entities": []
                 }
               ],
@@ -293,8 +462,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Arbeit und Soziales:",
-                  "timeStart": "7.080",
-                  "timeEnd": "7.080",
+                  "timeStart": "6.960",
+                  "timeEnd": "7.040",
                   "entities": []
                 }
               ],
@@ -307,7 +476,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1826/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Beschäftigungspolitische Maßnahmen gegen die Corona-Langzeitarbeitslosigkeit",
-                  "timeStart": "7.080",
+                  "timeStart": "7.040",
                   "timeEnd": "8.080",
                   "entities": []
                 }
@@ -371,7 +540,14 @@
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Schaffung und Ausbau einer psychologischen Versorgung als Kassenleistung",
                   "timeStart": "8.360",
                   "timeEnd": "8.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1839/A(E) der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Schaffung und Ausbau einer psychologischen Versorgung als Kassenleistung"
@@ -399,7 +575,20 @@
                   "text": "Antrag 1836/A(E) der Abgeordneten Dr. Gudrun Kugler , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend die Verschlechterung der politischen Lage in Nicaragua vor den Wahlen",
                   "timeStart": "8.360",
                   "timeEnd": "8.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Nicaragua",
+                      "wid": "Q811",
+                      "wtype": "LOC",
+                      "score": 0.3878
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1836/A(E) der Abgeordneten Dr. Gudrun Kugler , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend die Verschlechterung der politischen Lage in Nicaragua vor den Wahlen"
@@ -427,7 +616,20 @@
                   "text": "Antrag 1818/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Schluss mit dem Warten auf das Kinderbetreuungsgeld",
                   "timeStart": "8.360",
                   "timeEnd": "8.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Petra Wimmer",
+                      "wid": "Q43231485",
+                      "wtype": "PER",
+                      "score": 0.9836
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1818/A(E) der Abgeordneten Petra Wimmer , Kolleginnen und Kollegen betreffend Schluss mit dem Warten auf das Kinderbetreuungsgeld"
@@ -469,7 +671,26 @@
                   "text": "Antrag 1825/A(E) der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Erhöhung der Linienbus-Kapazitäten für die Beförderung von Schüler*innen",
                   "timeStart": "8.360",
                   "timeEnd": "8.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Maximilian Köllner",
+                      "wid": "Q69385915",
+                      "wtype": "PER",
+                      "score": 0.983
+                    },
+                    {
+                      "label": "MA",
+                      "wid": "Q183816",
+                      "wtype": "MISC",
+                      "score": 0.0911
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1825/A(E) der Abgeordneten Maximilian Köllner, MA , Kolleginnen und Kollegen betreffend Erhöhung der Linienbus-Kapazitäten für die Beförderung von Schüler*innen"
@@ -503,7 +724,14 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Magistrale Zubereitung von Cannabis",
                   "timeStart": "8.360",
                   "timeEnd": "8.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1816/A(E) der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Magistrale Zubereitung von Cannabis"
@@ -523,7 +751,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Spielzeug muss frei von schädlichen Chemikalien sein",
                   "timeStart": "9.240",
                   "timeEnd": "9.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1821/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Spielzeug muss frei von schädlichen Chemikalien sein"
@@ -536,8 +771,21 @@
                 {
                   "text": "Antrag 1822/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Lagergesetz geändert wird",
                   "timeStart": "9.840",
-                  "timeEnd": "10.200",
-                  "entities": []
+                  "timeEnd": "11.240",
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.7297
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1822/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das COVID-19-Lagergesetz geändert wird"
@@ -549,9 +797,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1823/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden",
-                  "timeStart": "10.200",
+                  "timeStart": "11.240",
                   "timeEnd": "11.600",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Allgemeine Sozialversicherungsgesetz",
+                      "wid": "Q2648987",
+                      "wtype": "MISC",
+                      "score": 0.9782
+                    },
+                    {
+                      "label": "Unfallversicherungsgesetz",
+                      "wid": "Q1610391",
+                      "wtype": "MISC",
+                      "score": 0.6211
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1823/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Allgemeine Sozialversicherungsgesetz, das Gewerbliche Sozialversicherungsgesetz, das Bauern-Sozialversicherungsgesetz und das Beamten-Kranken- und Unfallversicherungsgesetz geändert werden"
@@ -565,7 +838,26 @@
                   "text": "Antrag 1824/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden",
                   "timeStart": "11.600",
                   "timeEnd": "13.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6306
+                    },
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9775
+                    },
+                    {
+                      "label": "Epidemiegesetz",
+                      "wid": "Q314676",
+                      "wtype": "MISC",
+                      "score": 0.3139
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1824/A der Abgeordneten Gabriela Schwarz , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Epidemiegesetz 1950 und das COVID-19-Maßnahmengesetz geändert werden"
@@ -592,7 +884,7 @@
                 {
                   "text": "Antrag 1831/A(E) der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Prüfung des türkisen Skandals \"Hygiene Austria\"",
                   "timeStart": "14.440",
-                  "timeEnd": "15.600",
+                  "timeEnd": "15.320",
                   "entities": []
                 }
               ],
@@ -605,15 +897,34 @@
               "sentences": [
                 {
                   "text": "Antrag 1837/A(E) der Abgeordneten Mag.",
-                  "timeStart": "15.600",
-                  "timeEnd": "16.580",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.400",
                   "entities": []
                 },
                 {
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Entschließung des Nationalrates vom 20. November 2020 Facharztausbildung für Kieferorthopädie in Österreich",
-                  "timeStart": "16.580",
-                  "timeEnd": "16.960",
-                  "entities": []
+                  "timeStart": "15.400",
+                  "timeEnd": "16.400",
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    },
+                    {
+                      "label": "Nationalrates",
+                      "wid": "Q871363",
+                      "wtype": "ORG",
+                      "score": 0.547
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1837/A(E) der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Entschließung des Nationalrates vom 20. November 2020 Facharztausbildung für Kieferorthopädie in Österreich"
@@ -625,15 +936,28 @@
               "sentences": [
                 {
                   "text": "Antrag 1838/A(E) der Abgeordneten Mag.",
-                  "timeStart": "16.960",
-                  "timeEnd": "16.960",
+                  "timeStart": "16.400",
+                  "timeEnd": "16.400",
                   "entities": []
                 },
                 {
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Maßnahmen für die Komplementärmedizin in Österreich",
-                  "timeStart": "16.960",
-                  "timeEnd": "17.440",
-                  "entities": []
+                  "timeStart": "16.400",
+                  "timeEnd": "16.400",
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9871
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1838/A(E) der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Maßnahmen für die Komplementärmedizin in Österreich"
@@ -645,15 +969,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1840/A(E) der Abgeordneten Mag.",
-                  "timeStart": "17.440",
-                  "timeEnd": "17.920",
+                  "timeStart": "16.400",
+                  "timeEnd": "16.440",
                   "entities": []
                 },
                 {
                   "text": "Christian Ragger , Kolleginnen und Kollegen betreffend Schaffung und Ausbau einer psychologischen Versorgung als Kassenleistung",
-                  "timeStart": "17.920",
-                  "timeEnd": "17.920",
-                  "entities": []
+                  "timeStart": "16.440",
+                  "timeEnd": "17.440",
+                  "entities": [
+                    {
+                      "label": "Christian Ragger",
+                      "wid": "Q1081494",
+                      "wtype": "PER",
+                      "score": 0.9927
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1840/A(E) der Abgeordneten Mag. Christian Ragger , Kolleginnen und Kollegen betreffend Schaffung und Ausbau einer psychologischen Versorgung als Kassenleistung"
@@ -665,8 +996,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Konsumentenschutz:",
-                  "timeStart": "17.920",
-                  "timeEnd": "17.920",
+                  "timeStart": "17.440",
+                  "timeEnd": "17.520",
                   "entities": []
                 }
               ],
@@ -679,7 +1010,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1817/A(E) der Abgeordneten Mag.",
-                  "timeStart": "17.920",
+                  "timeStart": "17.520",
                   "timeEnd": "17.920",
                   "entities": []
                 },
@@ -687,7 +1018,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend freie Endgerätewahl beim Internetzugang",
                   "timeStart": "17.920",
                   "timeEnd": "17.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1817/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend freie Endgerätewahl beim Internetzugang"
@@ -707,7 +1045,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Spielzeug muss frei von schädlichen Chemikalien sein",
                   "timeStart": "17.920",
                   "timeEnd": "17.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1819/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Spielzeug muss frei von schädlichen Chemikalien sein"
@@ -749,7 +1094,20 @@
                   "text": "Antrag 1833/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Förderung der Rehkitzrettung",
                   "timeStart": "17.920",
                   "timeEnd": "17.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Peter Schmiedlechner",
+                      "wid": "Q43140569",
+                      "wtype": "PER",
+                      "score": 0.9416
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1833/A(E) der Abgeordneten Peter Schmiedlechner , Kolleginnen und Kollegen betreffend Förderung der Rehkitzrettung"
@@ -783,7 +1141,14 @@
                   "text": "Christian Drobits , Kolleginnen und Kollegen betreffend Spielzeug muss frei von schädlichen Chemikalien sein",
                   "timeStart": "17.920",
                   "timeEnd": "17.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Christian Drobits",
+                      "wid": "Q29419052",
+                      "wtype": "PER",
+                      "score": 0.9823
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1820/A(E) der Abgeordneten Mag. Christian Drobits , Kolleginnen und Kollegen betreffend Spielzeug muss frei von schädlichen Chemikalien sein"
@@ -817,7 +1182,20 @@
                   "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend transparente Auswertungen der Regierungsinserate durch die RTR",
                   "timeStart": "17.920",
                   "timeEnd": "17.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    },
+                    {
+                      "label": "RTR",
+                      "wid": "Q1780502",
+                      "wtype": "ORG",
+                      "score": 0.1318
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1834/A(E) der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend transparente Auswertungen der Regierungsinserate durch die RTR"
@@ -837,7 +1215,14 @@
                   "text": "Jörg Leichtfried , Kolleginnen und Kollegen betreffend Konvent für Medienfreiheit und Transparenz: Inseratenvergabe auf neue Grundlage stellen",
                   "timeStart": "17.920",
                   "timeEnd": "17.920",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Jörg Leichtfried",
+                      "wid": "Q85365",
+                      "wtype": "PER",
+                      "score": 0.4506
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1835/A(E) der Abgeordneten Mag. Jörg Leichtfried , Kolleginnen und Kollegen betreffend Konvent für Medienfreiheit und Transparenz: Inseratenvergabe auf neue Grundlage stellen"
@@ -850,7 +1235,7 @@
                 {
                   "text": "Antrag 1841/A(E) der Abgeordneten Dr. Susanne Fürst , Kolleginnen und Kollegen betreffend unabhängige und weisungsfreie Stadtrechnungshöfe ermöglichen",
                   "timeStart": "17.920",
-                  "timeEnd": "18.960",
+                  "timeEnd": "20.880",
                   "entities": []
                 }
               ],
@@ -863,8 +1248,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Wirtschaft, Industrie und Energie:",
-                  "timeStart": "18.960",
-                  "timeEnd": "19.320",
+                  "timeStart": "20.880",
+                  "timeEnd": "21.360",
                   "entities": []
                 }
               ],
@@ -877,8 +1262,8 @@
               "sentences": [
                 {
                   "text": "Antrag 1842/A(E) der Abgeordneten Maximilian Lercher , Kolleginnen und Kollegen betreffend Kampf gegen Spekulation und Preistreiberei an den Weltmärkten",
-                  "timeStart": "19.320",
-                  "timeEnd": "21.360",
+                  "timeStart": "21.360",
+                  "timeEnd": "21.680",
                   "entities": []
                 }
               ],
@@ -891,7 +1276,7 @@
               "sentences": [
                 {
                   "text": "b) zur Enderledigung im Sinne des § 28b GOG (vorbehaltlich der endgültigen Entscheidung des Ausschusses):",
-                  "timeStart": "21.360",
+                  "timeStart": "21.680",
                   "timeEnd": "21.680",
                   "entities": []
                 }
@@ -1004,8 +1389,8 @@
         "stdId": 250963,
         "debatteId": 300,
         "proceedingIndex": 250963,
-        "alignDuration": 0.9783942699432373,
-        "nerDuration": 0.39380788803100586
+        "alignDuration": 0.8952243328094482,
+        "nerDuration": 0.762216329574585
       },
       "originalLanguage": "de"
     },
@@ -1082,8 +1467,33 @@
                 {
                   "text": "Außerdem teile ich mit, dass die Abgeordneten Lukas Hammer , Tanja Graf , Alois Schroll , Gerald Loacker, Kolleginnen und Kollegen beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 1843/A eine Frist bis zum 21. September 2021 zu setzen.",
                   "timeStart": "3.320",
-                  "timeEnd": "16.080",
-                  "entities": []
+                  "timeEnd": "16.120",
+                  "entities": [
+                    {
+                      "label": "Lukas Hammer",
+                      "wid": "Q64851724",
+                      "wtype": "PER",
+                      "score": 0.9771
+                    },
+                    {
+                      "label": "Tanja Graf",
+                      "wid": "Q42179772",
+                      "wtype": "PER",
+                      "score": 0.4505
+                    },
+                    {
+                      "label": "Alois Schroll",
+                      "wid": "Q72078740",
+                      "wtype": "PER",
+                      "score": 0.9778
+                    },
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    }
+                  ]
                 }
               ],
               "text": "Außerdem teile ich mit, dass die Abgeordneten Lukas Hammer , Tanja Graf , Alois Schroll , Gerald Loacker, Kolleginnen und Kollegen beantragt haben, dem Ausschuss für Wirtschaft, Industrie und Energie zur Berichterstattung über den Antrag 1843/A eine Frist bis zum 21. September 2021 zu setzen."
@@ -1095,7 +1505,7 @@
               "sentences": [
                 {
                   "text": "Der gegenständliche Antrag wird gemäß der Geschäftsordnung nach Beendigung der Verhandlungen in dieser Sitzung – also sogleich – zur Abstimmung gebracht werden.",
-                  "timeStart": "16.080",
+                  "timeStart": "16.120",
                   "timeEnd": "21.500",
                   "entities": []
                 }
@@ -1144,8 +1554,8 @@
         "stdId": 250964,
         "debatteId": 310,
         "proceedingIndex": 250964,
-        "alignDuration": 0.35398197174072266,
-        "nerDuration": 0.03540825843811035
+        "alignDuration": 0.4292182922363281,
+        "nerDuration": 0.04331350326538086
       },
       "originalLanguage": "de"
     },
@@ -1208,7 +1618,7 @@
                 {
                   "text": "Beschluss auf Beendigung der ordentlichen Tagung 2020/2021",
                   "timeStart": "1.000",
-                  "timeEnd": "4.440",
+                  "timeEnd": "4.280",
                   "entities": []
                 }
               ],
@@ -1221,7 +1631,7 @@
               "sentences": [
                 {
                   "text": "Es liegt mir folgender Antrag der Abgeordneten Wöginger, Maurer, Heinisch-Hosek, Angerer und Scherak vor:",
-                  "timeStart": "4.440",
+                  "timeStart": "4.280",
                   "timeEnd": "6.800",
                   "entities": []
                 }
@@ -1276,8 +1686,8 @@
         "stdId": 250966,
         "debatteId": 320,
         "proceedingIndex": 250966,
-        "alignDuration": 0.33001089096069336,
-        "nerDuration": 0.029541969299316406
+        "alignDuration": 0.40012049674987793,
+        "nerDuration": 0.040099143981933594
       },
       "originalLanguage": "de"
     },
@@ -1354,12 +1764,12 @@
                 {
                   "text": "Es liegt mir das schriftliche Verlangen von 20 Abgeordneten vor, die vorgesehene Fassung des Amtlichen Protokolls hinsichtlich des Beschlusses auf Beendigung der ordentlichen Tagung 2020/2021 der XXVII.",
                   "timeStart": "3.000",
-                  "timeEnd": "11.200",
+                  "timeEnd": "11.160",
                   "entities": []
                 },
                 {
                   "text": "Gesetzgebungsperiode des Nationalrates zu verlesen, damit dieser Teil mit Schluss der Sitzung als genehmigt gilt.",
-                  "timeStart": "11.200",
+                  "timeStart": "11.160",
                   "timeEnd": "16.820",
                   "entities": []
                 }
@@ -1408,13 +1818,13 @@
                 {
                   "text": "Erhebt sich ein Einwand gegen diese Fassung oder den Inhalt des verlesenen Teiles des Amtlichen Protokolls? –",
                   "timeStart": "34.160",
-                  "timeEnd": "38.960",
+                  "timeEnd": "39.000",
                   "entities": []
                 },
                 {
                   "text": "Das ist nicht der Fall.",
-                  "timeStart": "38.960",
-                  "timeEnd": "40.240",
+                  "timeStart": "39.000",
+                  "timeEnd": "39.960",
                   "entities": []
                 }
               ],
@@ -1427,7 +1837,7 @@
               "sentences": [
                 {
                   "text": "Damit ist dieser Teil des Amtlichen Protokolls gemäß § 51 Abs. 6 der Geschäftsordnung mit Schluss dieser Sitzung als genehmigt zu betrachten.",
-                  "timeStart": "40.240",
+                  "timeStart": "39.960",
                   "timeEnd": "48.960",
                   "entities": []
                 }
@@ -1468,12 +1878,19 @@
                 {
                   "text": "Alles Gute! (",
                   "timeStart": "60.560",
-                  "timeEnd": "61.760",
-                  "entities": []
+                  "timeEnd": "61.840",
+                  "entities": [
+                    {
+                      "label": "Alles Gute!",
+                      "wid": "Q2249646",
+                      "wtype": "MISC",
+                      "score": 0.6233
+                    }
+                  ]
                 },
                 {
                   "text": "Allgemeiner Beifall.)",
-                  "timeStart": "61.760",
+                  "timeStart": "61.840",
                   "timeEnd": "65.960",
                   "entities": []
                 }
@@ -1488,8 +1905,8 @@
         "stdId": 250987,
         "debatteId": 330,
         "proceedingIndex": 250987,
-        "alignDuration": 0.4507119655609131,
-        "nerDuration": 0.07154703140258789
+        "alignDuration": 0.49653029441833496,
+        "nerDuration": 0.09537124633789062
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2021-02-04T17:37:31",
     "dateEnd": "2021-02-04T17:38:04",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-18T17:51:21",
+    "lastUpdate": "2026-06-28T10:11:09",
     "processing": {
       "merge": "2026-06-16T04:23:45+00:00",
-      "align": "2026-06-18T17:51:21",
-      "ner": "2026-06-28T02:38:16"
+      "align": "2026-06-28T10:11:09",
+      "ner": "2026-06-28T15:08:34",
+      "nel": "2026-06-28T07:25:25"
     }
   },
   "data": [
@@ -70,7 +71,7 @@
                 {
                   "text": "Ich eröffne die 82. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "1.960",
+                  "timeEnd": "1.680",
                   "entities": []
                 }
               ],
@@ -83,21 +84,65 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Gabriela Schwarz , Rainer Wimmer , Dipl.-Ing. Gerhard Deimek , Christian Lausch , Wolfgang Zanger , Mag.",
-                  "timeStart": "1.960",
-                  "timeEnd": "4.320",
-                  "entities": []
+                  "timeStart": "1.680",
+                  "timeEnd": "3.800",
+                  "entities": [
+                    {
+                      "label": "Martina Kaufmann",
+                      "wid": "Q42535294",
+                      "wtype": "PER",
+                      "score": 0.981
+                    },
+                    {
+                      "label": "Gabriela Schwarz",
+                      "wid": "Q36808597",
+                      "wtype": "PER",
+                      "score": 0.6837
+                    },
+                    {
+                      "label": "Rainer Wimmer",
+                      "wid": "Q2128476",
+                      "wtype": "PER",
+                      "score": 0.8463
+                    },
+                    {
+                      "label": "Christian Lausch",
+                      "wid": "Q1080771",
+                      "wtype": "PER",
+                      "score": 0.9793
+                    },
+                    {
+                      "label": "Wolfgang Zanger",
+                      "wid": "Q2591817",
+                      "wtype": "PER",
+                      "score": 0.979
+                    }
+                  ]
                 },
                 {
                   "text": "Dr. Jakob Schwarz, BA , Dipl.-Ing. Karin Doppelbauer und Mag.",
-                  "timeStart": "4.320",
-                  "timeEnd": "5.640",
+                  "timeStart": "3.800",
+                  "timeEnd": "3.800",
                   "entities": []
                 },
                 {
                   "text": "Beate Meinl-Reisinger, MES .",
-                  "timeStart": "5.640",
-                  "timeEnd": "6.080",
-                  "entities": []
+                  "timeStart": "3.800",
+                  "timeEnd": "3.800",
+                  "entities": [
+                    {
+                      "label": "Beate Meinl-Reisinger",
+                      "wid": "Q15787318",
+                      "wtype": "PER",
+                      "score": 0.994
+                    },
+                    {
+                      "label": "MES",
+                      "wid": "Q1404943",
+                      "wtype": "ORG",
+                      "score": 0.1253
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Martina Kaufmann, MMSc BA , Gabriela Schwarz , Rainer Wimmer , Dipl.-Ing. Gerhard Deimek , Christian Lausch , Wolfgang Zanger , Mag. Dr. Jakob Schwarz, BA , Dipl.-Ing. Karin Doppelbauer und Mag. Beate Meinl-Reisinger, MES ."
@@ -109,8 +154,8 @@
               "sentences": [
                 {
                   "text": "Einlauf und Zuweisungen",
-                  "timeStart": "6.080",
-                  "timeEnd": "6.680",
+                  "timeStart": "3.800",
+                  "timeEnd": "3.880",
                   "entities": []
                 }
               ],
@@ -123,8 +168,8 @@
               "sentences": [
                 {
                   "text": "Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 Abs. 4 der Geschäftsordnung auf die im Sitzungssaal verteilte Mitteilung.",
-                  "timeStart": "6.680",
-                  "timeEnd": "8.320",
+                  "timeStart": "3.880",
+                  "timeEnd": "4.200",
                   "entities": []
                 }
               ],
@@ -137,8 +182,8 @@
               "sentences": [
                 {
                   "text": "Die schriftliche Mitteilung hat folgenden Wortlaut:",
-                  "timeStart": "8.320",
-                  "timeEnd": "9.080",
+                  "timeStart": "4.200",
+                  "timeEnd": "4.880",
                   "entities": []
                 }
               ],
@@ -151,8 +196,8 @@
               "sentences": [
                 {
                   "text": "A. Eingelangte Verhandlungsgegenstände:",
-                  "timeStart": "9.080",
-                  "timeEnd": "9.800",
+                  "timeStart": "4.880",
+                  "timeEnd": "5.360",
                   "entities": []
                 }
               ],
@@ -165,8 +210,8 @@
               "sentences": [
                 {
                   "text": "1. Anfragebeantwortungen : 4409/AB bis 4415/AB",
-                  "timeStart": "9.800",
-                  "timeEnd": "11.600",
+                  "timeStart": "5.360",
+                  "timeEnd": "6.800",
                   "entities": []
                 }
               ],
@@ -179,8 +224,8 @@
               "sentences": [
                 {
                   "text": "Anfragebeantwortung (Präsident des Nationalrates): 27/ABPR",
-                  "timeStart": "11.600",
-                  "timeEnd": "12.480",
+                  "timeStart": "6.800",
+                  "timeEnd": "7.960",
                   "entities": []
                 }
               ],
@@ -193,8 +238,8 @@
               "sentences": [
                 {
                   "text": "B. Zuweisungen in dieser Sitzung:",
-                  "timeStart": "12.480",
-                  "timeEnd": "12.800",
+                  "timeStart": "7.960",
+                  "timeEnd": "8.000",
                   "entities": []
                 }
               ],
@@ -207,8 +252,8 @@
               "sentences": [
                 {
                   "text": "zur Vorberatung :",
-                  "timeStart": "12.800",
-                  "timeEnd": "12.840",
+                  "timeStart": "8.000",
+                  "timeEnd": "8.280",
                   "entities": []
                 }
               ],
@@ -221,8 +266,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "12.840",
-                  "timeEnd": "13.360",
+                  "timeStart": "8.280",
+                  "timeEnd": "9.120",
                   "entities": []
                 }
               ],
@@ -235,9 +280,40 @@
               "sentences": [
                 {
                   "text": "Antrag 1265/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend menschenrechtswidrige Zustände in Europa beenden, Aufnahme von Kindern und unbegleiteten Minderjährigen aus den Flüchtlingslagern in Moria und in Lipa als humanitäre Notmaßnahme endlich ermöglichen",
-                  "timeStart": "13.360",
-                  "timeEnd": "14.920",
-                  "entities": []
+                  "timeStart": "9.120",
+                  "timeEnd": "12.480",
+                  "entities": [
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    },
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    },
+                    {
+                      "label": "Europa",
+                      "wid": "Q46",
+                      "wtype": "LOC",
+                      "score": 0.2158
+                    },
+                    {
+                      "label": "Moria",
+                      "wid": "Q1126085",
+                      "wtype": "LOC",
+                      "score": 0.128
+                    },
+                    {
+                      "label": "Lipa",
+                      "wid": "Q1364851",
+                      "wtype": "LOC",
+                      "score": 0.0988
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1265/A(E) der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend menschenrechtswidrige Zustände in Europa beenden, Aufnahme von Kindern und unbegleiteten Minderjährigen aus den Flüchtlingslagern in Moria und in Lipa als humanitäre Notmaßnahme endlich ermöglichen"
@@ -249,8 +325,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Bauten und Wohnen:",
-                  "timeStart": "14.920",
-                  "timeEnd": "15.560",
+                  "timeStart": "12.480",
+                  "timeEnd": "12.720",
                   "entities": []
                 }
               ],
@@ -263,15 +339,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1262/A(E) der Abgeordneten Mag.",
-                  "timeStart": "15.560",
-                  "timeEnd": "16.880",
+                  "timeStart": "12.720",
+                  "timeEnd": "14.080",
                   "entities": []
                 },
                 {
                   "text": "Ruth Becher , Kolleginnen und Kollegen betreffend Vorlage zur Abwendung allfälliger gesetzlicher Mietpreiserhöhungen ab 1. April 2021",
-                  "timeStart": "16.880",
-                  "timeEnd": "18.320",
-                  "entities": []
+                  "timeStart": "14.080",
+                  "timeEnd": "15.320",
+                  "entities": [
+                    {
+                      "label": "Ruth Becher",
+                      "wid": "Q2177565",
+                      "wtype": "PER",
+                      "score": 0.982
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1262/A(E) der Abgeordneten Mag. Ruth Becher , Kolleginnen und Kollegen betreffend Vorlage zur Abwendung allfälliger gesetzlicher Mietpreiserhöhungen ab 1. April 2021"
@@ -283,8 +366,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss :",
-                  "timeStart": "18.320",
-                  "timeEnd": "18.360",
+                  "timeStart": "15.320",
+                  "timeEnd": "15.520",
                   "entities": []
                 }
               ],
@@ -297,9 +380,22 @@
               "sentences": [
                 {
                   "text": "Antrag 1264/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über eine COVID-19 Förderung für betriebliche Testungen (Betriebliches Testungs-Gesetz – BTG) erlassen wird",
-                  "timeStart": "18.360",
-                  "timeEnd": "21.600",
-                  "entities": []
+                  "timeStart": "15.520",
+                  "timeEnd": "17.640",
+                  "entities": [
+                    {
+                      "label": "Peter Haubner",
+                      "wid": "Q2075504",
+                      "wtype": "PER",
+                      "score": 0.9933
+                    },
+                    {
+                      "label": "BTG",
+                      "wid": "Q797061",
+                      "wtype": "MISC",
+                      "score": 0.1278
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1264/A der Abgeordneten Peter Haubner , Dr. Elisabeth Götze , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem ein Bundesgesetz über eine COVID-19 Förderung für betriebliche Testungen (Betriebliches Testungs-Gesetz – BTG) erlassen wird"
@@ -311,8 +407,8 @@
               "sentences": [
                 {
                   "text": "Gesundheitsausschuss :",
-                  "timeStart": "21.600",
-                  "timeEnd": "21.960",
+                  "timeStart": "17.640",
+                  "timeEnd": "17.760",
                   "entities": []
                 }
               ],
@@ -325,9 +421,16 @@
               "sentences": [
                 {
                   "text": "Antrag 1263/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird",
-                  "timeStart": "21.960",
-                  "timeEnd": "22.360",
-                  "entities": []
+                  "timeStart": "17.760",
+                  "timeEnd": "20.160",
+                  "entities": [
+                    {
+                      "label": "Ralph Schallmeiner",
+                      "wid": "Q72074004",
+                      "wtype": "PER",
+                      "score": 0.9819
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1263/A der Abgeordneten Dr. Josef Smolle , Ralph Schallmeiner , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Gesundheitstelematikgesetz 2012 geändert wird"
@@ -339,8 +442,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "22.360",
-                  "timeEnd": "22.360",
+                  "timeStart": "20.160",
+                  "timeEnd": "20.720",
                   "entities": []
                 }
               ],
@@ -353,7 +456,7 @@
               "sentences": [
                 {
                   "text": "Antrag 1266/A der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Bundesgesetz, mit dem das Bundesgesetz, mit dem die allgemeinen Bestimmungen über das Verfahren vor dem Bundesamt für Fremdenwesen und Asyl zur Gewährung von internationalem Schutz, Erteilung von Aufenthaltstiteln aus berücksichtigungswürdigen Gründen, Abschiebung, Duldung und zur Erlassung von aufenthaltsbeendenden Maßnahmen sowie zur Ausstellung von österreichischen Dokumenten für Fremde geregelt werden (BFA-Verfahrensgesetz – BFA-VG) geändert wird",
-                  "timeStart": "22.360",
+                  "timeStart": "20.720",
                   "timeEnd": "22.360",
                   "entities": []
                 }
@@ -383,7 +486,14 @@
                   "text": "Tourismusausschuss:",
                   "timeStart": "22.360",
                   "timeEnd": "22.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Tourismusausschuss",
+                      "wid": "Q15792197",
+                      "wtype": "PER",
+                      "score": 0.3548
+                    }
+                  ]
                 }
               ],
               "text": "Tourismusausschuss:"
@@ -403,7 +513,14 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend finanzielle Unterstützungen für touristische Privatvermieter ermöglichen – kulante Lösungen für Privatvermieter ohne Hauptwohnsitz am Standort der Privatvermietung sicherstellen",
                   "timeStart": "22.360",
                   "timeEnd": "22.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1269/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend finanzielle Unterstützungen für touristische Privatvermieter ermöglichen – kulante Lösungen für Privatvermieter ohne Hauptwohnsitz am Standort der Privatvermietung sicherstellen"
@@ -423,7 +540,14 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend bestehende Beherbergungsbetriebe erhalten, Förderung von Hotelneubauten durch Bettengrenzen limitieren",
                   "timeStart": "22.360",
                   "timeEnd": "22.360",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9869
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1270/A(E) der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend bestehende Beherbergungsbetriebe erhalten, Förderung von Hotelneubauten durch Bettengrenzen limitieren"
@@ -436,7 +560,7 @@
                 {
                   "text": "Verfassungsausschuss:",
                   "timeStart": "22.360",
-                  "timeEnd": "22.360",
+                  "timeEnd": "22.440",
                   "entities": []
                 }
               ],
@@ -449,21 +573,41 @@
               "sentences": [
                 {
                   "text": "Antrag 1268/A der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art.",
-                  "timeStart": "22.360",
-                  "timeEnd": "22.360",
-                  "entities": []
+                  "timeStart": "22.440",
+                  "timeEnd": "23.360",
+                  "entities": [
+                    {
+                      "label": "Herbert Kickl",
+                      "wid": "Q1395041",
+                      "wtype": "PER",
+                      "score": 0.9939
+                    }
+                  ]
                 },
                 {
                   "text": "142 Abs. 2 lit.",
-                  "timeStart": "22.360",
-                  "timeEnd": "22.360",
+                  "timeStart": "23.360",
+                  "timeEnd": "24.040",
                   "entities": []
                 },
                 {
                   "text": "b B-VG wider den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz Rudolf Anschober",
-                  "timeStart": "22.360",
-                  "timeEnd": "22.560",
-                  "entities": []
+                  "timeStart": "24.040",
+                  "timeEnd": "25.440",
+                  "entities": [
+                    {
+                      "label": "B-VG",
+                      "wid": "Q1005391",
+                      "wtype": "MISC",
+                      "score": 0.962
+                    },
+                    {
+                      "label": "Rudolf Anschober",
+                      "wid": "Q2172341",
+                      "wtype": "PER",
+                      "score": 0.9926
+                    }
+                  ]
                 }
               ],
               "text": "Antrag 1268/A der Abgeordneten Herbert Kickl , Kolleginnen und Kollegen betreffend Ministeranklage gemäß Art. 142 Abs. 2 lit. b B-VG wider den Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz Rudolf Anschober"
@@ -475,8 +619,8 @@
               "sentences": [
                 {
                   "text": "Weiters weise ich",
-                  "timeStart": "22.560",
-                  "timeEnd": "22.800",
+                  "timeStart": "25.440",
+                  "timeEnd": "26.160",
                   "entities": []
                 }
               ],
@@ -489,8 +633,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1271/A(E) dem Ausschuss für Menschenrechte,",
-                  "timeStart": "22.800",
-                  "timeEnd": "24.780",
+                  "timeStart": "26.160",
+                  "timeEnd": "27.200",
                   "entities": []
                 }
               ],
@@ -503,8 +647,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1272/A(E) dem Außenpolitischen Ausschuss und",
-                  "timeStart": "24.780",
-                  "timeEnd": "25.240",
+                  "timeStart": "27.200",
+                  "timeEnd": "28.680",
                   "entities": []
                 }
               ],
@@ -517,8 +661,8 @@
               "sentences": [
                 {
                   "text": "den Antrag 1273/A(E) dem Tourismusausschuss zu.",
-                  "timeStart": "25.240",
-                  "timeEnd": "25.920",
+                  "timeStart": "28.680",
+                  "timeEnd": "31.440",
                   "entities": []
                 }
               ],
@@ -531,8 +675,8 @@
               "sentences": [
                 {
                   "text": "Die nächste Sitzung des Nationalrates, die für Mittwoch, den 24. Februar, um 9 Uhr in Aussicht genommen ist, wird auf schriftlichem Wege einberufen werden.",
-                  "timeStart": "25.920",
-                  "timeEnd": "28.680",
+                  "timeStart": "31.440",
+                  "timeEnd": "32.380",
                   "entities": []
                 }
               ],
@@ -545,8 +689,8 @@
               "sentences": [
                 {
                   "text": "Ich gebe noch bekannt, dass um 18 Uhr der Hauptausschuss zusammentritt.",
-                  "timeStart": "28.680",
-                  "timeEnd": "30.840",
+                  "timeStart": "32.380",
+                  "timeEnd": "33.400",
                   "entities": []
                 }
               ],
@@ -559,8 +703,8 @@
               "sentences": [
                 {
                   "text": "Ich wünsche Ihnen noch einen schönen Abend.",
-                  "timeStart": "30.840",
-                  "timeEnd": "32.380",
+                  "timeStart": "33.400",
+                  "timeEnd": "33.760",
                   "entities": []
                 }
               ],
@@ -573,7 +717,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "32.380",
+                  "timeStart": "33.760",
                   "timeEnd": "34.000",
                   "entities": []
                 }
@@ -588,8 +732,8 @@
         "stdId": 236553,
         "debatteId": 300,
         "proceedingIndex": 236553,
-        "alignDuration": 0.5618200302124023,
-        "nerDuration": 0.21219897270202637
+        "alignDuration": 0.6395423412322998,
+        "nerDuration": 0.39813899993896484
       },
       "originalLanguage": "de"
     }

@@ -5,11 +5,12 @@
     "dateStart": "2023-07-05T21:14:21",
     "dateEnd": "2023-07-05T21:14:56",
     "lastProcessing": "align",
-    "lastUpdate": "2026-06-25T08:01:17",
+    "lastUpdate": "2026-06-28T13:36:16",
     "processing": {
       "merge": "2026-06-16T04:24:08+00:00",
-      "align": "2026-06-25T08:01:17",
-      "ner": "2026-06-28T03:20:48"
+      "align": "2026-06-28T13:36:16",
+      "ner": "2026-06-28T16:10:08",
+      "nel": "2026-06-28T07:25:35"
     }
   },
   "data": [
@@ -72,7 +73,7 @@
                 {
                   "text": "Ich eröffne die 223. Sitzung des Nationalrates.",
                   "timeStart": "1.000",
-                  "timeEnd": "2.760",
+                  "timeEnd": "2.640",
                   "entities": []
                 }
               ],
@@ -85,9 +86,28 @@
               "sentences": [
                 {
                   "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Michael Schnedlitz , Heike Grebien und Dr. Helmut Brandstätter .",
-                  "timeStart": "2.760",
+                  "timeStart": "2.640",
                   "timeEnd": "2.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Karlheinz Kopf",
+                      "wid": "Q1410282",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Michael Schnedlitz",
+                      "wid": "Q51000135",
+                      "wtype": "PER",
+                      "score": 0.989
+                    },
+                    {
+                      "label": "Heike Grebien",
+                      "wid": "Q81616173",
+                      "wtype": "PER",
+                      "score": 0.9846
+                    }
+                  ]
                 }
               ],
               "text": "Als verhindert gemeldet sind die Abgeordneten Karlheinz Kopf , Michael Schnedlitz , Heike Grebien und Dr. Helmut Brandstätter ."
@@ -219,7 +239,20 @@
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Weniger Frühpensionen ( 3481/A(E) )",
                   "timeStart": "2.760",
                   "timeEnd": "2.760",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Weniger Frühpensionen ( 3481/A(E) )"
@@ -232,8 +265,21 @@
                 {
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Schaffung eines Fördermodells bei Teilnahme von Kindern an mehrtägigen Ferienveranstaltungen ( 3496/A(E) )",
                   "timeStart": "2.760",
-                  "timeEnd": "3.160",
-                  "entities": []
+                  "timeEnd": "2.760",
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Schaffung eines Fördermodells bei Teilnahme von Kindern an mehrtägigen Ferienveranstaltungen ( 3496/A(E) )"
@@ -245,8 +291,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Dagmar Belakowitsch , Kolleginnen und Kollegen betreffend Inflationsanpassung bei außergewöhnlichen Belastungen durch Behinderungen ( 3497/A(E) )",
-                  "timeStart": "3.160",
-                  "timeEnd": "3.440",
+                  "timeStart": "2.760",
+                  "timeEnd": "2.760",
                   "entities": []
                 }
               ],
@@ -259,9 +305,34 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU im Zusammenhang mit dem Barrierefreiheitsgesetz 2023 ( 3501/A(E) )",
-                  "timeStart": "3.440",
-                  "timeEnd": "5.560",
-                  "entities": []
+                  "timeStart": "2.760",
+                  "timeEnd": "3.160",
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.6441
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU im Zusammenhang mit dem Barrierefreiheitsgesetz 2023 ( 3501/A(E) )"
@@ -273,14 +344,21 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Katharina Kucharowits , Kolleginnen und Kollegen betreffend Kinder-Influencer:innen vor Ausbeutung im Netz schützen! (",
-                  "timeStart": "5.560",
-                  "timeEnd": "6.320",
-                  "entities": []
+                  "timeStart": "3.160",
+                  "timeEnd": "3.440",
+                  "entities": [
+                    {
+                      "label": "Katharina Kucharowits",
+                      "wid": "Q15823205",
+                      "wtype": "PER",
+                      "score": 0.9829
+                    }
+                  ]
                 },
                 {
                   "text": "3506/A(E) )",
-                  "timeStart": "6.320",
-                  "timeEnd": "6.440",
+                  "timeStart": "3.440",
+                  "timeEnd": "3.440",
                   "entities": []
                 }
               ],
@@ -293,8 +371,8 @@
               "sentences": [
                 {
                   "text": "Außenpolitischer Ausschuss:",
-                  "timeStart": "6.440",
-                  "timeEnd": "6.440",
+                  "timeStart": "3.440",
+                  "timeEnd": "3.760",
                   "entities": []
                 }
               ],
@@ -307,9 +385,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Aktives Eintreten für Gleichstellungsziele in der Entwicklungskooperation in Uganda ( 3483/A(E) )",
-                  "timeStart": "6.440",
-                  "timeEnd": "7.840",
-                  "entities": []
+                  "timeStart": "3.760",
+                  "timeEnd": "6.320",
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Aktives Eintreten für Gleichstellungsziele in der Entwicklungskooperation in Uganda ( 3483/A(E) )"
@@ -321,9 +412,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Afrikastrategie vor Afrikareisen ( 3484/A(E) )",
-                  "timeStart": "7.840",
-                  "timeEnd": "9.320",
-                  "entities": []
+                  "timeStart": "6.320",
+                  "timeEnd": "7.120",
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Afrikastrategie vor Afrikareisen ( 3484/A(E) )"
@@ -335,8 +439,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für Familie und Jugend:",
-                  "timeStart": "9.320",
-                  "timeEnd": "9.360",
+                  "timeStart": "7.120",
+                  "timeEnd": "7.440",
                   "entities": []
                 }
               ],
@@ -349,9 +453,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Reparatur der \"Wochengeld-Falle\" ( 3500/A(E) )",
-                  "timeStart": "9.360",
-                  "timeEnd": "10.520",
-                  "entities": []
+                  "timeStart": "7.440",
+                  "timeEnd": "10.480",
+                  "entities": [
+                    {
+                      "label": "Rosa Ecker",
+                      "wid": "Q21336878",
+                      "wtype": "PER",
+                      "score": 0.9792
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Rosa Ecker, MBA , Kolleginnen und Kollegen betreffend Reparatur der \"Wochengeld-Falle\" ( 3500/A(E) )"
@@ -363,14 +480,21 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Christian Oxonitsch , Kolleginnen und Kollegen betreffend Kinder-Influencer:innen vor Ausbeutung im Netz schützen! (",
-                  "timeStart": "10.520",
-                  "timeEnd": "11.960",
-                  "entities": []
+                  "timeStart": "10.480",
+                  "timeEnd": "11.480",
+                  "entities": [
+                    {
+                      "label": "Christian Oxonitsch",
+                      "wid": "Q1081304",
+                      "wtype": "PER",
+                      "score": 0.9898
+                    }
+                  ]
                 },
                 {
                   "text": "3505/A(E) )",
-                  "timeStart": "11.960",
-                  "timeEnd": "13.000",
+                  "timeStart": "11.480",
+                  "timeEnd": "11.880",
                   "entities": []
                 }
               ],
@@ -383,8 +507,8 @@
               "sentences": [
                 {
                   "text": "Finanzausschuss:",
-                  "timeStart": "13.000",
-                  "timeEnd": "13.360",
+                  "timeStart": "11.880",
+                  "timeEnd": "11.960",
                   "entities": []
                 }
               ],
@@ -397,15 +521,28 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mag.",
-                  "timeStart": "13.360",
-                  "timeEnd": "13.360",
+                  "timeStart": "11.960",
+                  "timeEnd": "13.040",
                   "entities": []
                 },
                 {
                   "text": "Gerald Loacker , Kolleginnen und Kollegen betreffend Gleiches Recht für alle: KESt-Freiheit der ÖVP-Agrarier für alle Steuerzahler:innen\" ( 3480/A(E) )",
-                  "timeStart": "13.360",
+                  "timeStart": "13.040",
                   "timeEnd": "15.840",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Loacker",
+                      "wid": "Q15114761",
+                      "wtype": "PER",
+                      "score": 0.9931
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Loacker , Kolleginnen und Kollegen betreffend Gleiches Recht für alle: KESt-Freiheit der ÖVP-Agrarier für alle Steuerzahler:innen\" ( 3480/A(E) )"
@@ -433,7 +570,26 @@
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend LGBTIQ+ Gesundheitsbericht ins Parlament bringen ( 3494/A(E) )",
                   "timeStart": "16.000",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "LGBTIQ+",
+                      "wid": "Q17884",
+                      "wtype": "LOC",
+                      "score": 0.8071
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend LGBTIQ+ Gesundheitsbericht ins Parlament bringen ( 3494/A(E) )"
@@ -453,7 +609,26 @@
                   "text": "Gerald Hauser , Kolleginnen und Kollegen betreffend Nein zur Aushebelung der Menschrechte durch die Internationalen Gesundheitsvorschriften ( 3498/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerald Hauser",
+                      "wid": "Q1509909",
+                      "wtype": "PER",
+                      "score": 0.9832
+                    },
+                    {
+                      "label": "Internationalen Gesundheitsvorschriften",
+                      "wid": "Q600315",
+                      "wtype": "MISC",
+                      "score": 0.9885
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerald Hauser , Kolleginnen und Kollegen betreffend Nein zur Aushebelung der Menschrechte durch die Internationalen Gesundheitsvorschriften ( 3498/A(E) )"
@@ -473,7 +648,38 @@
                   "text": "Gerhard Kaniak , Kolleginnen und Kollegen betreffend Schutz der Souveränität Österreichs und des Gesundheitssystems gegenüber der Weltgesundheitsorganisation (WHO) ( 3499/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gerhard Kaniak",
+                      "wid": "Q42307034",
+                      "wtype": "PER",
+                      "score": 0.9845
+                    },
+                    {
+                      "label": "Österreichs",
+                      "wid": "Q131964",
+                      "wtype": "LOC",
+                      "score": 0.0878
+                    },
+                    {
+                      "label": "Weltgesundheitsorganisation",
+                      "wid": "Q7817",
+                      "wtype": "ORG",
+                      "score": 0.8801
+                    },
+                    {
+                      "label": "WHO",
+                      "wid": "Q7817",
+                      "wtype": "ORG",
+                      "score": 0.7967
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Gerhard Kaniak , Kolleginnen und Kollegen betreffend Schutz der Souveränität Österreichs und des Gesundheitssystems gegenüber der Weltgesundheitsorganisation (WHO) ( 3499/A(E) )"
@@ -487,7 +693,32 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU im Zusammenhang mit dem Barrierefreiheitsgesetz 2023 ( 3502/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.6441
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU im Zusammenhang mit dem Barrierefreiheitsgesetz 2023 ( 3502/A(E) )"
@@ -521,7 +752,20 @@
                   "text": "Yannick Shetty , Kolleginnen und Kollegen betreffend Religiös motivierte Homophobie bekämpfen ( 3485/A(E) )",
                   "timeStart": "16.560",
                   "timeEnd": "16.560",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Yannick Shetty",
+                      "wid": "Q71706491",
+                      "wtype": "PER",
+                      "score": 0.9894
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mag. Yannick Shetty , Kolleginnen und Kollegen betreffend Religiös motivierte Homophobie bekämpfen ( 3485/A(E) )"
@@ -534,8 +778,21 @@
                 {
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Schaffung einer niederschwelligen Meldestelle gegen LGBTIQ-feindliche Hassverbrechen ( 3493/A(E) )",
                   "timeStart": "16.560",
-                  "timeEnd": "17.040",
-                  "entities": []
+                  "timeEnd": "16.560",
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Schaffung einer niederschwelligen Meldestelle gegen LGBTIQ-feindliche Hassverbrechen ( 3493/A(E) )"
@@ -547,9 +804,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz über die statistische Erhebung der Zeitverwendung (Zeitverwendungserhebungsgesetz – ZVEG) ( 3504/A (E))",
-                  "timeStart": "17.040",
-                  "timeEnd": "22.240",
-                  "entities": []
+                  "timeStart": "16.560",
+                  "timeEnd": "19.520",
+                  "entities": [
+                    {
+                      "label": "Eva Maria Holzleitner",
+                      "wid": "Q42295399",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Eva Maria Holzleitner, BSc , Kolleginnen und Kollegen betreffend ein Bundesgesetz über die statistische Erhebung der Zeitverwendung (Zeitverwendungserhebungsgesetz – ZVEG) ( 3504/A (E))"
@@ -561,8 +831,8 @@
               "sentences": [
                 {
                   "text": "Ausschuss für innere Angelegenheiten:",
-                  "timeStart": "22.240",
-                  "timeEnd": "22.880",
+                  "timeStart": "19.520",
+                  "timeEnd": "20.240",
                   "entities": []
                 }
               ],
@@ -575,8 +845,8 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend Einsatz für ein europäisches, rechtsstaatliches Grenzmanagement ( 3479/A(E) )",
-                  "timeStart": "22.880",
-                  "timeEnd": "25.760",
+                  "timeStart": "20.240",
+                  "timeEnd": "23.760",
                   "entities": []
                 }
               ],
@@ -589,9 +859,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Schaffung einer niederschwelligen Meldestelle gegen LGBTIQ-feindliche Hassverbrechen ( 3491/A(E) )",
-                  "timeStart": "25.760",
+                  "timeStart": "23.760",
                   "timeEnd": "25.960",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Schaffung einer niederschwelligen Meldestelle gegen LGBTIQ-feindliche Hassverbrechen ( 3491/A(E) )"
@@ -632,8 +915,15 @@
                 {
                   "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Staatsanwaltschaftsgesetz geändert wird ( 3489/A )",
                   "timeStart": "26.920",
-                  "timeEnd": "29.480",
-                  "entities": []
+                  "timeEnd": "29.440",
+                  "entities": [
+                    {
+                      "label": "Staatsanwaltschaftsgesetz",
+                      "wid": "Q1307517",
+                      "wtype": "MISC",
+                      "score": 0.7994
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Dr. Stephanie Krisper , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Staatsanwaltschaftsgesetz geändert wird ( 3489/A )"
@@ -645,9 +935,22 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Schaffung einer niederschwelligen Meldestelle gegen LGBTIQ-feindliche Hassverbrechen ( 3492/A(E) )",
-                  "timeStart": "29.480",
+                  "timeStart": "29.440",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9859
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend Schaffung einer niederschwelligen Meldestelle gegen LGBTIQ-feindliche Hassverbrechen ( 3492/A(E) )"
@@ -661,7 +964,26 @@
                   "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend anwaltliche Vertretung und psychosoziale Unterstützung (Prozessbegleitung) für Opfer von Hate Crime ( 3495/A(E) )",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Mario Lindner",
+                      "wid": "Q20753028",
+                      "wtype": "PER",
+                      "score": 0.9809
+                    },
+                    {
+                      "label": "Hate Crime",
+                      "wid": "Q459409",
+                      "wtype": "MISC",
+                      "score": 0.8726
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Mario Lindner , Kolleginnen und Kollegen betreffend anwaltliche Vertretung und psychosoziale Unterstützung (Prozessbegleitung) für Opfer von Hate Crime ( 3495/A(E) )"
@@ -695,7 +1017,14 @@
                   "text": "Katharina Werner, Bakk. ,",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Katharina Werner",
+                      "wid": "Q109601540",
+                      "wtype": "PER",
+                      "score": 0.5913
+                    }
+                  ]
                 },
                 {
                   "text": "Kolleginnen und Kollegen betreffend Ausweitung der Aufklärungspflichten gegenüber Bürgenden ( 3487/A(E) )",
@@ -715,7 +1044,32 @@
                   "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU im Zusammenhang mit dem Barrierefreiheitsgesetz 2023 ( 3503/A(E) )",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Peter Wurm",
+                      "wid": "Q2079124",
+                      "wtype": "PER",
+                      "score": 0.8274
+                    },
+                    {
+                      "label": "Österreich",
+                      "wid": "Q40",
+                      "wtype": "LOC",
+                      "score": 0.5248
+                    },
+                    {
+                      "label": "EU",
+                      "wid": "Q458",
+                      "wtype": "ORG",
+                      "score": 0.6441
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Peter Wurm , Kolleginnen und Kollegen betreffend Ja zum Schutz des Bargeldes und der uneingeschränkten Bargeldzahlung – Nein zum Masterplan der Bargeldabschaffung in Österreich und der EU im Zusammenhang mit dem Barrierefreiheitsgesetz 2023 ( 3503/A(E) )"
@@ -743,7 +1097,20 @@
                   "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Schaffung eines Baukulturförderprogramms für Städte und Gemeinden ( 3507/A(E) )",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Schaffung eines Baukulturförderprogramms für Städte und Gemeinden ( 3507/A(E) )"
@@ -757,7 +1124,20 @@
                   "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Abfederung der Teuerung im Kulturbereich ( 3508/A(E) )",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Gabriele Heinisch-Hosek",
+                      "wid": "Q90404",
+                      "wtype": "PER",
+                      "score": 0.9944
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Gabriele Heinisch-Hosek , Kolleginnen und Kollegen betreffend Abfederung der Teuerung im Kulturbereich ( 3508/A(E) )"
@@ -785,13 +1165,27 @@
                   "text": "Antrag der Abgeordneten Eva-Maria Himmelbauer, BSc , Mag.",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Eva-Maria Himmelbauer",
+                      "wid": "Q1379058",
+                      "wtype": "PER",
+                      "score": 0.9918
+                    }
+                  ]
                 },
                 {
                   "text": "Sibylle Hamann , Kolleginnen und Kollegen betreffend Umgang mit Künstlicher Intelligenz (KI) in der Schule. (",
                   "timeStart": "30.120",
                   "timeEnd": "30.120",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Sibylle Hamann",
+                      "wid": "Q1751948",
+                      "wtype": "PER",
+                      "score": 0.9899
+                    }
+                  ]
                 },
                 {
                   "text": "3490/A(E) )",
@@ -825,7 +1219,20 @@
                   "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Keine Haushaltsabgabe für schwer hörbehinderte oder gehörlose Personen ( 3482/A(E) )",
                   "timeStart": "30.120",
                   "timeEnd": "30.800",
-                  "entities": []
+                  "entities": [
+                    {
+                      "label": "Henrike Brandstötter",
+                      "wid": "Q72001882",
+                      "wtype": "PER",
+                      "score": 0.9873
+                    },
+                    {
+                      "label": "E",
+                      "wid": "Q9907",
+                      "wtype": "LOC",
+                      "score": 0.0876
+                    }
+                  ]
                 }
               ],
               "text": "Antrag der Abgeordneten Henrike Brandstötter , Kolleginnen und Kollegen betreffend Keine Haushaltsabgabe für schwer hörbehinderte oder gehörlose Personen ( 3482/A(E) )"
@@ -838,7 +1245,7 @@
                 {
                   "text": "Verkehrsausschuss:",
                   "timeStart": "30.800",
-                  "timeEnd": "31.080",
+                  "timeEnd": "31.120",
                   "entities": []
                 }
               ],
@@ -851,19 +1258,26 @@
               "sentences": [
                 {
                   "text": "Antrag der Abgeordneten MMag.",
-                  "timeStart": "31.080",
-                  "timeEnd": "31.720",
-                  "entities": []
-                },
-                {
-                  "text": "Katharina Werner, Bakk. ,",
-                  "timeStart": "31.720",
+                  "timeStart": "31.120",
                   "timeEnd": "32.280",
                   "entities": []
                 },
                 {
-                  "text": "Kolleginnen und Kollegen betreffend Rail&Drive Standorte für Steyr & Vöcklabruck ( 3486/A(E) )",
+                  "text": "Katharina Werner, Bakk. ,",
                   "timeStart": "32.280",
+                  "timeEnd": "33.580",
+                  "entities": [
+                    {
+                      "label": "Katharina Werner",
+                      "wid": "Q109601540",
+                      "wtype": "PER",
+                      "score": 0.5913
+                    }
+                  ]
+                },
+                {
+                  "text": "Kolleginnen und Kollegen betreffend Rail&Drive Standorte für Steyr & Vöcklabruck ( 3486/A(E) )",
+                  "timeStart": "33.580",
                   "timeEnd": "34.600",
                   "entities": []
                 }
@@ -892,7 +1306,7 @@
                 {
                   "text": "Die Tagesordnung ist auf schriftlichem Wege ergangen.",
                   "timeStart": "35.560",
-                  "timeEnd": "35.640",
+                  "timeEnd": "35.600",
                   "entities": []
                 }
               ],
@@ -905,7 +1319,7 @@
               "sentences": [
                 {
                   "text": "Die Sitzung ist geschlossen.",
-                  "timeStart": "35.640",
+                  "timeStart": "35.600",
                   "timeEnd": "36.000",
                   "entities": []
                 }
@@ -920,8 +1334,8 @@
         "stdId": 301534,
         "debatteId": 300,
         "proceedingIndex": 301534,
-        "alignDuration": 0.7436239719390869,
-        "nerDuration": 0.3552701473236084
+        "alignDuration": 0.8022036552429199,
+        "nerDuration": 0.7637708187103271
       },
       "originalLanguage": "de"
     }
