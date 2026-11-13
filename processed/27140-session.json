@@ -28,7 +28,9 @@
       "speechIndex": 1,
       "agendaItem": {
         "officialTitle": "Präsidium",
-        "title": "Präsidium"
+        "title": "Präsidium",
+        "type": "procedural",
+        "nativeType": "AT-presidency"
       },
       "media": {
         "videoFileURI": "https://parlament-live.mdn.ors.at/assets/7affc4f7-ccd6-4ed5-9211-34ee39afb1cb/hls/index.m3u8?startseconds=11&stopseconds=56",
@@ -76,7 +78,8 @@
                   "entities": []
                 }
               ],
-              "text": "Schluss der Sitzung: 22.25 Uhr"
+              "text": "Schluss der Sitzung: 22.25 Uhr",
+              "speakerID": null
             },
             {
               "type": "speech",
@@ -90,7 +93,8 @@
                   "entities": []
                 }
               ],
-              "text": "Impressum:"
+              "text": "Impressum:",
+              "speakerID": null
             },
             {
               "type": "speech",
@@ -111,7 +115,8 @@
                   ]
                 }
               ],
-              "text": "Parlamentsdirektion"
+              "text": "Parlamentsdirektion",
+              "speakerID": null
             },
             {
               "type": "speech",
@@ -132,7 +137,8 @@
                   ]
                 }
               ],
-              "text": "1017 Wien"
+              "text": "1017 Wien",
+              "speakerID": null
             }
           ]
         }
@@ -143,7 +149,11 @@
         "debatteId": 300,
         "proceedingIndex": 260567,
         "alignDuration": 0.3656582832336426,
-        "nerDuration": 0.03997015953063965
+        "nerDuration": 0.03997015953063965,
+        "confidence": 1.0,
+        "linkedMediaIndexes": [
+          1
+        ]
       },
       "originalLanguage": "de"
     }
