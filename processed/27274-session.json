@@ -9,7 +9,7 @@
     "processing": {
       "merge": "2026-06-28T07:25:21+00:00",
       "nel": "2026-06-28T09:26:49",
-      "align": "2026-06-28T14:48:07",
+      "align": "2026-11-17T10:37:49",
       "ner": "2026-06-28T16:35:08"
     }
   },
@@ -567,8 +567,8 @@
           2
         ],
         "confidence": 1.0,
-        "alignError": "aligned timecodes exceed media duration (28.0s > 24s)",
-        "nerDuration": 0.06685543060302734
+        "nerDuration": 0.06685543060302734,
+        "alignError": "aligned timecodes exceed media duration (28.0s > 24s)"
       },
       "originalLanguage": "de"
     },
@@ -12767,8 +12767,8 @@
           26
         ],
         "confidence": 1.0,
-        "alignError": "aligned timecodes exceed media duration (6.0s > 4s)",
-        "nerDuration": 0.00974583625793457
+        "nerDuration": 0.00974583625793457,
+        "alignError": "aligned timecodes exceed media duration (6.0s > 4s)"
       },
       "originalLanguage": "de"
     },
@@ -35511,8 +35511,8 @@
           81
         ],
         "confidence": 1.0,
-        "alignError": "aligned timecodes exceed media duration (62.0s > 54s)",
-        "nerDuration": 0.09995174407958984
+        "nerDuration": 0.09995174407958984,
+        "alignError": "aligned timecodes exceed media duration (62.0s > 54s)"
       },
       "originalLanguage": "de"
     },
@@ -59121,9 +59121,9 @@
               "sentences": [
                 {
                   "text": "18. Punkt",
+                  "entities": [],
                   "timeStart": "1.000",
-                  "timeEnd": "1.280",
-                  "entities": []
+                  "timeEnd": "2.080"
                 }
               ],
               "text": "18. Punkt"
@@ -59136,14 +59136,12 @@
               "sentences": [
                 {
                   "text": "Dritte Lesung: Bericht des Geschäftsordnungsausschusses über den Antrag 3847/A der Abgeordneten Mag.",
-                  "timeStart": "1.280",
-                  "timeEnd": "1.600",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.080",
+                  "timeEnd": "7.760"
                 },
                 {
                   "text": "Ernst Gödl , Mag.",
-                  "timeStart": "1.600",
-                  "timeEnd": "1.600",
                   "entities": [
                     {
                       "label": "Ernst Gödl",
@@ -59157,12 +59155,12 @@
                       "wtype": "ORG",
                       "score": 0.1812
                     }
-                  ]
+                  ],
+                  "timeStart": "7.760",
+                  "timeEnd": "8.880"
                 },
                 {
                   "text": "Jörg Leichtfried , Werner Herbert , Mag.",
-                  "timeStart": "1.600",
-                  "timeEnd": "1.600",
                   "entities": [
                     {
                       "label": "Jörg Leichtfried",
@@ -59176,12 +59174,12 @@
                       "wtype": "PER",
                       "score": 0.9593
                     }
-                  ]
+                  ],
+                  "timeStart": "8.880",
+                  "timeEnd": "9.920"
                 },
                 {
                   "text": "Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Geschäftsordnungsgesetz 1975 geändert wird ( 2592 d.B. )",
-                  "timeStart": "1.600",
-                  "timeEnd": "4.000",
                   "entities": [
                     {
                       "label": "Agnes Sirkka Prammer",
@@ -59195,7 +59193,9 @@
                       "wtype": "MISC",
                       "score": 0.7439
                     }
-                  ]
+                  ],
+                  "timeStart": "9.920",
+                  "timeEnd": "19.960"
                 }
               ],
               "text": "Dritte Lesung: Bericht des Geschäftsordnungsausschusses über den Antrag 3847/A der Abgeordneten Mag. Ernst Gödl , Mag. Jörg Leichtfried , Werner Herbert , Mag. Agnes Sirkka Prammer , Kolleginnen und Kollegen betreffend ein Bundesgesetz, mit dem das Geschäftsordnungsgesetz 1975 geändert wird ( 2592 d.B. )"
@@ -59212,7 +59212,7 @@
           150
         ],
         "confidence": 1.0,
-        "alignDuration": 0.3501403331756592,
+        "alignDuration": 0.29929304122924805,
         "nerDuration": 0.04034829139709473
       },
       "originalLanguage": "de"

@@ -9,7 +9,7 @@
     "processing": {
       "merge": "2026-06-28T07:25:14+00:00",
       "nel": "2026-06-28T09:26:43",
-      "align": "2026-06-28T11:38:00",
+      "align": "2026-11-17T10:28:53",
       "ner": "2026-06-28T15:39:09"
     }
   },
@@ -1386,8 +1386,8 @@
         ],
         "confidence": 1.0,
         "alignSkip": "clip-too-long-10801s",
-        "alignError": "audio too long (10801s > 2400s)",
-        "nerDuration": 0.005440950393676758
+        "nerDuration": 0.005440950393676758,
+        "alignError": "audio too long (10801s > 2400s)"
       },
       "originalLanguage": "de"
     },
@@ -1488,8 +1488,8 @@
           3
         ],
         "confidence": 1.0,
-        "alignError": "aligned timecodes exceed media duration (28.0s > 17s)",
-        "nerDuration": 0.022109508514404297
+        "nerDuration": 0.022109508514404297,
+        "alignError": "aligned timecodes exceed media duration (28.0s > 17s)"
       },
       "originalLanguage": "de"
     },
@@ -13017,9 +13017,9 @@
               "sentences": [
                 {
                   "text": "13.17",
+                  "entities": [],
                   "timeStart": "1.000",
-                  "timeEnd": "2.160",
-                  "entities": []
+                  "timeEnd": "2.820"
                 }
               ],
               "text": "13.17"
@@ -13032,51 +13032,51 @@
               "sentences": [
                 {
                   "text": "Herr Präsident!",
-                  "timeStart": "2.160",
-                  "timeEnd": "2.960",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.820",
+                  "timeEnd": "3.600"
                 },
                 {
                   "text": "Herr Bundeskanzler!",
-                  "timeStart": "2.960",
-                  "timeEnd": "4.640",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "3.600",
+                  "timeEnd": "3.920"
                 },
                 {
                   "text": "Geschätzte Mitglieder der Regierung!",
-                  "timeStart": "4.640",
-                  "timeEnd": "4.960",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "3.920",
+                  "timeEnd": "4.700"
                 },
                 {
                   "text": "Kolleginnen und Kollegen!",
-                  "timeStart": "10.520",
-                  "timeEnd": "11.880",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.700",
+                  "timeEnd": "5.880"
                 },
                 {
                   "text": "Herr Abgeordneter Kickl hat in seiner Rede behauptet, die roten Bundesländer machen nichts angesichts der Teuerung. –",
-                  "timeStart": "11.880",
-                  "timeEnd": "15.400",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "5.880",
+                  "timeEnd": "11.120"
                 },
                 {
                   "text": "Das ist unrichtig. (",
-                  "timeStart": "15.400",
-                  "timeEnd": "15.800",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.120",
+                  "timeEnd": "11.820"
                 },
                 {
                   "text": "Ruf: Sie machen alles teurer!",
-                  "timeStart": "15.800",
-                  "timeEnd": "16.600",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "11.820",
+                  "timeEnd": "13.480"
                 },
                 {
                   "text": "Stimmt!)",
-                  "timeStart": "16.600",
-                  "timeEnd": "16.800",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "13.480",
+                  "timeEnd": "13.800"
                 }
               ],
               "text": "Herr Präsident! Herr Bundeskanzler! Geschätzte Mitglieder der Regierung! Kolleginnen und Kollegen! Herr Abgeordneter Kickl hat in seiner Rede behauptet, die roten Bundesländer machen nichts angesichts der Teuerung. – Das ist unrichtig. (Ruf: Sie machen alles teurer! Stimmt!)"
@@ -13089,8 +13089,6 @@
               "sentences": [
                 {
                   "text": "Der richtige Sachverhalt lautet: Sowohl Wien als auch das Burgenland als auch Kärnten machen natürlich etwas – unaufgefordert. (",
-                  "timeStart": "16.800",
-                  "timeEnd": "20.560",
                   "entities": [
                     {
                       "label": "Wien",
@@ -13110,12 +13108,12 @@
                       "wtype": "LOC",
                       "score": 0.6833
                     }
-                  ]
+                  ],
+                  "timeStart": "13.800",
+                  "timeEnd": "19.860"
                 },
                 {
                   "text": "Heiterkeit bei Abgeordneten der ÖVP sowie des Abg.",
-                  "timeStart": "20.560",
-                  "timeEnd": "21.860",
                   "entities": [
                     {
                       "label": "ÖVP",
@@ -13123,12 +13121,12 @@
                       "wtype": "ORG",
                       "score": 0.3832
                     }
-                  ]
+                  ],
+                  "timeStart": "19.860",
+                  "timeEnd": "22.720"
                 },
                 {
                   "text": "Kickl. )",
-                  "timeStart": "21.860",
-                  "timeEnd": "22.360",
                   "entities": [
                     {
                       "label": "Kickl",
@@ -13136,7 +13134,9 @@
                       "wtype": "PER",
                       "score": 0.3233
                     }
-                  ]
+                  ],
+                  "timeStart": "22.720",
+                  "timeEnd": "23.400"
                 }
               ],
               "text": "Der richtige Sachverhalt lautet: Sowohl Wien als auch das Burgenland als auch Kärnten machen natürlich etwas – unaufgefordert. (Heiterkeit bei Abgeordneten der ÖVP sowie des Abg. Kickl. )"
@@ -13149,20 +13149,18 @@
               "sentences": [
                 {
                   "text": "Was mein Bundesland betrifft, so kann ich sagen: Wir haben eine Maßnahme mit Airbag gegen die Teuerung, die jetzt ausverhandelt wird und die immerhin 10 Millionen Euro - - (Abg.",
-                  "timeStart": "22.360",
-                  "timeEnd": "29.120",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "23.400",
+                  "timeEnd": "33.680"
                 },
                 {
                   "text": "Zarits: ... erst verhandelt! –",
-                  "timeStart": "29.120",
-                  "timeEnd": "31.520",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "33.680",
+                  "timeEnd": "36.000"
                 },
                 {
                   "text": "Ruf bei der ÖVP: Ach so, wird sie verhandelt, ja?) –",
-                  "timeStart": "31.520",
-                  "timeEnd": "34.840",
                   "entities": [
                     {
                       "label": "ÖVP",
@@ -13170,30 +13168,30 @@
                       "wtype": "ORG",
                       "score": 0.3832
                     }
-                  ]
+                  ],
+                  "timeStart": "36.000",
+                  "timeEnd": "39.040"
                 },
                 {
                   "text": "Nein, die ist fertig, wir müssen sie nur noch beschließen (Abg.",
-                  "timeStart": "34.840",
-                  "timeEnd": "36.240",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "39.040",
+                  "timeEnd": "42.240"
                 },
                 {
                   "text": "Zarits: Ah?",
-                  "timeStart": "36.240",
-                  "timeEnd": "36.960",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "42.240",
+                  "timeEnd": "44.440"
                 },
                 {
                   "text": "Geh?),",
-                  "timeStart": "36.960",
-                  "timeEnd": "37.000",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "44.440",
+                  "timeEnd": "45.120"
                 },
                 {
                   "text": "und die 10 Millionen Euro sind im Budget.",
-                  "timeStart": "37.000",
-                  "timeEnd": "37.320",
                   "entities": [
                     {
                       "label": "Euro",
@@ -13201,7 +13199,9 @@
                       "wtype": "MISC",
                       "score": 0.4391
                     }
-                  ]
+                  ],
+                  "timeStart": "45.120",
+                  "timeEnd": "47.240"
                 }
               ],
               "text": "Was mein Bundesland betrifft, so kann ich sagen: Wir haben eine Maßnahme mit Airbag gegen die Teuerung, die jetzt ausverhandelt wird und die immerhin 10 Millionen Euro - - (Abg. Zarits: ... erst verhandelt! – Ruf bei der ÖVP: Ach so, wird sie verhandelt, ja?) – Nein, die ist fertig, wir müssen sie nur noch beschließen (Abg. Zarits: Ah? Geh?), und die 10 Millionen Euro sind im Budget."
@@ -13214,20 +13214,18 @@
               "sentences": [
                 {
                   "text": "Die Regierung aber hat nichts vorgelegt.",
-                  "timeStart": "37.320",
-                  "timeEnd": "39.680",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "47.240",
+                  "timeEnd": "49.480"
                 },
                 {
                   "text": "Ich möchte nur sagen: Genau schauen! (",
-                  "timeStart": "39.680",
-                  "timeEnd": "40.640",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "49.480",
+                  "timeEnd": "51.140"
                 },
                 {
                   "text": "Beifall bei der SPÖ.)",
-                  "timeStart": "40.640",
-                  "timeEnd": "41.120",
                   "entities": [
                     {
                       "label": "SPÖ",
@@ -13235,7 +13233,9 @@
                       "wtype": "ORG",
                       "score": 0.3811
                     }
-                  ]
+                  ],
+                  "timeStart": "51.140",
+                  "timeEnd": "55.320"
                 }
               ],
               "text": "Die Regierung aber hat nichts vorgelegt. Ich möchte nur sagen: Genau schauen! (Beifall bei der SPÖ.)"
@@ -13248,9 +13248,9 @@
               "sentences": [
                 {
                   "text": "13.18",
-                  "timeStart": "41.120",
-                  "timeEnd": "41.960",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "55.320",
+                  "timeEnd": "57.960"
                 }
               ],
               "text": "13.18"
@@ -13268,7 +13268,7 @@
           19
         ],
         "confidence": 1.0,
-        "alignDuration": 0.4722721576690674,
+        "alignDuration": 0.39812397956848145,
         "nerDuration": 0.13747835159301758
       },
       "originalLanguage": "de"

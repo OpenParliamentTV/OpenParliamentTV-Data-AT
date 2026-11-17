@@ -9,7 +9,7 @@
     "processing": {
       "merge": "2026-06-28T07:25:18+00:00",
       "nel": "2026-06-28T09:26:47",
-      "align": "2026-06-28T13:41:54",
+      "align": "2026-11-17T10:35:26",
       "ner": "2026-06-28T16:11:50"
     }
   },
@@ -372,9 +372,9 @@
               "sentences": [
                 {
                   "text": "Fragestunde",
+                  "entities": [],
                   "timeStart": "1.000",
-                  "timeEnd": "1.840",
-                  "entities": []
+                  "timeEnd": "2.320"
                 }
               ],
               "text": "Fragestunde"
@@ -387,9 +387,9 @@
               "sentences": [
                 {
                   "text": "Wir kommen sogleich zur Fragestunde.",
-                  "timeStart": "1.840",
-                  "timeEnd": "4.600",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "2.320",
+                  "timeEnd": "4.640"
                 }
               ],
               "text": "Wir kommen sogleich zur Fragestunde."
@@ -402,9 +402,9 @@
               "sentences": [
                 {
                   "text": "Sie kennen die Praxis, und ich darf den Herrn Bundesminister für Finanzen recht herzlich begrüßen.",
-                  "timeStart": "4.600",
-                  "timeEnd": "9.720",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "4.640",
+                  "timeEnd": "10.800"
                 }
               ],
               "text": "Sie kennen die Praxis, und ich darf den Herrn Bundesminister für Finanzen recht herzlich begrüßen."
@@ -417,9 +417,9 @@
               "sentences": [
                 {
                   "text": "Finanzen",
-                  "timeStart": "9.720",
-                  "timeEnd": "10.920",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "10.800",
+                  "timeEnd": "12.360"
                 }
               ],
               "text": "Finanzen"
@@ -432,15 +432,15 @@
               "sentences": [
                 {
                   "text": "Wir kommen zur 1. Anfrage, die Frau Abgeordnete Baumgartner stellt. –",
-                  "timeStart": "10.920",
-                  "timeEnd": "14.840",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "12.360",
+                  "timeEnd": "22.160"
                 },
                 {
                   "text": "Bitte, Frau Baumgartner.",
-                  "timeStart": "14.840",
-                  "timeEnd": "15.960",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "22.160",
+                  "timeEnd": "26.000"
                 }
               ],
               "text": "Wir kommen zur 1. Anfrage, die Frau Abgeordnete Baumgartner stellt. – Bitte, Frau Baumgartner."
@@ -457,7 +457,7 @@
           2
         ],
         "confidence": 1.0,
-        "alignDuration": 0.3804492950439453,
+        "alignDuration": 0.3008298873901367,
         "nerDuration": 0.03417325019836426
       },
       "originalLanguage": "de"
@@ -47871,8 +47871,8 @@
           114
         ],
         "confidence": 1.0,
-        "alignError": "aligned timecodes exceed media duration (8.0s > 6s)",
-        "nerDuration": 0.01436471939086914
+        "nerDuration": 0.01436471939086914,
+        "alignError": "aligned timecodes exceed media duration (8.0s > 6s)"
       },
       "originalLanguage": "de"
     },

@@ -9,7 +9,7 @@
     "processing": {
       "merge": "2026-06-28T07:25:19+00:00",
       "nel": "2026-06-28T09:26:47",
-      "align": "2026-06-28T13:57:41",
+      "align": "2026-11-17T10:36:09",
       "ner": "2026-06-28T16:17:37"
     }
   },
@@ -1711,8 +1711,8 @@
         ],
         "confidence": 1.0,
         "alignSkip": "clip-too-long-42473s",
-        "alignError": "audio too long (42473s > 2400s)",
-        "nerDuration": 0.7357409000396729
+        "nerDuration": 0.7357409000396729,
+        "alignError": "audio too long (42473s > 2400s)"
       },
       "originalLanguage": "de"
     },
@@ -11312,8 +11312,8 @@
         ],
         "confidence": 1.0,
         "alignSkip": "clip-too-long-2885s",
-        "alignError": "audio too long (2885s > 2400s)",
-        "nerDuration": 0.41545629501342773
+        "nerDuration": 0.41545629501342773,
+        "alignError": "audio too long (2885s > 2400s)"
       },
       "originalLanguage": "de"
     },
@@ -16853,8 +16853,8 @@
         ],
         "confidence": 1.0,
         "alignSkip": "clip-too-long-5260s",
-        "alignError": "audio too long (5260s > 2400s)",
-        "nerDuration": 0.3878750801086426
+        "nerDuration": 0.3878750801086426,
+        "alignError": "audio too long (5260s > 2400s)"
       },
       "originalLanguage": "de"
     },
@@ -24436,8 +24436,8 @@
           44
         ],
         "confidence": 1.0,
-        "alignError": "stale cached audio dropped (622s vs declared 245s); re-stage pending",
-        "nerDuration": 0.2714083194732666
+        "nerDuration": 0.2714083194732666,
+        "alignError": "aligned timecodes exceed media duration (622.0s > 245s)"
       },
       "originalLanguage": "de"
     },
@@ -26984,9 +26984,9 @@
               "sentences": [
                 {
                   "text": "12.11",
+                  "entities": [],
                   "timeStart": "1.000",
-                  "timeEnd": "1.400",
-                  "entities": []
+                  "timeEnd": "5.480"
                 }
               ],
               "text": "12.11"
@@ -26999,32 +26999,30 @@
               "sentences": [
                 {
                   "text": "Sehr geehrte Frau Präsidentin!",
-                  "timeStart": "1.400",
-                  "timeEnd": "2.000",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "5.480",
+                  "timeEnd": "6.920"
                 },
                 {
                   "text": "Geschätzte Mitglieder der Bundesregierung!",
-                  "timeStart": "2.000",
-                  "timeEnd": "2.840",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "6.920",
+                  "timeEnd": "8.920"
                 },
                 {
                   "text": "Geschätzte Kolleginnen und Kollegen hier im Hohen Haus!",
-                  "timeStart": "2.840",
-                  "timeEnd": "4.280",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "8.920",
+                  "timeEnd": "12.240"
                 },
                 {
                   "text": "Sehr geehrte Zuseherinnen und Zuseher!",
-                  "timeStart": "4.280",
-                  "timeEnd": "6.500",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "12.240",
+                  "timeEnd": "14.460"
                 },
                 {
                   "text": "Eine kurze Bemerkung zu meinem Vorredner, Kollegen Stöger von der SPÖ: Ich würde vorschlagen, dass wir die Lohnverhandlungen dort lassen, wo sie hingehören, nämlich in den Händen der Sozialpartnerschaft. (",
-                  "timeStart": "6.500",
-                  "timeEnd": "17.560",
                   "entities": [
                     {
                       "label": "Stöger",
@@ -27044,54 +27042,54 @@
                       "wtype": "ORG",
                       "score": 0.8355
                     }
-                  ]
+                  ],
+                  "timeStart": "14.460",
+                  "timeEnd": "25.480"
                 },
                 {
                   "text": "Zwischenruf der Abg.",
-                  "timeStart": "17.560",
-                  "timeEnd": "17.760",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "25.480",
+                  "timeEnd": "25.960"
                 },
                 {
                   "text": "Greiner. )",
-                  "timeStart": "17.760",
-                  "timeEnd": "18.000",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "25.960",
+                  "timeEnd": "26.320"
                 },
                 {
                   "text": "Diesen Appell richte ich jetzt hier an dieser Stelle auch an Sie. (",
-                  "timeStart": "18.000",
-                  "timeEnd": "20.480",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "26.320",
+                  "timeEnd": "28.480"
                 },
                 {
                   "text": "Abg.",
-                  "timeStart": "20.480",
-                  "timeEnd": "20.640",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.480",
+                  "timeEnd": "28.600"
                 },
                 {
                   "text": "Meinl-Reisinger: ... könnte auch Spielraum schaffen!",
-                  "timeStart": "20.640",
-                  "timeEnd": "24.280",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "28.600",
+                  "timeEnd": "32.240"
                 },
                 {
                   "text": "Dawürgts euch!,",
-                  "timeStart": "24.280",
-                  "timeEnd": "24.560",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "32.240",
+                  "timeEnd": "32.560"
                 },
                 {
                   "text": "heißt das! –",
-                  "timeStart": "24.560",
-                  "timeEnd": "25.300",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "32.560",
+                  "timeEnd": "33.300"
                 },
                 {
                   "text": "Ruf bei der SPÖ: Entgegnung muss wohl jederzeit möglich sein!)",
-                  "timeStart": "25.300",
-                  "timeEnd": "30.840",
                   "entities": [
                     {
                       "label": "SPÖ",
@@ -27099,7 +27097,9 @@
                       "wtype": "ORG",
                       "score": 0.3811
                     }
-                  ]
+                  ],
+                  "timeStart": "33.300",
+                  "timeEnd": "39.120"
                 }
               ],
               "text": "Sehr geehrte Frau Präsidentin! Geschätzte Mitglieder der Bundesregierung! Geschätzte Kolleginnen und Kollegen hier im Hohen Haus! Sehr geehrte Zuseherinnen und Zuseher! Eine kurze Bemerkung zu meinem Vorredner, Kollegen Stöger von der SPÖ: Ich würde vorschlagen, dass wir die Lohnverhandlungen dort lassen, wo sie hingehören, nämlich in den Händen der Sozialpartnerschaft. (Zwischenruf der Abg. Greiner. ) Diesen Appell richte ich jetzt hier an dieser Stelle auch an Sie. (Abg. Meinl-Reisinger: ... könnte auch Spielraum schaffen! Dawürgts euch!, heißt das! – Ruf bei der SPÖ: Entgegnung muss wohl jederzeit möglich sein!)"
@@ -27112,38 +27112,36 @@
               "sentences": [
                 {
                   "text": "Meine Damen und Herren!",
-                  "timeStart": "30.840",
-                  "timeEnd": "32.200",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "39.120",
+                  "timeEnd": "40.160"
                 },
                 {
                   "text": "Kollege Weratschnig hat als Verkehrssprecher der Grünen ja schon einiges zu dem Kapitel, das die großen Investitionen in die Mobilitätswende in Österreich betrifft, ausgeführt.",
-                  "timeStart": "32.200",
-                  "timeEnd": "42.220",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "40.160",
+                  "timeEnd": "50.480"
                 },
                 {
                   "text": "Ich möchte die Gelegenheit nutzen, eine Botschaft daran zu knüpfen, nämlich eine Botschaft an die Klimakleber in diesem Land, die im Moment fast tagtäglich den Verkehr und viele Menschen am Weg zu ihrer Arbeit behindern.",
-                  "timeStart": "42.220",
-                  "timeEnd": "59.480",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "50.480",
+                  "timeEnd": "67.240"
                 },
                 {
                   "text": "Die Botschaft an die Klimakleber: Schauen Sie sich doch einmal dieses Budget an!",
-                  "timeStart": "59.480",
-                  "timeEnd": "65.140",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "67.240",
+                  "timeEnd": "73.180"
                 },
                 {
                   "text": "Dieses Budget beinhaltet massive Investitionen in den Ausbau der Bahninfrastruktur, jedes Jahr werden in Österreich über 3 Milliarden Euro aufgewendet, um eine Verkehrswende herbeizuführen. (",
-                  "timeStart": "65.140",
-                  "timeEnd": "82.040",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "73.180",
+                  "timeEnd": "90.920"
                 },
                 {
                   "text": "Beifall bei der ÖVP sowie des Abg.",
-                  "timeStart": "82.040",
-                  "timeEnd": "88.260",
                   "entities": [
                     {
                       "label": "ÖVP",
@@ -27151,13 +27149,15 @@
                       "wtype": "ORG",
                       "score": 0.3832
                     }
-                  ]
+                  ],
+                  "timeStart": "90.920",
+                  "timeEnd": "96.300"
                 },
                 {
                   "text": "Weratschnig. )",
-                  "timeStart": "88.260",
-                  "timeEnd": "89.440",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "96.300",
+                  "timeEnd": "97.400"
                 }
               ],
               "text": "Meine Damen und Herren! Kollege Weratschnig hat als Verkehrssprecher der Grünen ja schon einiges zu dem Kapitel, das die großen Investitionen in die Mobilitätswende in Österreich betrifft, ausgeführt. Ich möchte die Gelegenheit nutzen, eine Botschaft daran zu knüpfen, nämlich eine Botschaft an die Klimakleber in diesem Land, die im Moment fast tagtäglich den Verkehr und viele Menschen am Weg zu ihrer Arbeit behindern. Die Botschaft an die Klimakleber: Schauen Sie sich doch einmal dieses Budget an! Dieses Budget beinhaltet massive Investitionen in den Ausbau der Bahninfrastruktur, jedes Jahr werden in Österreich über 3 Milliarden Euro aufgewendet, um eine Verkehrswende herbeizuführen. (Beifall bei der ÖVP sowie des Abg. Weratschnig. )"
@@ -27170,33 +27170,33 @@
               "sentences": [
                 {
                   "text": "Schauen Sie sich an, was wir investieren, damit mehr Züge bereitstehen, um die Menschen transportieren, Pendlerinnen und Pendler in die Arbeit bringen zu können!",
-                  "timeStart": "89.440",
-                  "timeEnd": "99.160",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "97.400",
+                  "timeEnd": "107.160"
                 },
                 {
                   "text": "Daran arbeitet diese Bundesregierung auch mit diesem Budgetvorschlag.",
-                  "timeStart": "99.160",
-                  "timeEnd": "104.720",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "107.160",
+                  "timeEnd": "112.680"
                 },
                 {
                   "text": "Schauen Sie sich doch an – gerichtet auch an die Klimakleber ‑, was wir im Bereich der Elektromobilität, der Ladeinfrastruktur tun!",
-                  "timeStart": "104.720",
-                  "timeEnd": "115.080",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "112.680",
+                  "timeEnd": "123.080"
                 },
                 {
                   "text": "Schauen Sie sich an, was wir im Bereich der Energieforschung tun, was bei der aktiven Mobilität, dem Ausbau der Radwege, bei der digitalen Transformation in die Mobilität passiert!",
-                  "timeStart": "115.080",
-                  "timeEnd": "128.160",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "123.080",
+                  "timeEnd": "136.360"
                 },
                 {
                   "text": "Ich könnte die Liste noch weiterführen.",
-                  "timeStart": "128.160",
-                  "timeEnd": "130.620",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "136.360",
+                  "timeEnd": "138.620"
                 }
               ],
               "text": "Schauen Sie sich an, was wir investieren, damit mehr Züge bereitstehen, um die Menschen transportieren, Pendlerinnen und Pendler in die Arbeit bringen zu können! Daran arbeitet diese Bundesregierung auch mit diesem Budgetvorschlag. Schauen Sie sich doch an – gerichtet auch an die Klimakleber ‑, was wir im Bereich der Elektromobilität, der Ladeinfrastruktur tun! Schauen Sie sich an, was wir im Bereich der Energieforschung tun, was bei der aktiven Mobilität, dem Ausbau der Radwege, bei der digitalen Transformation in die Mobilität passiert! Ich könnte die Liste noch weiterführen."
@@ -27209,14 +27209,12 @@
               "sentences": [
                 {
                   "text": "Also eine Botschaft an die Klimakleber in diesem Land: Schauen Sie sich das Budget an, dann werden Sie erkennen, dass wir sehr viel in eine Verkehrswende investieren, und hören Sie auf, die Pendlerinnen und Pendler jeden Tag zu knebeln – ich kann es leider nicht mehr anders bezeichnen. (",
-                  "timeStart": "130.620",
-                  "timeEnd": "151.040",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "138.620",
+                  "timeEnd": "159.040"
                 },
                 {
                   "text": "Beifall bei der ÖVP. –",
-                  "timeStart": "151.040",
-                  "timeEnd": "152.840",
                   "entities": [
                     {
                       "label": "ÖVP",
@@ -27224,25 +27222,27 @@
                       "wtype": "ORG",
                       "score": 0.3832
                     }
-                  ]
+                  ],
+                  "timeStart": "159.040",
+                  "timeEnd": "160.720"
                 },
                 {
                   "text": "Abg.",
-                  "timeStart": "152.840",
-                  "timeEnd": "153.160",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "160.720",
+                  "timeEnd": "161.160"
                 },
                 {
                   "text": "Wurm: Ihr seid aber schon in der Regierung, oder?",
-                  "timeStart": "153.160",
-                  "timeEnd": "156.200",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "161.160",
+                  "timeEnd": "163.960"
                 },
                 {
                   "text": "Macht etwas!)",
-                  "timeStart": "156.200",
-                  "timeEnd": "156.960",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "163.960",
+                  "timeEnd": "166.380"
                 }
               ],
               "text": "Also eine Botschaft an die Klimakleber in diesem Land: Schauen Sie sich das Budget an, dann werden Sie erkennen, dass wir sehr viel in eine Verkehrswende investieren, und hören Sie auf, die Pendlerinnen und Pendler jeden Tag zu knebeln – ich kann es leider nicht mehr anders bezeichnen. (Beifall bei der ÖVP. – Abg. Wurm: Ihr seid aber schon in der Regierung, oder? Macht etwas!)"
@@ -27255,9 +27255,9 @@
               "sentences": [
                 {
                   "text": "12.14",
-                  "timeStart": "156.960",
-                  "timeEnd": "157.840",
-                  "entities": []
+                  "entities": [],
+                  "timeStart": "166.380",
+                  "timeEnd": "170.000"
                 }
               ],
               "text": "12.14"
@@ -27275,7 +27275,7 @@
           47
         ],
         "confidence": 1.0,
-        "alignDuration": 0.8057501316070557,
+        "alignDuration": 0.6472058296203613,
         "nerDuration": 0.24211359024047852
       },
       "originalLanguage": "de"
@@ -34733,8 +34733,8 @@
         ],
         "confidence": 1.0,
         "alignSkip": "clip-too-long-29481s",
-        "alignError": "audio too long (29481s > 2400s)",
-        "nerDuration": 1.5602967739105225
+        "nerDuration": 1.5602967739105225,
+        "alignError": "audio too long (29481s > 2400s)"
       },
       "originalLanguage": "de"
     },
@@ -102042,8 +102042,8 @@
           165
         ],
         "confidence": 1.0,
-        "alignError": "exit 1",
-        "nerDuration": 0.007717609405517578
+        "nerDuration": 0.007717609405517578,
+        "alignError": "exit 1"
       },
       "originalLanguage": "de"
     }
