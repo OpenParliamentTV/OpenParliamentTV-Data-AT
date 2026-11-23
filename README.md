@@ -1,4 +1,4 @@
-# OpenParliamentTV-Data-DE
+# OpenParliamentTV-Data-AT
 Open Parliament TV Data Repository for the Austrian Nationalrat
 
 > **Status:** in development
